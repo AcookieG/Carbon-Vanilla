@@ -73,7 +73,7 @@
 			"toColor": "thoriumPink",
 			"lifetime": 32,
 			"bulletShrink": 0.6,
-			"shootEffect": "shootBig2",
+			"shootEffect": "shootBig",
 			"smokeEffect": "thoriumShoot"
 			"speed": 6,
 			"pierce": true
