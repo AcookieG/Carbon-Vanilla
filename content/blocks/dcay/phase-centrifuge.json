@@ -1,0 +1,60 @@
+{
+	"name": "Phase Decay Centrifuge",
+	"description": "Rapidly decays the thorium present in the phase fabric into phase decay.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 180,
+	"itemCapacity": 16,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "shieldBreak",
+	"liquidCapacity": 300,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water",
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+				{
+				"item": "phase-fabric",
+				"amount": 2,
+				}
+			]
+		},
+                "liquid": {
+			"liquid": "water",
+			"amount": 2
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 120 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "metaglass", "amount": 15 },
+		{ "item": "phase-fabric", "amount": 30 }
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "surge-smelter",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.05,
+	"outputItem": {
+		"item": "phase-decay",
+		"amount": 1
+	},
+	"craftTime": 180,
+}

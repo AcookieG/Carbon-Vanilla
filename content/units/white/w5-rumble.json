@@ -1,0 +1,235 @@
+{
+	"type": "tank",
+	"name": "Rumble"
+	"description": "A colossal ground unit, with incredible firepower to take down bunkers in a single hit.",
+	"rotateSpeed": 0.8,
+	"speed": 0.45,
+	"flying": false,
+	"range": 240,
+	"template": "ErekirUnitType",
+	"drownTimeMultiplier": 12
+	"armor": 24,
+	"hitSize": 50,
+	"health": 20800,
+	"squareShape": true,
+	"treadPullOffset": 0,
+	"treadFrames": 18
+	"treadRects": [
+		{
+		"x": 10,
+		"y": -48,
+		"width": 19,
+		"height": 76
+		}
+	],
+	"singleTarget": false,
+	"omniMovement": false,
+	"rotateMoveFirst": true,
+	"crushDamage": 3
+	"immunities": [
+		"freezing",
+		"burning",
+		"blasted"
+	],
+	abilities: [
+        	{
+        	type: mindustry.entities.abilities.RepairFieldAbility
+        	healEffect: {
+        	type: WaveEffect
+        	lifetime: 30
+        	sizeFrom: 0
+        	sizeTo: 20
+        	strokeFrom: 2
+        	strokeTo: 0
+        	lightColor: d1efffff
+        	colorFrom: 8ca9e8ff
+        	colorTo: d1efffff
+        	}
+        	range: 64
+        	amount: 240
+        	reload: 180
+        	    }
+    	]
+	"weapons": [
+		{
+			"name": "small-gun",
+			"restitution": 0.008,
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 30,
+			"recoil": 1,
+			"rotationLimit": 361,
+			"inaccuracy": 3,
+			"shootSound": "shoot"
+			"rotate": true
+			"shootCone": 20,
+			"shake": 0
+			"x": 12
+			"y": -12
+			"shootY": 0
+			"mirror": true
+			"shootEffect": "shootSmall"
+			"rotateSpeed": 6,
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 7,
+				"damage": 10,
+				"lifetime": 31,
+				"width": 6,
+				"height": 9,
+				"smokeEffect": "shootSmallSmoke"
+			},
+		},		{
+			"name": "small-gun",
+			"restitution": 0.008,
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 45,
+			"recoil": 1,
+			"rotationLimit": 361,
+			"inaccuracy": 3,
+			"shootSound": "shoot"
+			"rotate": true
+			"shootCone": 20,
+			"shake": 0
+			"x": 12
+			"y": 8
+			"shootY": 0
+			"mirror": true
+			"shootEffect": "shootSmall"
+			"rotateSpeed": 6,
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 7,
+				"damage": 10,
+				"lifetime": 31,
+				"width": 6,
+				"height": 9,
+				"smokeEffect": "shootSmallSmoke"
+			},
+		},
+		{
+			"name": "rumble-gun",
+			"restitution": 0.008,
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 110,
+			"cooldownTime": 100,
+			"recoil": 10,
+			"rotationLimit": 361,
+			"velocityRnd": 0,
+			"ejectEffect": "casing3",
+			"inaccuracy": 3,
+			"shootSound": "largeCannon"
+			"rotate": true
+			"shootCone": 20,
+			"shake": 2
+			"x": 0
+			"y": 0
+			"shootY": 18
+			"mirror": false
+			"shootEffect": "shootBig"
+			"rotateSpeed": 1.2,
+			"shoot": {
+				"type": "ShootPattern",
+				"shots": 1
+				"spread": 0
+				"shotDelay": 10
+			}
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 10,
+				"drawSize": 350,
+				"damage": 1980,
+				"lifetime": 25,
+				"width": 12,
+				"height": 18,
+				"smokeEffect": "shootBigSmoke"
+				"pierce": true,
+				"pierceCap": 6
+				"pierceBuilding": true
+				"recoil": 1.3,
+			},
+		},
+		{
+			"name": "rumble-case",
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 110,
+			"recoil": 2,
+			"rotationLimit": 361,
+			"ejectEffect": "none",
+			"inaccuracy": 3,
+			"shootSound": "largeCannon"
+			"rotate": true
+			"shootCone": 20,
+			"shake": 4
+			"x": 0
+			"y": 0
+			"shootY": 18
+			"mirror": false
+			"shootEffect": "shootBig"
+			"rotateSpeed": 1.2,
+			"restitution": 0.02,
+			"cooldownTime": 60,
+			"shoot": {
+				"type": "ShootPattern",
+				"shots": 1
+				"spread": 0
+				"shotDelay": 10
+			}
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 10,
+				"damage": 0,
+				"instantDisappear": true,
+				"lifetime": 25,
+				"width": 1,
+				"height": 1,
+				"smokeEffect": {
+					"type": "multiEffect",
+					"effects": [
+						{
+						"type": "ParticleEffect",
+						"particles": 8,
+						"length": 60,
+						"lifetime": 45,
+						"line": true,
+						"cone": 35,
+						"sizeFrom": 8,
+						"sizeTo": 1,
+						"colorFrom": "ffffffff",
+						"colorTo": "6e708000"
+						},
+						{
+						"type": "ParticleEffect",
+						"particles": 18,
+						"length": 60,
+						"lifetime": 45,
+						"interp": "circleOut",
+						"cone": 15,
+						"sizeFrom": 6,
+						"sizeTo": 1,
+						"colorFrom": "ffffa3ff",
+						"colorTo": "6e708000"
+						},
+					]
+				},
+			}
+		},
+	]
+	"outlineColor": "00000000",
+	"research": {
+		"parent": "w4-roar"
+		"requirements": [
+			{
+				"item": "titanium",
+				"amount": 500
+			},
+			{
+				"item": "graphite",
+				"amount": 500
+			},
+		]
+	}
+}

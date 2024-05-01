@@ -1,0 +1,14 @@
+{
+	"name": "Carbon Fiber Wall",
+	"description": "A strong wall, made from a durable material. Has armor.",
+	"type": "Wall",
+	"health": 4800,
+	"size": 2,
+	"requirements": [
+		{ "item": "carbon-fiber", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "thorium-wall-large"
+	"absorbLasers": true
+	"armor": 32
+}

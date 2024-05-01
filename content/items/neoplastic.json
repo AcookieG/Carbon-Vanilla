@@ -1,0 +1,10 @@
+{
+	"type": "material",
+	"name": "Neoplastic",
+	"description": "A highly dangerous material, spreads quickly in the wild. Explosive, unflamable.",
+	"cost": 1,
+	"flammability": 0,
+	"radioactivity": 0,
+	"explosiveness": 3,
+	"color": "cd6240"
+}

@@ -1,0 +1,16 @@
+{
+	"type": "StorageBlock",
+	"name": "Mass Production Core Vault"
+	"description": "A huge storage block, to attach with the core.",
+	"size": 4,
+	"itemCapacity": 6000,
+	"hasItems": true,
+	"health": 2090,
+	"requirements": [
+		{"item": "carbon-fiber", "amount": 200},
+		{"item": "titanium", "amount": 100},
+		{"item": "phase-decay", "amount": 200}
+	]
+	"research": "vault",
+	"category": "distribution",
+}

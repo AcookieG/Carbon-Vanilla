@@ -1,0 +1,20 @@
+{
+    "type": "ForceProjector",
+"sandboxOnly": true,
+    "name": "DOOMe",
+    "description": "lol.",
+    "size": 2,
+    "health": 500000000,
+    "radius": 300,
+    "cooldownNormal": 5,
+    "cooldownLiquid": 5,
+    "cooldownBrokenBase": 5,
+    "hasPower": false
+    "category": "effect",
+    "requirements": [
+		{ "item": "phase-decay", "amount": 2500000 },
+		{ "item": "spore-pod", "amount": 150000 },
+   	     { "item": "surge-alloy", "amount": 2000000 }
+    ],
+    "research": "force-projector"
+}

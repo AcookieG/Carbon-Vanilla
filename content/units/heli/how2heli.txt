@@ -1,0 +1,7 @@
+blade 28 rotate
+x4
+export
+overlay
+change light
+contrast 60
+light 180

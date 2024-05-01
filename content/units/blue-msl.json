@@ -1,0 +1,84 @@
+{
+"type": "missile",
+"controller": "MissileAI",
+"template": "MissileUnitType", 
+"lowAltitude": true,
+"speed": 5,
+"rotateSpeed": 4.2,
+"lifetime": 80,
+"physics": false,
+"flying": true,
+"hidden": true,
+"health": 5000,
+"hitSize": 8,
+"engineLayer": 110,
+"trailColor": "6cb7f5",
+"missileAccelTime": 15,
+"engineOffset": 4,
+"engineSize": 2,
+"drawCell": false,
+"engineColor": 6cb7f5ff
+"maxRange": 15,
+"trailLength": 5,
+"range": 1
+"weapons": [
+ 	{
+	"shootOnDeath": true,
+	"controllable": true,
+	"shootSound": "explosion",
+	"shootCone": 10,
+	"mirror": false
+	"rotateSpeed": 18,
+	"bullet": {
+		"type": "FlakBulletType",
+		"killShooter": true,
+		"instantDisappear": true,
+		"hitSoundVolume": 1,
+		"hitSound": none,
+		"buildingDamageMultiplier": 1,
+		"damage": 0,
+		"status": "freezing",
+		"statusDuration": 720
+		"incendAmount": 1,
+		"incendSpread": 10,
+		"incendChance": 2,
+			"collidesAir": true
+			"collidesGround": true
+			"collidesTiles": true
+		"lifeTime": 5
+		"speed": 0
+		"width": 20,
+		"height": 20,
+		"homingPower": 2,
+		"homingRange": 12,
+		"splashDamage": 90,
+		"splashDamageRadius": 12,
+		"explodeRange": 4,
+		"shootEffect": "none",
+	}
+}
+ ],
+"abilities": [
+{
+"type": "MoveEffectAbility",
+"effect": {
+"type": "ParticleEffect",
+"particles": 6,
+"sizeFrom": 2.5,
+"sizeTo": 0,
+"length": 20,
+"lifetime": 20,
+"lightOpacity": 0,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"colorFrom": "6cb7f5ff",
+"colorTo": "ffffff00",
+"cone": 10
+},
+"interval": 2,
+"y": -8,
+"rotateEffect": true,
+"rotation": 180
+}
+]
+}

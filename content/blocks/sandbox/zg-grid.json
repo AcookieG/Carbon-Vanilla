@@ -1,0 +1,16 @@
+{
+  "type": "PowerNode",
+  "name": "Power Network",
+  "size": 1,
+  "health": 99999999,
+  "laserRange": 8000,
+  "maxNodes": 9999,
+  "hasPower": true,
+  "category": "effect",
+  "requirements": [
+		{ "item": "phase-decay", "amount": 2500000 },
+		{ "item": "spore-pod", "amount": 150000 },
+   	     { "item": "surge-alloy", "amount": 2000000 }
+  ],
+  "research": "surge-tower"
+}

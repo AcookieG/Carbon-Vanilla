@@ -1,0 +1,61 @@
+{
+	"name": "Large Cryofluid Mixer",
+	"description": "Mixes Titanium and Water in large amounts to produce cryofluid.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 230,
+	"itemCapacity": 20,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "steam",
+	"craftEffect": "none",
+	"liquidCapacity": 100,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "cryofluid",
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-middle"
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-top"
+			},
+		]
+	},
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{
+				"item": "titanium",
+				"amount": 5,
+				}
+			]
+		},
+                "liquid": {
+			"liquid": "water",
+			"amount": 1.5
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 90 },
+		{ "item": "titanium", "amount": 130 },
+		{ "item": "lead", "amount": 120 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "cryofluid-mixer",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.05,
+	"outputLiquid": {
+		"liquid": "cryofluid",
+		"amount": 1.5
+	},
+	"craftTime": 50,
+}

@@ -1,0 +1,38 @@
+{
+	"type": "ConsumeGenerator",
+	"health": 320,
+	"name": "Solid Heat Evaporator"
+	"description": "Attach directly to Solar Field.",
+	"size": 1,
+	"baseExplosiveness": 0,
+	"hasLiquids": false,
+	"hasItems": true,
+	"powerProduction": 18,
+	"itemDuration": 10,
+	"consumes": {
+		"items": {
+			"items": [
+				{
+				"item": "solid-heat",
+				"amount": 1,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 20
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 10
+		},
+		{
+			"item": "silicon",
+			"amount": 20
+		},
+	],
+	"category": "power",
+	"research": "steam-generator",
+}

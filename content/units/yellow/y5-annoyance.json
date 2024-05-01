@@ -1,0 +1,148 @@
+{
+	"type": "flying",
+	"name": "Annoyance",
+	"description": "A huge mothership to take out entire bases in one sweep.",
+	"health": 18400,
+	"armor": 28
+	"flying": true,
+	"maxVelocity": 4,
+	"speed": 1,
+	"drag": 0.1,
+	"mass": 16,
+	"rotateSpeed": 2,
+	"hitSize": 56
+	"circleTarget" : true,
+	"itemCapacity": 120
+	"range": 270,
+	"attackLength": 270,
+	"shootCone": 30,
+	"rotateWeapon": true,
+	"targetAir": true
+	"engineOffset": 19,
+	"engineSize": 10,
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 100,
+			"rotation": 0,
+			"sides": 6,
+			"max": 3100,
+			"regen": 1,
+		},
+		{
+			"type": "UnitSpawnAbility",
+			"spawnTime": 240,
+			"unit": "b1-uneasy",
+			"spawnX": 0,
+			"spawnY": -24,
+			"parentizeEffects": false,
+		},
+		{
+			"type": "mindustry.entities.abilities.StatusFieldAbility",
+			"range": 92,
+			"reload": 540,
+			"duration": 300,
+			"effect": "overclock"
+		},
+	]
+	"weapons": [
+		{
+			"name": "blaze-missile",
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 120,
+			"shots": 3,
+			"ejectEffect": "none",
+			"inaccuracy": 2,
+			"x": 12
+			"y": -8
+			"shake": 2
+			"shootSound": "artillery"
+			"rotate": true,
+			"recoil": 3,
+			"bullet": {
+				"type": "ArtilleryBulletType",
+				"speed": 5,
+				"damage": 210,
+				"lifetime": 54,
+				"Width": 15,
+				"Height": 15,
+				"incendAmount": 1,
+				"incendSpread": 20,
+				"incendChance": 2,
+				"hitSound": "explosion"
+				"layer": 108,
+			},
+		},
+		{
+			"name": "annoyance-weapon",
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 15,
+			"shots": 1,
+			"ejectEffect": "none",
+			"inaccuracy": 0,
+			"shake": 2
+			"x": 8
+			"y": 12
+			"shootSound": "none"
+			"rotate": true,
+			"bullet": {
+				"type": "MissileBulletType",
+				"speed": 6,
+				"damage": 45,
+				"lifetime": 45,
+				"Width": 4,
+				"Height": 7,
+				"weaveScale": 1,
+				"weaveMag": 4
+				"homingPower": 0.25,
+				"homingRange": 30,
+				"incendAmount": 1,
+				"layer": 108,
+			},
+		},
+		{
+			"name": "annoyance-weapon",
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 20,
+			"shots": 1,
+			"ejectEffect": "none",
+			"inaccuracy": 0,
+			"shake": 2
+			"x": 24
+			"y": 0
+			"shootSound": "none"
+			"rotate": true,
+			"bullet": {
+				"type": "MissileBulletType",
+				"speed": 6,
+				"damage": 60,
+				"lifetime": 45,
+				"Width": 4,
+				"Height": 7,
+				"weaveScale": 1,
+				"weaveMag": 4
+				"homingPower": 0.25,
+				"homingRange": 30,
+				"incendAmount": 1,
+				"layer": 108,
+			},
+		},
+	]
+	"outlineColor": 00000000
+	"research": {
+		"parent": "y4-blaze"
+		"requirements": [
+			{
+				"item": "plastanium",
+				"amount": 500
+			},
+			{
+				"item": "metaglass",
+				"amount": 500
+			},
+		]
+	}
+}

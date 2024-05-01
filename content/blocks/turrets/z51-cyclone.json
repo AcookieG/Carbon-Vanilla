@@ -1,0 +1,172 @@
+{
+	"name": "Carbonized Cyclone",
+	"description": "A modified version of Cyclone, Shoots fragmentation bullets at enemies at high speed.",
+	"details": "Fires explosives at nearby enemies."
+	"type": "ItemTurret",
+	"health": 1305,
+	"size": 3,
+	"reload": 8,
+	"shake": 0.6,
+	"range": 250,
+	"ammoUseEffect": "casing3",
+	"shootSound": "shootBig",
+	"restitution": 0.01,
+	"shootCone": 15,
+	"hasLiquids": true,
+	"inaccuracy": 6,
+	"velocityRnd": 0.1,
+	"xRand": 2,
+"shoot": {
+	"type": "ShootMulti",
+	"source": {
+		"type": "ShootBarrel"
+		"barrels": [
+			-2.5, -1.5, 0,
+			0, -0.5, 0,
+			2.5, -1.5, 0,
+		]
+	},
+	"dest": [
+		{
+			"type": "ShootPattern",
+			"shots": 1
+		}
+	]
+},
+	"drawer": {
+	"type": "drawTurret",
+	"parts": [
+		{
+			"type": "RegionPart",
+			"suffix": "-barrel-1",
+			"moveY": -1.5,
+			"moveX": 0.3,
+			"moveRot": 6,
+			"mirror": false,
+			"progress": "warmup"
+			"recoilIndex": 1
+"heatProgress": {
+"type": "recoil",
+"op": "blend",
+"other": "heat",
+"amount": 0.2,
+"other": 0,
+"recoilIndex": 1
+},
+		},
+
+		{
+			"type": "RegionPart",
+			"suffix": "-barrel-2",
+			"moveY": -1.5,
+			"moveX": 0,
+			"moveRot": 0,
+			"mirror": false,
+			"progress": "recoil"
+			"recoilIndex": 2
+"heatProgress": {
+"type": "recoil",
+"op": "blend",
+"other": "heat",
+"amount": 0.2,
+"other": 0,
+"recoilIndex": 2
+},
+		},
+
+		{
+			"type": "RegionPart",
+			"suffix": "-barrel-3",
+			"moveY": -1.5,
+			"moveX": -0.3,
+			"moveRot": -6,
+			"mirror": false,
+			"progress": "warmup"
+			"recoilIndex": 3
+"heatProgress": {
+"type": "recoil",
+"op": "blend",
+"other": "heat",
+"amount": 0.2,
+"other": 0,
+"recoilIndex": 3
+},
+		},
+
+		{
+			"type": "RegionPart",
+			"suffix": "",
+			"moveY": 0,
+			"moveX": 0,
+			"moveRot": 0,
+			"mirror": false,
+			"progress": "warmup"
+		},
+	]
+	},
+	"ammoTypes": {
+		"thorium": {
+			"type": "BasicBulletType",
+			"drawsize": 240,
+			"collideAir": true
+			"reloadMultiplier": 1,
+			"damage": 32,
+			"ammoMultiplier": 3,
+			"width": 8,
+			"height": 12,
+			"toColor": "thoriumPink",
+			"lifetime": 31,
+			"bulletShrink": 0.6,
+			"shootEffect": "shootBig",
+			"smokeEffect": "none"
+			"speed": 8,
+			"pierce": true
+			"fragBullets": 2,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"damage": 32,
+				"fragVelocityMin": 0.8,
+				"fragVelocityMax": 2.5,
+				"lifetime": 15,
+			},
+		},
+		"carbon-fiber": {
+			"type": "BasicBulletType",
+			"drawsize": 240,
+			"collideAir": true
+			"damage": 65,
+			"ammoMultiplier": 2,
+			"width": 8,
+			"height": 12,
+			"reloadMultiplier": 0.65,
+			"lifetime": 25,
+			"bulletShrink": 0,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke"
+			"speed": 10,
+			"homingPower": 0.05,
+			"homingRange": 24,
+			"fragBullets": 3,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"damage": 28,
+				"fragVelocityMin": 0.7,
+				"fragVelocityMax": 3.9,
+				"lifetime": 18,
+			},
+		},
+	},
+	"consumes": {
+		"coolant": {
+		"amount": 1.2
+		}
+	},
+	"coolantMultiplier": 1.333334
+	"requirements": [
+		{ "item": "copper", "amount": 220 },
+		{ "item": "titanium", "amount": 120 },
+		{ "item": "carbon-fiber", "amount": 90 },
+	],
+	"category": "turret",
+	"research": "salvo"
+}

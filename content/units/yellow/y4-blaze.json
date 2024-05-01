@@ -1,0 +1,105 @@
+{
+	"type": "flying",
+	"name": "Blazé",
+	"description": "A large killer drone to annihiliate enemy bases.",
+	"health": 5400,
+	"armor": 11
+	"flying": true,
+	"maxVelocity": 4,
+	"speed": 1,
+	"drag": 0.1,
+	"mass": 8,
+	"rotateSpeed": 3,
+	"hitSize": 32
+	"circleTarget" : false,
+	"itemCapacity": 70
+	"range": 270,
+	"attackLength": 270,
+	"shootCone": 30,
+	"rotateWeapon": true,
+	"targetAir": false
+	"engineOffset": 10.5,
+	"engineSize": 7,
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 66,
+			"rotation": 0,
+			"sides": 6,
+			"max": 800,
+			"regen": 1.5,
+		},
+	]
+	"weapons": [
+		{
+			"name": "blaze-missile",
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 120,
+			"shots": 3,
+			"ejectEffect": "none",
+			"inaccuracy": 2,
+			"x": 8
+			"y": -8
+			"shake": 2
+			"shootSound": "artillery"
+			"rotate": true,
+			"recoil": 3,
+			"bullet": {
+				"type": "ArtilleryBulletType",
+				"speed": 5,
+				"damage": 210,
+				"lifetime": 54,
+				"Width": 15,
+				"Height": 15,
+				"incendAmount": 1,
+				"incendSpread": 20,
+				"incendChance": 2,
+				"hitSound": "explosion"
+				"layer": 108,
+			},
+		},
+		{
+			"name": "lame-weapon",
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 15,
+			"shots": 1,
+			"ejectEffect": "none",
+			"inaccuracy": 0,
+			"shake": 2
+			"x": 4
+			"y": 8
+			"shootSound": "none"
+			"rotate": true,
+			"bullet": {
+				"type": "MissileBulletType",
+				"speed": 6,
+				"damage": 45,
+				"lifetime": 45,
+				"Width": 4,
+				"Height": 7,
+				"weaveScale": 1,
+				"weaveMag": 4
+				"homingPower": 0.25,
+				"homingRange": 30,
+				"incendAmount": 1,
+				"layer": 108,
+			},
+		},
+	]
+	"outlineColor": 00000000
+	"research": {
+		"parent": "y3-lame"
+		"requirements": [
+			{
+				"item": "plastanium",
+				"amount": 300
+			},
+			{
+				"item": "metaglass",
+				"amount": 300
+			},
+		]
+	}
+}

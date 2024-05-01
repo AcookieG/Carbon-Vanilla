@@ -1,0 +1,74 @@
+{
+	"type": "tank",
+	"name": "Roll"
+	"description": "A small ground unit with treads for better movement. Extreme range.",
+	"rotateSpeed": 1.5,
+	"speed": 1,
+	"flying": false,
+	"range": 260,
+	"template": "ErekirUnitType",
+	"drownTimeMultiplier": 2.5
+	"armor": 3,
+	"hitSize": 15,
+	"health": 150,
+	"squareShape": true,
+	"treadFrames": 18,
+	"treadPullOffset": 0,
+	"treadRects": [
+		{
+		"x": 6,
+		"y": -25.5,
+		"width": 14
+		"height": 51
+		}
+	],
+	"singleTarget": false,
+	"omniMovement": false,
+	"rotateMoveFirst": true,
+	"immunities": [
+		"blasted"
+	],
+	"weapons": [
+		{
+			"name": "roll-gun",
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 72,
+			"ejectEffect": "casing1",
+			"inaccuracy": 3,
+			"shootSound": "shoot"
+			"rotate": true
+			"shake": 0.5
+			"shootCone": 30,
+			"x": 0
+			"y": 0
+			"shootY": 8
+			"mirror": false
+			"shootEffect": "shootBig"
+			"rotateSpeed": 1.4,
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 10,
+				"damage": 40,
+				"lifetime": 26,
+				"width": 9,
+				"height": 13,
+				"smokeEffect": "shootBigSmoke"
+			},
+		}
+	]
+	"outlineColor": "00000000",
+	"research": {
+		"parent": "dagger"
+		"requirements": [
+			{
+				"item": "titanium",
+				"amount": 50
+			},
+			{
+				"item": "graphite",
+				"amount": 50
+			},
+		]
+	}
+}

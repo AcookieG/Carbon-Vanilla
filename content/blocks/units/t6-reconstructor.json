@@ -1,0 +1,36 @@
+{
+	"name": "T6 Reconstructor",
+	"description": "idk man im tired.",
+	"type": "Reconstructor"
+	"size": 11,
+	"itemCapacity": 2500,
+	"constructTime": 12000
+	"consumes": {
+		"power": 48,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 1700 },
+				{ "item": "graphite", "amount": 1300 },
+				{ "item": "plastanium", "amount": 780 },
+				{ "item": "blast-compound", "amount": 110 },
+				{ "item": "phase-decay", "amount": 180 },
+			]
+		},
+	},
+	"upgrades": [
+		[
+			"y5-annoyance",
+			"y6-burnout"
+		]
+	],
+	"category": "units",
+	"research": "t5-reconstructor",
+	"unitType": "FlyingUnit"
+	"requirements": [
+		{ "item": "titanium", "amount": 2000 },
+		{ "item": "thorium", "amount": 900 },
+		{ "item": "silicon", "amount": 1500 },
+		{ "item": "surge-alloy", "amount": 630 },
+		{ "item": "phase-decay", "amount": 260 },
+	]
+}

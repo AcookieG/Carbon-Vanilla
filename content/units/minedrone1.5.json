@@ -1,0 +1,71 @@
+{
+	"type": "flying",
+	"name": "Mining drone, Tier Ib",
+	"description": "a tiny drone to mine items. Weaker, because it is only used to bypass unit count.",
+	"health": 60,
+	"flying": true,
+	"maxVelocity": 6,
+	"speed": 2.5,
+	"drag": 0.02,
+	"mass": 0.5,
+	"rotateSpeed": 18,
+	"hitSize": 8
+	"itemCapacity": 40
+	"range": 80,
+	"attackLength": 80,
+	"shootCone": 15,
+	"rotateWeapon": true,
+	"targetAir": false
+	"engineOffset": 2.5,
+	"engineSize": 2,
+	"playerControllable": false
+	"logicControllable": false
+	"canAttack": false
+	"outlineColor": 00000000
+	"mineTier": 2
+	"mineSpeed": 2.5
+	"mineWalls": true
+	"defaultController": "minerAI"
+	"mineItems": [
+		"thorium"
+		"titanium"
+		"copper"
+		"lead"
+		"graphite"
+		"coal"
+		"tungsten"
+		"beryllium"
+	]
+	abilities: [
+        	{
+        	type: mindustry.entities.abilities.RepairFieldAbility
+        	healEffect: {
+        	type: WaveEffect
+        	lifetime: 30
+        	sizeFrom: 0
+        	sizeTo: 3
+        	strokeFrom: 2
+        	strokeTo: 0
+        	lightColor: 73FFAEFF
+        	colorFrom: 73FFAEFF
+        	colorTo: 57D993FF
+        	}
+        	range: 0.5
+        	amount: -3
+        	reload: 180
+        	    }
+    	]
+	"research": {
+		"parent": "flare"
+		"requirements": [
+			{
+				"item": "spore-pod",
+				"amount": 60
+			},
+			{
+				"item": "metaglass",
+				"amount": 60
+			},
+		]
+	}
+}

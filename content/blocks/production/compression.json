@@ -1,0 +1,79 @@
+{
+	"type": "ImpactReactor",
+	"health": 1200,
+	"name": "Compression Reactor"
+	"description": "A powerfull heat turbine, uses Copper and Cryofluid and power.",
+	"size": 3,
+	"lightColor": "ffffffFF",
+	"baseExplosiveness": 500,
+	"explosionRadius": 40,
+	"explosionDamage": 300,
+	"liquidCapacity": 50
+	"hasLiquids": true,
+	"hasItems": true,
+	"powerProduction": 120,
+	"warmupSpeed": 0.0025,
+	"itemDuration": 20,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidRegion",
+				"drawLiquid": "cryofluid",
+			},
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawGlowRegion"
+				"suffix": "-heat"
+				"color": "eab678ff"
+				"glowScale": 3,
+				"glowIntensity": 0.5
+				"alpha": 0.9
+			},
+		]
+	},
+	"consumes": {
+		"power": 40,
+		"liquids": [
+			"cryofluid/0.75"
+		]
+		"items": {
+			"items": [
+				{
+				"item": "copper",
+				"amount": 1,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{
+			"item": "carbon-fiber",
+			"amount": 200
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 100
+		},
+		{
+			"item": "silicon",
+			"amount": 170
+		},
+		{
+			"item": "thorium",
+			"amount": 150
+		},
+	],
+	"category": "power",
+	"loopSound": "pulse",
+	"loopSoundVolume": 1.0,
+	"research": "steam-generator",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.85,
+}

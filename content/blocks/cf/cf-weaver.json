@@ -1,0 +1,58 @@
+{
+	"name": "Carbon Fiber Weaver",
+	"description": "Uses Phase Fabric and Graphite to produce Carbon Fiber.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 180,
+	"itemCapacity": 20,
+	"hasLiquids": false,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "smeltsmoke",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawWeave"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{
+				"item": "phase-fabric",
+				"amount": 2,
+				}
+				{
+				"item": "graphite",
+				"amount": 2,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 90 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "phase-fabric", "amount": 30 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "phase-weaver",
+	"idleSound": "techloop",
+	"idleSoundVolume": 0.03,
+	"outputItem": {
+		"item": "carbon-fiber",
+		"amount": 2
+	},
+	"craftTime": 48,
+}
