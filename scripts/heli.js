@@ -53,7 +53,7 @@ const project = extend(UnitType, "h2-project", {
 });
 
 //Thanks to evl#8935 for helping me with these!!
-//stolen from Heavy Armaments Industries,
+//stolen from Heavy Armaments Industries, Thank you Eschatologue for existing.
 
 //MAKE SURE THIS IS COMPLETE!!!
 
