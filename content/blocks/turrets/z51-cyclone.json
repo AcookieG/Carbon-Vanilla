@@ -1,4 +1,4 @@
-{
+	{
 	"name": "Carbonized Cyclone",
 	"description": "A modified version of Cyclone, Shoots fragmentation bullets at enemies at high speed.",
 	"details": "Fires explosives at nearby enemies."
@@ -16,23 +16,23 @@
 	"inaccuracy": 6,
 	"velocityRnd": 0.1,
 	"xRand": 2,
-"shoot": {
-	"type": "ShootMulti",
-	"source": {
-		"type": "ShootBarrel"
-		"barrels": [
-			-2.5, -1.5, 0,
-			0, -0.5, 0,
-			2.5, -1.5, 0,
+	"shoot": {
+		"type": "ShootMulti",
+		"source": {
+			"type": "ShootBarrel"
+			"barrels": [
+				-2.5, -1.5, 0,
+				0, -0.5, 0,
+				2.5, -1.5, 0,
+			]
+		},
+		"dest": [
+			{
+				"type": "ShootPattern",
+				"shots": 1
+			}
 		]
 	},
-	"dest": [
-		{
-			"type": "ShootPattern",
-			"shots": 1
-		}
-	]
-},
 	"drawer": {
 	"type": "drawTurret",
 	"parts": [
@@ -45,14 +45,14 @@
 			"mirror": false,
 			"progress": "warmup"
 			"recoilIndex": 1
-"heatProgress": {
-"type": "recoil",
-"op": "blend",
-"other": "heat",
-"amount": 0.2,
-"other": 0,
-"recoilIndex": 1
-},
+			"heatProgress": {
+				"type": "recoil",
+				"op": "blend",
+				"other": "heat",
+				"amount": 0.2,
+				"other": 0,
+				"recoilIndex": 1
+			},
 		},
 
 		{
@@ -64,14 +64,14 @@
 			"mirror": false,
 			"progress": "recoil"
 			"recoilIndex": 2
-"heatProgress": {
-"type": "recoil",
-"op": "blend",
-"other": "heat",
-"amount": 0.2,
-"other": 0,
-"recoilIndex": 2
-},
+			"heatProgress": {
+				"type": "recoil",
+				"op": "blend",
+				"other": "heat",
+				"amount": 0.2,
+				"other": 0,
+				"recoilIndex": 2
+			},
 		},
 
 		{
@@ -83,14 +83,14 @@
 			"mirror": false,
 			"progress": "warmup"
 			"recoilIndex": 3
-"heatProgress": {
-"type": "recoil",
-"op": "blend",
-"other": "heat",
-"amount": 0.2,
-"other": 0,
-"recoilIndex": 3
-},
+			"heatProgress": {
+				"type": "recoil",
+				"op": "blend",
+				"other": "heat",
+				"amount": 0.2,
+				"other": 0,
+				"recoilIndex": 3
+			},
 		},
 
 		{
