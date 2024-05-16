@@ -1,8 +1,8 @@
 {
   "name": "[lightgray]Carbon [tan]Vanilla",
-  "subtitle": "[lightgray] A nice carbon copy of adigital mod."
+  "subtitle": "[lightgray] Better with NeonNights!"
   "author": "[blue]AcookieG",
-  "description": "Adds multiple new factories, turrets and items to enhance vanilla content and add more things post-late game. IMPORTANT: Most of the sprites here (especially the turrets) have been stolen from other creators without their permission. I do not have any right over theses sprites, and absolutely do not claim that i have created them or owned them. I have modified them, changed palette, or added new elements. Here are a few of the creators of the sprites i used: Anuke Himslef (I'm terribly sorry), Eschatologue/Unlimited-Armament-Works, AureusStratus/ExoGenesis, Terios-mods'color palette), Eschatologue/Heavy-Armaments-Industries, uujuju1/project-oblivion",
-  "version": 2.1,
+  "description": "Adds multiple new factories, turrets and items to enhance vanilla content and add more things post-late game. IMPORTANT: Credit for sprites cuz stealing bad: Eschatologue/Unlimited-Armament-Works, AureusStratus/ExoGenesis, Eschatologue/Heavy-Armaments-Industries, uujuju1/project-oblivion",
+  "version": 3,
   "minGameVersion": 145
 }

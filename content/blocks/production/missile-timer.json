@@ -1,0 +1,37 @@
+{
+	"name": "Timer",
+	"description": "Delays production of Thorium by a full minute.",
+	"type": "GenericCrafter"
+	"size": 1,
+	"health": 300,
+	"itemCapacity": 5,
+	"hasLiquids": false,
+	"hasPower": false,
+	"hasItems": true,
+	"updateEffect": "pulverizeRed",
+	"craftEffect": "none",
+	"craftTime": 3600,
+	"consumes": {
+		"items": {
+			"items": [
+				{
+				"item": "copper",
+				"amount": 1,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 80 },
+		{ "item": "thorium", "amount": 15 },
+	],
+	"category": "units",
+	"research": "zutamoyo-missile",
+	"rotate": false
+	"idleSound": "machine",
+	"idleSoundVolume": 0.05,
+	"outputItem": {
+		"item": "thorium",
+		"amount": 1
+	},
+}

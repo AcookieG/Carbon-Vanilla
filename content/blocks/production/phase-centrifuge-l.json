@@ -1,0 +1,77 @@
+{
+	"name": "Silica Decayer",
+	"description": "Decays Phase Fabric with Sand and Water in large volumes. Used for mass-production. Cheap and more efficient.",
+	"type": "GenericCrafter"
+	"size": 4,
+	"health": 260,
+	"itemCapacity": 20,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "shieldBreak",
+	"craftEffect": {
+		"type": "sparkExplosion",
+		"color": "ffffffff"
+		"size": 4
+	}
+	"liquidCapacity": 300,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water",
+				"padding": 4
+			},
+			{
+				"type": "DrawPlasma",
+				"suffix": "-plasma-",
+				"plasma1": "eac2a9",
+				"plasma2": "de9458"
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"power": 3.5,
+		"items": {
+			"items": [
+				{
+				"item": "phase-fabric",
+				"amount": 2,
+				},
+				{
+				"item": "sand",
+				"amount": 10,
+				},
+			]
+		},
+                "liquid": {
+			"liquid": "water",
+			"amount": 1
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 120 },
+		{ "item": "titanium", "amount": 90 },
+		{ "item": "metaglass", "amount": 35 },
+		{ "item": "thorium", "amount": 30 },
+		{ "item": "lead", "amount": 60},
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "phase-centrifuge",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.05,
+	"outputItem": {
+		"item": "phase-decay",
+		"amount": 2
+	},
+	"craftTime": 120,
+}

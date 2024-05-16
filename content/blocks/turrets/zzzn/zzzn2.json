@@ -1,0 +1,100 @@
+{
+	"name": "Ensign",
+	"description": "A small command block that will anihiliate any threat in range. Gained 2 blocks in range.",
+	"type": "PowerTurret",
+	"health": 250,
+	"size": 1,
+	"range": 48,
+	"hasLiquids": false,
+	"inaccuracy": 0,
+	"targetAir": true
+	"targetGround": true
+	"ammoUseEffect": "none",
+	"shootSound": "none",
+	"recoil": 0,
+	"rotateSpeed": 30,
+	"shootCone": 1,
+	"hasPower": true
+	"basePrefix": "zzzn2-",
+	"shootType": {
+		"type": "BasicBulletType",
+		"damage": 123450,
+		"width": 1,
+		"length": 1,
+		"shootEffect": "none",
+		"smokeEffect": "none"
+		"lifetime": 3,
+		"speed": 16,
+		"collidesTiles": false
+		"instantDisapear": true
+		"homingPower": 10,
+		"homingRange": 32,
+		"despawnEffect": none
+		"hitEffect": none
+	},
+	"consumes": {
+		"power": 7
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+	],
+	"category": "turret",
+	"research": "zzzn1"
+	"drawer": {
+	"type": "drawTurret",
+	"parts": [
+{
+"type": "HaloPart",
+"y": 0,
+"radius": 4,
+"tri": true,
+"layer": 110,
+"haloRotation": 90,
+"shapeRotation": 180,
+"rotateSpeed": 1,
+"color": "ffd280",
+"haloRotateSpeed": 4,
+"haloRadius": 10,
+"haloRadiusTo": 10,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 8,
+"triLengthTo": 4,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": 0,
+"radius": 4,
+"tri": true,
+"layer": 110,
+"haloRotation": 90,
+"shapeRotation": 0,
+"rotateSpeed": 1,
+"haloRotateSpeed": 4,
+"color": "ffd280",
+"haloRadius": 10,
+"haloRadiusTo": 10,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 8,
+"triLengthTo": 4,
+"triLength": 0
+},
+{
+"type": "shapePart",
+"y": 0,
+"hollow": true,
+"circle": false,
+"sides": 8,
+"layer": 110,
+"color": "ffd280",
+"stroke": 0,
+"rotateSpeed": 4,
+"strokeTo": 1,
+"radiusTo": 10,
+"radius": 10
+},
+	]
+	},
+}

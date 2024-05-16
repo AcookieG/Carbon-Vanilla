@@ -1,0 +1,19 @@
+type: Constructor
+name: Missile Constructor
+description: Builds missile shells.
+size: 3
+itemCapacity: 1
+category: units
+requirements: [
+	{ "item": "lead", "amount": 220 },
+	{ "item": "copper", "amount": 190 },
+	{ "item": "silicon", "amount": 270 },
+	{ "item": "phase-fabric", "amount": 50 },
+] 
+hasPower: false
+hasItems: true
+buildSpeed: 1
+filter: [
+	zutomayo-missile
+]
+research: missile1

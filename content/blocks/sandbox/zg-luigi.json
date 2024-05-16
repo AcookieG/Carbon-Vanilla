@@ -10,7 +10,7 @@
     "cooldownLiquid": 5,
     "cooldownBrokenBase": 5,
     "hasPower": false
-    "category": "effect",
+    "category": "logic",
     "requirements": [
 		{ "item": "phase-decay", "amount": 2500000 },
 		{ "item": "spore-pod", "amount": 150000 },

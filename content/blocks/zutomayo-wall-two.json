@@ -1,0 +1,12 @@
+{
+	"name": "Zutomayo - DARKEN",
+	"description": "That's so sad!!!",
+	"type": "Wall",
+	"health": 1280,
+	"size": 2,
+	"requirements": [
+		{ "item": "metaglass", "amount": 100 },
+	],
+	"category": "defense",
+	"research": "zutomayo-wall-one"
+}

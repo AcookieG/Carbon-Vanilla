@@ -15,6 +15,6 @@
 		{ "item": "spore-pod", "amount": 150000 },
    	     { "item": "surge-alloy", "amount": 2000000 }
 	],
-	"category": "effect",
+	"category": "logic",
 	"research": "mend-projector"
 }

@@ -40,16 +40,17 @@
 			"type": "RegionPart",
 			"suffix": "-barrel-1",
 			"moveY": -1.5,
-			"moveX": 0.3,
-			"moveRot": 6,
+			"moveX": 0,
+			"moveRot": 0,
 			"mirror": false,
-			"progress": "warmup"
+			"progress": "recoil"
 			"recoilIndex": 1
+			"under": true,
 "heatProgress": {
 "type": "recoil",
 "op": "blend",
-"other": "heat",
 "amount": 0.2,
+"cooldownTime": 80,
 "other": 0,
 "recoilIndex": 1
 },
@@ -64,11 +65,12 @@
 			"mirror": false,
 			"progress": "recoil"
 			"recoilIndex": 2
+			"under": true,
 "heatProgress": {
 "type": "recoil",
 "op": "blend",
-"other": "heat",
 "amount": 0.2,
+"cooldownTime": 80,
 "other": 0,
 "recoilIndex": 2
 },
@@ -78,29 +80,20 @@
 			"type": "RegionPart",
 			"suffix": "-barrel-3",
 			"moveY": -1.5,
-			"moveX": -0.3,
-			"moveRot": -6,
-			"mirror": false,
-			"progress": "warmup"
-			"recoilIndex": 3
-"heatProgress": {
-"type": "recoil",
-"op": "blend",
-"other": "heat",
-"amount": 0.2,
-"other": 0,
-"recoilIndex": 3
-},
-		},
-
-		{
-			"type": "RegionPart",
-			"suffix": "",
-			"moveY": 0,
 			"moveX": 0,
 			"moveRot": 0,
 			"mirror": false,
-			"progress": "warmup"
+			"progress": "recoil"
+			"recoilIndex": 3
+			"under": true,
+"heatProgress": {
+"type": "recoil",
+"op": "blend",
+"amount": 0.2,
+"cooldownTime": 80,
+"other": 0,
+"recoilIndex": 3
+},
 		},
 	]
 	},
@@ -135,7 +128,7 @@
 			"drawsize": 240,
 			"collideAir": true
 			"damage": 65,
-			"ammoMultiplier": 2,
+			"ammoMultiplier": 1,
 			"width": 8,
 			"height": 12,
 			"reloadMultiplier": 0.65,

@@ -12,9 +12,10 @@
 	"shootCone": 15,
 	"hasLiquids": false,
 	"hasItems": true
-	"maxAmo": 80
+	"maxAmmo": 50
 	"inaccuracy": 3,
 	"extinguish": true
+	"targetHealing": true
 	"shoot": {
 		"type": "shootSpread",
 		"shots": 4,

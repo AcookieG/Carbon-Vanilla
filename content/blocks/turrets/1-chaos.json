@@ -207,7 +207,7 @@
 "despawnHit": true,
 "damage": 25,
 "status": "carbon-vanilla-helios-effect",
-"statusDuration": 6000
+"statusDuration": 360000
 "instantDisapear": true
 "velMin": 2.1
 "velMax": 10

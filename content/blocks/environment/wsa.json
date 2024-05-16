@@ -1,0 +1,13 @@
+{
+	"name": "WaterBiome;Dry",
+	"type": "Floor",
+	"variants": 0
+	"speedMultiplier":0.5,
+	"isLiquid":true,
+	"status": "wet",
+	"statusDuration": 5,
+	"cacheLayer": "water",
+	"attributes": { "array": [ 0, 0, 0.2, 0 ] }
+	"liquidMultiplier": 0.5
+	"liquidDrop":"water"
+}

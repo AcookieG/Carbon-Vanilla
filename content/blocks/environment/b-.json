@@ -1,0 +1,11 @@
+{
+	"name": "Water Metal Floor",
+	"type": "Floor",
+	"variants": 3
+	"speedMultiplier":0.35,
+	"isLiquid":true,
+	"status": "wet",
+	"statusDuration": 30,
+	"cacheLayer": "water",
+	"liquidDrop":"water"
+}

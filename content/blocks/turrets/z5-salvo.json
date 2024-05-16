@@ -83,7 +83,7 @@
 			"drawsize": 170,
 			"collideAir": true
 			"damage": 68,
-			"ammoMultiplier": 2,
+			"ammoMultiplier": 1,
 			"width": 8,
 			"height": 12,
 			"reloadMultiplier": 0.5,

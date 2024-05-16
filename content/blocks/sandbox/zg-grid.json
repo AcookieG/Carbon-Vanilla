@@ -1,12 +1,12 @@
 {
   "type": "PowerNode",
   "name": "Power Network",
-  "size": 1,
+  "size": 2,
   "health": 99999999,
   "laserRange": 8000,
   "maxNodes": 9999,
   "hasPower": true,
-  "category": "effect",
+  "category": "logic",
   "requirements": [
 		{ "item": "phase-decay", "amount": 2500000 },
 		{ "item": "spore-pod", "amount": 150000 },

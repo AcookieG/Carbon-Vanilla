@@ -1,0 +1,37 @@
+{
+	"name": "Override",
+	"description": "The apex weapon. Shoots missiles over extreme distances.",
+	"type": "ItemTurret",
+	"health": 4520,
+	"size": 5,
+	"reload": 120,
+	"shake": 25,
+	"range": 1800,
+	"ammoUseEffect": "explosion",
+	"shootSound": "missileLarge",
+	"restitution": 1,
+	"recoil": 0,
+	"shootCone": 1,
+	"rotateSpeed": 18,
+	"restitution": 0.005,
+	"cooldownTime": 80,
+	"targetAir": false,
+	"ammoPerShot": 2,
+	"maxAmmo": 2
+	"basePrefix": "z58-",
+	"ammoTypes": {
+		"z-item-missile-zutomayo": {
+      			"type": "BasicBulletType",
+			"spawnUnit": "zutomayo-missile"
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 560 },
+		{ "item": "titanium", "amount": 285 },
+		{ "item": "carbon-fiber", "amount": 120 },
+		{ "item": "plastanium", "amount": 120 },
+		{ "item": "surge-alloy", "amount": 180 }
+	],
+	"category": "turret",
+	"research": "1-crow"
+}

@@ -6,14 +6,14 @@
 	"health": 999999,
 	"size": 2,
 	"reload": 1,
-	"shake": 2,
-	"recoil": -2,
+	"shake": 0,
+	"recoil": -8,
 	"range": 500,
-	"ammoUseEffect": "casing3Double",
-	"shootSound": "shotgun",
+	"ammoUseEffect": none,
+	"shootSound": none,
 	"restitution": 0.01,
 	"cooldownTime": 50,
-	"shootCone": 0.5,
+	"shootCone": 360,
 	"spread": 0,
 	"rotateSpeed": 25,
 	"hasPower": false
@@ -48,6 +48,6 @@
 		{ "item": "spore-pod", "amount": 150000 },
    	     { "item": "surge-alloy", "amount": 2000000 }
 	],
-	"category": "effect",
+	"category": "logic",
 	"research": "duo"
 }

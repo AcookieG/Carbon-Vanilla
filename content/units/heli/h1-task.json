@@ -18,7 +18,6 @@
 	"armor": 2,
 	"hitSize": 18,
 	"health": 120,
-	"squareShape": true,
 	"singleTarget": false,
 	"rotateMoveFirst": true,
 	"engineOffset": 0,

@@ -1,0 +1,15 @@
+{
+	"name": "War Overclock",
+	"description": "Speeds up anything speedable, to allow defenses to hold up against swarms of enemies.",
+	"type": "OverdriveProjector",
+	"health": 99999999999,
+	"size": 1,
+	"range": 4000,
+	"hasPower": false
+	"speedBoost": 20,
+	"requirements": [
+		{ "item": "dormant-cyst", "amount": 1 },
+	],
+	"category": "effect",
+	"research": "overdrive-projector"
+}

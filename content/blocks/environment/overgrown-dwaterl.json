@@ -1,0 +1,12 @@
+{
+	"name":"Grasslands",
+	"type":"floor",
+	"variants": 0,
+	"speedMultiplier":0.3,
+	"isLiquid":true,
+	"status": "wet",
+	"statusDuration": 60,
+	"cacheLayer": "water",
+	"liquidDrop":"water"
+	"liquidMultiplier": 0.8
+}

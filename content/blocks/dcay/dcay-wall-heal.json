@@ -1,20 +1,20 @@
 {
 	"name": "Phase Decay Healing Wall",
 	"description": "A large wall, heals walls slowly around itself. Makes bases much harder to breach.",
-	"details": "range:  approx. 6 blocks i think."
+	"details": "range:  approx. 8 blocks i think."
 	"type": "MendProjector",
 	"health": 3150,
 	"hasPower": false
-	"size": 2,
+	"size": 10,
 	"range": 0,
-	"reload": 40,
+	"reload": 2,
 	"useTime": 400,
-	"healPercent": 0.5,
+	"healPercent": 0.1,
 	"requirements": [
 		{ "item": "surge-alloy", "amount": 8 },
-		{ "item": "silicon", "amount": 160 },
+		{ "item": "silicon", "amount": 105 },
 		{ "item": "phase-decay", "amount": 16 }
 	],
 	"category": "defense",
-	"research": "surge-wall"
+	"research": "dcay-wall"
 }

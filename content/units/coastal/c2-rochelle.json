@@ -1,0 +1,102 @@
+{
+	"type": "naval",
+	"name": "La Rochelle",
+	"description": "A small Coastal defense structure.",
+	"health": 600,
+	"armor": 5,
+	"flying": false,
+	"accel": 0.3,
+	"maxVelocity": 4,
+	"speed": 0.5,
+	"drag": 0.1,
+	"mass": 50,
+	"rotateSpeed": 2,
+	"hitSize": 24
+	"range": 160,
+	"attackLength": 160,
+	"canDrown": false
+	"naval": true
+	"commandLimit": 1,
+	"rotateWeapon": true,
+	"targetAir": true,
+	"engineOffset": 0,
+	"engineSize": 0,
+	"abilities": [
+		{
+			"type": "UnitSpawnAbility",
+			"spawnTime": 1200,
+			"unit": "seagun1",
+			"spawnX": 16,
+			"spawnY": 9,
+		},
+		{
+			"type": "UnitSpawnAbility",
+			"spawnTime": 1200,
+			"unit": "seagun1",
+			"spawnX": 16,
+			"spawnY": -9,
+		},
+
+		{
+			"type": "UnitSpawnAbility",
+			"spawnTime": 1200,
+			"unit": "seagun1",
+			"spawnX": -16,
+			"spawnY": 9,
+		},
+		{
+			"type": "UnitSpawnAbility",
+			"spawnTime": 1200,
+			"unit": "seagun1",
+			"spawnX": -16,
+			"spawnY": -9,
+		},
+
+		{
+			"type": "UnitSpawnAbility",
+			"spawnTime": 1200,
+			"unit": "seagun1",
+			"spawnX": 0,
+			"spawnY": 20,
+		},
+		{
+			"type": "UnitSpawnAbility",
+			"spawnTime": 1200,
+			"unit": "seagun1",
+			"spawnX": 0,
+			"spawnY": -20,
+		},
+
+        	{
+        	type: mindustry.entities.abilities.RepairFieldAbility
+        	healEffect: {
+        	type: WaveEffect
+        	lifetime: 1
+        	sizeFrom: 0
+        	sizeTo: 1
+        	strokeFrom: 2
+        	strokeTo: 0
+        	lightColor: ffffff00
+        	colorFrom: ffffff00
+        	colorTo: ffffff00
+        	}
+        	range: 0.5
+        	amount: 2
+        	reload: 60
+        	}
+	]
+	"outlineColor": 00000000
+	"research": {
+		"parent": "c1-sete"
+		"requirements": [
+			{
+				"item": "silicon",
+				"amount": 70
+			},
+			{
+				"item": "metaglass",
+				"amount": 70
+			},
+		]
+	}
+}

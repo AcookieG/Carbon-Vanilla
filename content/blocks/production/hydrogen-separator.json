@@ -14,12 +14,21 @@
 		"type": "DrawMulti",
 		"drawers": [
 			{
-				"type": "DrawLiquidTile",
-				"drawLiquid": "cryofluid",
+				"type": "DrawRegion"
+				"suffix": "-bottom"
 			},
 			{
-				"type": "DrawRegion"
-				"suffix": "-top"
+				"type": "DrawLiquidTile",
+				"drawLiquid": "cryofluid",
+				"padding": 2
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "hydrogen",
+				"padding": 2
+			},
+			{
+				"type": "DrawDefault"
 			},
 		]
 	},

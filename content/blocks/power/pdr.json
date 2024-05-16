@@ -1,0 +1,112 @@
+{
+	"type": "ImpactReactor",
+	"name": "Phase-Decay Reactor"
+	"health": 2200,
+	"size": 5,
+	"lightColor": "FB9957FF",
+	"baseExplosiveness": 5000,
+	"explosionRadius": 120,
+	"squareSprite": false,
+	"explosionDamage": 2000,
+	"liquidCapacity": 200
+	"hasLiquids": true,
+	"hasItems": true,
+	"powerProduction": 580,
+	"warmupSpeed": 0.0008,
+	"itemDuration": 300,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "hydrogen",
+				"padding": 4
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-top"
+			},
+			{
+				"type": "DrawGlowRegion"
+				"suffix": "-heat"
+				"Color": "50505020"
+				"glowScale": 10,
+				"glowIntensity": 0.5
+				"alpha": 0.5
+			},
+			{
+				"type": "DrawGlowRegion"
+				"suffix": "-heat-large"
+				"Color": "50505020"
+				"glowScale": 10,
+				"glowIntensity": 0.5
+				"alpha": 0.3
+			},
+			{
+				"type": "DrawParticles",
+				"color": "FFFFFFAA",
+				"alpha": 0.4,
+				"blending": "additive",
+				"particleSize": 2,
+				"particleRad": 24,
+				"particles": 16,
+				"fadeMargin": 1,
+				"rotateScl": 4,
+				"particleLife": 40
+			},
+		]
+	},
+	"consumes": {
+		"power": 120,
+		"liquids": [
+			"hydrogen/1"
+			]
+		"items": {
+			"items": [
+				{
+				"item": "blast-compound",
+				"amount": 2,
+				}
+				{
+				"item": "phase-decay",
+				"amount": 1,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{
+			"item": "graphite",
+			"amount": 600
+		},
+		{
+			"item": "titanium",
+			"amount": 560
+		},
+		{
+			"item": "phase-decay",
+			"amount": 110
+		},
+		{
+			"item": "silicon",
+			"amount": 450
+		},
+		{
+			"item": "thorium",
+			"amount": 150
+		},
+	],
+	"category": "power",
+	"loopSound": "pulse",
+	"loopSoundVolume": 1.5,
+	"research": "impact-reactor",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.85,
+}

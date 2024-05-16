@@ -7,12 +7,13 @@
 	"size": 2,
 	"range": 300,
 	"hasPower": false
-	"speedBoost": 4,
+	"speedBoost": 16,
 	"requirements": [
 		{ "item": "phase-decay", "amount": 2500000 },
 		{ "item": "spore-pod", "amount": 150000 },
    	     { "item": "surge-alloy", "amount": 2000000 }
 	],
-	"category": "effect",
+	"category": "logic",
 	"research": "overdrive-projector"
+	"BuildVisibility": "sandboxOnly"
 }
