@@ -38,7 +38,7 @@
 		"hitSound": explosionBig,
 		"hitSoundVolume": 30,
 		"damage": 1,
-		"lifeTime": 30
+		"lifeTime": 10
 		"speed": 32
 		"width": 20,
 		"height": 20,
@@ -50,6 +50,11 @@
 		"absorbable": false
 		"despawnShake": 60
 		"shootEffect": none,
+			"lightning": 70,
+			"lightningDamage": 8000,
+			"lightningCone": 360,
+			"lightningLengthRand": 30,
+			"lightningLength": 10,
 		"despawnEffect": {
 		"type": "multiEffect",
 		"effects": [
@@ -125,36 +130,32 @@
 		]
 		}
 		"intervalBullets": 500,
-		"intervalRandomSpread": 360,
+		"intervalRandomSpread": 3600,
 		"bulletInterval": 1,
 		"intervalBullet": {
 			"type": "BasicBulletType",
-			"hitSoundVolume": 5,
-			"hitSound": explosionBig,
-			"damage": 8000,
-			"lifeTime": 500
-			"speed": 60
-			"width": 1,
-			"height": 1,
+			"damage": 2200,
+			"instantDisapear": false
+			"speed": 30,
+			"lifetime": 400
+			"despawnEffect": "none"
 			"collidesAir": false
 			"collidesGround": false
 			"collidesTiles": false
-			"pierceCap": 1800,
-			"pierceBuilding": true,
-			"pierce": true,
 			"hittable": false
 			"reflectable": false
 			"absorbable": true
-			"shootEffect": none,
-			"despawnShake": 60
+			"width": 1600,
+			"height": 1600,
+			"sprite": "carbon-vanilla-clear",
 		}
 		"fragBullets": 1800,
 		"fragBullet": {
-			"type": "FireBulletType",
+      			"type": "FireBulletType",
 			"colorFrom": "ffffa3ff",
 			"colorMid": "ffffffff",
 			"colorTo": "e2865400",
-			"damage": 800,
+			"damage": 2200,
 			"width": 20,
 			"height": 20,
 			"status": "carbon-vanilla-helios-effect",
@@ -166,12 +167,12 @@
 			"hittable": false
 			"reflectable": false
 			"absorbable": false
-			"velMin": 0.1
-			"velMax": 12
+			"velMin": 0
+			"velMax": 14
 			"drawSize": 250
 			"intervalBullets": 1,
 			"intervalRandomSpread": 360,
-			"bulletInterval": 15,
+			"bulletInterval": 8,
 			"intervalBullet": {
 				"type": "BasicBulletType",
 				"damage": 30,

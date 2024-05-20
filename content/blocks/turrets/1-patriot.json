@@ -32,7 +32,7 @@
 			{
 			"type": "ShootPattern",
 			"shots": 3
-			"spread": 2
+			"spread": 8
 			"shotDelay": 1
 			}
 		]
@@ -53,23 +53,18 @@
 			"bulletShrink": -0.3,
 			"shootEffect": "shootBig",
 			"speed": 12,
-			"homingPower": 0.03,
-			"homingRange": 130,
-			"lightning": 5,
-			"lightningDamage": 12,
-			"lightningCone": 360,
-			"lightningLengthRand": 16,
-			"lightningLength": 1,
+			"homingPower": 0.1,
+			"homingRange": 400,
 			"buildingDamageMultiplier": 0,
 		"trailColor": "ffffa3ff"
 		"backColor": "b0bac0"
 		"trailEffect": "incendTrail"
-			"fragBullets": 7,
+			"fragBullets": 18,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 58,
-				"fragVelocityMin": 0.7,
-				"fragVelocityMax": 5.1,
+				"velMin": 0.7,
+				"velMax": 5.1,
 				"lifetime": 7,
 				"collideGround": false
 				"buildingDamageMultiplier": 0,

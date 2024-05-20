@@ -1,0 +1,20 @@
+{
+	"name": "Heat Router c",
+	"type": "LiquidRouter"
+	"description": "An extremely resistant router for superfluids."
+	"requirements": [
+		{
+			"item": "surge-alloy",
+			"amount": 400
+		},
+		{
+			"item": "phase-decay",
+			"amount": 50
+		},
+	]
+	"liquidCapacity": 1000
+	"size": 2
+	"research": "heat-conduit"
+	"health": 500
+	"category": "liquid"
+}

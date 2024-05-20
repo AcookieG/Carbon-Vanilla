@@ -1,0 +1,20 @@
+{
+	"name": "rebuildddd",
+	"type": "BuildTurret",
+	"health": 999999999,
+	"size": 2,
+	"reload": 1,
+	"range": 80000,
+	"ammoUseEffect": "none",
+	"rotateSpeed": 180,
+	"targetAir": false
+	"targetInterval": 1
+	"buildSpeed": 50
+	"requirements": [
+		{ "item": "phase-decay", "amount": 2500000 },
+		{ "item": "spore-pod", "amount": 150000 },
+		{ "item": "surge-alloy", "amount": 2000000 }
+	],
+	"category": "logic",
+	"research": "ripple"
+}

@@ -1,0 +1,23 @@
+{
+	"type": "CellLiquid",
+	"moveThroughBlocks": true,
+	"canStayOn": [],
+	"incinerable": false,
+	"spreadDamage": 180,
+	"capPuddles": true,
+	"maxSpread": 80,
+	"name": "Liquid Heat",
+	"description": "Yay more internal stuff! Transport with pipes.",
+	"coolant": false,
+	"color": "ffcd66",
+	"colorFrom": "ffcd66",
+	"colorTo": "e28654",
+	"blockReactive": false,
+	"viscosity": 0,
+	"heatCapacity": 0,
+	"explosiveness": 1,
+	"temperature": 1,
+	"flammability": 0,
+	"research": "water",
+	"effect": "none"
+}

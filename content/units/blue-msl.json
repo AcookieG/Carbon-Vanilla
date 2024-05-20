@@ -26,17 +26,17 @@
 	"shootOnDeath": true,
 	"controllable": true,
 	"shootSound": "explosion",
-	"shootCone": 10,
+	"shootCone": 180,
 	"mirror": false
 	"rotateSpeed": 18,
 	"bullet": {
 		"type": "BasicBulletType",
 		"killShooter": true,
-		"instantDisappear": true,
+		"instantDisappear": false,
 		"hitSoundVolume": 1,
 		"hitSound": none,
 		"buildingDamageMultiplier": 1,
-		"damage": 90,
+		"damage": 0,
 		"status": "freezing",
 		"statusDuration": 720
 		"incendAmount": 1,
@@ -45,10 +45,15 @@
 			"collidesAir": true
 			"collidesGround": true
 			"collidesTiles": true
-		"lifeTime": 3
-		"speed": 10
-		"width": 20,
-		"height": 20,
+			"lightning": 1,
+			"lightningDamage": 90,
+			"lightningCone": 1,
+			"lightningLengthRand": 10,
+			"lightningLength": 1,
+		"lifeTime": 10
+		"speed": 9
+		"width": 1,
+		"height": 1,
 		"homingPower": 2,
 		"homingRange": 12,
 		"shootEffect": "none",

@@ -4,7 +4,7 @@
 	"description": "Its high resistance cell allows for almost limitless fluid pressure.",
 	"liquidCapacity": 4600,
 	"size": 1,
-	"health": 300,
+	"health": 160,
 	"category": "liquid",
 	"liquidCapacity": 80,
 	"liquidPressure": 72,

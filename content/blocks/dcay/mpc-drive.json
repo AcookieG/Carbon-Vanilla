@@ -2,7 +2,7 @@
 	"type": "MassDriver",
 	"name": "Mass Production Drive"
 	"description": "Quickly transports items in large batches. Cannot be chain-linked, or items will be lost. Requires no power.",
-	"health": 700,
+	"health": 620,
 	"size": 3,
 	"itemCapacity": 135,
 	"range": 800,

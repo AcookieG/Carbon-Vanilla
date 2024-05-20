@@ -18,9 +18,6 @@
 		"type": "DrawMulti",
 		"drawers": [
 			{
-				"type": "DrawDefault"
-			},
-			{
 				"type": "DrawRegion"
 				"suffix": "-bottom"
 			},
@@ -30,8 +27,7 @@
 				"padding": 4
 			},
 			{
-				"type": "DrawRegion"
-				"suffix": "-top"
+				"type": "DrawDefault"
 			},
 			{
 				"type": "DrawGlowRegion"

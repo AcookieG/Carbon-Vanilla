@@ -4,7 +4,7 @@
   "description": "Quickly transports items forward in large batches.",
   "loadEffect": "none"
   "unloadEffect": "none"
-  "health": 300,
+  "health": 160,
   "speed": 0.25,
   "itemCapacity": 45,
   "outputRouter": true,
