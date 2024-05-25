@@ -1,1 +1,2 @@
 require("heli");
+require("CraftGenerator");
