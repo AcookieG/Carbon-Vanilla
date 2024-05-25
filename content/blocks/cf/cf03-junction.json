@@ -1,0 +1,12 @@
+{
+	"type": "junction",
+	"name": "Carbon Junction",
+	"health": 210,
+	"requirements": [
+		{"item": "carbon-fiber", "amount": 2},
+	],
+	"category": "distribution",
+	"speed": 1,
+	"itemCapacity": 0
+	"research": "cf01-duct"
+}

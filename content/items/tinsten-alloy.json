@@ -1,0 +1,10 @@
+{
+	"type": "material",
+	"name": "Tinsten Alloy",
+	"description": "A strong and durable material, replaces lead in some electronics.",
+	"cost": 1,
+	"flammability": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"color": "aaaaaa"
+}

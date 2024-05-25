@@ -1,0 +1,14 @@
+{
+	"type": "Duct",
+	"name": "Armored Carbon Duct",
+	"health": 580,
+	"requirements": [
+		{"item": "carbon-fiber", "amount": 2},
+		{"item": "thorium", "amount": 2},
+	],
+	"category": "distribution",
+	"speed": 4,
+	"armored": true
+	"research": "01cf-duct"
+	"bridgeReplacement": "cf04-bridge"
+}

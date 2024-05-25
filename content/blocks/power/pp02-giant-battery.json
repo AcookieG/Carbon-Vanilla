@@ -1,0 +1,16 @@
+{
+	"type": "battery",
+	"name": "Giant Battery",
+	"description": "A massive battery, storing large amounts of energy.",
+	"size": 6,
+	"health": 800,
+	"category": "power",
+	"requirements": [
+		{"item": "lead", "amount": 160},
+		{"item": "titanium", "amount": 120},
+		{"item": "silicon", "amount": 120},
+		{"item": "phase-decay", "amount": 80}
+	],
+	"consumes": { "powerBuffered": 500000 },
+	"research": "battery-large"
+}

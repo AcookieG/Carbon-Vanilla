@@ -1,0 +1,119 @@
+{
+	"name": "Heat Vent",
+	"description": 
+'''
+A massive building to transform heat into something usefull. Not much safer than the normal heat relay. 
+Consumes fewer amounts of energy compared to heat relay.
+Gives extra Liquid Heat for full efficiency.
+Conducts power.
+'''
+	"type": "HeatCrafter"
+	"size": 4,
+	"health": 1190,
+	"liquidCapacity": 1760,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"baseExplosiveness": 1,
+	"explosionRadius": 100,
+	"explosionDamage": 20,
+	"updateEffect": {
+		"type": "MultiEffect",
+		"effects": [
+		{
+		"type": "RadialEffect"
+		"amount": 1
+		"rotationSpacing": 90
+		"rotationOffset": 0
+		"lengthOffset": 6
+		"effect": "surgeCruciSmoke"
+		}
+		{
+		"type": "RadialEffect"
+		"amount": 1
+		"rotationSpacing": 45
+		"rotationOffset": 180
+		"lengthOffset": 6
+		"effect": "surgeCruciSmoke"
+		}
+		]
+	}
+	"craftEffect": none
+	"heatRequirement": 7200
+	"maxEfficiency": 1.33334
+	"requirements": [
+		{
+			"item": "graphite",
+			"amount": 300
+		},
+		{
+			"item": "thorium",
+			"amount": 250
+		},
+		{
+			"item": "plastanium",
+			"amount": 190
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 150
+		},
+		{
+			"item": "phase-decay",
+			"amount": 75
+		},
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 35
+				"rotation": 0
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 55
+				"rotation": 30
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 70
+				"rotation": 60
+			},
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatInput"
+				"suffix": "-heat"
+			},
+		]
+	},
+	"consumes": {
+		"power": 10,
+	},
+	"category": "power",
+	"conductivePower": true
+	"rotate": false
+	"loopSound": "hum",
+	"loopSoundVolume": 2,
+	"research": "pq01-heated",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 2,
+	"outputLiquid": {
+		"liquid": "liquidheat",
+		"amount": 16
+	},
+	"craftTime": 1,
+}

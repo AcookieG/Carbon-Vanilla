@@ -3,8 +3,8 @@
   "name": "Power Network",
   "size": 2,
   "health": 99999999,
-  "laserRange": 8000,
-  "maxNodes": 9999,
+  "laserRange": 1600,
+  "maxNodes": 1000,
   "hasPower": true,
   "category": "logic",
   "requirements": [

@@ -1,0 +1,22 @@
+{
+  "type": "PowerNode",
+  "name": "Power Reader",
+	"description": "A tiny reader for power output.",
+  "size": 1,
+  "health": 40,
+  "laserRange": 0,
+  "maxNodes": 1,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 10
+    },
+    {
+      "item": "titanium",
+      "amount": 3
+    },
+  ],
+  "research": "power-node"
+}

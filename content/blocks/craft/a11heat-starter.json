@@ -1,0 +1,95 @@
+{
+	"name": "Superheater",
+	"description": "Heats charged particles until they are fit for particle accelerators of various scale.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 230,
+	"liquidCapacity": 100,
+	"baseExplosiveness": 100,
+	"explosionRadius": 40,
+	"explosionDamage": 160,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "surgeCruciSmoke",
+	"craftEffect": "lava",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "hydrogen",
+				"padding": 2
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "liquidheat",
+				"padding": 2
+			},
+			{
+				"type": "DrawPlasma",
+				"suffix": "-plasma-",
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"power": 6,
+		"liquids": [
+			{
+			"liquid": "hydrogen", 
+			"amount": 1,
+			}
+			{
+			"liquid": "slag", 
+			"amount": 1,
+			}
+		]
+		"items": {
+			"items": [
+				{
+				"item": "surge-alloy",
+				"amount": 1,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 330
+		},
+		{
+			"item": "thorium",
+			"amount": 245
+		},
+		{
+			"item": "silicon",
+			"amount": 200
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 120
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 90
+		},
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "a09hydrogen-separator",
+	"idleSound": "hum",
+	"idleSoundVolume": 1,
+	"outputLiquid": {
+		"liquid": "liquidheat",
+		"amount": 0.05
+	},
+	"craftTime": 30,
+}

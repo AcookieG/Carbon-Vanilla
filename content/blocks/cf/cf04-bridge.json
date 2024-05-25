@@ -1,0 +1,14 @@
+{
+	"type": "ItemBridge",
+	"name": "Carbon Bridge",
+	"health": 210,
+	"hasPower": false
+	"requirements": [
+		{"item": "carbon-fiber", "amount": 3},
+		{"item": "copper", "amount": 6},
+	],
+	"category": "distribution",
+	"transportTime": 1,
+	"range": 5
+	"research": "01cf-duct"
+}

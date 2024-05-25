@@ -13,10 +13,12 @@
 	"shootSound": "largeCannon",
 	"restitution": 0.002,
 	"cooldownTime": 180,
+	"maxAmmo": 50
 	"shootCone": 2,
-	"spread": 0,
 	"rotateSpeed": 0.4,
 	"hasPower": true
+	"hasItems": true
+	"hasLiquids": true
 	"consumes": {
 		"power": 26
 		"coolant": {
@@ -244,38 +246,12 @@
 	},
 	"ammoPerShot": 10,
 	"ammoTypes": {
-		"surge-alloy": {
-			"type": "BasicBulletType",
-			"damage": 2340,
-			"ammoMultiplier": 1,
-			"width": 6,
-			"height": 20,
-			"reloadMultiplier": 1
-			"smokeEffect": "shootBigSmoke"
-			"lifetime": 35,
-			"speed": 24,
-			"pierce": true,
-			"pierceCap": 2
-			"pierceBuilding": true
-			"hitAir": true
-			"drawSize": 300
-			"bulletShrink": -0.7,
-			"lightning": 10,
-			"lightningDamage": 24,
-			"lightningCone": 360,
-			"lightningLengthRand": 4,
-			"lightningLength": 4,
-			"hitShake": 5,
-			"hittable": false
-		},
 		"phase-decay": {
 			"type": "BasicBulletType",
-			"damage": 4560,
-			"ammoMultiplier": 1,
+			"damage": 9460,
 			"width": 6,
 			"height": 20,
 			"drawSize": 350
-			"reloadMultiplier": 1
 			"smokeEffect": "shootBigSmoke"
 			"lifetime": 35,
 			"speed": 24,
@@ -301,5 +277,5 @@
 		{ "item": "metaglass", "amount": 560 }
 	],
 	"category": "turret",
-	"research": "raptor"
+	"research": "z1raptor"
 }

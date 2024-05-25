@@ -1,0 +1,66 @@
+{
+	"name": "Heat Relay",
+	"description": "A building that has the task of reconverting heat to liquid heat. Conducts power. Its main purpose is to actually erase the need for Liquid Heat production, as it can be used for a positive feedback loop.",
+	"type": "HeatCrafter"
+	"size": 2,
+	"health": 260,
+	"liquidCapacity": 120,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"baseExplosiveness": 0.4,
+	"explosionRadius": 40,
+	"explosionDamage": 40,
+	"updateEffect": "steam",
+	"craftEffect": "none",
+	"heatRequirement": 900
+	"maxEfficiency": 1.33334
+	"outputFacing": true
+	"rotate": true
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 110
+		},
+		{
+			"item": "thorium",
+			"amount": 75
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 80
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 120
+		},
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatInput"
+				"suffix": "-heat"
+			},
+		]
+	},
+	"consumes": {
+		"power": 20,
+	},
+	"category": "power",
+	"conductivePower": true
+	"rotate": false
+	"loopSound": "pulse",
+	"loopSoundVolume": 1.0,
+	"research": "steam-generator",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 1,
+	"outputLiquid": {
+		"liquid": "liquidheat",
+		"amount": 2
+	},
+	"craftTime": 1,
+}

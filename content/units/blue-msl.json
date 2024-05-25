@@ -32,7 +32,7 @@
 	"bullet": {
 		"type": "BasicBulletType",
 		"killShooter": true,
-		"instantDisappear": false,
+		"instantDisappear": true,
 		"hitSoundVolume": 1,
 		"hitSound": none,
 		"buildingDamageMultiplier": 1,
@@ -50,8 +50,8 @@
 			"lightningCone": 1,
 			"lightningLengthRand": 10,
 			"lightningLength": 1,
-		"lifeTime": 10
-		"speed": 9
+		"lifeTime": 1
+		"speed": 4
 		"width": 1,
 		"height": 1,
 		"homingPower": 2,

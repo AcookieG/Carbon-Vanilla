@@ -1,0 +1,17 @@
+{
+	"name": "Hydrogen Layer Top",
+	"type": "SteamVent",
+	"variants": 0,
+	"effectSpacing": 15
+	"effectColor": d1e4ffff
+	"effect": steam
+blendGroup: hydrogen-layer
+parent: hydrogen-layer
+	"isLiquid": false,
+	"status": "freezing",
+	"statusDuration": 10,
+	"cacheLayer": "water",
+	"liquidDrop":"hydrogen"
+	"liquidMultiplier": 0.1
+	"damageTaken": 0.5
+}

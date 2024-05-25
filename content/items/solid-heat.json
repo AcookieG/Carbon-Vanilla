@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Solid Heat",
-	"description": "Used to transmit another form of power between factories such as heating arrays.",
+	"description": "Heat; solid (ui)",
 	"cost": 1,
 	"flammability": 1,
 	"radioactivity": 0,

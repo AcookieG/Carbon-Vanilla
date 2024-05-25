@@ -4,20 +4,22 @@
 	"canStayOn": [],
 	"incinerable": false,
 	"spreadDamage": 180,
-	"capPuddles": true,
-	"maxSpread": 80,
+	"capPuddles": false,
+	"maxSpread": 2000,
 	"name": "Liquid Heat",
-	"description": "Yay more internal stuff! Transport with pipes.",
+	"description": "Heat; liquid (ui)",
 	"coolant": false,
 	"color": "ffcd66",
 	"colorFrom": "ffcd66",
 	"colorTo": "e28654",
+	"gas": false
+	"gasColor": "ffcd66"
 	"blockReactive": false,
 	"viscosity": 0,
 	"heatCapacity": 0,
-	"explosiveness": 1,
+	"explosiveness": 2,
 	"temperature": 1,
-	"flammability": 0,
+	"flammability": 2,
 	"research": "water",
-	"effect": "none"
+	"effect": "carbon-vanilla-helios-effect"
 }

@@ -1,0 +1,218 @@
+{
+	"name": "Superheating LH Reactor",
+	"description": 
+'''
+A magnificent building, the magnum opus of years of engineering.
+The best heat treatment facility there is, powerfull enough for an entire sectors. 
+Releases dangereous vapors into the atmosphere, that may cause global planet warming.
+
+A powerfull fusion reactor, consumes Liquid Heat as fuel. A monstrous machine that takes ages to get to full speed.
+
+WARNING: TO BE PROTECTED AT ANY COSTS; YOU WILL NOT HAVE A SECOND CHANCE.
+
+Part of a large power plant.
+'''
+	"type": "ImpactReactor"
+	"size": 8,
+	"health": 4520,
+	"liquidCapacity": 120,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"baseExplosiveness": 1,
+	"explosionRadius": 1000,
+	"explosionDamage": 8000,
+	"explosionShake": 50
+	"powerProduction": 17000,
+	"warmupSpeed": 0.0001,
+	"requirements": [
+		{
+			"item": "graphite",
+			"amount": 420
+		},
+		{
+			"item": "thorium",
+			"amount": 300
+		},
+		{
+			"item": "carbon-fiber",
+			"amount": 200
+		},
+		{
+			"item": "plastanium",
+			"amount": 260
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 300
+		},
+		{
+			"item": "phase-decay",
+			"amount": 210
+		},
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "superheat",
+				"padding": 1.25
+			},
+
+//			{
+//				"type": "DrawBubbles"
+//				"color": "ff3838"
+//				"amount": 30
+//				"spread": 16
+//				"recurrence": 2
+//			},
+
+			{
+				"type": "DrawDefault"
+			},
+
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 35
+				"rotation": 0
+				"x": -16
+				"y": 16
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 55
+				"rotation": 45
+				"x": -16
+				"y": 16
+			},
+
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 35
+				"rotation": 0
+				"x": 16
+				"y": 16
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 55
+				"rotation": 45
+				"x": 16
+				"y": 16
+			},
+
+
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 35
+				"rotation": 0
+				"x": -16
+				"y": -16
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 55
+				"rotation": 45
+				"x": -16
+				"y": -16
+			},
+
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 40
+				"rotation": 0
+				"x": 16
+				"y": -16
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 55
+				"rotation": 45
+				"x": 16
+				"y": -16
+			},
+{
+type: DrawCrucibleFlame
+particles: 150
+particleLife: 160
+particleRad: 40
+particleSize: 5
+fadeMargin: .2
+rotateScl: 25
+flameRadiusMag: 0
+circleStroke: 0
+alpha: .4
+circleSpace: 0
+flameRad: 0
+flameColor: fb9957
+midColor: fb9957
+}
+{
+type: DrawCrucibleFlame
+particles: 30
+particleLife: 160
+particleRad: 20
+particleSize: 5
+fadeMargin: .2
+rotateScl: -25
+flameRadiusMag: 0
+circleStroke: 0
+alpha: .4
+circleSpace: 0
+flameRad: 0
+flameColor: ad74f7
+midColor: ad74f7
+}
+
+			{
+				"type": "DrawRegion"
+				"suffix": "-top"
+			},
+			{
+				"type": "DrawPistons",
+				"sides": 4,
+				"sinScl": 20,
+				"sideOffset": 0,
+				"sinMag": 10
+				"angleOffset": 0
+			},
+
+		]
+	},
+	"consumes": {
+		"power": 2000,
+		"liquids": [
+			"superheat/0.4"
+		]
+	},
+	"category": "power",
+	"conductivePower": true
+	"rotate": false
+	"loopSound": "hum",
+	"loopSoundVolume": 10,
+	"research": "pq02-heated-card",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 10,
+	"itemDuration": 360,
+}

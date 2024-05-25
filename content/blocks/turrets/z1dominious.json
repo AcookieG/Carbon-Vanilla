@@ -28,7 +28,6 @@
 			"shootEffect": "thoriumShoot",
 			"smokeEffect": "thoriumShoot"
 			"speed": 4,
-			"shots": 3,
 			"lifetime": 75,
 			"bulletShrink": 0,
 			"reloadMultiplier": 1.1
@@ -65,7 +64,6 @@
 			"shootEffect": "thoriumShoot",
 			"smokeEffect": "thoriumShoot"
 			"speed": 4,
-			"shots": 3,
 			"homingPower": 0.2,
 			"homingRange": 30,
 			"lifetime": 75,

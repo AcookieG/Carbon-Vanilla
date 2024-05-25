@@ -1,0 +1,22 @@
+type: ParticleWeather
+name: Global Warming
+color: dad2ca
+noiseColor: ff3838
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 140
+sizeMin: 70
+minAlpha: 0
+maxAlpha: 0.3
+density: 1500
+baseSpeed: 5.4
+attributes: {
+  light: -0.1
+}
+opacityMultiplier: 1.2
+force: 0.1
+sound: wind
+soundVol: 1
+duration: 180000
+status: burning
