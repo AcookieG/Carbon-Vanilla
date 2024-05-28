@@ -1,6 +1,6 @@
 {
-	"name": "Large Cryofluid Mixer",
-	"description": "Mixes Titanium and Water in large amounts to produce cryofluid.",
+	"name": "Slag Melter",
+	"description": "Mixes Copper and Water in large amounts to produce Slag.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 140,

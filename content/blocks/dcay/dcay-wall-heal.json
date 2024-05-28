@@ -5,7 +5,7 @@
 	"type": "MendProjector",
 	"health": 3150,
 	"hasPower": false
-	"size": 10,
+	"size": 2,
 	"range": 0,
 	"reload": 2,
 	"useTime": 400,

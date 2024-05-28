@@ -23,24 +23,24 @@ Part of a large power plant.
 	"explosionRadius": 1000,
 	"explosionDamage": 8000,
 	"explosionShake": 50
-	"powerProduction": 17000,
+	"powerProduction": 17500,
 	"warmupSpeed": 0.0001,
 	"requirements": [
 		{
 			"item": "graphite",
-			"amount": 420
+			"amount": 850
 		},
 		{
 			"item": "thorium",
-			"amount": 300
+			"amount": 320
 		},
 		{
 			"item": "carbon-fiber",
-			"amount": 200
+			"amount": 260
 		},
 		{
 			"item": "plastanium",
-			"amount": 260
+			"amount": 310
 		},
 		{
 			"item": "surge-alloy",
@@ -64,13 +64,45 @@ Part of a large power plant.
 				"padding": 1.25
 			},
 
-//			{
-//				"type": "DrawBubbles"
-//				"color": "ff3838"
-//				"amount": 30
-//				"spread": 16
-//				"recurrence": 2
-//			},
+{
+type: DrawCrucibleFlame
+particles: 120
+particleLife: 160
+particleRad: 38
+particleSize: 5
+fadeMargin: .2
+rotateScl: 25
+flameRadiusMag: 0
+circleStroke: 0
+alpha: .4
+circleSpace: 0
+flameRad: 0
+flameColor: fb9957
+midColor: fb9957
+}
+{
+type: DrawCrucibleFlame
+particles: 50
+particleLife: 160
+particleRad: 28
+particleSize: 5
+fadeMargin: .2
+rotateScl: -25
+flameRadiusMag: 0
+circleStroke: 0
+alpha: .4
+circleSpace: 0
+flameRad: 0
+flameColor: ad74f7
+midColor: ad74f7
+}
+			{
+				"type": "DrawBubbles"
+				"color": "fb9957"
+				"amount": 20
+				"spread": 30
+				"recurrence": 2
+			},
 
 			{
 				"type": "DrawDefault"
@@ -138,7 +170,7 @@ Part of a large power plant.
 				"type": "DrawRegion"
 				"suffix": "-fan1"
 				"spinSprite": true
-				"rotateSpeed": 40
+				"rotateSpeed": 35
 				"rotation": 0
 				"x": 16
 				"y": -16
@@ -152,38 +184,6 @@ Part of a large power plant.
 				"x": 16
 				"y": -16
 			},
-{
-type: DrawCrucibleFlame
-particles: 150
-particleLife: 160
-particleRad: 40
-particleSize: 5
-fadeMargin: .2
-rotateScl: 25
-flameRadiusMag: 0
-circleStroke: 0
-alpha: .4
-circleSpace: 0
-flameRad: 0
-flameColor: fb9957
-midColor: fb9957
-}
-{
-type: DrawCrucibleFlame
-particles: 30
-particleLife: 160
-particleRad: 20
-particleSize: 5
-fadeMargin: .2
-rotateScl: -25
-flameRadiusMag: 0
-circleStroke: 0
-alpha: .4
-circleSpace: 0
-flameRad: 0
-flameColor: ad74f7
-midColor: ad74f7
-}
 
 			{
 				"type": "DrawRegion"
@@ -194,14 +194,14 @@ midColor: ad74f7
 				"sides": 4,
 				"sinScl": 20,
 				"sideOffset": 0,
-				"sinMag": 10
+				"sinMag": 8
 				"angleOffset": 0
 			},
 
 		]
 	},
 	"consumes": {
-		"power": 2000,
+		"power": 2500,
 		"liquids": [
 			"superheat/0.4"
 		]

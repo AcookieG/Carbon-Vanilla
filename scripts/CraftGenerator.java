@@ -48,7 +48,26 @@ public class GenericCrafter extends Block{
     /** Only used for legacy cultivator blocks. */
     public boolean legacyReadWarmup = false;
 
+    /** Power production
+    public float powerProduction;
+    public Stat generationType = Stat.basePowerGeneration;
+
+    /**draw
     public DrawBlock drawer = new DrawDefault();
+
+    /** explosion parameters
+    public int explosionRadius = 12;
+    public int explosionDamage = 0;
+    public Effect explodeEffect = Fx.none;
+    public Sound explodeSound = Sounds.none;
+
+    public int explosionPuddles = 10;
+    public float explosionPuddleRange = tilesize * 2f;
+    public float explosionPuddleAmount = 100f;
+    public @Nullable Liquid explosionPuddleLiquid;
+    public float explosionMinWarmup = 0f;
+
+    public float explosionShake = 0f, explosionShakeDuration = 6f;
 
     public GenericCrafter(String name){
         super(name);
@@ -58,14 +77,22 @@ public class GenericCrafter extends Block{
         ambientSound = Sounds.machine;
         sync = true;
         ambientSoundVolume = 0.03f;
-        flags = EnumSet.of(BlockFlag.factory);
+        flags = EnumSet.of(BlockFlag.generator);
         drawArrow = false;
+        baseExplosiveness = 5f;
+    }
+
+    public float getDisplayedPowerProduction(){
+        return powerProduction;
     }
 
     @Override
     public void setStats(){
         stats.timePeriod = craftTime;
         super.setStats();
+
+        stats.add(generationType, powerProduction * 60.0f, StatUnit.powerSecond);
+
         if((hasItems && itemCapacity > 0) || outputItems != null){
             stats.add(Stat.productionTime, craftTime / 60f, StatUnit.seconds);
         }
@@ -82,6 +109,15 @@ public class GenericCrafter extends Block{
     @Override
     public void setBars(){
         super.setBars();
+
+        //display power
+        if(hasPower && outputsPower){
+            addBar("power", (GeneratorBuild entity) -> new Bar(() ->
+            Core.bundle.format("bar.poweroutput",
+            Strings.fixed(entity.getPowerProduction() * 60 * entity.timeScale(), 1)),
+            () -> Pal.powerBar,
+            () -> entity.productionEfficiency));
+        }
 
         //set up liquid bars for liquid outputs
         if(outputLiquids != null && outputLiquids.length > 0){
@@ -165,10 +201,15 @@ public class GenericCrafter extends Block{
         }
     }
 
-    public class GenericCrafterBuild extends Building{
+    public class CraftGeneratorBuild extends Building{
         public float progress;
         public float totalProgress;
         public float warmup;
+
+        public float generateTime;
+        /** The efficiency of the producer. An efficiency of 1.0 means 100% */
+        public float productionEfficiency = 0.0f;
+
 
         @Override
         public void draw(){
@@ -176,9 +217,51 @@ public class GenericCrafter extends Block{
         }
 
         @Override
+        public float warmup(){
+            return enabled ? productionEfficiency : 0f;
+        }
+
+        @Override
+        public void onDestroyed(){
+            super.onDestroyed();
+
+            if(state.rules.reactorExplosions){
+                createExplosion();
+            }
+        }
+
+        public void createExplosion(){
+            if(shouldExplode()){
+                if(explosionDamage > 0){
+                    Damage.damage(x, y, explosionRadius * tilesize, explosionDamage);
+                }
+
+                explodeEffect.at(this);
+                explodeSound.at(this);
+
+                if(explosionPuddleLiquid != null){
+                    for(int i = 0; i < explosionPuddles; i++){
+                        Tmp.v1.trns(Mathf.random(360f), Mathf.random(explosionPuddleRange));
+                        Tile tile = world.tileWorld(x + Tmp.v1.x, y + Tmp.v1.y);
+                        Puddles.deposit(tile, explosionPuddleLiquid, explosionPuddleAmount);
+                    }
+                }
+
+                if(explosionShake > 0){
+                    Effect.shake(explosionShake, explosionShakeDuration, this);
+                }
+            }
+        }
+
+        @Override
         public void drawLight(){
             super.drawLight();
             drawer.drawLight(this);
+        }
+
+        @Override
+        public float getPowerProduction(){
+            return enabled ? powerProduction * productionEfficiency : 0f;
         }
 
         @Override

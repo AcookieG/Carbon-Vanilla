@@ -1,79 +1,66 @@
 localizedName: Servar
-description: Serpulo's moon, much smaller in size, but still plentyfull of materials. You'll have to survive with an awkward lack of some essential elments though...
+description: Similar to Serpulo, except for the fact that the planet's technology is much different.
+generator: ServPlanetGenerator
 alwaysUnlocked: true
 mesh: [
+  {
+    //sandstone low
+    type: NoiseMesh
+    planet: servar
+    divisions: 6
+    seed: 107
+    radius: 1.247
+    color1: d99d73
+    color2: b8705c
+    octaves: 4.5
+    persistence: 1.1
+  }
+ {
+    //hydrogen
+    type: NoiseMesh
+    planet: servar
+    divisions: 6
+    seed: 114
+    radius: 1.229
+    color1: d1e4ff
+    color2: 97a5f7
+    octaves: 3.7
+    persistence: 1.1
+  }
  {
     //water
     type: NoiseMesh
     planet: servar
-    divisions: 5
+    divisions: 6
     seed: 7
     radius: 1.229
-    color1: 587d89
-    color2: 5e95a8
+    color1: 4f84ff
+    color2: 3957ed
     octaves: 3.7
     persistence: 1.1
   }
   {
-    //redsand
-    type: NoiseMesh
-    planet: servar
-    divisions: 5
-    radius: 1.22
-    seed: 94
-    color1: e9e9de
-    color2: c2c1b4
-    octaves: 3.7
-    persistence: 0.6
-  }
-  {
-    //sand
+    //sandstone light
     type: NoiseMesh
     planet: servar
     divisions: 6
-    seed: 101
-    radius: 1.2441
-    color1: babca8
-    color2: c6c282
-    octaves: 5.1
-    persistence: 0.8
-  }
-  {
-    //bluesand
-    type: NoiseMesh
-    planet: servar
-    seed: 69
-    divisions: 5
-    color1: d5c995
-    color2: 666359
-    radius: 1.212
-    octaves: 4
-    persistence: 1
-    scale: 0.75
-    mag: 1
-  }
-  {
-    //sandstone
-    type: NoiseMesh
-    planet: servar
-    divisions: 5
-    seed: 19
+    seed: 14
     radius: 1.247
-    color1: f8efe6
-    color2: bab4ae
+    color1: eac2a9
+    color2: d99d73
     octaves: 4.5
     persistence: 1.1
   }
   {
-    //hydrogen
+    //forest
     type: NoiseMesh
     planet: servar
-    divisions: 5
-    seed: 7
-    radius: 1.229
-    color1: 587d89
-    color2: 5e95a8
-    octaves: 3.7
+    divisions: 6
+    seed: 21
+    radius: 1.247
+    color1: 58f56a
+    color2: 3ead68
+    octaves: 3
     persistence: 1.1
   }
 ]
@@ -84,34 +71,10 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: eafffd7e
+   color: ffffff
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: servar
-   speed: 1.01
-   radius: 0.11
-   divisions: 6
-   color: eafffd7e
-   octaves: 3
-   persistence: 0.4
-   scl: 0.9
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: servar
-   speed: 0.891
-   radius: 0.091
-   divisions: 6
-   color: eafffd7e
-   octaves: 3
-   persistence: 0.5
-   scl: 1.1
    thresh: 0.6
   }
 ]
@@ -125,12 +88,12 @@ generator: {
   max: 100
   radMin: 220
   radMax: 600
-  iceChance: 0.51
-  carbonChance: 0.32
+  iceChance: 0
+  carbonChance: 0.7
   berylChance: 0
-  ferricChance: 0.26
+  ferricChance: 0.3
 }
-sectorSize: 1
+sectorSize: 3
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
@@ -139,16 +102,16 @@ startSector: 0
 orbitSpacing: 1
 radius: 1.2
 minZoom: 1.5
-drawOrbit: flse
+drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
-sectorSeed: 14513
+sectorSeed: 1
 bloom: false
 visible: true
-atmosphereColor: 666359
-iconColor: 666359
+atmosphereColor: 3ead68
+iconColor: 3ead68
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
@@ -163,11 +126,10 @@ itemWhitelist: [
   "sand"
   "copper",  
   "titanium",
-  "tungsten", 
   "thorium", 
-  "tinsten-alloy",
   "graphite", 
   "silicon",
+  "plastanium",
   "phase-fabric",
   "surge-alloy", 
   "solid-heat", 

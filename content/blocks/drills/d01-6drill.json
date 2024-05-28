@@ -3,7 +3,7 @@
 	"description": "ABSOLUTE POWER",
 	"type": "Drill",
 	"size": 5,
-	"tier": 10,
+	"tier": 18,
 	"updateEffect": "pulverizeRed",
 	"drillTime": 30,
 	"drawRim": true,

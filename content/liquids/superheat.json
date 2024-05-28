@@ -5,16 +5,15 @@
 	"incinerable": false,
 	"spreadDamage": 8000,
 	"capPuddles": false,
-	"maxSpread": 2000,
+	"maxSpread": 20,
 	"name": "Pure Heat",
 	"description": "Heat; liquid (ui)",
 	"coolant": false,
 	"color": "e75d48",
 	"colorFrom": "fb9957",
 	"colorTo": "e75d48",
-	"gas": false
 	"gasColor": "e75d48"
-	"blockReactive": false,
+	"blockReactive": true,
 	"viscosity": 0.5,
 	"heatCapacity": 0,
 	"explosiveness": 100,
@@ -22,5 +21,5 @@
 	"flammability": 100,
 	"research": "liquidheat",
 	"effect": "carbon-vanilla-helios-effect"
-	 "gas": true,
+	"gas": true,
 }

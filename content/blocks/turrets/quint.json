@@ -26,7 +26,7 @@
 	"shootType": {
 		"type": "LaserBulletType"
 		"sprite": "carbon-vanilla-clear",
-		"damage": 220,
+		"damage": 18,
 		"length": 130,
 		"width": 12,
 		"hitEffect": "hitLancer",
