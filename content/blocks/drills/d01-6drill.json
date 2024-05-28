@@ -5,7 +5,7 @@
 	"size": 5,
 	"tier": 18,
 	"updateEffect": "pulverizeRed",
-	"drillTime": 30,
+	"drillTime": 10,
 	"drawRim": true,
 	"drawMineItem": false,
 	"consumes": {

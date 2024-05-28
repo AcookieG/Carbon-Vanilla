@@ -1,0 +1,27 @@
+{
+	"name": "Pump Drill",
+	"description": "A weak mechanical drill made of lead, to mine early game items.",
+	"type": "Drill",
+	"size": 2,
+	"tier": 1,
+	"updateEffect": "steam",
+	"drillTime": 600,
+	"drawRim": false,
+	"drawMineItem": false,
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		lead/40
+	],
+	"category": "production",
+	"research": {
+		"parent": "core-adventure"
+		"planet": "carbon-vanilla-Anthras"
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "localizedName": "Core: Adventure",
+  "type": "CoreBlock",
+  "health": 850,
+  "squareSprite": false,
+  "size": 3,
+  "armor": 10,
+  "itemCapacity": 2800,
+  "unitCapModifier": 0,
+  "unitType": "flare",
+  "category": "effect",
+research: {
+root: true
+name: Anthras
+alwaysUnlocked: true
+planet: carbon-vanilla-Anthras
+	}
+}

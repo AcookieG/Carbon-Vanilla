@@ -1,6 +1,6 @@
-localizedName: Servar
-description: Similar to Serpulo, except for the fact that the planet's technology is much different.
-generator: ServPlanetGenerator
+localizedName: Anthras
+description: Similar to Serpulo, but lacks enrgy systems. Under an nextremely dense atmosphere.
+generator: tantPlanetGenerator
 alwaysUnlocked: true
 mesh: [
   {
@@ -89,48 +89,49 @@ generator: {
   radMin: 220
   radMax: 600
   iceChance: 0
-  carbonChance: 0.7
+  carbonChance: 0
   berylChance: 0
-  ferricChance: 0.3
+  ferricChance: 0
 }
-sectorSize: 3
+sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: true
 startSector: 0
 orbitSpacing: 1
-radius: 1.2
+radius: 1
 minZoom: 1.5
 drawOrbit: true
-atmosphereRadIn: 0
+atmosphereRadIn: -0.1
 atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
 sectorSeed: 1
 bloom: false
 visible: true
-atmosphereColor: 3ead68
+atmosphereColor: 35808750
 iconColor: 3ead68
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: core-shard
+defaultCore: core-adventure
 parent: sun
+orbitRadius: 90
+orbitTime: 240
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  "coal"
+  "anthracite"
   "sand"
-  "copper",  
-  "titanium",
+  "lead",  
   "thorium", 
   "graphite", 
-  "silicon",
-  "plastanium",
+  "scrap",
+  "pyratite",
   "phase-fabric",
-  "surge-alloy", 
+  "dense-alloy", 
   "solid-heat", 
 ]

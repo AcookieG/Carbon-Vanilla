@@ -1,0 +1,28 @@
+{
+	"name": "Press Drill",
+	"description": "A building to mine anthracite.",
+	"type": "Drill",
+	"size": 2,
+	"tier": 2,
+	"updateEffect": "steam",
+	"drillTime": 300,
+	"drawRim": false,
+	"drawMineItem": false,
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		lead/80
+		metaglass/15
+	],
+	"category": "production",
+	"research": {
+		"parent": "d01-1drill"
+		"planet": "carbon-vanilla-Anthras"
+	}
+}
