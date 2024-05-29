@@ -1,7 +1,7 @@
 {
 	"name": "Carbonized Tsunami",
-	"description": "A modified version of Tsunami, Fires liquid fire at enemies.",
-	"details": "Fires powerfull streams of fire at enemies."
+	"description": "A modified version of Tsunami, shoots liquid fire at enemies.",
+	"details": "Fires powerfull streams of liquid at enemies."
 	"type": "ItemTurret",
 	"health": 1630,
 	"size": 3,
@@ -27,19 +27,19 @@
 		{
 			"type": "RegionPart",
 			"suffix": "-wing",
-			"moveY": -3,
-			"moveX": -3,
+			"moveY": -5,
+			"moveX": -5,
 			"moveRot": 0,
 			"mirror": true,
 			"progress": "warmup"
 		},
 		{
 			"type": "RegionPart",
-			"suffix": "",
+			"suffix": "-none",
 			"moveY": 0,
 			"moveX": 0,
 			"moveRot": 0,
-			"mirror": true,
+			"mirror": false,
 			"progress": "warmup"
 		},
 		{
@@ -76,7 +76,7 @@
 				"colorFrom": "f4f4f4",
 				"colorMid": "d3d9e8",
 				"colorTo": "c1c3d4",
-				"damage": 6,
+				"damage": 12,
 				"width": 20,
 				"height": 20,
 				"status": "burning",
@@ -106,14 +106,14 @@
 			"reflectable": false
 			"absorbable": false
 			"intervalBullets": 2,
-			"intervalRandomSpread": 4,
-			"bulletInterval": 12,
+			"intervalRandomSpread": 2.5,
+			"bulletInterval": 10,
 			"intervalBullet": {
 				"type": "FireBulletType",
 				"colorFrom": "f4f4f4",
 				"colorMid": "d3d9e8",
 				"colorTo": "c1c3d4",
-				"damage": 6,
+				"damage": 12,
 				"width": 20,
 				"height": 20,
 				"status": "melting",
@@ -131,10 +131,10 @@
 	},
 	"consumes": {
 		"coolant": {
-		"amount": 1
+		"amount": 0.2
 		}
 	},
-	"coolantMultiplier": 1
+	"coolantMultiplier": 6.5
 	"requirements": [
 		{ "item": "lead", "amount": 420 },
 		{ "item": "metaglass", "amount": 110 },

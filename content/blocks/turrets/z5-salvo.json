@@ -98,10 +98,10 @@
 	},
 	"consumes": {
 		"coolant": {
-		"amount": 1
+		"amount": 0.2
 		}
 	},
-	"coolantMultiplier": 1.3334
+	"coolantMultiplier": 6.5
 	"requirements": [
 		{ "item": "copper", "amount": 130 },
 		{ "item": "titanium", "amount": 60 },
