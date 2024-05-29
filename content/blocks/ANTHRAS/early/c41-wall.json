@@ -1,0 +1,16 @@
+{
+	"name": "Lead Wall",
+	"description": "A weak wall for defenses. Has armor.",
+	"type": "Wall",
+	"health": 320,
+	"size": 1,
+	"requirements": [
+		{ "item": "lead", "amount": 6 }
+	],
+	"category": "defense",
+	"armor": 1
+	"research": {
+		"parent": "core-adventure"
+		"planet": "carbon-vanilla-Anthras"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"name": "Jet Piecer",
+	"description": "A powerfull drill to mine the toughest of items.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 4,
+	"updateEffect": "pulverizeRed",
+	"drillTime": 100,
+	"drawRim": true,
+	"drawMineItem": false,
+	"consumes": {
+		"liquid": {
+			"liquid": "pressure", 
+			"amount": 0.1,
+			"optional": false,
+			"booster": false
+		}
+	},
+	"requirements": [
+		{ "item": "masurim", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "glass", "amount": 60 }
+	],
+	"category": "production",
+	"research": {
+		"parent": "core-adventure"
+		"planet": "carbon-vanilla-Anthras"
+	}
+}

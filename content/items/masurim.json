@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Mesurim",
+	"description": "Radioactive. Idk i invented it.",
+	"cost": 3.5,
+	"flammability": 0,
+	"radioactivity": 1,
+	"explosiveness": 0,
+	"color": "af4753"
+	"hardness": 7
+}

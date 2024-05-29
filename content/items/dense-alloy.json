@@ -2,7 +2,7 @@
 	"type": "material",
 	"name": "Anthracite",
 	"description": "A strong and durable material.",
-	"cost": 2,
+	"cost": 5,
 	"flammability": 0,
 	"radioactivity": 0,
 	"explosiveness": 0,

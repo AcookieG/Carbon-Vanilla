@@ -1,0 +1,14 @@
+{
+	"type": "Router",
+	"name": "Router",
+	"requirements": [
+		{"item": "lead", "amount": 3},
+	],
+	"category": "distribution",
+	"itemCapacity": 1
+	"speed": 1,
+	"research": {
+		"parent": "c01-bridge"
+		"planet": "carbon-vanilla-Anthras"
+	}
+}

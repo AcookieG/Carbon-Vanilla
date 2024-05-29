@@ -1,0 +1,52 @@
+{
+	"name": "KILLV2",
+	"description": "I have seen enough. I am satisfied. -Satisfied",
+"sandboxOnly": true,
+	"type": "powerTurret",
+	"health": 999999,
+	"size": 1,
+	"reload": 1,
+	"shake": 0,
+	"recoil": -8,
+	"range": 2000,
+	"ammoUseEffect": none,
+	"shootSound": none,
+	"restitution": 0.01,
+	"cooldownTime": 50,
+	"shootCone": 360,
+	"spread": 0,
+	"rotateSpeed": 25,
+	"hasPower": true
+	"shootType": {
+			"type": "BasicBulletType",
+			"damage": 123450,
+			"width": 8,
+			"length": 20,
+			"reloadMultiplier": 10
+			"shootEffect": "none",
+			"smokeEffect": "shootBigSmoke"
+			"lifetime": 70,
+			"speed": 80,
+			"pierce": true,
+			"pierceCap": 50
+			"hitAir": true
+			"bulletShrink": -0.7,
+			"lightning": 50,
+			"lightningDamage": 1000,
+			"lightningCone": 360,
+			"lightningLengthRand": 4,
+			"lightningLength": 80,
+			"homingPower": 5,
+			"homingRange": 3000,
+		},
+	"consumes": {
+		"power": 0
+	},
+	"requirements": [
+		{ "item": "phase-decay", "amount": 2500000 },
+		{ "item": "spore-pod", "amount": 150000 },
+   	     { "item": "surge-alloy", "amount": 2000000 }
+	],
+	"category": "logic",
+	"research": "duo"
+}

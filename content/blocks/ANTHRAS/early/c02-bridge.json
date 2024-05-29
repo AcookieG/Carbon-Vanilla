@@ -1,0 +1,15 @@
+{
+	"type": "DuctBridge",
+	"name": "Graphite Parallel",
+	"hasPower": false
+	"requirements": [
+		{"item": "graphite", "amount": 2},
+	],
+	"category": "distribution",
+	"transportTime": 6,
+	"range": 4
+	"research": {
+		"parent": "c01-bridge"
+		"planet": "carbon-vanilla-Anthras"
+	}
+}

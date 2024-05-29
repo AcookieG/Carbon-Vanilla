@@ -1,0 +1,17 @@
+{
+	"type": "StorageBlock",
+	"name": "Store"
+	"description": "A small storage block, to hold items for production or turrets.",
+	"size": 2,
+	"itemCapacity": 100,
+	"hasItems": true,
+	"requirements": [
+		{"item": "glass", "amount": 100},
+		{"item": "graphite", "amount": 100},
+	]
+	"category": "distribution",
+	"research": {
+		"parent": "c06-router"
+		"planet": "carbon-vanilla-Anthras"
+	}
+}

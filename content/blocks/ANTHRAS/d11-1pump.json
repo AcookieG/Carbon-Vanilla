@@ -1,0 +1,23 @@
+{
+	"name": "Small Pump",
+	"type": "Pump"
+	"pumpAmount": 0.5
+	"requirements": [
+		{
+			"item": "lead",
+			"amount": 20
+		},
+		{
+			"item": "glass",
+			"amount": 50
+		},
+	]
+	"liquidCapacity": 10
+	"size": 1
+	"research": {
+		"parent": "core-adventure"
+		"planet": "carbon-vanilla-Anthras"
+	}
+	"category": "liquid"
+	"hasPower": false
+}

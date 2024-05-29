@@ -9,4 +9,5 @@
 	}
 blendGroup: sandstone-rough
 parent: sandstone-rough
+itemDrop: sand
 }

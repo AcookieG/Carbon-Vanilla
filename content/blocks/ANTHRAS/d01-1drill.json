@@ -1,5 +1,5 @@
 {
-	"name": "Pump Drill",
+	"name": "Small Drill",
 	"description": "A weak mechanical drill made of lead, to mine early game items.",
 	"type": "Drill",
 	"size": 2,
@@ -10,7 +10,7 @@
 	"drawMineItem": false,
 	"consumes": {
 		"liquid": {
-			"liquid": "water", 
+			"liquid": "pressure", 
 			"amount": 0.1,
 			"optional": true,
 			"booster": true
@@ -23,5 +23,8 @@
 	"research": {
 		"parent": "core-adventure"
 		"planet": "carbon-vanilla-Anthras"
+		"requirements": [
+		"lead/40"
+		]
 	}
 }

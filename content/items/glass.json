@@ -1,0 +1,10 @@
+{
+	"type": "material",
+	"name": "Heavy Glass",
+	"description": "A weak material but great insulator. Resistant to pressure.",
+	"cost": 1.5,
+	"flammability": 0,
+	"radioactivity": 0,
+	"explosiveness": -0.1,
+	"color": "f4f4f4"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "Stroke Piercer",
+	"type": "Pump"
+	"pumpAmount": 1.25
+	"requirements": [
+		{ "item": "masurim", "amount": 60 },
+		{ "item": "lead", "amount": 90 },
+		{ "item": "glass", "amount": 70 }
+	]
+	"consumes": {
+		"liquid": {
+			"liquid": "pressure", 
+			"amount": 0.2,
+			"optional": false,
+			"booster": false
+		}
+	},
+	"liquidCapacity": 30
+	"size": 2
+	"research": {
+		"parent": "d12-2pump"
+		"planet": "carbon-vanilla-Anthras"
+	}
+	"category": "liquid"
+	"hasPower": false
+}

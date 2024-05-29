@@ -127,11 +127,12 @@ itemWhitelist: [
   "anthracite"
   "sand"
   "lead",  
-  "thorium", 
+  "glass", 
   "graphite", 
-  "scrap",
   "pyratite",
   "phase-fabric",
   "dense-alloy", 
   "solid-heat", 
+  "masurim", 
+  "scrap", 
 ]

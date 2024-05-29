@@ -2,7 +2,5 @@
 	"name": "Rough Sandstone",
 	"type": "Floor",
 	"variants": 3,
-	attributes: {
-		heat: 0.1
-	}
+itemDrop: sand
 }

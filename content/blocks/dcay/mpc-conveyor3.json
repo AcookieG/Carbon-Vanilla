@@ -1,0 +1,16 @@
+{
+  "type": "StackRouter",
+  "name": "HyperRouter"
+  "description": "Quickly transports items forward in large batches.",
+  "health": 80,
+  "speed": 1,
+  "itemCapacity": 300,
+  "requirements": [
+    "silicon/80",
+    "titanium/80",
+    "phase-decay/50"
+    "carbon-fiber/50"
+  ],
+  "research": "mpc-conveyor2",
+  "category": "distribution"
+}

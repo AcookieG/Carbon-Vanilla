@@ -1,0 +1,14 @@
+{
+	"type": "junction",
+	"name": "Junction",
+	"requirements": [
+		{"item": "lead", "amount": 4},
+	],
+	"category": "distribution",
+	"speed": 1,
+	"itemCapacity": 6
+	"research": {
+		"parent": "c01-bridge"
+		"planet": "carbon-vanilla-Anthras"
+	}
+}
