@@ -5,16 +5,16 @@
 	"type": "ItemTurret",
 	"health": 1630,
 	"size": 3,
-	"reload": 2,
+	"reload": 6,
 	"shake": 0.2,
 	"range": 250,
-	"ammoUseEffect": "casing3",
+	"ammoUseEffect": "casing3Double",
 	"shootSound": "flame",
 	"restitution": 0.01,
 	"shootCone": 15,
 	"hasLiquids": true,
 	"cooldownTime": 50,
-	"inaccuracy": 3,
+	"inaccuracy": 1,
 	"velocityRnd": 0.1,
 	"shoot": {
 		"type": "shootSpread",
@@ -35,8 +35,17 @@
 		},
 		{
 			"type": "RegionPart",
+			"suffix": "",
+			"moveY": 0,
+			"moveX": 0,
+			"moveRot": 0,
+			"mirror": true,
+			"progress": "warmup"
+		},
+		{
+			"type": "RegionPart",
 			"suffix": "-cannon",
-			"moveY": 2,
+			"moveY": -2,
 			"moveX": 0,
 			"moveRot": 0,
 			"mirror": false,
@@ -51,8 +60,8 @@
 			"damage": 0,
 			"instantDisapear": false
 			"lifetime": 50
-			"velMin": 3.5
-			"velMax": 6.5
+			"velMin": 2.5
+			"velMax": 6
 			"collidesAir": false
 			"collidesGround": false
 			"collidesTiles": false
@@ -60,8 +69,8 @@
 			"reflectable": false
 			"absorbable": false
 			"intervalBullets": 1,
-			"intervalRandomSpread": 12,
-			"bulletInterval": 12,
+			"intervalRandomSpread": 4,
+			"bulletInterval": 20,
 			"intervalBullet": {
 				"type": "FireBulletType",
 				"colorFrom": "f4f4f4",
@@ -73,9 +82,6 @@
 				"status": "burning",
 				"statusDuration": 300
 				"lifetime": 60
-				"incendAmount": 1,
-				"incendSpread": 10,
-				"incendChance": 2,
 				"velMin": 2.1
 				"velMax": 10
 				"hitGround": true
@@ -91,8 +97,8 @@
 			"damage": 0,
 			"instantDisapear": false
 			"lifetime": 50
-			"velMin": 3.5
-			"velMax": 6.5
+			"velMin": 2.8
+			"velMax": 6.8
 			"collidesAir": false
 			"collidesGround": false
 			"collidesTiles": false
@@ -100,8 +106,8 @@
 			"reflectable": false
 			"absorbable": false
 			"intervalBullets": 2,
-			"intervalRandomSpread": 12,
-			"bulletInterval": 6,
+			"intervalRandomSpread": 4,
+			"bulletInterval": 12,
 			"intervalBullet": {
 				"type": "FireBulletType",
 				"colorFrom": "f4f4f4",
@@ -113,9 +119,6 @@
 				"status": "melting",
 				"statusDuration": 300
 				"lifetime": 60
-				"incendAmount": 1,
-				"incendSpread": 10,
-				"incendChance": 2,
 				"velMin": 2.1
 				"velMax": 10
 				"hitGround": true
