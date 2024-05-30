@@ -12,7 +12,6 @@
 	"maxVelocity": 8,
 	"flying": true,
 	"range": 160,
-	"attackLength": 160,
 	"itemCapacity": 10,
 	"template": "ErekirUnitType",
 	"armor": 2,
@@ -24,7 +23,9 @@
 	"engineSize": 0,
 	"faceTarget": true,
 	"buildSpeed": 0.75
-	"buildBeamOffset": 20
+	"buildBeamOffset": 0
+	"mineTier": 2
+	"mineSpeed": 3
 	"weapons": [
 		{
 			"name": "gun-green",
