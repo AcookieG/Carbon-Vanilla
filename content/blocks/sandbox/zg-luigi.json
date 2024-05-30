@@ -4,11 +4,11 @@
     "name": "DOOMe",
     "description": "lol.",
     "size": 2,
-    "health": 500000000,
+    "health": 5000000000,
     "radius": 300,
-    "cooldownNormal": 5,
-    "cooldownLiquid": 5,
-    "cooldownBrokenBase": 5,
+    "cooldownNormal": 1,
+    "cooldownLiquid": 1,
+    "cooldownBrokenBase": 1,
     "hasPower": false
     "category": "logic",
     "requirements": [

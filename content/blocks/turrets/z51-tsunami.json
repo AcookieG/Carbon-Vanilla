@@ -57,17 +57,20 @@
 		"blast-compound": {
 			"type": "BasicBulletType",
 			"despawnHit": true,
-			"damage": 0,
+			"damage": 60,
 			"instantDisapear": false
 			"lifetime": 50
-			"velMin": 2.5
+			"velMin": 3.5
 			"velMax": 6
-			"collidesAir": false
-			"collidesGround": false
+			"collidesAir": true
+			"collidesGround": true
 			"collidesTiles": false
 			"hittable": false
 			"reflectable": false
 			"absorbable": false
+			"pierce": true,
+			"pierceCap": 2
+			"pierceBuilding": true
 			"intervalBullets": 1,
 			"intervalRandomSpread": 4,
 			"bulletInterval": 20,
@@ -76,14 +79,14 @@
 				"colorFrom": "f4f4f4",
 				"colorMid": "d3d9e8",
 				"colorTo": "c1c3d4",
-				"damage": 12,
+				"damage": 34,
 				"width": 20,
 				"height": 20,
 				"status": "burning",
 				"statusDuration": 300
 				"lifetime": 60
 				"velMin": 2.1
-				"velMax": 10
+				"velMax": 8
 				"hitGround": true
 				"hitAir": true
 				"drawSize": 250
@@ -94,17 +97,20 @@
 		"carbon-fiber": {
 			"type": "BasicBulletType",
 			"despawnHit": true,
-			"damage": 0,
+			"damage": 60,
 			"instantDisapear": false
 			"lifetime": 50
-			"velMin": 2.8
+			"velMin": 3.8
 			"velMax": 6.8
-			"collidesAir": false
-			"collidesGround": false
+			"collidesAir": true
+			"collidesGround": true
 			"collidesTiles": false
 			"hittable": false
 			"reflectable": false
 			"absorbable": false
+			"pierce": true,
+			"pierceCap": 3
+			"pierceBuilding": true
 			"intervalBullets": 2,
 			"intervalRandomSpread": 2.5,
 			"bulletInterval": 10,
@@ -113,14 +119,14 @@
 				"colorFrom": "f4f4f4",
 				"colorMid": "d3d9e8",
 				"colorTo": "c1c3d4",
-				"damage": 12,
+				"damage": 34,
 				"width": 20,
 				"height": 20,
 				"status": "melting",
 				"statusDuration": 300
 				"lifetime": 60
 				"velMin": 2.1
-				"velMax": 10
+				"velMax": 8.5
 				"hitGround": true
 				"hitAir": true
 				"drawSize": 250

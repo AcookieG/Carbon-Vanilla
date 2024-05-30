@@ -7,7 +7,7 @@
 	"hasPower": false
 "sandboxOnly": true,
 	"range": 400,
-	"reload": 30,
+	"reload": 1,
 	"useTime": 100,
 	"healPercent": 100,
 	"requirements": [

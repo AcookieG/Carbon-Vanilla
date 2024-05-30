@@ -5,7 +5,7 @@
 	"type": "ItemTurret",
 	"health": 1870,
 	"size": 3,
-	"reload": 10,
+	"reload": 9,
 	"shake": 1,
 	"range": 250,
 	"ammoUseEffect": "casing3Double",
@@ -37,8 +37,8 @@
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 22,
-				"fragVelocityMin": 0.3,
-				"fragVelocityMax": 4.9,
+				"VelMin": 0.3,
+				"VelMax": 4.9,
 				"lifetime": 15,
 			},
 		},
@@ -47,7 +47,7 @@
 			"drawsize": 230,
 			"collideAir": true
 			"reloadMultiplier": 1.15,
-			"damage": 67,
+			"damage": 78,
 			"ammoMultiplier": 3,
 			"width": 8,
 			"height": 12,
@@ -63,7 +63,7 @@
 			"type": "BasicBulletType",
 			"drawsize": 250,
 			"collideAir": true
-			"damage": 68,
+			"damage": 75,
 			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,
@@ -84,7 +84,7 @@
 				"shrinkX": 0.3,
 				"shrinkY": 0.3,
 				"drawsize": 380,
-				"damage": 90,
+				"damage": 100,
 				"speed": 0,
 				"lifetime": 240,
 				"hitEffect": "massiveExplosion"
