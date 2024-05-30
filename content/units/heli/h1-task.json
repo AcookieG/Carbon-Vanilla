@@ -23,6 +23,8 @@
 	"engineOffset": 0,
 	"engineSize": 0,
 	"faceTarget": true,
+	"buildSpeed": 0.75
+	"buildBeamOffset": 20
 	"weapons": [
 		{
 			"name": "gun-green",
@@ -33,7 +35,7 @@
 			"recoil": 1,
 			"rotationLimit": 0,
 			"inaccuracy": 5,
-			"shootSound": "shoot"
+			"shootSound": "lasershoot"
 			"ejectEffect": "casing1",
 			"rotate": false
 			"shootCone": 20,
@@ -42,17 +44,17 @@
 			"y": 0
 			"shootY": 2
 			"mirror": true
-			"shootEffect": "shootBig"
 			"rotateSpeed": 0,
 			"bullet": {
-				"type": "BasicBulletType",
+				"type": "LaserBoltBulletType",
 				"speed": 8,
 				"damage": 6,
 				"lifetime": 20,
-				"width": 6,
-				"height": 9,
-				"smokeEffect": "shootSmallSmoke"
 				"recoil": 0.03,
+				"healPercent": 2
+				"frontColor": "ffffff"
+				"backColor": "6cf5d7"
+				"collidesTeam": true
 			},
 		},
 	]
