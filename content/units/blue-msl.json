@@ -4,7 +4,7 @@
 "template": "MissileUnitType", 
 "lowAltitude": true,
 "speed": 5,
-"rotateSpeed": 4.2,
+"rotateSpeed": 5,
 "lifetime": 80,
 "physics": false,
 "flying": true,
@@ -39,9 +39,6 @@
 		"damage": 0,
 		"status": "freezing",
 		"statusDuration": 720
-		"incendAmount": 1,
-		"incendSpread": 10,
-		"incendChance": 2,
 			"collidesAir": true
 			"collidesGround": true
 			"collidesTiles": true
