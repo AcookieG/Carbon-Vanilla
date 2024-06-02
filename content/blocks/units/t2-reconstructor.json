@@ -17,12 +17,8 @@
 	},
 	"upgrades": [
 		[
-			"y1-vague",
-			"y2-boring"
-		]
-		[
-			"b1-uneasy",
-			"b2-stress"
+			"h1-task",
+			"h2-project"
 		]
 		[
 			"w1-roll",

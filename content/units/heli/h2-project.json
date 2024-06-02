@@ -5,19 +5,15 @@
 	"rotateSpeed": 4.5,
 	"speed": 1.8,
 	"drag": 0.025,
-"accel": 0.1
-"boostMultiplier": 2
-"canBoost": true
 	"mass": 3,
-	"maxVelocity": 8,
+	"maxVelocity": 11,
 	"flying": true,
 	"range": 160,
 	"itemCapacity": 10,
-	"template": "ErekirUnitType",
 	"armor": 4,
 	"hitSize": 18,
 	"health": 120,
-	"singleTarget": false,
+	"singleTarget": true,
 	"rotateMoveFirst": true,
 	"engineOffset": 0,
 	"engineSize": 0,

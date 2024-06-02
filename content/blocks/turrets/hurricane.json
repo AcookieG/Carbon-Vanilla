@@ -35,6 +35,8 @@
 			"knockback": 2,
 			"ammoMultiplier": 3,
 			"status": "wet"
+			"healPercent": 0.05
+			"collidesTeam": true
 		}
 		"coal": {
 			"type": "LiquidBulletType",
@@ -48,6 +50,8 @@
 			"knockback": 4,
 			"ammoMultiplier": 4,
 			"status": "tarred"
+			"healPercent": 0.05
+			"collidesTeam": true
 		}
 		"sand": {
 			"type": "LiquidBulletType",
@@ -61,6 +65,8 @@
 			"knockback": 1.5,
 			"ammoMultiplier": 3,
 			"status": "melting"
+			"healPercent": 0.05
+			"collidesTeam": true
 		}
 		"titanium": {
 			"type": "LiquidBulletType",
@@ -74,6 +80,8 @@
 			"knockback": 1,
 			"ammoMultiplier": 4,
 			"status": "freezing"
+			"healPercent": 0.05
+			"collidesTeam": true
 		}
 	}
 	"requirements": [

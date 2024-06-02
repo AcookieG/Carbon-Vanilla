@@ -1,0 +1,363 @@
+{
+	"type": "flying",
+	"name": "Lore Accurate Flare"
+	"description": "[red] I T  H A S  A W A K E N E D",
+	"rotateSpeed": 36,
+	"speed": 18,
+	"drag": 0.5,
+"accel": 8
+	"mass": 200,
+	"maxVelocity": 30,
+	"flying": true,
+	"range": 2000,
+	"itemCapacity": 300,
+	"armor": 10,
+	"hitSize": 9,
+	"health": 70000,
+	"singleTarget": true,
+	"rotateMoveFirst": true,
+	"engineOffset": 0,
+	"trailLength": 5,
+	"engineSize": 1,
+	"faceTarget": true,
+	"buildSpeed": 10
+	"buildBeamOffset": 0
+	"mineTier": 10
+	"mineSpeed": 10
+	"weapons": [
+		{
+			"restitution": 0.008,
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 80,
+			"recoil": 1,
+			"rotationLimit": 0,
+			"inaccuracy": 5,
+			"shootSound": "missileshoot"
+			"ejectEffect": "casing1",
+			"rotate": false
+			"shootCone": 360,
+			"shake": 0
+			"x": 0
+			"y": 0
+			"shootY": 0
+			"mirror": false
+			"rotateSpeed": 0,
+			"baseRotation": 90
+			"shoot": {
+				"type": "shootSpread",
+				"shots": 10,
+				"spread": 18,
+				"shotDelay": 6
+			},
+			"bullet": {
+				"type": "BasicBulletType",
+				"drawsize": 170,
+				"collideAir": true
+				"damage": 60,
+				"width": 8,
+				"height": 12,
+				"lifetime": 20,
+				"bulletShrink": 0,
+				"shootEffect": "shootBig",
+				"smokeEffect": "shootBigSmoke"
+				"speed": 8,
+			},
+		},
+		{
+			"restitution": 0.008,
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 80,
+			"recoil": 1,
+			"rotationLimit": 0,
+			"inaccuracy": 5,
+			"shootSound": "missileshoot"
+			"ejectEffect": "casing1",
+			"rotate": false
+			"shootCone": 360,
+			"shake": 0
+			"x": 0
+			"y": 0
+			"shootY": 0
+			"mirror": false
+			"rotateSpeed": 0,
+			"baseRotation": 270
+			"shoot": {
+				"type": "shootSpread",
+				"shots": 10,
+				"spread": -18,
+				"shotDelay": 6
+			},
+			"bullet": {
+				"type": "BasicBulletType",
+				"drawsize": 170,
+				"collideAir": true
+				"damage": 60,
+				"width": 8,
+				"height": 12,
+				"lifetime": 20,
+				"bulletShrink": 0,
+				"shootEffect": "shootBig",
+				"smokeEffect": "shootBigSmoke"
+				"speed": 8,
+			},
+		},
+		{
+			"restitution": 0.008,
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 40,
+			"recoil": 1,
+			"rotationLimit": 0,
+			"inaccuracy": 5,
+			"shootSound": "missileshoot"
+			"ejectEffect": "casing1",
+			"rotate": false
+			"shootCone": 360,
+			"shake": 0
+			"x": 0
+			"y": 0
+			"shootY": 0
+			"mirror": false
+			"rotateSpeed": 0,
+			"shoot": {
+				"type": "shootSpread",
+				"shots": 36,
+				"spread": 10,
+			},
+			"bullet": {
+				"type": "BasicBulletType",
+				"drawsize": 170,
+				"collideAir": true
+				"damage": 60,
+				"width": 8,
+				"height": 12,
+				"lifetime": 30,
+				"bulletShrink": 0,
+				"shootEffect": "shootBig",
+				"smokeEffect": "shootBigSmoke"
+				"velMin": 7,
+				"velMax": 10,
+				"fragBullets": 1,
+				"fragBullet": {
+      					"type": "BasicBulletType",
+					"instantDisappear": false,
+					"damage": 0,
+					"width": 1,
+					"height": 1,
+					"lifetime": 1
+					"collidesAir": false
+					"collidesGround": false
+					"collidesTiles": false
+					"hittable": false
+					"reflectable": false
+					"absorbable": false
+					"velMin": 0
+					"velMax": 80
+					"drawSize": 1
+					"fragBullets": 1,
+					"fragBullet": {
+      						"type": "BasicBulletType",
+						"instantDisappear": false,
+						"damage": 0,
+						"width": 20,
+						"height": 20,
+						"lifetime": 1
+						"hittable": false
+						"reflectable": false
+						"absorbable": false
+						"speed": 0
+						"drawSize": 1
+						"lightning": 1,
+						"lightningDamage": 80,
+						"lightningCone": 360,
+						"lightningLengthRand": 24
+						"lightningLength": 12,
+					},
+				},
+			},
+		},
+	]
+	"outlineColor": "00000000",
+	"research": {
+		"parent": "flare"
+		"requirements": [
+			{
+				"item": "silicon",
+				"amount": 70000
+			},
+		]
+	}
+"abilities": [
+	{
+	"type": "MoveEffectAbility",
+	"interval": 2,
+	"y": 0,
+	"rotateEffect": true,
+	"rotation": 180
+	"effect": {
+	"type": "multiEffect",
+	"effects": [
+		{
+		"type": "ParticleEffect",
+		"particles": 10,
+		"sizeFrom": 4,
+		"sizeTo": 0,
+		"length": 20,
+		"lifetime": 20,
+		"lightOpacity": 0,
+		"interp": "circleOut",
+		"sizeInterp": "pow5In",
+		"colorFrom": "ffffa3",
+		"colorTo": "e2865400",
+		"cone": 90
+		}
+		{
+		"type": "ParticleEffect",
+		"particles": 10,
+		"sizeFrom": 4,
+		"sizeTo": 0,
+		"length": 20,
+		"lifetime": 20,
+		"lightOpacity": 0,
+		"interp": "circleOut",
+		"colorFrom": "bbbbbbff",
+		"colorTo": "00000022",
+		"cone": 90
+		}
+	]
+	}
+	}
+	{
+	"type": "MoveLightningAbility",
+	"damage": 180
+	"chance": 1
+	"color": ff7c4c
+	"bulletAngle": 180
+	"bullet": {
+			"type": "BasicBulletType",
+			"drawsize": 240,
+			"collideAir": true
+			"damage": 64,
+			"width": 8,
+			"height": 12,
+			"lifetime": 20,
+			"bulletShrink": 0.6,
+			"speed": 0,
+			"pierce": true
+			"fragBullets": 2,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"damage": 32,
+				"fragVelocityMin": 0.8,
+				"fragVelocityMax": 2.5,
+				"lifetime": 15,
+			},
+		},
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 0
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 30
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 60
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 90
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 120
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 150
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 180
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 210
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 240
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 270
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 300
+	"whenShooting": false
+	}
+	{
+	"type": "ShieldArcAbility"
+	"max": 3000
+	"angle": 30
+	"regen": 1
+	"angleOffset": 330
+	"whenShooting": false
+	}
+        	{
+        	type: mindustry.entities.abilities.RepairFieldAbility
+        	healEffect: steam
+        	range: 0.01
+        	amount: 5
+        	reload: 1
+        	    }
+]
+}
