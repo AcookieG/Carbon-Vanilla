@@ -3,10 +3,10 @@
 	"name": "Project"
 	"description": "A low-flying attack heli. Same layer as ground units, but can boost for much higher speeds and elevation.",
 	"rotateSpeed": 4.5,
-	"speed": 1.8,
+	"speed": 2.6,
 	"drag": 0.025,
 	"mass": 3,
-	"maxVelocity": 11,
+	"maxVelocity": 6,
 	"flying": true,
 	"range": 160,
 	"itemCapacity": 10,
@@ -14,14 +14,14 @@
 	"hitSize": 18,
 	"health": 120,
 	"singleTarget": true,
-	"rotateMoveFirst": true,
 	"engineOffset": 0,
-	"engineSize": 0,
+	"engineSize": 1,
 	"faceTarget": true,
 	"buildSpeed": 1.25
 	"buildBeamOffset": 4
 	"mineTier": 3
 	"mineSpeed": 4
+	"lowAltitude": false
 	"weapons": [
 		{
 			"name": "gun-green2",
@@ -50,11 +50,11 @@
 				"speed": 8,
 				"damage": 9,
 				"lifetime": 20,
-				"recoil": 0.03,
 				"healPercent": 3.5
 				"frontColor": "ffffff"
 				"backColor": "6cf5d7"
 				"collidesTeam": true
+				"recoil": 0.03,
 			},
 		},
 		{
@@ -84,7 +84,6 @@
 				"length": 160,
 				"width": 8,
 				"hitEffect": "hitLancer",
-				"recoil": 0.3,
 				"lightColor": "6cf5d7",
 				"colors": [
 					"6cf5d7",
@@ -94,6 +93,7 @@
 				"sideWidth": 0
 				"sideLength": 0,
 				"sideAngle": 25,
+				"recoil": 0.03,
 			},
 		},
 	]

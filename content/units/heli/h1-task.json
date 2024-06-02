@@ -1,12 +1,12 @@
 {
 	"type": "flying",
 	"name": "Task"
-	"description": "A low-flying attack heli. Same layer as ground units, but can boost for much higher speeds and elevation.",
+	"description": "A low-flying attack heli. Was a pain to code.",
 	"rotateSpeed": 6,
-	"speed": 2,
+	"speed": 3,
 	"drag": 0.025,
 	"mass": 2,
-	"maxVelocity": 12,
+	"maxVelocity": 6,
 	"flying": true,
 	"range": 160,
 	"itemCapacity": 10,
@@ -14,14 +14,14 @@
 	"hitSize": 18,
 	"health": 120,
 	"singleTarget": true,
-	"rotateMoveFirst": true,
 	"engineOffset": 0,
-	"engineSize": 0,
+	"engineSize": 1,
 	"faceTarget": true,
 	"buildSpeed": 0.75
 	"buildBeamOffset": 0
 	"mineTier": 2
 	"mineSpeed": 3
+	"lowAltitude": false
 	"weapons": [
 		{
 			"name": "gun-green",
@@ -47,11 +47,11 @@
 				"speed": 8,
 				"damage": 6,
 				"lifetime": 20,
-				"recoil": 0.03,
 				"healPercent": 2
 				"frontColor": "ffffff"
 				"backColor": "6cf5d7"
 				"collidesTeam": true
+				"recoil": 0.03,
 			},
 		},
 	]

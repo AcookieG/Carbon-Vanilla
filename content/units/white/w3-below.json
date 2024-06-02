@@ -2,7 +2,6 @@
 	"type": "flying",
 	"name": "Below"
 	"description": "A flying unit based on the Clamor tank.",
-	"details": "Accent on the 'e'"
 	"rotateSpeed": 2,
 	"speed": 1,
 	"drag": 0.05,
@@ -12,7 +11,6 @@
 	"range": 200,
 	"attackLength": 200,
 	"itemCapacity": 80,
-	"template": "ErekirUnitType",
 	"armor": 9,
 	"hitSize": 28,
 	"health": 920,

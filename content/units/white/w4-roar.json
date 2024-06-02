@@ -6,7 +6,6 @@
 	"speed": 0.6,
 	"flying": false,
 	"range": 220,
-	"template": "ErekirUnitType",
 	"drownTimeMultiplier": 8
 	"armor": 20,
 	"hitSize": 33,
