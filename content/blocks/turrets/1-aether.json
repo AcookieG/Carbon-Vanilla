@@ -4,7 +4,7 @@
 	"type": "ItemTurret",
 	"squareSprite": false,
 	"health": 5300,
-	"size": 5,
+	"size": 4,
 	"reload": 23,
 	"shake": 3,
 	"recoil": 5,
@@ -12,12 +12,28 @@
 	"ammoUseEffect": "none",
 	"shootSound": "boom",
 	"restitution": 0.01,
-	"cooldownTime": 210,
+	"cooldownTime": 60,
 	"shootCone": 15,
 	"rotateSpeed": 1,
 	"hasPower": true
 	"targetUnderBlocks": false
 	"ammoPerShot": 2,
+"shoot": {
+	"type": "ShootMulti",
+	"source": {
+		"type": "ShootBarrel"
+		"barrels": [
+			-2.5, 0, 0,
+			2.5, 0, 0,
+		]
+	},
+	"dest": [
+		{
+			"type": "ShootPattern",
+			"shots": 1
+		}
+	]
+},
 	"consumes": {
 		"power": 6
 		"coolant": {
@@ -31,104 +47,58 @@
 	"parts": [
 		{
 			"type": "RegionPart",
-			"suffix": "-top",
-			"layerOffset": 0.001,
+			"suffix": "-barrel0",
+			"moveX": 0,
+			"mirror": false,
+			"outline": false,
+			"progress": "recoil"
+		},
+		{
+			"type": "RegionPart",
+			"suffix": "-barrel1",
+			"moveX": -2,
+			"mirror": false,
+			"outline": false,
+			"progress": "recoil"
+		},
+		{
+			"type": "RegionPart",
+			"suffix": "-bay",
+			"moveY": 0,
+			"moveX": 2,
+			"moveRot": 0,
+			"mirror": true,
+			"outline": true,
+		},
+		{
+			"type": "RegionPart",
+			"suffix": "",
 			"moveY": 0,
 			"moveX": 0,
 			"moveRot": 0,
 			"mirror": false,
 			"outline": true,
-			"children": [
-				{
-				"type": "RegionPart",
-				"colorTo": "c9a5c8",
-				"color": "c9a5c800",
-				"layerOffset": 0.002,
-				"blending": "additive",
-				"progress": {
-					"type": "warmup",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-					},
-				"outline": false,
-				"suffix": "-glow"
-				"mirror": false
-				},
-			]
 		},
 		{
 			"type": "RegionPart",
-			"under": true,
-			"suffix": "-bottom",
-			"layerOffset": -0.001,
-			"outlineLayerOffset": 0.001,
-			"moveY": -4,
-			"moveX": 4,
+			"under": false,
+			"suffix": "-glow",
+			"layerOffset": 0.01,
+			"outlineLayerOffset": -0.01,
+			"moveY": 0,
+			"moveX": 0,
 			"moveRot": 0,
-			"mirror": true,
-			"progress": "recoil"
-			"children": [
-				{
-				"type": "RegionPart",
-				"colorTo": "c9a5c8",
-				"color": "c9a5c800",
-				"layerOffset": 0.003,
-				"blending": "additive",
-				"progress": {
-					"type": "warmup",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-					},
-				"outline": false,
-				"suffix": "-bottom-glow"
-				"mirror": true
-				},
-			]
-		},
-		{
-			"type": "RegionPart",
-			"suffix": "-body",
-			"moveRot": -8,
-			"moveX": 1.5,
-			"mirror": true,
-			"progress": "warmup"
-			"layerOffset": 0.004,
-			"children": [
-				{
-				"type": "RegionPart",
-				"colorTo": "c9a5c8",
-				"color": "c9a5c800",
-				"blending": "additive",
-				"layerOffset": 0.005,
-				"progress": {
-					"type": "warmup",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-					},
-				"outline": false,
-				"suffix": "-body-glow"
-				"mirror": true
-				},
-				{
-				"type": "RegionPart",
-				"colorTo": "ab3400ff",
-				"color": "ab340000",
-				"blending": "additive",
-				"layerOffset": 0.006,
-				"progress": {
-					"type": "recoil",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-				},
-				"outline": false,
-				"suffix": "-heat"
-				"mirror": true
-				},
-			]
+			"mirror": false,
+			"colorTo": "ab3400ff",
+			"color": "ab340000",
+			"blending": "additive",
+			"progress": {
+				"type": "recoil",
+				"op": "blend",
+				"other": "heat",
+				"amount": 0.25
+			},
+			"outline": false,
 		},
 		{
 			"type": "shapePart",
@@ -138,14 +108,14 @@
 			"layer": 110,
 			"color": "c9a5c8",
 			"stroke": 0,
-			"strokeTo": 1.9,
-			"radiusTo": 8.5,
-			"radius": 8.5
+			"strokeTo": 1.5,
+			"radiusTo": 5.5,
+			"radius": 5.5
 		},
 {
-"y": -2,
+"y": -0.5,
 "type": "HaloPart",
-"radius": 3,
+"radius": 2,
 "tri": true,
 "layer": 110,
 "color": "c9a5c8",
@@ -154,13 +124,13 @@
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 4,
-"triLengthTo": 12,
+"triLengthTo": 8,
 "triLength": 0
 },
 {
-"y": -2,
+"y": -0.5,
 "type": "HaloPart",
-"radius": 2,
+"radius": 1.5,
 "tri": true,
 "layer": 110,
 "color": "ffffff",
@@ -169,7 +139,37 @@
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 4,
-"triLengthTo": 8,
+"triLengthTo": 6,
+"triLength": 0
+},
+{
+"y": -7.25,
+"type": "HaloPart",
+"radius": 1.5,
+"tri": true,
+"layer": 110,
+"color": "c9a5c8",
+"haloRadius": 0,
+"haloRadiusTo": 0,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": 3,
+"triLength": 0
+},
+{
+"y": -7.25,
+"type": "HaloPart",
+"radius": 1,
+"tri": true,
+"layer": 110,
+"color": "ffffff",
+"haloRadius": 0,
+"haloRadiusTo": 0,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": 2,
 "triLength": 0
 },
 
@@ -183,8 +183,8 @@
 "haloRotation": 90,
 "shapeRotation": 180,
 "color": "c9a5c8",
-"haloRadius": 12,
-"haloRadiusTo": 12,
+"haloRadius": 7,
+"haloRadiusTo": 7,
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 6,
@@ -199,8 +199,8 @@
 "layer": 110,
 "haloRotation": 90,
 "color": "c9a5c8",
-"haloRadius": 12,
-"haloRadiusTo": 12,
+"haloRadius": 7,
+"haloRadiusTo": 7,
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 6,
@@ -218,8 +218,8 @@
 "stroke": 0,
 "rotateSpeed": 1,
 "strokeTo": 0.8,
-"radiusTo": 7,
-"radius": 7
+"radiusTo": 5,
+"radius": 5
 },
 {
 "type": "shapePart",
@@ -232,8 +232,8 @@
 "stroke": 0,
 "rotateSpeed": -1,
 "strokeTo": 0.9,
-"radiusTo": 12,
-"radius": 12
+"radiusTo": 7,
+"radius": 7
 },
 
 	]
@@ -241,9 +241,9 @@
 	"ammoTypes": {
 		"thorium": {
 			"type": "BasicBulletType",
-			"damage": 840,
+			"damage": 540,
 			"ammoMultiplier": 2,
-			"drawsize": 350,
+			"drawsize": 300,
 			"width": 10,
 			"height": 14,
 			"shootEffect": "explosion",

@@ -6,6 +6,7 @@
 	"tier": 6,
 	"updateEffect": "pulverizeRed",
 	"drillTime": 60,
+	"itemCapacity": 1000,
 	"drawRim": true,
 	"drawMineItem": false,
 	"consumes": {
