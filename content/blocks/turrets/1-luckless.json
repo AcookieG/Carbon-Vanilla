@@ -17,7 +17,7 @@
 	"targetUnderBlocks": true
 	"shootY": 18
 	"liquidConsumed": 5,
-	"liquidCapacity": 250
+	"liquidCapacity": 180
 	"loopSound": "torch",
 	"loopSoundVolume": 2.5,
 	"shootSound": "shockBlast",
@@ -295,7 +295,7 @@
 	"width": 10.5,
 	"drawFlare": false,
 	"hitEffect": none
-	"length": 250,
+	"length": 190,
 	"intervalBullets": 2,
 	"intervalRandomSpread": 5,
 	"bulletInterval": 3,
@@ -313,12 +313,12 @@
 	"damage": 300,
 	"knockback": 4,
 	"buildingDamageMultiplier": 1.8
-	"rangeChange": 100,
+	"rangeChange": 90,
 	"width": 6.5,
 	"drawFlare": false,
 	"lifetime": 60,
 	"hitEffect": none
-	"length": 350,
+	"length": 270,
 	"intervalBullets": 2,
 	"intervalRandomSpread": 2,
 	"bulletInterval": 2,
