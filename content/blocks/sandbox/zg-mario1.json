@@ -19,25 +19,25 @@
 	"hasPower": true
 	"shootType": {
 			"type": "BasicBulletType",
-			"damage": 123450,
+			"lifetime": 1,
+			"fragBullets": 500,
+			"fragBullet": {
+			"type": "BasicBulletType",
+			"damage": 88008800,
 			"width": 8,
 			"length": 20,
 			"reloadMultiplier": 10
 			"shootEffect": "none",
-			"smokeEffect": "shootBigSmoke"
+			"smokeEffect": "none"
 			"lifetime": 70,
 			"speed": 80,
 			"pierce": true,
 			"pierceCap": 50
 			"hitAir": true
 			"bulletShrink": -0.7,
-			"lightning": 50,
-			"lightningDamage": 1000,
-			"lightningCone": 360,
-			"lightningLengthRand": 4,
-			"lightningLength": 80,
-			"homingPower": 5,
-			"homingRange": 3000,
+			"homingPower": 10,
+			"homingRange": 200,
+		}
 		},
 	"consumes": {
 		"power": 0

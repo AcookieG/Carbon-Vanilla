@@ -1,10 +1,10 @@
 {
 	"name": "Mass Sand repository",
-	"description": "Who knew Sand was so valuable?",
+	"description": "Who knew Sand was so valuable? Well this massive sand building can hold 10k of it.",
 	"type": "GenericCrafter"
 	"size": 5,
 	"liquidCapacity": 100,
-	"itemCapacity": 1000,
+	"itemCapacity": 10000,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
@@ -65,4 +65,5 @@
 		"amount": 60
 	},
 	"craftTime": 1,
+	"instantTransfer": true
 }

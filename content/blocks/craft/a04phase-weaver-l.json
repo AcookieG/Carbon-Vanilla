@@ -3,7 +3,7 @@
 	"type": "AttributeCrafter"
 	"size": 3,
 	"health": 230,
-	"itemCapacity": 10,
+	"itemCapacity": 30,
 	"hasLiquids": false,
 	"hasPower": true,
 	"hasItems": true,
@@ -33,11 +33,11 @@
 			"items": [
 				{
 				"item": "thorium",
-				"amount": 5,
+				"amount": 4,
 				}
 				{
 				"item": "sand",
-				"amount": 5,
+				"amount": 7,
 				}
 				{
 				"item": "graphite",
@@ -58,7 +58,7 @@
 	"idleSoundVolume": 0.03,
 	"outputItem": {
 		"item": "phase-fabric",
-		"amount": 2
+		"amount": 3
 	},
 	"craftTime": 30,
 }

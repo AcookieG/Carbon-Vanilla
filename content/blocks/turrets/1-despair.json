@@ -13,7 +13,7 @@
 	"shootSound": "missileLaunch",
 	"restitution": 0.0001,
 	"cooldownTime": 0.01,
-	"minWarmup": 30
+	"minWarmup": 0.99
 	"warmupMaintainTime": 30
 	"shootCone": 15,
 	"rotateSpeed": 1.5,
@@ -28,7 +28,7 @@
 		"amount": 0.5
 		}
 	},
-	"coolantMultiplier": 1
+	"coolantMultiplier": 1.25
 "shoot": {
 		"type": "ShootSpread",
 		"shots": 4
@@ -103,8 +103,8 @@
 								"moveY": -3,
 								"layerOffset": -0.01,
 								"outline": false
-								"colorTo": "ab3400ff",
-								"color": "ab340000",
+								"colorTo": "6cb7f5",
+								"color": 6cb7f5",
 								"blending": "additive",
 								"progress": {
 									"type": "recoil",
@@ -140,7 +140,7 @@
 			"hollow": true,
 			"circle": true,
 			"layer": 110,
-			"color": "8ca9e8",
+			"color": "6cb7f5",
 			"stroke": 0,
 			"strokeTo": 1.1,
 			"radiusTo": 5,
@@ -152,7 +152,7 @@
 			"hollow": true,
 			"circle": true,
 			"layer": 110,
-			"color": "8ca9e8",
+			"color": "6cb7f5",
 			"stroke": 0,
 			"strokeTo": 1.9,
 			"radiusTo": 9,
@@ -165,7 +165,7 @@
 "hollow": true,
 "circle": true,
 "layer": 110,
-"color": "8ca9e8",
+"color": "6cb7f5",
 "stroke": 0,
 "strokeTo": 1.1,
 "radiusTo": 5,
@@ -179,7 +179,7 @@
 "layer": 110,
 "haloRotation": 90,
 "shapeRotation": 180,
-"color": "8ca9e8",
+"color": "6cb7f5",
 "haloRadius": 12,
 "haloRadiusTo": 12,
 "stroke": 0,
@@ -195,7 +195,7 @@
 "tri": true,
 "layer": 110,
 "haloRotation": 90,
-"color": "8ca9e8",
+"color": "6cb7f5",
 "haloRadius": 12,
 "haloRadiusTo": 12,
 "stroke": 0,
@@ -207,17 +207,17 @@
 {
 "type": "HaloPart",
 "y": -22,
-"radius": 3.5,
+"radius": 4,
 "tri": true,
 "layer": 110,
-"color": "8ca9e8",
+"color": "6cb7f5",
 "haloRotateSpeed": 1.7,
 "haloRadius": 9,
 "haloRadiusTo": 9,
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 4,
-"triLengthTo": 5,
+"triLengthTo": 6,
 "triLength": 0
  }
 {
@@ -228,7 +228,7 @@
 "layer": 110,
 "haloRotation": 180,
 "shapeRotation": 180,
-"color": "8ca9e8",
+"color": "6cb7f5",
 "haloRadius": 6,
 "haloRadiusTo": 6,
 "stroke": 0,
@@ -245,7 +245,7 @@
 "layer": 110,
 "haloRotation": 180,
 "shapeRotation": 0,
-"color": "8ca9e8",
+"color": "6cb7f5",
 "haloRadius": 6,
 "haloRadiusTo": 6,
 "stroke": 0,
@@ -262,7 +262,7 @@
 "layer": 110,
 "haloRotation": 180,
 "shapeRotation": 180,
-"color": "8ca9e8",
+"color": "6cb7f5",
 "haloRadius": 6,
 "haloRadiusTo": 6,
 "stroke": 0,
@@ -279,7 +279,7 @@
 "layer": 110,
 "haloRotation": 180,
 "shapeRotation": 0,
-"color": "8ca9e8",
+"color": "6cb7f5",
 "haloRadius": 6,
 "haloRadiusTo": 6,
 "stroke": 0,
@@ -344,20 +344,20 @@
 			"smokeEffect": "none"
 			"lifetime": 25,
 			"speed": 9
-			"collidesAir": false
-			"collidesGround": false
-			"collidesTiles": false
+			"collidesAir": true
+			"collidesGround": true
+			"collidesTiles": true
 			"instantDisapear": false
 			"despawnEffect": none
 			"hitEffect": none
 			"shrinkY": -0.5,
 			"hitShake": 0,
 			"trailColor": "ffffff"
-			"frontColor": "6cb7f5"
+			"frontColor": "ffffff"
 			"backColor": "6cb7f5"
-			"homingPower": 0.02,
-			"homingRange": 80,
-			"fragBullets": 9,
+			"homingPower": 0.01,
+			"homingRange": 30,
+			"fragBullets": 6,
 			"fragBullet": {
 		"type": "LaserBulletType",
 		"hitSoundVolume": 1,
@@ -369,18 +369,17 @@
 			"collidesAir": true
 			"collidesGround": true
 			"collidesTiles": true
-			"lightning": 5,
-			"lightningDamage": 45,
-			"lightningCone": 361,
-			"lightningLengthRand": 10,
-			"lightningLength": 1,
+			"lightning": 4,
+			"lightningDamage": 30,
+			"lightningCone": 360,
+			"lightningLengthRand": 5,
+			"lightningLength": 6,
 			"lightningColor": "6cb7f5"
-		"lifeTime": 10
-		"speed": 6
-		"homingPower": 2,
-		"homingRange": 12,
-		"shootEffect": "none",
-			"length": 120,
+			"lifeTime": 10
+			"speed": 4
+			"shootEffect": "none",
+			"despawnEffect": none
+			"length": 90,
 			"width": 8,
 			"hitEffect": "hitLancer",
 			"lightColor": "6cb7f5",

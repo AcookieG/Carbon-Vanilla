@@ -15,7 +15,7 @@
 	"scaledForce": 0,
 	"damage": 0,
 	"laserWidth": 0.5,
-	"laserColor": "ffffff"
+	"laserColor": "ffffff50"
 	"consumes": {
 		"power": 0.5
 	},

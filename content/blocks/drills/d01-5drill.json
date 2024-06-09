@@ -1,6 +1,6 @@
 {
 	"name": "Incision Drill",
-	"description": "Such power...",
+	"description": "Such power... Cannot be overdriven.",
 	"type": "Drill",
 	"size": 5,
 	"tier": 6,
@@ -9,6 +9,8 @@
 	"itemCapacity": 1000,
 	"drawRim": true,
 	"drawMineItem": false,
+	"canOverdrive": false
+	"hardnessDrillMultiplier": 1
 	"consumes": {
 		"power": 4,
 		"liquid": {
@@ -25,4 +27,5 @@
 	],
 	"category": "production",
 	"research": "airblast-drill"
+	"instantTransfer": true
 }
