@@ -295,7 +295,7 @@
 	"width": 10.5,
 	"drawFlare": true,
 	"lifetime": 60,
-	"hitEffect": none //fill this
+	"hitEffect": none
 	"length": 250,
 	"intervalBullets": 2,
 	"intervalRandomSpread": 5,
@@ -304,7 +304,7 @@
 	"intervalBullet": {
 		"type": "BulletType",
 		"despawnHit": true,
-		"hitEffect":  none //fill this
+		"hitEffect": none
 		"instantDisappear": false,
 		"lifetime": 20
 		"damage": 10
@@ -320,7 +320,7 @@
 	"width": 9,
 	"drawFlare": true,
 	"lifetime": 60,
-	"hitEffect": none //fill this
+	"hitEffect": none
 	"length": 350,
 	"intervalBullets": 2,
 	"intervalRandomSpread": 2,
@@ -329,7 +329,7 @@
 	"intervalBullet": {
 		"type": "BulletType",
 		"despawnHit": true,
-		"hitEffect":  none //fill this
+		"hitEffect": none
 		"instantDisappear": false,
 		"lifetime": 20
 		"damage": 10
