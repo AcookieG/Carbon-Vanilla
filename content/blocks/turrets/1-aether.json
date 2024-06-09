@@ -9,13 +9,13 @@
 	"shake": 3,
 	"recoil": 5,
 	"range": 400,
-	"ammoUseEffect": "none",
+	"ammoUseEffect": "casing3Double",
 	"shootSound": "boom",
 	"restitution": 0.01,
-	"cooldownTime": 60,
+	"cooldownTime": 40,
 	"shootCone": 15,
 	"rotateSpeed": 1,
-	"hasPower": true
+	"hasPower": false
 	"targetUnderBlocks": false
 	"ammoPerShot": 2,
 "shoot": {
@@ -23,8 +23,8 @@
 	"source": {
 		"type": "ShootBarrel"
 		"barrels": [
-			-2.5, 0, 0,
-			2.5, 0, 0,
+			-3.5, -1, 0,
+			3.5, -1, 0,
 		]
 	},
 	"dest": [
@@ -35,7 +35,6 @@
 	]
 },
 	"consumes": {
-		"power": 6
 		"coolant": {
 		"amount": 0.5
 		}
@@ -246,7 +245,7 @@
 			"drawsize": 300,
 			"width": 10,
 			"height": 14,
-			"shootEffect": "explosion",
+			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke"
 			"lifetime": 50,
 			"speed": 8,
@@ -257,9 +256,6 @@
 			"hitGround": false
 			"shrinkY": -0.5,
 			"hitShake": 0,
-			"trailColor": "c9a5c8"
-			"frontColor": "c9a5c8"
-			"backColor": "dcdde3"
 			"hitShake": 2,
 			"pierce": true,
 			"pierceCap": 5

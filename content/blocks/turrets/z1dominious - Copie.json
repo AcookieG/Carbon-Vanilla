@@ -1,0 +1,69 @@
+{
+	"name": "Storm",
+	"description": "A Ripple-based turret to take out large ground forces.",
+	"type": "ItemTurret",
+	"health": 2700,
+	"size": 4,
+	"reload": 60,
+	"shake": 3.5,
+	"range": 300,
+	"ammoUseEffect": "none",
+	"shootSound": "artillery",
+	"restitution": 1,
+	"shootCone": 13,
+	"rotateSpeed": 2,
+	"restitution": 0.005,
+	"cooldownTime": 40,
+	"targetAir": false,
+	"ammoPerShot": 2,
+	"ammoTypes": {
+		"pyratite": {
+			"type": "BlockBulletType",
+			"block": "router"
+		}
+		"blast-compound": {
+			"type": "BasicBulletType"
+			"drawsize": 280,
+			"damage": 200,
+			"ammoMultiplier": 1,
+			"width": 12,
+			"height": 12,
+			"toColor": "thoriumRed",
+			"shootEffect": "thoriumShoot",
+			"smokeEffect": "thoriumShoot"
+			"speed": 4,
+			"homingPower": 0.2,
+			"homingRange": 30,
+			"lifetime": 75,
+			"bulletShrink": 0,
+			"fragBullets": 7,
+    			"fragBullet": {
+				"type": "FlakBulletType",
+				"damage": 49,
+				"fragVelocityMin": 0.5,
+				"fragVelocityMax": 2,
+				"lifetime": 24,
+				"splashDamage": 64,
+				"splashDamageRadius": 28,
+				"explodeRange": 24,
+				"fragBullets": 4,
+				"fragBullet": {
+      					"type": "LiquidBulletType",
+       					"liquid": "slag",
+     					"lifetime": 50,
+					"damage": 41,
+    					"speed": .5,
+				}
+			}
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 830 },
+		{ "item": "titanium", "amount": 325 },
+		{ "item": "carbon-fiber", "amount": 120 },
+		{ "item": "plastanium", "amount": 220 },
+		{ "item": "surge-alloy", "amount": 80 }
+	],
+	"category": "turret",
+	"research": "ripple"
+}

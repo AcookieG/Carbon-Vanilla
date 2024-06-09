@@ -4,7 +4,7 @@
 "template": "MissileUnitType", 
 "lowAltitude": true,
 "speed": 5,
-"rotateSpeed": 5,
+"rotateSpeed": 10,
 "lifetime": 80,
 "physics": false,
 "flying": true,
@@ -21,6 +21,9 @@
 "maxRange": 20,
 "trailLength": 5,
 "range": 20
+"fallEffect": none
+"fallEngineEffect": none
+"deathExplosionEffect": none
 "weapons": [
  	{
 	"shootOnDeath": true,
@@ -47,6 +50,7 @@
 			"lightningCone": 1,
 			"lightningLengthRand": 10,
 			"lightningLength": 1,
+			"lightningColor": "6cb7f5"
 		"lifeTime": 1
 		"speed": 4
 		"width": 1,
