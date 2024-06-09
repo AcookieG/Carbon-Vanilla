@@ -17,7 +17,7 @@
 	"targetUnderBlocks": true
 	"shootY": 18
 	"liquidConsumed": 5,
-	"liquidCapacity": 300
+	"liquidCapacity": 250
 	"loopSound": "torch",
 	"loopSoundVolume": 2.5,
 	"shootSound": "shockBlast",
@@ -288,13 +288,12 @@
 "ammoTypes": {
 "hydrogen": {
 	"type": "ContinuousFlameBulletType",
-	"colors": ["62ae7f60", "9cb664", "cbd97f", "edf3a9", "ffffff"],
+	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
 	"damage": 200,
 	"knockback": 4,
 	"buildingDamageMultiplier": 1.3
 	"width": 10.5,
-	"drawFlare": true,
-	"lifetime": 60,
+	"drawFlare": false,
 	"hitEffect": none
 	"length": 250,
 	"intervalBullets": 2,
@@ -305,10 +304,7 @@
 		"type": "BulletType",
 		"despawnHit": true,
 		"hitEffect": none
-		"instantDisappear": false,
-		"lifetime": 20
-		"damage": 10
-		"speed": 8
+		"instantDisappear": true,
 	}
 }
 "liquidheat": {
@@ -317,8 +313,9 @@
 	"damage": 300,
 	"knockback": 4,
 	"buildingDamageMultiplier": 1.8
-	"width": 9,
-	"drawFlare": true,
+	"rangeChange": 100,
+	"width": 6.5,
+	"drawFlare": false,
 	"lifetime": 60,
 	"hitEffect": none
 	"length": 350,
@@ -330,10 +327,7 @@
 		"type": "BulletType",
 		"despawnHit": true,
 		"hitEffect": none
-		"instantDisappear": false,
-		"lifetime": 20
-		"damage": 10
-		"speed": 8
+		"instantDisappear": true,
 	}
 }
 },
