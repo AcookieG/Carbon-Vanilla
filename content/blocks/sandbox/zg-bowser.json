@@ -7,7 +7,7 @@
 	"size": 2,
 	"range": 300,
 	"hasPower": false
-	"speedBoost": 160,
+	"speedBoost": 100,
 	"requirements": [
 		{ "item": "phase-decay", "amount": 2500000 },
 		{ "item": "spore-pod", "amount": 150000 },

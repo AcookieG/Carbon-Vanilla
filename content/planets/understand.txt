@@ -1,0 +1,23 @@
+mesh: [
+  {
+	//salt mesh
+	type: NoiseMesh
+// *idk
+    divisions: 5
+// *idk
+    seed: 1
+// *idk
+    radius: 1
+//colors of the hexagons
+    color1: ffffff
+    color2: f4f4f4
+// *idk
+    octaves: 1
+// *idk
+    persistence: 1
+//how big mountains are
+    scale: 3
+//how far the mesh goes from the center of the planet
+    mag: 0.2
+  }
+]

@@ -5,19 +5,18 @@
 	"size": 5,
 	"tier": 6,
 	"updateEffect": "pulverizeRed",
-	"drillTime": 60,
-	"itemCapacity": 1000,
+	"drillTime": 1,
+	"itemCapacity": 100,
 	"drawRim": true,
 	"drawMineItem": false,
 	"canOverdrive": false
-	"hardnessDrillMultiplier": 1
 	"consumes": {
 		"power": 4,
 		"liquid": {
 			"liquid": "water", 
-			"amount": 0.06,
-			"optional": true,
-			"booster": true
+			"amount": 0.2,
+			"optional": false,
+			"booster": false
 		}
 	},
 	"requirements": [
@@ -27,5 +26,4 @@
 	],
 	"category": "production",
 	"research": "airblast-drill"
-	"instantTransfer": true
 }

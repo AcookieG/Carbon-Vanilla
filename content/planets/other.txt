@@ -1,0 +1,15 @@
+    //red
+    color1: ce735e
+    color2: af4753
+    //water
+    color1: 5867ac
+    color2: 4d5ca4
+    //sand
+    color1: ffe4ca
+    color2: d3ae8d
+    //mech
+    color1: cf8d58
+    color2: 60616b
+    //salt
+    color1: ffffff
+    color2: f4f4f4

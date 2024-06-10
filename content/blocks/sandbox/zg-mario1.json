@@ -1,13 +1,12 @@
 {
 	"name": "KILLV2",
 	"description": "I have seen enough. I am satisfied. -Satisfied",
-"sandboxOnly": true,
 	"type": "powerTurret",
 	"health": 999999,
 	"size": 1,
 	"reload": 1,
 	"shake": 0,
-	"recoil": -8,
+	"recoil": 0,
 	"range": 2000,
 	"ammoUseEffect": none,
 	"shootSound": none,
@@ -22,25 +21,24 @@
 			"lifetime": 1,
 			"fragBullets": 500,
 			"fragBullet": {
-			"type": "BasicBulletType",
-			"damage": 88008800,
-			"width": 8,
-			"length": 20,
-			"reloadMultiplier": 10
-			"shootEffect": "none",
-			"smokeEffect": "none"
-			"lifetime": 70,
-			"speed": 80,
-			"pierce": true,
-			"pierceCap": 50
-			"hitAir": true
-			"bulletShrink": -0.7,
-			"homingPower": 10,
-			"homingRange": 200,
-		}
+				"type": "BasicBulletType",
+				"damage": 888888,
+				"width": 8,
+				"length": 20,
+				"reloadMultiplier": 10
+				"shootEffect": none
+				"smokeEffect": none
+				"lifetime": 70,
+				"speed": 80,
+				"pierce": true,
+				"pierceCap": 50
+				"hitAir": true
+				"homingPower": 10,
+				"homingRange": 200,
+			}
 		},
 	"consumes": {
-		"power": 0
+		"power": 0.01
 	},
 	"requirements": [
 		{ "item": "phase-decay", "amount": 2500000 },

@@ -4,7 +4,7 @@
     "name": "DOOMe",
     "description": "lol.",
     "size": 2,
-    "health": 5000000000,
+    "health": 50000,
     "radius": 300,
     "cooldownNormal": 1,
     "cooldownLiquid": 1,

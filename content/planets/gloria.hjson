@@ -1,0 +1,107 @@
+localizedName: Gloria
+description: In between Serpulo and Erekir. Only go to the marked locations. Extreme atmosphere.
+generator: erekirPlanetGenerator
+alwaysUnlocked: true
+mesh: [
+  {
+	type: NoiseMesh
+    divisions: 5
+    seed: 1
+    radius: 1
+    //water
+    color1: 486acd
+    color2: 486acd
+    octaves: 1
+    persistence: 1
+    scale: 0.10
+    mag: 0.9
+  }
+  {
+	type: NoiseMesh
+    divisions: 5
+    seed: 3
+    radius: 1
+    //salt
+    color1: ffffff
+    color2: d6dbe7
+    octaves: 1
+    persistence: 1
+    scale: 0.11
+    mag: 0.9
+  }
+  {
+	type: NoiseMesh
+// how many tiles
+    divisions: 5
+// *idk
+    seed: 2
+// *idk
+    radius: 1
+//colors of the hexagons
+    //red mountains
+    color1: ce735e
+    color2: af4753
+// *idk
+    octaves: 1
+// *idk
+    persistence: 1
+//how large mountains are, one divided by scale.
+    scale: 0.25
+//how far the mesh goes from the center of the planet
+    mag: 0.9
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   speed: 2
+   radius: 0.5
+   divisions: 5
+   color: ffffff50
+   octaves: 3
+   persistence: 0.5
+   thresh: 0.4
+   mag: 0.005
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.5
+//size of sectors, bigger is less sectors
+  scale: 3
+  mag: 1
+  thresh: 1
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+}
+sectorSize: 1
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: true
+startSector: 0
+orbitSpacing: 1
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: -0.1
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 1
+bloom: false
+visible: true
+atmosphereColor: d1e4ff50
+iconColor: 82a467
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: true
+defaultCore: core-shard
+parent: sun
+orbitRadius: 30
+orbitTime: 180
+solarSystem: sun
+launchCandidates: []

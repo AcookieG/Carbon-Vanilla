@@ -1,9 +1,0 @@
-{
-	"name": "Sandstone Gas Pit",
-	"type": "Prop",
-	"variants": 3,
-	"hasShadow": false
-	"solid": false
-	"breakable": false
-	"replaceable": false
-}
