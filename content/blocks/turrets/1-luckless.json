@@ -8,7 +8,7 @@
 	"reload": 40,
 	"shake": 5,
 	"recoil": 0.5,
-	"range": 300,
+	"range": 130,
 	"restitution": 0.0001,
 	"cooldownTime": 0.01,
 	"shootCone": 15,
@@ -30,44 +30,59 @@
 	"parts": [
 		{
 			"type": "RegionPart",
-			"suffix": "-top",
+			"suffix": "-blur",
 			"mirror": false
-			"children": [
-				{
-				"type": "RegionPart",
-				"colorTo": "edf3a9",
-				"color": "edf3a900",
-				"blending": "additive",
-				"progress": {
-					"type": "warmup",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-				},
-				"outline": false,
-				"suffix": "-top-glow"
-				"mirror": false
-				},
-			]
+			"outline": false
+			"colorTo": "dde868ff",
+			"color": "dde86800",
+			"blending": "additive",
+			"progress": {
+				"type": "recoil",
+				"op": "blend",
+				"other": "heat",
+				"amount": 0.25
+			},
 		},
 		{
 			"type": "RegionPart",
-			"under": true,
-			"suffix": "-side",
+			"suffix": "-wing",
+			"moveY": 0,
+			"moveX": 0,
+			"moveRot": 45,
+			"mirror": true,
+			"progress": "warmup"
 			"children": [
 				{
 					"type": "RegionPart",
-					"suffix": "-bottom",
+					"suffix": "-wing-blur",
+					"mirror": true
+					"outline": false
+					"blending": "additive",
+					"colorTo": "dde868ff",
+					"color": "dde86800",
+					"progress": {
+						"type": "warmup",
+						"op": "blend",
+						"other": "heat",
+						"amount": 0.25
+					},
+				},
+				{
+					"type": "RegionPart",
+					"suffix": "-blade",
 					"mirror": true,
 					"progress": "warmup"
-					"moveRot": -8,
-					"moveY": -2,
-					"moveX": 4,
+					"moveY": -4,
+					"moveX": 0,
+					"moveRot": 0,
 					"children": [
 						{
 						"type": "RegionPart",
-						"colorTo": "edf3a9",
-						"color": "edf3a900",
+						"suffix": "-blade-blur",
+						"mirror": true
+						"outline": false
+						"colorTo": "dde868",
+						"color": dde868",
 						"blending": "additive",
 						"progress": {
 							"type": "warmup",
@@ -75,77 +90,9 @@
 							"other": "heat",
 							"amount": 0.25
 						},
-						"outline": false,
-						"suffix": "-bottom-glow"
-						"mirror": true
 						},
 					]
 				}
-				{
-				"type": "RegionPart",
-				"colorTo": "edf3a9",
-				"color": "edf3a900",
-				"blending": "additive",
-				"layerOffset": 0.002,
-				"progress": {
-					"type": "warmup",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-				},
-				"outline": false,
-				"suffix": "-side-glow"
-				"mirror": true
-				},
-			],
-			"moveY": -2,
-			"moveX": 4,
-			"moveRot": -12,
-			"mirror": true,
-			"progress": "warmup"
-		},
-		{
-			"type": "RegionPart",
-			"suffix": "-body",
-			"layerOffset": 0.001,
-			"outlineLayerOffset": -0.001,
-			"moveRot": -8,
-			"moveX": 1.5,
-			"mirror": true,
-			"progress": "warmup"
-			"children": [
-				{
-				"type": "RegionPart",
-				"colorTo": "edf3a9",
-				"color": "edf3a900",
-				"layerOffset": 0.004,
-				"blending": "additive",
-				"progress": {
-					"type": "warmup",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-					},
-				"outline": false,
-				"suffix": "-glow"
-				"mirror": true
-				},
-				{
-				"type": "RegionPart",
-				"colorTo": "ab3400ff",
-				"color": "ab340000",
-				"layerOffset": 0.003,
-				"blending": "additive",
-				"progress": {
-					"type": "recoil",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-					},
-				"outline": false,
-				"suffix": "-heat"
-				"mirror": true
-				},
 			]
 		},
 		{
@@ -154,7 +101,7 @@
 			"hollow": true,
 			"circle": true,
 			"layer": 110,
-			"color": "edf3a9",
+			"color": "dde868",
 			"stroke": 0,
 			"strokeTo": 1.1,
 			"radiusTo": 5,
@@ -166,7 +113,7 @@
 			"hollow": true,
 			"circle": true,
 			"layer": 110,
-			"color": "edf3a9",
+			"color": "dde868",
 			"stroke": 0,
 			"strokeTo": 1.9,
 			"radiusTo": 9,
@@ -178,7 +125,7 @@
 "hollow": true,
 "circle": true,
 "layer": 110,
-"color": "edf3a9",
+"color": "dde868",
 "stroke": 0,
 "strokeTo": 1.1,
 "radiusTo": 5,
@@ -192,7 +139,7 @@
 "layer": 110,
 "haloRotation": 90,
 "shapeRotation": 180,
-"color": "edf3a9",
+"color": "dde868",
 "haloRadius": 12,
 "haloRadiusTo": 12,
 "stroke": 0,
@@ -208,7 +155,7 @@
 "tri": true,
 "layer": 110,
 "haloRotation": 90,
-"color": "edf3a9",
+"color": "dde868",
 "haloRadius": 12,
 "haloRadiusTo": 12,
 "stroke": 0,
@@ -223,7 +170,7 @@
 "radius": 3.5,
 "tri": true,
 "layer": 110,
-"color": "edf3a9",
+"color": "dde868",
 "haloRotateSpeed": 1.7,
 "shapeRotation": 180,
 "haloRadius": 12,
@@ -240,7 +187,7 @@
 "radius": 3.5,
 "tri": true,
 "layer": 110,
-"color": "edf3a9",
+"color": "dde868",
 "haloRotateSpeed": 1.7,
 "haloRadius": 12,
 "haloRadiusTo": 12,
@@ -256,7 +203,7 @@
 "radius": 2.3,
 "tri": true,
 "layer": 110,
-"color": "edf3a9",
+"color": "dde868",
 "haloRotateSpeed": 1.7,
 "haloRadius": 0,
 "haloRadiusTo": 0,
@@ -295,7 +242,7 @@
 	"width": 10.5,
 	"drawFlare": false,
 	"hitEffect": none
-	"length": 190,
+	"length": 130,
 	"intervalBullets": 2,
 	"intervalRandomSpread": 5,
 	"bulletInterval": 3,
@@ -313,12 +260,12 @@
 	"damage": 300,
 	"knockback": 4,
 	"buildingDamageMultiplier": 1.8
-	"rangeChange": 90,
+	"rangeChange": 70,
 	"width": 6.5,
 	"drawFlare": false,
 	"lifetime": 60,
 	"hitEffect": none
-	"length": 270,
+	"length": 200,
 	"intervalBullets": 2,
 	"intervalRandomSpread": 2,
 	"bulletInterval": 2,
