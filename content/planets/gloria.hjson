@@ -59,7 +59,7 @@ mesh: [
     octaves: 1
     persistence: 1
     scale: 0.2
-    mag: 1
+    mag: 0.68
     scl: 1
     pow: 1
   }
@@ -80,9 +80,9 @@ mesh: [
 // how many of it
     persistence: 2
 //how large mountains are, one divided by scale.
-    scale: 2.5
+    scale: 4.5
 //how far the mesh goes from the center of the planet
-    mag: 1.5
+    mag: 0.66
 // *idk
     scl: 1
 // *idk
