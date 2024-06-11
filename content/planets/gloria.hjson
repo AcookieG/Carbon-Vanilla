@@ -1,24 +1,26 @@
 localizedName: Gloria
 description: In between Serpulo and Erekir. Only go to the marked locations. Extreme atmosphere.
-generator: tantPlanetGenerator
+generator: erekirPlanetGenerator
 alwaysUnlocked: true
 mesh: [
 {
 bloom: false
 type: SunMesh 
-divisions: 4
-radius: 2
+divisions: 5
+radius: 3.6
 octaves: 1
-persistence: 1
-scl: 1
-pow: 1
-mag: 1
+persistence: .5
+scl: 2
+pow: 2.2
+mag: 3
 colorScale: 1
-//water
 colors: [
-486acd,
-486acd,
-486acd,
+ffffff
+d6dbe7
+486acd
+486acd
+ce735e
+af4753
 ]
 }
   {
@@ -42,8 +44,8 @@ colors: [
     seed: 255
     radius: 1
     //water
-    color1: 5867ac
-    color2: 4d5ca4
+    color1: 486acd
+    color2: 486acd
     octaves: 1
     persistence: 1
     scale: 0.001
@@ -66,7 +68,7 @@ colors: [
 // *idk
     octaves: 1
 // how many of it
-    persistence: 1.3
+    persistence: 1
 //how large mountains are, one divided by scale.
     scale: 2
 //how far the mesh goes from the center of the planet
