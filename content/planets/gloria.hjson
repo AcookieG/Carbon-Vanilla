@@ -15,7 +15,7 @@ mesh: [
     persistence: 1
     scale: 1
     mag: 0.6
-    scl: 5
+    scl: 1
     pow: 1
   }
   {
@@ -50,6 +50,21 @@ mesh: [
   }
   {
 	type: NoiseMesh
+    divisions: 5
+    seed: 450
+    radius: 1
+    //dark
+    color1: 252525
+    color2: 101010
+    octaves: 1
+    persistence: 1
+    scale: 0.2
+    mag: 1
+    scl: 1
+    pow: 1
+  }
+  {
+	type: NoiseMesh
 // how many tiles
     divisions: 5
 // *idk
@@ -67,7 +82,7 @@ mesh: [
 //how large mountains are, one divided by scale.
     scale: 2.5
 //how far the mesh goes from the center of the planet
-    mag: 0.6
+    mag: 1.5
 // *idk
     scl: 1
 // *idk
