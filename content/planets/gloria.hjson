@@ -23,22 +23,38 @@ colors: [
 }
   {
 	type: NoiseMesh
-    divisions: 4
+    divisions: 5
     seed: 2
     radius: 1
+    //salt
     color1: ffffff
     color2: d6dbe7
     octaves: 1
-    persistence: 1
-    scale: 1.5
-    mag: 0.6
+    persistence: 2
+    scale: 10
+    mag: 0.5
+    scl: 1
+    pow: 1
+  }
+  {
+	type: NoiseMesh
+    divisions: 5
+    seed: 2
+    radius: 1
+    //water
+    color1: 5867ac
+    color2: 4d5ca4
+    octaves: 3
+    persistence: 2
+    scale: 10
+    mag: 0.5
     scl: 1
     pow: 1
   }
   {
 	type: NoiseMesh
 // how many tiles
-    divisions: 4
+    divisions: 5
 // *idk
     seed: 1
 //how far the mesh goes from the center of the planet
@@ -47,17 +63,14 @@ colors: [
     //red mountains
     color1: ce735e
     color2: af4753
-    //salt
-//ffffff
-//d6dbe7
 // *idk
     octaves: 1
 // how many of it
-    persistence: 1
+    persistence: 2
 //how large mountains are, one divided by scale.
-    scale: 2
+    scale: 12
 //how far the mesh goes from the center of the planet
-    mag: 0.6
+    mag: 0.5
 // *idk
     scl: 1
 // *idk
