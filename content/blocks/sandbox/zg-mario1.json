@@ -1,5 +1,5 @@
 {
-	"name": "KILLV2",
+	"name": "KILLV2; CLEARLEVEL",
 	"description": "I have seen enough. I am satisfied. -Satisfied",
 	"type": "powerTurret",
 	"health": 999999,
@@ -37,13 +37,8 @@
 				"homingRange": 200,
 			}
 		},
-	"consumes": {
-		"power": 0.01
-	},
 	"requirements": [
-		{ "item": "phase-decay", "amount": 2500000 },
-		{ "item": "spore-pod", "amount": 150000 },
-   	     { "item": "surge-alloy", "amount": 2000000 }
+		{ "item": "copper", "amount": 1 },
 	],
 	"category": "logic",
 	"research": "duo"
