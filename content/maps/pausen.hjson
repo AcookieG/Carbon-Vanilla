@@ -1,9 +1,9 @@
-sector: 0
+sector: 5
 planet: gloria
 localizedName: Pausen
 difficulty: 1
 enemyBase: true
-captureWave: 6
+captureWave: 10
 alwaysUnlocked: true
 research: {
 parent: core-shard
