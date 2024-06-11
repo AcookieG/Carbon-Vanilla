@@ -21,3 +21,36 @@ mesh: [
     mag: 0.2
   }
 ]
+
+
+
+  {
+	type: NoiseMesh
+    divisions: 5
+    seed: 2
+    radius: 1
+    //salt
+    color1: ffffff
+    color2: d6dbe7
+    octaves: 1
+    persistence: 1
+    scale: 1.8
+    mag: 0.5
+    scl: 1
+    pow: 1
+  }
+  {
+	type: NoiseMesh
+    divisions: 5
+    seed: 255
+    radius: 1
+    //water
+    color1: 486acd
+    color2: 486acd
+    octaves: 1
+    persistence: 1
+    scale: 0.001
+    mag: 0.6
+    scl: 1
+    pow: 1
+  }

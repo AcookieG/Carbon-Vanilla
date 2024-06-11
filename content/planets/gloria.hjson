@@ -7,12 +7,12 @@ mesh: [
 bloom: false
 type: SunMesh 
 divisions: 5
-radius: 3.6
+radius: 1
 octaves: 1
-persistence: .5
-scl: 2
-pow: 2.2
-mag: 3
+persistence: 1
+scl: 1
+pow: 1
+mag: 1
 colorScale: 1
 colors: [
 ffffff
@@ -23,36 +23,6 @@ ce735e
 af4753
 ]
 }
-  {
-	type: NoiseMesh
-    divisions: 5
-    seed: 2
-    radius: 1
-    //salt
-    color1: ffffff
-    color2: d6dbe7
-    octaves: 1
-    persistence: 1
-    scale: 1.8
-    mag: 0.5
-    scl: 1
-    pow: 1
-  }
-  {
-	type: NoiseMesh
-    divisions: 5
-    seed: 255
-    radius: 1
-    //water
-    color1: 486acd
-    color2: 486acd
-    octaves: 1
-    persistence: 1
-    scale: 0.001
-    mag: 0.6
-    scl: 1
-    pow: 1
-  }
   {
 	type: NoiseMesh
 // how many tiles
@@ -70,9 +40,9 @@ af4753
 // how many of it
     persistence: 1
 //how large mountains are, one divided by scale.
-    scale: 2
+    scale: 1
 //how far the mesh goes from the center of the planet
-    mag: 0.5
+    mag: 0.6
 // *idk
     scl: 1
 // *idk
