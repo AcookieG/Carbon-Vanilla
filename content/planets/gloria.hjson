@@ -85,7 +85,7 @@ mesh: [
 // *idk
     seed: 1
 //how far the mesh goes from the center of the planet
-    radius: 1.03
+    radius: 1
 //colors of the hexagons
     //red mountains
     color1: ce735e
@@ -93,7 +93,7 @@ mesh: [
 // *idk; NEVER LESS THAN ONE
     octaves: 1
 // how many of it
-    persistence: 0.3
+    persistence: 0.95
 //how large mountains are, one divided by scale.
     scale: 6
 //how far the mesh goes from the center of the planet
