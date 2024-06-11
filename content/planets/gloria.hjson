@@ -131,7 +131,7 @@ generator: {
 }
 sectorSize: 1
 allowLaunchSchematics: true
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: true
 startSector: 0

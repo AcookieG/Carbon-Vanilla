@@ -1,0 +1,10 @@
+sector: 0
+planet: gloria
+localizedName: Pausen
+difficulty: 1
+enemyBase: true
+captureWave: 6
+alwaysUnlocked: true
+research: {
+parent: core-shard
+}
