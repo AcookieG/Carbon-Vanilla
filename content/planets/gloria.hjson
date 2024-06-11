@@ -90,8 +90,8 @@ mesh: [
     //red mountains
     color1: ce735e
     color2: af4753
-// *idk
-    octaves: 0.5
+// *idk; NEVER LESS THAN ONE
+    octaves: 1
 // how many of it
     persistence: 0.3
 //how large mountains are, one divided by scale.
