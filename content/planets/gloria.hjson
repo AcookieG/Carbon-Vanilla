@@ -30,8 +30,8 @@ colors: [
     color1: ffffff
     color2: d6dbe7
     octaves: 1
-    persistence: 2
-    scale: 10
+    persistence: 1
+    scale: 1.8
     mag: 0.5
     scl: 1
     pow: 1
@@ -39,15 +39,15 @@ colors: [
   {
 	type: NoiseMesh
     divisions: 5
-    seed: 2
+    seed: 255
     radius: 1
     //water
     color1: 5867ac
     color2: 4d5ca4
-    octaves: 3
-    persistence: 2
-    scale: 10
-    mag: 0.5
+    octaves: 1
+    persistence: 1
+    scale: 0.001
+    mag: 0.6
     scl: 1
     pow: 1
   }
@@ -66,9 +66,9 @@ colors: [
 // *idk
     octaves: 1
 // how many of it
-    persistence: 2
+    persistence: 1.3
 //how large mountains are, one divided by scale.
-    scale: 12
+    scale: 2
 //how far the mesh goes from the center of the planet
     mag: 0.5
 // *idk
