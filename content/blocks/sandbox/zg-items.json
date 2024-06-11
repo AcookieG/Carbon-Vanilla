@@ -1,0 +1,48 @@
+{
+	"name": "ItemSource",
+	"type": "GenericCrafter"
+	"size": 1,
+	"health": 40000000000,
+	"itemCapacity": 80000000,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"liquidCapacity": 80000000,
+	"consumes": {
+		"power": 0.001,
+	},
+    "requirements": [
+		{ "item": "phase-decay", "amount": 2500000 },
+		{ "item": "spore-pod", "amount": 150000 },
+   	     { "item": "surge-alloy", "amount": 2000000 }
+    ],
+	"category": "effect",
+	"rotate": false
+	"research": "surge-smelter",
+	"idleSound": "none",
+	"outputItems": [
+		{ "item": "scrap", "amount": 60 },
+		{ "item": "copper", "amount": 60 },
+		{ "item": "lead", "amount": 60 },
+
+		{ "item": "graphite", "amount": 60 },
+		{ "item": "coal", "amount": 60 },
+		{ "item": "titanium", "amount": 60 },
+
+		{ "item": "thorium", "amount": 60 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "plastanium", "amount": 60 },
+
+		{ "item": "metaglass", "amount": 60 },
+		{ "item": "sand", "amount": 60 },
+		{ "item": "phase-fabric", "amount": 60 },
+
+		{ "item": "surge-alloy", "amount": 60 },
+		{ "item": "spore-pod", "amount": 60 },
+		{ "item": "blast-compound", "amount": 60 },
+
+		{ "item": "pyratite", "amount": 60 },
+],
+	"craftTime": 1
+}

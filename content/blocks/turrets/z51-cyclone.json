@@ -5,7 +5,7 @@
 	"type": "ItemTurret",
 	"health": 1305,
 	"size": 3,
-	"reload": 8,
+	"reload": 6,
 	"shake": 0.6,
 	"range": 250,
 	"ammoUseEffect": "casing3",
@@ -13,7 +13,7 @@
 	"restitution": 0.01,
 	"shootCone": 15,
 	"hasLiquids": true,
-	"inaccuracy": 6,
+	"inaccuracy": 12,
 	"velocityRnd": 0.1,
 	"xRand": 2,
 "shoot": {
@@ -131,7 +131,7 @@
 			"ammoMultiplier": 1,
 			"width": 8,
 			"height": 12,
-			"reloadMultiplier": 0.65,
+			"reloadMultiplier": 0.75,
 			"lifetime": 25,
 			"bulletShrink": 0,
 			"shootEffect": "shootBig",
@@ -154,12 +154,12 @@
 		"amount": 0.3
 		}
 	},
-	"coolantMultiplier": 6.5
+	"coolantMultiplier": 8
 	"requirements": [
 		{ "item": "copper", "amount": 220 },
 		{ "item": "titanium", "amount": 120 },
 		{ "item": "carbon-fiber", "amount": 90 },
 	],
 	"category": "turret",
-	"research": "salvo"
+	"research": "cyclone"
 }

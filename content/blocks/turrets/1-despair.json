@@ -313,7 +313,7 @@
 "colorFrom": "6cb7f5ff",
 "colorTo": "ffffff00"
 },
-			"lifetime": 25,
+			"lifetime": 30,
 			"speed": 9
 			"collidesAir": true
 			"collidesGround": true
@@ -327,6 +327,9 @@
 			"trailEffect": "colorSpark"
 			"trailRotation": true
 			"trailInterval": 3
+			"trailChance": -1
+			"trailWidth": 2.7
+			"trailLength": 18
 			"frontColor": "ffffff"
 			"backColor": "6cb7f5"
 			"homingPower": 0.01,

@@ -1,61 +1,74 @@
 localizedName: Gloria
 description: In between Serpulo and Erekir. Only go to the marked locations. Extreme atmosphere.
-generator: erekirPlanetGenerator
+generator: tantPlanetGenerator
 alwaysUnlocked: true
 mesh: [
+{
+bloom: false
+type: SunMesh 
+divisions: 4
+radius: 2
+octaves: 1
+persistence: 1
+scl: 1
+pow: 1
+mag: 1
+colorScale: 1
+//water
+colors: [
+486acd,
+486acd,
+486acd,
+]
+}
   {
 	type: NoiseMesh
-    divisions: 5
-    seed: 1
+    divisions: 4
+    seed: 2
     radius: 1
-    //water
-    color1: 486acd
-    color2: 486acd
-    octaves: 1
-    persistence: 1
-    scale: 0.10
-    mag: 0.9
-  }
-  {
-	type: NoiseMesh
-    divisions: 5
-    seed: 3
-    radius: 1
-    //salt
     color1: ffffff
     color2: d6dbe7
     octaves: 1
     persistence: 1
-    scale: 0.11
-    mag: 0.9
+    scale: 1.5
+    mag: 0.6
+    scl: 1
+    pow: 1
   }
   {
 	type: NoiseMesh
 // how many tiles
-    divisions: 5
+    divisions: 4
 // *idk
-    seed: 2
-// *idk
+    seed: 1
+//how far the mesh goes from the center of the planet
     radius: 1
 //colors of the hexagons
     //red mountains
     color1: ce735e
     color2: af4753
+    //salt
+//ffffff
+//d6dbe7
 // *idk
     octaves: 1
-// *idk
+// how many of it
     persistence: 1
 //how large mountains are, one divided by scale.
-    scale: 0.25
+    scale: 2
 //how far the mesh goes from the center of the planet
-    mag: 0.9
+    mag: 0.6
+// *idk
+    scl: 1
+// *idk
+    pow: 1
   }
 ]
 cloudMesh: [
  {
    type: HexSkyMesh
    speed: 2
-   radius: 0.5
+   radius: 0.3
    divisions: 5
    color: ffffff50
    octaves: 3
@@ -90,7 +103,7 @@ atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
 sectorSeed: 1
-bloom: false
+bloom: true
 visible: true
 atmosphereColor: d1e4ff50
 iconColor: 82a467
