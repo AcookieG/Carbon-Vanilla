@@ -134,7 +134,7 @@ allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: true
-startSector: 5
+startSector: 0
 orbitSpacing: 1
 minZoom: 1
 drawOrbit: true
