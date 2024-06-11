@@ -13,8 +13,23 @@ mesh: [
     color2: d6dbe7
     octaves: 1
     persistence: 1
-    scale: 2
-    mag: 0.55
+    scale: 1
+    mag: 0.6
+    scl: 5
+    pow: 1
+  }
+  {
+	type: NoiseMesh
+    divisions: 5
+    seed: 69
+    radius: 1
+    //mech
+    color1: cf8d58
+    color2: 60616b
+    octaves: 1
+    persistence: 1
+    scale: 1.5
+    mag: 0.58
     scl: 1
     pow: 1
   }
@@ -48,7 +63,7 @@ mesh: [
 // *idk
     octaves: 1
 // how many of it
-    persistence: 1
+    persistence: 2
 //how large mountains are, one divided by scale.
     scale: 2.5
 //how far the mesh goes from the center of the planet
