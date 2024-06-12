@@ -158,3 +158,6 @@ orbitRadius: 30
 orbitTime: 180
 solarSystem: sun
 launchCandidates: []
+research: {
+	parent: core-shard
+}
