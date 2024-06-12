@@ -161,3 +161,5 @@ launchCandidates: []
 research: {
 	parent: core-shard
 }
+techTree: SerpuloTechTree
+techNode: SerpuloTechTree
