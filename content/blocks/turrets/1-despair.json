@@ -8,7 +8,7 @@
 	"reload": 75,
 	"shake": 3,
 	"recoil": 5,
-	"range": 280,
+	"range": 300,
 	"ammoUseEffect": "casing3Double",
 	"shootSound": "missileLaunch",
 	"restitution": 0.0001,
@@ -21,7 +21,7 @@
 	"targetUnderBlocks": false
 	"shootY": 18
 	"ammoPerShot": 5,
-	"velocityRnd": 0.4,
+	"velocityRnd": 0.5,
 	"consumes": {
 		"power": 6
 		"coolant": {
@@ -32,7 +32,7 @@
 	"shoot": {
 		"type": "ShootSpread",
 		"shots": 4
-		"spread": 20
+		"spread": 22
 	}
 	"drawer": {
 	"type": "drawTurret",
@@ -293,7 +293,7 @@
 	},
 	"ammoTypes": {
 		"titanium": {
-			"type": "MissileBulletType",
+			"type": "FlakBulletType",
 			"sprite": "missile-large",
 			"damage": 0,
 			"ammoMultiplier": 1,
@@ -313,7 +313,7 @@
 "colorFrom": "6cb7f5ff",
 "colorTo": "ffffff00"
 },
-			"lifetime": 30,
+			"lifetime": 40,
 			"speed": 9
 			"collidesAir": true
 			"collidesGround": true
@@ -332,8 +332,9 @@
 			"trailLength": 18
 			"frontColor": "ffffff"
 			"backColor": "6cb7f5"
-			"homingPower": 0.01,
-			"homingRange": 30,
+			"homingPower": 0.03,
+			"homingRange": 60,
+			"explodeRange": 30
 			"fragBullets": 6,
 			"fragBullet": {
 		"type": "LaserBulletType",

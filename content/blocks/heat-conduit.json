@@ -7,7 +7,7 @@
   "liquidPressure": 512,
   "liquidCapacity": 1000,
   "requirements": [
-    "surge-alloy/40",
+    "surge-alloy/4",
     "phase-decay/1"
   ],
   "research": "pulse-conduit",

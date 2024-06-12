@@ -7,7 +7,7 @@
 	"size": 3,
 	"reload": 6,
 	"shake": 0.2,
-	"range": 250,
+	"range": 190,
 	"ammoUseEffect": "casing3Double",
 	"shootSound": "flame",
 	"restitution": 0.01,
@@ -59,8 +59,8 @@
 			"despawnHit": true,
 			"damage": 60,
 			"instantDisapear": false
-			"lifetime": 50
-			"velMin": 3.5
+			"lifetime": 30
+			"velMin": 2.5
 			"velMax": 6
 			"collidesAir": true
 			"collidesGround": true
@@ -85,8 +85,8 @@
 				"status": "burning",
 				"statusDuration": 300
 				"lifetime": 60
-				"velMin": 2.1
-				"velMax": 8
+				"velMin": 0.1
+				"velMax": 2.1
 				"hitGround": true
 				"hitAir": true
 				"drawSize": 250

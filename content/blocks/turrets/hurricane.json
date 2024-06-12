@@ -6,7 +6,7 @@
 	"size": 4,
 	"reload": 2,
 	"shake": 0,
-	"range": 300,
+	"range": 260,
 	"shootSound": "splash",
 	"restitution": 0.1,
 	"shootCone": 15,
@@ -29,7 +29,7 @@
 			"liquid": "water"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 74,
+			"lifetime": 62,
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 2,
@@ -44,7 +44,7 @@
 			"liquid": "oil"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 74,
+			"lifetime": 62,
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 4,
@@ -59,7 +59,7 @@
 			"liquid": "slag"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 74,
+			"lifetime": 62,
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 1.5,
@@ -74,7 +74,7 @@
 			"liquid": "cryofluid"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 74,
+			"lifetime": 62,
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 1,

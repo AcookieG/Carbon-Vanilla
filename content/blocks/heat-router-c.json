@@ -5,11 +5,11 @@
 	"requirements": [
 		{
 			"item": "surge-alloy",
-			"amount": 400
+			"amount": 100
 		},
 		{
 			"item": "phase-decay",
-			"amount": 50
+			"amount": 10
 		},
 	]
 	"liquidCapacity": 1000

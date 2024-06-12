@@ -50,7 +50,8 @@
 			"homingRange": 30,
 		},
 		"metaglass": {
-			"type": "BasicBulletType",
+			"type": "FlakBulletType",
+			"explodeRange": 12
 			"drawsize": 120,
 			"collidesAir": true
 			"collidesGround": false
@@ -77,7 +78,8 @@
 			},
 		},
 		"plastanium": {
-			"type": "BasicBulletType",
+			"type": "FlakBulletType",
+			"explodeRange": 12
 			"drawsize": 120,
 			"collidesAir": true
 			"collidesGround": false

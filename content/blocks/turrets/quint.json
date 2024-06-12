@@ -5,7 +5,7 @@
 	"health": 850,
 	"size": 3,
 	"reload": 240,
-	"range": 120,
+	"range": 90,
 	"hasLiquids": false,
 	"inaccuracy": 0,
 	"targetAir": true
@@ -27,7 +27,7 @@
 		"type": "LaserBulletType"
 		"sprite": "carbon-vanilla-clear",
 		"damage": 18,
-		"length": 130,
+		"length": 95,
 		"width": 12,
 		"hitEffect": "hitLancer",
 		"lightColor": "ffffa3ff",
@@ -42,7 +42,7 @@
 		"lifetime": 40
 	},
 	"consumes": {
-		"power": 16
+		"power": 5
 	},
 	"requirements": [
 		{ "item": "plastanium", "amount": 60 },

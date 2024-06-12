@@ -4,7 +4,7 @@
 	"type": "TractorBeamTurret",
 	"health": 1150,
 	"size": 3,
-	"range": 300,
+	"range": 220,
 	"hasLiquids": false,
 	"inaccuracy": 0,
 	"targetAir": true

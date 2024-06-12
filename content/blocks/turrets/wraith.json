@@ -6,7 +6,7 @@
 	"size": 2,
 	"reload": 18,
 	"shake": 0.5,
-	"range": 112,
+	"range": 110,
 	"shootSound": "lightningShoot",
 	"restitution": 0.1,
 	"shootCone": 45,
