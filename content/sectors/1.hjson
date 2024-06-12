@@ -1,0 +1,10 @@
+sector: 2
+planet: gloria
+localizedName: 1
+difficulty: 1
+enemyBase: true
+captureWave: 30
+alwaysUnlocked: false
+research: {
+parent: 0
+}
