@@ -18,6 +18,18 @@ const below = extend(UnitType, "w3-below", {
 	}
 });
 
+//sentry
+const below = extend(UnitType, "sentry", {
+	draw(unit) {
+		this.super$draw(unit);
+		Draw.rect(
+			"carbon-vanilla-sentry-top",
+			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0),
+			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0),
+			Time.time * 0);
+	}
+});
+
 //h1-Task
 const task = extend(UnitType, "h1-task", {
 	draw(unit) {
@@ -60,3 +72,4 @@ const project = extend(UnitType, "h2-project", {
 below.constructor = () => extend(UnitEntity, {});
 task.constructor = () => extend(UnitEntity, {});
 project.constructor = () => extend(UnitEntity, {});
+sentry.constructor = () => extend(UnitEntity, {});
