@@ -59,9 +59,9 @@
 			"despawnHit": true,
 			"damage": 60,
 			"instantDisapear": false
-			"lifetime": 30
-			"velMin": 2.5
-			"velMax": 6
+			"lifetime": 50
+			"velMin": 3.8
+			"velMax": 6.8
 			"collidesAir": true
 			"collidesGround": true
 			"collidesTiles": false
@@ -85,8 +85,8 @@
 				"status": "burning",
 				"statusDuration": 300
 				"lifetime": 60
-				"velMin": 0.1
-				"velMax": 2.1
+				"velMin": 2.1
+				"velMax": 8.5
 				"hitGround": true
 				"hitAir": true
 				"drawSize": 250
