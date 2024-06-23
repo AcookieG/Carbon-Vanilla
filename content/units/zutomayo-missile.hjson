@@ -1,0 +1,238 @@
+{
+type: missile
+controller: MissileAI
+template: MissileUnitType 
+lowAltitude: false
+speed: 11
+rotateSpeed: 0.1
+lifetime: 6000
+physics: false
+flying: true
+hidden: false
+health: 99999
+hitSize: 1
+engineLayer: 110
+trailColor: FFFFffff
+missileAccelTime: 100
+engineOffset: 20
+engineSize: 2
+drawCell: false
+engineColor: FFFFffff
+outlineColor: 00000000
+maxRange: 100
+trailLength: 1
+range: 100
+shootOnDeath: true
+weapons: [
+	{
+	shootOnDeath: true
+	controllable: true
+	shootSound: explosionBig
+	shootCone: 90
+	mirror: false
+	rotateSpeed: 36
+	bullet: {
+		type: BasicBulletType
+		killShooter: true
+		instantDisappear: true
+		hitSound: explosionBig
+		hitSoundVolume: 30
+		damage: 1
+		lifeTime: 10
+		speed: 32
+		width: 20
+		height: 20
+		collidesAir: false
+		collidesGround: false
+		collidesTiles: false
+		hittable: false
+		reflectable: false
+		absorbable: false
+		despawnShake: 60
+		shootEffect: none
+			lightning: 70
+			lightningDamage: 8000
+			lightningCone: 360
+			lightningLengthRand: 30
+			lightningLength: 10
+		despawnEffect: {
+		type: multiEffect
+		effects: [
+			{
+			type: ParticleEffect
+			particles: 1
+			length: 0
+			lifetime: 180
+			interp: circleOut
+			cone: 360
+			sizeFrom: 8000
+			sizeTo: 8000
+			colorFrom: ffffffaa
+			colorTo: ffffff11
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 500
+			waveRad: 2400
+			waveLife: 360
+			waveStroke: 30
+			smokeColor: ffffa3ff
+			smokeSize: 80
+			smokes: 100
+			smokeRad: 200
+			sparks: 50
+			sparkRad: 500
+			sparkStroke: 10
+			sparkLen: 15
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 500
+			waveRad: 600
+			waveLife: 300
+			waveStroke: 3
+			smokeColor: ffffff88
+			smokeSize: 100
+			smokes: 80
+			smokeRad: 220
+			sparks: 50
+			sparkRad: 500
+			sparkStroke: 10
+			sparkLen: 15
+			sparkColor: ffffa3ff
+			waveColor: ffffffff
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 3600
+			waveRad: 600
+			waveLife: 300
+			waveStroke: 200
+			smokeSize: 80
+			smokeColor: 111111ee
+			smokes: 20
+			smokeRad: 100
+			sparks: 0
+			waveColor: ffffffff
+			}
+			{
+			type: ParticleEffect
+			particles: 1
+			length: 0
+			lifetime: 180
+			interp: circleOut
+			cone: 360
+			sizeFrom: 8000
+			sizeTo: 8000
+			colorFrom: ffffffff
+			colorTo: 00000000
+			}
+		]
+		}
+		intervalBullets: 500
+		intervalRandomSpread: 3600
+		bulletInterval: 1
+		intervalBullet: {
+			type: BasicBulletType
+			damage: 2200
+			instantDisapear: false
+			speed: 30
+			lifetime: 400
+			despawnEffect: none
+			collidesAir: false
+			collidesGround: false
+			collidesTiles: false
+			hittable: false
+			reflectable: false
+			absorbable: true
+			width: 1600
+			height: 1600
+			sprite: carbon-vanilla-clear
+		}
+		fragBullets: 1800
+		fragBullet: {
+      			type: FireBulletType
+			colorFrom: ffffa3ff
+			colorMid: ffffffff
+			colorTo: e2865400
+			damage: 2200
+			width: 20
+			height: 20
+			status: carbon-vanilla-helios-effect
+			statusDuration: 360000
+			lifetime: 1200
+			collidesAir: false
+			collidesGround: false
+			collidesTiles: false
+			hittable: false
+			reflectable: false
+			absorbable: false
+			velMin: 0
+			velMax: 14
+			drawSize: 250
+			intervalBullets: 1
+			intervalRandomSpread: 360
+			bulletInterval: 8
+			intervalBullet: {
+				type: BasicBulletType
+				damage: 30
+				status: carbon-vanilla-helios-effect
+				statusDuration: 360000
+				instantDisapear: false
+				speed: 0
+				lifetime: 1
+				collidesAir: true
+				collidesGround: true
+				despawnEffect: none
+				despawnShake: 3
+				hitSound: explosionBig
+				incendAmount: 1
+				incendSpread: 10
+				incendChance: 2
+			}
+		}
+	}
+}
+]
+abilities: [
+	{
+	type: MoveEffectAbility
+	interval: 2
+	y: -20
+	rotateEffect: true
+	rotation: 180
+	effect: {
+	type: multiEffect
+	effects: [
+		{
+		type: ParticleEffect
+		particles: 14
+		sizeFrom: 9
+		sizeTo: 0
+		length: 120
+		lifetime: 120
+		lightOpacity: 0
+		interp: circleOut
+		sizeInterp: pow5In
+		colorFrom: ffffa3
+		colorTo: e2865400
+		cone: 13
+		}
+		{
+		type: ParticleEffect
+		particles: 3
+		sizeFrom: 16
+		sizeTo: 6
+		length: 90
+		lifetime: 120
+		lightOpacity: 0
+		interp: circleOut
+		colorFrom: bbbbbbff
+		colorTo: 00000022
+		cone: 90
+		}
+	]
+	}
+	}
+]
+}

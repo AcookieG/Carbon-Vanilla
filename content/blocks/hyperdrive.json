@@ -4,15 +4,15 @@
 	"type": "OverdriveProjector",
 	"health": 380,
 	"size": 2,
-	"range": 24,
+	"range": 28,
 	"hasPower": true
-	"speedBoost": 9,
-    "speedBoostPhase": 4,
-    "phaseRangeBoost": 24,
+	"speedBoost": 8,
+    "speedBoostPhase": 5,
+    "phaseRangeBoost": 16,
     "consumes": { 
         "power": 40,
         "items": {
-			"items": [ {"item": "silicon", "amount": 1} ],
+			"items": [ {"item": "phase-decay", "amount": 1} ],
 			"booster": true,
 			"optional": true
         } 

@@ -1,0 +1,333 @@
+{
+	name: Atlas
+	description: An insane railgun slowly clearing everything in a straight line. Low damage.
+	type: ItemTurret
+	squareSprite: false
+	health: 5300
+	size: 4
+	reload: 300
+	shake: 10
+	recoil: 8
+	range: 4000
+	ammoUseEffect: casing3Double
+	shootSound: railgun
+	restitution: 0.001
+	cooldownTime: 180
+	minWarmup: 0.7
+	warmupMaintainTime: 75
+	moveWhileCharging: false
+	shootCone: 0.01
+	rotateSpeed: 0.7
+	hasPower: true
+	targetUnderBlocks: false
+	shootY: 18
+	ammoPerShot: 8
+	consumes: {
+		power: 10
+		coolant: {
+		amount: 0.5
+		}
+	}
+	coolantMultiplier: 1.25
+	drawer: {
+	type: drawTurret
+	basePrefix: reinforced-
+	parts: [
+		{
+			type: RegionPart
+			suffix: -center
+			moveY: -10
+			moveX: 0
+			moveRot: 0
+			mirror: false
+			progress: recoil
+			children: [
+				{
+					type: RegionPart
+					suffix: -heat1
+					mirror: true
+					outline: false
+					blending: additive
+					colorTo: ffffa3
+					color: ffffa300
+					progress: {
+						type: warmup
+						op: blend
+						other: heat
+						amount: 0.25
+					}
+				}
+			]
+		}
+		{
+			type: RegionPart
+			suffix: -w1
+			moveY: 0
+			moveX: 4
+			moveRot: 0
+			mirror: true
+			progress: recoil
+			children: [
+				{
+					type: RegionPart
+					suffix: -heat2
+					mirror: true
+					outline: false
+					blending: additive
+					colorTo: ffffa3
+					color: ffffa300
+					progress: {
+						type: warmup
+						op: blend
+						other: heat
+						amount: 0.25
+					}
+				}
+			]
+		}
+		{
+			type: shapePart
+			y: -22
+			hollow: true
+			circle: true
+			layer: 110
+			color: ffffa3
+			stroke: 0
+			strokeTo: 1.1
+			radiusTo: 5
+			radius: 5
+		}
+		{
+			type: shapePart
+			y: -22
+			hollow: true
+			circle: true
+			layer: 110
+			color: ffffa3
+			stroke: 0
+			strokeTo: 1.9
+			radiusTo: 9
+			radius: 9
+		}
+		{
+			type: shapePart
+			y: 0
+			hollow: true
+			circle: true
+			layer: 110
+			color: ffffa3
+			stroke: 0
+			strokeTo: 2
+			radiusTo: 12
+			radius: 12
+		}
+{
+type: shapePart
+y: 0
+hollow: true
+circle: false
+sides: 4
+layer: 110
+color: ffffa3
+stroke: 0
+rotateSpeed: 1.5
+strokeTo: 1.8
+radiusTo: 10
+radius: 10
+}
+{
+type: shapePart
+y: 0
+hollow: true
+circle: false
+sides: 4
+layer: 110
+color: ffffa3
+stroke: 0
+rotateSpeed: -1.5
+strokeTo: 1.8
+radiusTo: 10
+radius: 10
+}
+{
+type: HaloPart
+y: 0
+radius: 3.5
+tri: true
+layer: 110
+haloRotation: 0
+shapeRotation: 0
+haloRotateSpeed: 0.8
+color: ffffa3
+haloRadius: 0
+haloRadiusTo: 20
+stroke: 0
+strokeTo: 2
+shapes: 4
+triLengthTo: 32
+triLength: 0
+}
+
+{
+type: HaloPart
+y: 18
+x: 4
+radius: 2.5
+tri: true
+layer: 110
+haloRotation: 0
+shapeRotation: 0
+color: ffffa3
+haloRadius: 0
+haloRadiusTo: 0
+stroke: 0
+strokeTo: 2
+shapes: 1
+triLengthTo: 85
+triLength: 0
+}
+{
+type: HaloPart
+y: 18
+x: -4
+radius: 2.5
+tri: true
+layer: 110
+haloRotation: 0
+shapeRotation: 0
+color: ffffa3
+haloRadius: 0
+haloRadiusTo: 0
+stroke: 0
+strokeTo: 2
+shapes: 1
+triLengthTo: 85
+triLength: 0
+}
+
+	]
+	}
+	ammoTypes: {
+		phase-decay: {
+			type: BasicBulletType
+			sprite: large-bomb
+			damage: 640
+			ammoMultiplier: 1
+			drawsize: 380
+			width: 10
+			height: 14
+			despawnEffect: {
+type: WaveEffect
+lifetime: 10
+strokeFrom: 4
+sizeTo: 60
+colorFrom: ffcd66
+colorTo: ffffa3
+}
+			hitEffect: none
+			shootEffect: shootSmokeSquareBig
+			smokeEffect: {
+type: ParticleEffect
+particles: 3
+length: -60
+lifetime: 80
+interp: circleOut
+cone: 20
+sizeFrom: 8
+sizeTo: 1
+colorFrom: ffffa3ff
+colorTo: ffffff00
+}
+			lifetime: 1000
+			speed: 9
+			collidesAir: false
+			collidesGround: false
+			collidesTiles: false
+			instantDisapear: false
+			shrinkY: 0
+			hitShake: 0.2
+			trailColor: ffffa3
+			trailEffect: {
+type: WaveEffect
+lifetime: 15
+strokeFrom: 6
+sizeTo: 30
+colorFrom: ffcd66
+colorTo: ffffa3
+}
+			trailRotation: true
+			trailInterval: 1
+			trailChance: -1
+			frontColor: ffffff
+			backColor: ffffa3
+			hittable: false
+			reflectable: false
+			absorbable: false
+			pierce: true
+			pierceCap: 1000
+			pierceBuilding: true
+			buildingDamageMultiplier: 0.05
+			intervalBullets: 3
+			intervalRandomSpread: 20
+			bulletInterval: 1
+			intervalBullet: {
+
+			type: BasicBulletType
+			sprite: circle-bullet
+			damage: 0
+			drawsize: 250
+			width: 5
+			height: 5
+			shootEffect: none
+			smokeEffect: none
+			despawnEffect: {
+type: WaveEffect
+lifetime: 10
+strokeFrom: 4
+sizeTo: 15
+colorFrom: ffcd66
+colorTo: ffffa3
+}
+			hitEffect: none
+			lifetime: 15
+			speed: 2
+			velMin: 0.1
+			velMax: 3
+			collidesAir: false
+			collidesGround: false
+			collidesTiles: false
+			instantDisapear: false
+			shrinkY: 0
+			hitShake: 0
+			trailColor: ffffa3
+			trailEffect: none
+			trailRotation: true
+			trailInterval: 3
+			trailChance: -1
+			trailWidth: 1.8
+			trailLength: 4
+			frontColor: ffffa3
+			backColor: ffcd66
+			hittable: false
+			reflectable: false
+			absorbable: false
+			lightning: 1
+			lightningDamage: 18
+			lightningCone: 360
+			lightningLengthRand: 10
+			lightningLength: 3
+			buildingDamageMultiplier: 1
+			homingPower: 0.04
+			homingRange: 60
+			}
+		}
+	}
+	requirements: [
+		{ item: copper, amount: 1200 }
+		{ item: titanium, amount: 750 }
+		{ item: phase-decay, amount: 300 }
+		{ item: surge-alloy, amount: 480 }
+	]
+	category: turret
+	research: z1raptor
+}
