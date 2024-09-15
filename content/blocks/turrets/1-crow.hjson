@@ -211,7 +211,7 @@ triLength: 0
 		phase-decay: {
 			type: BasicBulletType
 			sprite: large-bomb
-			damage: 640
+			damage: 620
 			ammoMultiplier: 1
 			drawsize: 380
 			width: 10
@@ -266,7 +266,7 @@ colorTo: ffffa3
 			pierce: true
 			pierceCap: 1000
 			pierceBuilding: true
-			buildingDamageMultiplier: 0.35
+			buildingDamageMultiplier: 1
 			intervalBullets: 3
 			intervalRandomSpread: 20
 			bulletInterval: 1
@@ -298,7 +298,7 @@ colorTo: ffffa3
 			collidesTiles: false
 			instantDisapear: false
 			shrinkY: 0
-			hitShake: 0
+			hitShake: 1
 			trailColor: ffffa3
 			trailEffect: none
 			trailRotation: true
@@ -311,12 +311,12 @@ colorTo: ffffa3
 			hittable: false
 			reflectable: false
 			absorbable: false
-			lightning: 1
-			lightningDamage: 18
+			lightning: 2
+			lightningDamage: 34
 			lightningCone: 360
 			lightningLengthRand: 10
 			lightningLength: 3
-			buildingDamageMultiplier: 1
+			buildingDamageMultiplier: 8
 			homingPower: 0.04
 			homingRange: 60
 			}
