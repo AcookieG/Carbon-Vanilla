@@ -129,15 +129,15 @@ weapons: [
 			}
 		]
 		}
-		intervalBullets: 500
+		intervalBullets: 900
 		intervalRandomSpread: 3600
 		bulletInterval: 1
 		intervalBullet: {
 			type: BasicBulletType
-			damage: 2200
+			damage: 22000
 			instantDisapear: false
-			speed: 30
-			lifetime: 400
+			speed: 16
+			lifetime: 800
 			despawnEffect: none
 			collidesAir: false
 			collidesGround: false
@@ -145,9 +145,8 @@ weapons: [
 			hittable: false
 			reflectable: false
 			absorbable: true
-			width: 1600
-			height: 1600
-			sprite: carbon-vanilla-clear
+			width: 160
+			height: 160
 		}
 		fragBullets: 1800
 		fragBullet: {
