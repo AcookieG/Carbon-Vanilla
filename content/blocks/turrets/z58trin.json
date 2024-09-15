@@ -4,7 +4,7 @@
 	"type": "ItemTurret",
 	"health": 4520,
 	"size": 5,
-	"reload": 600,
+	"reload": 1200,
 	"shake": 125,
 	"range": 180,
 	"ammoUseEffect": "explosion",
