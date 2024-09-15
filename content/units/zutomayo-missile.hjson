@@ -136,8 +136,8 @@ weapons: [
 			type: BasicBulletType
 			damage: 22000
 			instantDisapear: false
-			speed: 16
-			lifetime: 800
+			speed: 25
+			lifetime: 600
 			despawnEffect: none
 			collidesAir: false
 			collidesGround: false
@@ -147,8 +147,9 @@ weapons: [
 			absorbable: true
 			width: 160
 			height: 160
+			keepVelocity: false
 		}
-		fragBullets: 1800
+		fragBullets: 1200
 		fragBullet: {
       			type: FireBulletType
 			colorFrom: ffffa3ff
@@ -159,27 +160,28 @@ weapons: [
 			height: 20
 			status: carbon-vanilla-helios-effect
 			statusDuration: 360000
-			lifetime: 1200
+			lifetime: 1000
 			collidesAir: false
 			collidesGround: false
 			collidesTiles: false
 			hittable: false
 			reflectable: false
 			absorbable: false
-			velMin: 0
+			velMin: -0.5
 			velMax: 14
 			drawSize: 250
-			intervalBullets: 1
+			intervalBullets: 2
 			intervalRandomSpread: 360
-			bulletInterval: 8
+			bulletInterval: 60
 			intervalBullet: {
 				type: BasicBulletType
 				damage: 30
 				status: carbon-vanilla-helios-effect
 				statusDuration: 360000
 				instantDisapear: false
-				speed: 0
-				lifetime: 1
+				velMin: -0.2
+				velMax: 0.4
+				lifetime: 1200
 				collidesAir: true
 				collidesGround: true
 				despawnEffect: none
