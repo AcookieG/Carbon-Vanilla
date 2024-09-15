@@ -7,8 +7,8 @@
 	"range": 28,
 	"hasPower": true
 	"speedBoost": 8,
-    "speedBoostPhase": 5,
-    "phaseRangeBoost": 16,
+    "speedBoostPhase": 8,
+    "phaseRangeBoost": 60,
     "consumes": { 
         "power": 40,
         "items": {

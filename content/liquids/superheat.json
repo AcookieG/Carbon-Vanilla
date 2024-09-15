@@ -13,7 +13,7 @@
 	"colorFrom": "fb9957",
 	"colorTo": "e75d48",
 	"gasColor": "e75d48"
-	"blockReactive": true,
+	"blockReactive": false,
 	"viscosity": 0.5,
 	"heatCapacity": 0,
 	"explosiveness": 100,

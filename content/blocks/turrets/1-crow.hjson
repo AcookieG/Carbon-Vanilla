@@ -266,7 +266,7 @@ colorTo: ffffa3
 			pierce: true
 			pierceCap: 1000
 			pierceBuilding: true
-			buildingDamageMultiplier: 0.05
+			buildingDamageMultiplier: 0.35
 			intervalBullets: 3
 			intervalRandomSpread: 20
 			bulletInterval: 1

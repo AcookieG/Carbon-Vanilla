@@ -12,7 +12,7 @@
 			"amount": 10
 		},
 	]
-	"liquidCapacity": 1000
+	"liquidCapacity": 4000
 	"size": 2
 	"research": "heat-conduit"
 	"health": 500

@@ -4,8 +4,8 @@
   "description": "An extremely resistant conduit for superfluids."
   "health": 500,
   "leaks": false,
-  "liquidPressure": 512,
-  "liquidCapacity": 1000,
+  "liquidPressure": 8000,
+  "liquidCapacity": 3000,
   "requirements": [
     "surge-alloy/4",
     "phase-decay/1"

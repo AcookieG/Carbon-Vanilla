@@ -4,7 +4,7 @@ controller: MissileAI
 template: MissileUnitType 
 lowAltitude: false
 speed: 11
-rotateSpeed: 0.1
+rotateSpeed: 0.3
 lifetime: 6000
 physics: false
 flying: true
