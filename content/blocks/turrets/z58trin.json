@@ -4,9 +4,9 @@
 	"type": "ItemTurret",
 	"health": 4520,
 	"size": 5,
-	"reload": 1200,
+	"reload": 120,
 	"shake": 125,
-	"range": 180,
+	"range": 60,
 	"ammoUseEffect": "explosion",
 	"shootSound": "missileLarge",
 	"restitution": 1,
@@ -17,11 +17,11 @@
 	"restitution": 0.005,
 	"cooldownTime": 80,
 	"targetAir": false,
-	"ammoPerShot": 2,
-	"maxAmmo": 2
+	"ammoPerShot": 590,
+	"maxAmmo": 600
 	"basePrefix": "z58-",
 	"ammoTypes": {
-		"z-item-missile-zutomayo": {
+		"phase-decay": {
       			"type": "BasicBulletType",
 			"spawnUnit": "zutomayo-missile"
 		}

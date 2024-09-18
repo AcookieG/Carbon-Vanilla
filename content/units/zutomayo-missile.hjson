@@ -38,7 +38,7 @@ weapons: [
 		hitSound: explosionBig
 		hitSoundVolume: 30
 		damage: 1
-		lifeTime: 10
+		lifeTime: 30
 		speed: 32
 		width: 20
 		height: 20
@@ -129,47 +129,29 @@ weapons: [
 			}
 		]
 		}
-		intervalBullets: 500
-		intervalRandomSpread: 3600
-		bulletInterval: 1
+		intervalBullets: 3000
+		intervalRandomSpread: 360
+		bulletInterval: 10
 		intervalBullet: {
-			type: BasicBulletType
+      			type: FireBulletType
+			colorFrom: 00000010
+			colorMid: 00000010
+			colorTo: 00000010
 			damage: 22000
 			instantDisapear: false
-				velMin: 18
-				velMax: 26
-			lifetime: 600
-			despawnEffect: none
+			velMin: 90
+			velMax: 220
+			lifetime: 10000
+			despawnEffect: scatheExplosion
 			collidesAir: false
 			collidesGround: false
 			collidesTiles: false
 			hittable: false
 			reflectable: false
 			absorbable: true
-			width: 160
-			height: 160
+			width: 180
+			height: 180
 			keepVelocity: false
-				intervalBullets: 1
-				intervalRandomSpread: 10
-				bulletInterval: 10
-				intervalBullet: {
-			type: BasicBulletType
-			damage: 22000
-			instantDisapear: false
-				velMin: 15
-				velMax: 20
-			lifetime: 100
-			despawnEffect: none
-			collidesAir: false
-			collidesGround: false
-			collidesTiles: false
-			hittable: false
-			reflectable: false
-			absorbable: true
-			width: 160
-			height: 160
-			keepVelocity: false
-			}
 		}
 		fragBullets: 2000
 		fragBullet: {
@@ -193,17 +175,17 @@ weapons: [
 			velMax: 14
 			drawSize: 250
 			intervalBullets: 1
-			intervalRandomSpread: 3600
-			bulletInterval: 7
+			intervalRandomSpread: 360
+			bulletInterval: 3
 			intervalBullet: {
-				type: BasicBulletType
+				type: FireBulletType
 				damage: 45
 				status: carbon-vanilla-helios-effect
 				statusDuration: 360000
 				instantDisapear: false
-				velMin: -0.1
-				velMax: 0.1
-				lifetime: 1
+				velMin: -0.8
+				velMax: 1.9
+				lifetime: 20
 				collidesAir: true
 				collidesGround: true
 				despawnEffect: none
