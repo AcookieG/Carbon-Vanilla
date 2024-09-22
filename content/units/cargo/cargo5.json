@@ -71,7 +71,7 @@
 			"color": "6ce5f5ff"
 			"maxTargets": 10,
 			"healPercent": 0.3,
-			"damage": 15,
+			"damage": 7,
 			"range": 140,
 			"sectors": 10,
 			"rotateSpeed": 3,
@@ -85,14 +85,14 @@
 			"color": "6ce5f5ff"
 			"maxTargets": 2,
 			"healPercent": 1.5,
-			"damage": 4,
+			"damage": 14,
 			"range": 150,
 			"sectors": 10,
 			"blinkScl": 80,
 			"rotateSpeed": 1.5,
 			"hitBuildings": true,
 			"sectorRad": 0.03,
-			"reload": 2,
+			"reload": 3,
 		}
 	]
 	"weapons": [
@@ -122,7 +122,7 @@ length: 460
 width: 11
 hitEffect: hitMeltHeal
 drawSize: 420
-lifetime: 160
+lifetime: 200
 shake: 1.5
 despawnEffect: smokeCloud
 smokeEffect: none
