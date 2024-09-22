@@ -110,7 +110,7 @@
 			"shootCone": 30,
 			"x": 0
 			"y": 0
-			"shootY": 40
+			"shootY": 30
 			"mirror": false
 			continuous: true
 			chargeSound: lasercharge2
@@ -119,7 +119,7 @@
 type: ContinuousLaserBulletType
 damage: 60
 length: 460
-width: 20
+width: 11
 hitEffect: hitMeltHeal
 drawSize: 420
 lifetime: 160
