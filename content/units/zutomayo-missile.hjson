@@ -50,6 +50,7 @@ weapons: [
 		absorbable: false
 		despawnShake: 60
 		shootEffect: none
+			keepVelocity: false
 			lightning: 70
 			lightningDamage: 8000
 			lightningCone: 360
@@ -153,7 +154,7 @@ weapons: [
 			height: 180
 			keepVelocity: false
 		}
-		fragBullets: 10
+		fragBullets: 8
 		fragBullet: {
       			"type": "BasicBulletType",
 			"spawnUnit": "zutomayo-sub"

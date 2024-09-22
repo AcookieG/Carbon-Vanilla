@@ -5,7 +5,7 @@ template: MissileUnitType
 lowAltitude: false
 speed: 5
 rotateSpeed: 0
-lifetime: 60
+lifetime: 40
 physics: false
 flying: true
 hidden: false
@@ -37,11 +37,11 @@ abilities: [
 				"colorTo": "e2865400"
 			},
 			"color": "ffffa3ff"
-			"maxTargets": 100,
+			"maxTargets": 800,
 			"healPercent": 0.2,
-			"damage": 30,
+			"damage": 15,
 			"range": 200,
-			"sectors": 2,
+			"sectors": 4,
 			"rotateSpeed": 0,
 			"hitBuildings": true,
 			"sectorRad": 0.1,
@@ -56,6 +56,7 @@ weapons: [
 	shootCone: 90
 	mirror: false
 	rotateSpeed: 36
+	reload: 10
 	bullet: {
 		type: BasicBulletType
 		killShooter: true
@@ -75,7 +76,7 @@ weapons: [
 		absorbable: false
 		despawnShake: 8
 		shootEffect: none
-		fragBullets: 160
+		fragBullets: 80
 		fragBullet: {
     			type: FireBulletType
 			colorFrom: ffffa3ff
@@ -94,14 +95,14 @@ weapons: [
 			reflectable: false
 			absorbable: false
 			velMin: -0.5
-			velMax: 14
+			velMax: 10
 			drawSize: 250
 			intervalBullets: 1
 			intervalRandomSpread: 360
 			bulletInterval: 6
 			intervalBullet: {
 				type: FireBulletType
-				damage: 163
+				damage: 0
 				status: carbon-vanilla-helios-effect
 				statusDuration: 360000
 				instantDisapear: false
@@ -117,6 +118,11 @@ weapons: [
 				incendSpread: 10
 				incendChance: 2
 				keepVelocity: false
+				fragBullets: 1
+				fragBullet: {
+					type: BasicBulletType
+					damage: 163
+				}
 			}
 		}
 	}

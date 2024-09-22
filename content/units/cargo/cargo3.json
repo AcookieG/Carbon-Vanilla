@@ -83,7 +83,7 @@
 			"healEffect": none
 			"color": "6ce5f5ff"
 			"maxTargets": 2,
-			"healPercent": 0.5,
+			"healPercent": 0.8,
 			"damage": 4,
 			"range": 150,
 			"sectors": 10,

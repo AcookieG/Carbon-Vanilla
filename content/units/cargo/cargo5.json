@@ -84,7 +84,7 @@
 			"healEffect": none
 			"color": "6ce5f5ff"
 			"maxTargets": 2,
-			"healPercent": 0.5,
+			"healPercent": 1.5,
 			"damage": 4,
 			"range": 150,
 			"sectors": 10,
@@ -125,7 +125,7 @@ lifetime: 160
 shake: 1.5
 despawnEffect: smokeCloud
 smokeEffect: none
-layer: 110
+layer: 118
 chargeEffect: {
 				"type": "WaveEffect",
 				"lifetime": 25,
