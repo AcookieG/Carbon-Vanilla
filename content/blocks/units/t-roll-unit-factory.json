@@ -1,5 +1,5 @@
 {
-	"name": "Roll-Tree Factory",
+	"name": "Unit Factory",
 	"description": "idk man im tired. But hey this is a tank factory!",
 	"type": "UnitFactory"
 	"size": 3,
@@ -23,6 +23,14 @@
 			"requirements": [
 				{ "item": "silicon", "amount": 40 },
 				{ "item": "graphite", "amount": 200 },
+			]
+		},
+		{
+			"unit": "stick",
+			"time": 8400
+			"requirements": [
+				{ "item": "silicon", "amount": 4000 },
+				{ "item": "copper", "amount": 4000 },
 			]
 		},
 	]
