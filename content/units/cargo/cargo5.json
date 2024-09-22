@@ -9,8 +9,8 @@
 	"drag": 0.04,
 	"rotateSpeed": 1,
 	"hitSize": 66
-	"range": 450,
-	"attackLength": 450,
+	"range": 300,
+	"attackLength": 300,
 	"shootCone": 150,
 	"rotateWeapon": true,
 	"targetAir": true,
@@ -22,11 +22,11 @@
 	"abilities": [
 		{
 			"type": "mindustry.entities.abilities.ForceFieldAbility",
-			"radius": 144,
+			"radius": 125,
 			"rotation": 0,
 			"sides": 8,
-			"max": 7720,
-			"regen": 3,
+			"max": 8100,
+			"regen": 5,
 			"color": "6ce5f5",
 		},
 		{
@@ -70,9 +70,9 @@
 			},
 			"color": "6ce5f5ff"
 			"maxTargets": 10,
-			"healPercent": 0.3,
+			"healPercent": 0.5,
 			"damage": 7,
-			"range": 140,
+			"range": 200,
 			"sectors": 10,
 			"rotateSpeed": 3,
 			"hitBuildings": true,
@@ -86,13 +86,13 @@
 			"maxTargets": 2,
 			"healPercent": 1.5,
 			"damage": 14,
-			"range": 150,
+			"range": 210,
 			"sectors": 10,
 			"blinkScl": 80,
 			"rotateSpeed": 1.5,
 			"hitBuildings": true,
 			"sectorRad": 0.03,
-			"reload": 3,
+			"reload": 2,
 		}
 	]
 	"weapons": [
@@ -117,8 +117,8 @@
 			"rotateSpeed": 1.4,
 			"bullet": {
 type: ContinuousLaserBulletType
-damage: 60
-length: 460
+damage: 65
+length: 300
 width: 11
 hitEffect: hitMeltHeal
 drawSize: 420

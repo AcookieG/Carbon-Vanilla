@@ -20,6 +20,10 @@
 			"w1-roll",
 			"w2-resound"
 		]
+		[
+			"cargo1",
+			"cargo2"
+		]
 	],
 	"category": "units",
 	"research": "additive-reconstructor",

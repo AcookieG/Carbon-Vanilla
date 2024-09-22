@@ -21,6 +21,10 @@
 			"w3-clamor",
 			"w4-roar"
 		]
+		[
+			"cargo3",
+			"cargo4"
+		]
 	],
 	"category": "units",
 	"research": "t3-reconstructor",

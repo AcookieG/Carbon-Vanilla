@@ -17,8 +17,12 @@
 	},
 	"upgrades": [
 		[
-			"w2-resound",
-			"w3-clamor"
+			"w2-resound"
+			"w3-clamor",
+		]
+		[
+			"cargo2",
+			"cargo3"
 		]
 	],
 	"category": "units",

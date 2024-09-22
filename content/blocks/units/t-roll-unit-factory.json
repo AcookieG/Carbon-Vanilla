@@ -17,6 +17,14 @@
 				{ "item": "titanium", "amount": 20 },
 			]
 		},
+		{
+			"unit": "cargo1",
+			"time": 840
+			"requirements": [
+				{ "item": "silicon", "amount": 40 },
+				{ "item": "graphite", "amount": 200 },
+			]
+		},
 	]
 	"category": "units",
 	"research": "ground-factory",
