@@ -1,0 +1,140 @@
+{
+	"type": "flying",
+	"name": "Cargo Oct-Eclipse",
+	"health": 28000,
+	"armor": 16,
+	"flying": true,
+	"maxVelocity": 2,
+	"speed": 0.6,
+	"drag": 0.04,
+	"rotateSpeed": 1,
+	"hitSize": 66
+	"range": 450,
+	"attackLength": 450,
+	"shootCone": 150,
+	"rotateWeapon": true,
+	"targetAir": true,
+	"engineOffset": 46,
+	"engineSize": 7.8,
+	"buildSpeed": 3
+	"buildBeamOffset": 43
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 144,
+			"rotation": 0,
+			"sides": 8,
+			"max": 7720,
+			"regen": 2,
+			"color": "6ce5f5",
+		},
+		{
+			"type": "mindustry.entities.abilities.RepairFieldAbility",
+			"activeEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 150,
+				"strokeFrom": 8,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5ff",
+				"colorTo": "6ce5f5"
+			},
+			"healEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 150,
+				"strokeFrom": 8,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5ff",
+				"colorTo": "6ce5f5"
+			},
+			"range": 150,
+			"amount": 120,
+			"reload": 40
+		},
+		{
+			"type": "EnergyFieldAbility",
+			"healEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 30,
+				"sides": 10,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5"
+				"colorTo": "6ce5f500"
+			},
+			"color": "6ce5f5ff"
+			"maxTargets": 10,
+			"healPercent": 0.3,
+			"damage": 15,
+			"range": 140,
+			"sectors": 10,
+			"rotateSpeed": 3,
+			"hitBuildings": true,
+			"sectorRad": 0.03,
+			"reload": 30,
+		}
+		{
+			"type": "EnergyFieldAbility",
+			"healEffect": none
+			"color": "6ce5f5ff"
+			"maxTargets": 2,
+			"healPercent": 0.5,
+			"damage": 4,
+			"range": 150,
+			"sectors": 10,
+			"blinkScl": 80,
+			"rotateSpeed": 1.5,
+			"hitBuildings": true,
+			"sectorRad": 0.03,
+			"reload": 2,
+		}
+	]
+	"weapons": [
+		{
+			"name": "cargo-gun",
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 120,
+			"ejectEffect": "casing3",
+			"inaccuracy": 0,
+			"shootSound": "railgun"
+			"rotate": true
+			"shake": 6
+			"recoil": 10.5
+			"shootCone": 30,
+			"x": 0
+			"y": 0
+			"shootY": 23
+			"mirror": false
+			"shootEffect": "shootBig"
+			"rotateSpeed": 1.4,
+			"bullet": {
+				"type": "RailBulletType",
+length: 450
+pointEffectSpace: 60
+PierceEffect: railHit
+pointEffect: railTrail
+hitEffect: massiveExplosion
+smokeEffect: shootBig2
+damage: 1100
+pierceDamageFactor: 0.5
+lightColor: 6ce5f5ff
+			},
+		}
+	]
+	"outlineColor": 00000000
+	"research": {
+		"parent": "cargo3"
+		"requirements": [
+			{
+				"item": "graphite",
+				"amount": 240
+			},
+		]
+	}
+}
