@@ -3,7 +3,7 @@ type: missile
 controller: MissileAI
 template: MissileUnitType 
 lowAltitude: false
-speed: 5
+speed: 1
 rotateSpeed: 0
 lifetime: 40
 physics: false
@@ -38,7 +38,7 @@ abilities: [
 			},
 			"color": "ffffa3ff"
 			"maxTargets": 800,
-			"healPercent": 0.2,
+			"healPercent": 0.3,
 			"damage": 15,
 			"range": 200,
 			"sectors": 4,
@@ -65,7 +65,7 @@ weapons: [
 		hitSoundVolume: 30
 		damage: 1
 		lifeTime: 10
-		speed: 32
+		speed: 24
 		width: 20
 		height: 20
 		collidesAir: false
@@ -106,7 +106,7 @@ weapons: [
 				status: carbon-vanilla-helios-effect
 				statusDuration: 360000
 				instantDisapear: false
-				velMin: -0.8
+				velMin: -1
 				velMax: 8.9
 				lifetime: 20
 				collidesAir: true
@@ -121,7 +121,7 @@ weapons: [
 				fragBullets: 1
 				fragBullet: {
 					type: BasicBulletType
-					damage: 163
+					damage: 115
 				}
 			}
 		}
