@@ -82,8 +82,8 @@
 			"type": "EnergyFieldAbility",
 			"healEffect": none
 			"color": "6ce5f5ff"
-			"maxTargets": 1,
-			"healPercent": 0.3,
+			"maxTargets": 2,
+			"healPercent": 0.5,
 			"damage": 4,
 			"range": 150,
 			"sectors": 10,
@@ -92,22 +92,6 @@
 			"hitBuildings": true,
 			"sectorRad": 0.03,
 			"reload": 2,
-		}
-		{
-			"type": "EnergyFieldAbility",
-			"healEffect": none
-			"color": "6ce5f5ff"
-			"maxTargets": 1,
-			"healPercent": 1.2,
-			"damage": 5,
-			"range": 32,
-			"sectors": 10,
-			"blinkScl": 80,
-			"rotateSpeed": 1.5,
-			"hitBuildings": true,
-			"sectorRad": 0.03,
-			"reload": 2,
-			"y": 22
 		}
 	]
 	"outlineColor": 00000000
