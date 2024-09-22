@@ -1,0 +1,91 @@
+{
+	"type": "flying",
+	"name": "Cargo Zenith",
+	"health": 700,
+	"armor": 5,
+	"flying": true,
+	"maxVelocity": 2,
+	"speed": 1.75,
+	"drag": 0.02,
+	"mass": 34,
+	"rotateSpeed": 2,
+	"hitSize": 20
+	"circleTarget" : true,
+	"itemCapacity": 80
+	"range": 100,
+	"attackLength": 100,
+	"shootCone": 150,
+	"rotateWeapon": true,
+	"targetAir": true,
+	"engineOffset": 8,
+	"engineSize": 11,
+	"buildSpeed": 0.75
+	"buildBeamOffset": 0
+"engineOffset": 7,
+"engineSize": 3
+"drawCell": true
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.RepairFieldAbility",
+			"activeEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 60,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5ff",
+				"colorTo": "6ce5f5"
+			},
+			"healEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 60,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5ff",
+				"colorTo": "6ce5f5"
+			},
+			"range": 60,
+			"amount": 60,
+			"reload": 60
+		},
+		{
+			"type": "EnergyFieldAbility",
+			"shootSound": "lightningShoot",
+			"healEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 30,
+				"sides": 6,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5"
+				"colorTo": "6ce5f500"
+			},
+			"color": "6ce5f5ff"
+			"maxTargets": 8,
+			"healPercent": 1.2,
+			"damage": 15,
+			"range": 50,
+			"sectors": 6,
+			"blinkScl": 80,
+			"rotateSpeed": 3,
+			"hitBuildings": true,
+			"sectorRad": 0.03,
+			"reload": 45,
+		}
+	]
+	"outlineColor": 00000000
+	"research": {
+		"parent": "dagger"
+		"requirements": [
+			{
+				"item": "graphite",
+				"amount": 240
+			},
+		]
+	}
+}

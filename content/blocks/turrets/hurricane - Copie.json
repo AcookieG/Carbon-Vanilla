@@ -9,8 +9,8 @@
 	"range": 12600,
 	"shootSound": "splash",
 	"restitution": 0.1,
-	"targetAir": false
-	"targetGround": false
+	"targetAir": true
+	"targetGround": true
 	"shootCone": 15,
 	"hasLiquids": false,
 	"hasItems": true
@@ -30,25 +30,25 @@
 			"orbSize": 12,
 			"liquid": "water"
 			"collideAir": true
-			"damage": 0,
-			"lifetime": 500,
+			"damage": 0.1,
+			"lifetime": 200,
 			"shootEffect": "shootBigSmoke",
 			"speed": 20.2,
-			"knockback": 8,
+			"knockback": 1,
 			"ammoMultiplier": 1,
 			"status": "wet"
-			"healPercent": 0.05
+			"healPercent": 0.2
 			"collidesTeam": true
 			"pierce": true
-			"pierceCap": 4000
+			"pierceCap": 1000
 			"pierceBuilding": true
 			"buildingDamageMultiplier": 1
 			"hittable": false
 			"reflectable": false
-			"absorbable": false
-			"collidesAir": false
-			"collidesGround": false
-			"collidesTiles": false
+			"absorbable": true
+			"collidesAir": true
+			"collidesGround": true
+			"collidesTiles": true
 		}
 	}
 	"requirements": [

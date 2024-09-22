@@ -17,8 +17,8 @@
 	"restitution": 0.005,
 	"cooldownTime": 80,
 	"targetAir": false,
-	"ammoPerShot": 590,
-	"maxAmmo": 600
+	"ammoPerShot": 1990,
+	"maxAmmo": 2000
 	"basePrefix": "z58-",
 	"ammoTypes": {
 		"phase-decay": {
@@ -27,11 +27,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 560 },
-		{ "item": "titanium", "amount": 285 },
-		{ "item": "carbon-fiber", "amount": 120 },
-		{ "item": "plastanium", "amount": 120 },
-		{ "item": "surge-alloy", "amount": 180 }
+		{ "item": "copper", "amount": 4000 },
+		{ "item": "silicon", "amount": 4000 },
+		{ "item": "phase-decay", "amount": 2000 },
 	],
 	"category": "turret",
 	"research": "1-crow"

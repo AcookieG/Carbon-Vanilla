@@ -55,10 +55,10 @@
 				}
 				{
 				"item": "sand",
-				"amount": 7,
+				"amount": 10,
 				}
 				{
-				"item": "coal",
+				"item": "graphite",
 				"amount": 5,
 				}
 			]
@@ -76,7 +76,7 @@
 	"idleSoundVolume": 0.03,
 	"outputItem": {
 		"item": "silicon",
-		"amount": 9
+		"amount": 12
 	},
-	"craftTime": 60,
+	"craftTime": 80,
 }
