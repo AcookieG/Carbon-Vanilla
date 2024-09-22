@@ -9,7 +9,7 @@ lifetime: 6000
 physics: false
 flying: true
 hidden: false
-health: 99999
+health: 999999
 hitSize: 1
 engineLayer: 110
 trailColor: FFFFffff
@@ -153,49 +153,10 @@ weapons: [
 			height: 180
 			keepVelocity: false
 		}
-		fragBullets: 2000
+		fragBullets: 10
 		fragBullet: {
-      			type: FireBulletType
-			colorFrom: ffffa3ff
-			colorMid: ffffffff
-			colorTo: e2865400
-			damage: 4200
-			width: 20
-			height: 20
-			status: carbon-vanilla-helios-effect
-			statusDuration: 360000
-			lifetime: 2000
-			collidesAir: false
-			collidesGround: false
-			collidesTiles: false
-			hittable: false
-			reflectable: false
-			absorbable: false
-			velMin: -0.5
-			velMax: 14
-			drawSize: 250
-			intervalBullets: 1
-			intervalRandomSpread: 360
-			bulletInterval: 3
-			intervalBullet: {
-				type: FireBulletType
-				damage: 45
-				status: carbon-vanilla-helios-effect
-				statusDuration: 360000
-				instantDisapear: false
-				velMin: -0.8
-				velMax: 1.9
-				lifetime: 20
-				collidesAir: true
-				collidesGround: true
-				despawnEffect: none
-				despawnShake: 3
-				hitSound: explosionBig
-				incendAmount: 1
-				incendSpread: 10
-				incendChance: 2
-				keepVelocity: false
-			}
+      			"type": "BasicBulletType",
+			"spawnUnit": "zutomayo-sub"
 		}
 	}
 }

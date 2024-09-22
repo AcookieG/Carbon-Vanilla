@@ -54,6 +54,7 @@
 				"height": 9,
 				"smokeEffect": "shootSmallSmoke"
 				"recoil": 0.1,
+layer: 110
 			},
 		},
 		{
@@ -91,6 +92,7 @@
 				"width": 12,
 				"height": 18,
 				"smokeEffect": "shootBigSmoke"
+layer: 110
 			},
 		},
 		{
@@ -122,6 +124,7 @@
 				"width": 1,
 				"height": 1,
 				"recoil": 1,
+layer: 110
 				"smokeEffect": {
 					"type": "multiEffect",
 					"effects": [

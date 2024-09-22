@@ -18,6 +18,7 @@
 	"engineSize": 7.8,
 	"buildSpeed": 3
 	"buildBeamOffset": 43
+	"faceTarget": false
 	"abilities": [
 		{
 			"type": "mindustry.entities.abilities.ForceFieldAbility",
@@ -99,31 +100,52 @@
 			"name": "cargo-gun",
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 120,
+			"reload": 155,
 			"ejectEffect": "casing3",
 			"inaccuracy": 0,
-			"shootSound": "railgun"
+			"shootSound": "beam"
 			"rotate": true
 			"shake": 6
-			"recoil": 10.5
+			"recoil": 2
 			"shootCone": 30,
 			"x": 0
 			"y": 0
 			"shootY": 23
 			"mirror": false
-			"shootEffect": "shootBig"
+			continuous: true
+			chargeSound: lasercharge2
 			"rotateSpeed": 1.4,
 			"bullet": {
-				"type": "RailBulletType",
+type: ContinuousLaserBulletType
+damage: 45
 length: 450
-pointEffectSpace: 60
-PierceEffect: railHit
-pointEffect: railTrail
-hitEffect: massiveExplosion
-smokeEffect: shootBig2
-damage: 1100
-pierceDamageFactor: 0.5
-lightColor: 6ce5f5ff
+hitEffect: hitMeltHeal
+drawSize: 420
+lifetime: 160
+shake: 1.5
+despawnEffect: smokeCloud
+smokeEffect: none
+layer: 110
+chargeEffect: {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 30,
+				"sides": 10,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5"
+				"colorTo": "6ce5f500"
+},
+incendChance: 0.1
+incendSpread: 5
+IncendAmount: 1
+colors: [
+506aad55
+6cb7f5aa
+6ce5f5ff
+ffffffff
+]
 			},
 		}
 	]

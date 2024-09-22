@@ -1,0 +1,125 @@
+{
+type: missile
+controller: MissileAI
+template: MissileUnitType 
+lowAltitude: false
+speed: 5
+rotateSpeed: 0
+lifetime: 60
+physics: false
+flying: true
+hidden: false
+health: 999999
+hitSize: 1
+engineLayer: 110
+trailColor: FFFFffff
+missileAccelTime: 10
+engineOffset: 20
+engineSize: 2
+drawCell: false
+engineColor: FFFFffff
+outlineColor: 00000000
+maxRange: 100
+trailLength: 1
+range: 100
+abilities: [
+		{
+			"type": "EnergyFieldAbility",
+			"healEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 30,
+				"sides": 6,
+				"strokeFrom": 7,
+				"strokeTo": 1,
+				"colorFrom": "ffffa3ff"
+				"colorTo": "e2865400"
+			},
+			"color": "ffffa3ff"
+			"maxTargets": 100,
+			"healPercent": 0.2,
+			"damage": 30,
+			"range": 200,
+			"sectors": 2,
+			"rotateSpeed": 0,
+			"hitBuildings": true,
+			"sectorRad": 0.1,
+			"reload": 1,
+		}
+]
+weapons: [
+	{
+	shootOnDeath: true
+	controllable: true
+	shootSound: explosionBig
+	shootCone: 90
+	mirror: false
+	rotateSpeed: 36
+	bullet: {
+		type: BasicBulletType
+		killShooter: true
+		instantDisappear: true
+		hitSound: explosionBig
+		hitSoundVolume: 30
+		damage: 1
+		lifeTime: 10
+		speed: 32
+		width: 20
+		height: 20
+		collidesAir: false
+		collidesGround: false
+		collidesTiles: false
+		hittable: false
+		reflectable: false
+		absorbable: false
+		despawnShake: 8
+		shootEffect: none
+		fragBullets: 160
+		fragBullet: {
+    			type: FireBulletType
+			colorFrom: ffffa3ff
+			colorMid: ffffffff
+			colorTo: e2865400
+			damage: 4200
+			width: 20
+			height: 20
+			status: carbon-vanilla-helios-effect
+			statusDuration: 360000
+			lifetime: 2000
+			collidesAir: true
+			collidesGround: true
+			collidesTiles: false
+			hittable: false
+			reflectable: false
+			absorbable: false
+			velMin: -0.5
+			velMax: 14
+			drawSize: 250
+			intervalBullets: 1
+			intervalRandomSpread: 360
+			bulletInterval: 6
+			intervalBullet: {
+				type: FireBulletType
+				damage: 163
+				status: carbon-vanilla-helios-effect
+				statusDuration: 360000
+				instantDisapear: false
+				velMin: -0.8
+				velMax: 8.9
+				lifetime: 20
+				collidesAir: true
+				collidesGround: true
+				despawnEffect: none
+				despawnShake: 3
+				hitSound: explosionBig
+				incendAmount: 1
+				incendSpread: 10
+				incendChance: 2
+				keepVelocity: false
+			}
+		}
+	}
+}
+]
+}

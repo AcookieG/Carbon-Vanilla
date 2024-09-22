@@ -16,13 +16,10 @@
 	"shootCone": 150,
 	"rotateWeapon": true,
 	"targetAir": true,
-	"engineOffset": 8,
-	"engineSize": 11,
+	"engineOffset": 7,
+	"engineSize": 2,
 	"buildSpeed": 0.75
 	"buildBeamOffset": 0
-"engineOffset": 7,
-"engineSize": 2
-"drawCell": true
 weapons: [
 	{
 	shootSound: explosionBig
