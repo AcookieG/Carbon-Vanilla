@@ -18,7 +18,7 @@
 	"laserColor": "ff0000"
 	"status": "melting"
 	"consumes": {
-		"power": 8
+		"power": 12
 	},
 	"requirements": [
 		{ "item": "thorium", "amount": 30 },
