@@ -274,7 +274,7 @@ colorTo: ffffa3
 
 			type: BasicBulletType
 			sprite: circle-bullet
-			damage: 0
+			damage: 136
 			drawsize: 250
 			width: 5
 			height: 5
@@ -293,7 +293,7 @@ colorTo: ffffa3
 			speed: 2
 			velMin: 0.1
 			velMax: 3
-			collidesAir: false
+			collidesAir: true
 			collidesGround: false
 			collidesTiles: false
 			instantDisapear: false
