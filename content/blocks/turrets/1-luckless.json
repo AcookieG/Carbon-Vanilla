@@ -218,33 +218,27 @@
 "hydrogen": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
-	"damage": 100,
+	"damage": 600,
 	"knockback": 4,
 	"buildingDamageMultiplier": 1.3
 	"width": 10.5,
 	"drawFlare": false,
 	"hitEffect": none
 	"length": 130,
-	"intervalBullets": 2,
-	"intervalRandomSpread": 5,
-	"bulletInterval": 3,
 	"drawSize": 200
 }
 "liquidheat": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["e28654", "ffcd66", "ffffa3", "ffffff"],
-	"damage": 150,
+	"damage": 300,
 	"knockback": 4,
 	"buildingDamageMultiplier": 1.8
-	"rangeChange": 70,
+	"rangeChange": 370,
 	"width": 6.5,
 	"drawFlare": false,
 	"lifetime": 60,
 	"hitEffect": none
-	"length": 200,
-	"intervalBullets": 2,
-	"intervalRandomSpread": 2,
-	"bulletInterval": 2,
+	"length": 500,
 	"drawSize": 200
 }
 },

@@ -136,7 +136,7 @@
 		}
 		{
 			type: shapePart
-			y: -22
+			y: -20
 			hollow: true
 			circle: true
 			layer: 110
@@ -148,7 +148,7 @@
 		}
 		{
 			type: shapePart
-			y: -22
+			y: -20
 			hollow: true
 			circle: true
 			layer: 110
@@ -158,10 +158,28 @@
 			radiusTo: 9
 			radius: 9
 		}
+{
+type: HaloPart
+y: -20
+radius: 4.3
+tri: true
+hollow: true
+layer: 110
+haloRotation: 0
+color: 6cb7f5
+haloRadius: 15
+haloRadiusTo: 15
+haloRotateSpeed: -1.7
+stroke: 0
+strokeTo: 1.1
+shapes: 4
+triLengthTo: 5.5
+triLength: 0
+}
 
 {
 type: shapePart
-y: -22
+y: -20
 hollow: true
 circle: true
 layer: 110
@@ -173,7 +191,7 @@ radius: 5
 }
 {
 type: HaloPart
-y: -22
+y: -20
 radius: 3
 tri: true
 layer: 110
@@ -190,7 +208,7 @@ triLength: 0
 }
 {
 type: HaloPart
-y: -22
+y: -20
 radius: 3
 tri: true
 layer: 110
@@ -206,11 +224,12 @@ triLength: 0
 }
 {
 type: HaloPart
-y: -22
+y: -20
 radius: 4
 tri: true
 layer: 110
 color: 6cb7f5
+shapeRotation: 180
 haloRotateSpeed: 1.7
 haloRadius: 9
 haloRadiusTo: 9
@@ -313,7 +332,7 @@ sizeTo: 1
 colorFrom: 6cb7f5ff
 colorTo: ffffff00
 }
-			lifetime: 40
+			lifetime: 44
 			speed: 9
 			collidesAir: true
 			collidesGround: true
@@ -339,26 +358,27 @@ colorTo: ffffff00
 			fragBullet: {
 		type: LaserBulletType
 		hitSoundVolume: 1
-		hitSound: none
-		buildingDamageMultiplier: 0.5
-		damage: 45
+		hitSound: spark
+		buildingDamageMultiplier: 0.7
+		damage: 90
 		status: freezing
 		statusDuration: 720
+			keepVelocity: false
 			collidesAir: true
 			collidesGround: true
 			collidesTiles: true
-			lightning: 4
+			lightning: 2
 			lightningDamage: 30
 			lightningCone: 360
 			lightningLengthRand: 5
 			lightningLength: 6
 			lightningColor: 6cb7f5
 			lifeTime: 10
-			speed: 4
+			speed: 0
 			shootEffect: none
 			despawnEffect: none
 			length: 90
-			width: 8
+			width: 14
 			hitEffect: hitLancer
 			lightColor: 6cb7f5
 			colors: [
@@ -366,9 +386,6 @@ colorTo: ffffff00
 				6cb7f5
 				FFFFFF
 			]
-			sideWidth: 0
-			sideLength: 0
-			sideAngle: 25
 			}
 		}
 	}
