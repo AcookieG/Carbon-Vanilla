@@ -57,5 +57,5 @@
 		"liquid": "slag",
 		"amount": 0.2
 	},
-	"craftTime": 10,
+	"craftTime": 60,
 }
