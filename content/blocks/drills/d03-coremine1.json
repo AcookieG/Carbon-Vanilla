@@ -3,7 +3,7 @@
 	"name": "Replaced Facility",
 	"description": "This building has the same use as the other building. It is used to outpass unit count. More expensive, for balancing."
 	"size": 2,
-	"health": 300,
+	"health": 200,
 	"hasPower": false,
 	"unitType": "minedrone1.5"
 	"itemCapacity": 10

@@ -60,7 +60,7 @@
 	"idleSoundVolume": 0.05,
 	"outputLiquid": {
 		"liquid": "cryofluid",
-		"amount": 1.4
+		"amount": 1.6
 	},
 	"craftTime": 50,
 }

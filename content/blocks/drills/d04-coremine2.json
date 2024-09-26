@@ -3,7 +3,7 @@
 	"name": "Improved Mining Facility",
 	"description": "A small improvement from the standard Mining Facility. Does not have a second version of itself."
 	"size": 3,
-	"health": 630,
+	"health": 330,
 	"hasPower": false,
 	"unitType": "minedrone2"
 	"buildTime": 600

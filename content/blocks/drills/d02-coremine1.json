@@ -3,7 +3,7 @@
 	"name": "Mining Facility",
 	"description": "A small unit Pod to launch mining units. Similar to V5 Draught or V6 Mono."
 	"size": 2,
-	"health": 320,
+	"health": 220,
 	"hasPower": false,
 	"unitType": "minedrone1"
 	"buildTime": 480
