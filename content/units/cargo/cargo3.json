@@ -8,7 +8,7 @@
 	"speed": 0.8,
 	"drag": 0.04,
 	"rotateSpeed": 1.9,
-	"hitSize": 20
+	"hitSize": 46
 	"range": 150,
 	"attackLength": 150,
 	"shootCone": 150,
