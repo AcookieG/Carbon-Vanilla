@@ -103,7 +103,7 @@ Conducts power.
 	"consumes": {
 		"power": 10,
 	},
-	"category": "power",
+	"category": "crafting",
 	"conductivePower": true
 	"rotate": false
 	"loopSound": "hum",
@@ -113,7 +113,7 @@ Conducts power.
 	"ambientSoundVolume": 2,
 	"outputLiquid": {
 		"liquid": "liquidheat",
-		"amount": 16
+		"amount": 20
 	},
 	"craftTime": 1,
 }

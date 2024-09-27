@@ -99,7 +99,7 @@
 	},
 	"ammoTypes": {
 		"thorium": {
-			"type": "BasicBulletType",
+			"type": "FlakBulletType",
 			"drawsize": 240,
 			"collideAir": true
 			"reloadMultiplier": 1,
@@ -114,6 +114,7 @@
 			"smokeEffect": "none"
 			"speed": 8,
 			"pierce": true
+			explodeRange: 20
 			"fragBullets": 2,
 			"fragBullet": {
 				"type": "BasicBulletType",
@@ -123,8 +124,29 @@
 				"lifetime": 15,
 			},
 		},
+		"surge-alloy": {
+			"type": "FlakBulletType",
+			"drawsize": 240,
+			"collideAir": true
+			"reloadMultiplier": 1.2,
+			"damage": 22,
+			"ammoMultiplier": 2,
+			"width": 8,
+			"height": 12,
+			"lifetime": 25,
+			"bulletShrink": 0.6,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootSmallSmoke"
+			"speed": 8,
+			lightning: 2
+			lightningDamage: 14
+			lightningCone: 360
+			lightningLengthRand: 2
+			lightningLength: 7
+			explodeRange: 20
+		},
 		"carbon-fiber": {
-			"type": "BasicBulletType",
+			"type": "FlakBulletType",
 			"drawsize": 240,
 			"collideAir": true
 			"damage": 72,
@@ -138,7 +160,8 @@
 			"smokeEffect": "shootBigSmoke"
 			"speed": 10,
 			"homingPower": 0.05,
-			"homingRange": 24,
+			"homingRange": 40,
+			explodeRange: 28
 			"fragBullets": 3,
 			"fragBullet": {
 				"type": "BasicBulletType",

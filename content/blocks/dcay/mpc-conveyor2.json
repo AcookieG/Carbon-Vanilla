@@ -1,12 +1,12 @@
 {
   "type": "StackConveyor",
-  "name": "HyperConveyor"
-  "description": "Quickly transports items forward in large batches.",
+  "name": "Ammo Belt"
+  "description": "A late-game ammo belt for hungry turrets.",
   "loadEffect": "steam"
   "unloadEffect": "steam"
   "health": 80,
   "speed": 0.3,
-  "itemCapacity": 300,
+  "itemCapacity": 500,
   "requirements": [
     "silicon/80",
     "titanium/80",

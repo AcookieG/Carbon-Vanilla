@@ -68,7 +68,7 @@
 			"width": 8,
 			"height": 12,
 			"reloadMultiplier": 0.5,
-			"lifetime": 31,
+			"lifetime": 30,
 			"bulletShrink": 0,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke"
@@ -81,12 +81,12 @@
 				"sprite": "large-bomb"
 				"width": 18,
 				"height": 18,
-				"shrinkX": 0.3,
-				"shrinkY": 0.3,
+				"shrinkX": 0.4,
+				"shrinkY": 0.4,
 				"drawsize": 380,
 				"damage": 100,
 				"speed": 0,
-				"lifetime": 240,
+				"lifetime": 720,
 				"hitEffect": "massiveExplosion"
 				"despawnEffect": "massiveExplosion"
 			},

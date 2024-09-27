@@ -1,6 +1,6 @@
 {
   "localizedName": "Hydrogen burn",
-  "description": "A burn worse than direct contact with an open flame. No unit may recover from it. A fate possibly worse than death."
+  "description": "A burn worse than direct contact to a solar flame. No unit may recover from it. A fate possibly worse than death."
   "effectChance": 0.5,
   "damage": 5,
   "healthMultiplier": 0.6
