@@ -1,0 +1,29 @@
+{
+	"name": "Long Range Liquid Transport",
+	"type": "LiquidBridge",
+	"description": "Long range waterworks.",
+	"liquidCapacity": 4600,
+	"size": 1,
+	"health": 160,
+	"category": "liquid",
+	"liquidCapacity": 3000,
+	"liquidPressure": 1000,
+	"range": 24,
+	"hasPower": false,
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 60
+		},
+		{
+			"item": "metaglass",
+			"amount": 120
+		},
+		{
+			"item": "phase-decay",
+			"amount": 30
+		},
+	]
+	"placeableLiquid": true,
+	"research": "mpc-conduit"
+}

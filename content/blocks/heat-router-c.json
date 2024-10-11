@@ -9,12 +9,12 @@
 		},
 		{
 			"item": "phase-decay",
-			"amount": 10
+			"amount": 15
 		},
 	]
-	"liquidCapacity": 4000
+	"liquidCapacity": 12000
 	"size": 2
 	"research": "heat-conduit"
-	"health": 500
+	"health": 800
 	"category": "liquid"
 }
