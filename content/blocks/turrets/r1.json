@@ -1,0 +1,28 @@
+{
+	"name": "Magnet 1",
+	"description": "ALWAYS BUILD BIGGER",
+	"type": "TractorBeamTurret",
+	"health": 130,
+	"size": 1,
+	"range": 16,
+	"hasLiquids": false,
+	"inaccuracy": 0,
+	"targetAir": true
+	"targetGround": true
+	"rotateSpeed": 16,
+	"hasPower": true
+	"force": 1,
+	"scaledForce": 0,
+	"damage": 0,
+	"laserWidth": 0.5,
+	"laserColor": "ffffff50"
+	"consumes": {
+		"power": 0.1
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 10 },
+		{ "item": "titanium", "amount": 10 },
+	],
+	"category": "turret",
+	"research": "parallax"
+}
