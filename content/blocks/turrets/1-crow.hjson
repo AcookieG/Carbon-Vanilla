@@ -3,27 +3,30 @@
 	"description": "An extremely precise long-range turret. This is why a group of Crows is called a murder.",
 	"type": "ItemTurret",
 	"squareSprite": false,
-	"health": 2400,
+	"health": 5300,
 	"size": 5,
-	"reload": 200,
+	"reload": 300,
 	"shake": 15,
-	"recoil": 5,
-	"range": 800,
+	"recoil": 6,
+	"range": 4000,
 	"ammoUseEffect": "casing3Double",
 	"shootSound": "largeCannon",
-	"restitution": 0.002,
+	"restitution": 0.001,
 	"cooldownTime": 180,
-	"shootCone": 2,
+	"minWarmup": 0.7
+	"warmupMaintainTime": 75
+	"moveWhileCharging": false
+	"shootCone": 0.01,
 	"spread": 0,
-	"rotateSpeed": 0.4,
+	"rotateSpeed": 0.7,
 	"hasPower": true
 	"consumes": {
 		"power": 26
 		"coolant": {
-		"amount": 1.75
+		"amount": 0.75
 		}
 	},
-	"coolantMultiplier": 0.5
+	"coolantMultiplier": 1.0
 	"shootEffect": {
 "type": "multiEffect",
 "effects": [
@@ -244,19 +247,41 @@
 	},
 	"ammoPerShot": 10,
 	"ammoTypes": {
-		"surge-alloy": {
+		"phase-decay": {
 			"type": "BasicBulletType",
-			"damage": 2340,
+			"damage": 4350,
 			"ammoMultiplier": 1,
-			"width": 6,
-			"height": 20,
+			"drawsize": 380
+			"width": 7,
+			"height": 25,
 			"reloadMultiplier": 1
 			"smokeEffect": "shootBigSmoke"
-			"lifetime": 35,
-			"speed": 24,
+			"despawnEffect": {
+"type": "WaveEffect"
+"lifetime": 10
+"strokeFrom": 4
+"sizeTo": 60
+"colorFrom": "6e7080",
+"colorTo": "ffcd66"
+}
+			"smokeEffect": {
+"type": "ParticleEffect"
+"particles": 3
+"length": -60
+"lifetime": 80
+"interp": circleOut
+"cone": 20
+"sizeFrom": 8
+"sizeTo": 1
+"colorFrom": "6e7080",
+"colorTo": "ffcd66"
+}
+			"lifetime": 250,
+			"speed": 36,
 			"pierce": true,
-			"pierceCap": 2
+			"pierceCap": 420
 			"pierceBuilding": true
+			"buildingDamageMultiplier": 2
 			"hitAir": true
 			"drawSize": 300
 			"bulletShrink": -0.7,
@@ -265,30 +290,6 @@
 			"lightningCone": 360,
 			"lightningLengthRand": 4,
 			"lightningLength": 4,
-			"hitShake": 5,
-			"hittable": false
-		},
-		"phase-decay": {
-			"type": "BasicBulletType",
-			"damage": 4560,
-			"ammoMultiplier": 1,
-			"width": 6,
-			"height": 20,
-			"drawSize": 350
-			"reloadMultiplier": 1
-			"smokeEffect": "shootBigSmoke"
-			"lifetime": 35,
-			"speed": 24,
-			"pierce": true,
-			"pierceCap": 6
-			"pierceBuilding": true
-			"hitAir": true
-			"bulletShrink": -0.7,
-			"lightning": 7,
-			"lightningDamage": 45,
-			"lightningCone": 360,
-			"lightningLengthRand": 4,
-			"lightningLength": 8,
 			"hitShake": 5,
 			"hittable": false
 		},
