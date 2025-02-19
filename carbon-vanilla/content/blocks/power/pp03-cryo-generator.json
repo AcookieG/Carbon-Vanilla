@@ -1,6 +1,6 @@
 {
 	"type": "ImpactReactor",
-	"health": 350,
+	"health": 135,
 	"name": "Cryo Generator"
 	"description": "A small but efficient generator, requires hydrogen.",
 	"size": 2,

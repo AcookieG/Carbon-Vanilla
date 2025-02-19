@@ -96,6 +96,8 @@ flameRad: 0
 flameColor: ad74f7
 midColor: ad74f7
 }
+
+
 			{
 				"type": "DrawBubbles"
 				"color": "fb9957"
@@ -197,7 +199,6 @@ midColor: ad74f7
 				"sinMag": 8
 				"angleOffset": 0
 			},
-
 		]
 	},
 	"consumes": {

@@ -1,6 +1,6 @@
 {
 	"type": "NuclearReactor",
-	"health": 1200,
+	"health": 420,
 	"name": "Compression Reactor"
 	"description": "A powerfull heat turbine, uses Copper and Cryofluid.",
 	"size": 3,

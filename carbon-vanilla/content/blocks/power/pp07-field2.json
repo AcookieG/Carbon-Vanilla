@@ -1,6 +1,6 @@
 {
 	"type": "ConsumeGenerator",
-	"health": 320,
+	"health": 80,
 	"name": "Solid Heat Evaporator"
 	"description": "Attach directly to Solar Field.",
 	"size": 1,

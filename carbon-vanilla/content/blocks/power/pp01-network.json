@@ -3,7 +3,7 @@
   "name": "Power Network",
 	"description": "A massive node, storing small amounts of energy.",
   "size": 2,
-  "health": 500,
+  "health": 280,
   "laserRange": 30,
   "maxNodes": 25,
   "hasPower": true,
