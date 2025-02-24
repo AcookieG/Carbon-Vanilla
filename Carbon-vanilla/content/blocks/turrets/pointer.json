@@ -13,7 +13,7 @@
 	"hasPower": true
 	"force": 0,
 	"scaledForce": 0,
-	"damage": 0.1,
+	"damage": 0,
 	"laserWidth": 0.2,
 	"laserColor": "ff0000ff"
 	"consumes": {
