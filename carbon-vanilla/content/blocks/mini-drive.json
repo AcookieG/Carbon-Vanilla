@@ -10,7 +10,7 @@
 	"reloadTime": 60,
 	"shake": 0.5,
 	"hasPower": false,
-	"knockback": .5,
+	"knockback": 0.5,
 	"requirements": [
 		"copper/28",
 		"silicon/12",

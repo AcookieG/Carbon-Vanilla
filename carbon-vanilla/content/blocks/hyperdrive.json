@@ -21,8 +21,8 @@
 		{ "item": "phase-decay", "amount": 35 },
 		{ "item": "lead", "amount": 350 },
 		{ "item": "plastanium", "amount": 190 },
-   	     { "item": "titanium", "amount": 200 }
-   	     { "item": "thorium", "amount": 280 }
+   	{ "item": "titanium", "amount": 200 }
+   	{ "item": "thorium", "amount": 280 }
 	],
 	"category": "effect",
 	"research": "overdrive-projector"
