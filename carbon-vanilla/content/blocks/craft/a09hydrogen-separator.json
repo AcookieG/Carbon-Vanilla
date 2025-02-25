@@ -36,7 +36,7 @@
 		"power": 3,
                 "liquid": {
 			"liquid": "cryofluid",
-			"amount": 0.5
+			"amount": 0.3
 		},
 	},
 	"requirements": [
@@ -51,7 +51,7 @@
 	"idleSoundVolume": 0.05,
 	"outputLiquid": {
 		"liquid": "hydrogen",
-		"amount": 0.5
+		"amount": 0.3
 	},
 	"craftTime": 100,
 }
