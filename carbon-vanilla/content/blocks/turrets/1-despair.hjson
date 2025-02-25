@@ -1,9 +1,9 @@
 {
-	name: Neptune
-	description: A large turret capable of dealing insane amounts of damage to any unit. Not efficient against walls. Gets absorbed by shields.
-	type: ItemTurret
-	squareSprite: false
-	health: 5300
+	type: ItemTurret,
+	name: Despair,
+	description: "A large turret capable of dealing insane amounts of damage to any unit. Not efficient against walls. Gets absorbed by shields.",
+	squareSprite: false,
+	health": 5300
 	size: 4
 	reload: 75
 	shake: 3
@@ -25,7 +25,7 @@
 	consumes: {
 		power: 6
 		coolant: {
-		amount: 0.5
+            amount: 0.5
 		}
 	}
 	coolantMultiplier: 1.25
@@ -97,36 +97,36 @@
 							moveRot: 0
 							children: [
 								{
-								type: RegionPart
-								suffix: -blur
-								mirror: true
-								moveY: -3
-								layerOffset: -0.01
-								outline: false
-								colorTo: 6cb7f5
-								color: 6cb7f5
-								blending: additive
-								progress: {
-									type: recoil
-									op: blend
-									other: heat
-									amount: 0.25
-								}
-								}
+                                    type: RegionPart
+                                    suffix: -blur
+                                    mirror: true
+                                    moveY: -3
+                                    layerOffset: -0.01
+                                    outline: false
+                                    colorTo: 6cb7f5
+                                    color: 6cb7f5
+                                    blending: additive
+                                    progress: {
+                                        type: recoil
+                                        op: blend
+                                        other: heat
+                                        amount: 0.25
+                                    }
+                                }
 								{
-								type: RegionPart
-								suffix: -heat2
-								mirror: true
-								outline: false
-								blending: additive
-								colorTo: 6cb7f5
-								color: 6cb7f500
-								progress: {
-									type: warmup
-									op: blend
-									other: heat
-									amount: 0.25
-								}
+                                    type: RegionPart
+                                    suffix: -heat2
+                                    mirror: true
+                                    outline: false
+                                    blending: additive
+                                    colorTo: 6cb7f5
+                                    color: 6cb7f500
+                                    progress: {
+                                        type: warmup
+                                        op: blend
+                                        other: heat
+                                        amount: 0.25
+                                    }
 								}
 							]
 						}
@@ -158,156 +158,154 @@
 			radiusTo: 9
 			radius: 9
 		}
-{
-type: HaloPart
-y: -20
-radius: 4.3
-tri: true
-hollow: true
-layer: 110
-haloRotation: 0
-color: 6cb7f5
-haloRadius: 15
-haloRadiusTo: 15
-haloRotateSpeed: -1.7
-stroke: 0
-strokeTo: 1.1
-shapes: 4
-triLengthTo: 5.5
-triLength: 0
-}
-
-{
-type: shapePart
-y: -20
-hollow: true
-circle: true
-layer: 110
-color: 6cb7f5
-stroke: 0
-strokeTo: 1.1
-radiusTo: 5
-radius: 5
-}
-{
-type: HaloPart
-y: -20
-radius: 3
-tri: true
-layer: 110
-haloRotation: 90
-shapeRotation: 180
-color: 6cb7f5
-haloRadius: 12
-haloRadiusTo: 12
-stroke: 0
-strokeTo: 2
-shapes: 2
-triLengthTo: 3
-triLength: 0
-}
-{
-type: HaloPart
-y: -20
-radius: 3
-tri: true
-layer: 110
-haloRotation: 90
-color: 6cb7f5
-haloRadius: 12
-haloRadiusTo: 12
-stroke: 0
-strokeTo: 2
-shapes: 2
-triLengthTo: 13
-triLength: 0
-}
-{
-type: HaloPart
-y: -20
-radius: 4
-tri: true
-layer: 110
-color: 6cb7f5
-shapeRotation: 180
-haloRotateSpeed: 1.7
-haloRadius: 9
-haloRadiusTo: 9
-stroke: 0
-strokeTo: 2
-shapes: 4
-triLengthTo: 6
-triLength: 0
- }
-{
-type: HaloPart
-y: 14
-radius: 4
-tri: true
-layer: 110
-haloRotation: 180
-shapeRotation: 180
-color: 6cb7f5
-haloRadius: 6
-haloRadiusTo: 6
-stroke: 0
-strokeTo: 2
-shapes: 1
-triLengthTo: 2
-triLength: 0
-}
-{
-type: HaloPart
-y: 14
-radius: 4
-tri: true
-layer: 110
-haloRotation: 180
-shapeRotation: 0
-color: 6cb7f5
-haloRadius: 6
-haloRadiusTo: 6
-stroke: 0
-strokeTo: 2
-shapes: 1
-triLengthTo: 2
-triLength: 0
-}
-{
-type: HaloPart
-y: 28
-radius: 6
-tri: true
-layer: 110
-haloRotation: 180
-shapeRotation: 180
-color: 6cb7f5
-haloRadius: 6
-haloRadiusTo: 6
-stroke: 0
-strokeTo: 2
-shapes: 1
-triLengthTo: 3
-triLength: 0
-}
-{
-type: HaloPart
-y: 28
-radius: 6
-tri: true
-layer: 110
-haloRotation: 180
-shapeRotation: 0
-color: 6cb7f5
-haloRadius: 6
-haloRadiusTo: 6
-stroke: 0
-strokeTo: 2
-shapes: 1
-triLengthTo: 3
-triLength: 0
-}
-
+        {
+            type: HaloPart
+            y: -20
+            radius: 4.3
+            tri: true
+            hollow: true
+            layer: 110
+            haloRotation: 0
+            color: 6cb7f5
+            haloRadius: 15
+            haloRadiusTo: 15
+            haloRotateSpeed: -1.7
+            stroke: 0
+            strokeTo: 1.1
+            shapes: 4
+            triLengthTo: 5.5
+            triLength: 0
+        }
+        {
+            type: shapePart
+            y: -20
+            hollow: true
+            circle: true
+            layer: 110
+            color: 6cb7f5
+            stroke: 0
+            strokeTo: 1.1
+            radiusTo: 5
+            radius: 5
+        }
+        {
+            type: HaloPart
+            y: -20
+            radius: 3
+            tri: true
+            layer: 110
+            haloRotation: 90
+            shapeRotation: 180
+            color: 6cb7f5
+            haloRadius: 12
+            haloRadiusTo: 12
+            stroke: 0
+            strokeTo: 2
+            shapes: 2
+            triLengthTo: 3
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: -20
+            radius: 3
+            tri: true
+            layer: 110
+            haloRotation: 90
+            color: 6cb7f5
+            haloRadius: 12
+            haloRadiusTo: 12
+            stroke: 0
+            strokeTo: 2
+            shapes: 2
+            triLengthTo: 13
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: -20
+            radius: 4
+            tri: true
+            layer: 110
+            color: 6cb7f5
+            shapeRotation: 180
+            haloRotateSpeed: 1.7
+            haloRadius: 9
+            haloRadiusTo: 9
+            stroke: 0
+            strokeTo: 2
+            shapes: 4
+            triLengthTo: 6
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: 14
+            radius: 4
+            tri: true
+            layer: 110
+            haloRotation: 180
+            shapeRotation: 180
+            color: 6cb7f5
+            haloRadius: 6
+            haloRadiusTo: 6
+            stroke: 0
+            strokeTo: 2
+            shapes: 1
+            triLengthTo: 2
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: 14
+            radius: 4
+            tri: true
+            layer: 110
+            haloRotation: 180
+            shapeRotation: 0
+            color: 6cb7f5
+            haloRadius: 6
+            haloRadiusTo: 6
+            stroke: 0
+            strokeTo: 2
+            shapes: 1
+            triLengthTo: 2
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: 28
+            radius: 6
+            tri: true
+            layer: 110
+            haloRotation: 180
+            shapeRotation: 180
+            color: 6cb7f5
+            haloRadius: 6
+            haloRadiusTo: 6
+            stroke: 0
+            strokeTo: 2
+            shapes: 1
+            triLengthTo: 3
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: 28
+            radius: 6
+            tri: true
+            layer: 110
+            haloRotation: 180
+            shapeRotation: 0
+            color: 6cb7f5
+            haloRadius: 6
+            haloRadiusTo: 6
+            stroke: 0
+            strokeTo: 2
+            shapes: 1
+            triLengthTo: 3
+            triLength: 0
+        }
 	]
 	}
 	ammoTypes: {
@@ -321,17 +319,17 @@ triLength: 0
 			height: 14
 			shootEffect: shootSmokeSquareBig
 			smokeEffect: {
-type: ParticleEffect
-particles: 3
-length: -60
-lifetime: 80
-interp: circleOut
-cone: 20
-sizeFrom: 8
-sizeTo: 1
-colorFrom: 6cb7f5ff
-colorTo: ffffff00
-}
+                type: ParticleEffect
+                particles: 3
+                length: -60
+                lifetime: 80
+                interp: circleOut
+                cone: 20
+                sizeFrom: 8
+                sizeTo: 1
+                colorFrom: 6cb7f5ff
+                colorTo: ffffff00
+            }
 			lifetime: 44
 			speed: 9
 			collidesAir: true
@@ -356,13 +354,13 @@ colorTo: ffffff00
 			explodeRange: 30
 			fragBullets: 6
 			fragBullet: {
-		type: LaserBulletType
-		hitSoundVolume: 1
-		hitSound: spark
-		buildingDamageMultiplier: 0.7
-		damage: 90
-		status: freezing
-		statusDuration: 720
+                type: LaserBulletType
+                hitSoundVolume: 1
+                hitSound: spark
+                buildingDamageMultiplier: 0.7
+                damage: 90
+                status: freezing
+                statusDuration: 720
 			keepVelocity: false
 			collidesAir: true
 			collidesGround: true
@@ -390,11 +388,11 @@ colorTo: ffffff00
 		}
 	}
 	requirements: [
-		{ item: copper, amount: 1200 }
-		{ item: titanium, amount: 750 }
-		{ item: phase-decay, amount: 300 }
-		{ item: surge-alloy, amount: 480 }
-		{ item: graphite, amount: 560 }
+		copper/1200
+		titanium/750
+		phase-decay/300
+		surge-alloy/480
+		graphite/560
 	]
 	category: turret
 	research: 1-crow
