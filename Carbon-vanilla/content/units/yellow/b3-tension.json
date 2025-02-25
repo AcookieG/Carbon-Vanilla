@@ -1,0 +1,78 @@
+{
+	"type": "flying",
+	"name": "Tension",
+	"description": "A shielded unit to throw at enemy defenses.",
+	"health": 580,
+	"flying": true,
+	"maxVelocity": 4,
+	"speed": 1.9,
+	"drag": 0.02,
+	"mass": 8,
+	"baseRotateSpeed": 0.05,
+	"hitSize": 18
+	"circleTarget" : false,
+	"itemCapacity": 0
+	"range": 30,
+	"attackLength": 30,
+	"shootCone": 150,
+	"rotateWeapon": true,
+	"targetAir": true,
+	"engineOffset": 6,
+	"engineSize": 4.2,
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 28,
+			"rotation": 0,
+			"sides": 8,
+			"max": 300,
+			"regen": 0.6,
+			"color": "8AA3F4",
+		},
+	]
+	"weapons": [
+		{
+			"name": "boom",
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 1000,
+			"shots": 1,
+			"x": 0
+			"y": 0
+			"ejectEffect": "none",
+			"inaccuracy": 0,
+			"shootSound": "shotgun"
+			"rotate": false,
+			"mirror": false,
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 10,
+				"damage": 50,
+				"lifetime": 3,
+				"Width": 4,
+				"Height": 4,
+				"killShooter": true,
+				"instantDisappear": true,
+				"splashDamage": 420,
+				"splashDamageRadius": 60,
+				"incendAmount": 1,
+				"incendChance": 3,
+				"hitShake": 4,
+			},
+		},
+	]
+	"outlineColor": 00000000
+	"research": {
+		"parent": "b2-stress"
+		"requirements": [
+			{
+				"item": "coal",
+				"amount": 100
+			},
+			{
+				"item": "metaglass",
+				"amount": 100
+			},
+		]
+	}
+}

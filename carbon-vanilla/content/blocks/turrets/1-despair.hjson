@@ -10,7 +10,7 @@
 	recoil: 5
 	range: 300
 	ammoUseEffect: casing3Double
-	shootSound: missileLaunch
+	shootSound: ascends
 	restitution: 0.0001
 	cooldownTime: 10
 	minWarmup: 0.99

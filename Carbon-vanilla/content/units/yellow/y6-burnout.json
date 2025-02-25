@@ -1,0 +1,195 @@
+{
+	"type": "flying",
+	"name": "Burn-out",
+	"description": "An insane mothership. Carries the weight of dozens of ships and its weapons allow for a last-resort attack.",
+	"health": 22000,
+	"armor": 32,
+	"flying": true,
+	"maxVelocity": 4,
+	"speed": 0.8,
+	"drag": 0.02,
+	"mass": 34,
+	"rotateSpeed": 0.8,
+	"hitSize": 88
+	"circleTarget" : false,
+	"itemCapacity": 0
+	"range": 10,
+	"attackLength": 10,
+	"shootCone": 150,
+	"rotateWeapon": true,
+	"targetAir": true,
+	"engineOffset": 0,
+	"engineSize": 11,
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 100,
+			"rotation": 0,
+			"sides": 8,
+			"max": 8700,
+			"regen": 2,
+			"color": "8AA3F4",
+		},
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 160,
+			"rotation": 0,
+			"sides": 8,
+			"max": 3500,
+			"regen": 5,
+			"color": "8AA3F4",
+		},
+		{
+			"type": "UnitSpawnAbility",
+			"spawnTime": 300,
+			"unit": "y2-boring",
+			"spawnX": 30,
+			"spawnY": 0,
+			"parentizeEffects": false,
+		},
+		{
+			"type": "UnitSpawnAbility",
+			"spawnTime": 300,
+			"unit": "y2-boring",
+			"spawnX": -30,
+			"spawnY": 0,
+			"parentizeEffects": false,
+		},
+		{
+			"type": "mindustry.entities.abilities.StatusFieldAbility",
+			"range": 160,
+			"reload": 300,
+			"duration": 600,
+			"effect": "overclock"
+		},
+		{
+			"type": "mindustry.entities.abilities.StatusFieldAbility",
+			"range": 100,
+			"reload": 300,
+			"duration": 150,
+			"effect": "shielded"
+		},
+		{
+			"type": "mindustry.entities.abilities.RepairFieldAbility",
+			"activeEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 80,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "8AA3F4FF",
+				"colorTo": "8AA3F4FF"
+			},
+			"healEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 10,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "8AA3F4FF",
+				"colorTo": "8AA3F4FF"
+			},
+			"range": 150,
+			"amount": 120,
+			"reload": 90
+		},
+	]
+	"weapons": [
+		{
+			"name": "boom",
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 1000,
+			"shots": 1,
+			"x": 12
+			"y": 12
+			"ejectEffect": "none",
+			"inaccuracy": 0,
+			"shootSound": "shotgun"
+			"rotate": false,
+			"mirror": true,
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 10,
+				"damage": 50,
+				"lifetime": 3,
+				"Width": 4,
+				"Height": 4,
+				"killShooter": true,
+				"instantDisappear": true,
+				"splashDamage": 1100,
+				"splashDamageRadius": 120,
+				"incendAmount": 1,
+				"incendChance": 5,
+				"hitShake": 20,
+				"fragBullets": 15,
+				"fragBullet": {
+					"type": "BasicBulletType",
+					"damage": 160,
+					"fragVelocityMin": 0.8,
+					"fragVelocityMax": 2.1,
+					"lifetime": 20,
+					"incendAmount": 1,
+					"incendChance": 5,
+					"instantDisappear": true,
+				},
+			},
+		},
+		{
+			"name": "boom",
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 1000,
+			"shots": 1,
+			"x": 12
+			"y": -12
+			"ejectEffect": "none",
+			"inaccuracy": 0,
+			"shootSound": "shotgun"
+			"rotate": false,
+			"mirror": true,
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 10,
+				"damage": 50,
+				"lifetime": 3,
+				"Width": 4,
+				"Height": 4,
+				"killShooter": true,
+				"instantDisappear": true,
+				"splashDamage": 1100,
+				"splashDamageRadius": 120,
+				"incendAmount": 1,
+				"incendChance": 5,
+				"hitShake": 20,
+				"fragBullets": 15,
+				"fragBullet": {
+					"type": "BasicBulletType",
+					"damage": 160,
+					"fragVelocityMin": 0.8,
+					"fragVelocityMax": 2.1,
+					"lifetime": 20,
+					"incendAmount": 1,
+					"incendChance": 5,
+					"instantDisappear": true,
+				},
+			},
+		},
+	]
+	"outlineColor": 00000000
+	"research": {
+		"parent": "y5-annoyance"
+		"requirements": [
+			{
+				"item": "blast-compound",
+				"amount": 800
+			},
+			{
+				"item": "phase-decay",
+				"amount": 800
+			},
+		]
+	}
+}

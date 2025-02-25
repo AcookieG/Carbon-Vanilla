@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Oxyde Compound",
+	"description": "An intermediate between Sulfur and Graphitic core. Cheap and easy to manufacture? Only time will tell.",
+	"cost": 1.5,
+	"flammability": 0.2,
+	"radioactivity": 0.3,
+	"explosiveness": 0.2,
+	"charge": 0.1
+	"color": "b04c31"
+}
