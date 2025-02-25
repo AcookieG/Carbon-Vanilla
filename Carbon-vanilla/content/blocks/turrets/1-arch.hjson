@@ -1,0 +1,334 @@
+{
+	type: ItemTurret,
+	name: Arch,
+	description: "Creates a large charged field in a 60 degree arc. Very high voltage, do not touch. Could also be called the Kofi.",
+	squareSprite: false,
+	health": 5300
+	size: 4
+	reload: 180
+	shake: 3
+	recoil: 5
+	range: 400
+	ammoUseEffect: casing3Double
+	shootSound: ascends
+	restitution: 0.0001
+	cooldownTime: 10
+	minWarmup: 0.99
+	warmupMaintainTime: 20
+	shootCone: 50
+	rotateSpeed: 1.2
+	hasPower: true
+	targetUnderBlocks: false
+	shootY: 18
+    targetAir: true
+    targetGround: false
+	ammoPerShot: 10
+	consumes: {
+		power: 12
+		coolant: {
+            amount: 0.6
+		}
+	}
+	coolantMultiplier: 1
+	shoot: {
+		type: ShootSpread
+		shots: 180
+		spread: 0.3333
+	}
+	drawer: {
+	type: drawTurret
+	basePrefix: reinforced-
+	parts: [
+            {
+            type: RegionPart
+			suffix: -bottom
+			moveY: -8
+			moveX: 0
+			moveRot: 0
+			mirror: true
+			progress: warmup
+        }
+    	{
+            type: RegionPart
+			suffix: -glow
+			mirror: true
+			outline: false
+			blending: additive
+			colorTo: ffffff00
+			color: c9926f
+			progress: {
+				type: warmup
+				op: blend
+				other: heat
+				amount: 0.25
+			}
+		}
+		{
+			type: RegionPart
+			suffix: -top
+			moveY: -4
+			moveX: 4
+			moveRot: 0
+			mirror: true
+			progress: warmup
+			children: [
+				{
+					type: RegionPart
+					suffix: -heat
+					mirror: true
+					outline: false
+					blending: additive
+					colorTo: ffffff00
+					color: c9926f
+					progress: {
+						type: warmup
+						op: blend
+						other: heat
+						amount: 0.25
+					}
+				}
+			]
+		}
+		{
+			type: shapePart
+			y: -20
+			hollow: true
+			circle: true
+			layer: 110
+			color: 6cb7f5
+			stroke: 0
+			strokeTo: 1.1
+			radiusTo: 5
+			radius: 5
+		}
+		{
+			type: shapePart
+			y: -20
+			hollow: true
+			circle: true
+			layer: 110
+			color: 6cb7f5
+			stroke: 0
+			strokeTo: 1.9
+			radiusTo: 9
+			radius: 9
+		}
+        {
+            type: HaloPart
+            y: -20
+            radius: 4.3
+            tri: true
+            hollow: true
+            layer: 110
+            haloRotation: 0
+            color: 6cb7f5
+            haloRadius: 15
+            haloRadiusTo: 15
+            haloRotateSpeed: -1.7
+            stroke: 0
+            strokeTo: 1.1
+            shapes: 4
+            triLengthTo: 5.5
+            triLength: 0
+        }
+        {
+            type: shapePart
+            y: -20
+            hollow: true
+            circle: true
+            layer: 110
+            color: 6cb7f5
+            stroke: 0
+            strokeTo: 1.1
+            radiusTo: 5
+            radius: 5
+        }
+        {
+            type: HaloPart
+            y: -20
+            radius: 3
+            tri: true
+            layer: 110
+            haloRotation: 90
+            shapeRotation: 180
+            color: 6cb7f5
+            haloRadius: 12
+            haloRadiusTo: 12
+            stroke: 0
+            strokeTo: 2
+            shapes: 2
+            triLengthTo: 3
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: -20
+            radius: 3
+            tri: true
+            layer: 110
+            haloRotation: 90
+            color: 6cb7f5
+            haloRadius: 12
+            haloRadiusTo: 12
+            stroke: 0
+            strokeTo: 2
+            shapes: 2
+            triLengthTo: 13
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: -20
+            radius: 4
+            tri: true
+            layer: 110
+            color: 6cb7f5
+            shapeRotation: 180
+            haloRotateSpeed: 1.7
+            haloRadius: 9
+            haloRadiusTo: 9
+            stroke: 0
+            strokeTo: 2
+            shapes: 4
+            triLengthTo: 6
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: 14
+            radius: 4
+            tri: true
+            layer: 110
+            haloRotation: 180
+            shapeRotation: 180
+            color: 6cb7f5
+            haloRadius: 6
+            haloRadiusTo: 6
+            stroke: 0
+            strokeTo: 2
+            shapes: 1
+            triLengthTo: 2
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: 14
+            radius: 4
+            tri: true
+            layer: 110
+            haloRotation: 180
+            shapeRotation: 0
+            color: 6cb7f5
+            haloRadius: 6
+            haloRadiusTo: 6
+            stroke: 0
+            strokeTo: 2
+            shapes: 1
+            triLengthTo: 2
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: 28
+            radius: 6
+            tri: true
+            layer: 110
+            haloRotation: 180
+            shapeRotation: 180
+            color: 6cb7f5
+            haloRadius: 6
+            haloRadiusTo: 6
+            stroke: 0
+            strokeTo: 2
+            shapes: 1
+            triLengthTo: 3
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: 28
+            radius: 6
+            tri: true
+            layer: 110
+            haloRotation: 180
+            shapeRotation: 0
+            color: 6cb7f5
+            haloRadius: 6
+            haloRadiusTo: 6
+            stroke: 0
+            strokeTo: 2
+            shapes: 1
+            triLengthTo: 3
+            triLength: 0
+        }
+	]
+	}
+	ammoTypes: {
+		surge-alloy: {
+			type: BasicBulletType
+			sprite: circle
+			damage: 30
+			ammoMultiplier: 1
+			drawsize: 1
+			width: 0
+			height: 0
+			shootEffect: shootSmokeSquareBig
+			smokeEffect: {
+                type: ParticleEffect
+                particles: 3
+                length: -60
+                lifetime: 80
+                interp: circleOut
+                cone: 20
+                sizeFrom: 8
+                sizeTo: 1
+                colorFrom: c9926fff
+                colorTo: ffffff00
+            }
+			lifetime: 50
+			speed: 8
+			collidesAir: true
+			collidesGround: false
+			collidesTiles: false
+			instantDisapear: false
+			despawnEffect: none
+			hitEffect: none
+			shrinkY: 0
+			hitShake: 0
+			trailColor: c9926f
+			trailEffect: colorSpark
+			trailRotation: true
+			trailInterval: 3
+			trailChance: -1
+			trailWidth: 2.5
+			trailLength: 50
+			frontColor: ffffff
+			backColor: c9926f
+            intervalBullets: 1,
+			intervalRandomSpread: 0,
+			bulletInterval: 1,
+			intervalBullet: {
+                type: BasicBulletType,
+                despawnHit: true,
+                damage: 0,
+                lifetime: 1
+                hitAir: true
+               	lightning: 2
+                lightningDamage: 15
+                lightningCone: 1
+                lightningLengthRand: 3
+                lightningLength: 4
+                lightningColor: c9926f
+			}
+        }
+	}
+	requirements: [
+		copper/1300
+		titanium/620
+		phase-decay/280
+		surge-alloy/620
+		graphite/820
+	]
+	category: turret
+	research: 1-crow
+}
