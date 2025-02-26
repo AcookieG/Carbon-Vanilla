@@ -195,7 +195,7 @@ midColor: ad74f7
 				"type": "DrawPistons",
 				"sides": 4,
 				"sinScl": 20,
-				"sideOffset": 0,
+				"sideOffset": 4,
 				"sinMag": 8
 				"angleOffset": 0
 			},

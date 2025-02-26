@@ -17,7 +17,7 @@
 				"type": "DrawPistons",
 				"sides": 4,
 				"sinScl": 5,
-				"sideOffset": 0,
+				"sideOffset": 4,
 				"sinMag": 1
 				"angleOffset": 0
 			},
