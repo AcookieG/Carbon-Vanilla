@@ -8,7 +8,7 @@
 	"reload": 300,
 	"shake": 15,
 	"recoil": 6,
-	"range": 4000,
+	"range": 2800,
 	"ammoUseEffect": "casing3Double",
 	"shootSound": "largeCannon",
 	"restitution": 0.001,
