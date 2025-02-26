@@ -43,6 +43,19 @@
 			moveRot: 0
 			mirror: false
 			progress: warmup
+            "layerOffset": 0.000,
+			"outlineLayerOffset": -0.000,
+        }
+        {
+            type: RegionPart
+			suffix:
+			moveY: 0
+			moveX: 0
+			moveRot: 0
+			mirror: false
+			progress: warmup
+            "layerOffset": 0.001,
+			"outlineLayerOffset": -0.001,
         }
     	{
             type: RegionPart
@@ -52,6 +65,8 @@
 			blending: additive
 			colorTo: ffffff00
 			color: c9926f
+            "layerOffset": 0.005,
+			"outlineLayerOffset": -0.005,
 			progress: {
 				type: warmup
 				op: blend
@@ -62,11 +77,13 @@
 		{
 			type: RegionPart
 			suffix: -top
-			moveY: -4
-			moveX: 4
+			moveY: -6
+			moveX: 6
 			moveRot: 0
 			mirror: true
 			progress: warmup
+            "layerOffset": 0.003,
+			"outlineLayerOffset": -0.003,
 			children: [
 				{
 					type: RegionPart
@@ -76,6 +93,8 @@
 					blending: additive
 					colorTo: ffffff00
 					color: c9926f
+                    "layerOffset": 0.004,
+                    "outlineLayerOffset": -0.004,
 					progress: {
 						type: warmup
 						op: blend
@@ -87,37 +106,54 @@
 		}
 		{
 			type: shapePart
-			y: -20
+			y: -5
 			hollow: true
 			circle: true
 			layer: 110
-			color: 6cb7f5
-			stroke: 0
-			strokeTo: 1.1
-			radiusTo: 5
-			radius: 5
-		}
-		{
-			type: shapePart
-			y: -20
-			hollow: true
-			circle: true
-			layer: 110
-			color: 6cb7f5
+			color: c9926f
 			stroke: 0
 			strokeTo: 1.9
 			radiusTo: 9
 			radius: 9
 		}
         {
+            type: shapePart
+            y: -5
+            hollow: true
+            circle: true
+            layer: 110
+            color: c9926f
+            stroke: 0
+            strokeTo: 1.1
+            radiusTo: 5
+            radius: 5
+        }
+        {
             type: HaloPart
-            y: -20
+            y: -5
+            radius: 3
+            tri: true
+            layer: 110
+            haloRotation: 90
+            shapeRotation: 180
+            color: c9926f
+            haloRadius: 12
+            haloRadiusTo: 12
+            stroke: 0
+            strokeTo: 2
+            shapes: 2
+            triLengthTo: 3
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: -5
             radius: 4.3
             tri: true
             hollow: true
             layer: 110
             haloRotation: 0
-            color: 6cb7f5
+            color: c9926f
             haloRadius: 15
             haloRadiusTo: 15
             haloRotateSpeed: -1.7
@@ -128,42 +164,13 @@
             triLength: 0
         }
         {
-            type: shapePart
-            y: -20
-            hollow: true
-            circle: true
-            layer: 110
-            color: 6cb7f5
-            stroke: 0
-            strokeTo: 1.1
-            radiusTo: 5
-            radius: 5
-        }
-        {
             type: HaloPart
-            y: -20
+            y: -5
             radius: 3
             tri: true
             layer: 110
             haloRotation: 90
-            shapeRotation: 180
-            color: 6cb7f5
-            haloRadius: 12
-            haloRadiusTo: 12
-            stroke: 0
-            strokeTo: 2
-            shapes: 2
-            triLengthTo: 3
-            triLength: 0
-        }
-        {
-            type: HaloPart
-            y: -20
-            radius: 3
-            tri: true
-            layer: 110
-            haloRotation: 90
-            color: 6cb7f5
+            color: c9926f
             haloRadius: 12
             haloRadiusTo: 12
             stroke: 0
@@ -174,87 +181,36 @@
         }
         {
             type: HaloPart
-            y: -20
-            radius: 4
+            y: -5
+            radius: 8
             tri: true
             layer: 110
-            color: 6cb7f5
+            color: c9926f
+            shapeRotation: 0
+            haloRotateSpeed: 1.7
+            haloRadius: 9
+            haloRadiusTo: 9
+            stroke: 0
+            strokeTo: 2
+            shapes: 5
+            triLengthTo: 2
+            triLength: 0
+        }
+        {
+            type: HaloPart
+            y: -5
+            radius: 3
+            tri: true
+            layer: 110
+            color: c9926f
             shapeRotation: 180
             haloRotateSpeed: 1.7
             haloRadius: 9
             haloRadiusTo: 9
             stroke: 0
             strokeTo: 2
-            shapes: 4
-            triLengthTo: 6
-            triLength: 0
-        }
-        {
-            type: HaloPart
-            y: 14
-            radius: 4
-            tri: true
-            layer: 110
-            haloRotation: 180
-            shapeRotation: 180
-            color: 6cb7f5
-            haloRadius: 6
-            haloRadiusTo: 6
-            stroke: 0
-            strokeTo: 2
-            shapes: 1
-            triLengthTo: 2
-            triLength: 0
-        }
-        {
-            type: HaloPart
-            y: 14
-            radius: 4
-            tri: true
-            layer: 110
-            haloRotation: 180
-            shapeRotation: 0
-            color: 6cb7f5
-            haloRadius: 6
-            haloRadiusTo: 6
-            stroke: 0
-            strokeTo: 2
-            shapes: 1
-            triLengthTo: 2
-            triLength: 0
-        }
-        {
-            type: HaloPart
-            y: 28
-            radius: 6
-            tri: true
-            layer: 110
-            haloRotation: 180
-            shapeRotation: 180
-            color: 6cb7f5
-            haloRadius: 6
-            haloRadiusTo: 6
-            stroke: 0
-            strokeTo: 2
-            shapes: 1
-            triLengthTo: 3
-            triLength: 0
-        }
-        {
-            type: HaloPart
-            y: 28
-            radius: 6
-            tri: true
-            layer: 110
-            haloRotation: 180
-            shapeRotation: 0
-            color: 6cb7f5
-            haloRadius: 6
-            haloRadiusTo: 6
-            stroke: 0
-            strokeTo: 2
-            shapes: 1
-            triLengthTo: 3
+            shapes: 5
+            triLengthTo: 5
             triLength: 0
         }
 	]
