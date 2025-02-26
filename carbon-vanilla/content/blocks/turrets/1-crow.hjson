@@ -276,7 +276,7 @@
 "colorFrom": "6e7080",
 "colorTo": "ffcd66"
 }
-			"lifetime": 250,
+			"lifetime": 80,
 			"speed": 36,
 			"pierce": true,
 			"pierceCap": 420
