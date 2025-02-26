@@ -25,7 +25,7 @@
 	consumes: {
 		power: 6
 		coolant: {
-            amount: 0.5
+      amount: 0.5
 		}
 	}
 	coolantMultiplier: 1.25
