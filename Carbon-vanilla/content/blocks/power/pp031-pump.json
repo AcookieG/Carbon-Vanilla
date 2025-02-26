@@ -11,7 +11,7 @@
 	"liquidCapacity": 20
 	"hasLiquids": true,
 	"hasItems": false,
-	"powerProduction": 3,
+	"powerProduction": 2,
 	"warmupSpeed": 0.05,
 	"itemDuration": 360,
 	"drawer": {
@@ -55,7 +55,7 @@
 		},
 		{
 			"item": "metaglass",
-			"amount": 50
+			"amount": 30
 		},
 	],
 	"category": "power",
