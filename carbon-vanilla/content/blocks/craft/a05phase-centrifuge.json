@@ -1,6 +1,6 @@
 {
 	"name": "Phase Decay Centrifuge",
-	"description": "Rapidly decays the thorium present in the phase fabric into phase decay.",
+	"description": "Rapidly decays the thorium present in the Phase Fabric into Phase Decay.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 180,
@@ -30,6 +30,10 @@
 		"power": 2,
 		"items": {
 			"items": [
+				{
+				"item": "sulfur",
+				"amount": 1,
+				}
 				{
 				"item": "phase-fabric",
 				"amount": 2,

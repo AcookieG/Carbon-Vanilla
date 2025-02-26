@@ -1,0 +1,59 @@
+{
+	"name": "Sulfur Separator",
+	"description": "Extracts small amounts of sulfur found in Sand and Copper sulfates.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 210,
+	"itemCapacity": 10,
+	"hasLiquids": false,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "pulverizeRed",
+	"craftEffect": "none",
+	  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+			{
+				"type": "DrawPistons",
+				"sides": 4,
+				"sinScl": 5,
+				"sideOffset": 0,
+				"sinMag": 1
+				"angleOffset": 0
+			},
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{
+				"item": "sand",
+				"amount": 4,
+				}
+				{
+				"item": "copper",
+				"amount": 2,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "copper", "amount": 50 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "kiln",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.05,
+	"outputItem": {
+		"item": "sulfur",
+		"amount": 1
+	},
+	"craftTime": 120,
+}

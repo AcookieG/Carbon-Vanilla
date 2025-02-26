@@ -1,6 +1,6 @@
 {
 	"name": "Silica Decayer",
-	"description": "Decays Phase Fabric with Sand and Water in large volumes. Used for mass-production. Cheap and more efficient.",
+	"description": "Decays Phase Fabric with Sulfur and Water in large volumes. Used for mass-production. Cheap and more efficient.",
 	"type": "GenericCrafter"
 	"size": 4,
 	"health": 260,
@@ -47,14 +47,14 @@
 				"amount": 2,
 				},
 				{
-				"item": "sand",
-				"amount": 10,
+				"item": "sulfur",
+				"amount": 8,
 				},
 			]
 		},
                 "liquid": {
 			"liquid": "liquidheat",
-			"amount": 1
+			"amount": 0.3
 		},
 	},
 	"requirements": [
@@ -71,7 +71,7 @@
 	"idleSoundVolume": 0.05,
 	"outputItem": {
 		"item": "phase-decay",
-		"amount": 2
+		"amount": 3
 	},
 	"craftTime": 120,
 }
