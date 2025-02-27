@@ -4,14 +4,14 @@
   "description": "A late-game ammo belt for hungry turrets.",
   "loadEffect": "steam"
   "unloadEffect": "steam"
-  "health": 2100,
+  "health": 210,
   "speed": 0.2,
   "itemCapacity": 800,
   "requirements": [
-    "silicon/210",
-    "titanium/180",
-    "phase-decay/50"
-    "carbon-fiber/60"
+    "silicon/20",
+    "titanium/15",
+    "phase-decay/30"
+    "carbon-fiber/30"
   ],
   "research": "mpc-conveyor",
   "category": "distribution"

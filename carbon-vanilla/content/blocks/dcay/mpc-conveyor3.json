@@ -3,13 +3,13 @@
   "name": "Itemway Router"
   "description": "Re-routes items from a belt to another.",
   "health": 210,
-  "speed": 0.6,
+  "speed": 0.2,
   "itemCapacity": 800,
   "requirements": [
-    "silicon/320",
-    "titanium/210",
-    "phase-decay/50"
-    "carbon-fiber/75"
+    "silicon/40",
+    "titanium/30",
+    "phase-decay/60"
+    "carbon-fiber/60"
   ],
   "research": "mpc-conveyor2",
   "category": "distribution"

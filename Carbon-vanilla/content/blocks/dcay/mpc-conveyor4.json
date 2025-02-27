@@ -1,0 +1,17 @@
+{
+	"type": "ItemBridge",
+	"name": "Itemway Bridge",
+	"description": "A stylish redesign of the Carbon Bridge. Very short, but instant. Please don't spam this everywhere.",
+	"health": 210,
+	"hasPower": false
+  "requirements": [
+    "silicon/80",
+    "titanium/60",
+    "phase-decay/120"
+    "carbon-fiber/120"
+  ],
+	"category": "distribution",
+	"transportTime": 0,
+	"range": 1
+	"research": "mpc-conveyor2"
+}
