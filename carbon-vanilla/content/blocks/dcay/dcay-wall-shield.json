@@ -14,7 +14,7 @@
 	"hasLiquids": true
 	"hasPower": false
 	"requirements": [
-		{"item": "phase-decay", "amount": 24},
+		{"item": "phase-decay", "amount": 80},
 		{"item": "titanium", "amount": 12},
 		{"item": "silicon", "amount": 48}
 	],

@@ -7,7 +7,7 @@
 	"requirements": [
 		{ "item": "surge-alloy", "amount": 8 },
 		{ "item": "silicon", "amount": 8 },
-		{ "item": "phase-decay", "amount": 24 }
+		{ "item": "phase-decay", "amount": 120 }
 	],
 	"category": "defense",
 	"research": "surge-wall"
