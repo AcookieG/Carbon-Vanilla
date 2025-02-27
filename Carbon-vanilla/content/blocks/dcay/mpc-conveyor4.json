@@ -1,7 +1,7 @@
 {
 	"type": "ItemBridge",
 	"name": "Itemway Bridge",
-	"description": "A stylish redesign of the Carbon Bridge. Very short, but instant. Please don't spam this everywhere.",
+	"description": "A stylish redesign of the Carbon Bridge. Still slow, but very long somehow.",
 	"health": 210,
 	"hasPower": false
   "requirements": [
@@ -11,7 +11,7 @@
     "carbon-fiber/120"
   ],
 	"category": "distribution",
-	"transportTime": 0,
-	"range": 1
+	"transportTime": 1,
+	"range": 12
 	"research": "mpc-conveyor2"
 }

@@ -1,0 +1,22 @@
+{
+	"type": "MassDriver",
+	"name": "Itemway Driver"
+	"description": "These things... They scare me. They shoot hundreds of items per second. And you just stand there?!",
+	"health": 420,
+	"size": 1,
+	"itemCapacity": 200,
+	"range": 6,
+	"rotateSpeed": 36,
+	"reloadTime": 1,
+	"shake": 0,
+	"hasPower": false,
+	"knockback": 0.1,
+  "requirements": [
+    "silicon/160",
+    "titanium/120",
+    "phase-decay/80"
+    "carbon-fiber/180"
+  ],
+	"category": "distribution",
+	"research": "mpc-conveyor4"
+}
