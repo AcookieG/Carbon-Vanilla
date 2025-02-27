@@ -8,7 +8,7 @@
   "requirements": [
     "silicon/40",
     "titanium/30",
-    "phase-decay/60"
+    "phase-decay/20"
     "carbon-fiber/60"
   ],
   "research": "mpc-conveyor2",

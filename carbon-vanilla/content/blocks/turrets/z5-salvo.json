@@ -122,6 +122,7 @@
 		{ "item": "copper", "amount": 130 },
 		{ "item": "titanium", "amount": 60 },
 		{ "item": "carbon-fiber", "amount": 90 },
+		{ "item": "phase-decay", "amount": 60 },
 	],
 	"category": "turret",
 	"research": "salvo"

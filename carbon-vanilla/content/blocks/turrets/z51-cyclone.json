@@ -182,6 +182,7 @@
 		{ "item": "copper", "amount": 220 },
 		{ "item": "titanium", "amount": 120 },
 		{ "item": "carbon-fiber", "amount": 90 },
+		{ "item": "phase-decay", "amount": 70 },
 	],
 	"category": "turret",
 	"research": "cyclone"

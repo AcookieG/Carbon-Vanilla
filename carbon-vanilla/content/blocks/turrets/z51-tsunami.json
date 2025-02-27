@@ -146,6 +146,7 @@
 		{ "item": "metaglass", "amount": 110 },
 		{ "item": "titanium", "amount": 230 },
 		{ "item": "carbon-fiber", "amount": 110 },
+		{ "item": "phase-decay", "amount": 80 },
 	],
 	"category": "turret",
 	"research": "tsunami"

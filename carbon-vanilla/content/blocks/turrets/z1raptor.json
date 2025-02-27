@@ -103,7 +103,7 @@
 		{ "item": "titanium", "amount": 775 },
 		{ "item": "carbon-fiber", "amount": 160 },
 		{ "item": "plastanium", "amount": 210 },
-		{ "item": "surge-alloy", "amount": 180 }
+		{ "item": "phase-decay", "amount": 80 }
 	],
 	"category": "turret",
 	"research": "fuse"
