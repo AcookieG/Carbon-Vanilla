@@ -9,8 +9,8 @@
   "itemCapacity": 45,
   "outputRouter": true,
   "requirements": [
-    "silicon/1",
-    "phase-decay/1"
+    "silicon/4",
+    "phase-decay/4"
   ],
   "research": "plastanium-conveyor",
   "category": "distribution"

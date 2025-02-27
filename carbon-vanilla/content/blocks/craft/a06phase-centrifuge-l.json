@@ -1,6 +1,6 @@
 {
 	"name": "Silica Decayer",
-	"description": "Decays Phase Fabric with Sulfur and Water in large volumes. Used for mass-production. Cheap and more efficient.",
+	"description": "Decays Phase Fabric with Carbon Fiber and Liquid Heat in large volumes. Used for mass-production. Cheap and more efficient.",
 	"type": "GenericCrafter"
 	"size": 4,
 	"health": 260,
@@ -47,7 +47,7 @@
 				"amount": 2,
 				},
 				{
-				"item": "sulfur",
+				"item": "carbon-fiber",
 				"amount": 8,
 				},
 			]

@@ -2,16 +2,17 @@
 	"name": "Large Phase Weaver",
 	"type": "AttributeCrafter"
 	"size": 3,
-	"health": 230,
-	"itemCapacity": 30,
+	"health": 330,
+	"itemCapacity": 60,
 	"hasLiquids": false,
 	"hasPower": true,
 	"hasItems": true,
 	"updateEffect": "none",
 	"craftEffect": "smeltsmoke",
 	"attribute": "heat"
-	"boostScale": 0.2
+	"boostScale": 0.5
 	"minEfficiency": 0.25
+	"maxBoost": 3
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -28,20 +29,20 @@
     ]
   },
 	"consumes": {
-		"power": 5,
+		"power": 12,
 		"items": {
 			"items": [
 				{
 				"item": "thorium",
-				"amount": 4,
+				"amount": 5,
 				}
 				{
 				"item": "sand",
-				"amount": 7,
+				"amount": 8,
 				}
 				{
 				"item": "graphite",
-				"amount": 1,
+				"amount": 2,
 				}
 			]
 		},
@@ -58,7 +59,7 @@
 	"idleSoundVolume": 0.03,
 	"outputItem": {
 		"item": "phase-fabric",
-		"amount": 3
+		"amount": 5
 	},
 	"craftTime": 30,
 }

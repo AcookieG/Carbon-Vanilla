@@ -7,11 +7,11 @@
   "requirements": [
     "silicon/80",
     "titanium/60",
-    "phase-decay/120"
+    "phase-decay/40"
     "carbon-fiber/120"
   ],
 	"category": "distribution",
 	"transportTime": 1,
-	"range": 12
+	"range": 16
 	"research": "mpc-conveyor2"
 }
