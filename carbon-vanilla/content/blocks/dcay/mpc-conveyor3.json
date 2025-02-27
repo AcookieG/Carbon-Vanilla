@@ -1,15 +1,15 @@
 {
   "type": "StackRouter",
-  "name": "Ammo Router"
-  "description": "Re-routes ammo from a belt to another.",
-  "health": 80,
-  "speed": 1,
-  "itemCapacity": 500,
+  "name": "Itemway Router"
+  "description": "Re-routes items from a belt to another.",
+  "health": 210,
+  "speed": 0.6,
+  "itemCapacity": 800,
   "requirements": [
-    "silicon/80",
-    "titanium/80",
+    "silicon/320",
+    "titanium/210",
     "phase-decay/50"
-    "carbon-fiber/50"
+    "carbon-fiber/75"
   ],
   "research": "mpc-conveyor2",
   "category": "distribution"

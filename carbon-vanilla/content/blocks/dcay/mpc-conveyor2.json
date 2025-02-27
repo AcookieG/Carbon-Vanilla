@@ -1,17 +1,17 @@
 {
   "type": "StackConveyor",
-  "name": "Ammo Belt"
+  "name": "Itemway Belt"
   "description": "A late-game ammo belt for hungry turrets.",
   "loadEffect": "steam"
   "unloadEffect": "steam"
-  "health": 80,
-  "speed": 0.3,
-  "itemCapacity": 500,
+  "health": 2100,
+  "speed": 0.2,
+  "itemCapacity": 800,
   "requirements": [
-    "silicon/80",
-    "titanium/80",
+    "silicon/210",
+    "titanium/180",
     "phase-decay/50"
-    "carbon-fiber/50"
+    "carbon-fiber/60"
   ],
   "research": "mpc-conveyor",
   "category": "distribution"
