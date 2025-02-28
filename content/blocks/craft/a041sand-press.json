@@ -32,7 +32,7 @@
 			"items": [
 				{
 				"item": "sand",
-				"amount": 2,
+				"amount": 3,
 				}
 				{
 				"item": "copper",
@@ -55,5 +55,5 @@
 		"item": "pyratite",
 		"amount": 1
 	},
-	"craftTime": 70,
+	"craftTime": 50,
 }
