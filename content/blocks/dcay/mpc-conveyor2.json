@@ -9,9 +9,8 @@
   "itemCapacity": 300,
   "requirements": [
     "silicon/20",
-    "titanium/15",
     "phase-decay/10"
-    "carbon-fiber/30"
+    "titanium/20"
   ],
   "research": "mpc-conveyor",
   "category": "distribution"
