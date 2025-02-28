@@ -32,11 +32,11 @@
 			"items": [
 				{
 				"item": "sand",
-				"amount": 4,
+				"amount": 2,
 				}
 				{
 				"item": "copper",
-				"amount": 3,
+				"amount": 2,
 				}
 			]
 		},
@@ -53,7 +53,7 @@
 	"idleSoundVolume": 0.05,
 	"outputItem": {
 		"item": "pyratite",
-		"amount": 2
+		"amount": 1
 	},
-	"craftTime": 140,
+	"craftTime": 70,
 }
