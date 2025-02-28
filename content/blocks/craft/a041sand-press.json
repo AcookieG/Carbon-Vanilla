@@ -1,6 +1,6 @@
 {
-	"name": "Sulfur Separator",
-	"description": "Extracts small amounts of sulfur found in Sand and Copper sulfates.",
+	"name": "Sulfur Press",
+	"description": "Extracts small amounts of sulfur in the mixture to manufacture cheaper Pyratite.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 210,
@@ -36,7 +36,7 @@
 				}
 				{
 				"item": "copper",
-				"amount": 2,
+				"amount": 3,
 				}
 			]
 		},
@@ -44,7 +44,7 @@
 	"requirements": [
 		{ "item": "titanium", "amount": 80 },
 		{ "item": "silicon", "amount": 30 },
-		{ "item": "copper", "amount": 50 },
+		{ "item": "copper", "amount": 120 },
 	],
 	"category": "crafting",
 	"rotate": false
@@ -52,8 +52,8 @@
 	"idleSound": "machine",
 	"idleSoundVolume": 0.05,
 	"outputItem": {
-		"item": "sulfur",
-		"amount": 1
+		"item": "pyratite",
+		"amount": 2
 	},
-	"craftTime": 120,
+	"craftTime": 140,
 }
