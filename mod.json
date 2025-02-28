@@ -2,7 +2,16 @@
   "name": "Carbon Vanilla",
   "subtitle": "Better with NeonNights2 !"
   "author": "AcookieG",
-  "description": "Adds multiple new factories, turrets and items to enhance vanilla content and add more things post-late game. IMPORTANT: Credit for sprites cuz stealing bad: Eschatologue/Unlimited-Armament-Works, AureusStratus/ExoGenesis, Eschatologue/Heavy-Armaments-Industries, uujuju1/project-oblivion",
+  "description": '''
+	Adds multiple new factories, turrets and items to enhance vanilla content and add more things post-late game.
+	IMPORTANT: Credit for sprites cuz stealing bad: 
+	- Eschatologue/Unlimited-Armament-Works
+	- AureusStratus/ExoGenesis 
+	- Eschatologue/Heavy-Armaments-Industries
+	- uujuju1/project-oblivion
+	as well as reskins of vanilla sprites
+	I'm really sorry for stealing sprites I just can't good results otherwise, and the mod was originally just a personnal project for late-game.
+	''',
   "version": 3,
   "minGameVersion": 145
 }
