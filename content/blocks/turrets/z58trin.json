@@ -27,9 +27,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 4000 },
-		{ "item": "silicon", "amount": 4000 },
-		{ "item": "phase-decay", "amount": 2000 },
+		{ "item": "copper", "amount": 8000 },
+		{ "item": "silicon", "amount": 8000 },
+		{ "item": "phase-decay", "amount": 4000 },
 	],
 	"category": "turret",
 	"research": "1-crow"

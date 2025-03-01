@@ -249,7 +249,7 @@
 	"ammoTypes": {
 		"phase-decay": {
 			"type": "BasicBulletType",
-			"damage": 4350,
+			"damage": 6350,
 			"ammoMultiplier": 1,
 			"drawsize": 380
 			"width": 7,
