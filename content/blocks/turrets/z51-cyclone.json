@@ -5,7 +5,7 @@
 	"type": "ItemTurret",
 	"health": 1305,
 	"size": 3,
-	"reload": 6,
+	"reload": 10,
 	"shake": 0.6,
 	"range": 200,
 	"ammoUseEffect": "casing3",
@@ -13,8 +13,8 @@
 	"restitution": 0.01,
 	"shootCone": 15,
 	"hasLiquids": true,
-	"inaccuracy": 12,
-	"velocityRnd": 0.1,
+	"inaccuracy": 24,
+	"velocityRnd": 0.15,
 	"xRand": 2,
 "shoot": {
 	"type": "ShootMulti",
@@ -29,7 +29,7 @@
 	"dest": [
 		{
 			"type": "ShootPattern",
-			"shots": 1
+			"shots": 2
 		}
 	]
 },
@@ -114,13 +114,13 @@
 			"smokeEffect": "none"
 			"speed": 8,
 			"pierce": true
-			explodeRange: 20
+			"explodeRange": 24
 			"fragBullets": 2,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 38,
-				"fragVelocityMin": 1.1,
-				"fragVelocityMax": 2.7,
+				"fragVelocityMin": 2.1,
+				"fragVelocityMax": 3.7,
 				"lifetime": 15,
 			},
 		},
@@ -138,6 +138,7 @@
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootSmallSmoke"
 			"speed": 8,
+			"explodeRange": 24
 			lightning: 2
 			lightningDamage: 14
 			lightningCone: 360
@@ -161,13 +162,13 @@
 			"speed": 10,
 			"homingPower": 0.05,
 			"homingRange": 40,
-			explodeRange: 28
+			explodeRange: 34
 			"fragBullets": 3,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 42,
-				"fragVelocityMin": 1.1,
-				"fragVelocityMax": 4.9,
+				"fragVelocityMin": 3.1,
+				"fragVelocityMax": 7.9,
 				"lifetime": 18,
 			},
 		},
