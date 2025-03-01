@@ -237,7 +237,7 @@
 	ammoTypes: {
 		surge-alloy: {
 			type: BasicBulletType
-			damage: 30
+			damage: 96
 			ammoMultiplier: 1
 			drawsize: 200
 			width: 10
@@ -284,64 +284,7 @@
         lifetime: 1
         hitAir: true
         lightning: 3
-        lightningDamage: 30
-        lightningCone: 359
-        lightningLengthRand: 3
-        lightningLength: 4
-        lightningColor: f3e979
-			}
-    }
-				carbon-fiber: {
-			type: BasicBulletType
-			damage: 20
-			ammoMultiplier: 1
-			reloadMultiplier: 1.3,
-			drawsize: 200
-			width: 10
-			height: 14
-			shootEffect: shootSmokeSquareBig
-			smokeEffect: {
-        type: ParticleEffect
-        particles: 3
-        length: -60
-        lifetime: 80
-        interp: circleOut
-        cone: 20
-        sizeFrom: 8
-        sizeTo: 1
-        colorFrom: 656565ff
-        colorTo: ffffff00
-      }
-			lifetime: 40
-			speed: 10
-			collidesAir: true
-			collidesGround: true
-			collidesTiles: true
-			instantDisapear: false
-			despawnEffect: none
-			hitEffect: none
-			shrinkY: 0
-			hitShake: 0
-			trailColor: c9926f
-			trailEffect: colorSpark
-			trailRotation: true
-			trailInterval: 5
-			trailChance: -1
-			trailWidth: 3
-			trailLength: 20
-			frontColor: ffffff
-			backColor: 656565
-      intervalBullets: 1,
-			intervalRandomSpread: 0,
-			bulletInterval: 4,
-			intervalBullet: {
-        type: BasicBulletType,
-        despawnHit: true,
-        damage: 0,
-        lifetime: 1
-        hitAir: true
-        lightning: 1
-        lightningDamage: 20
+        lightningDamage: 64
         lightningCone: 359
         lightningLengthRand: 3
         lightningLength: 4
