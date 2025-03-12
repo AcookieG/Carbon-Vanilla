@@ -134,10 +134,7 @@ weapons: [
 		intervalRandomSpread: 360
 		bulletInterval: 10
 		intervalBullet: {
-      			type: FireBulletType
-			colorFrom: 00000010
-			colorMid: 00000010
-			colorTo: 00000010
+      			type: BasicBulletType
 			damage: 22000
 			instantDisapear: false
 			velMin: 90
@@ -169,38 +166,6 @@ abilities: [
 	y: -20
 	rotateEffect: true
 	rotation: 180
-	effect: {
-	type: multiEffect
-	effects: [
-		{
-		type: ParticleEffect
-		particles: 14
-		sizeFrom: 9
-		sizeTo: 0
-		length: 120
-		lifetime: 120
-		lightOpacity: 0
-		interp: circleOut
-		sizeInterp: pow5In
-		colorFrom: ffffa3
-		colorTo: e2865400
-		cone: 13
-		}
-		{
-		type: ParticleEffect
-		particles: 3
-		sizeFrom: 16
-		sizeTo: 6
-		length: 90
-		lifetime: 120
-		lightOpacity: 0
-		interp: circleOut
-		colorFrom: bbbbbbff
-		colorTo: 00000022
-		cone: 90
-		}
-	]
-	}
 	}
 ]
 }

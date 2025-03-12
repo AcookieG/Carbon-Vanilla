@@ -39,13 +39,37 @@ abilities: [
 			"color": "ffffa3ff"
 			"maxTargets": 800,
 			"healPercent": 0.3,
-			"damage": 15,
+			"damage": 17,
 			"range": 200,
 			"sectors": 4,
 			"rotateSpeed": 0,
 			"hitBuildings": true,
 			"sectorRad": 0.1,
 			"reload": 1,
+		}
+		{
+			"type": "EnergyFieldAbility",
+			"healEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 5000,
+				"sides": 4,
+				"strokeFrom": 7,
+				"strokeTo": 1,
+				"colorFrom": "ffffa3ff"
+				"colorTo": "e2865400"
+			},
+			"color": "ffffa3ff"
+			"maxTargets": 8000,
+			"healPercent": 0.3,
+			"damage": 8,
+			"range": 20000,
+			"sectors": 2,
+			"rotateSpeed": 0,
+			"hitBuildings": true,
+			"sectorRad": 0.1,
+			"reload": 4,
 		}
 ]
 weapons: [
