@@ -159,13 +159,4 @@ weapons: [
 	}
 }
 ]
-abilities: [
-	{
-	type: MoveEffectAbility
-	interval: 2
-	y: -20
-	rotateEffect: true
-	rotation: 180
-	}
-]
 }

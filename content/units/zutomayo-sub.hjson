@@ -61,10 +61,10 @@ abilities: [
 				"colorTo": "e2865400"
 			},
 			"color": "ffffa3ff"
-			"maxTargets": 8000,
+			"maxTargets": 1000,
 			"healPercent": 0.3,
-			"damage": 8,
-			"range": 20000,
+			"damage": 2,
+			"range": 2000,
 			"sectors": 2,
 			"rotateSpeed": 0,
 			"hitBuildings": true,
