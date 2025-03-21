@@ -6,16 +6,16 @@
 	"spreadDamage": 180,
 	"capPuddles": false,
 	"maxSpread": 2000,
-	"name": "Liquid Heat",
-	"description": "Heat; liquid (ui)",
+	"name": "Supercritical Goop",
+	"description": "Supposedly very viscous when cold, manufactured extremely slowly but also a byproduct of most power sources. Highly explosive.",
 	"coolant": false,
-	"color": "ffcd66",
-	"colorFrom": "ffcd66",
-	"colorTo": "e28654",
+	"color": "92dd7e",
+	"colorFrom": "92dd7e",
+	"colorTo": "3a5651",
 	"gas": false
-	"gasColor": "ffcd66"
+	"gasColor": "3a8f64"
 	"blockReactive": false,
-	"viscosity": 0,
+	"viscosity": 0.9,
 	"heatCapacity": 0,
 	"explosiveness": 2,
 	"temperature": 1,

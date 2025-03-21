@@ -1,6 +1,6 @@
 {
 	"name": "Superheater",
-	"description": "Heats charged particles until they are fit for particle accelerators of various scale.",
+	"description": "Heats Goop until it is fit for particle accelerators of various scale.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 230,
@@ -33,6 +33,13 @@
 			{
 				"type": "DrawPlasma",
 				"suffix": "-plasma-",
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan"
+				"spinSprite": true
+				"rotateSpeed": 4
+				"rotation": 0
 			},
 			{
 				"type": "DrawDefault"

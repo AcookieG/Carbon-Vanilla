@@ -12,7 +12,7 @@ WARNING: TO BE PROTECTED AT ANY COSTS; YOU WILL NOT HAVE A SECOND CHANCE.
 
 Part of a large power plant.
 '''
-	"type": "ImpactReactor"
+	"type": "HeaterGenerator"
 	"size": 8,
 	"health": 4520,
 	"liquidCapacity": 120,
@@ -24,7 +24,8 @@ Part of a large power plant.
 	"explosionDamage": 8000,
 	"explosionShake": 50
 	"powerProduction": 17500,
-	"warmupSpeed": 0.0001,
+	"warmupRate": 0.0001,
+	"heatOutput": 120000
 	"requirements": [
 		{
 			"item": "graphite",
