@@ -17,7 +17,7 @@ Highly explosive.
 	"hasLiquids": true,
 	"hasItems": false,
 	"powerProduction": 75,
-	"heatOutput": 120
+	"heatOutput": 24
 	"warmupSpeed": 1,
 	"itemDuration": 1,
 	"drawer": {

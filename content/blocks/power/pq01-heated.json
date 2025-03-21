@@ -13,7 +13,7 @@
 	"explosionDamage": 40,
 	"updateEffect": "steam",
 	"craftEffect": "none",
-	"heatRequirement": 90
+	"heatRequirement": 18
 	"maxEfficiency": 1.33334
 	"outputFacing": true
 	"rotate": true
