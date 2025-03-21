@@ -39,7 +39,7 @@ abilities: [
 			"color": "ffffa3ff"
 			"maxTargets": 800,
 			"healPercent": 0.3,
-			"damage": 17,
+			"damage": 15,
 			"range": 200,
 			"sectors": 4,
 			"rotateSpeed": 0,
@@ -47,109 +47,3 @@ abilities: [
 			"sectorRad": 0.1,
 			"reload": 1,
 		}
-		{
-			"type": "EnergyFieldAbility",
-			"healEffect": {
-				"type": "WaveEffect",
-				"lifetime": 25,
-				"sizeFrom": 0,
-				"sizeTo": 5000,
-				"sides": 4,
-				"strokeFrom": 7,
-				"strokeTo": 1,
-				"colorFrom": "ffffa3ff"
-				"colorTo": "e2865400"
-			},
-			"color": "ffffa3ff"
-			"maxTargets": 1000,
-			"healPercent": 0.3,
-			"damage": 2,
-			"range": 2000,
-			"sectors": 2,
-			"rotateSpeed": 0,
-			"hitBuildings": true,
-			"sectorRad": 0.1,
-			"reload": 4,
-		}
-]
-weapons: [
-	{
-	shootOnDeath: true
-	controllable: true
-	shootSound: explosionBig
-	shootCone: 90
-	mirror: false
-	rotateSpeed: 36
-	reload: 10
-	bullet: {
-		type: BasicBulletType
-		killShooter: true
-		instantDisappear: true
-		hitSound: explosionBig
-		hitSoundVolume: 30
-		damage: 1
-		lifeTime: 10
-		speed: 24
-		width: 20
-		height: 20
-		collidesAir: false
-		collidesGround: false
-		collidesTiles: false
-		hittable: false
-		reflectable: false
-		absorbable: false
-		despawnShake: 8
-		shootEffect: none
-		fragBullets: 80
-		fragBullet: {
-    			type: FireBulletType
-			colorFrom: ffffa3ff
-			colorMid: ffffffff
-			colorTo: e2865400
-			damage: 4200
-			width: 20
-			height: 20
-			status: carbon-vanilla-helios-effect
-			statusDuration: 360000
-			lifetime: 2000
-			collidesAir: true
-			collidesGround: true
-			collidesTiles: false
-			hittable: false
-			reflectable: false
-			absorbable: false
-			velMin: -0.5
-			velMax: 10
-			drawSize: 250
-			intervalBullets: 1
-			intervalRandomSpread: 360
-			bulletInterval: 6
-			intervalBullet: {
-				type: FireBulletType
-				damage: 0
-				status: carbon-vanilla-helios-effect
-				statusDuration: 360000
-				instantDisapear: false
-				velMin: -1
-				velMax: 8.9
-				lifetime: 20
-				collidesAir: true
-				collidesGround: true
-				despawnEffect: none
-				despawnShake: 3
-				hitSound: explosionBig
-				incendAmount: 1
-				incendSpread: 10
-				incendChance: 2
-				keepVelocity: false
-				fragBullets: 1
-				fragBullet: {
-					type: BasicBulletType
-					damage: 115
-				}
-			}
-		}
-	}
-}
-]
-}
