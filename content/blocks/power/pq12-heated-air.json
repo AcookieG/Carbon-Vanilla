@@ -8,11 +8,11 @@ WARNING: TO BE PROTECTED AT ANY COSTS; YOU WILL NOT HAVE A SECOND CHANCE.
 	"type": "GenericCrafter"
 	"size": 4,
 	"health": 1320,
-	"liquidCapacity": 1440,
+	"liquidCapacity": 150,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
-	"outputLiquid": "superheat/0.11"
+	"outputLiquid": "superheat/0.011"
 	"requirements": [
 		{
 			"item": "graphite",

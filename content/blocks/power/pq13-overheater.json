@@ -6,7 +6,7 @@ A magnificent building, the magnum opus of years of engineering.
 The best heat treatment facility there is, powerful enough for an entire sectors. 
 Releases dangereous vapors into the atmosphere, that may cause global planet warming.
 
-A powerfull fusion reactor, consumes Pure Heat as fuel. A monstrous machine that takes ages to get to full speed.
+A powerfull fusion reactor, consumes Phase decay as fuel. A monstrous machine that takes ages to get to full speed.
 
 WARNING: TO BE PROTECTED AT ANY COSTS; YOU WILL NOT HAVE A SECOND CHANCE.
 
@@ -25,7 +25,7 @@ Part of a large power plant.
 	"explosionShake": 50
 	"powerProduction": 17500,
 	"warmupRate": 0.0001,
-	"heatOutput": 120000
+	"heatOutput": 2500
 	"requirements": [
 		{
 			"item": "graphite",
@@ -205,8 +205,16 @@ midColor: ad74f7
 	"consumes": {
 		"power": 2500,
 		"liquids": [
-			"superheat/0.4"
+			"liquidheat/20"
 		]
+		"items": {
+			"items": [
+				{
+				"item": "phase-decay",
+				"amount": 1,
+				}
+			]
+		},
 	},
 	"category": "power",
 	"conductivePower": true
@@ -216,5 +224,5 @@ midColor: ad74f7
 	"research": "pq02-heated-card",
 	"ambientSound": "hum",
 	"ambientSoundVolume": 10,
-	"itemDuration": 360,
+	"itemDuration": 30,
 }

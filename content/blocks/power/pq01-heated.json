@@ -4,7 +4,7 @@
 	"type": "HeatCrafter"
 	"size": 2,
 	"health": 260,
-	"liquidCapacity": 120,
+	"liquidCapacity": 20,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
@@ -13,7 +13,7 @@
 	"explosionDamage": 40,
 	"updateEffect": "steam",
 	"craftEffect": "none",
-	"heatRequirement": 900
+	"heatRequirement": 90
 	"maxEfficiency": 1.33334
 	"outputFacing": true
 	"rotate": true
@@ -60,7 +60,7 @@
 	"ambientSoundVolume": 1,
 	"outputLiquid": {
 		"liquid": "liquidheat",
-		"amount": 2
+		"amount": 0.2
 	},
 	"craftTime": 1,
 }

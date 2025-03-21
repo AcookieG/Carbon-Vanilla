@@ -1,5 +1,5 @@
 {
-	"name": "Heat Conductor",
+	"name": "Heat Spliter",
 	"description": "A small block to transport heat efficiently over long distances.",
 	"type": "HeatConductor",
 	"health": 120,
@@ -14,5 +14,6 @@
 	],
 	"category": "power",
 	"research": "pq01-heated"
+	"splitHeat": true
 	"visualMaxHeat": 360
 }

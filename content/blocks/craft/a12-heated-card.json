@@ -10,7 +10,7 @@ Conducts power.
 	"type": "HeatCrafter"
 	"size": 4,
 	"health": 1190,
-	"liquidCapacity": 1760,
+	"liquidCapacity": 180,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
@@ -39,7 +39,7 @@ Conducts power.
 		]
 	}
 	"craftEffect": none
-	"heatRequirement": 7200
+	"heatRequirement": 720
 	"maxEfficiency": 1.33334
 	"requirements": [
 		{
@@ -113,7 +113,7 @@ Conducts power.
 	"ambientSoundVolume": 2,
 	"outputLiquid": {
 		"liquid": "liquidheat",
-		"amount": 20
+		"amount": 2
 	},
 	"craftTime": 1,
 }

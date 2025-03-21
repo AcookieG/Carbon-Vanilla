@@ -10,14 +10,14 @@ Highly explosive.
 '''
 	"size": 2,
 	"lightColor": "FB9957FF",
-	"liquidCapacity": 120,
+	"liquidCapacity": 20,
 	"baseExplosiveness": 1,
 	"explosionRadius": 80,
 	"explosionDamage": 40,
 	"hasLiquids": true,
 	"hasItems": false,
 	"powerProduction": 75,
-	"heatOutput": 1200
+	"heatOutput": 120
 	"warmupSpeed": 1,
 	"itemDuration": 1,
 	"drawer": {
@@ -45,7 +45,7 @@ Highly explosive.
 	"consumes": {
                 "liquid": {
 			"liquid": "liquidheat",
-			"amount": 2
+			"amount": 0.2
 		},
 	},
 	"requirements": [

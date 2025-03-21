@@ -2,7 +2,7 @@
 	"type": "NuclearReactor",
 	"health": 420,
 	"name": "Compression Reactor"
-	"description": "A powerfull heat turbine, uses Copper and Cryofluid.",
+	"description": "Compresses basic elements under such a high pressure that it starts fission even in stable conditions.",
 	"size": 3,
 	"squareSprite": false,
 	"baseExplosiveness": 500,

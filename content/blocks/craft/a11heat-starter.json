@@ -4,15 +4,15 @@
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 230,
-	"liquidCapacity": 100,
+	"liquidCapacity": 20,
 	"baseExplosiveness": 100,
 	"explosionRadius": 40,
 	"explosionDamage": 160,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
-	"updateEffect": "surgeCruciSmoke",
-	"craftEffect": "lava",
+	"updateEffect": "steam",
+	"craftEffect": none,
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
@@ -31,14 +31,10 @@
 				"padding": 2
 			},
 			{
-				"type": "DrawPlasma",
-				"suffix": "-plasma-",
-			},
-			{
 				"type": "DrawRegion"
 				"suffix": "-fan"
 				"spinSprite": true
-				"rotateSpeed": 4
+				"rotateSpeed": -2
 				"rotation": 0
 			},
 			{
@@ -47,21 +43,21 @@
 		]
 	},
 	"consumes": {
-		"power": 6,
+		"power": 60,
 		"liquids": [
 			{
 			"liquid": "hydrogen", 
 			"amount": 1,
 			}
 			{
-			"liquid": "slag", 
+			"liquid": "oil", 
 			"amount": 1,
 			}
 		]
 		"items": {
 			"items": [
 				{
-				"item": "surge-alloy",
+				"item": "plastanium",
 				"amount": 1,
 				}
 			]
@@ -96,7 +92,7 @@
 	"idleSoundVolume": 1,
 	"outputLiquid": {
 		"liquid": "liquidheat",
-		"amount": 0.05
+		"amount": 0.02
 	},
 	"craftTime": 30,
 }
