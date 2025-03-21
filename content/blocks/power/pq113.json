@@ -5,7 +5,7 @@
 	"health": 120,
 	"size": 2,
 	"drawer": 
-	"type": "DrawMulti",
+	"type": "DrawMulti",{
 		"drawers": [
 			{
 				"type": "DrawRegion"
