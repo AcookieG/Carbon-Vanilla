@@ -4,11 +4,12 @@
 	"type": "HeatConductor",
 	"health": 120,
 	"size": 2,
-	"type": "DrawMulti",{
+	"drawer": {
+	"type": "DrawMulti",
 		"drawers": [
 			{
 				"type": "DrawRegion"
-				"suffix": ""
+				"suffix": "-"
 			},
 			{
 				"type": "DrawHeatOutput"
