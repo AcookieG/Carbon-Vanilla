@@ -24,27 +24,28 @@ trailLength: 1
 range: 100
 abilities: [
 		{
-			"type": "EnergyFieldAbility",
-			"healEffect": {
-				"type": "WaveEffect",
-				"lifetime": 25,
-				"sizeFrom": 0,
-				"sizeTo": 30,
-				"sides": 6,
-				"strokeFrom": 7,
-				"strokeTo": 1,
-				"colorFrom": "ffffa3ff"
-				"colorTo": "e2865400"
+			type: EnergyFieldAbility,
+			healEffect: {
+				type: WaveEffect,
+				lifetime: 25,
+				sizeFrom: 0,
+				sizeTo: 30,
+				sides: 6,
+				strokeFrom: 7,
+				strokeTo: 1,
+				colorFrom: ffffa3ff
+				colorTo: e2865400
 			},
-			"color": "ffffa3ff"
-			"maxTargets": 800,
-			"healPercent": 0.3,
-			"damage": 15,
-			"range": 200,
-			"sectors": 4,
-			"rotateSpeed": 0,
-			"hitBuildings": true,
-			"sectorRad": 0.1,
-			"reload": 1,
+			color: ffffa3ff
+			maxTargets: 800,
+			healPercent: 0.3,
+			damage: 15,
+			range: 200,
+			sectors: 4,
+			rotateSpeed: 0,
+			hitBuildings: true,
+			sectorRad: 0.1,
+			reload: 1,
 		}
+		]
 	}
