@@ -1,7 +1,7 @@
 {
 	type: ItemTurret,
 	name: Arch,
-	description: "Shoots charged balls at high velocity. Very innacurate. Very high voltage, do not touch. Could also be called the Kofi.",
+	description: "Shoots charged balls at high velocity. Very innacurate. Very high voltage, do not touch. Could also be called the Kofi. Giving it more heat allows for more power, have fun!",
 	squareSprite: false,
 	health": 5300
 	size: 4
@@ -24,6 +24,8 @@
   targetAir: true
   targetGround: true
 	ammoPerShot: 4
+	heatRequirement: 600
+	maxHeatEfficiency: 5
 	consumes: {
 		power: 12
 		coolant: {
@@ -62,7 +64,7 @@
 			moveRot: 0
 			mirror: false
 			progress: warmup
-            "layerOffset": 0.000,
+      "layerOffset": 0.000,
 			"outlineLayerOffset": -0.000,
         }
         {
@@ -84,8 +86,7 @@
 			blending: additive
 			colorTo: ffffff00
 			color: c9926f
-            "layerOffset": 0.005,
-			"outlineLayerOffset": -0.005,
+      layerOffset: 0.008,
 			progress: {
 				type: warmup
 				op: blend
@@ -112,8 +113,7 @@
 					blending: additive
 					colorTo: ffffff00
 					color: c9926f
-                    "layerOffset": 0.004,
-                    "outlineLayerOffset": -0.004,
+          layerOffset: 0.008,
 					progress: {
 						type: warmup
 						op: blend

@@ -39,7 +39,7 @@ Conducts power.
 		]
 	}
 	"craftEffect": none
-	"heatRequirement": 720
+	"heatRequirement": 60
 	"maxEfficiency": 1.33334
 	"requirements": [
 		{
@@ -113,7 +113,7 @@ Conducts power.
 	"ambientSoundVolume": 2,
 	"outputLiquid": {
 		"liquid": "liquidheat",
-		"amount": 2
+		"amount": 1.5
 	},
 	"craftTime": 1,
 }

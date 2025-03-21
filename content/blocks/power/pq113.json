@@ -4,9 +4,18 @@
 	"type": "HeatConductor",
 	"health": 120,
 	"size": 2,
-	"drawer": {
+	"drawer": 
+	"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": ""
+			},
+			{
 				"type": "DrawHeatOutput"
-	},
+			},
+		]
+}
 	"requirements": [
 		{ "item": "thorium", "amount": 20 },
 		{ "item": "silicon", "amount": 20 },
