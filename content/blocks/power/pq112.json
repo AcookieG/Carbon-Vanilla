@@ -1,0 +1,14 @@
+{
+	"name": "Heat Conductor",
+	"description": "A small block to transport heat efficiently over long distances.",
+	"type": "HeatConductor",
+	"health": 120,
+	"size": 2,
+	"requirements": [
+		{ "item": "thorium", "amount": 20 },
+		{ "item": "silicon", "amount": 20 },
+		{ "item": "phase-fabric", "amount": 30 }
+	],
+	"category": "power",
+	"research": "pq01-heated"
+}
