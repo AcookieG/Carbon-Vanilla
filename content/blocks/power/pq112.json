@@ -23,5 +23,5 @@
 	],
 	"category": "power",
 	"research": "pq01-heated"
-	"visualMaxHeat": 360
+	"visualMaxHeat": 1000
 }

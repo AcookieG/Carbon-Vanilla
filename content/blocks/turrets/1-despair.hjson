@@ -22,7 +22,7 @@
 	shootY: 18
 	ammoPerShot: 5
 	velocityRnd: 0.5
-	heatRequirement: 1000
+	heatRequirement: 300
 	maxHeatEfficiency: 3
 	consumes: {
 		power: 6

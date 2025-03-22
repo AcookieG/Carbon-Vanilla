@@ -24,7 +24,7 @@
   targetAir: true
   targetGround: true
 	ammoPerShot: 4
-	heatRequirement: 600
+	heatRequirement: 240
 	maxHeatEfficiency: 5
 	consumes: {
 		power: 12
@@ -238,7 +238,7 @@
 		surge-alloy: {
 			type: BasicBulletType
 			damage: 96
-			ammoMultiplier: 1
+			ammoMultiplier: 8
 			drawsize: 200
 			width: 10
 			height: 14

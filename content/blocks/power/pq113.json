@@ -17,12 +17,12 @@
 		]
 }
 	"requirements": [
-		{ "item": "thorium", "amount": 20 },
-		{ "item": "silicon", "amount": 20 },
-		{ "item": "phase-fabric", "amount": 30 }
+		{ "item": "thorium", "amount": 60 },
+		{ "item": "silicon", "amount": 600 },
+		{ "item": "phase-fabric", "amount": 80 }
 	],
 	"category": "power",
 	"research": "pq01-heated"
 	"splitHeat": true
-	"visualMaxHeat": 360
+	"visualMaxHeat": 1000
 }
