@@ -14,12 +14,14 @@
 	"restitution": 0.001,
 	"cooldownTime": 180,
 	"minWarmup": 0.7
-	"warmupMaintainTime": 75
+	"warmupMaintainTime": 180
 	"moveWhileCharging": false
 	"shootCone": 0.01,
 	"spread": 0,
 	"rotateSpeed": 0.7,
 	"hasPower": true
+	heatRequirement: 1600
+	maxHeatEfficiency: 8
 	"consumes": {
 		"power": 26
 		"coolant": {
