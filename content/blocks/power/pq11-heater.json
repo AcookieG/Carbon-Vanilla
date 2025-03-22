@@ -7,6 +7,8 @@
 A building that has the task of transforming liquid heat into pure heat.
 The most powerfull power source when running at full speed, similar to an Impact reactor, except on a much larger scale.
 Highly explosive.
+Conducts power.
+[red]Produces up to 4800 power/second.[]
 '''
 	"size": 2,
 	"lightColor": "FB9957FF",
@@ -16,7 +18,7 @@ Highly explosive.
 	"explosionDamage": 40,
 	"hasLiquids": true,
 	"hasItems": false,
-	"powerProduction": 40,
+	"powerProduction": 80,
 	"heatOutput": 24
 	"warmupSpeed": 1,
 	"itemDuration": 1,

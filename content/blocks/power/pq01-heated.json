@@ -1,6 +1,12 @@
 {
 	"name": "Heat Relay",
-	"description": "A building that has the task of reconverting heat to liquid heat. Conducts power. Its main purpose is to actually erase the need for Liquid Heat production, as it can be used for a positive feedback loop.",
+	"description":
+	'''
+	A building that has the task of reconverting heat to liquid heat.
+	Its main purpose is to actually erase the need for Liquid Heat production, as it can be used for a positive feedback loop.
+	Conducts power.
+	[red]It's power consumption hinders the Heat Charger's power production.[]
+	''',
 	"type": "HeatCrafter"
 	"size": 2,
 	"health": 260,
@@ -48,7 +54,7 @@
 		]
 	},
 	"consumes": {
-		"power": 20,
+		"power": 80,
 	},
 	"category": "power",
 	"conductivePower": true

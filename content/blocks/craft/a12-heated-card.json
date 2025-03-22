@@ -3,9 +3,10 @@
 	"description": 
 '''
 A massive building to transform heat into something usefull. Not much safer than the normal heat relay. 
-Consumes fewer amounts of energy compared to heat relay.
 Gives extra Liquid Heat for full efficiency.
 Conducts power.
+[blue]Requires 6 Heat chargers to run at 100% speed, and 8 to run at 133%.][
+[red]It's power consumption makes it a very suitable candidate for power plants.[]
 '''
 	"type": "HeatCrafter"
 	"size": 4,
