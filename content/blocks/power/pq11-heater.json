@@ -8,7 +8,7 @@ A building that has the task of transforming Supercritical Goop into actual heat
 The most powerfull power source when running at full speed, similar to an Impact reactor, except on a much larger scale.
 Highly explosive.
 Conducts power.
-[red]Produces up to 4500 power/second.[]
+[red]Produces up to 9000 power/second.[]
 '''
 	"size": 2,
 	"lightColor": "FB9957FF",
@@ -18,7 +18,7 @@ Conducts power.
 	"explosionDamage": 40,
 	"hasLiquids": true,
 	"hasItems": false,
-	"powerProduction": 75,
+	"powerProduction": 150,
 	"heatOutput": 24
 	"warmupSpeed": 0.7,
 	"itemDuration": 1,

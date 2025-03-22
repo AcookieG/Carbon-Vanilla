@@ -24,4 +24,5 @@
 	"category": "power",
 	"research": "pq01-heated"
 	"visualMaxHeat": 360
+		"conductivePower": true
 }

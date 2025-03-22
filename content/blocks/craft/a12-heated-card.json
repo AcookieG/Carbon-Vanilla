@@ -5,7 +5,7 @@
 A massive building to transform heat into something usefull. Not much safer than the normal heat relay. 
 Gives 25% extra Supercritical Goop.
 Conducts power.
-[blue]Requires [yellow]"only"[] 4 Heat chargers to run at 100% speed, but can go all the way to 40 for 1000% efficiency.[]
+[blue]Requires [yellow]"only"[] 4 Heat chargers to run at 100% speed, where power consumption zeroes out, but can go all the way to 40 for 1000% efficiency.[]
 [red]It's power consumption makes it a very suitable candidate for power plants.[]
 '''
 	"type": "HeatCrafter"
@@ -102,7 +102,7 @@ Conducts power.
 		]
 	},
 	"consumes": {
-		"power": 10,
+		"power": 600,
 	},
 	"category": "crafting",
 	"conductivePower": true
