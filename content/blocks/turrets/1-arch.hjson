@@ -24,7 +24,7 @@
   targetAir: true
   targetGround: true
 	ammoPerShot: 4
-	heatRequirement: 360
+	heatRequirement: 800
 	maxHeatEfficiency: 2
 	consumes: {
 		power: 12
