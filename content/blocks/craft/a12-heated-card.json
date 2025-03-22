@@ -3,9 +3,9 @@
 	"description": 
 '''
 A massive building to transform heat into something usefull. Not much safer than the normal heat relay. 
-Gives extra Liquid Heat for full efficiency.
+Gives 25% extra Supercritical Goop.
 Conducts power.
-[blue]Requires 6 Heat chargers to run at 100% speed, and 8 to run at 133%.][
+[blue]Requires "only" 4 Heat chargers to run at 100% speed, and 8 to run at 200%.[]
 [red]It's power consumption makes it a very suitable candidate for power plants.[]
 '''
 	"type": "HeatCrafter"
@@ -41,7 +41,7 @@ Conducts power.
 	}
 	"craftEffect": none
 	"heatRequirement": 96
-	"maxEfficiency": 1.3
+	"maxEfficiency": 2
 	"requirements": [
 		{
 			"item": "graphite",
@@ -114,7 +114,7 @@ Conducts power.
 	"ambientSoundVolume": 2,
 	"outputLiquid": {
 		"liquid": "liquidheat",
-		"amount": 1.4
+		"amount": 1
 	},
 	"craftTime": 1,
 }

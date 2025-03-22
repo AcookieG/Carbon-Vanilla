@@ -2,8 +2,8 @@
 	"name": "Heat Relay",
 	"description":
 	'''
-	A building that has the task of reconverting heat to liquid heat.
-	Its main purpose is to actually erase the need for Liquid Heat production, as it can be used for a positive feedback loop.
+	A building that has the task of reconverting heat to Supercritical Goop.
+	Its main purpose is to actually erase the need for Supercritical Goop production, as it can be used for a positive feedback loop.
 	Conducts power.
 	[red]It's power consumption hinders the Heat Charger's power production.[]
 	''',
@@ -54,7 +54,7 @@
 		]
 	},
 	"consumes": {
-		"power": 80,
+		"power": 60,
 	},
 	"category": "power",
 	"conductivePower": true

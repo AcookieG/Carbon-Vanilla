@@ -1,6 +1,6 @@
 {
 	"name": "Heat Conductor",
-	"description": "A small block to transport heat efficiently over long distances.",
+	"description": "A small block to transport heat efficiently over long distances. Conducts power.",
 	"type": "HeatConductor",
 	"health": 120,
 	"size": 2,
