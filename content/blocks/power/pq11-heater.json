@@ -16,7 +16,7 @@ Highly explosive.
 	"explosionDamage": 40,
 	"hasLiquids": true,
 	"hasItems": false,
-	"powerProduction": 75,
+	"powerProduction": 40,
 	"heatOutput": 24
 	"warmupSpeed": 1,
 	"itemDuration": 1,

@@ -39,8 +39,8 @@ Conducts power.
 		]
 	}
 	"craftEffect": none
-	"heatRequirement": 144
-	"maxEfficiency": 1.33334
+	"heatRequirement": 96
+	"maxEfficiency": 1.3
 	"requirements": [
 		{
 			"item": "graphite",
@@ -48,7 +48,7 @@ Conducts power.
 		},
 		{
 			"item": "thorium",
-			"amount": 250
+			"amount": 350
 		},
 		{
 			"item": "plastanium",
@@ -60,7 +60,7 @@ Conducts power.
 		},
 		{
 			"item": "phase-decay",
-			"amount": 75
+			"amount": 95
 		},
 	],
 	"drawer": {
