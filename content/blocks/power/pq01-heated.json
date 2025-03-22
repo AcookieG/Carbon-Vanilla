@@ -1,9 +1,9 @@
 {
-	"name": "Heat Relay",
+	"name": "Heat Repeater",
 	"description":
 	'''
 	A building that has the task of reconverting heat to Supercritical Goop.
-	Its main purpose is to actually erase the need for Supercritical Goop production, as it can be used for a positive feedback loop.
+	Its main purpose is to actually erase the need for Supercritical Goop production, as it can be used for a positive feedback loop, producing more than it consumes.
 	Conducts power.
 	[red]It's power consumption hinders the Heat Charger's power production.[]
 	''',
@@ -19,8 +19,8 @@
 	"explosionDamage": 40,
 	"updateEffect": "steam",
 	"craftEffect": "none",
-	"heatRequirement": 18
-	"maxEfficiency": 1.33334
+	"heatRequirement": 24
+	"maxEfficiency": 2
 	"outputFacing": true
 	"rotate": true
 	"requirements": [
@@ -66,7 +66,7 @@
 	"ambientSoundVolume": 1,
 	"outputLiquid": {
 		"liquid": "liquidheat",
-		"amount": 0.2
+		"amount": 0.3
 	},
 	"craftTime": 1,
 }
