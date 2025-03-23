@@ -20,8 +20,8 @@
 	"spread": 0,
 	"rotateSpeed": 0.7,
 	"hasPower": true
-	heatRequirement: 1200
-	maxHeatEfficiency: 8
+	heatRequirement: 1000
+	maxHeatEfficiency: 4
 	"consumes": {
 		"power": 26
 		"coolant": {

@@ -24,12 +24,12 @@
   targetAir: true
   targetGround: true
 	ammoPerShot: 4
-	heatRequirement: 400
+	heatRequirement: 360
 	maxHeatEfficiency: 2
 	consumes: {
 		power: 12
 		coolant: {
-            amount: 0.6
+            amount: 0.5
 		}
 	}
     "shoot": {
@@ -51,50 +51,51 @@
             }
         ]
     },
-	coolantMultiplier: 1
+	coolantMultiplier: 0.6
 	drawer: {
 	type: drawTurret
 	basePrefix: reinforced-
 	parts: [
-            {
-            type: RegionPart
-			suffix: -bottom
+      {
+      type: RegionPart
+		  suffix: -bottom
 			moveY: -4
 			moveX: 0
 			moveRot: 0
 			mirror: false
 			progress: warmup
-      "layerOffset": 0.000,
+			"layerOffset": 0.000,
 			"outlineLayerOffset": -0.000,
-        }
-        {
-            type: RegionPart
+			}
+			{
+      type: RegionPart
 			suffix: -yes
 			moveY: 0
 			moveX: 0
 			moveRot: 0
 			mirror: false
 			progress: warmup
-            "layerOffset": 0.001,
+			"layerOffset": 0.001,
 			"outlineLayerOffset": -0.001,
-        }
-    	{
-            type: RegionPart
-			suffix: -glow
-			mirror: true
-			outline: false
-			blending: additive
-			colorTo: ffffff00
-			color: c9926f
-      layerOffset: 0.008,
-			progress: {
-				type: warmup
-				op: blend
-				other: heat
-				amount: 0.25
+			children: [
+				{
+				type: RegionPart
+				suffix: -glow
+				mirror: true
+				outline: false
+				blending: additive
+				colorTo: ffffff00
+				color: c9926f
+				progress: {
+					type: warmup
+					op: blend
+					other: heat
+					amount: 0.25
+					}
+				}
+			]
 			}
-		}
-		{
+			{
 			type: RegionPart
 			suffix: -top
 			moveY: -4
@@ -102,23 +103,22 @@
 			moveRot: 0
 			mirror: true
 			progress: warmup
-            "layerOffset": 0.003,
+      "layerOffset": 0.003,
 			"outlineLayerOffset": -0.003,
 			children: [
 				{
-					type: RegionPart
-					suffix: -heat
-					mirror: true
-					outline: false
-					blending: additive
-					colorTo: ffffff00
-					color: c9926f
-          layerOffset: 0.008,
-					progress: {
-						type: warmup
-						op: blend
-						other: heat
-						amount: 0.25
+				type: RegionPart
+				suffix: -heat
+				mirror: true
+				outline: false
+				blending: additive
+				colorTo: ffffff00
+				color: c9926f
+				progress: {
+					type: warmup
+					op: blend
+					other: heat
+					amount: 0.25
 					}
 				}
 			]
