@@ -3,14 +3,14 @@
 	"name": "Giant Battery",
 	"description": "A massive battery, storing large amounts of energy.",
 	"size": 6,
-	"health": 800,
+	"health": 1600,
 	"category": "power",
 	"requirements": [
-		{"item": "lead", "amount": 160},
-		{"item": "titanium", "amount": 120},
-		{"item": "silicon", "amount": 120},
+		{"item": "lead", "amount": 260},
+		{"item": "titanium", "amount": 220},
+		{"item": "silicon", "amount": 220},
 		{"item": "phase-decay", "amount": 80}
 	],
-	"consumes": { "powerBuffered": 500000 },
+	"consumes": { "powerBuffered": 1000000 },
 	"research": "battery-large"
 }

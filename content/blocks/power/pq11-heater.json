@@ -18,7 +18,7 @@ Conducts power.
 	"explosionDamage": 40,
 	"hasLiquids": true,
 	"hasItems": false,
-	"powerProduction": 150,
+	"powerProduction": 50,
 	"heatOutput": 24
 	"warmupSpeed": 0.7,
 	"itemDuration": 1,
