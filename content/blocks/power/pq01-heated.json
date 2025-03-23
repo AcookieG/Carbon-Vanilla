@@ -54,7 +54,7 @@
 		]
 	},
 	"consumes": {
-		"power": 45,
+		"power": 50,
 	},
 	"category": "power",
 	"conductivePower": true
