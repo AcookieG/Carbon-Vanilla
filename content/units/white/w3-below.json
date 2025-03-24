@@ -16,7 +16,6 @@
 	"health": 920,
 	"squareShape": true,
 	"treadPullOffset": 0,
-	"singleTarget": false,
 	"rotateMoveFirst": true,
 	"engineOffset": 10,
 	"engineSize": 4,

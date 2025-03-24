@@ -2,7 +2,7 @@
 	"type": "tank",
 	"name": "Clamor"
 	"description": "A medium ground unit with treads for better movement. Mounted with a large buckshot cannon.",
-	"rotateSpeed": 1,
+	"rotateSpeed": 0.5,
 	"speed": 0.7,
 	"flying": false,
 	"range": 220,
@@ -12,7 +12,7 @@
 	"health": 930,
 	"squareShape": true,
 	"treadPullOffset": 0,
-	"treadFrames": 18
+	"treadFrames": 18,
 	"treadRects": [
 		{
 		"x": 10,
@@ -21,7 +21,6 @@
 		"height": 76
 		}
 	],
-	"singleTarget": false,
 	"omniMovement": false,
 	"rotateMoveFirst": true,
 	"crushDamage": 1
