@@ -7,7 +7,7 @@
 	"hasPower": false
 	"size": 2,
 	"range": 0,
-	"reload": 30,
+	"reload": 45,
 	"useTime": 400,
 	"healPercent": 5,
 	"requirements": [

@@ -2,7 +2,7 @@
 	"type": "tank",
 	"name": "Resound"
 	"description": "A medium ground unit with treads for better movement. Large three-shot cannon.",
-	"rotateSpeed":0.9,
+	"rotateSpeed": 1.5,
 	"speed": 0.9,
 	"flying": false,
 	"range": 220,

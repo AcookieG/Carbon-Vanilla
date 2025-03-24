@@ -2,7 +2,7 @@
 	"type": "tank",
 	"name": "Roar"
 	"description": "A large ground unit with treads for better movement. Mounted with a large rifle.",
-	"rotateSpeed": 0.4,
+	"rotateSpeed": 1,
 	"speed": 0.6,
 	"flying": false,
 	"range": 220,
@@ -15,10 +15,10 @@
 	"treadFrames": 18,
 	"treadRects": [
 		{
-		"x": 10,
-		"y": -48,
-		"width": 19,
-		"height": 76
+		"x": 14,
+		"y": -65,
+		"width": 28,
+		"height": 130
 		}
 	],
 	"omniMovement": false,
