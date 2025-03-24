@@ -1,0 +1,14 @@
+{
+	"type": "DuctBridge",
+	"name": "Duct Bridge",
+	"health": 40,
+	"hasPower": false
+	"requirements": [
+		{"item": "scrap", "amount": 2},
+		{"item": "slate", "amount": 2},
+	],
+	"category": "distribution",
+	"speed": 5,
+	"range": 4,
+	"research": "opl05-junction"
+}

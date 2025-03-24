@@ -1,0 +1,13 @@
+{
+	"type": "Duct",
+	"name": "Basic Duct",
+	"description": "the most basic transport system."
+	"health": 40,
+	"requirements": [
+		{"item": "scrap", "amount": 1},
+	],
+	"category": "distribution",
+	"speed": 5,
+	"research": "conveyor"
+	"bridgeReplacement": "opl06-bridge"
+}

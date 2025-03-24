@@ -1,0 +1,17 @@
+{
+  "type": "StackConveyor",
+  "name": "Smart Belt"
+  "description": "Quickly transports items forward in large batches.",
+  "loadEffect": "none"
+  "unloadEffect": "none"
+  "health": 60,
+  "speed": 0.25,
+  "itemCapacity": 60,
+  "outputRouter": true,
+	"requirements": [
+		{"item": "iron", "amount": 1},
+		{"item": "circuit", "amount": 1},
+	],
+  "research": "opl03-duct",
+  "category": "distribution"
+}

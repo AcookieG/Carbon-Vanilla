@@ -1,0 +1,13 @@
+{
+	"type": "Junction",
+	"name": "Duct Junction",
+	"health": 40,
+	"requirements": [
+		{"item": "scrap", "amount": 1},
+		{"item": "slate", "amount": 1},
+	],
+	"category": "distribution",
+	"speed": 5,
+	"research": "opl01-duct"
+	"bridgeReplacement": "opl06-bridge"
+}

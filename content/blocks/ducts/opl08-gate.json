@@ -1,0 +1,12 @@
+{
+	"type": "OverflowDuct",
+	"name": "Overflow Duct",
+	"health": 40,
+	"requirements": [
+		{"item": "scrap", "amount": 1},
+		{"item": "slate", "amount": 1},
+	],
+	"category": "distribution",
+	"speed": 5,
+	"research": "opl07-router"
+}

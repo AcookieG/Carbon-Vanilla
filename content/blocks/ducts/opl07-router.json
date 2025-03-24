@@ -1,0 +1,12 @@
+{
+	"type": "DuctRouter",
+	"name": "Duct Router",
+	"health": 40,
+	"requirements": [
+		{"item": "scrap", "amount": 1},
+		{"item": "slate", "amount": 1},
+	],
+	"category": "distribution",
+	"speed": 5,
+	"research": "opl06-bridge"
+}
