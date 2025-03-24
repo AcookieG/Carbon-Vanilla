@@ -15,7 +15,6 @@
 	"hitSize": 28,
 	"health": 920,
 	"squareShape": true,
-	"treadPullOffset": 0,
 	"rotateMoveFirst": true,
 	"engineOffset": 10,
 	"engineSize": 4,

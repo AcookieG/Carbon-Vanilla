@@ -12,7 +12,7 @@
 	"health": 150,
 	"squareShape": true,
 	"treadFrames": 18,
-	"treadPullOffset": 0,
+	"treadPullOffset": 6,
 	"treadRects": [
 		{
 		"x": 6,
