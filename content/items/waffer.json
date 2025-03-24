@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Waffer",
+	"description": "Large silicon plates for microcircuits.",
+	"cost": 2,
+	"flammability": 0.0,
+	"radioactivity": 0.0,
+	"explosiveness": 0.1,
+	"charge": 0.0,
+	"color": "c9a5c8"
+}

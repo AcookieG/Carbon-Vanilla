@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Slate",
+	"description": "A basic rock, abundant on Opalyne.",
+	"cost": 0.75,
+	"flammability": 0.1,
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"charge": 0.0
+	"color": "50477b"
+}
