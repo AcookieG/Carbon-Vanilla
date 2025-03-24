@@ -4,13 +4,15 @@
   "author": "AcookieG",
   "description": '''
 	Adds multiple new factories, turrets and items to enhance vanilla content and add more things post-late game.
-	IMPORTANT: Credit for sprites cuz stealing bad: 
-	- Eschatologue/Unlimited-Armament-Works
+	[red]IMPORTANT: [yellow]Credit for sprites cuz stealing bad: [][]
+	[yellow]- Eschatologue/Unlimited-Armament-Works
 	- AureusStratus/ExoGenesis 
 	- Eschatologue/Heavy-Armaments-Industries
 	- uujuju1/project-oblivion
-	as well as reskins of vanilla sprites
-	I'm really sorry for stealing sprites I just can't good results otherwise, and the mod was originally just a personnal project for late-game.
+	- Twcash/Aquarion[]
+	[blue]- and a huge shoutout to y'all on the Mindustry Discord
+	as well as reskins of vanilla sprites[]
+	I'm really sorry for stealing sprites I just can't good results otherwise, and the mod was originally just a personnal project for late-game, I "had" to share it on GitHub for compatibility issues.
 	''',
   "version": 3,
   "minGameVersion": 145
