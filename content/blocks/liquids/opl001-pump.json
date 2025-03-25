@@ -13,4 +13,5 @@
 	"health": 160
 	"category": "liquid"
 	"hasPower": false
+	"squareSprite": false,
 }

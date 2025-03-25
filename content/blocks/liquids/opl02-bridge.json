@@ -2,13 +2,14 @@
   "type": "DirectionLiquidBridge",
   "name": "Conduit Bridge"
   "health": 40,
-  "leaks": true,
+  "leaks": false,
   "liquidCapacity": 10,
 	"requirements": [
 		{"item": "graphite", "amount": 8},
 	],
 "junctionReplacement": "opl02-bridge"
 "bridgeReplacement": "opl02-bridge"
+"squareSprite": false,
   "research": "opl01-conduit",
   "category": "liquid"
 }

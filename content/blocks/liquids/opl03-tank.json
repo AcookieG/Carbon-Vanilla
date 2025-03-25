@@ -11,5 +11,6 @@
 	"research": "opl03-router"
 	"health": 200
 	"category": "liquid"
+	"squareSprite": false,
 	"liquidPadding": 4
 }
