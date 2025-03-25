@@ -4,49 +4,22 @@
 	"health": 120,
 	"armor": 0,
 	"flying": true,
-	"maxVelocity": 20,
-	"speed": 20,
-	"accel": 0.07
-	"drag": 0.1,
+	"maxVelocity": 40,
+	"speed": 30,
+	"accel": 0.05
+	"drag": 0.15,
 	"hitSize": 8
 	"circleTarget" : false,
 	"faceTarget": false
 	"itemCapacity": 25
 	"range": 0,
-	"engineOffset": 4,
-	"engineSize": 2.1,
+	"engineOffset": 5,
+	"engineSize": 2.5,
 	"buildSpeed": 1
 	"buildBeamOffset": 1
 	"targetable": false
 	"canAttack": false
-	"abilities": [
-		{
-			"type": "mindustry.entities.abilities.RepairFieldAbility",
-			"activeEffect": {
-				"type": "WaveEffect",
-				"lifetime": 25,
-				"sizeFrom": 0,
-				"sizeTo": 60,
-				"strokeFrom": 6,
-				"strokeTo": 0,
-				"colorFrom": "6ce5f5ff",
-				"colorTo": "6ce5f5"
-			},
-			"healEffect": {
-				"type": "WaveEffect",
-				"lifetime": 25,
-				"sizeFrom": 0,
-				"sizeTo": 60,
-				"strokeFrom": 6,
-				"strokeTo": 0,
-				"colorFrom": "6ce5f5ff",
-				"colorTo": "6ce5f5"
-			},
-			"range": 60,
-			"amount": 30,
-			"reload": 60
-		},
-	]
+	"trailLength": 10
 	"outlineColor": 00000000
 	"research": {
 		"parent": "core01"

@@ -14,9 +14,6 @@
 			{
 				"type": "DrawHeatOutput"
 			},
-			{
-				"type": "DrawHeatInput"
-			},
 		]
 }
 	"requirements": [
