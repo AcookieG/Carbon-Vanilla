@@ -1,0 +1,21 @@
+{
+	"type": "Liquid",
+	"moveThroughBlocks": false,
+	"canStayOn": [],
+	"incinerable": true,
+	"name": "Fumes",
+	"description": "A toxic gas heavily present in the atmosphere.",
+	"coolant": false,
+	"color": "d7bf74",
+	"colorFrom": "766257",
+	"colorTo": "d7bf74",
+	"gasColor": "d7bf74"
+	"blockReactive": true,
+	"viscosity": 0.4,
+	"heatCapacity": 0,
+	"explosiveness": 0.2,
+	"temperature": 0.5,
+	"flammability": 0.3,
+	"research": "water",
+	"gas": true,
+}

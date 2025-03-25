@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Cesium",
+	"description": "A very heavy metal, can be used as nuclear fuel, but is generally stable enough to make some clockwork.",
+	"cost": 1.7,
+	"flammability": 0.0,
+	"radioactivity": 1.0,
+	"explosiveness": 0.0,
+	"charge": 0.0,
+	"color": "f7e97e"
+}

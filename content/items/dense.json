@@ -1,11 +1,11 @@
 {
 	"type": "material",
-	"name": "Gold",
+	"name": "Dense alloy",
 	"description": "Ooo Shinney.",
-	"cost": 1.3,
+	"cost": 2.7,
 	"flammability": 0.0,
-	"radioactivity": 0.0,
+	"radioactivity": 0.1,
 	"explosiveness": 0.0,
 	"charge": 0.5,
-	"color": "f7e97e"
+	"color": "b2babf"
 }
