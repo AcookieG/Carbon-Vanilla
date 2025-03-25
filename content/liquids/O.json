@@ -1,0 +1,20 @@
+{
+	"type": "Liquid",
+	"moveThroughBlocks": false,
+	"canStayOn": [],
+	"incinerable": true,
+	"name": "Oxgyen",
+	"coolant": true,
+	"color": "a0b0c8",
+	"colorFrom": "a0b0c8",
+	"colorTo": "ffffff",
+	"gasColor": "a0b0c8"
+	"blockReactive": true,
+	"viscosity": 0.1,
+	"heatCapacity": 0.2,
+	"explosiveness": 0.2,
+	"temperature": 0.5,
+	"flammability": 0.2,
+	"research": "H",
+	"gas": true,
+}
