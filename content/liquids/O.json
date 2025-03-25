@@ -6,9 +6,9 @@
 	"name": "Oxgyen",
 	"coolant": true,
 	"color": "a0b0c8",
-	"colorFrom": "768a9a",
-	"colorTo": "a0b0c8",
-	"gasColor": "768a9a"
+	"colorFrom": "6569c9",
+	"colorTo": "88a4ff",
+	"gasColor": "88a4ff"
 	"blockReactive": true,
 	"viscosity": 0.1,
 	"heatCapacity": 0.2,
