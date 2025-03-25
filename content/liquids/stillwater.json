@@ -22,5 +22,5 @@
 	"temperature": 0.5,
 	"flammability": 0.5,
 	"research": "water",
-	"effect": "slowed"
+	"effect": "slow"
 }
