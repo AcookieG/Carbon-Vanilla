@@ -1,0 +1,29 @@
+{
+	"name": "Heat Wire",
+	"description": "A small block to transport heat efficiently over long distances. Conducts power.",
+	"type": "HeatConductor",
+	"health": 40,
+	"size": 1,
+	"drawer": {
+	"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+		]
+}
+	"requirements": [
+		{ "item": "graphite", "amount": 10 },
+		{ "item": "silicon", "amount": 10 },
+		{ "item": "scrap", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "conveyor"
+	"visualMaxHeat": 96
+	"conductivePower": true
+		"squareSprite": false,
+}

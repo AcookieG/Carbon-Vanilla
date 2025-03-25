@@ -11,4 +11,5 @@
 	"speed": 5,
 	"range": 4,
 	"research": "opl01-duct"
+	"squareSprite": false,
 }

@@ -10,4 +10,5 @@
 	"category": "distribution",
 	"speed": 5,
 	"research": "opl05-gate"
+	"squareSprite": false,
 }
