@@ -5,7 +5,7 @@
   "leaks": true,
   "liquidCapacity": 10,
 	"requirements": [
-		{"item": "gaphite", "amount": 8},
+		{"item": "graphite", "amount": 8},
 	],
 "junctionReplacement": "opl02-bridge"
 "bridgeReplacement": "opl02-bridge"

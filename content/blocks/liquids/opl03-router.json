@@ -2,7 +2,7 @@
 	"name": "Liquid Container",
 	"type": "LiquidRouter"
 	"requirements": [
-			{"item": "gaphite", "amount": 50},
+			{"item": "graphite", "amount": 50},
 			{"item": "sand", "amount": 50},
 	]
 	"liquidCapacity": 50

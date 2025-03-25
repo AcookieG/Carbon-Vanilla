@@ -1,0 +1,16 @@
+{
+	"name": "Reinforced Pump",
+	"type": "Pump"
+	"pumpAmount": 0.6
+	"requirements": [
+		{"item": "graphite", "amount": 70},
+		{"item": "sand", "amount": 60},
+		{"item": "iron", "amount": 20},
+	]
+	"liquidCapacity": 20
+	"size": 2
+  "research": "opl00-pump",
+	"health": 160
+	"category": "liquid"
+	"hasPower": false
+}
