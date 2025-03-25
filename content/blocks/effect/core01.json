@@ -8,7 +8,7 @@
 	"isFirstTier": true
 	"requirements": [
 		{"item": "iron", "amount": 400},
-		{"item": "graphie", "amount": 800},
+		{"item": "graphite", "amount": 800},
 		{"item": "circuit", "amount": 20}
 	]
 	"research": "conveyor",
