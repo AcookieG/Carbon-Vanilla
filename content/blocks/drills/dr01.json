@@ -1,0 +1,28 @@
+{
+	"name": "Cog Drill",
+	"description": "A basic crusher drill.",
+	"type": "Drill",
+	"size": 2,
+	"tier": 1,
+	"updateEffect": "coalSmeltsmoke",
+	"drillTime": 300,
+	"itemCapacity": 10,
+	"drawRim": false,
+	"drawMineItem": false,
+	"rotateSpeed": 1.5
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 120 },
+		{ "item": "phase-decay", "amount": 30 },
+		{ "item": "graphite", "amount": 90 }
+	],
+	"category": "production",
+	"research": "conveyor"
+}
