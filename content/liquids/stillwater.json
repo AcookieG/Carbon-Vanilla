@@ -3,8 +3,8 @@
 	"moveThroughBlocks": true,
 	"canStayOn": [],
 	"incinerable": false,
-	"spreadDamage": 40,
-	"cells": 4
+	"spreadDamage": 1,
+	"cells": 8
 	"capPuddles": false,
 	"name": "Still Water",
 	"description": "A byproduct of most oil-based reactors. Will slowly eat away at your base.",
