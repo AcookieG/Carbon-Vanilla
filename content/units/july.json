@@ -5,15 +5,16 @@
 	"armor": 0,
 	"flying": true,
 	"maxVelocity": 20,
-	"speed": 2,
-	"drag": 0.001,
+	"speed": 20,
+	"accel": 0.3
+	"drag": 0.1,
 	"hitSize": 8
 	"circleTarget" : false,
 	"faceTarget": false
 	"itemCapacity": 25
 	"range": 0,
 	"engineOffset": 4,
-	"engineSize": 1,
+	"engineSize": 2.1,
 	"buildSpeed": 1
 	"buildBeamOffset": 1
 	"targetable": false
