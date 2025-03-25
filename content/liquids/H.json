@@ -6,8 +6,8 @@
 	"name": "Hydrogen",
 	"coolant": false,
 	"color": "d1e4ff",
-	"colorFrom": "d1e4ff",
-	"colorTo": "ffffff",
+	"colorFrom": "97a5f7",
+	"colorTo": "d1e4ff",
 	"gasColor": "d1e4ff"
 	"blockReactive": true,
 	"viscosity": 0.1,

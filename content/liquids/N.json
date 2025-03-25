@@ -5,10 +5,10 @@
 	"incinerable": true,
 	"name": "Nitrogen",
 	"coolant": true,
-	"color": "c6ace8",
-	"colorFrom": "c6ace8",
-	"colorTo": "ffffff",
-	"gasColor": "c6ace8"
+	"color": "5ec1bf",
+	"colorFrom": "5ec1bf",
+	"colorTo": "8deebb",
+	"gasColor": "5ec1bf"
 	"blockReactive": true,
 	"viscosity": 0.1,
 	"heatCapacity": 0.8,

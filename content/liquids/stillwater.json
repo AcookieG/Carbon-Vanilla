@@ -6,12 +6,12 @@
 	"spreadDamage": 180,
 	"cells": 4
 	"capPuddles": false,
-	"name": "Supercritical Goop",
+	"name": "Still Water",
 	"description": "A byproduct of most oil-based reactors. Will slowly eat away at your base.",
 	"coolant": true,
-	"color": "92dd7e",
-	"colorFrom": "92dd7e",
-	"colorTo": "3a5651",
+	"color": "8bbeb0",
+	"colorFrom": "88a4ff",
+	"colorTo": "8bbeb0",
 	"gas": false
 	"gasColor": "3a8f64"
 	"spreadTarget": "water"
