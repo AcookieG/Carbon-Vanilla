@@ -14,7 +14,7 @@
 	"colorTo": "8bbeb0",
 	"gas": false
 	"gasColor": "5e988d"
-	"spreadTarget": ["water","oil"],
+	"spreadTarget": "water",
 	"blockReactive": true,
 	"viscosity": 0.85,
 	"heatCapacity": 0.5,
