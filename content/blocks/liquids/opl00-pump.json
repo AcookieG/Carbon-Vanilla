@@ -1,0 +1,15 @@
+{
+	"name": "Liquid Pump",
+	"type": "Pump"
+	"pumpAmount": 0.11
+	"requirements": [
+		{"item": "gaphite", "amount": 24},
+		{"item": "sand", "amount": 24},
+	]
+	"liquidCapacity": 10
+	"size": 1
+	"research": "conveyor"
+	"health": 40
+	"category": "liquid"
+	"hasPower": false
+}

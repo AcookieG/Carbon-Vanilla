@@ -1,0 +1,14 @@
+{
+	"name": "Liquid Container",
+	"type": "LiquidRouter"
+	"requirements": [
+			{"item": "gaphite", "amount": 50},
+			{"item": "sand", "amount": 50},
+	]
+	"liquidCapacity": 50
+	"size": 1
+	"research": "opl02-bridge"
+	"health": 40
+	"category": "liquid"
+	"liquidPadding": 2
+}

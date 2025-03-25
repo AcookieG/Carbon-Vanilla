@@ -1,0 +1,15 @@
+{
+	"name": "Liquid Tank",
+	"type": "LiquidRouter"
+	"requirements": [
+			{"item": "gaphite", "amount": 100},
+			{"item": "sand", "amount": 100},
+		  {"item": "iron", "amount": 20},
+	]
+	"liquidCapacity": 300
+	"size": 2
+	"research": "opl03-router"
+	"health": 200
+	"category": "liquid"
+	"liquidPadding": 4
+}
