@@ -4,72 +4,61 @@ generator: tantPlanetGenerator
 alwaysUnlocked: true
 mesh: [
   {
-    //sandstone low
+    //life
     type: NoiseMesh
-    planet: servar
+    planet: Oodun
     divisions: 6
     seed: 107
-    radius: 1.247
-    color1: d99d73
-    color2: b8705c
+    radius: 0.183
+    color1: 8bbeb0
+    color2: 49695c
     octaves: 4.5
     persistence: 1.1
   }
- {
-    //hydrogen
-    type: NoiseMesh
-    planet: servar
-    divisions: 6
-    seed: 114
-    radius: 1.229
-    color1: d1e4ff
-    color2: 97a5f7
-    octaves: 3.7
-    persistence: 1.1
-  }
- {
+	  {
     //water
     type: NoiseMesh
-    planet: servar
+    planet: Oodun
     divisions: 6
-    seed: 7
-    radius: 1.229
-    color1: 4f84ff
-    color2: 3957ed
-    octaves: 3.7
-    persistence: 1.1
-  }
-  {
-    //sandstone light
-    type: NoiseMesh
-    planet: servar
-    divisions: 6
-    seed: 14
-    radius: 1.247
-    color1: eac2a9
-    color2: d99d73
+    seed: 108
+    radius: 0.183
+    color1: 6569c9
+    color2: 8ca9e8
     octaves: 4.5
     persistence: 1.1
   }
-  {
-    //forest
+	{
+    //fumes
     type: NoiseMesh
-    planet: servar
+    planet: Oodun
     divisions: 6
-    seed: 21
-    radius: 1.247
-    color1: 58f56a
-    color2: 3ead68
-    octaves: 3
+    seed: 109
+    radius: 0.183
+    color1: b49a76
+    color2: 766257
+    octaves: 4.5
     persistence: 1.1
   }
+		{
+    //fumes
+    type: NoiseMesh
+    planet: Oodun
+    divisions: 6
+    seed: 110
+    radius: 0.183
+    color1: b49a76
+    color2: 766257
+    octaves: 4.5
+    persistence: 1.1
+  }
+	
 ]
 cloudMesh: [
  {
    type: HexSkyMesh
-   planet: servar
+   planet: Oodun
    speed: 1.21
-   radius: 0.1
+   radius: 0.186
    divisions: 6
    color: ffffff
    octaves: 3
@@ -100,7 +89,7 @@ allowLaunchLoadout: true
 allowSectorInvasion: true
 startSector: 8
 orbitSpacing: 1
-radius: 0.3
+radius: 0.2
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: -0.1
