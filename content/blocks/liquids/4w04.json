@@ -7,9 +7,7 @@
 	"requirements": [
 		{"item": "graphite", "amount": 8},
 	],
-"junctionReplacement": "opl02-bridge"
-"bridgeReplacement": "opl02-bridge"
 "squareSprite": false,
-  "research": "opl01-conduit",
+  "research": "4w03",
   "category": "liquid"
 }

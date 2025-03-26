@@ -8,8 +8,7 @@
 	"requirements": [
 		{"item": "graphite", "amount": 1},
 	],
-"junctionReplacement": "opl02-bridge"
-"bridgeReplacement": "opl02-bridge"
-  "research": "opl00-pump",
+"bridgeReplacement": "4w04"
+  "research": "4w01",
   "category": "liquid"
 }
