@@ -93,7 +93,7 @@ generator: {
   berylChance: 0
   ferricChance: 0
 }
-sectorSize: 1
+sectorSize: 3
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
