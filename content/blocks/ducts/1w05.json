@@ -1,13 +1,12 @@
 {
-	"type": "OverflowDuct",
-	"name": "Overflow Duct",
-	"health": 40,
+	"type": "Unloader",
+	"name": "Unloader",
+	"health": 60,
 	"requirements": [
-		{"item": "scrap", "amount": 1},
-		{"item": "slate", "amount": 1},
+		{"item": "silicon", "amount": 60},
+		{"item": "slate", "amount": 60},
 	],
 	"category": "distribution",
-	"speed": 5,
 	"research": "1w04"
 	"squareSprite": false,
 }
