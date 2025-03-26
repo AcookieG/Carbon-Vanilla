@@ -4,9 +4,6 @@
 	"size": 4,
 	"itemCapacity": 9000,
 	"hasItems": true,
-	"hasLiquids": true,
-	"outputsLiquids": true
-	"liquidCapacity": 200
 	"health": 1200,
 	"isFirstTier": false
 	"requirements": [
