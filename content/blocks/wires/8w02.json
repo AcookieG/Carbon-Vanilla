@@ -1,21 +1,34 @@
 {
-  "type": "LiquidRouter",
-  "name": "Wire"
-  "description": "Transports and stores power. May or may not also be replacement for junctions, as wires are actually textured pipes.",
-  "health": 20,
-	"liquidCapacity": 0,
+	"name": "Heat Wire",
+	"description": "A small block to transport heat efficiently over long distances. Conducts power.",
+	"type": "HeatConductor",
+	"health": 20,
+	"size": 1,
+	"drawer": {
+	"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+		]
+}
 	"requirements": [
-		{"item": "graphite", "amount": 5},
-		{"item": "silicon", "amount": 5},
+		{ "item": "graphite", "amount": 5 },
+		{ "item": "silicon", "amount": 5 },
+		{ "item": "iron", "amount": 5 }
 	],
 	"consumes": {
   "powerBuffered": 5
 	} 
-	"junctionReplacement": "8w02"
-  "research": "8w01",
-  "category": "power"
-	"buildCostMultiplier": 1
-	"conductivePower": true
+	"category": "power",
+	"research": "8w01"
+	"visualMaxHeat": 96
+		"squareSprite": false,
+		"conductivePower": true
 	"hasPower": true
 	"outputsPower": true
 }
