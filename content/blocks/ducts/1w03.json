@@ -4,7 +4,7 @@
 	"health": 40,
 	"hasPower": false
 	"requirements": [
-		{"item": "scrap", "amount": 2},
+		{"item": "sand", "amount": 2},
 		{"item": "slate", "amount": 2},
 	],
 	"category": "distribution",

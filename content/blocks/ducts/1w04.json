@@ -3,7 +3,7 @@
 	"name": "Duct Router",
 	"health": 40,
 	"requirements": [
-		{"item": "scrap", "amount": 1},
+		{"item": "sand", "amount": 1},
 		{"item": "slate", "amount": 1},
 	],
 	"category": "distribution",

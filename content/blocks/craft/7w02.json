@@ -1,6 +1,6 @@
 {
 	"name": "Silicon Cooker",
-	"description": "Just let it cook.",
+	"description": "Burns through coal and sand to make silicon and reduce power consumption internally.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 120,
@@ -23,7 +23,7 @@
 		]
 	},
 	"consumes": {
-		"power": 0.5,
+		"power": 0.1,
 		"items": {
 			"items": [
 				{"item": "coal", "amount": 2}
