@@ -6,7 +6,7 @@
   "unloadEffect": "none"
   "health": 20,
   "speed": 0,
-  "itemCapacity": 1,
+  "itemCapacity": 0,
   "outputRouter": true,
 	"requirements": [
 		{"item": "graphite", "amount": 5},
