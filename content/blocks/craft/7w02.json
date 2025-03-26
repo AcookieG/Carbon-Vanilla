@@ -19,26 +19,6 @@
 			{
 				"type": "DrawFlame"
 				"flameColor": ffef99
-				"flameX": -4
-				"flameY": -4
-			},
-			{
-				"type": "DrawFlame"
-				"flameColor": ffef99
-				"flameX": 4
-				"flameY": -4
-			},
-			{
-				"type": "DrawFlame"
-				"flameColor": ffef99
-				"flameX": -4
-				"flameY": 4
-			},
-			{
-				"type": "DrawFlame"
-				"flameColor": ffef99
-				"flameX": 4
-				"flameY": 4
 			},
 		]
 	},
@@ -52,7 +32,7 @@
 		},
 	},
 	"requirements": [
-		{ "item": "scrap", "amount": 30 },
+		{ "item": "scrap", "amount": 12 },
 		{ "item": "slate", "amount": 60 },
 	],
 	"category": "crafting",

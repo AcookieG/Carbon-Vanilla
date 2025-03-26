@@ -11,10 +11,14 @@
 	"updateEffect": "none",
 	"craftEffect": "pulverizeMedium",
 	"consumes": {
-		"items": {"item": "slate", "amount": 2}
+		"items": {
+			"items": [
+				{"item": "slate", "amount": 2}
+			]
+		},
 	},
 	"requirements": [
-		{ "item": "scrap", "amount": 30 },
+		{ "item": "scrap", "amount": 12 },
 		{ "item": "sand", "amount": 40 },
 	],
 	"category": "crafting",
@@ -22,7 +26,6 @@
 	"research": "9w01",
 	"idleSound": "machine",
 	"idleSoundVolume": 0.03,
-	"outputLiquid": {"liquid": "oil", "amount": 0.1},
 	"outputItems": [
 		{ "item": "graphite", "amount": 3 },
 	],
