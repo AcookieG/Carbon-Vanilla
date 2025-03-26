@@ -6,7 +6,7 @@
   "unloadEffect": "none"
   "health": 60,
   "speed": 0.25,
-  "itemCapacity": 60,
+  "itemCapacity": 40,
   "outputRouter": true,
 	"requirements": [
 		{"item": "iron", "amount": 1},

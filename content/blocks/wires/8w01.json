@@ -1,7 +1,7 @@
 {
   "type": "StackConveyor",
   "name": "Wire"
-  "description": "Transports power.",
+  "description": "Transports and stores power. Totally not a stolen idea from Asthosus",
   "loadEffect": "none"
   "unloadEffect": "none"
   "health": 20,
@@ -12,6 +12,9 @@
 		{"item": "graphite", "amount": 5},
 		{"item": "silicon", "amount": 5},
 	],
+	"consumes": {
+  "powerBuffered": 5
+	} 
   "research": "conveyor",
   "category": "power"
 	"conductivePower": true
