@@ -9,5 +9,5 @@
 	"category": "distribution",
 	"speed": 5,
 	"research": "conveyor"
-	"bridgeReplacement": "1w03"
+	bridgeReplacement: 1w03
 }

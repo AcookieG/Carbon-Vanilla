@@ -1,38 +1,22 @@
 {
-	"name": "Heat Wire",
-	"description": "A small block to transport heat efficiently over long distances. Conducts power.",
-	"type": "HeatConductor",
-	"health": 20,
-	"size": 1,
-	"drawer": {
-	"type": "DrawMulti",
-		"drawers": [
-			{
-				"type": "DrawRegion"
-				"suffix": "-"
-			},
-			{
-				"type": "DrawHeatOutput"
-				"drawGlow": true
-			},
-			{
-				"type": "DrawHeatInput"
-			},
-		]
-}
+  "type": "BeamNode",
+  "name": "Lightwire"
+  "description": "Electric bridges! Stupid expensive tho.",
+  "health": 40,
 	"requirements": [
-		{ "item": "graphite", "amount": 5 },
-		{ "item": "silicon", "amount": 5 },
-		{ "item": "iron", "amount": 5 }
+		{"item": "graphite", "amount": 20},
+		{"item": "silicon", "amount": 20},
 	],
 	"consumes": {
   "powerBuffered": 5
-	}
-	"category": "power",
-	"research": "8w01"
-	"visualMaxHeat": 96
-		"squareSprite": false,
-		"conductivePower": true
+	} 
+	"range": 4
+	"lazerColor2": "cf6d9c"
+  "research": "8w01",
+  "category": "power"
+	"buildCostMultiplier": 1
+	"conductivePower": true
 	"hasPower": true
 	"outputsPower": true
+		"squareSprite": false,
 }
