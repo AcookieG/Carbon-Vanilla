@@ -1,0 +1,25 @@
+{
+  "type": "StackConveyor",
+  "name": "Wire"
+  "description": "Transports power.",
+  "loadEffect": "none"
+  "unloadEffect": "none"
+  "health": 20,
+  "speed": 0,
+  "itemCapacity": 0,
+  "outputRouter": false,
+	"requirements": [
+		{"item": "graphite", "amount": 5},
+		{"item": "silicon", "amount": 5},
+	],
+  "research": "conveyor",
+  "category": "power"
+	"conductivePower": true
+	"hasPower": true
+	"outputsPower": true
+	"hasItems": false
+	"acceptsItems": false
+	"isDuct": false
+	"conveyorPlacement": true
+	"buildCostMultiplier": 1
+}

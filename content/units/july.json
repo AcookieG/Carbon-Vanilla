@@ -5,9 +5,9 @@
 	"armor": 0,
 	"flying": true,
 	"maxVelocity": 40,
-	"speed": 30,
+	"speed": 40,
 	"accel": 0.05
-	"drag": 0.15,
+	"drag": 0.1,
 	"hitSize": 8
 	"circleTarget" : false,
 	"faceTarget": false
