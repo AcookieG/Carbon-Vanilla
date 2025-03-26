@@ -1,0 +1,16 @@
+{
+	"type": "StorageBlock",
+	"name": "Stack Chamber"
+	"description": "A small storage block, to hold items for production or turrets.",
+	"size": 1,
+	"itemCapacity": 100,
+	"hasItems": true,
+	"health": 80,
+	"requirements": [
+		{"item": "slate", "amount": 100},
+		{"item": "sand", "amount": 300},
+		{"item": "graphite", "amount": 100}
+	]
+	"research": "4w01",
+	"category": "distribution",
+}

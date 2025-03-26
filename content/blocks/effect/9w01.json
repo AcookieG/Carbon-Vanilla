@@ -7,9 +7,8 @@
 	"health": 600,
 	"isFirstTier": true
 	"requirements": [
-		{"item": "iron", "amount": 400},
 		{"item": "graphite", "amount": 800},
-		{"item": "circuit", "amount": 20}
+		{"item": "slate", "amount": 200}
 	]
 	"research": "conveyor",
 	"category": "effect",

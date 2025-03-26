@@ -1,0 +1,18 @@
+{
+	"type": "CoreBlock",
+	"name": "Anchor"
+	"size": 3,
+	"itemCapacity": 4000,
+	"hasItems": true,
+	"health": 900,
+	"isFirstTier": false
+	"requirements": [
+		{"item": "silicon", "amount": 800},
+		{"item": "graphite", "amount": 1200},
+		{"item": "dense", "amount": 200}
+	]
+	"research": "9w01",
+	"category": "effect",
+	"unitType": "july"
+	"squareSprite": false,
+}
