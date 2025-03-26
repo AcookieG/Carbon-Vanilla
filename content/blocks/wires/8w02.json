@@ -14,7 +14,9 @@
 			{
 				"type": "DrawHeatOutput"
 				"drawGlow": true
-				"layerOffset": 0.01
+			},
+			{
+				"type": "DrawHeatInput"
 			},
 		]
 }
