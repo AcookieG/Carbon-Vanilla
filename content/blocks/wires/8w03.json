@@ -11,6 +11,8 @@
   "powerBuffered": 5
 	} 
 	"range": 4
+	"laser": "8w03-lazer"
+	"laserEnd": "8w03-lazerEnd"
 	"lazerColor2": cf6d9c
 	"junctionReplacement": "8w02"
   "research": "8w02",
