@@ -23,7 +23,7 @@
 		]
 	},
 	"consumes": {
-		"power": 0.1,
+		"power": 0.25,
 		"items": {
 			"items": [
 				{"item": "coal", "amount": 2}
