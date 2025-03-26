@@ -1,0 +1,22 @@
+{
+  "type": "BeamNode",
+  "name": "Lightwire"
+  "description": "Electric bridges! Stupid expensive tho.",
+  "health": 40,
+	"requirements": [
+		{"item": "graphite", "amount": 20},
+		{"item": "silicon", "amount": 20},
+	],
+	"consumes": {
+  "powerBuffered": 5
+	} 
+	"range": 3
+	"lazerColor2": cf6d9c
+	"junctionReplacement": "8w02"
+  "research": "8w02",
+  "category": "power"
+	"buildCostMultiplier": 1
+	"conductivePower": true
+	"hasPower": true
+	"outputsPower": true
+}
