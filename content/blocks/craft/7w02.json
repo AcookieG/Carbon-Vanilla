@@ -17,8 +17,28 @@
 				"type": "DrawDefault"
 			},
 			{
-				"type": "DrawGlowRegion"
-				"color": ffffffff
+				"type": "DrawFlame"
+				"flameColor": ffef99
+				"flameX": -4
+				"flameY": -4
+			},
+			{
+				"type": "DrawFlame"
+				"flameColor": ffef99
+				"flameX": 4
+				"flameY": -4
+			},
+			{
+				"type": "DrawFlame"
+				"flameColor": ffef99
+				"flameX": -4
+				"flameY": 4
+			},
+			{
+				"type": "DrawFlame"
+				"flameColor": ffef99
+				"flameX": 4
+				"flameY": 4
 			},
 		]
 	},
@@ -42,4 +62,5 @@
 	"idleSoundVolume": 0.09,
 	"outputItem": { "item": "silicon", "amount": 1 },
 	"craftTime": 40,
+	"squareSprite": false,
 }

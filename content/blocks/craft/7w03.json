@@ -60,4 +60,5 @@
 		{ "item": "iron", "amount": 1 },
 	],
 	"craftTime": 60,
+	"squareSprite": false,
 }

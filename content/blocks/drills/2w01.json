@@ -3,7 +3,7 @@
 	"description": "A basic crusher drill.",
 	"type": "Drill",
 	"size": 2,
-	"tier": 1,
+	"tier": 2,
 	"updateEffect": "coalSmeltsmoke",
 	"drillTime": 300,
 	"itemCapacity": 10,

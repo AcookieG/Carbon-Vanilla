@@ -1,0 +1,62 @@
+{
+	"name": "Oil Burner",
+	"description": 
+'''
+In a world where coal is a rare, but oil is plentyful, you burn oil.
+In a world where luscious ecosystems prosper, you burn oil.
+In a world where water had all ressources to create life, you burn oil.
+You've done it. You tipped the balance. You re-created life, but at what cost?
+'''
+	"type": "ConsumeGenerator"
+	"size": 2,
+	"health": 80,
+	"liquidCapacity": 10,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"baseExplosiveness": 0.2,
+	"explosionRadius": 140,
+	"explosionDamage": 60,
+	"explosionShake": 0.2
+	"powerProduction": 1,
+	"requirements": [
+		{ "item": "sand", "amount": 80 },
+		{ "item": "slate", "amount": 60 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "oil",
+				"padding": 2
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "stillwater",
+				"padding": 2
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"liquids": {"liquid": "oil", "amount": 0.2},
+	},
+	"outputLiquid": {"liquid": "stillwater", "amount": 0.1},
+	"explodeOnFull": true
+	"category": "power",
+	"conductivePower": true
+	"rotate": false
+	"loopSound": "hum",
+	"loopSoundVolume": 0.1,
+	"research": "9w01",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.1,
+	"itemDuration": 60,
+}
