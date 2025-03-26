@@ -11,7 +11,7 @@
 	"consumes": {
   "powerBuffered": 5
 	} 
-	"junctionReplacement": "8w02"
+	"junctionReplacement": "5w02"
   "research": "9w01",
   "category": "power"
 	"buildCostMultiplier": 1

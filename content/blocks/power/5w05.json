@@ -10,13 +10,13 @@ You've done it. You tipped the balance. You re-created life, but at what cost?
 	"type": "ConsumeGenerator"
 	"size": 2,
 	"health": 80,
-	"liquidCapacity": 10,
+	"liquidCapacity": 20,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
 	"baseExplosiveness": 0.2,
-	"explosionRadius": 140,
-	"explosionDamage": 60,
+	"explosionRadius": 60,
+	"explosionDamage": 30,
 	"explosionShake": 0.2
 	"powerProduction": 1,
 	"requirements": [
@@ -46,7 +46,7 @@ You've done it. You tipped the balance. You re-created life, but at what cost?
 		]
 	},
 	"consumes": {
-		"liquids": {"liquid": "oil", "amount": 0.2},
+		"liquid": {"liquid": "oil", "amount": 0.2},
 	},
 	"outputLiquid": {"liquid": "stillwater", "amount": 0.1},
 	"explodeOnFull": true
@@ -55,8 +55,9 @@ You've done it. You tipped the balance. You re-created life, but at what cost?
 	"rotate": false
 	"loopSound": "hum",
 	"loopSoundVolume": 0.1,
-	"research": "9w01",
+	"research": "5w01",
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.1,
 	"itemDuration": 60,
+	"squareSprite": false,
 }

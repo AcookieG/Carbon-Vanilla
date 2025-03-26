@@ -1,6 +1,6 @@
 {
-	"name": "Wire Splitter"
-	"description": "Splits heat equally in three directions.",
+	"name": "Heat Wire",
+	"description": "A small block to transport heat efficiently over long distances. Conducts power.",
 	"type": "HeatConductor",
 	"health": 20,
 	"size": 1,
@@ -15,22 +15,24 @@
 				"type": "DrawHeatOutput"
 				"drawGlow": true
 			},
+			{
+				"type": "DrawHeatInput"
+			},
 		]
 }
 	"requirements": [
-		{ "item": "graphite", "amount": 20 },
-		{ "item": "silicon", "amount": 20 },
-		{ "item": "iron", "amount": 20 }
+		{ "item": "graphite", "amount": 5 },
+		{ "item": "silicon", "amount": 5 },
+		{ "item": "iron", "amount": 5 }
 	],
 	"consumes": {
   "powerBuffered": 5
 	}
 	"category": "power",
-	"research": "8w03"
+	"research": "5w01"
 	"visualMaxHeat": 96
 		"squareSprite": false,
 		"conductivePower": true
 	"hasPower": true
 	"outputsPower": true
-	"splitHeat": true
 }
