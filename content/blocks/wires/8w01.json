@@ -22,7 +22,6 @@
 	"outputsPower": true
 	"hasItems": false
 	"acceptsItems": false
-	"isDuct": false
 	"conveyorPlacement": true
 	"buildCostMultiplier": 1
 }
