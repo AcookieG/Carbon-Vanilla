@@ -42,10 +42,7 @@
 				{"item": "scrap", "amount": 2}
 			]
 		},
-    "liquid": {
-			"liquid": "water",
-			"amount": 0.1
-		},
+    "liquid":  {"liquid": "water", "amount": 0.2},
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 30 },
@@ -57,9 +54,7 @@
 	"research": "7w02",
 	"idleSound": "machine",
 	"idleSoundVolume": 0.08,
-	"outputLiquid": {
-		{"liquid": "oil", "amount": 0.05}
-	},
+	"outputLiquid": {"liquid": "oil", "amount": 0.1},
 	"outputItems": [
 		{ "item": "slate", "amount": 1 },
 		{ "item": "iron", "amount": 1 },
