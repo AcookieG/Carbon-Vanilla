@@ -1,0 +1,68 @@
+{
+	"name": "Filter",
+	"description": "Filters through scrap and water.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 110,
+	"itemCapacity": 10,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "smeltsmoke",
+	"craftEffect": "none",
+	"liquidCapacity": 04,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water",
+				"padding": 2
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-spinner"
+				"spinSprite": true
+				"rotateSpeed": 3
+				"rotation": 0
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"power": 0.8,
+		"items": {
+			"items": [
+				{"item": "scrap", "amount": 2}
+			]
+		},
+    "liquid": {
+			"liquid": "water",
+			"amount": 0.1
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "slate", "amount": 60 },
+		{ "item": "sand", "amount": 50 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "7w02",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.08,
+	"outputLiquid": {
+		{"liquid": "oil", "amount": 0.05}
+	},
+	"outputItems": [
+		{ "item": "slate", "amount": 1 },
+		{ "item": "iron", "amount": 1 },
+	],
+	"craftTime": 60,
+}

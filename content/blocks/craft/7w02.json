@@ -1,0 +1,45 @@
+{
+	"name": "Silicon Cooker",
+	"description": "Just let it cook.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 120,
+	"itemCapacity": 10,
+	"hasLiquids": false,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "smeltsmoke",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawGlowRegion"
+				"color": ffffffff
+			},
+		]
+	},
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{"item": "coal", "amount": 2}
+				{"item": "sand", "amount": 1}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "scrap", "amount": 30 },
+		{ "item": "slate", "amount": 60 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "9w01",
+	"idleSound": "smelter",
+	"idleSoundVolume": 0.09,
+	"outputItem": { "item": "silicon", "amount": 1 },
+	"craftTime": 40,
+}
