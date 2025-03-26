@@ -18,4 +18,5 @@
 	"conductivePower": true
 	"hasPower": true
 	"outputsPower": true
+		"squareSprite": false,
 }

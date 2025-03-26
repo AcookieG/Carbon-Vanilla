@@ -13,6 +13,7 @@
 			},
 			{
 				"type": "DrawHeatOutput"
+				"drawGlow": true
 			},
 		]
 }
@@ -23,7 +24,7 @@
 	],
 	"consumes": {
   "powerBuffered": 5
-	} 
+	}
 	"category": "power",
 	"research": "8w01"
 	"visualMaxHeat": 96
