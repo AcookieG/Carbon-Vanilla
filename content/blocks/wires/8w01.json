@@ -6,8 +6,8 @@
   "unloadEffect": "none"
   "health": 20,
   "speed": 0,
-  "itemCapacity": 0,
-  "outputRouter": false,
+  "itemCapacity": 1,
+  "outputRouter": true,
 	"requirements": [
 		{"item": "graphite", "amount": 5},
 		{"item": "silicon", "amount": 5},
@@ -22,6 +22,5 @@
 	"outputsPower": true
 	"hasItems": false
 	"acceptsItems": false
-	"conveyorPlacement": true
 	"buildCostMultiplier": 1
 }
