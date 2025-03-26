@@ -110,8 +110,8 @@ updateLighting: false
 sectorSeed: 1
 bloom: false
 visible: true
-atmosphereColor: 35808750
-iconColor: 3ead68
+atmosphereColor: 8bbeb050
+iconColor: 8bbeb0
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
@@ -124,7 +124,6 @@ orbitTime: 240
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  "anthracite"
   "sand"
   "graphite",  
   "metaglass", 
