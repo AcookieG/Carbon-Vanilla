@@ -115,7 +115,6 @@ launchCandidates: []
 itemWhitelist: [
   "sand"
   "graphite",  
-  "metaglass", 
   "silicon", 
   "slate",
   "iron",
