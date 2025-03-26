@@ -1,0 +1,140 @@
+localizedName: Oodun
+description: Similar to Serpulo, but without spores. Under an nextremely dense atmosphere.
+generator: tantPlanetGenerator
+alwaysUnlocked: true
+mesh: [
+  {
+    //sandstone low
+    type: NoiseMesh
+    planet: servar
+    divisions: 6
+    seed: 107
+    radius: 1.247
+    color1: d99d73
+    color2: b8705c
+    octaves: 4.5
+    persistence: 1.1
+  }
+ {
+    //hydrogen
+    type: NoiseMesh
+    planet: servar
+    divisions: 6
+    seed: 114
+    radius: 1.229
+    color1: d1e4ff
+    color2: 97a5f7
+    octaves: 3.7
+    persistence: 1.1
+  }
+ {
+    //water
+    type: NoiseMesh
+    planet: servar
+    divisions: 6
+    seed: 7
+    radius: 1.229
+    color1: 4f84ff
+    color2: 3957ed
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //sandstone light
+    type: NoiseMesh
+    planet: servar
+    divisions: 6
+    seed: 14
+    radius: 1.247
+    color1: eac2a9
+    color2: d99d73
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //forest
+    type: NoiseMesh
+    planet: servar
+    divisions: 6
+    seed: 21
+    radius: 1.247
+    color1: 58f56a
+    color2: 3ead68
+    octaves: 3
+    persistence: 1.1
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: servar
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: ffffff
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0
+  carbonChance: 0
+  berylChance: 0
+  ferricChance: 0
+}
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: true
+startSector: 0
+orbitSpacing: 1
+radius: 1
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: -0.1
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 1
+bloom: false
+visible: true
+atmosphereColor: 35808750
+iconColor: 3ead68
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: 9w01
+parent: sun
+orbitRadius: 90
+orbitTime: 240
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "anthracite"
+  "sand"
+  "graphite",  
+  "metaglass", 
+  "silicon", 
+  "slate",
+  "iron",
+  "coal", 
+  "waffer", 
+  "circuit", 
+	"cesium", 
+	"dense", 
+  "scrap", 
+]
