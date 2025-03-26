@@ -93,14 +93,14 @@ generator: {
   berylChance: 0
   ferricChance: 0
 }
-sectorSize: 3
+sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: true
-startSector: 0
+startSector: 8
 orbitSpacing: 1
-radius: 1
+radius: 0.3
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: -0.1
