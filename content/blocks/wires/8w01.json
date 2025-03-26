@@ -12,7 +12,7 @@
   "powerBuffered": 5
 	} 
 	"junctionReplacement": "8w02"
-  "research": "conveyor",
+  "research": "9w01",
   "category": "power"
 	"buildCostMultiplier": 1
 	"conductivePower": true
