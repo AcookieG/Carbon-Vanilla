@@ -5,7 +5,7 @@
 	"size": 2,
 	"tier": 2,
 	"updateEffect": "coalSmeltsmoke",
-	"drillTime": 300,
+	"drillTime": 600,
 	"itemCapacity": 10,
 	"drawRim": false,
 	"drawMineItem": false,
@@ -19,9 +19,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "thorium", "amount": 120 },
-		{ "item": "phase-decay", "amount": 30 },
-		{ "item": "graphite", "amount": 90 }
+		{ "item": "scrap", "amount": 12 },
 	],
 	"category": "production",
 	"research": "9w01"

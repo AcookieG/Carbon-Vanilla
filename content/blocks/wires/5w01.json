@@ -6,7 +6,7 @@
 	"liquidCapacity": 0,
 	"requirements": [
 		{"item": "graphite", "amount": 3},
-		{"item": "silicon", "amount": 3},
+		{"item": "scrap", "amount": 3},
 	],
 	"consumes": {
   "powerBuffered": 5

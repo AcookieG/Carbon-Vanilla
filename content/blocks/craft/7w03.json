@@ -51,7 +51,7 @@
 	],
 	"category": "crafting",
 	"rotate": false
-	"research": "7w02",
+	"research": "7w01",
 	"idleSound": "machine",
 	"idleSoundVolume": 0.08,
 	"outputLiquid": {"liquid": "oil", "amount": 0.1},

@@ -57,7 +57,7 @@
 	],
 	"category": "crafting",
 	"rotate": false
-	"research": "9w01",
+	"research": "7w01",
 	"idleSound": "smelter",
 	"idleSoundVolume": 0.09,
 	"outputItem": { "item": "silicon", "amount": 1 },
