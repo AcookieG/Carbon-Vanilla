@@ -12,6 +12,6 @@
 		{"item": "iron", "amount": 1},
 		{"item": "circuit", "amount": 1},
 	],
-  "research": "opl01-duct",
+  "research": "1w01",
   "category": "distribution"
 }
