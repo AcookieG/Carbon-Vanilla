@@ -4,6 +4,7 @@
   "description": "Transports and stores power. Totally not a stolen idea from Asthosus.",
   "health": 20,
 	"liquidCapacity": 0,
+	"hasLiquids": false
 	"requirements": [
 		{"item": "graphite", "amount": 5},
 		{"item": "silicon", "amount": 5},

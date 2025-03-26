@@ -10,7 +10,7 @@
 	"consumes": {
   "powerBuffered": 5
 	} 
-	"range": 3
+	"range": 4
 	"lazerColor2": cf6d9c
 	"junctionReplacement": "8w02"
   "research": "8w02",

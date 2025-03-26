@@ -4,6 +4,7 @@
   "description": "Transports and stores power. May or may not also be replacement for junctions, as wires are actually textured pipes.",
   "health": 20,
 	"liquidCapacity": 0,
+		"hasLiquids": false
 	"requirements": [
 		{"item": "graphite", "amount": 5},
 		{"item": "silicon", "amount": 5},
