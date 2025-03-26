@@ -15,17 +15,17 @@
 	"range": 0,
 	"engineOffset": 5,
 	"engineSize": 2.5,
-	"buildSpeed": 1
+	"buildSpeed": 3
 	"buildBeamOffset": 1
 	"targetable": false
 	"canAttack": false
 	"trailLength": 10
 	"outlineColor": 00000000
 	"research": {
-		"parent": "core01"
+		"parent": "conveyor"
 		"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "sand", "amount": 20},
+		{"item": "silicon", "amount": 60},
+		{"item": "sand", "amount": 140},
 		]
 	}
 }
