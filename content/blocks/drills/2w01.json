@@ -24,6 +24,6 @@
 		{ "item": "graphite", "amount": 90 }
 	],
 	"category": "production",
-	"research": "conveyor"
+	"research": "9w01"
 	"squareSprite": false,
 }
