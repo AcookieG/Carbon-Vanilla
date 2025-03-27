@@ -1,7 +1,7 @@
 {
 	"name": "Liquid Pump",
 	"type": "Pump"
-	"pumpAmount": 0.1166666667
+	"pumpAmount": 0.15
 	"requirements": [
 		{"item": "graphite", "amount": 24},
 		{"item": "sand", "amount": 24},

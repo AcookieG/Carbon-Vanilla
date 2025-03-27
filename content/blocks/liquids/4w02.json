@@ -1,7 +1,7 @@
 {
 	"name": "Reinforced Pump",
 	"type": "Pump"
-	"pumpAmount": 0.6
+	"pumpAmount": 0.4
 	"requirements": [
 		{"item": "graphite", "amount": 70},
 		{"item": "sand", "amount": 60},

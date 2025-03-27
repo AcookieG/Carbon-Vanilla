@@ -43,4 +43,5 @@
 	"outputItem": { "item": "silicon", "amount": 1 },
 	"craftTime": 40,
 	"squareSprite": false,
+		"conductivePower": true
 }

@@ -5,24 +5,27 @@
 	"armor": 0,
 	"flying": true,
 	"maxVelocity": 40,
+	"rotateSpeed": 8,
 	"speed": 40,
-	"accel": 0.05
+	"accel": 0.05,
 	"drag": 0.1,
-	"hitSize": 8
+	"hitSize": 8,
+	"mineTier": 2,
+	"mineSpeed": 1,
 	"circleTarget" : false,
-	"faceTarget": false
-	"itemCapacity": 25
+	"faceTarget": false,
+	"itemCapacity": 25,
 	"range": 0,
 	"engineOffset": 5,
 	"engineSize": 2.5,
-	"buildSpeed": 3
-	"buildBeamOffset": 1
-	"targetable": false
-	"canAttack": false
-	"trailLength": 10
-	"outlineColor": 00000000
+	"buildSpeed": 3,
+	"buildBeamOffset": 1,
+	"targetable": false,
+	"canAttack": false,
+	"trailLength": 10,
+	"outlineColor": 00000000,
 	"research": {
-		"parent": "conveyor"
+		"parent": "9w01",
 		"requirements": [
 		{"item": "silicon", "amount": 60},
 		{"item": "sand", "amount": 140},

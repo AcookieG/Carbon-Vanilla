@@ -1,0 +1,19 @@
+{
+	"name": "Speed Controler",
+	"description": "A small structure to speed up production.",
+	"type": "OverdriveProjector",
+	"health": 100,
+	"size": 1,
+	"hasPower": true,
+	"range": 5,
+	"reload": 80,
+	"hasBoost": false
+	"effectChance": 0.03
+	"requirements": [
+		{"item": "silicon", "amount": 60},
+		{"item": "iron", "amount": 60},
+	],
+	"category": "effect",
+	"research": "9w06"
+			"conductivePower": true
+}

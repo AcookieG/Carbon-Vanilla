@@ -59,6 +59,7 @@
 		{ "item": "slate", "amount": 1 },
 		{ "item": "iron", "amount": 1 },
 	],
-	"craftTime": 60,
+	"craftTime": 80,
 	"squareSprite": false,
+		"conductivePower": true
 }
