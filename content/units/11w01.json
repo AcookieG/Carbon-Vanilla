@@ -22,7 +22,7 @@
 	"buildBeamOffset": 1,
 	"targetable": false,
 	"canAttack": false,
-	"trailLength": 4,
+	"trailLength": 10,
 	"outlineColor": 00000000,
 	"fogRadius": 4
 	"research": {

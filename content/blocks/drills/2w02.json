@@ -1,15 +1,11 @@
 {
-	"name": "Cog Drill",
-	"description": "A basic crusher drill.",
-	"type": "Drill",
+	"name": "Wall Cog Drill",
+	"description": "A basic crusher drill, but for walls.",
+	"type": "WallCrafter",
 	"size": 2,
-	"tier": 2,
 	"updateEffect": "coalSmeltsmoke",
-	"drillTime": 400,
+	"drillTime": 200,
 	"itemCapacity": 10,
-	"drawRim": false,
-	"drawMineItem": false,
-	"rotateSpeed": 1.5
 	"consumes": {
 		"liquid": {
 			"liquid": "water", 
@@ -18,10 +14,13 @@
 			"booster": true
 		}
 	},
+	"output ": "slate",
+	"attribute": "Tslate",
 	"requirements": [
 		{ "item": "scrap", "amount": 12 },
+		{ "item": "slate", "amount": 12 },
 	],
 	"category": "production",
-	"research": "9w01"
+	"research": "2w01"
 	"squareSprite": false,
 }

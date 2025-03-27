@@ -32,7 +32,7 @@
 		},
 	},
 	"requirements": [
-		{ "item": "scrap", "amount": 12 },
+		{ "item": "scrap", "amount": 24 },
 		{ "item": "slate", "amount": 60 },
 	],
 	"category": "crafting",
