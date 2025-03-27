@@ -11,7 +11,7 @@
 	"drag": 0.05,
 	"hitSize": 6,
 	"mineTier": 2,
-	"mineSpeed": 1,
+	"mineSpeed": 1.5,
 	"circleTarget" : false,
 	"faceTarget": false,
 	"itemCapacity": 25,
