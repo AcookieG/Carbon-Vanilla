@@ -78,9 +78,9 @@ generator: {
   radMin: 220
   radMax: 600
   iceChance: 0
-  carbonChance: 0
+  carbonChance: 0.5
   berylChance: 0
-  ferricChance: 0
+  ferricChance: 0.2
 }
 sectorSize: 2
 allowLaunchSchematics: false

@@ -4,12 +4,12 @@
 	"health": 120,
 	"armor": 0,
 	"flying": true,
-	"maxVelocity": 40,
-	"rotateSpeed": 8,
+	"maxVelocity": 4,
+	"rotateSpeed": 6,
 	"speed": 40,
-	"accel": 0.05,
-	"drag": 0.1,
-	"hitSize": 8,
+	"accel": 0.003,
+	"drag": 0.05,
+	"hitSize": 6,
 	"mineTier": 2,
 	"mineSpeed": 1,
 	"circleTarget" : false,
@@ -22,8 +22,9 @@
 	"buildBeamOffset": 1,
 	"targetable": false,
 	"canAttack": false,
-	"trailLength": 10,
+	"trailLength": 4,
 	"outlineColor": 00000000,
+	"fogRadius": 4
 	"research": {
 		"parent": "9w01",
 		"requirements": [
