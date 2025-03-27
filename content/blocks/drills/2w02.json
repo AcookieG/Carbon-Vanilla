@@ -14,7 +14,7 @@
 			"booster": true
 		}
 	},
-	"output ": "slate",
+	"output": "slate",
 	"attribute": "Tslate",
 	"requirements": [
 		{ "item": "scrap", "amount": 12 },
