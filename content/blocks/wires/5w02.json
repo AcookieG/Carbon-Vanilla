@@ -10,7 +10,7 @@
 	"consumes": {
   "powerBuffered": 5
 	} 
-	"range": 4
+	"range": 7
 	"lazerColor2": "cf6d9c"
   "research": "5w01",
   "category": "power"

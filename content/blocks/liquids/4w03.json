@@ -8,8 +8,8 @@
 	"requirements": [
 		{"item": "graphite", "amount": 1},
 	],
-bridgeReplacement: 4w04
-rotBridgeReplacement: 4w04
+	bridgeReplacement: 4w04
+	rotBridgeReplacement: 4w04
   "research": "4w01",
   "category": "liquid"
 }
