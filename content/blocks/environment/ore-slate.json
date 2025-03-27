@@ -1,10 +1,6 @@
 {
-  "type": "OreBlock",
-  "oreDefault": true,
-  "oreScale": 18,
-  "oreThreshold": 0.84,
-  "itemDrop": "slate",
-	"wallOre": true,
+	"type": "StaticWall",
+	"variants": 2,
 	"attributes": {
   "Tslate": 1
 }
