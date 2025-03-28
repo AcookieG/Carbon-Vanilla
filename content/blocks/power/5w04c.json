@@ -19,15 +19,15 @@
 				"suffix": "-bottom"
 			},
 			{
-				"type": "DrawLiquidTile",
-				"drawLiquid": "methane",
-				"padding": 3
-			},
-			{
 				"type": "DrawBlurSpin"
 				"suffix": "-rotator"
 				"rotateSpeed": 2.5,
 				"blurThresh": 0.01
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "methane",
+				"padding": 3
 			},
 			{
 				"type": "DrawDefault"
@@ -43,4 +43,5 @@
 	"displayEfficiency": false,
 	"outputLiquid": {"liquid": "methane", "amount": 0.5},
 	"minEfficiency": 1
+		"squareSprite": false,
 }
