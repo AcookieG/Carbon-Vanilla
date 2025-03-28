@@ -24,9 +24,10 @@
 				"padding": 3
 			},
 			{
-				"type": "DrawSpin"
+				"type": "DrawBlurSpin"
 				"suffix": "-rotator"
 				"rotateSpeed": 2.5,
+				"blurThresh": 0.01,
 			},
 			{
 				"type": "DrawDefault"
@@ -34,17 +35,8 @@
 		]
 	},
 	"attribute": "steam",
-	"generateEffect":{
-"type": "ParticleEffect",
-"particles": 10,
-"length": 20,
-"lifetime": 50,
-"cone": 180,
-"sizeFrom": 4,
-"sizeTo": 0,
-"colorFrom": "3d3732",
-"colorTo": "665e56"
-},
+	"effectChance": 0.035
+	"generateEffect": "turbinegenerate",
 	"category": "production",
 	"research": "5w04b",
 	"ambientSound": "hum",
