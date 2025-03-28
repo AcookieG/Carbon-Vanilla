@@ -34,10 +34,10 @@
 			},
 		]
 	},
-	"attribute": "steam",
+	"attribute": "production",
 	"effectChance": 0.035
 	"generateEffect": "turbinegenerate",
-	"category": "production",
+	"category": "crafting",
 	"research": "5w04b",
 	"displayEfficiencyScale": 0.1111111111,
 	"ambientSound": "hum",
