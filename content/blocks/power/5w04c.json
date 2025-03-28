@@ -39,6 +39,7 @@
 	"generateEffect": "turbinegenerate",
 	"category": "production",
 	"research": "5w04b",
+	"displayEfficiencyScale": 0.1111111111,
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.1,
 	"displayEfficiency": false,
