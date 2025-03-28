@@ -23,7 +23,7 @@
 			},
 			{
 				"type": "DrawBlurSpin"
-				"suffix": "rotator"
+				"suffix": "-rotator"
 				"rotateSpeed": 0.9,
 				"blurThresh": 0.01
 			},
@@ -40,5 +40,5 @@
 	"ambientSoundVolume": 0.1,
 	"displayEfficiency": false,
 	"outputLiquid": {"liquid": "methane", "amount": 0.5},
-	"minEfficiency": 9
+	"minEfficiency": 1
 }
