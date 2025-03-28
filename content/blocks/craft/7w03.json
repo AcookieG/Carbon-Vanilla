@@ -10,7 +10,7 @@
 	"hasItems": true,
 	"updateEffect": "smeltsmoke",
 	"craftEffect": "none",
-	"liquidCapacity": 04,
+	"liquidCapacity": 20,
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
@@ -39,7 +39,7 @@
 		"power": 0.8,
 		"items": {
 			"items": [
-				{"item": "scrap", "amount": 2}
+				{"item": "scrap", "amount": 3}
 			]
 		},
     "liquid":  {"liquid": "water", "amount": 0.2},
@@ -57,9 +57,9 @@
 	"outputLiquid": {"liquid": "oil", "amount": 0.1},
 	"outputItems": [
 		{ "item": "slate", "amount": 1 },
-		{ "item": "iron", "amount": 1 },
+		{ "item": "iron", "amount": 2 },
 	],
-	"craftTime": 80,
+	"craftTime": 160,
 	"squareSprite": false,
 		"conductivePower": true
 }

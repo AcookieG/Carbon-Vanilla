@@ -17,7 +17,7 @@
 	"output": "slate",
 	"attribute": "Tslate",
 	"requirements": [
-		{ "item": "scrap", "amount": 12 },
+		{ "item": "sand", "amount": 12 },
 		{ "item": "slate", "amount": 12 },
 	],
 	"category": "production",

@@ -21,9 +21,9 @@
 		]
 }
 	"requirements": [
-		{ "item": "graphite", "amount": 5 },
-		{ "item": "silicon", "amount": 5 },
-		{ "item": "iron", "amount": 5 }
+		{ "item": "graphite", "amount": 2},
+		{ "item": "silicon", "amount": 2},
+		{ "item": "iron", "amount": 2}
 	],
 	"consumes": {
   "powerBuffered": 5

@@ -32,8 +32,8 @@
 		},
 	},
 	"requirements": [
-		{ "item": "scrap", "amount": 24 },
-		{ "item": "slate", "amount": 60 },
+		{ "item": "slate", "amount": 24 },
+		{ "item": "sand", "amount": 60 },
 	],
 	"category": "crafting",
 	"rotate": false

@@ -5,7 +5,7 @@
   "leaks": false,
   "liquidCapacity": 10,
 	"requirements": [
-		{"item": "graphite", "amount": 8},
+		{"item": "graphite", "amount": 10},
 	],
 "squareSprite": false,
   "research": "4w03",

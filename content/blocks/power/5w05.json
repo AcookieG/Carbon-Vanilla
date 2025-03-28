@@ -10,7 +10,7 @@ You've done it. You tipped the balance. You re-created life, but at what cost?
 	"type": "ConsumeGenerator"
 	"size": 2,
 	"health": 80,
-	"liquidCapacity": 30,
+	"liquidCapacity": 20,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
@@ -48,7 +48,7 @@ You've done it. You tipped the balance. You re-created life, but at what cost?
 	"consumes": {
 		"liquid": {"liquid": "oil", "amount": 0.2},
 	},
-	"outputLiquid": {"liquid": "stillwater", "amount": 0.2},
+	"outputLiquid": {"liquid": "stillwater", "amount": 0.15},
 	"explodeOnFull": true
 	"category": "power",
 	"conductivePower": true

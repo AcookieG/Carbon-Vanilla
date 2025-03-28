@@ -3,8 +3,8 @@
   "name": "Basic Conduit"
   "description": "Transports liquids at a slow pace."
   "health": 40,
-  "leaks": true,
-  "liquidCapacity": 10,
+  "leaks": false,
+  "liquidCapacity": 16,
 	"requirements": [
 		{"item": "graphite", "amount": 1},
 	],

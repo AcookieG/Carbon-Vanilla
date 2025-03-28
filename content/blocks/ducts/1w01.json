@@ -4,7 +4,7 @@
 	"description": "the most basic transport system."
 	"health": 40,
 	"requirements": [
-		{"item": "sand", "amount": 1},
+		{"item": "scrap", "amount": 1},
 	],
 	"category": "distribution",
 	"speed": 5,
