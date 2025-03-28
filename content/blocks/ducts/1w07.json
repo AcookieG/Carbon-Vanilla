@@ -1,13 +1,13 @@
 {
 	"type": "OverflowGate",
-	"name": "Overflow Duct",
+	"name": "Underflow Duct",
 	"health": 40,
-	"invert": false
+	"invert": true
 	"requirements": [
 		{"item": "scrap", "amount": 4},
 		{"item": "slate", "amount": 4},
 	],
 	"category": "distribution",
-	"research": "1w05"
+	"research": "1w06"
 	"squareSprite": false,
 }

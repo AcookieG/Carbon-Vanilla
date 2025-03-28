@@ -7,8 +7,7 @@
 	"hasItems": true,
 	"health": 80,
 	"requirements": [
-		{"item": "slate", "amount": 100},
-		{"item": "sand", "amount": 300},
+		{"item": "sand", "amount": 100},
 		{"item": "graphite", "amount": 100}
 	]
 	"research": "1w05",
