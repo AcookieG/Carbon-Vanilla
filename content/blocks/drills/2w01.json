@@ -24,4 +24,5 @@
 	"category": "production",
 	"research": "9w01"
 	"squareSprite": false,
+	"buildCostMultiplier": 2,
 }
