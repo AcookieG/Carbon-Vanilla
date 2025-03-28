@@ -19,15 +19,14 @@
 				"suffix": "-bottom"
 			},
 			{
-				"type": "DrawBlurSpin"
-				"suffix": "-rotator"
-				"rotateSpeed": 2.5,
-				"blurThresh": 0.01
-			},
-			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "methane",
 				"padding": 3
+			},
+			{
+				"type": "DrawSpin"
+				"suffix": "-rotator"
+				"rotateSpeed": 2.5,
 			},
 			{
 				"type": "DrawDefault"
