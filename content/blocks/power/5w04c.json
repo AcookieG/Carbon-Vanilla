@@ -35,7 +35,17 @@
 		]
 	},
 	"attribute": "steam",
-	"generateEffect": "turbinegenerate"
+	"generateEffect":{
+"type": "ParticleEffect",
+"particles": 10,
+"length": 20,
+"lifetime": 50,
+"cone": 180,
+"sizeFrom": 4,
+"sizeTo": 0,
+"colorFrom": "3d3732",
+"colorTo": "665e56"
+},
 	"category": "production",
 	"research": "5w04b",
 	"ambientSound": "hum",
