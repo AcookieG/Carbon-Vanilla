@@ -39,11 +39,11 @@
 	"generateEffect": "turbinegenerate",
 	"category": "crafting",
 	"research": "5w04b",
-	"displayEfficiencyScale": 0.1111111111,
+	"displayEfficiencyScale": 0.11112,
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.1,
 	"displayEfficiency": false,
 	"outputLiquid": {"liquid": "methane", "amount": 0.5},
-	"minEfficiency": 1
+	"minEfficiency": 0.999999
 		"squareSprite": false,
 }
