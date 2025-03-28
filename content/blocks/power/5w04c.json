@@ -1,0 +1,44 @@
+{
+	"type": "ThermalGenerator",
+	"name": "Gas Trap",
+	"description": "A small platform to trap Fumes and generate power in the process.",
+	"health": 210,
+	"size": 3,
+	"powerProduction": 1.5,
+	"requirements": [
+		{"item": "silicon", "amount": 60},
+		{"item": "graphite", "amount": 60},
+		{"item": "iron", "amount": 30},
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "fumes",
+			},
+			{
+				"type": "DrawBlurSpin"
+				"suffix": "rotator"
+				"rotateSpeed": 0.9,
+				"blurThresh": 0.01
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"attribute": "steam",
+	"generateEffect": "turbinegenerate"
+	"category": "drills",
+	"research": "5w04b",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.1,
+	"displayEfficiency": false,
+	"outputLiquid": {"liquid": "fumes", "amount": 0.5},
+	"minEfficiency": 9
+}
