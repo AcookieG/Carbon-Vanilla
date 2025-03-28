@@ -34,7 +34,7 @@
 	},
 	"attribute": "steam",
 	"generateEffect": "turbinegenerate"
-	"category": "drills",
+	"category": "production",
 	"research": "5w04b",
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.1,
