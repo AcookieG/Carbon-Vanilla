@@ -39,6 +39,6 @@
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.1,
 	"displayEfficiency": false,
-	"outputLiquid": {"liquid": "fumes", "amount": 0.5},
+	"outputLiquid": {"liquid": "methane", "amount": 0.5},
 	"minEfficiency": 9
 }
