@@ -4,12 +4,12 @@
   "description": "Slowly releases liquids. Stronger than an normal conduit, but you better have a strong memory."
   "health": 80,
   "leaks": true,
-  "liquidCapacity": 1,
+  "liquidCapacity": 3,
 	"requirements": [
-		{"item": "graphite", "amount": 6},
-		{"item": "slate", "amount": 6},
+		{"item": "graphite", "amount": 12},
+		{"item": "slate", "amount": 8},
 	],
 	bridgeReplacement: 4w04
-  "research": "4w01",
+  "research": "5w05",
   "category": "liquid"
 }

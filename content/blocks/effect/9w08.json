@@ -6,6 +6,7 @@
 	"size": 1,
 	"hasPower": true,
 	"range": 40,
+	"speedBoost": 1.25
 	"reload": 80,
 	"hasBoost": false
 	"effectChance": 0.03
