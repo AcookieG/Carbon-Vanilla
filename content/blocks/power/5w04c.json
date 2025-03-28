@@ -5,6 +5,7 @@
 	"health": 210,
 	"size": 3,
 	"powerProduction": 1.5,
+	"liquidCapacity": 30,
 	"requirements": [
 		{"item": "silicon", "amount": 60},
 		{"item": "graphite", "amount": 60},
@@ -20,11 +21,12 @@
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "methane",
+				"padding": 3
 			},
 			{
 				"type": "DrawBlurSpin"
 				"suffix": "-rotator"
-				"rotateSpeed": 0.9,
+				"rotateSpeed": 2.5,
 				"blurThresh": 0.01
 			},
 			{
