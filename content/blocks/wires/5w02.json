@@ -5,7 +5,7 @@
   "health": 40,
 	"requirements": [
 		{"item": "graphite", "amount": 20},
-		{"item": "silicon", "amount": 20},
+		{"item": "iron", "amount": 20},
 	],
 	"consumes": {
   "powerBuffered": 5
