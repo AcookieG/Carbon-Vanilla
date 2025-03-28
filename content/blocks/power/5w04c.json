@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "fumes",
+				"drawLiquid": "methane",
 			},
 			{
 				"type": "DrawBlurSpin"
