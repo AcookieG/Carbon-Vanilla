@@ -1,20 +1,25 @@
 {
 	"name": "Boost",
-	"description": "Fires bouncing bullets.",
+	"description": "Fires three bullets in quick succession.",
 	"details": "Look at how cute it is!"
 	"type": "ItemTurret",
 	"health": 220,
 	"size": 1,
-	"reload": 40,
-	"shake": 0.05,
+	"reload": 60,
 	"range": 120,
 	"ammoUseEffect": "casing1",
 	"shootSound": "shoot",
-	"restitution": 0.01,
 	"shootCone": 15,
 	"hasLiquids": true,
-	"inaccuracy": 7,
-		"squareSprite": false,
+	"inaccuracy": 0,
+	"shoot": {
+		"type": "ShootPattern",
+		"shots": 3
+		"spread": 0
+		"shotDelay": 6
+	},
+	"outlineRadius": 0,
+	"squareSprite": false,
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
@@ -46,123 +51,39 @@
 			"type": "BasicBulletType",
 			"collideAir": true
 			"reloadMultiplier": 1,
-			"damage": 8,
+			"damage": 10,
 			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,
-			"lifetime": 9,
+			"lifetime": 20,
 			"bulletShrink": 0.6,
-			"speed": 6.2,
-			"fragOnHit": true,
-			"fragBullets": 1,
-			"fragRandomSpread": 0,
-			"fragBullet": {
-				"type": "BasicBulletType",
-				"collideAir": true
-				"damage": 8,
-				"width": 8,
-				"height": 12,
-				"lifetime": 9,
-				"bulletShrink": 0.6,
-				"speed": 6.2,
-				"fragOnHit": true,
-				"fragBullets": 1,
-				"fragRandomSpread": 0,
-				"fragBullet": {	
-					"type": "BasicBulletType",
-					"collideAir": true
-					"damage": 8,
-					"width": 8,
-					"height": 12,
-					"lifetime": 9,
-					"bulletShrink": 0.6,
-					"speed": 6.2,
-				}
-			}
+			"speed": 6,
 		},
 		"graphite": {
 			"type": "BasicBulletType",
 			"collideAir": true
-			"damage": 11,
+			"damage": 22,
 			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,
-			"lifetime": 12,
+			"lifetime": 20,
 			"bulletShrink": 0.6,
-			"speed": 6.6667,
-			"rangeChange": 50,
-			"fragOnHit": true,
-			"fragBullets": 1,
-			"fragRandomSpread": 0,
-			"fragBullet": {
-				"type": "BasicBulletType",
-				"collideAir": true
-				"damage": 11,
-				"width": 8,
-				"height": 12,
-				"lifetime": 12,
-				"bulletShrink": 0.6,
-				"speed": 6.6667,
-				"fragOnHit": true,
-				"fragBullets": 1,
-				"fragRandomSpread": 0,
-				"fragBullet": {	
-					"type": "BasicBulletType",
-					"collideAir": true
-					"reloadMultiplier": 1,
-					"damage": 11,
-					"ammoMultiplier": 2,
-					"width": 8,
-					"height": 12,
-					"lifetime": 12,
-					"bulletShrink": 0.6,
-					"speed": 6.6667,
-				}
-			}
+			"speed": 8,
+			"rangeChange": 40,
 		},
 		"silicon": {
 			"type": "BasicBulletType",
 			"collideAir": true
 			"reloadMultiplier": 0.8,
-			"damage": 10,
+			"damage": 18,
 			"ammoMultiplier": 1.5,
 			"width": 8,
 			"height": 12,
-			"lifetime": 12,
+			"lifetime": 20,
 			"bulletShrink": 0.6,
-			"speed": 6.2,
+			"speed": 6,
 			"homingPower": 0.02,
 			"homingRange": 40,
-			"fragOnHit": true,
-			"fragBullets": 1,
-			"fragRandomSpread": 0,
-			"fragBullet": {
-				"type": "BasicBulletType",
-				"collideAir": true
-				"damage": 13,
-				"width": 8,
-				"height": 12,
-				"lifetime": 12,
-				"bulletShrink": 0.6,
-				"speed": 6.2,
-				"homingPower": 0.02,
-				"homingRange": 40,
-				"fragOnHit": true,
-				"fragBullets": 1,
-				"fragRandomSpread": 0,
-				"fragBullet": {	
-					"type": "BasicBulletType",
-					"collideAir": true
-					"damage": 15,
-					"width": 8,
-					"height": 12,
-					"lifetime": 12,
-					"bulletShrink": 0.6,
-					"speed": 6.2,
-					"homingPower": 0.02,
-					"homingRange": 40,
-				}
-			}
 		},
 	},
 	"consumes": {
