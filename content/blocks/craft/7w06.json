@@ -41,7 +41,7 @@
 	"heatRequirement": 48
 	"maxEfficiency": 1
 	"consumes": {
-		"power": 5,
+		"power":16,
     "liquids":  [
 		{"liquid": "methane", "amount": 1},
 		{"liquid": "N", "amount": 0.2},
@@ -57,7 +57,7 @@
 	"research": "7w05",
 	"idleSound": "hum",
 	"idleSoundVolume": 0.12,
-	"outputLiquid": {"liquid": "slag", "amount": 0.2},
+	"outputLiquid": {"liquid": "slag", "amount": 0.1},
 	"craftTime": 60,
 	"squareSprite": false,
 	"conductivePower": true
