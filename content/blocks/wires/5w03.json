@@ -29,7 +29,7 @@
   "powerBuffered": 5
 	}
 	"category": "power",
-	"research": "5w01"
+	"research": "5w08"
 	"visualMaxHeat": 96
 		"squareSprite": false,
 		"conductivePower": true

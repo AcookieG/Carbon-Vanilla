@@ -1,0 +1,46 @@
+{
+	"name": "Coal Burner",
+	"description": 
+'''
+Hey this one is pretty clean!
+'''
+	"type": "HeaterGenerator"
+	"size": 2,
+	"health": 80,
+	"hasLiquids": false,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"powerProduction": 0.8,
+	"requirements": [
+		{ "item": "graphite", "amount": 80 },
+		{ "item": "iron", "amount": 40 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+		]
+	},
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "coal", "amount": 1}
+			]
+		},
+	},
+	"category": "power",
+	"conductivePower": true
+	"rotate": true
+	"loopSound": "hum",
+	"loopSoundVolume": 0.1,
+	"research": "5w04b",
+	"itemDuration": 30,
+	"squareSprite": false,
+	"heatOutput": 9,
+}

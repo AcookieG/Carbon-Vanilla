@@ -1,7 +1,7 @@
 {
 	"name": "Fume Metalisis Chamber",
 	"description": "Generates Slag through intense heat and pressure.",
-	"type": "GenericCrafter"
+	"type": "HeatCrafter"
 	"size": 4,
 	"health": 260,
 	"hasLiquids": true,
