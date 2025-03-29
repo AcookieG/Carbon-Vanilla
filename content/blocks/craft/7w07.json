@@ -1,0 +1,60 @@
+{
+	"name": "Alloy Foundry",
+	"description": "Cools down superheated Slag into a very dense alloy.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 160,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"updateEffect": "none",
+	"craftEffect": "none",
+	"liquidCapacity": 30,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "slag",
+				"alpha": 0.75,
+				"padding": 4,
+			},
+			{
+        "type": "DrawSoftParticles"
+      },
+			{
+        "type": "DrawCrucibleFlame"
+      },
+			{
+				"type": "DrawDefault",
+			},
+		]
+	},
+	"consumes": {
+		"power": 5.33333333,
+    "liquids":  [
+		{"liquid": "slag", "amount": 0.4},
+		{"liquid": "water", "amount": 0.5},
+		]
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 700 },
+		{ "item": "slate", "amount": 220 },
+		{ "item": "graphite", "amount": 80 },
+		{ "item": "iron", "amount": 130 },
+	],
+	"outputItems": [
+		{ "item": "dense", "amount": 1 },
+	],
+	"category": "crafting",
+	"research": "7w06",
+	"idleSound": "hum",
+	"idleSoundVolume": 0.12,
+	"craftTime": 120,
+	"squareSprite": false,
+	"conductivePower": true
+}
