@@ -27,12 +27,12 @@
 		"fragBullets": 20,
 		"fragBullet": {
 			"type": "BasicBulletType",
-			"damage": 16,
+			"damage": 24,
 			"lifeTime": 10,
-			"speed": 5,
+			"speed": 6,
 			"width": 3,
-			"height": 12,
-			"drag": 0.1
+			"height": 8,
+			"drag": 0.08
 			"despawnEffect": none,
 			"buildingDamageMultiplier": 0.01,
 		}
