@@ -37,7 +37,7 @@
 		]
 	},
 	"consumes": {
-		"power": 2,
+		"power": 1.2,
     "liquids":  [
 		{"liquid": "methane", "amount": 0.4},
 		{"liquid": "oil", "amount": 0.1},
