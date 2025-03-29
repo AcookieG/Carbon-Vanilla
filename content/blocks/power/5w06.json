@@ -1,0 +1,66 @@
+{
+	"name": "Large Oil Burner",
+	"details": '''
+And thus, Sharded kept on exploring new territories in hopes of fleeing the spores of Serpulo.
+But they were not running away from the danger,
+They are the danger.
+'''
+	"description": "Burns through liters of oil to generate more power. Explodes if impurities are not instantly removed."
+	"type": "ConsumeGenerator"
+	"size": 3,
+	"health": 180,
+	"liquidCapacity": 30,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"baseExplosiveness": 0.2,
+	"explosionRadius": 40,
+	"explosionDamage": 90,
+	"explosionShake": 0.6,
+	"powerProduction": 5.333333334,
+	"requirements": [
+		{ "item": "graphite", "amount": 90 },
+		{ "item": "silicon", "amount": 80 },
+		{ "item": "dense", "amount": 20 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "oil",
+				"padding": 3
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "stillwater",
+				"padding": 3
+			},
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatRegion"
+			},
+		]
+	},
+	"consumes": {
+		"liquid": {"liquid": "oil", "amount": 0.6},
+	},
+	"outputLiquid": {"liquid": "stillwater", "amount": 0.6},
+	"explodeOnFull": true
+	"category": "power",
+	"conductivePower": true
+	"rotate": false
+	"loopSound": "hum",
+	"loopSoundVolume": 0.1,
+	"research": "5w05",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.1,
+	"itemDuration": 60,
+	"squareSprite": false,
+}
