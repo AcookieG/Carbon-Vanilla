@@ -1,0 +1,64 @@
+{
+	"name": "Fume Metalisis Chamber",
+	"description": "Generates Slag through intense heat and pressure.",
+	"type": "GenericCrafter"
+	"size": 4,
+	"health": 260,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"updateEffect": "turbinegenerate",
+	"craftEffect": "none",
+	"liquidCapacity": 60,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "slag",
+				"padding": 4,
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-methane",
+			},
+			{
+        "type": "DrawMultiWeave"
+      },
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawHeatInput",
+				"suffix": "-heat",
+			},
+		]
+	},
+	"heatRequirement": 48
+	"maxEfficiency": 1
+	"consumes": {
+		"power": 5,
+    "liquids":  [
+		{"liquid": "methane", "amount": 1},
+		{"liquid": "N", "amount": 0.2},
+		]
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 120 },
+		{ "item": "slate", "amount": 60 },
+		{ "item": "sand", "amount": 110 },
+		{ "item": "iron", "amount": 220 },
+	],
+	"category": "crafting",
+	"research": "7w05",
+	"idleSound": "hum",
+	"idleSoundVolume": 0.12,
+	"outputLiquid": {"liquid": "slag", "amount": 0.2},
+	"craftTime": 60,
+	"squareSprite": false,
+	"conductivePower": true
+}
