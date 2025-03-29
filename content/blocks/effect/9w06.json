@@ -4,7 +4,7 @@
 	"type": "RegenProjector",
 	"health": 20,
 	"size": 1,
-	"hasPower": true,
+	"hasPower": false,
 	"range": 7,
 	"healPercent": 0.03,
 	"consumes": {

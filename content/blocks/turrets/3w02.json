@@ -26,11 +26,12 @@
 	"damage": 40,
 	"knockback": 0.8,
 	"buildingDamageMultiplier": 0.6
-	"width": 4,
+	"width": 2.5,
 	"drawFlare": true,
 	"hitEffect": none
 	"length": 80,
 	"status": "corroded"
+	"flareColor": d7bf74,
 }
 	"H": {
 	"type": "ContinuousFlameBulletType",
@@ -38,10 +39,11 @@
 	"damage": 80,
 	"knockback": 0.2,
 	"buildingDamageMultiplier": 0.2
-	"width": 2,
+	"width": 1,
 	"drawFlare": true,
 	"hitEffect": none
 	"length": 80,
+	"flareColor": d1e4ff,
 },
 "oil": {
 	"type": "ContinuousFlameBulletType",
@@ -49,13 +51,14 @@
 	"damage": 100,
 	"knockback": 0,
 	"buildingDamageMultiplier": 0.01
-	"width": 3,
+	"width": 1.5,
 	"drawFlare": true,
 	"hitEffect": "hitFlameSmall"
 	"length": 60,
 	"rangeChange": -20,
 	"status": "blasted"
 	"ammoMultiplier": 0.7
+	"flareColor": 000000,
 },
 	},
 	"requirements": [
