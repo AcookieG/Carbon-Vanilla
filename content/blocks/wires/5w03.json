@@ -30,7 +30,7 @@
 	}
 	"category": "power",
 	"research": "5w08"
-	"visualMaxHeat": 96
+	"visualMaxHeat": 48
 		"squareSprite": false,
 		"conductivePower": true
 	"hasPower": true
