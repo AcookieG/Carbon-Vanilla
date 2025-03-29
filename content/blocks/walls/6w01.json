@@ -24,12 +24,12 @@
 		"collidesTiles": false,
 		"shootEffect": none,
 		"despawnEffect": none,
-		"fragBullets": 8,
+		"fragBullets": 10,
 		"fragBullet": {
 			"type": "BasicBulletType",
-			"damage": 12,
-			"lifeTime": 24,
-			"speed": 12,
+			"damage": 8,
+			"lifeTime": 16,
+			"speed": 6,
 			"width": 3,
 			"height": 12,
 		}
