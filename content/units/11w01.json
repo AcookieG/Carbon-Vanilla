@@ -1,9 +1,13 @@
 {
-	"type": "flying",
+	"type": "ErekirUnitType",
 	"name": "Juli",
 	"health": 120,
 	"armor": 0,
 	"flying": true,
+	"lowAltitude ": false,
+	"coreUnitDock": true,
+	"isEnemy": false,
+	"hittable": false,
 	"maxVelocity": 4,
 	"rotateSpeed": 6,
 	"speed": 40,
@@ -24,7 +28,7 @@
 	"canAttack": false,
 	"trailLength": 10,
 	"outlineColor": 00000000,
-	"fogRadius": 4
+	"fogRadius": 0
 	"research": {
 		"parent": "9w01",
 		"requirements": [

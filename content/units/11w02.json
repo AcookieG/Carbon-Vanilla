@@ -1,0 +1,48 @@
+{
+	"type": "ErekirUnitType",
+	"name": "Charli",
+	"health": 320,
+	"armor": 6,
+	"flying": true,
+	"lowAltitude ": false,
+	"coreUnitDock": true,
+	"isEnemy": false,
+	"hittable": false,
+	"maxVelocity": 6,
+	"rotateSpeed": 6,
+	"speed": 40,
+	"accel": 0.004,
+	"drag": 0.05,
+	"hitSize": 12,
+	"mineTier": 2,
+	"mineSpeed": 1.9,
+	"circleTarget" : false,
+	"faceTarget": false,
+	"itemCapacity": 60,
+	"range": 0,
+	"engineOffset": 8,
+	"engineSize": 3.5,
+	"buildSpeed": 1.25,
+	"buildBeamOffset": 1,
+	"targetable": false,
+	"canAttack": false,
+	"trailLength": 12,
+	"outlineColor": 00000000,
+	"fogRadius": 0
+	"abilities":[
+	{
+		"type": "SuppressionFieldAbility",
+		"color": 8deebb,
+		"y": -4,
+		"orbRadius": 2,
+		"range": 80,
+		
+	}
+	"research": {
+		"parent": "11w02",
+		"requirements": [
+		{"item": "silicon", "amount": 220},
+		{"item": "iron", "amount": 140},
+		]
+	}
+}
