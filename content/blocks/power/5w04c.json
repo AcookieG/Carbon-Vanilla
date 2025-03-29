@@ -4,7 +4,7 @@
 	"description": "A small platform to trap Fumes and generate power in the process.",
 	"health": 210,
 	"size": 3,
-	"powerProduction": 1.5,
+	"powerProduction": 0.16666666666667,
 	"liquidCapacity": 30,
 	"requirements": [
 		{"item": "silicon", "amount": 60},
@@ -34,12 +34,12 @@
 			},
 		]
 	},
-	"attribute": "production",
+	"attribute": "steam",
 	"effectChance": 0.035
 	"generateEffect": "turbinegenerate",
-	"category": "crafting",
+	"category": "production",
 	"research": "5w04b",
-	"displayEfficiencyScale": 0.11112,
+	"displayEfficiencyScale": 0.1111111,
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.1,
 	"displayEfficiency": false,
