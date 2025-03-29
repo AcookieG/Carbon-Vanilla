@@ -18,7 +18,7 @@
 				"suffix": "-bottom",
 			},
 			{
-				"type": "DrawLiquid",
+				"type": "DrawLiquidTile",
 				"drawLiquid": "N",
 				"padding": 3,
 			},
@@ -27,7 +27,7 @@
 				"suffix": "-methane",
 			},
 			{
-				"type": "DrawLiquid",
+				"type": "DrawLiquidTile",
 				"drawLiquid": "methane",
 				"padding": 9,
 			},
