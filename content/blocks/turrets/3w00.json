@@ -2,7 +2,7 @@
 	"name": "Radar",
 	"description": "To conquer new places.",
 	"type": "Radar",
-	"health": 100,
+	"health": 120,
 	"size": 1,
 	"hasPower": true,
 	"hasItems": false,
@@ -14,10 +14,10 @@
 		{"item": "graphite", "amount": 20},
 	],
 	"consumes": {
-		"power": 1,
+		"power": 0.5,
 	},
 	"category": "turret",
 	"research": "3w01"
 	"conductivePower": true
-	"fogRadius": 50,
+	"fogRadius": 34,
 }

@@ -3,7 +3,7 @@
 	"description": "Fires three bullets in quick succession.",
 	"details": "Look at how cute it is!"
 	"type": "ItemTurret",
-	"health": 220,
+	"health": 310,
 	"size": 1,
 	"reload": 60,
 	"range": 120,
@@ -29,7 +29,7 @@
 			"type": "BasicBulletType",
 			"collideAir": true
 			"reloadMultiplier": 1,
-			"damage": 10,
+			"damage": 11,
 			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,

@@ -2,7 +2,7 @@
 	"name": "Flare",
 	"description": "Fires a continuous fire breath at enemies.",
 	"type": "ContinuousLiquidTurret",
-	"health": 230,
+	"health": 330,
 	"size": 1,
 	"reload": 60,
 	"range": 80,
@@ -23,7 +23,7 @@
 "methane": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["766257", "b49a76", "d7bf74", "ffffff"],
-	"damage": 40,
+	"damage": 2,
 	"knockback": 0.8,
 	"buildingDamageMultiplier": 0.6
 	"width": 2.5,
@@ -32,23 +32,28 @@
 	"length": 80,
 	"status": "corroded"
 	"flareColor": d7bf74,
+	"flareLength": 10
+	"flareWidth": 4
 }
 	"H": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
-	"damage": 80,
+	"damage": 3,
 	"knockback": 0.2,
 	"buildingDamageMultiplier": 0.2
 	"width": 1,
 	"drawFlare": true,
 	"hitEffect": none
+	"status": "burning"
 	"length": 80,
 	"flareColor": d1e4ff,
+	"flareLength": 25
+	"flareWidth": 2.5
 },
 "oil": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["000000", "606060", "aaaaaa", "ffffff"],
-	"damage": 100,
+	"damage": 6,
 	"knockback": 0,
 	"buildingDamageMultiplier": 0.01
 	"width": 1.5,
@@ -59,6 +64,8 @@
 	"status": "blasted"
 	"ammoMultiplier": 0.7
 	"flareColor": 000000,
+	"flareLength": 40
+	"flareWidth": 6
 },
 	},
 	"requirements": [
