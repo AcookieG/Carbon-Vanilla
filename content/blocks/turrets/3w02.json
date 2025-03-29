@@ -1,0 +1,67 @@
+{
+	"name": "Flare",
+	"description": "Fires a continuous fire breath at enemies.",
+	"type": "ContinuousLiquidTurret",
+	"health": 230,
+	"size": 1,
+	"reload": 60,
+	"range": 80,
+	"liquidConsumed": 0.2,
+	"liquidCapacity": 20
+	"loopSound": "torch",
+	"loopSoundVolume": 0.3,
+	"shootCone": 15,
+	"hasLiquids": true,
+	"inaccuracy": 0,
+	"outlineRadius": 4,
+	"squareSprite": false,
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-"
+	},
+	"ammoTypes": {
+"methane": {
+	"type": "ContinuousFlameBulletType",
+	"colors": ["766257", "b49a76", "d7bf74", "ffffff"],
+	"damage": 40,
+	"knockback": 0.8,
+	"buildingDamageMultiplier": 0.6
+	"width": 4,
+	"drawFlare": true,
+	"hitEffect": none
+	"length": 80,
+	"status": "corroded"
+}
+	"H": {
+	"type": "ContinuousFlameBulletType",
+	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
+	"damage": 80,
+	"knockback": 0.2,
+	"buildingDamageMultiplier": 0.2
+	"width": 2,
+	"drawFlare": true,
+	"hitEffect": none
+	"length": 80,
+},
+"oil": {
+	"type": "ContinuousFlameBulletType",
+	"colors": ["000000", "606060", "aaaaaa", "ffffff"],
+	"damage": 100,
+	"knockback": 0,
+	"buildingDamageMultiplier": 0.01
+	"width": 3,
+	"drawFlare": true,
+	"hitEffect": "hitFlameSmall"
+	"length": 60,
+	"rangeChange": -20,
+	"status": "blasted"
+	"ammoMultiplier": 0.7
+},
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 80 },
+		{ "item": "slate", "amount": 80 },
+	],
+	"category": "turret",
+	"research": "3w01"
+}
