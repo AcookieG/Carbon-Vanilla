@@ -43,7 +43,7 @@
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.1,
 	"displayEfficiency": false,
-	"outputLiquid": {"liquid": "methane", "amount": 0.05555555},
+	"outputLiquid": {"liquid": "methane", "amount": 0.0222222222222},
 	"minEfficiency": 0.999999
 		"squareSprite": false,
 }
