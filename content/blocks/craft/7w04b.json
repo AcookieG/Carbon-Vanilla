@@ -18,7 +18,7 @@
 			]
 		},
 		"liquids":  [
-		{"liquid": "methane", "amount": 0.1},
+		{"liquid": "methane", "amount": 0.2},
 		]
 	},
 	"requirements": [
