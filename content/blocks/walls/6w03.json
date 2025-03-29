@@ -2,7 +2,7 @@
 	"name": "Graphite Wall",
 	"description": "The standard wall.",
 	"type": "Wall",
-	"health": 400,
+	"health": 420,
 	"size": 1,
 	"requirements": [
 		{ "item": "graphite", "amount": 6 }

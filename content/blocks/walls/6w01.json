@@ -24,14 +24,17 @@
 		"collidesTiles": false,
 		"shootEffect": none,
 		"despawnEffect": none,
-		"fragBullets": 10,
+		"fragBullets": 6,
 		"fragBullet": {
 			"type": "BasicBulletType",
-			"damage": 8,
-			"lifeTime": 16,
-			"speed": 6,
+			"damage": 12,
+			"lifeTime": 10,
+			"speed": 5,
 			"width": 3,
 			"height": 12,
+			"drag": 0.1
+			"despawnEffect": none,
+			"buildingDamageMultiplier": 0.01,
 		}
 	}
 	"destroyBulletSameTeam": true
