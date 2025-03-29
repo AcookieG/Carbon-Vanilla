@@ -18,14 +18,18 @@
 				"suffix": "-bottom",
 			},
 			{
-				"type": "DrawLiquidRegion",
-				"suffix": "-methane",
-				"drawLiquid": "methane",
+				"type": "DrawLiquid",
+				"drawLiquid": "N",
+				"padding": 3,
 			},
 			{
-				"type": "DrawLiquidRegion",
-				"suffix": "-N",
-				"drawLiquid": "N",
+				"type": "DrawRegion",
+				"suffix": "-methane",
+			},
+			{
+				"type": "DrawLiquid",
+				"drawLiquid": "methane",
+				"padding": 9,"
 			},
 			{
 				"type": "DrawDefault",
