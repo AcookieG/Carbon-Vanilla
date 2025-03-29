@@ -1,12 +1,11 @@
 {
-	"type": "ErekirUnitType",
+	"type": "UnitType",
 	"name": "Charli",
 	"health": 320,
 	"armor": 6,
 	"flying": true,
 	"lowAltitude ": false,
 	"coreUnitDock": true,
-	"isEnemy": false,
 	"hittable": false,
 	"maxVelocity": 6,
 	"rotateSpeed": 6,

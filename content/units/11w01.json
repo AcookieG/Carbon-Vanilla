@@ -1,12 +1,11 @@
 {
-	"type": "ErekirUnitType",
+	"type": "UnitType",
 	"name": "Juli",
 	"health": 120,
 	"armor": 0,
 	"flying": true,
 	"lowAltitude ": false,
 	"coreUnitDock": true,
-	"isEnemy": false,
 	"hittable": false,
 	"maxVelocity": 4,
 	"rotateSpeed": 6,
