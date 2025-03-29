@@ -1,0 +1,12 @@
+{
+	"name": "Graphite Wall",
+	"description": "The standard wall.",
+	"type": "Wall",
+	"health": 400,
+	"size": 1,
+	"requirements": [
+		{ "item": "graphite", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "6w01",
+}

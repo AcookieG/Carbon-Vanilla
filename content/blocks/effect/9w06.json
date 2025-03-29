@@ -6,7 +6,7 @@
 	"size": 1,
 	"hasPower": true,
 	"range": 7,
-	"healPercent": 0.2,
+	"healPercent": 0.05,
 	"consumes": {
 		"liquid": {
 			"liquid": "water", 
