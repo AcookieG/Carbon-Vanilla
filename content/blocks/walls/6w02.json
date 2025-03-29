@@ -10,29 +10,28 @@
 	"category": "defense",
 	"research": "6w02",
 	"destroyBullet": {
-		type: BasicBulletType
-		instantDisappear: true
-		hitSound: explosion
-		hitSoundVolume: 1
-		damage: 40
-		lifeTime: 1
-		speed: 0
-		width: 20
-		height: 20
-		collidesAir: false
-		collidesGround: false
-		collidesTiles: false
-		shootEffect: none
-		despawnEffect: none
-		fragBullets: 24
-		fragBullet: {
-			type: BasicBulletType
-			damage: 16
-			lifeTime: 24
-			speed: 12
-			width: 3
-			height: 12
-		}
+		"type": "BasicBulletType",
+		"instantDisappear": true,
+		"hitSound": "explosion",
+		"hitSoundVolume": 1,
+		"damage": 40,
+		"lifeTime": 1,
+		"speed": 0,
+		"width": 20,
+		"height": 20,
+		"collidesAir": false,
+		"collidesGround": false,
+		"collidesTiles": false,
+		"shootEffect": none,
+		"despawnEffect": none,
+		"fragBullets": 24,
+		"fragBullet": {
+			"type": "BasicBulletType",
+			"damage": 16,
+			"lifeTime": 24,
+			"speed": 12,
+			"width": 3,
+			"height": 12,
 		}
 	}
 	"destroyBulletSameTeam": true
