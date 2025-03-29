@@ -1,6 +1,5 @@
 {
 	"type": "Liquid",
-	"moveThroughBlocks": false,
 	"canStayOn": [],
 	"incinerable": true,
 	"name": "Nitrogen",

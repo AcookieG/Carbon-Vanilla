@@ -2,7 +2,7 @@
 	"type": "CoreBlock",
 	"name": "Bay"
 	"size": 4,
-	"itemCapacity": 9000,
+	"itemCapacity": 6000,
 	"hasItems": true,
 	"health": 1200,
 	"isFirstTier": false

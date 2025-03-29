@@ -54,7 +54,7 @@
 	"research": "7w06",
 	"idleSound": "hum",
 	"idleSoundVolume": 0.12,
-	"craftTime": 120,
+	"craftTime": 60,
 	"squareSprite": false,
 	"conductivePower": true
 }

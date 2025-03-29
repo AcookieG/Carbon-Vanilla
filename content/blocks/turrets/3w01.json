@@ -69,7 +69,7 @@
 		"amount": 0.2
 		}
 	},
-	"coolantMultiplier": 1
+	"coolantMultiplier": 3
 	"requirements": [
 		{ "item": "sand", "amount": 20 },
 		{ "item": "scrap", "amount": 30 },

@@ -1,0 +1,22 @@
+{
+	"name": "Radar",
+	"description": "To conquer new places.",
+	"type": "Radar",
+	"health": 100,
+	"size": 1,
+	"hasPower": true,
+	"hasItems": false,
+	"discoveryTime": 1200,
+	"glowColor": 364166,
+	"hasBoost": false
+	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "graphite", "amount": 20},
+	],
+	"consumes": {
+		"power": 1,
+	},
+	"category": "turret",
+	"research": "3w01"
+	"conductivePower": true
+}
