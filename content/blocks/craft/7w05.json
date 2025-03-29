@@ -29,7 +29,7 @@
 			{
 				"type": "DrawLiquid",
 				"drawLiquid": "methane",
-				"padding": 9,"
+				"padding": 9,
 			},
 			{
 				"type": "DrawDefault",
