@@ -10,7 +10,7 @@
 	"glowColor": 364166,
 	"hasBoost": false
 	"requirements": [
-		{"item": "silicon", "amount": 20},
+		{"item": "scrap", "amount": 50},
 		{"item": "graphite", "amount": 20},
 	],
 	"consumes": {
