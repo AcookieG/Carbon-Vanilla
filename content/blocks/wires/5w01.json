@@ -1,17 +1,13 @@
 {
-  "type": "LiquidRouter",
+  "type": "battery",
   "name": "Wire",
-  "description": "Transports and stores power. May or may not also be replacement for junctions, as wires are actually textured pipes.",
+  "description": "Transports and stores power.",
   "health": 20,
-	"liquidCapacity": 0,
 	"requirements": [
 		{"item": "graphite", "amount": 2},
 		{"item": "slate", "amount": 2},
 	],
-	"consumes": {
-  "powerBuffered": 5,
-	} 
-	"bridgeReplacement": "5w02",
+	"consumes": {"powerBuffered": 5,} 
   "research": "9w01",
   "category": "power",
 	"buildCostMultiplier": 1,

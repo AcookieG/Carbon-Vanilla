@@ -22,7 +22,7 @@
 	"engineOffset": 5,
 	"engineSize": 2.5,
 	"buildSpeed": 1,
-	"buildBeamOffset": 1,
+	"buildBeamOffset": 4,
 	"targetable": false,
 	"canAttack": false,
 	"trailLength": 10,
