@@ -72,7 +72,7 @@
 	"coolantMultiplier": 1
 	"requirements": [
 		{ "item": "sand", "amount": 20 },
-		{ "item": "scrap", "amount": 20 },
+		{ "item": "scrap", "amount": 30 },
 	],
 	"category": "turret",
 	"research": "9w01"

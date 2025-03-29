@@ -41,7 +41,7 @@
 	"heatRequirement": 48
 	"maxEfficiency": 1.25
 	"consumes": {
-		"power":16,
+		"power":8.66666667,
     "liquids":  [
 		{"liquid": "methane", "amount": 1},
 		{"liquid": "N", "amount": 0.2},

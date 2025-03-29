@@ -20,7 +20,7 @@
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "slag",
-				"alpha": 0.75,
+				"alpha": 1,
 				"padding": 4,
 			},
 			{
@@ -35,7 +35,7 @@
 		]
 	},
 	"consumes": {
-		"power": 5.33333333,
+		"power": 4.66666667,
     "liquids":  [
 		{"liquid": "slag", "amount": 0.4},
 		{"liquid": "water", "amount": 0.5},
