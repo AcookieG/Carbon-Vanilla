@@ -1,0 +1,62 @@
+{
+	"name": "Grease Centrifuge",
+	"description": "Extracts oil using coal and fumes.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 270,
+	"liquidCapacity": 10,
+	"itemCapacity": 10,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "smoke",
+	"craftEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "coal", "amount": 1}
+			]
+		},
+		"liquids":  [
+		{"liquid": "methane", "amount": 0.1},
+		]
+	},
+	"requirements": [
+		{ "item": "iron", "amount": 60 },
+		{ "item": "graphite", "amount": 60 },
+		{ "item": "sand", "amount": 120 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "oil",
+				"padding": 2,
+			},
+			{
+				"type": "DrawRegion",
+				"spinSprite": true,
+				"rotateSpeed": 2,
+				"suffix": "-spinner",
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"category": "crafting",
+	"rotate": false
+	"research": "7w03",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.03,
+	"outputLiquids": [
+		{ "liquid": "oil", "amount": 0.2 },
+	],
+	"craftTime": 60,
+	"squareSprite": false,
+}
