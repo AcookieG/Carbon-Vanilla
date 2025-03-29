@@ -23,7 +23,7 @@
 "methane": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["766257", "b49a76", "d7bf74", "ffffff"],
-	"damage": 5,
+	"damage": 12,
 	"knockback": 0.8,
 	"buildingDamageMultiplier": 1.6
 	"width": 2.5,
@@ -38,7 +38,7 @@
 	"H": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
-	"damage": 7,
+	"damage": 16,
 	"knockback": 0.2,
 	"buildingDamageMultiplier": 0.2
 	"width": 1,
@@ -53,7 +53,7 @@
 "oil": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["000000", "606060", "aaaaaa", "ffffff"],
-	"damage": 10,
+	"damage": 25,
 	"knockback": 0,
 	"buildingDamageMultiplier": 0.01
 	"width": 1.5,

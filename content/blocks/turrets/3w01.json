@@ -29,7 +29,7 @@
 			"type": "BasicBulletType",
 			"collideAir": true
 			"reloadMultiplier": 1,
-			"damage": 11,
+			"damage": 44,
 			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,
@@ -40,7 +40,7 @@
 		"graphite": {
 			"type": "BasicBulletType",
 			"collideAir": true
-			"damage": 22,
+			"damage": 65,
 			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,
@@ -53,7 +53,7 @@
 			"type": "BasicBulletType",
 			"collideAir": true
 			"reloadMultiplier": 0.8,
-			"damage": 18,
+			"damage": 52,
 			"ammoMultiplier": 1.5,
 			"width": 8,
 			"height": 12,

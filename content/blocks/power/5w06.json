@@ -17,7 +17,7 @@ They are the danger.
 	"explosionRadius": 40,
 	"explosionDamage": 90,
 	"explosionShake": 0.6,
-	"powerProduction": 5.333333334,
+	"powerProduction": 6,
 	"requirements": [
 		{ "item": "graphite", "amount": 90 },
 		{ "item": "silicon", "amount": 80 },

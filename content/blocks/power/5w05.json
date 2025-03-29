@@ -22,7 +22,7 @@ You re-created life, but at what cost?
 	"explosionRadius": 24,
 	"explosionDamage": 30,
 	"explosionShake": 0.2,
-	"powerProduction": 1.2,
+	"powerProduction": 1.4,
 	"requirements": [
 		{ "item": "sand", "amount": 80 },
 		{ "item": "slate", "amount": 60 },
