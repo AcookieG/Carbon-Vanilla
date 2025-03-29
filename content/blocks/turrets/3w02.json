@@ -23,37 +23,37 @@
 "methane": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["766257", "b49a76", "d7bf74", "ffffff"],
-	"damage": 2,
+	"damage": 5,
 	"knockback": 0.8,
-	"buildingDamageMultiplier": 0.6
+	"buildingDamageMultiplier": 1.6
 	"width": 2.5,
 	"drawFlare": true,
 	"hitEffect": none
 	"length": 80,
-	"status": "corroded"
+	"status": "corroded",
 	"flareColor": d7bf74,
-	"flareLength": 10
-	"flareWidth": 4
+	"flareLength": 20,
+	"flareWidth": 4,
 }
 	"H": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
-	"damage": 3,
+	"damage": 7,
 	"knockback": 0.2,
 	"buildingDamageMultiplier": 0.2
 	"width": 1,
 	"drawFlare": true,
 	"hitEffect": none
-	"status": "burning"
+	"status": "burning",
 	"length": 80,
 	"flareColor": d1e4ff,
-	"flareLength": 25
-	"flareWidth": 2.5
+	"flareLength": 25,
+	"flareWidth": 2.5,
 },
 "oil": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["000000", "606060", "aaaaaa", "ffffff"],
-	"damage": 6,
+	"damage": 10,
 	"knockback": 0,
 	"buildingDamageMultiplier": 0.01
 	"width": 1.5,
@@ -61,11 +61,11 @@
 	"hitEffect": "hitFlameSmall"
 	"length": 60,
 	"rangeChange": -20,
-	"status": "blasted"
-	"ammoMultiplier": 0.7
+	"status": "tarred",
+	"ammoMultiplier": 1
 	"flareColor": 000000,
-	"flareLength": 40
-	"flareWidth": 6
+	"flareLength": 40,
+	"flareWidth": 6,
 },
 	},
 	"requirements": [
