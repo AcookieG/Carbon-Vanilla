@@ -18,33 +18,11 @@
 		"spread": 0
 		"shotDelay": 6
 	},
-	"outlineRadius": 0,
+	"outlineRadius": 4,
 	"squareSprite": false,
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
-	"parts": [
-		{
-			"type": "RegionPart",
-			"suffix": "-wing",
-			"moveY": 0,
-			"moveX": 0,
-			"moveRot": -45,
-			"mirror": true,
-			"progress": "recoil"
-			"layerOffset": -0.001,
-			"outlineLayerOffset": 0.001,
-		},
-		{
-			"type": "RegionPart",
-			"suffix": "",
-			"moveY": 0,
-			"moveX": 0,
-			"moveRot": 0,
-			"mirror": false,
-			"progress": "warmup"
-		},
-	]
 	},
 	"ammoTypes": {
 		"scrap": {
@@ -55,9 +33,9 @@
 			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,
-			"lifetime": 20,
+			"lifetime": 30,
 			"bulletShrink": 0.6,
-			"speed": 6,
+			"speed": 4,
 		},
 		"graphite": {
 			"type": "BasicBulletType",
