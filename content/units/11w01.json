@@ -27,7 +27,7 @@
 	"canAttack": false,
 	"trailLength": 10,
 	"outlineColor": 00000000,
-	"fogRadius": 0
+	"fogRadius": 4
 	"research": {
 		"parent": "9w01",
 		"requirements": [

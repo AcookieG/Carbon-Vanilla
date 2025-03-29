@@ -8,9 +8,9 @@
 	"coreUnitDock": true,
 	"hittable": false,
 	"maxVelocity": 6,
-	"rotateSpeed": 6,
+	"rotateSpeed": 7,
 	"speed": 40,
-	"accel": 0.004,
+	"accel": 0.003,
 	"drag": 0.05,
 	"hitSize": 12,
 	"mineTier": 2,
@@ -19,7 +19,7 @@
 	"faceTarget": false,
 	"itemCapacity": 60,
 	"range": 0,
-	"engineOffset": 8,
+	"engineOffset": 7,
 	"engineSize": 3.5,
 	"buildSpeed": 1.25,
 	"buildBeamOffset": 1,
@@ -27,17 +27,7 @@
 	"canAttack": false,
 	"trailLength": 12,
 	"outlineColor": 00000000,
-	"fogRadius": 0
-	"abilities":[
-	{
-		"type": "SuppressionFieldAbility",
-		"color": 8deebb,
-		"y": -4,
-		"orbRadius": 2,
-		"range": 80,
-		
-	}
-	]
+	"fogRadius": 7
 	"research": {
 		"parent": "11w02",
 		"requirements": [
