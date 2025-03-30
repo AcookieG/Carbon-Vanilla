@@ -1,0 +1,21 @@
+{
+  "type": "Battery",
+  "name": "Capacitor",
+  "description": "Stores large amounts of power.",
+  "health": 100,
+	"requirements": [
+		{"item": "graphite", "amount": 40},
+		{"item": "slate", "amount": 40},
+		{"item": "sand", "amount": 90},
+	],
+	"consumes": {"powerBuffered": 5000,} 
+  "research": "5w01",
+  "category": "power",
+	"buildCostMultiplier": 1,
+	"conductivePower": true,
+	"hasPower": true,
+	"outputsPower": true,
+	"squareSprite": false,
+	"emptyLightColor": 70405d
+	"fullLightColor": cf6d9c
+}
