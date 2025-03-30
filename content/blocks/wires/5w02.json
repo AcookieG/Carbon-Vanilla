@@ -4,17 +4,17 @@
   "description": "Electric bridges! Stupid expensive tho.",
   "health": 40,
 	"requirements": [
-		{"item": "graphite", "amount": 20},
-		{"item": "iron", "amount": 20},
+		{"item": "graphite", "amount": 40},
+		{"item": "iron", "amount": 40},
 	],
 	"consumes": {
   "powerBuffered": 5
 	} 
-	"range": 7
+	"range": 5
 	"lazerColor2": "cf6d9c"
   "research": "5w01",
   "category": "power"
-	"buildCostMultiplier": 1
+	"buildCostMultiplier": 2
 	"conductivePower": true
 	"hasPower": true
 	"outputsPower": true
