@@ -1,7 +1,7 @@
 {
-  "type": "Conduit",
-  "name": "Binary Wire",
-  "description": "Transports and stores power.",
+  "type": "LiquidJunction",
+  "name": "Crosswire",
+  "description": "For visual reasons.",
   "health": 20,
 	"liquidCapacity": 0,
 	"requirements": [
@@ -9,12 +9,11 @@
 		{"item": "slate", "amount": 2},
 	],
 	"consumes": {"powerBuffered": 5,} 
-  "research": "9w01",
+  "research": "5w01b",
   "category": "power",
 	"buildCostMultiplier": 1,
 	"conductivePower": true,
 	"hasPower": true,
 	"outputsPower": true,
 	"squareSprite": false,
-	"junctionReplacement": 5w01b
 }
