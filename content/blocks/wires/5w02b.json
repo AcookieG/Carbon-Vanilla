@@ -1,9 +1,10 @@
 {
-  "type": "Battery",
+  "type": "LiquidTank",
   "name": "Capacitor",
   "description": "Stores large amounts of power.",
   "health": 100,
 	"size": 2,
+	"liquidCapacity": 0,
 	"requirements": [
 		{"item": "graphite", "amount": 40},
 		{"item": "slate", "amount": 40},
