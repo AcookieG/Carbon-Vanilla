@@ -6,7 +6,7 @@
 	"size": 1,
 	"reload": 4,
 	"range": 100,
-	"fogRadius": 10,
+	"fogRadius": 4.25,
 	"liquidCapacity": 10
 	"shootEffect": "shootLiquid",
 	"shootCone": 50,

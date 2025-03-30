@@ -6,7 +6,7 @@
 	"size": 1,
 	"reload": 60,
 	"range": 80,
-	"fogRadius": 8,
+	"fogRadius": 5,
 	"liquidConsumed": 0.2,
 	"liquidCapacity": 20
 	"loopSound": "torch",

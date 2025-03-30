@@ -7,7 +7,7 @@
 	"size": 1,
 	"reload": 60,
 	"range": 120,
-	"fogRadius": 12,
+	"fogRadius": 7.5,
 	"ammoUseEffect": "casing1",
 	"shootSound": "shoot",
 	"shootCone": 15,
