@@ -4,7 +4,7 @@
 	"health": 120,
 	"armor": 0,
 	"flying": true,
-	"lowAltitude ": false,
+	"lowAltitude ": true,
 	"coreUnitDock": true,
 	"hittable": false,
 	"maxVelocity": 4,

@@ -2,8 +2,8 @@ localizedName: Basin
 description: 
 ''' 
 		You find yourself stuck in a crater, as you fail your escape from Erekir.
+		Enemy forces are slowly approaching.
 		Find a way out as soon as possible.
-
 ''' 
 captureWave: 10
 planet: Oodun
