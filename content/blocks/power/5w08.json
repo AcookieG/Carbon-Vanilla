@@ -40,7 +40,7 @@ Hey this one is pretty clean!
 	"loopSound": "hum",
 	"loopSoundVolume": 0.1,
 	"research": "5w04b",
-	"itemDuration": 20,
+	"itemDuration": 30,
 	"squareSprite": false,
 	"heatOutput": 9,
 }

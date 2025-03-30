@@ -35,13 +35,13 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "oil",
+				"drawLiquid": "fumes",
 				"padding": 2,
 			},
 			{
 				"type": "DrawRegion",
 				"spinSprite": true,
-				"rotateSpeed": 2,
+				"rotateSpeed": 3,
 				"suffix": "-spinner",
 			},
 			{
