@@ -8,7 +8,7 @@
 	"drillTime": 400,
 	"itemCapacity": 10,
 	"drawRim": false,
-	"drawMineItem": false,
+	"drawMineItem": true,
 	"rotateSpeed": 1.5
 	"consumes": {
 		"liquid": {
