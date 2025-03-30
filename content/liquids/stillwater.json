@@ -21,6 +21,6 @@
 	"explosiveness": 0,
 	"temperature": 0.5,
 	"flammability": 0.0,
-	"research": "water",
+	"research": "methane",
 	"effect": "slow"
 }

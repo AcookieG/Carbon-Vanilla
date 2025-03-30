@@ -16,6 +16,6 @@
 	"explosiveness": 0.2,
 	"temperature": 0.5,
 	"flammability": 0.3,
-	"research": "water",
+	"research": 9w01,
 	"gas": true,
 }

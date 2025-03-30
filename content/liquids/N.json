@@ -14,6 +14,6 @@
 	"explosiveness": 0.0,
 	"temperature": 0.3,
 	"flammability": 0.0,
-	"research": "O",
+	"research": "methane",
 	"gas": true,
 }
