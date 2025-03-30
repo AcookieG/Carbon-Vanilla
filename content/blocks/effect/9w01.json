@@ -10,7 +10,12 @@
 		{"item": "graphite", "amount": 800},
 		{"item": "slate", "amount": 200}
 	]
-	"research": "conveyor",
+"research": {
+  "planet": Oodun
+  "root": true
+  "name": Oodun
+  "requiresUnlock": false
+}
 	"category": "effect",
 	"unitType": "11w01"
 	"squareSprite": false,
