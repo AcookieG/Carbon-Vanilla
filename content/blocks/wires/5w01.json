@@ -1,8 +1,9 @@
 {
-  "type": "battery",
+  "type": "conduit",
   "name": "Wire",
   "description": "Transports and stores power.",
   "health": 20,
+	"liquidCapacity": 0,
 	"requirements": [
 		{"item": "graphite", "amount": 2},
 		{"item": "slate", "amount": 2},
@@ -14,6 +15,4 @@
 	"conductivePower": true,
 	"hasPower": true,
 	"outputsPower": true,
-	"conveyorPlacement": true,
-	"allowDiagonal": false, 
 }
