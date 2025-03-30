@@ -12,7 +12,7 @@
 	"consumes": {"powerBuffered": 5000,} 
   "research": "5w01",
   "category": "power",
-	"buildCostMultiplier": 1,
+	"buildCostMultiplier": 0.6,
 	"conductivePower": true,
 	"hasPower": true,
 	"outputsPower": true,

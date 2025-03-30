@@ -15,6 +15,6 @@
 	"conductivePower": true,
 	"hasPower": true,
 	"outputsPower": true,
-	"squareSprite": true,
+	"squareSprite": false,
 	"junctionReplacement": 5w01b
 }
