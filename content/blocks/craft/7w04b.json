@@ -35,7 +35,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "fumes",
+				"drawLiquid": "methane",
 				"padding": 2,
 			},
 			{
