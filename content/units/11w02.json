@@ -1,38 +1,73 @@
 {
-	"type": "flying",
-	"name": "Charli",
-	"health": 320,
-	"armor": 6,
-	"flying": true,
-	"lowAltitude ": false,
-	"coreUnitDock": true,
-	"hittable": false,
-	"maxVelocity": 6,
-	"rotateSpeed": 7,
-	"speed": 40,
-	"accel": 0.003,
-	"drag": 0.05,
-	"hitSize": 12,
-	"mineTier": 2,
-	"mineSpeed": 3.5,
-	"circleTarget" : false,
-	"faceTarget": false,
-	"itemCapacity": 60,
-	"range": 0,
-	"engineOffset": 7,
-	"engineSize": 3.5,
-	"buildSpeed": 1.5,
-	"buildBeamOffset": 6,
-	"targetable": false,
-	"canAttack": false,
-	"trailLength": 12,
-	"outlineColor": 00000000,
-	"fogRadius": 7
+	"type": "tank",
+	"name": "Roll"
+	"description": "A small ground unit with treads for better movement. Extreme range.",
+	"rotateSpeed": 2,
+	"speed": 1,
+	"flying": false,
+	"range": 260,
+	"drownTimeMultiplier": 2.5
+	"armor": 3,
+	"hitSize": 15,
+	"health": 150,
+	"squareShape": true,
+	"treadFrames": 18,
+	"treadPullOffset": 6,
+	"treadRects": [
+		{
+		"x": 6,
+		"y": -25.5,
+		"width": 14
+		"height": 51
+		}
+	],
+	"omniMovement": false,
+	"rotateMoveFirst": true,
+	"immunities": [
+		"blasted"
+	],
+	"weapons": [
+		{
+			"name": "roll-gun",
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 72,
+			"ejectEffect": "casing1",
+			"inaccuracy": 3,
+			"shootSound": "shoot"
+			"rotate": true
+			"shake": 0.5
+			"shootCone": 30,
+			"x": 0
+			"y": 0
+			"shootY": 8
+			"mirror": false
+			"shootEffect": "shootBig"
+			"rotateSpeed": 1.4,
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 10,
+				"damage": 40,
+				"lifetime": 26,
+				"width": 9,
+				"height": 13,
+				"smokeEffect": "shootBigSmoke"
+layer: 110
+			},
+		}
+	]
+	"outlineColor": "00000000",
 	"research": {
-		"parent": "11w02",
+		"parent": "dagger"
 		"requirements": [
-		{"item": "silicon", "amount": 220},
-		{"item": "iron", "amount": 140},
+			{
+				"item": "titanium",
+				"amount": 50
+			},
+			{
+				"item": "graphite",
+				"amount": 50
+			},
 		]
 	}
 }

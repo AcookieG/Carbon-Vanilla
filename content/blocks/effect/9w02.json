@@ -13,7 +13,7 @@
 	]
 	"research": "9w01",
 	"category": "effect",
-	"unitType": "11w02"
+	"unitType": "11w01b"
 	"squareSprite": false,
 	"unitCapModifier": 12
 	"researchCostMultiplier": 0.1
