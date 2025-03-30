@@ -9,7 +9,7 @@
 	],
 	"armor": 2,
 	"category": "defense",
-	"research": "6w02",
+	"research": "6w01",
 	"destroyBullet": {
 		"type": "BasicBulletType",
 		"instantDisappear": true,

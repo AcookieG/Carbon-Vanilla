@@ -12,7 +12,7 @@
 	} 
 	"range": 5
 	"lazerColor2": "cf6d9c"
-  "research": "5w01",
+  "research": "5w01c",
   "category": "power"
 	"buildCostMultiplier": 2
 	"conductivePower": true

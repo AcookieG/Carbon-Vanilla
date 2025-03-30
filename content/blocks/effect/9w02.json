@@ -16,4 +16,5 @@
 	"unitType": "11w02"
 	"squareSprite": false,
 	"unitCapModifier": 12
+	"researchCostMultiplier": 0.1
 }

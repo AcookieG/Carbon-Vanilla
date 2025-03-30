@@ -16,7 +16,7 @@
   "root": true
   "name": Oodun
   "requiresUnlock": false
-	"researchCostMultiplier": 0.0001
+	"researchCostMultiplier": 0.1
 }
 	"category": "effect",
 	"unitType": "11w01"
