@@ -7,7 +7,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: Oodun
    speed: 2
-   radius: 0.15
+   radius: 0.14
    divisions: 5
    color: ffffff
    octaves: 2
@@ -19,7 +19,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: Oodun
    speed: 3
-   radius: 0.6
+   radius: 0.16
    divisions: 5
    color: ffffff
    octaves: 2
