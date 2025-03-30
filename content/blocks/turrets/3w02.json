@@ -6,6 +6,7 @@
 	"size": 1,
 	"reload": 60,
 	"range": 80,
+	"fogRadius": 8,
 	"liquidConsumed": 0.2,
 	"liquidCapacity": 20
 	"loopSound": "torch",
@@ -23,7 +24,7 @@
 "methane": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["766257", "b49a76", "d7bf74", "ffffff"],
-	"damage": 12,
+	"damage": 10,
 	"knockback": 0.8,
 	"buildingDamageMultiplier": 1.6
 	"width": 2.5,
@@ -38,13 +39,13 @@
 	"H": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
-	"damage": 16,
+	"damage": 12,
 	"knockback": 0.2,
 	"buildingDamageMultiplier": 0.2
 	"width": 1,
 	"drawFlare": true,
 	"hitEffect": none
-	"status": "burning",
+	"status": "melting",
 	"length": 80,
 	"flareColor": d1e4ff,
 	"flareLength": 25,
@@ -53,9 +54,9 @@
 "oil": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["000000", "606060", "aaaaaa", "ffffff"],
-	"damage": 25,
+	"damage": 16,
 	"knockback": 0,
-	"buildingDamageMultiplier": 0.01
+	"buildingDamageMultiplier": 0.2
 	"width": 1.5,
 	"drawFlare": true,
 	"hitEffect": "hitFlameSmall"

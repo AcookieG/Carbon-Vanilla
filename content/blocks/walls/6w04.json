@@ -7,6 +7,7 @@
 	"requirements": [
 		{ "item": "graphite", "amount": 24 }
 	],
+	"armor": 4,
 	"category": "defense",
 	"research": "6w02",
 }

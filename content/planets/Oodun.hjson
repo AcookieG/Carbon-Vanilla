@@ -1,70 +1,31 @@
 localizedName: Oodun
 description: Similar to Serpulo, but without spores. Under an nextremely dense atmosphere.
-generator: tantPlanetGenerator
+generator: ErekirPlanetGenerator
 alwaysUnlocked: true
-mesh: [
-  {
-    //life
-    type: NoiseMesh
-    planet: Oodun
-    divisions: 2
-    seed: 107
-    radius: 0.183
-    color1: 8bbeb0
-    color2: 49695c
-    octaves: 4.5
-    persistence: 1.1
-  }
-	  {
-    //water
-    type: NoiseMesh
-    planet: Oodun
-    divisions: 2
-    seed: 108
-    radius: 0.183
-    color1: 6569c9
-    color2: 8ca9e8
-    octaves: 4.5
-    persistence: 1.1
-  }
-	{
-    //fumes
-    type: NoiseMesh
-    planet: Oodun
-    divisions: 2
-    seed: 109
-    radius: 0.183
-    color1: b49a76
-    color2: 766257
-    octaves: 4.5
-    persistence: 1.1
-  }
-		{
-    //fumes
-    type: NoiseMesh
-    planet: Oodun
-    divisions: 2
-    seed: 110
-    radius: 0.183
-    color1: b49a76
-    color2: 766257
-    octaves: 4.5
-    persistence: 1.1
-  }
-	
-]
 cloudMesh: [
  {
    type: HexSkyMesh
    planet: Oodun
-   speed: 1.21
-   radius: 0.1
-   divisions: 6
+   speed: 2
+   radius: 0.15
+   divisions: 5
    color: ffffff
-   octaves: 3
-   persistence: 0.3
+   octaves: 2
+   persistence: 0.42
    scl: 1
-   thresh: 0.6
+   thresh: 0.43
+  }
+	 {
+   type: HexSkyMesh
+   planet: Oodun
+   speed: 3
+   radius: 0.6
+   divisions: 5
+   color: ffffff
+   octaves: 2
+   persistence: 0.42
+   scl: 1.2
+   thresh: 0.45
   }
 ]
 generator: {
@@ -77,37 +38,37 @@ generator: {
   max: 100
   radMin: 220
   radMax: 600
-  iceChance: 0
+  iceChance: 0.4
   carbonChance: 0.5
   berylChance: 0
   ferricChance: 0.2
 }
 sectorSize: 2
 allowLaunchSchematics: false
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: true
-startSector: 8
-orbitSpacing: 1
-radius: 0.188
-minZoom: 1.0
+startSector: 2
+orbitSpacing: 0.9
+radius: 2.6
 drawOrbit: true
-atmosphereRadIn: -0.1
+atmosphereRadIn: 0.01
 atmosphereRadOut: 0.3
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 1
-bloom: false
+bloom: true
 visible: true
-atmosphereColor: 8bbeb050
-iconColor: 8bbeb0
+landCloudColor: 626f9b
+atmosphereColor: 708d94
+iconColor: 95abd9
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: 9w01
-parent: sun
+parent: erekir
 orbitRadius: 40
 orbitTime: 120
 solarSystem: sun

@@ -7,6 +7,7 @@
 	"size": 1,
 	"reload": 60,
 	"range": 120,
+	"fogRadius": 12,
 	"ammoUseEffect": "casing1",
 	"shootSound": "shoot",
 	"shootCone": 15,
@@ -29,7 +30,7 @@
 			"type": "BasicBulletType",
 			"collideAir": true
 			"reloadMultiplier": 1,
-			"damage": 44,
+			"damage": 28,
 			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,
@@ -40,7 +41,7 @@
 		"graphite": {
 			"type": "BasicBulletType",
 			"collideAir": true
-			"damage": 65,
+			"damage": 40,
 			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,
@@ -53,7 +54,7 @@
 			"type": "BasicBulletType",
 			"collideAir": true
 			"reloadMultiplier": 0.8,
-			"damage": 52,
+			"damage": 36,
 			"ammoMultiplier": 1.5,
 			"width": 8,
 			"height": 12,
