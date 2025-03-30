@@ -12,6 +12,7 @@
 	"updateEffect": "smoke",
 	"craftEffect": "none",
 	"consumes": {
+	"power": 0.2,
 		"items": {
 			"items": [
 				{"item": "coal", "amount": 1}
