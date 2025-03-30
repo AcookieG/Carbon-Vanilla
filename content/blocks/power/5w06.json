@@ -58,7 +58,15 @@ They are the danger.
 	"rotate": false
 	"loopSound": "hum",
 	"loopSoundVolume": 0.1,
-	"research": "5w05",
+research: {
+  parent: 5w05
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.1,
 	"itemDuration": 60,

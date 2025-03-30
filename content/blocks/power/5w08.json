@@ -39,7 +39,15 @@ Hey this one is pretty clean!
 	"rotate": true
 	"loopSound": "hum",
 	"loopSoundVolume": 0.1,
-	"research": "5w04b",
+research: {
+  parent: 5w04b
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
 	"itemDuration": 30,
 	"squareSprite": false,
 	"heatOutput": 9,

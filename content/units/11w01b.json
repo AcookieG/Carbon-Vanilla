@@ -29,7 +29,7 @@
 	"outlineColor": 00000000,
 	"fogRadius": 7
 	"research": {
-		"parent": "11w02",
+		"parent": "11w01",
 		"requirements": [
 		{"item": "silicon", "amount": 220},
 		{"item": "iron", "amount": 140},

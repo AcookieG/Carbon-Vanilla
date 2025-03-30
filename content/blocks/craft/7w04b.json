@@ -52,7 +52,15 @@
 	},
 	"category": "crafting",
 	"rotate": false
-	"research": "7w03",
+research: {
+  parent: 7w03
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
 	"idleSound": "machine",
 	"idleSoundVolume": 0.03,
 	"outputLiquids": [

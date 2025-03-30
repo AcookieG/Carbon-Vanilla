@@ -7,6 +7,14 @@ description:
 captureWave: 10
 planet: Oodun
 sector: 18
-research: 13w01
+research: {
+  parent: 13w01
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w02
+    }
+  ]
+}
 difficulty: 1
 alwaysUnlocked: false
