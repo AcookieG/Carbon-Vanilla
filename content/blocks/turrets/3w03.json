@@ -1,0 +1,52 @@
+{
+	"name": "Pulse",
+	"description": "Shoots small amounts of liquids at enemies or structures. Extinguishes fires.",
+	"type": "LiquidTurret",
+	"health": 290,
+	"size": 1,
+	"reload": 4,
+	"range": 100,
+	"fogRadius": 10,
+	"liquidCapacity": 10
+	"shootEffect": "shootLiquid",
+	"shootCone": 50,
+	"hasLiquids": true,
+	"inaccuracy": 5,
+	"outlineRadius": 4,
+	"squareSprite": false,
+	"recoil": 0
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-"
+	},
+	"ammoTypes": {
+"water": {
+	"type": "liquidBulletType",
+	"knockback": 0.4,
+	"drag": 0.01,
+}
+"stillwater": {
+	"type": "liquidBulletType",
+	"knockback": 0.4,
+	"drag": 0.02,
+	"rangeChange": -20,
+	"puddleSize": 8,
+},
+"oil": {
+	"type": "liquidBulletType",
+	"drag": 0.01,
+},
+"slag": {
+	"type": "liquidBulletType",
+	"drag": 0.01,
+	"damage": 15,
+	"ammoMultiplier": 4,
+},
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 60 },
+		{ "item": "iron", "amount": 10 },
+	],
+	"category": "turret",
+	"research": "3w02"
+}

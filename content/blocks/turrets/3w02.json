@@ -70,9 +70,10 @@
 },
 	},
 	"requirements": [
-		{ "item": "graphite", "amount": 80 },
-		{ "item": "slate", "amount": 80 },
+		{ "item": "graphite", "amount": 60 },
+		{ "item": "slate", "amount": 60 },
 	],
 	"category": "turret",
 	"research": "3w01"
+	"buildCostMultiplier": 1.75,
 }

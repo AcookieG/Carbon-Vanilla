@@ -73,8 +73,9 @@
 	"coolantMultiplier": 3
 	"requirements": [
 		{ "item": "sand", "amount": 20 },
-		{ "item": "scrap", "amount": 30 },
+		{ "item": "scrap", "amount": 20 },
 	],
+	"buildCostMultiplier": 1.25,
 	"category": "turret",
 	"research": "9w01"
 }
