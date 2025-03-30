@@ -95,7 +95,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: Oodun
    speed: 2
-   radius: -0.3
+   radius: 0.01
    divisions: 5
    color: ffffff
    octaves: 2
@@ -107,7 +107,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: Oodun
    speed: 3
-   radius: 0
+   radius: 0.05
    divisions: 5
    color: ffffff
    octaves: 2
@@ -154,7 +154,7 @@ hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: false
+prebuildBase: true
 defaultCore: 9w01
 parent: erekir
 orbitRadius: 40
