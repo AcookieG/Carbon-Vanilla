@@ -95,7 +95,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: Oodun
    speed: 2
-   radius: 0.14
+   radius: -0.3
    divisions: 5
    color: ffffff
    octaves: 2
@@ -107,7 +107,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: Oodun
    speed: 3
-   radius: 0.16
+   radius: 0
    divisions: 5
    color: ffffff
    octaves: 2
@@ -138,7 +138,7 @@ allowLaunchLoadout: true
 allowSectorInvasion: true
 startSector: 2
 orbitSpacing: 0.9
-radius: 2.6
+radius: 1.2
 drawOrbit: true
 atmosphereRadIn: 0.01
 atmosphereRadOut: 0.3

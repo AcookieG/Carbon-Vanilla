@@ -1,0 +1,13 @@
+localizedName: Basin
+description: 
+''' 
+		You find yourself stuck in a crater, as you fail your escape from Erekir.
+		Find a way out as soon as possible.
+
+''' 
+captureWave: 10
+planet: asthosus
+sector: 2
+research: 9w01
+difficulty: 1
+alwaysUnlocked: true
