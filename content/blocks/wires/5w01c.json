@@ -1,7 +1,7 @@
 {
   "type": "LiquidJunction",
-  "name": "Crosswire",
-  "description": "For visual reasons.",
+  "name": "Wire Jump",
+  "description": "Hey now you can do train tracks!",
   "health": 20,
 	"liquidCapacity": 0,
 	"requirements": [
@@ -9,7 +9,7 @@
 		{"item": "slate", "amount": 2},
 	],
 	"consumes": {"powerBuffered": 5,} 
-  "research": "5w01",
+  "research": "5w01b",
   "category": "power",
 	"buildCostMultiplier": 1,
 	"conductivePower": true,
