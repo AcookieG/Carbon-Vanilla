@@ -10,11 +10,11 @@
 	"liquidCapacity": 20
 	"size": 2
 research: {
-  parent: 5w04b
+  parent: 4w01b
   objectives: [
     {
       type: OnSector
-      preset: 4w01
+      preset: 13w03
     }
   ]
 }
