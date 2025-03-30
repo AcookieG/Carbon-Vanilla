@@ -30,10 +30,13 @@
 	"type": "liquidBulletType",
 	"liquid": stillwater
 	"knockback": 0.4,
-	"drag": 0.02,
+	"drag": 0.022,
 	"rangeChange": -20,
-	"puddleSize": 8,
+	"puddles": 1,
+	"puddleLiquid": stillwater
+	"puddleAmount": 12,
 	"status": "corroded",
+	"lightOpacity": 0
 },
 "oil": {
 	"type": "liquidBulletType",
@@ -44,9 +47,9 @@
 "slag": {
 	"type": "liquidBulletType",
 	"drag": 0.01,
-	"damage": 15,
+	"damage": 18,
 	"liquid": slag
-	"ammoMultiplier": 4,
+	"ammoMultiplier": 3,
 	"status": "melting",
 },
 	},
