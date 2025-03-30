@@ -13,7 +13,7 @@
 	"colorFrom": "5e988d",
 	"colorTo": "8bbeb0",
 	"gas": false
-	"gasColor": "5e988d"
+	"lightColor": "8bbeb000"
 	"spreadTarget": "water",
 	"blockReactive": true,
 	"viscosity": 0.85,

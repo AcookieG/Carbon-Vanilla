@@ -1,12 +1,11 @@
-localizedName: Crossroads
+localizedName: Entryway
 description: 
 ''' 
-		Welcome to crossroads, the largest accessible area of Oodun.
-		Prepare defenses quickly and dominate the battlefield.
+		Welcome to Oodun, where you grave will be traced in silicon slabs. This path leads to the Grand Crossroad. 
 ''' 
-captureWave: 12
+captureWave: 10
 planet: Oodun
-sector: 45
+sector: 18
 research: 13w01
 difficulty: 1
 alwaysUnlocked: false
