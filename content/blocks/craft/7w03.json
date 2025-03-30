@@ -47,7 +47,7 @@
 	"requirements": [
 		{ "item": "silicon", "amount": 30 },
 		{ "item": "slate", "amount": 60 },
-		{ "item": "sand", "amount": 50 },
+		{ "item": "sand", "amount": 120 },
 	],
 	"category": "crafting",
 	"rotate": false
