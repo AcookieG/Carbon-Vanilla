@@ -9,6 +9,7 @@
 	"fogRadius": 4.25,
 	"liquidCapacity": 10
 	"shootEffect": "shootLiquid",
+	"smokeEffect": "none",
 	"shootCone": 50,
 	"hasLiquids": true,
 	"inaccuracy": 5,
