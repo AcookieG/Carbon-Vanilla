@@ -29,4 +29,5 @@
 	"outlineColor": 00000000,
 	"fogRadius": 4,
 	"alwaysUnlocked": true,
+	"hidden": true,
 }
