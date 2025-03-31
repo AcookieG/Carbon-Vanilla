@@ -1,0 +1,30 @@
+{
+	"name": "Spinner Drill",
+	"description": "Crushes deep ores with smaller incision drills.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 3,
+	"updateEffect": "coalSmeltsmoke",
+	"drillTime": 130,
+	"itemCapacity": 10,
+	"drawRim": false,
+	"drawMineItem": false,
+	"rotateSpeed": 2.2
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "iron", "amount": 80 },
+		{ "item": "graphite", "amount": 80 },
+		{ "item": "dense", "amount": 10 },
+	],
+	"category": "production",
+	"research": "2w01"
+	"squareSprite": false,
+	"buildCostMultiplier": 1.75,
+}
