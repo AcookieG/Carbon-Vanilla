@@ -10,7 +10,7 @@
 	"liquidCapacity": 20
 	"size": 2
 research: {
-  parent: 4w01b
+  parent: 4w01
   objectives: [
     {
       type: OnSector

@@ -1,5 +1,5 @@
 {
-  "type": "LiquidTank",
+  "type": "LiquidRouter",
   "name": "Capacitor",
   "description": "Stores large amounts of power.",
   "health": 100,

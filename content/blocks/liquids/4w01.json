@@ -8,7 +8,15 @@
 	]
 	"liquidCapacity": 10
 	"size": 1
-	"research": "9w01"
+research: {
+  parent: 9w01
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 13w01
+    }
+  ]
+}
 	"health": 40
 	"category": "liquid"
 	"squareSprite": false,

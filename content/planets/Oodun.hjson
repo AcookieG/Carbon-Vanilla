@@ -132,7 +132,7 @@ generator: {
   ferricChance: 0.2
 }
 sectorSize: 2
-allowLaunchSchematics: true
+allowLaunchSchematics: false
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: true
@@ -156,7 +156,6 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: 9w01
-coreDestroyClear: true
 parent: sun
 orbitRadius: 40
 orbitTime: 120

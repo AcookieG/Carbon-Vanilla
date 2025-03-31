@@ -5,8 +5,8 @@
 	"itemCapacity": 2000,
 	"hasItems": true,
 	"health": 600,
-	"isFirstTier": true
-	"alwaysUnlocked": true
+	"isFirstTier": true,
+	"alwaysUnlocked": true,
 	"requirements": [
 		{"item": "graphite", "amount": 800},
 		{"item": "slate", "amount": 200}
@@ -16,7 +16,6 @@
   "root": true
   "name": Oodun
   "requiresUnlock": false
-	"researchCostMultiplier": 0.1
 }
 	"category": "effect",
 	"unitType": "11w01"
