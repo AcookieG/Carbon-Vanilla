@@ -132,7 +132,7 @@ generator: {
   ferricChance: 0.2
 }
 sectorSize: 2
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: true
@@ -157,7 +157,7 @@ allowWaves: true
 prebuildBase: false
 defaultCore: 9w01
 coreDestroyClear: true
-parent: erekir
+parent: sun
 orbitRadius: 40
 orbitTime: 120
 solarSystem: sun
