@@ -154,7 +154,7 @@ hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: true
+prebuildBase: false
 defaultCore: 9w01
 coreDestroyClear: true
 parent: erekir

@@ -11,8 +11,8 @@ research: {
   parent: 13w01
   objectives: [
     {
-      type: OnSector
-      preset: 13w02
+      type: SectorComplete
+      preset: 13w01
     }
   ]
 }
