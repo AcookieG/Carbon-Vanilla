@@ -27,12 +27,6 @@
 	"canAttack": false,
 	"trailLength": 10,
 	"outlineColor": 00000000,
-	"fogRadius": 4
-	"research": {
-		"parent": "9w01",
-		"requirements": [
-		{"item": "silicon", "amount": 60},
-		{"item": "sand", "amount": 140},
-		]
-	}
+	"fogRadius": 4,
+	"alwaysUnlocked": true,
 }
