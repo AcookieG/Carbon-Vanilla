@@ -28,8 +28,8 @@
 		"fragBullets": 6,
 		"fragBullet": {
 			"type": "BasicBulletType",
-			"damage": 20,
-			"lifeTime": 10,
+			"damage": 30,
+			"lifeTime": 13,
 			"speed": 5,
 			"width": 3,
 			"height": 8,

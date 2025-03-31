@@ -74,6 +74,14 @@
 		{ "item": "slate", "amount": 60 },
 	],
 	"category": "turret",
-	"research": "3w01"
+research: {
+  parent: 3w03
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
 	"buildCostMultiplier": 1.75,
 }

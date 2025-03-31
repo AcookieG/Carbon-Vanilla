@@ -1,9 +1,9 @@
 localizedName: Basin
 description: 
 ''' 
-		You find yourself stuck in a crater, as you fail your escape from Erekir.
+		You find yourself stuck in a crater, as you fail your escape from Serpulo.
 		Enemy forces are slowly approaching.
-		Find a way out as soon as possible.
+		Find a way out as soon as possible, and replace your core before pressure crushes the escape pod.
 ''' 
 captureWave: 10
 planet: Oodun
