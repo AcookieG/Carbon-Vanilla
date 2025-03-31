@@ -5,11 +5,11 @@
 	"size": 3,
 	"tier": 3,
 	"updateEffect": "coalSmeltsmoke",
-	"drillTime": 130,
+	"drillTime": 300,
 	"itemCapacity": 10,
 	"drawRim": false,
 	"drawMineItem": false,
-	"rotateSpeed": 2.2
+	"rotateSpeed": 2.4
 	"consumes": {
 		"liquid": {
 			"liquid": "water", 
@@ -26,5 +26,5 @@
 	"category": "production",
 	"research": "2w01"
 	"squareSprite": false,
-	"buildCostMultiplier": 1.75,
+	"buildCostMultiplier": 0.75,
 }
