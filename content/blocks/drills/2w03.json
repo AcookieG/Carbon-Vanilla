@@ -7,7 +7,7 @@
 	"updateEffect": "coalSmeltsmoke",
 	"drillTime": 300,
 	"itemCapacity": 10,
-	"drawRim": false,
+	"drawRim": true,
 	"drawMineItem": false,
 	"rotateSpeed": 2.4
 	"consumes": {
