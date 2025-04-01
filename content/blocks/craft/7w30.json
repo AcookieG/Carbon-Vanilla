@@ -16,20 +16,10 @@ research: {
     }
   ]
 }
-"drawer": {
-		"type": "DrawMulti",
-		"drawers": [
-			{
-				"type": "DrawDefault",
-			},
-			{
-				"type": "DrawglowRegion"
-			},
-		]
-	},
 "consumes": {
 		"power": 0.5,
 }
+"flameColor": 00000000
 	"health": 160
 	"category": "crafting"
 	"hasPower": true

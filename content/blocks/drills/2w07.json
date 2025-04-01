@@ -1,0 +1,50 @@
+{
+	"name": "Water Extractor",
+	"type": "SolidPump"
+	"pumpAmount": 0.02083333333
+	"requirements": [
+		{"item": "coppa", "amount": 80},
+		{"item": "dense", "amount": 30},
+		{"item": "graphite", "amount": 200},
+		{"item": "sand", "amount": 130},
+	]
+	"liquidCapacity": 30
+	"size": 4
+research: {
+  parent: 2w03
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 13w01
+    }
+  ]
+}
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water",
+				"padding": 4
+			},
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawglowRegion"
+			},
+		]
+	},
+"consumes": {
+		"power": 3.5,
+}
+	"health": 350
+	"category": "production"
+	"squareSprite": false,
+	"hasPower": true
+	"buildCostMultiplier": 1.5,
+}

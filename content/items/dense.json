@@ -2,7 +2,7 @@
 	"type": "material",
 	"name": "Dense alloy",
 	"description": "Ooo Shinney.",
-	"cost": 2.7,
+	"cost": 1.7
 	"flammability": 0.0,
 	"radioactivity": 0.1,
 	"explosiveness": 0.0,
