@@ -7,10 +7,6 @@
 		{"item": "dense", "amount": 90},
 	]
 	"size": 2
-	"hasLiquids": true,
-	"hasPower": true,
-	"hasItems": false,
-	"liquidCapacity": 10,
 research: {
   parent: 7w06
   objectives: [
@@ -24,16 +20,6 @@ research: {
 		"type": "DrawMulti",
 		"drawers": [
 			{
-				"type": "DrawRegion",
-				"suffix": "-bottom",
-			},
-			{
-				"type": "DrawLiquidTile",
-				"drawLiquid": "slag",
-				"alpha": 1,
-				"padding": 4,
-			},
-			{
 				"type": "DrawDefault",
 			},
 			{
@@ -43,9 +29,6 @@ research: {
 	},
 "consumes": {
 		"power": 0.5,
-    "liquids":  [
-		{"liquid": "slag", "amount": 0.01},
-		]
 }
 	"health": 160
 	"category": "crafting"
