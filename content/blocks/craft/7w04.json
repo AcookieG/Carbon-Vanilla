@@ -14,7 +14,7 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "slate", "amount": 1}
+				{"item": "slate", "amount": 2}
 			]
 		},
 	},
@@ -52,12 +52,12 @@ research: 7w01
 	"idleSound": "machine",
 	"idleSoundVolume": 0.03,
 	"outputLiquids": [
-		{ "liquid": "oil", "amount": 0.1 },
+		{ "liquid": "oil", "amount": 0.05 },
 	],
 	"outputItems": [
 		{ "item": "coal", "amount": 3 },
 	],
-	"craftTime": 30,
+	"craftTime": 60,
 	"squareSprite": false,
 	"conductivePower": false
 }

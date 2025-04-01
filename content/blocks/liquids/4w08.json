@@ -12,4 +12,5 @@
 	bridgeReplacement: 4w04
   "research": "5w05",
   "category": "liquid"
+	"hidden": true,
 }

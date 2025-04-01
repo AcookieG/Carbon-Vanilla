@@ -52,7 +52,7 @@ You re-created life, but at what cost?
 	"consumes": {
 		"liquid": {"liquid": "oil", "amount": 0.2},
 	},
-	"outputLiquid": {"liquid": "stillwater", "amount": 0.15},
+	"outputLiquid": {"liquid": "stillwater", "amount": 0.01},
 	"explodeOnFull": true
 	"category": "power",
 	"conductivePower": true

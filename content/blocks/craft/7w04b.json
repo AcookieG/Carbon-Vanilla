@@ -19,7 +19,7 @@
 			]
 		},
 		"liquids":  [
-		{"liquid": "pressure", "amount": 0.2},
+		{"liquid": "pressure", "amount": 0.4},
 		]
 	},
 	"requirements": [

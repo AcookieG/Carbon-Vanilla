@@ -51,7 +51,7 @@ They are the danger.
 	"consumes": {
 		"liquid": {"liquid": "oil", "amount": 0.6},
 	},
-	"outputLiquid": {"liquid": "stillwater", "amount": 0.6},
+	"outputLiquid": {"liquid": "stillwater", "amount": 0.03},
 	"explodeOnFull": true
 	"category": "power",
 	"conductivePower": true
