@@ -1,0 +1,54 @@
+{
+	"name": "Incinerator",
+	"type": "Incinerator"
+	"requirements": [
+		{"item": "graphite", "amount": 60},
+		{"item": "sand", "amount": 70},
+		{"item": "dense", "amount": 90},
+	]
+	"size": 2
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"liquidCapacity": 10,
+research: {
+  parent: 7w06
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "slag",
+				"alpha": 1,
+				"padding": 4,
+			},
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawglowRegion"
+			},
+		]
+	},
+"consumes": {
+		"power": 0.5,
+    "liquids":  [
+		{"liquid": "slag", "amount": 0.01},
+		]
+}
+	"health": 160
+	"category": "crafting"
+	"hasPower": true
+	"squareSprite": false,
+}

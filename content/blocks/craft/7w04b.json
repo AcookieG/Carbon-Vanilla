@@ -53,7 +53,7 @@
 	"category": "crafting",
 	"rotate": false
 research: {
-  parent: 7w03
+  parent: 7w04
   objectives: [
     {
       type: OnSector

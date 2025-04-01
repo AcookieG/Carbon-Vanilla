@@ -2,7 +2,7 @@
 	"type": "CellLiquid",
 	"moveThroughBlocks": true,
 	"canStayOn": ["water", "oil", "cryofluid"],
-	"incinerable": false,
+	"incinerable": true,
 	"spreadDamage": 0.5,
 	"cells": 8
 	"capPuddles": false,
