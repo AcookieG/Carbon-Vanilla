@@ -48,6 +48,9 @@
 			{
 				"type": "DrawDefault"
 			},
+			{
+				"type": "DrawGlowRegion",
+			},
 		]
 	},
 	"category": "crafting",
