@@ -36,6 +36,7 @@
 			},
 			{
 				"type": "DrawGlowRegion",
+				"color": ff3838cc
 			},
 		]
 	},
