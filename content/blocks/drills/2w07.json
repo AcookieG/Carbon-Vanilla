@@ -1,7 +1,6 @@
 {
 	"name": "Lava Extractor",
-	"type": "Fracker"
-	"pumpAmount": 0.2
+	"type": "AttributeCrafter"
 	"requirements": [
 		{"item": "coppa", "amount": 30},
 		{"item": "dense", "amount": 10},
@@ -19,8 +18,26 @@ research: {
     }
   ]
 }
-"rotateSpeed": 9,
-"warmupSpeed": 0.19,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "slag",
+				"padding": 4,
+			},
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawGlowRegion",
+			},
+		]
+	},
 "consumes": {
 		"power": 3.5,
 		"items": {
@@ -29,12 +46,14 @@ research: {
 			]
 		},
 	},
-	"health": 350
+	"outputLiquid": {"liquid": "slag", "amount": 0.2},
+	"health": 290
 	"category": "production"
 	"squareSprite": false,
 	"hasPower": true
 	"buildCostMultiplier": 1.5,
 	"attribute": heat,
+	"maxBoost": 0
 	"result": "slag",
 	"baseEfficiency": 0
 	"conductivePower": true

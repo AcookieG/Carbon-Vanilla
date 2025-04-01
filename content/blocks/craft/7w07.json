@@ -3,7 +3,7 @@
 	"description": "Cools down superheated Slag into a very dense alloy.",
 	"type": "GenericCrafter"
 	"size": 3,
-	"health": 160,
+	"health": 260,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,

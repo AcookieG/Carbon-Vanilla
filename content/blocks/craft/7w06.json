@@ -3,7 +3,7 @@
 	"description": "Generates Slag through intense heat and pressure, as well as iron.",
 	"type": "HeatCrafter"
 	"size": 4,
-	"health": 260,
+	"health": 360,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,

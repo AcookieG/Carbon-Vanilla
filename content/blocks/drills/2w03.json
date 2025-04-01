@@ -1,11 +1,11 @@
 {
-	"name": "Spinner Drill",
+	"name": "Square Drill",
 	"description": "Crushes deep ores with smaller incision drills.",
 	"type": "Drill",
 	"size": 3,
 	"tier": 3,
 	"updateEffect": "coalSmeltsmoke",
-	"drillTime": 300,
+	"drillTime": 250,
 	"itemCapacity": 10,
 	"drawRim": true,
 	"drawMineItem": false,
