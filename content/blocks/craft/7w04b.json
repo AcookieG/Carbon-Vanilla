@@ -48,10 +48,6 @@
 			{
 				"type": "DrawDefault"
 			},
-			{
-				"type": "DrawGlowRegion",
-				"color": ff3838cc
-			},
 		]
 	},
 	"category": "crafting",
