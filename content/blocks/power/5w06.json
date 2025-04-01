@@ -17,7 +17,7 @@ They are the danger.
 	"explosionRadius": 40,
 	"explosionDamage": 90,
 	"explosionShake": 0.6,
-	"powerProduction": 6,
+	"powerProduction": 8,
 	"requirements": [
 		{ "item": "graphite", "amount": 90 },
 		{ "item": "silicon", "amount": 80 },
@@ -49,7 +49,7 @@ They are the danger.
 		]
 	},
 	"consumes": {
-		"liquid": {"liquid": "oil", "amount": 0.6},
+		"liquid": {"liquid": "oil", "amount": 0.3},
 	},
 	"outputLiquid": {"liquid": "stillwater", "amount": 0.03},
 	"explodeOnFull": true

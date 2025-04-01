@@ -1,11 +1,11 @@
 {
-	"name": "Water Extractor",
-	"type": "SolidPump"
+	"name": "Lava Extractor",
+	"type": "Fracker"
 	"pumpAmount": 0.02083333333
 	"requirements": [
-		{"item": "coppa", "amount": 80},
-		{"item": "dense", "amount": 30},
-		{"item": "graphite", "amount": 200},
+		{"item": "coppa", "amount": 30},
+		{"item": "dense", "amount": 10},
+		{"item": "graphite", "amount": 50},
 		{"item": "sand", "amount": 130},
 	]
 	"liquidCapacity": 30
@@ -19,32 +19,21 @@ research: {
     }
   ]
 }
-	"drawer": {
-		"type": "DrawMulti",
-		"drawers": [
-			{
-				"type": "DrawRegion"
-				"suffix": "-bottom"
-			},
-			{
-				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
-				"padding": 4
-			},
-			{
-				"type": "DrawDefault"
-			},
-			{
-				"type": "DrawglowRegion"
-			},
-		]
-	},
 "consumes": {
 		"power": 3.5,
+		"items": {
+			"items": [
+				{"item": "sand", "amount": 2}
+			]
+		},
+	},
 }
 	"health": 350
 	"category": "production"
 	"squareSprite": false,
 	"hasPower": true
 	"buildCostMultiplier": 1.5,
+	"attribute": heat,
+	"result": "slag",
+	"baseEfficiency": 0
 }

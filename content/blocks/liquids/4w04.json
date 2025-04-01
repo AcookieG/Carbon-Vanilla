@@ -3,7 +3,7 @@
   "name": "Conduit Bridge"
   "health": 40,
   "leaks": false,
-  "liquidCapacity": 10,
+  "liquidCapacity": 16,
 	"requirements": [
 		{"item": "graphite", "amount": 10},
 	],

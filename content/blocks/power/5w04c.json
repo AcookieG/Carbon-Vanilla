@@ -4,7 +4,7 @@
 	"description": "A small platform to generate Pressure and generate power in the process.",
 	"health": 210,
 	"size": 3,
-	"powerProduction": 0.16666666666667,
+	"powerProduction": 0.111111111112,
 	"liquidCapacity": 30,
 	"requirements": [
 		{"item": "silicon", "amount": 60},

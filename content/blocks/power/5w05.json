@@ -22,7 +22,7 @@ You re-created life, but at what cost?
 	"explosionRadius": 24,
 	"explosionDamage": 30,
 	"explosionShake": 0.2,
-	"powerProduction": 1.4,
+	"powerProduction": 1.5,
 	"requirements": [
 		{ "item": "sand", "amount": 80 },
 		{ "item": "slate", "amount": 60 },
@@ -50,7 +50,7 @@ You re-created life, but at what cost?
 		]
 	},
 	"consumes": {
-		"liquid": {"liquid": "oil", "amount": 0.2},
+		"liquid": {"liquid": "oil", "amount": 0.1},
 	},
 	"outputLiquid": {"liquid": "stillwater", "amount": 0.01},
 	"explodeOnFull": true
