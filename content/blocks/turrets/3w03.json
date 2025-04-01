@@ -40,7 +40,7 @@
 	"status": "corroded",
 	"lightOpacity": 0
 },
-"Pressure": {
+"pressure": {
 	"type": "liquidBulletType",
 	"liquid": water
 	"knockback": 2.8,
