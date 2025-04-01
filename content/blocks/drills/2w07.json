@@ -37,4 +37,5 @@ research: {
 	"attribute": heat,
 	"result": "slag",
 	"baseEfficiency": 0
+	"conductivePower": true
 }
