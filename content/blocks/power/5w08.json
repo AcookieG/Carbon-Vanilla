@@ -2,7 +2,7 @@
 	"name": "Coal Burner",
 	"description": 
 '''
-Hey this one is pretty clean!
+Burns coal to produce heat and power. Cleaner than those Oil Burners...
 '''
 	"type": "HeaterGenerator"
 	"size": 2,
@@ -11,7 +11,7 @@ Hey this one is pretty clean!
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 10,
-	"powerProduction": 0.8,
+	"powerProduction": 1.2,
 	"requirements": [
 		{ "item": "graphite", "amount": 80 },
 		{ "item": "iron", "amount": 40 },
