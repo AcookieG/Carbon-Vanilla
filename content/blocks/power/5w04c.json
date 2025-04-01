@@ -1,7 +1,7 @@
 {
 	"type": "ThermalGenerator",
-	"name": "Gas Trap",
-	"description": "A small platform to trap Fumes and generate power in the process.",
+	"name": "Pressure Trap",
+	"description": "A small platform to generate Pressure and generate power in the process.",
 	"health": 210,
 	"size": 3,
 	"powerProduction": 0.16666666666667,
@@ -20,7 +20,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "methane",
+				"drawLiquid": "pressure",
 				"padding": 3
 			},
 			{
@@ -47,11 +47,11 @@ research: {
     }
   ]
 }
-	"displayEfficiencyScale": 0.1111111,
+	"displayEfficiencyScale": 0.1111112,
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.1,
 	"displayEfficiency": false,
-	"outputLiquid": {"liquid": "methane", "amount": 0.05555555555555},
+	"outputLiquid": {"liquid": "pressure", "amount": 0.05555555555555},
 	"minEfficiency": 0.999999
 		"squareSprite": false,
 }

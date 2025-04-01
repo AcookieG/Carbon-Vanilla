@@ -1,6 +1,6 @@
 {
 	"name": "Nitrous Decomposer",
-	"description": "Decomposes Fumes into it's various gases to extract Nitrogen.",
+	"description": "Decomposes Pressure into it's various gases to extract Nitrogen.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 130,
@@ -28,7 +28,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "methane",
+				"drawLiquid": "pressure",
 				"padding": 9,
 			},
 			{
@@ -39,7 +39,7 @@
 	"consumes": {
 		"power": 1.2,
     "liquids":  [
-		{"liquid": "methane", "amount": 0.4},
+		{"liquid": "pressure", "amount": 0.4},
 		{"liquid": "oil", "amount": 0.1},
 		]
 	},

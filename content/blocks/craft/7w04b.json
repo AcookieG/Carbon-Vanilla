@@ -1,6 +1,6 @@
 {
 	"name": "Grease Centrifuge",
-	"description": "Extracts oil using coal and fumes.",
+	"description": "Extracts oil using coal and Pressure.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 270,
@@ -19,7 +19,7 @@
 			]
 		},
 		"liquids":  [
-		{"liquid": "methane", "amount": 0.2},
+		{"liquid": "pressure", "amount": 0.2},
 		]
 	},
 	"requirements": [
@@ -36,7 +36,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "methane",
+				"drawLiquid": "pressure",
 				"padding": 2,
 			},
 			{

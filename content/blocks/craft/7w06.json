@@ -1,6 +1,6 @@
 {
 	"name": "Fume Metalisis Chamber",
-	"description": "Generates Slag through intense heat and pressure.",
+	"description": "Generates Slag through intense heat and pressure, as well as iron.",
 	"type": "HeatCrafter"
 	"size": 4,
 	"health": 260,
@@ -43,9 +43,14 @@
 	"consumes": {
 		"power": 2.5,
     "liquids":  [
-		{"liquid": "methane", "amount": 1},
+		{"liquid": "pressure", "amount": 1},
 		{"liquid": "N", "amount": 0.2},
 		]
+	"items": {
+			"items": [
+				{"item": "iron", "amount": 2}
+			]
+		},
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 120 },
