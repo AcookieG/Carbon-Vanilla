@@ -57,7 +57,7 @@ research: {
 	"maxBoost": 1,
 	"result": "slag",
 	"baseEfficiency": 0,
-	"boostScale": 0.083332,
-	"displayEfficiencyScale": 0.083332,
+	"boostScale": 0.0833334,
+	"displayEfficiencyScale": 0.0833334,
 	"conductivePower": true,
 }
