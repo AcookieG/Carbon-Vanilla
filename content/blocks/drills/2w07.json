@@ -19,7 +19,8 @@ research: {
     }
   ]
 }
-"rotateSpeed": 3,
+"rotateSpeed": 19,
+"warmupSpeed": 0.19,
 "consumes": {
 		"power": 3.5,
 		"items": {
