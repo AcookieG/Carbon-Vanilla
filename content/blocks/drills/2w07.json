@@ -53,8 +53,10 @@ research: {
 	"hasPower": true
 	"buildCostMultiplier": 1.5,
 	"attribute": heat,
-	"maxBoost": 0
+	"maxBoost": 1,
 	"result": "slag",
-	"baseEfficiency": 0
-	"conductivePower": true
+	"baseEfficiency": 0,
+	"boostScale": 0.125,
+	"displayEfficiencyScale": 0.125,
+	"conductivePower": true,
 }
