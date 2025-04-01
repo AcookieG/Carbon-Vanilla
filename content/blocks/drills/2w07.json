@@ -1,7 +1,7 @@
 {
 	"name": "Lava Extractor",
 	"type": "Fracker"
-	"pumpAmount": 0.02083333333
+	"pumpAmount": 0.2
 	"requirements": [
 		{"item": "coppa", "amount": 30},
 		{"item": "dense", "amount": 10},
@@ -19,7 +19,7 @@ research: {
     }
   ]
 }
-"rotateSpeed": 19,
+"rotateSpeed": 9,
 "warmupSpeed": 0.19,
 "consumes": {
 		"power": 3.5,
