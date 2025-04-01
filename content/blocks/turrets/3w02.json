@@ -21,22 +21,7 @@
 	"basePrefix": "reinforced-"
 	},
 	"ammoTypes": {
-"methane": {
-	"type": "ContinuousFlameBulletType",
-	"colors": ["766257", "b49a76", "d7bf74", "ffffff"],
-	"damage": 10,
-	"knockback": 0.8,
-	"buildingDamageMultiplier": 1.6
-	"width": 2.5,
-	"drawFlare": true,
-	"hitEffect": none
-	"length": 80,
-	"status": "corroded",
-	"flareColor": d7bf74,
-	"flareLength": 20,
-	"flareWidth": 4,
-}
-	"H": {
+"H": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
 	"damage": 12,

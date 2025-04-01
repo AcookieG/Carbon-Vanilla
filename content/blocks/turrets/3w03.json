@@ -26,6 +26,7 @@
 	"liquid": water
 	"knockback": 0.4,
 	"drag": 0.01,
+	"status": "wet",
 }
 "stillwater": {
 	"type": "liquidBulletType",
@@ -37,6 +38,15 @@
 	"puddleLiquid": stillwater
 	"puddleAmount": 12,
 	"status": "corroded",
+	"lightOpacity": 0
+},
+"Pressure": {
+	"type": "liquidBulletType",
+	"liquid": water
+	"knockback": 2.8,
+	"drag": 0.006,
+	"rangeChange": 20,
+	"status": "wet",
 	"lightOpacity": 0
 },
 "oil": {
