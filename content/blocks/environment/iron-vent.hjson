@@ -1,6 +1,6 @@
 type: SteamVent
-blendGroup: ferricStone
-parent: ferricStone
+blendGroup: ferric-stone
+parent: ferric-stone
 effect: ventSteam
 effectColor: 6b4e4eff
 	"variants": 3,
