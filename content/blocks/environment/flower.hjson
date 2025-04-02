@@ -1,4 +1,4 @@
-type: Seaweed
+type: OverlayFloor
 name: Cotton Flowerbed
 variants: 3
 	"attributes": {
