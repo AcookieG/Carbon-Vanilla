@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Plate",
+	"description": "A strong plastic-like material capable of tanking the strongest hits while still being malleable, yet can violently turn into shrapnel in specific conditions.",
+	"cost": 1.6,
+	"flammability": 0.1,
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"charge": 0.0
+	"color": "3c3c4f"
+	research: dense
+}
