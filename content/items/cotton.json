@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Cotton",
+	"description": "A firery insulator tightly packed in small rolls.",
+	"cost": 0.75,
+	"flammability": 0.5,
+	"radioactivity": 0.0,
+	"explosiveness": 0,
+	"charge": 0
+	"color": "f4f4f4"
+}
