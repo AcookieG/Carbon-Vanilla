@@ -36,8 +36,8 @@
 	},
 	"requirements": [
 		{ "item": "dense", "amount": 20 },
-		{ "item": "silicon", "amount": 70 },
-		{ "item": "slate", "amount": 30 },
+		{ "item": "graphite", "amount": 70 },
+		{ "item": "coppa", "amount": 30 },
 		{ "item": "sand", "amount": 100 },
 	],
 	"category": "crafting",

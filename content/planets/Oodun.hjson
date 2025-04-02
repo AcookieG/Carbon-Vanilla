@@ -170,7 +170,9 @@ itemWhitelist: [
   "coal", 
   "waffer", 
   "circuit", 
-	"cesium", 
+	"carbon-fiber", 
 	"dense", 
+	"cotton", 
+	"coppa", 
   "scrap", 
 ]
