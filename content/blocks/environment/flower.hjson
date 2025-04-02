@@ -1,0 +1,6 @@
+type: Seaweed
+name: Cotton Flowerbed
+variants: 3
+	"attributes": {
+  "Tcotton": 1
+}
