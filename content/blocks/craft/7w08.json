@@ -51,4 +51,5 @@
 	},
 	"craftTime": 48,
 	"squareSprite": false,
+		"conductivePower": true
 }
