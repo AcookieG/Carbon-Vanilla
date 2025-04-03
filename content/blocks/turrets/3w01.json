@@ -10,7 +10,7 @@
 	"fogRadius": 7.5,
 	"ammoUseEffect": "casing1",
 	"shootSound": "shoot",
-	"shootCone": 15,
+	"shootCone": 50,
 	"hasLiquids": true,
 	"inaccuracy": 0,
 	"shoot": {

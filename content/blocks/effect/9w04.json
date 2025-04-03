@@ -1,17 +1,20 @@
 {
-	"type": "StorageBlock",
-	"name": "Stack Chamber"
-	"description": "A small storage block, to hold items for production or turrets.",
-	"size": 1,
-	"itemCapacity": 100,
+	"type": "CoreBlock",
+	"name": "Pier"
+	"size": 5,
+	"itemCapacity": 8000,
 	"hasItems": true,
-	"health": 80,
+	"health": 2800,
+	"isFirstTier": false
 	"requirements": [
-		{"item": "sand", "amount": 500},
-		{"item": "graphite", "amount": 100}
+		{"item": "flex-joint", "amount": 1000},
+		{"item": "carbon-fiber", "amount": 1200},
+		{"item": "chip", "amount": 250}
 	]
-	"research": "1w05",
+	"research": "9w03",
 	"category": "effect",
+	"unitType": "11w01b"
 	"squareSprite": false,
-	"buildCostMultiplier": 0.6,
+	"unitCapModifier": 28
+	"researchCostMultiplier": 0.1
 }

@@ -175,4 +175,5 @@ itemWhitelist: [
 	"cotton", 
 	"coppa", 
   "scrap", 
+	"flex-joint",
 ]

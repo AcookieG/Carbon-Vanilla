@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Flex Joint",
+	"description": "A very strong component core to most advanced systems. A bearing that will never age, is always lubricated and rust-proof.",
+	"cost": 1.6,
+	"flammability": 0.0,
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"charge": 0.0
+	"color": "364166"
+	research: carbon-fiber
+}

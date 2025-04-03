@@ -1,0 +1,17 @@
+{
+	"type": "StorageBlock",
+	"name": "Stack Chamber"
+	"description": "A small storage block, to hold items for production or turrets.",
+	"size": 1,
+	"itemCapacity": 100,
+	"hasItems": true,
+	"health": 80,
+	"requirements": [
+		{"item": "sand", "amount": 500},
+		{"item": "graphite", "amount": 100}
+	]
+	"research": "1w05",
+	"category": "effect",
+	"squareSprite": false,
+	"buildCostMultiplier": 0.6,
+}
