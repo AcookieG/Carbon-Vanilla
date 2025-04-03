@@ -176,4 +176,5 @@ itemWhitelist: [
 	"coppa", 
   "scrap", 
 	"flex-joint",
+	"chip",
 ]
