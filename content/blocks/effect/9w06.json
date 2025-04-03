@@ -15,12 +15,12 @@
 		}
 	},
 	"optionalMultiplier":	2
-	"effectChance": 0.03
+	"effectChance": 0.04
 	"requirements": [
 		{"item": "graphite", "amount": 60},
 		{"item": "silicon", "amount": 60},
 	],
 	"category": "effect",
 	"research": "9w01"
-			"conductivePower": true
+			"conductivePower": false
 }

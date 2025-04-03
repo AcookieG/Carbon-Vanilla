@@ -1,0 +1,31 @@
+{
+	"name": "Speed Fastener",
+	"description": "A large structure to speed up production.",
+	"type": "OverdriveProjector",
+	"health": 180,
+	"size": 2,
+	"hasPower": true,
+	"hasItems": false,
+	"itemCapacity": 0
+	"range": 90,
+	"speedBoost": 1.75
+	"reload": 80,
+	"hasBoost": false
+	"effectChance": 0.03
+	"requirements": [
+		{"item": "circuit", "amount": 10},
+		{"item": "silicon", "amount": 130},
+		{"item": "coppa", "amount": 130},
+	],
+	"consumes": {
+		"power": 1,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.2,
+			"optional": true,
+		}
+	},
+	"category": "effect",
+	"research": "9w08"
+	"conductivePower": true
+}
