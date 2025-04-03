@@ -4,7 +4,7 @@
 	"description": "A dome to cover your weakest points.",
 	"size": 2,
 	"health": 540,
-	"radius": 40,
+	"radius": 48,
 	"shieldHealth": 1200,
 	"sides": 30,
 	"rotation": 0,
@@ -19,5 +19,5 @@
 		{"item": "graphite", "amount": 60},
 	],
 	"research": "9w06"
-	"category": "defense",
+	"category": "effect",
 }
