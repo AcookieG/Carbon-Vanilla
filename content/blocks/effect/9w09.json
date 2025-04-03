@@ -22,10 +22,10 @@
 		"liquid": {
 			"liquid": "water", 
 			"amount": 0.2,
-			"optional": true,
 		}
 	},
 	"category": "effect",
 	"research": "9w08"
 	"conductivePower": true
+		"squareSprite": false,
 }

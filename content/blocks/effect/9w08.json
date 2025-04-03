@@ -22,4 +22,5 @@
 	"category": "effect",
 	"research": "9w06"
 	"conductivePower": true
+		"squareSprite": false,
 }

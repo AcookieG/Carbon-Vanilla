@@ -2,7 +2,7 @@
 	"name": "Rectifier",
 	"description": "A small structure to mend blocks.",
 	"type": "RegenProjector",
-	"health": 20,
+	"health": 40,
 	"size": 1,
 	"hasPower": false,
 	"range": 7,

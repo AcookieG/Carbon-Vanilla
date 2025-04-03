@@ -2,7 +2,7 @@
 	"name": "Corrector",
 	"description": "A large structure to repair blocks.",
 	"type": "RegenProjector",
-	"health": 120,
+	"health": 220,
 	"size": 2,
 	"hasPower": true,
 	"range": 14,
