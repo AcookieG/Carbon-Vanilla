@@ -1,6 +1,7 @@
 {
 "type": "LiquidJunction"
 "name": "Conduit Junction"
+"solid": false
 "description": "To mix'n match some liquids."
 "category": "liquid"
 "squareSprite": "false"
