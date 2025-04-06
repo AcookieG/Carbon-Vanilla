@@ -38,7 +38,7 @@
 			},
 		]
 	},
-	"heatRequirement": 48
+	"heatRequirement": 36
 	"maxEfficiency": 1.25
 	"consumes": {
 		"power": 2.5,

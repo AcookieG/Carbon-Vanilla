@@ -1,0 +1,67 @@
+{
+	"name": "Cooling chamber",
+	"description": 
+'''
+Produces clean energy and heat by cooling Pressure down to water.
+'''
+	"type": "HeaterGenerator"
+	"size": 3,
+	"health": 310,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"itemCapacity": 10,
+	"powerProduction": 6,
+	"requirements": [
+		{ "item": "dense", "amount": 30 },
+		{ "item": "iron", "amount": 60 },
+		{ "item": "graphite", "amount": 80 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water",
+				"padding": 3,
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "pressure",
+				"padding": 3,
+				"alpha": 0.7,
+			},
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+		]
+	},
+	"consumes": {
+		{"liquid": "pressure", "amount": 1},
+	},
+	"category": "power",
+	"conductivePower": true
+	"rotate": true
+	"loopSound": "hum",
+	"loopSoundVolume": 0.1,
+	"outputLiquid": {"liquid": "water", "amount": 1},
+research: {
+  parent: 5w08
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"itemDuration": 60,
+	"squareSprite": false,
+	"heatOutput": 24,
+}
