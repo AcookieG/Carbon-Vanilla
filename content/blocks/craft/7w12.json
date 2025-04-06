@@ -9,7 +9,7 @@
 	"hasItems": true,
 	"updateEffect": "casing1",
 	"craftEffect": "casing3Double",
-	"itemCapacity": 80,
+	"itemCapacity": 100,
 	"liquidCapacity": 40,
 	"drawer": {
 		"type": "DrawMulti",
@@ -40,8 +40,8 @@
 		]
 		"items": {
 			"items": [
-				{"item": "coppa", "amount": 40}
-				{"item": "silicon", "amount": 120}
+				{"item": "coppa", "amount": 20}
+				{"item": "silicon", "amount": 80}
 			]
 		},
 	},
@@ -58,7 +58,7 @@
 	"research": "7w07",
 	"idleSound": "hum",
 	"idleSoundVolume": 0.12,
-	"craftTime": 480,
+	"craftTime": 300,
 	"squareSprite": false,
 	"conductivePower": true
 }
