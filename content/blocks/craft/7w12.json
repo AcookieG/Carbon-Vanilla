@@ -41,7 +41,7 @@
 			sparkColor: ffffffff
 			waveColor: ffffff00
 		}
-	"itemCapacity": 100,
+	"itemCapacity": 160,
 	"liquidCapacity": 40,
 	"drawer": {
 		"type": "DrawMulti",
