@@ -42,7 +42,7 @@
 	"consumes": {
 		"power": 1.2,
     "liquids":  [
-		{"liquid": "pressure", "amount": 0.4},
+		{"liquid": "pressure", "amount": 0.2},
 		{"liquid": "oil", "amount": 0.1},
 		]
 	},

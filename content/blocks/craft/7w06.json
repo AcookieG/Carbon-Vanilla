@@ -43,7 +43,7 @@
 	"consumes": {
 		"power": 2.5,
     "liquids":  [
-		{"liquid": "pressure", "amount": 1},
+		{"liquid": "pressure", "amount": 0.7},
 		{"liquid": "N", "amount": 0.2},
 		]
 	"items": {

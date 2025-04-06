@@ -17,10 +17,10 @@
 			smokeSize: 0
 			smokes: 0
 			smokeRad: 0
-			sparks: 3
-			sparkRad: 20
-			sparkStroke: 1.2
-			sparkLen: 4
+			sparks: 2
+			sparkRad: 12
+			sparkStroke: 1
+			sparkLen: 2
 			sparkColor: ffffffff
 			waveColor: ffffff00
 			}
@@ -35,9 +35,9 @@
 			smokes: 0
 			smokeRad: 0
 			sparks: 4
-			sparkRad: 30
-			sparkStroke: 2
-			sparkLen: 6
+			sparkRad: 27
+			sparkStroke: 2.2
+			sparkLen: 5
 			sparkColor: ffffffff
 			waveColor: ffffff00
 		}

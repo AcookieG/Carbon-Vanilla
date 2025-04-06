@@ -45,7 +45,7 @@ Produces clean energy and heat by cooling Pressure down to water.
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "pressure", "amount": 1},
+			{"liquid": "pressure", "amount": 0.5},
 		]
 	},
 	"category": "power",
@@ -53,7 +53,7 @@ Produces clean energy and heat by cooling Pressure down to water.
 	"rotate": true
 	"loopSound": "hum",
 	"loopSoundVolume": 0.1,
-	"outputLiquid": {"liquid": "water", "amount": 1},
+	"outputLiquid": {"liquid": "water", "amount": 0.5},
 research: {
   parent: 5w08
   objectives: [
