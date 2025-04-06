@@ -71,4 +71,8 @@ research: {
 	"ambientSoundVolume": 0.1,
 	"itemDuration": 60,
 	"squareSprite": false,
+	          explosionPuddles: 80
+            explosionPuddleRange: 50
+            explosionPuddleLiquid: stillwater
+            explosionPuddleAmount: 600
 }
