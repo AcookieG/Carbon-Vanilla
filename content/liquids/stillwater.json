@@ -6,8 +6,8 @@
 	"spreadDamage": 0.5,
 	"cells": 8
 	"capPuddles": false,
-	"maxSpread": 2000
-	"spreadConversion": 8
+	"maxSpread": 2000,
+	"spreadConversion": 8,
 	"name": "Still Water",
 	"description": "A byproduct of most oil-based reactors. Will slowly eat away at your base.",
 	"coolant": true,
@@ -25,5 +25,6 @@
 	"flammability": 0.0,
 	"research": "methane",
 	"effect": "slow"
-	"removeScaling": 0.01
+	"scaling": 8,
+	"removeScaling": 0,
 }
