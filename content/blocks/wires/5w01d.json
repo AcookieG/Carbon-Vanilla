@@ -1,0 +1,15 @@
+{
+"type": "LiquidJunction"
+"name": "Wire and Liquid Junction"
+"description": "Power and water don't miw very well now do they?"
+"solid": "false"
+"category": "liquid"
+"squareSprite": "false"
+"research": "5w01"
+"requirements": [
+  {"item": "graphite", "amount": 5}
+	{"item": "iron", "amount": 3}
+]
+"conductivePower": true,
+"rotate": true,
+}
