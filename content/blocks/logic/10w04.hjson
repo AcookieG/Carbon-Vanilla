@@ -1,0 +1,15 @@
+type: LogicBlock
+name: Microcontroler
+description: Runs logic and controls units or buildings. Requires Power. Runs at 60fps.
+category: logic
+research: 11k-01-core-essence
+requirements: [
+	{"item": "graphite", "amount": 40}
+	{"item": "silicon", "amount": 40}
+	{"item": "sand", "amount": 120}
+]
+instructionsPerTick: 1
+size: 1
+"consumes": {
+		"power": 0.1
+	},
