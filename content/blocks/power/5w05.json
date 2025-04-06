@@ -65,7 +65,7 @@ You re-created life, but at what cost?
 	"itemDuration": 60,
 	"squareSprite": false,
 	          explosionPuddles: 40
-            explosionPuddleRange: 30
+            explosionPuddleRange: 15
             explosionPuddleLiquid: stillwater
-            explosionPuddleAmount: 200
+            explosionPuddleAmount: 1000
 }

@@ -72,7 +72,7 @@ research: {
 	"itemDuration": 60,
 	"squareSprite": false,
 	          explosionPuddles: 80
-            explosionPuddleRange: 50
+            explosionPuddleRange: 30
             explosionPuddleLiquid: stillwater
-            explosionPuddleAmount: 600
+            explosionPuddleAmount: 2000
 }
