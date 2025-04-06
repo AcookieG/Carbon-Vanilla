@@ -14,7 +14,4 @@
 	"hasPower": true,
 	"outputsPower": true,
 "consumes": {"powerBuffered": 5,} 
-"rotate": true,
-"rotateDraw": true
-"lockRotation": false
 }
