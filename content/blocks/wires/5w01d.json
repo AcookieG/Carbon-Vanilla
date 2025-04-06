@@ -17,7 +17,7 @@
 				"type": "DrawDefault"
 			},
 			{
-				"type": "DrawHeatOutput"
+				"type": "DrawSideRegion"
 			},
 		]
 	},
