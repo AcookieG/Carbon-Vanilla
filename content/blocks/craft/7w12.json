@@ -7,8 +7,40 @@
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
-	"updateEffect": "casing1",
-	"craftEffect": "casing3Double",
+	"updateEffect": {
+			type: ExplosionEffect
+			lifetime: 30
+			waveRad: 0
+			waveLife: 1
+			waveStroke: 0
+			smokeColor: ffffff00
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 3
+			sparkRad: 20
+			sparkStroke: 1.2
+			sparkLen: 4
+			sparkColor: ffffffff
+			waveColor: ffffff00
+			}
+	"craftEffect": {
+			type: ExplosionEffect
+			lifetime: 30
+			waveRad: 0
+			waveLife: 1
+			waveStroke: 0
+			smokeColor: ffffff00
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 4
+			sparkRad: 30
+			sparkStroke: 2
+			sparkLen: 6
+			sparkColor: ffffffff
+			waveColor: ffffff00
+		}
 	"itemCapacity": 100,
 	"liquidCapacity": 40,
 	"drawer": {
