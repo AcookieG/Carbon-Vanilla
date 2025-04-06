@@ -46,10 +46,10 @@
 		]
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 700 },
-		{ "item": "slate", "amount": 220 },
+		{ "item": "silicon", "amount": 110 },
+		{ "item": "slate", "amount": 120 },
 		{ "item": "graphite", "amount": 80 },
-		{ "item": "iron", "amount": 130 },
+		{ "item": "iron", "amount": 90 },
 	],
 	"outputItems": [
 		{ "item": "dense", "amount": 1 },

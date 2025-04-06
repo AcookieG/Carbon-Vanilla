@@ -13,7 +13,7 @@ You re-created life, but at what cost?
 	"description": "Burns through oil to generate power. Explodes if impurities are not instantly removed."
 	"type": "ConsumeGenerator"
 	"size": 2,
-	"health": 80,
+	"health": 120,
 	"liquidCapacity": 20,
 	"hasLiquids": true,
 	"hasPower": true,

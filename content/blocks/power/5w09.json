@@ -6,7 +6,7 @@ Produces clean energy and heat by cooling Pressure down to water.
 '''
 	"type": "HeaterGenerator"
 	"size": 3,
-	"health": 310,
+	"health": 270,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,

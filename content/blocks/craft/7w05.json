@@ -3,7 +3,7 @@
 	"description": "Decomposes Pressure into it's various gases to extract Nitrogen.",
 	"type": "GenericCrafter"
 	"size": 3,
-	"health": 130,
+	"health": 200,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
@@ -49,7 +49,7 @@
 	"requirements": [
 		{ "item": "silicon", "amount": 40 },
 		{ "item": "slate", "amount": 60 },
-		{ "item": "sand", "amount": 190 },
+		{ "item": "sand", "amount": 120 },
 		{ "item": "iron", "amount": 50 },
 	],
 	"category": "crafting",

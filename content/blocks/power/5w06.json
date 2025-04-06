@@ -8,7 +8,7 @@ They are the danger.
 	"description": "Burns through liters of oil to generate more power. Explodes if impurities are not instantly removed."
 	"type": "ConsumeGenerator"
 	"size": 3,
-	"health": 180,
+	"health": 230,
 	"liquidCapacity": 30,
 	"hasLiquids": true,
 	"hasPower": true,

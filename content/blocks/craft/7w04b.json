@@ -25,7 +25,7 @@
 	"requirements": [
 		{ "item": "iron", "amount": 60 },
 		{ "item": "graphite", "amount": 60 },
-		{ "item": "sand", "amount": 200 },
+		{ "item": "sand", "amount": 150 },
 	],
 	"drawer": {
 		"type": "DrawMulti",

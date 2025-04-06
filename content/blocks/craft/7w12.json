@@ -3,7 +3,7 @@
 	"description": "Presses and melts materials into circuit bords, ready to use in advanced electronics.",
 	"type": "GenericCrafter"
 	"size": 3,
-	"health": 340,
+	"health": 290,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
@@ -78,10 +78,10 @@
 		},
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 410 },
-		{ "item": "sand", "amount": 320 },
-		{ "item": "graphite", "amount": 320 },
-		{ "item": "dense", "amount": 80 },
+		{ "item": "silicon", "amount": 90 },
+		{ "item": "coppa", "amount": 80 },
+		{ "item": "graphite", "amount": 110 },
+		{ "item": "dense", "amount": 60 },
 	],
 	"outputItems": [
 		{ "item": "circuit", "amount": 8 },

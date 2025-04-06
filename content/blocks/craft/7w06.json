@@ -53,10 +53,10 @@
 		},
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 120 },
+		{ "item": "silicon", "amount": 40 },
 		{ "item": "slate", "amount": 60 },
-		{ "item": "sand", "amount": 180 },
-		{ "item": "iron", "amount": 220 },
+		{ "item": "sand", "amount": 130 },
+		{ "item": "iron", "amount": 160 },
 	],
 	"category": "crafting",
 	"research": "7w05",
