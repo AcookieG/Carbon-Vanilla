@@ -10,17 +10,6 @@
   {"item": "graphite", "amount": 5}
 	{"item": "iron", "amount": 3}
 ]
-	"drawer": {
-		"type": "DrawMulti",
-		"drawers": [
-			{
-				"type": "DrawDefault"
-			},
-			{
-				"type": "DrawSideRegion"
-			},
-		]
-	},
 	"conductivePower": true,
 	"hasPower": true,
 	"outputsPower": true,
