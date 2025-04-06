@@ -1,7 +1,7 @@
 {
 	"name": "Large Oil Burner",
 	"details": '''
-And thus, Sharded kept on exploring new territories in hopes of fleeing the spores of Serpulo.
+And thus, Sharded kept on exploring new territories in hopes of fleeing the spores of Serpulo, or the Neoplasm from Erekir...
 But they were not running away from the danger,
 They are the danger.
 '''
@@ -17,7 +17,7 @@ They are the danger.
 	"explosionRadius": 40,
 	"explosionDamage": 90,
 	"explosionShake": 0.6,
-	"powerProduction": 9,
+	"powerProduction": 11,
 	"requirements": [
 		{ "item": "graphite", "amount": 90 },
 		{ "item": "silicon", "amount": 80 },

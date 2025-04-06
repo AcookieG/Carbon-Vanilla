@@ -56,6 +56,10 @@
 				"padding": 3,
 			},
 			{
+				"type": "DrawFrames",
+				"frames": 26
+			},
+			{
 				"type": "DrawDefault",
 			},
 			{
