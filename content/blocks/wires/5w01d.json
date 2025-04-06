@@ -10,8 +10,20 @@
   {"item": "graphite", "amount": 5}
 	{"item": "iron", "amount": 3}
 ]
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+		]
+	},
 	"conductivePower": true,
 	"hasPower": true,
 	"outputsPower": true,
 "consumes": {"powerBuffered": 5,} 
+"rotate": true,
 }
