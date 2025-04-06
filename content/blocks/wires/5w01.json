@@ -17,4 +17,21 @@
 	"outputsPower": true,
 	"squareSprite": false,
 	"junctionReplacement": 4w03b
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawPumpLiquid",
+				"drawLiquid": "water",
+				"padding": 2
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
 }
