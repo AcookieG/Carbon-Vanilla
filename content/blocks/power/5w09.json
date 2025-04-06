@@ -44,7 +44,9 @@ Produces clean energy and heat by cooling Pressure down to water.
 		]
 	},
 	"consumes": {
-		{"liquid": "pressure", "amount": 1},
+		"liquids":  [
+			{"liquid": "pressure", "amount": 1},
+		]
 	},
 	"category": "power",
 	"conductivePower": true
