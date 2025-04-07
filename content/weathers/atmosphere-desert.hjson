@@ -5,11 +5,11 @@ opacityMultiplier: 0.05
 color: ffdbac
 drawNoise: true
 noiseColor: ffad60
-sizeMin: 50
-sizeMax: 600
+sizeMin: 5
+sizeMax: 60
 minAlpha: 0.0
-maxAlpha: 0.02
+maxAlpha: 0.2
 sound: none
-density: 500
+density: 10000
 noisePath: fog
-baseSpeed: 7.0
+baseSpeed: 4.2
