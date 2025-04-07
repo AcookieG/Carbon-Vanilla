@@ -10,6 +10,6 @@ sizeMax: 600
 minAlpha: 0.0
 maxAlpha: 0.02
 sound: none
-density: 1500
+density: 500
 noisePath: fog
 baseSpeed: 7.0
