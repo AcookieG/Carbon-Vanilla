@@ -12,4 +12,4 @@ maxAlpha: 0.2
 sound: none
 density: 10000
 noisePath: fog
-baseSpeed: 4.2
+baseSpeed: 0.2
