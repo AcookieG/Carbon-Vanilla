@@ -4,7 +4,7 @@ particleRegion: rays
 opacityMultiplier: 0.4
 color: 626f9b
 drawNoise: true
-noiseColor: 626f9b
+noiseColor: 364166
 sizeMin: 17
 sizeMax: 48
 minAlpha: 0.05

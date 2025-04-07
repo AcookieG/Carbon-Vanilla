@@ -21,4 +21,5 @@
 	"unitType": "11w01"
 	"squareSprite": false,
 	"unitCapModifier": 8
+	"fogRadius": 16,
 }
