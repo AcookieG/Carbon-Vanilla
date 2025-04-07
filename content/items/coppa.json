@@ -1,6 +1,6 @@
 {
 	"type": "material",
-	"name": "Coppa",
+	"name": "Copper",
 	"description": "Basic material, used in all branches.",
 	"cost": 1.3,
 	"flammability": 0.0,
