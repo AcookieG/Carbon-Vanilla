@@ -5,12 +5,10 @@ opacityMultiplier: 0.4
 color: 626f9b
 drawNoise: true
 noiseColor: 364166
-sizeMin: 7000
-sizeMax: 90000
+sizeMin: 70
+sizeMax: 900
 minAlpha: 0.05
 maxAlpha: 0.24
 sound: none
-yspeed: 2.5
-xspeed: 1
 density: 1500
 noisePath: fog
