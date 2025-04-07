@@ -17,5 +17,5 @@
 	"squareSprite": false,
 	"unitCapModifier": 20
 	"researchCostMultiplier": 0.1
-	"fogRadius": 14,
+	"fogRadius": 10,
 }
