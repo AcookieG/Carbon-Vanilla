@@ -1,6 +1,6 @@
 type: ParticleWeather
 useWindVector: true
-particleRegion: rays
+particleRegion: circle
 opacityMultiplier: 0.5
 color: ffdbac
 drawNoise: true
