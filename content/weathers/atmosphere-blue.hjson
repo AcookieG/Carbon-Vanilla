@@ -7,8 +7,8 @@ drawNoise: true
 noiseColor: 364166
 sizeMin: 70
 sizeMax: 900
-minAlpha: 0.05
-maxAlpha: 0.24
+minAlpha: 0.0
+maxAlpha: 0.05
 sound: none
 density: 1500
 noisePath: fog
