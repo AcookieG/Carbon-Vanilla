@@ -1,8 +1,8 @@
 type: ParticleWeather
 useWindVector: true
 particleRegion: circle
-opacityMultiplier: 0.4
-color: 626f9b
+opacityMultiplier: 0.05
+color: 364166
 drawNoise: true
 noiseColor: 364166
 sizeMin: 70
