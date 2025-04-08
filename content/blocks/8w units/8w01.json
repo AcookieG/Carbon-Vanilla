@@ -2,7 +2,7 @@
 	"name": "Five Axis Printer",
 	"description": "A two by two to print the most basic of any unit tree.",
 	"type": "UnitFactory"
-	"size": 2,
+	"size": 3,
 	"itemCapacity": 30,
 	"maxSpawn": 4,
 	"consumes": {
