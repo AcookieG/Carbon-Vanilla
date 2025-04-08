@@ -5,10 +5,10 @@
 	"incinerable": true,
 	"name": "Oxgyen",
 	"coolant": true,
-	"color": "a0b0c8",
-	"colorFrom": "6569c9",
-	"colorTo": "88a4ff",
-	"gasColor": "88a4ff"
+	"color": "626f9b",
+	"colorFrom": "626f9b",
+	"colorTo": "626f9b",
+	"gasColor": "626f9b"
 	"blockReactive": true,
 	"viscosity": 0.1,
 	"heatCapacity": 0.2,

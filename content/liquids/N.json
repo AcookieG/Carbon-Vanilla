@@ -6,7 +6,7 @@
 	"coolant": true,
 	"color": "5ec1bf",
 	"colorFrom": "5ec1bf",
-	"colorTo": "8deebb",
+	"colorTo": "5ec1bf",
 	"gasColor": "5ec1bf"
 	"blockReactive": true,
 	"viscosity": 0.1,
@@ -14,6 +14,6 @@
 	"explosiveness": 0.0,
 	"temperature": 0.3,
 	"flammability": 0.0,
-	"research": "methane",
+	"research": "pressure",
 	"gas": true,
 }
