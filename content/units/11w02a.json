@@ -14,7 +14,6 @@
 	"hitSize": 8,
 	
 	"itemCapacity": 0,
-	"aiController": suicideAI
 	
 	"engineOffset": 5,
 	"engineSize": 2,
