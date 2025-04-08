@@ -87,7 +87,5 @@ research: {
 	"squareSprite": false,
 	"conductivePower": true
 	"rotate": true,
-	invertFlip: true,
-	regionRotated1: 3,
 	liquidOutputDirections: [1,2,]
 }
