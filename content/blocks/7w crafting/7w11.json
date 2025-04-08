@@ -1,0 +1,70 @@
+{
+	"name": "Flex Crisscrosser",
+	"description": "Exploits Carbon fiber's properties using Water to get a very strong coupling joint.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 290,
+	"itemCapacity": 40,
+	"hasLiquids": false,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "scatheExplosion",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water",
+				"padding": 3,
+			},
+			{ 
+			"type": "DrawArcSmelt",
+			}
+			{
+        "type": "DrawMultiWeave"
+				"glowColor": d1efff
+      },
+      {
+        "type": "DrawDefault"
+      }
+			{
+				"type": "DrawGlowRegion",
+				"color": d1efff
+			},
+    ]
+  },
+	"consumes": {
+		"power": 1.2,
+		"liquids":  [
+		{"liquid": "water", "amount": 0.4},
+		]
+		"items": {
+			"items": [
+	{ "item": "carbon-fiber", "amount": 20 },
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "dense", "amount": 30 },
+		{ "item": "graphite", "amount": 120 },
+		{ "item": "coppa", "amount": 50 },
+		{ "item": "sand", "amount": 150 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "7w10",
+	"idleSound": "techloop",
+	"idleSoundVolume": 0.04,
+	"outputItem": {
+		"item": "flex-joint",
+		"amount": 16
+	},
+	"craftTime": 480,
+	"squareSprite": false,
+		"conductivePower": true
+}

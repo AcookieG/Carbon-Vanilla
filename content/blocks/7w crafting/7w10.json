@@ -1,10 +1,10 @@
 {
 	"name": "Carbon Fiber Weaver",
-	"description": "Uses Cotton and Graphite to produce Carbon Fiber.",
+	"description": "Slowly produces super strong Carbon Fibers from Graphite sheets in a pure Oxygen environment.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 180,
-	"itemCapacity": 20,
+	"itemCapacity": 10,
 	"hasLiquids": false,
 	"hasPower": true,
 	"hasItems": true,
@@ -17,6 +17,11 @@
         "type": "DrawRegion",
         "suffix": "-bottom"
       },
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "O",
+				"padding": 2,
+			},
       {
         "type": "DrawWeave"
       },
@@ -27,9 +32,11 @@
   },
 	"consumes": {
 		"power": 0.5,
+		"liquids":  [
+		{"liquid": "O", "amount": 0.1},
+		]
 		"items": {
 			"items": [
-	{ "item": "cotton", "amount": 6 },
 	{ "item": "graphite", "amount": 2 },
 			]
 		},
@@ -42,7 +49,7 @@
 	],
 	"category": "crafting",
 	"rotate": false
-	"research": "phase-weaver",
+	"research": "7w01",
 	"idleSound": "techloop",
 	"idleSoundVolume": 0.04,
 	"outputItem": {
