@@ -1,0 +1,78 @@
+{
+	"type": "ErekirUnitType",
+	"name": "Egcheyle",
+	"health": 170,
+	"armor": 1,
+	
+	"hovering": true,
+	"shadowElevation": 0.1,
+	"rotateSpeed": 6,
+	"speed": 2.1,
+	"accel": 0.01,
+	"drag": 0.04,
+	
+	"hitSize": 8,
+	
+	"itemCapacity": 0,
+	"aiController": suicideAI
+	
+	"engineOffset": 5,
+	"engineSize": 2,
+	"researchCostMultiplier": 0,
+	"useEngineElevation": false,
+	"parts": [
+		{
+			"type": "HoverPart",
+			x: 3.9
+			mirror: true
+			radius: 6
+			phase: 120
+			stroke: 2
+			layerOffset: -0.001
+			color: ff7066
+		},
+		{
+"type": "HaloPart",
+"y": 8,
+"radius": 4,
+"tri": true,
+"layer": -1,
+"haloRotation": -45,
+"shapeRotation": -90,
+"color": "fb9957",
+"haloRadius": 6,
+"haloRadiusTo": 6,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 1,
+"progress": "recoil"
+"triLengthTo": 18,
+"triLength": 0
+},
+	"weapons": [
+		{
+			"name": "clear",
+			shootOnDeath: true,
+			shootCone: 180,
+			shootSound: explosion,
+			mirror: false,
+			"bullet": {
+				"type": "BulletType",
+				collidesTiles: false,
+				collides: false,
+				hitSound: explosion,
+				rangeOverride: 30
+				hitEffect: pulverize
+				"speed": 0,
+				"splashDamageRadius": 60,
+				"splashDamage": 120,
+				killShooter: true,
+				hittable: false,
+				collidesAir: true,
+			},
+		}
+	]
+	"trailLength": 10,
+	"outlineColor": 00000000,
+	"fogRadius": 0,
+}

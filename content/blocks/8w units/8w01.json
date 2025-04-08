@@ -1,0 +1,27 @@
+{
+	"name": "Five Axis Printer",
+	"description": "A two by two to print the most basic of any unit tree.",
+	"type": "UnitFactory"
+	"size": 2,
+	"itemCapacity": 30,
+	"consumes": {
+		"power": 1.2,
+	},
+	"plans": [
+		{
+			"unit": "11w02a",
+			"time": 840
+			"requirements": [
+				{ "item": "silicon", "amount": 20 },
+				{ "item": "coal", "amount": 20 },
+			]
+		},
+	]
+	"category": "units",
+	"research": "9w01",
+	"requirements": [
+		{ "item": "sand", "amount": 120 },
+		{ "item": "graphite", "amount": 90 },
+		{ "item": "silicon", "amount": 50 },
+	]
+}
