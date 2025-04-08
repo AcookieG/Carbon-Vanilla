@@ -79,10 +79,11 @@ research: {
 }
 	"idleSound": "electricHum",
 	"idleSoundVolume": 0.08,
-	"outputLiquids": [{"liquid": "O", "amount": 0.1},{"liquid": "H", "amount": 0.2},]
+	"outputLiquids": [{"liquid": "H", "amount": 0.2},{"liquid": "O", "amount": 0.1},]
 	"craftTime": 40,
 	"squareSprite": false,
 	"conductivePower": true
 	"rotate": false,
-	liquidOutputDirections: [1,3,]
+	"invertFlip": true
+	liquidOutputDirections: [2,4,]
 }
