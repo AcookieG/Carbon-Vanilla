@@ -37,13 +37,13 @@
 				"type": "DrawLiquidTile",
 				"drawLiquid": "O",
 				"padding": 2,
-				"padLeft": 4,
+				"padLeft": 8,
 			},
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "H",
 				"padding": 2,
-				"padRight": 4,
+				"padRight": 8,
 			},
 			{
 				"type": "DrawDefault",
