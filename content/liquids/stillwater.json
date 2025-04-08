@@ -23,7 +23,7 @@
 	"explosiveness": 0,
 	"temperature": 0.5,
 	"flammability": 0.0,
-	"research": "methane",
+	"research": "water",
 	"effect": "slow"
 	"scaling": 8,
 	"removeScaling": 0,

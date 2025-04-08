@@ -2,7 +2,7 @@ type: LogicBlock
 name: Microcontroler
 description: Runs logic and controls units or buildings. Requires Power. Runs at 60fps.
 category: logic
-research: 11k-01-core-essence
+research: 9w01
 requirements: [
 	{"item": "graphite", "amount": 40}
 	{"item": "silicon", "amount": 40}
