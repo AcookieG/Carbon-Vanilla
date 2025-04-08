@@ -19,6 +19,7 @@
 	]
 	"category": "units",
 	"research": "9w01",
+	"unitType": "ErekirUnitType",
 	"requirements": [
 		{ "item": "sand", "amount": 120 },
 		{ "item": "graphite", "amount": 90 },
