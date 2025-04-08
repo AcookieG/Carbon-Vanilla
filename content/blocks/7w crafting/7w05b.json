@@ -37,20 +37,17 @@
 				"type": "DrawLiquidTile",
 				"drawLiquid": "O",
 				"padding": 2,
-				"padLeft": 6,
+				"padLeft": 4,
 			},
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "H",
 				"padding": 2,
-				"padRight": 6,
+				"padRight": 4,
 			},
 			{
 				"type": "DrawDefault",
 			},
-			{
-				"type": "DrawLiquidOutputs",
-			}
 			{
 				"type": "DrawGlowRegion",
 				"color": d1efff
@@ -86,6 +83,6 @@ research: {
 	"craftTime": 40,
 	"squareSprite": false,
 	"conductivePower": true
-	"rotate": true,
-	liquidOutputDirections: [1,2,]
+	"rotate": false,
+	liquidOutputDirections: [1,3,]
 }
