@@ -4,7 +4,7 @@
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 290,
-	"itemCapacity": 60,
+	"itemCapacity": 80,
 	"liquidCapacity": 30,
 	"hasLiquids": true,
 	"hasPower": true,
@@ -46,7 +46,7 @@
 		]
 		"items": {
 			"items": [
-	{ "item": "carbon-fiber", "amount": 60 },
+	{ "item": "carbon-fiber", "amount": 45 },
 			]
 		},
 	},
@@ -63,9 +63,9 @@
 	"idleSoundVolume": 0.04,
 	"outputItem": {
 		"item": "flex-joint",
-		"amount": 32
+		"amount": 24
 	},
-	"craftTime": 960,
+	"craftTime": 720,
 	"squareSprite": false,
 		"conductivePower": true
 }
