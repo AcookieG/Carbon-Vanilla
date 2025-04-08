@@ -16,7 +16,7 @@
 	"colorTo": "8bbeb0",
 	"gas": false
 	"lightColor": "8bbeb000"
-	"spreadTarget": "water",
+	"spreadTarget": "pressure",
 	"blockReactive": true,
 	"viscosity": 0.85,
 	"heatCapacity": 0.3,
