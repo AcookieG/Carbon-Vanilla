@@ -5,7 +5,8 @@
 	"size": 2,
 	"health": 180,
 	"itemCapacity": 10,
-	"hasLiquids": false,
+	"liquidCapacity": 10,
+	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
 	"updateEffect": "none",
@@ -17,11 +18,6 @@
         "type": "DrawRegion",
         "suffix": "-bottom"
       },
-			{
-				"type": "DrawLiquidTile",
-				"drawLiquid": "O",
-				"padding": 2,
-			},
       {
         "type": "DrawWeave"
       },

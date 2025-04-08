@@ -4,8 +4,9 @@
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 290,
-	"itemCapacity": 40,
-	"hasLiquids": false,
+	"itemCapacity": 60,
+	"liquidCapacity": 30,
+	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
 	"updateEffect": "none",
@@ -39,13 +40,13 @@
     ]
   },
 	"consumes": {
-		"power": 1.2,
+		"power": 2.2,
 		"liquids":  [
-		{"liquid": "water", "amount": 0.4},
+		{"liquid": "water", "amount": 0.6},
 		]
 		"items": {
 			"items": [
-	{ "item": "carbon-fiber", "amount": 20 },
+	{ "item": "carbon-fiber", "amount": 60 },
 			]
 		},
 	},
@@ -62,9 +63,9 @@
 	"idleSoundVolume": 0.04,
 	"outputItem": {
 		"item": "flex-joint",
-		"amount": 16
+		"amount": 32
 	},
-	"craftTime": 480,
+	"craftTime": 960,
 	"squareSprite": false,
 		"conductivePower": true
 }

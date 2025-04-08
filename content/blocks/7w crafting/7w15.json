@@ -27,19 +27,19 @@
 	"craftEffect": {
 			type: ExplosionEffect
 			lifetime: 30
-			waveRad: 0
-			waveLife: 1
-			waveStroke: 0
+			waveRad: 30
+			waveLife: 20
+			waveStroke: 1
 			smokeColor: ffffff00
 			smokeSize: 0
 			smokes: 0
 			smokeRad: 0
-			sparks: 4
-			sparkRad: 27
-			sparkStroke: 2.2
-			sparkLen: 5
+			sparks: 8
+			sparkRad: 34
+			sparkStroke: 3.5
+			sparkLen: 9
 			sparkColor: ffffffff
-			waveColor: ffffff00
+			waveColor: ffffffff
 		}
 	"itemCapacity": 160,
 	"liquidCapacity": 40,
