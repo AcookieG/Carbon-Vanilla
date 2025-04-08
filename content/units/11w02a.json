@@ -7,46 +7,30 @@
 	"hovering": true,
 	"shadowElevation": 0.1,
 	"rotateSpeed": 6,
-	"speed": 2.1,
+	"speed": 40,
 	"accel": 0.01,
-	"drag": 0.04,
+	"drag": 0.01,
 	
 	"hitSize": 8,
 	
 	"itemCapacity": 0,
 	
-	"engineOffset": 5,
-	"engineSize": 2,
+	"engineOffset": 7,
+	"engineSize": 2.8,
 	"researchCostMultiplier": 0,
 	"useEngineElevation": false,
 	"parts": [
 		{
 			"type": "HoverPart",
-			x: 3.9
-			mirror: true
+			x: 0
+			y: 0
+			mirror: false
 			radius: 6
 			phase: 120
 			stroke: 2
 			layerOffset: -0.001
-			color: ff7066
+			color: f17afa
 		},
-		{
-"type": "HaloPart",
-"y": 0,
-"radius": 8,
-"tri": true,
-"layer": -0.001,
-"haloRotation": 0,
-"shapeRotation": -90,
-"color": "ff7066",
-"haloRadius": 10,
-"haloRadiusTo": 12,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 1,
-"triLengthTo": 18,
-"triLength": 0
-},
 ]
 	"weapons": [
 		{
