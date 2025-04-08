@@ -33,22 +33,22 @@
 		},
 		{
 "type": "HaloPart",
-"y": 8,
-"radius": 4,
+"y": 0,
+"radius": 8,
 "tri": true,
-"layer": -1,
-"haloRotation": -45,
+"layer": -0.001,
+"haloRotation": 0,
 "shapeRotation": -90,
-"color": "fb9957",
-"haloRadius": 6,
-"haloRadiusTo": 6,
+"color": "ff7066",
+"haloRadius": 10,
+"haloRadiusTo": 12,
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 1,
-"progress": "recoil"
 "triLengthTo": 18,
 "triLength": 0
 },
+]
 	"weapons": [
 		{
 			"name": "clear",
