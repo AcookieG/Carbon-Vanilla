@@ -7,24 +7,24 @@
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
-	"updateEffect": {
+	"updateEffect": none
+	"craftEffect": {
 			type: ExplosionEffect
 			lifetime: 30
-			waveRad: 30
-			waveLife: 20
-			waveStroke: 1
+			waveRad: 0
+			waveLife: 1
+			waveStroke: 0
 			smokeColor: ffffff00
 			smokeSize: 0
 			smokes: 0
 			smokeRad: 0
-			sparks: 8
-			sparkRad: 34
-			sparkStroke: 3.5
-			sparkLen: 9
+			sparks: 4
+			sparkRad: 20
+			sparkStroke: 3
+			sparkLen: 5.2
 			sparkColor: ffffffff
-			waveColor: ffffffff
+			waveColor: ffffff00
 		}
-	"craftEffect": "none",
 	"liquidCapacity": 30,
 	"drawer": {
 		"type": "DrawMulti",
@@ -83,7 +83,7 @@ research: {
 	"idleSound": "electricHum",
 	"idleSoundVolume": 0.08,
 	"outputLiquids": [{"liquid": "O", "amount": 0.1},{"liquid": "H", "amount": 0.2},]
-	"craftTime": 60,
+	"craftTime": 40,
 	"squareSprite": false,
 	"conductivePower": true
 	"rotate": true,

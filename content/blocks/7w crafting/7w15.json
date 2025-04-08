@@ -81,7 +81,7 @@
 		{ "item": "silicon", "amount": 90 },
 		{ "item": "coppa", "amount": 80 },
 		{ "item": "graphite", "amount": 110 },
-		{ "item": "dense", "amount": 60 },
+		{ "item": "flex-joint", "amount": 60 },
 	],
 	"outputItems": [
 		{ "item": "circuit", "amount": 8 },
