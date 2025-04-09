@@ -9,8 +9,8 @@
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
-	"updateEffect": "none",
-	"craftEffect": "pulverizeMedium",
+	"updateEffect": "pulverizeMedium",
+	"craftEffect": "steam",
 	"consumes": {
 	"power": 0.2,
 		"items": {
@@ -42,7 +42,7 @@
 			},
 			{
 				"type": "DrawRegion"
-				"suffix": "-pad"
+				"suffix": "-cap"
 			},
 			{
 				"type": "DrawLiquidTile",
