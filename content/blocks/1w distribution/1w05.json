@@ -6,6 +6,7 @@
 		{"item": "silicon", "amount": 20},
 		{"item": "slate", "amount": 20},
 	],
+	"speed": 0,
 	"category": "distribution",
 	"research": "1w04"
 	"squareSprite": false,
