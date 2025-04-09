@@ -125,7 +125,7 @@ weapons: [{
             fragVelocityMax: 10,
             fragLifeMin: 140
             fragLifeMax: 500
-            fragBullets: 20
+            fragBullets: 15
             fragBullet: {
                 type: EmpBulletType,
                 hitSound: explosionBig,
