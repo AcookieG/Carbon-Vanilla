@@ -76,8 +76,8 @@ weapons: [{
 			sparkLen: 15,
 		}]}
         
-        fragVelocityMin: -0.5,
-        fragVelocityMax: 40,
+        fragVelocityMin: 80,
+        fragVelocityMax: 80,
         fragLifeMin: 100
         fragLifeMax: 240
         fragBullets: 200
@@ -113,9 +113,9 @@ weapons: [{
                 x: 0,
                 y: 0,
                 mirror: false,
-                radius: 20,
+                radius: 25,
                 phase: 120,
-                stroke: 4,
+                stroke: 6,
                 layerOffset: -0.001,
                 color: 00d0ff,
                 sides: 4,
@@ -148,9 +148,9 @@ weapons: [{
                 splashDamagePierce: true,
                 collidesGround: true,
                 collidesTiles: true,
-                splashDamage: 600,
+                splashDamage: 60,
                 drag: 0.04,
-                splashDamageRadius: 90
+                splashDamageRadius: 40
                 createChance: 0.9,
                 shrinkY: 0.7,
                 shrinkX: 0.7,
