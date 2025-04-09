@@ -102,7 +102,7 @@ weapons: [{
             shrinkY: 200,
             shrinkX: 200,
             drag: 0.03,
-            drawSize: 200,
+            drawSize: 10,
             sprite: large-bomb,
             spin: 1,
             parts: [{
@@ -120,8 +120,8 @@ weapons: [{
             
             fragVelocityMin: 1,
             fragVelocityMax: 30,
-            fragLifeMin: 50
-            fragLifeMax: 500
+            fragLifeMin: 150
+            fragLifeMax: 400
             fragBullets: 20
             fragBullet: {
                 type: BasicBulletType,
@@ -185,8 +185,8 @@ weapons: [{
 			colorTo: 00000010,
 			damage: 600,
 			instantDisapear: false,
-			velMin: 2,
-			velMax: 20,
+			velMin: 0,
+			velMax: 18,
 			lifetime: 2000,
 			despawnEffect: none,
 			collidesAir: true,
