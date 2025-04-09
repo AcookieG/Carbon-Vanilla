@@ -129,7 +129,7 @@ weapons: [{
             fragBullet: {
                 type: EmpBulletType,
                 hitSound: explosionBig,
-                damage: 830,
+                damage: 0,
                 lifetime: 1
                 speed: 1
                 width: 20,
@@ -141,10 +141,13 @@ weapons: [{
                 shootEffect: none,
                 keepVelocity: true,
                 despawnEffect: scatheExplosion,
+                pierce: true,
+                pierceCap: 900,
+                pierceBuilding: true,
                 collidesAir: true,
                 splashDamagePierce: true,
-                collidesGround: false,
-                collidesTiles: false,
+                collidesGround: true,
+                collidesTiles: true,
                 splashDamage: 600,
                 drag: 0.04,
                 splashDamageRadius: 90
