@@ -15,7 +15,6 @@
 	"inaccuracy": 5,
 	"outlineRadius": 4,
 	"squareSprite": false,
-	"velocityRnd": 0.1,
 	"targetAir": false,
 	"drawer": {
 	"type": "drawTurret",
@@ -35,6 +34,7 @@
 			"speed": 13,
 			"drag": 0.1
 			"collideAir": false,
+			"shootEffect": "shootBig",
 		},
 		"graphite": {
 			"type": "BasicBulletType",
@@ -50,6 +50,7 @@
       "shrinkX": 0.1,
 			"drag": 0.05
 			"collideAir": false,
+			"shootEffect": "shootBig",
 		},
 		"silicon": {
 			"type": "BasicBulletType",
@@ -66,6 +67,7 @@
       "shrinkX": 0.1,
 			"drag": 0.06
 			"collideAir": false,
+			"shootEffect": "shootBig",
 		},
 		"carbon-fiber": {
 			"type": "BasicBulletType",
@@ -81,6 +83,7 @@
       "shrinkX": 0.1,
 			"drag": -0.03
 			"collideAir": false,
+			"shootEffect": "shootBig",
 		},
 	},
 	"consumes": {
