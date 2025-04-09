@@ -80,7 +80,7 @@ weapons: [{
         fragVelocityMax: 40,
         fragLifeMin: 100
         fragLifeMax: 240
-        fragBullets: 200
+        fragBullets: 100
 		fragBullet: {
       		type: BasicBulletType,
             hitSound: explosionBig,
@@ -165,6 +165,7 @@ weapons: [{
                     color: 00d0ff,
                     sides: 4,
             }]
+            
                 fragBullets: 30
                 fragBullet: {
                     type: FireBulletType,
@@ -174,7 +175,7 @@ weapons: [{
                     damage: 50,
                     instantDisapear: false,
                     velMin: 0,
-                    velMax: 18,
+                    velMax: 8,
                     lifetime: 360,
                     despawnEffect: none,
                     collidesAir: true,
@@ -183,8 +184,8 @@ weapons: [{
                     hittable: false,
                     reflectable: false,
                     absorbable: true,
-                    width: 180,
-                    height: 180,
+                    width: 1,
+                    height: 1,
                     keepVelocity: false,
                     status: carbon-vanilla-helios-effect,
         }}}
