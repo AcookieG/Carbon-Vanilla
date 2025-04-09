@@ -24,8 +24,7 @@ trailLength: 1,
 range: 100,
 shootOnDeath: true,
 
-weapons: [
-	{
+weapons: [{
 	shootOnDeath: true,
 	controllable: true,
 	shootSound: explosionBig,
@@ -79,8 +78,8 @@ weapons: [
         
         fragVelocityMin: 3,
         fragVelocityMax: 20,
-        fragLifeMin: 40
-        fragLifeMax: 500
+        fragLifeMin: 60
+        fragLifeMax: 80
         fragBullets: 200
 		fragBullet: {
       		type: BasicBulletType,
@@ -88,8 +87,8 @@ weapons: [
             damage: 0,
             lifetime: 1
             speed: 1
-            width: 50,
-            height: 50,
+            width: 2.5,
+            height: 2.5,
             hittable: false,
             reflectable: false,
             absorbable: true,
@@ -100,17 +99,29 @@ weapons: [
             collidesAir: false,
 			collidesGround: false,
 			collidesTiles: false,
-            shrinkY: 0.5,
-            shrinkX: 0.5,
+            shrinkY: 200,
+            shrinkX: 200,
             drag: 0.03,
             drawSize: 200,
             sprite: large-bomb,
             spin: 1,
+            parts: [{
+                type: HoverPart,
+                x: 0,
+                y: 0,
+                mirror: false,
+                radius: 20,
+                phase: 120,
+                stroke: 4,
+                layerOffset: -0.001,
+                color: 00d0ff,
+                sides: 4,
+            }]
             
             fragVelocityMin: 1,
             fragVelocityMax: 30,
-            fragLifeMin: 60
-            fragLifeMax: 80
+            fragLifeMin: 50
+            fragLifeMax: 500
             fragBullets: 20
             fragBullet: {
                 type: BasicBulletType,
@@ -130,37 +141,16 @@ weapons: [
                 collidesAir: true,
                 collidesGround: false,
                 collidesTiles: true,
-                splashDamage: 230,
-                drag: 0.02,
+                splashDamage: 800,
+                drag: 0.04,
+                splashDamageRadius: 60
                 createChance: 0.9,
-                shrinkY: 0.5,
-                shrinkX: 0.5,
+                shrinkY: 0.7,
+                shrinkX: 0.7,
                 drawSize: 200,
                 sprite: large-bomb,
                 spin: 2,
-                
-                fragLifeMin: 200
-                fragLifeMax: 800
-                fragBullets: 10
-                fragBullet: {
-                    type: FireBulletType,
-                    damage: 600,
-                    instantDisapear: false,
-                    velMin: 1,
-                    velMax: 8,
-                    lifetime: 1,
-                    despawnEffect: none,
-                    collidesAir: true,
-                    collidesGround: true,
-                    collidesTiles: true,
-                    hittable: false,
-                    reflectable: false,
-                    absorbable: true,
-                    width: 1,
-                    height: 1,
-                    keepVelocity: false,
-                    status: carbon-vanilla-helios-effect,
-        }}}
+        }}
         
 		intervalBullets: 1,
 		intervalSpread: 1,
