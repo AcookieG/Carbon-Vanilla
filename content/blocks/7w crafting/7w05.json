@@ -40,10 +40,10 @@
 		]
 	},
 	"consumes": {
-		"power": 1.2,
+		"power": 1.4,
     "liquids":  [
-		{"liquid": "pressure", "amount": 0.2},
-		{"liquid": "oil", "amount": 0.1},
+		{"liquid": "pressure", "amount": 0.3},
+		{"liquid": "oil", "amount": 0.2},
 		]
 	},
 	"requirements": [
@@ -65,7 +65,7 @@ research: {
 }
 	"idleSound": "machine",
 	"idleSoundVolume": 0.08,
-	"outputLiquid": {"liquid": "N", "amount": 0.1},
+	"outputLiquid": {"liquid": "N", "amount": 0.2},
 	"craftTime": 60,
 	"squareSprite": false,
 	"conductivePower": true
