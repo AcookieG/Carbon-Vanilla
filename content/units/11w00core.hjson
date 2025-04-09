@@ -156,10 +156,7 @@ weapons: [
                     height: 1,
                     keepVelocity: false,
                     status: carbon-vanilla-helios-effect,
-                }
-            }
-        }
-        
+        }}}
         
 		intervalBullets: 1,
 		intervalSpread: 1,
@@ -208,22 +205,20 @@ weapons: [
 			height: 180,
 			keepVelocity: false,
             status: carbon-vanilla-helios-effect,
-            }
-	}
-}]
+        }}
+    }}]
 
-parts: [
-	{
-	type: HoverPart,
-	x: 0,
-	y: 0,
-	mirror: false,
-	radius: 40,
-	phase: 120,
-	stroke: 6,
-	layerOffset: -0.001,
-	color: 00d0ff,
-    sides: 6,
+    parts: [
+        {
+        type: HoverPart,
+        x: 0,
+        y: 0,
+        mirror: false,
+        radius: 40,
+        phase: 120,
+        stroke: 8,
+        layerOffset: -0.001,
+        color: 00d0ff,
+        sides: 6,
     }
-]
-}
+]}
