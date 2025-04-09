@@ -77,11 +77,11 @@ weapons: [
 			sparkLen: 15,
 		}]}
         
-        fragVelocityMin: 8,
-        fragVelocityMax: 20,
-        fragLifeMin: 20
-        fragLifeMax: 60
-        fragBullets: 600
+        fragVelocityMin: 6,
+        fragVelocityMax: 15,
+        fragLifeMin: 60
+        fragLifeMax: 120
+        fragBullets: 100
 		fragBullet: {
       		type: BasicBulletType,
             hitSound: explosionBig,
@@ -96,21 +96,21 @@ weapons: [
             despawnShake: 5,
             shootEffect: none,
             keepVelocity: false,
-            despawnEffect: scatheExplosion,
+            despawnEffect: titanExplosion,
             
-            fragVelocityMin: 8,
-            fragVelocityMax: 20,
-            fragLifeMin: 20
-            fragLifeMax: 60
-            fragBullets: 60
+            fragVelocityMin: 1,
+            fragVelocityMax: 12,
+            fragLifeMin: 120
+            fragLifeMax: 300
+            fragBullets: 20
             fragBullet: {
                 type: BasicBulletType,
                 hitSound: explosionBig,
                 damage: 230,
                 lifetime: 1
                 speed: 1
-                width: 20,
-                height: 20,
+                width: 8,
+                height: 8,
                 hittable: true,
                 reflectable: true,
                 absorbable: true,
@@ -161,6 +161,7 @@ parts: [
 	stroke: 6,
 	layerOffset: -0.001,
 	color: 00d0ff,
+    sides: 6,
     }
 ]
 }
