@@ -28,7 +28,7 @@
 			"height": 12,
 			"reloadMultiplier": 1,
 			"lifetime": 25,
-			"bulletShrink": 0,
+			"shrinkY": 0,
 			"shootEffect": "shootBig",
 			"speed": 8,
 			"homingPower": 0.03,
@@ -53,7 +53,7 @@
 			"height": 12,
 			"toColor": "thoriumPink",
 			"lifetime": 33,
-			"bulletShrink": 0.6,
+			"shrinkY": 0.6,
 			"shootEffect": "shootBig2",
 			"smokeEffect": "thoriumShoot"
 			"speed": 6,
@@ -69,7 +69,7 @@
 			"height": 12,
 			"reloadMultiplier": 0.5,
 			"lifetime": 30,
-			"bulletShrink": 0,
+			"shrinkY": 0,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke"
 			"speed": 8,
