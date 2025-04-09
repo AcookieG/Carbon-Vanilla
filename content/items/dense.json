@@ -1,7 +1,7 @@
 {
 	"type": "material",
-	"name": "Dense alloy",
-	"description": "Ooo Shinney.",
+	"name": "Dense Alloy",
+	"description": "A hard and heavy metal used in construction and metalurgy.",
 	"cost": 1.7
 	"flammability": 0.0,
 	"radioactivity": 0.1,
