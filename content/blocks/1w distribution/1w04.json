@@ -7,7 +7,8 @@
 		{"item": "slate", "amount": 3},
 	],
 	"category": "distribution",
-	"speed": 5,
+	"speed": 4,
+	"itemCapacity": 0
 	"research": "1w03"
 	"squareSprite": false,
 }
