@@ -12,15 +12,15 @@ hidden: false,
 health: 2500,
 hitSize: 12,
 engineLayer: 110,
-trailColor: FFFFffff,
+trailColor: 00d0ff,
 missileAccelTime: 120,
 engineOffset: 20,
-engineSize: 2,
+engineSize: 2.6,
 drawCell: false,
-engineColor: FFFFffff,
+engineColor: 00d0ff,
 outlineColor: 00000000,
 maxRange: 100,
-trailLength: 1,
+trailLength: 1.2,
 range: 100,
 shootOnDeath: true,
 
@@ -124,9 +124,9 @@ weapons: [{
             fragLifeMax: 500
             fragBullets: 20
             fragBullet: {
-                type: BasicBulletType,
+                type: EmpBulletType,
                 hitSound: explosionBig,
-                damage: 230,
+                damage: 830,
                 lifetime: 1
                 speed: 1
                 width: 20,
@@ -139,7 +139,8 @@ weapons: [{
                 keepVelocity: false,
                 despawnEffect: scatheExplosion,
                 collidesAir: true,
-                collidesGround: false,
+                splashDamagePierce: true,
+                collidesGround: true,
                 collidesTiles: true,
                 splashDamage: 2000,
                 drag: 0.04,
