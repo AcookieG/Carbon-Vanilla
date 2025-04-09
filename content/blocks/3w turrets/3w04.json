@@ -24,55 +24,64 @@
 	"ammoTypes": {
 		"slate": {
 			"type": "BasicBulletType",
-			"collideAir": true
 			"reloadMultiplier": 1,
 			"damage": 31,
 			"ammoMultiplier": 2,
-			"width": 10,
-			"height": 12,
-			"lifetime": 40,
+			"width": 12,
+			"height": 15,
+			"lifetime": 60,
       "shrinkY": 0.5,
       "shrinkX": 0.1,
-			"speed": 10,
-			"drag": 0.08
-			"sprite": "large-bomb",
-			"collidesAir": false,
+			"speed": 13,
+			"drag": 0.1
+			"collideAir": false,
 		},
 		"graphite": {
 			"type": "BasicBulletType",
-			"collideAir": true
 			"damage": 48,
 			"ammoMultiplier": 2,
 			"width": 8,
-			"height": 12,
-			"lifetime": 40,
-			"speed": 8,
+			"height": 15,
+			"lifetime": 60,
+			"speed": 10,
 			"rangeChange": 40,
 			"shrinkY": 0.5,
       "shrinkX": 0.1,
 			"speed": 6,
-			"drag": 0.02
-			"sprite": "large-bomb",
-			"collidesAir": false,
+			"drag": 0.06
+			"collideAir": false,
 		},
 		"silicon": {
 			"type": "BasicBulletType",
-			"collideAir": true
 			"reloadMultiplier": 0.8,
 			"damage": 39,
 			"ammoMultiplier": 1.5,
-			"width": 8,
-			"height": 12,
-			"lifetime": 40,
-			"speed": 8,
+			"width": 12,
+			"height": 15,
+			"lifetime": 60,
+			"speed": 10,
 			"homingPower": 0.02,
 			"homingRange": 50,
 			"shrinkY": 0.5,
       "shrinkX": 0.1,
 			"speed": 6,
-			"drag": 0.04
-			"sprite": "large-bomb",
-			"collidesAir": false,
+			"drag": 0.06
+			"collideAir": false,
+		},
+		"carbon-fiber": {
+			"type": "BasicBulletType",
+			"damage": 48,
+			"ammoMultiplier": 2,
+			"width": 8,
+			"height": 12,
+			"lifetime": 60,
+			"speed": 10,
+			"rangeChange": 40,
+			"shrinkY": 0.5,
+      "shrinkX": 0.1,
+			"speed": 6,
+			"drag": 0.06
+			"collideAir": false,
 		},
 	},
 	"consumes": {
