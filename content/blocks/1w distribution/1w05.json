@@ -1,6 +1,7 @@
 {
 	"type": "Unloader",
 	"name": "Unloader",
+	"description": "Capped at 60fps.",
 	"health": 60,
 	"requirements": [
 		{"item": "silicon", "amount": 20},

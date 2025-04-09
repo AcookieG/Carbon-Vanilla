@@ -1,6 +1,7 @@
 {
 	"type": "DuctRouter",
 	"name": "Duct Router",
+	"description": "Capped at 60fps.",
 	"health": 40,
 	"requirements": [
 		{"item": "scrap", "amount": 3},
