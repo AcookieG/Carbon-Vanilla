@@ -77,9 +77,9 @@ weapons: [{
 		}]}
         
         fragVelocityMin: -0.5,
-        fragVelocityMax: 22,
-        fragLifeMin: 60
-        fragLifeMax: 100
+        fragVelocityMax: 34,
+        fragLifeMin: 100
+        fragLifeMax: 180
         fragBullets: 200
 		fragBullet: {
       		type: BasicBulletType,
@@ -101,7 +101,7 @@ weapons: [{
 			collidesTiles: false,
             shrinkY: 20,
             shrinkX: 20,
-            drag: 0.04,
+            drag: 0.03,
             drawSize: 1.01,
             sprite: large-bomb,
             spin: 1,
@@ -118,8 +118,8 @@ weapons: [{
                 sides: 4,
             }]
             
-            fragVelocityMin: 1,
-            fragVelocityMax: 30,
+            fragVelocityMin: 7,
+            fragVelocityMax: 10,
             fragLifeMin: 200
             fragLifeMax: 500
             fragBullets: 20
@@ -129,8 +129,8 @@ weapons: [{
                 damage: 230,
                 lifetime: 1
                 speed: 1
-                width: 30,
-                height: 30,
+                width: 20,
+                height: 20,
                 hittable: true,
                 reflectable: true,
                 absorbable: true,
@@ -141,9 +141,9 @@ weapons: [{
                 collidesAir: true,
                 collidesGround: false,
                 collidesTiles: true,
-                splashDamage: 800,
-                drag: 0.03,
-                splashDamageRadius: 60
+                splashDamage: 2000,
+                drag: 0.04,
+                splashDamageRadius: 90
                 createChance: 0.9,
                 shrinkY: 0.7,
                 shrinkX: 0.7,
@@ -159,7 +159,7 @@ weapons: [{
             type: BasicBulletType,
             hitSound: explosionBig,
             damage: 0,
-            lifetime: 120
+            lifetime: 90
             speed: 0
             width: 80,
             height: 80,
@@ -173,11 +173,13 @@ weapons: [{
             collidesAir: false,
             collidesGround: false,
             collidesTiles: false,
-            shrinkY: 0.2,
-            shrinkX: 0.2,
-            drawSize: 300,
+            shrinkY: 0.6,
+            shrinkX: 0.6,
+            drawSize: 200,
+            sprite: large-bomb,
+            spin: 9,
                 
-                fragBullets: 4000
+                fragBullets: 3000
                 fragBullet: {
       		type: FireBulletType,
 			colorFrom: 00000010,
