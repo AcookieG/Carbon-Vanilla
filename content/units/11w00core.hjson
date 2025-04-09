@@ -88,8 +88,8 @@ weapons: [
             damage: 0,
             lifetime: 1
             speed: 1
-            width: 20,
-            height: 20,
+            width: 50,
+            height: 50,
             hittable: false,
             reflectable: false,
             absorbable: true,
@@ -116,8 +116,8 @@ weapons: [
                 damage: 230,
                 lifetime: 1
                 speed: 1
-                width: 8,
-                height: 8,
+                width: 30,
+                height: 30,
                 hittable: true,
                 reflectable: true,
                 absorbable: true,
@@ -133,6 +133,7 @@ weapons: [
                 createChance: 0.9,
                 shrinkY: 0.5
                 shrinkX: 0.5
+                drawSize: 200
                 
                 fragLifeMin: 600
                 fragLifeMax: 2000
