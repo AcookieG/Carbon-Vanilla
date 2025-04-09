@@ -80,7 +80,7 @@ weapons: [{
         fragVelocityMax: 40,
         fragLifeMin: 100
         fragLifeMax: 240
-        fragBullets: 100
+        fragBullets: 70
 		fragBullet: {
       		type: BasicBulletType,
             hitSound: explosionBig,
@@ -95,7 +95,7 @@ weapons: [{
             despawnShake: 5,
             shootEffect: none,
             keepVelocity: false,
-            despawnEffect: titanExplosion,
+            despawnEffect: none,
             collidesAir: false,
 			collidesGround: false,
 			collidesTiles: false,
@@ -125,7 +125,7 @@ weapons: [{
             fragVelocityMax: 10,
             fragLifeMin: 140
             fragLifeMax: 500
-            fragBullets: 15
+            fragBullets: 10
             fragBullet: {
                 type: EmpBulletType,
                 hitSound: explosionBig,
@@ -174,8 +174,8 @@ weapons: [{
                     colorTo: 00000010,
                     damage: 50,
                     instantDisapear: false,
-                    velMin: 0,
-                    velMax: 8,
+                    velMin: -2,
+                    velMax: 4,
                     lifetime: 360,
                     despawnEffect: none,
                     collidesAir: true,
