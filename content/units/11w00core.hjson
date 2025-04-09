@@ -76,8 +76,8 @@ weapons: [{
 			sparkLen: 15,
 		}]}
         
-        fragVelocityMin: 80,
-        fragVelocityMax: 80,
+        fragVelocityMin: 40,
+        fragVelocityMax: 40,
         fragLifeMin: 100
         fragLifeMax: 240
         fragBullets: 200
@@ -121,17 +121,15 @@ weapons: [{
                 sides: 4,
             }]
             
-            fragVelocityMin: 7,
-            fragVelocityMax: 10,
-            fragLifeMin: 140
-            fragLifeMax: 500
-            fragBullets: 15
-            fragBullet: {
+		intervalBullets: 10,
+		intervalSpread: 1,
+		bulletInterval: 80,
+		intervalBullet: {
                 type: EmpBulletType,
                 hitSound: explosionBig,
                 damage: 0,
-                lifetime: 1
-                speed: 1
+                lifetime: 10
+                speed: 10
                 width: 20,
                 height: 20,
                 hittable: true,
