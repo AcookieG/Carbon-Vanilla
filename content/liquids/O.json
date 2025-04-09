@@ -12,7 +12,7 @@
 	"blockReactive": true,
 	"viscosity": 0.1,
 	"heatCapacity": 0.2,
-	"explosiveness": 0.2,
+	"explosiveness": 1.0,
 	"temperature": 0.5,
 	"flammability": 0.2,
 	"research": "H",
