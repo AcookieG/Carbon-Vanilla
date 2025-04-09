@@ -1,0 +1,76 @@
+{
+	"name": "Graphite Pounder",
+	"description": "Presses carbon bases into Graphite sheets.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 230,
+	"liquidCapacity": 10,
+	"itemCapacity": 10,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "pulverizeMedium",
+	"consumes": {
+	"power": 0.2,
+		"items": {
+			"items": [
+				{"item": "slate", "amount": 2}
+			]
+		},
+		"liquids":  [
+		{"liquid": "oil", "amount": 0.2},
+		]
+	},
+	"requirements": [
+		{ "item": "dense", "amount": 40 },
+		{ "item": "carbon-fiber", "amount": 30 },
+		{ "item": "sand", "amount": 150 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawRegion",
+				"spinSprite": true,
+				"rotateSpeed": 3,
+				"suffix": "-spinner",
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-pad"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "oil",
+				"padding": 3,
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"category": "crafting",
+	"rotate": false
+research: {
+  parent: 7w01
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+"outputItems": [
+		{ "item": "graphite", "amount": 4 },
+	],
+	"idleSound": "machine",
+	"idleSoundVolume": 0.03,
+	"craftTime": 20,
+	"squareSprite": false,
+			"conductivePower": true
+}
