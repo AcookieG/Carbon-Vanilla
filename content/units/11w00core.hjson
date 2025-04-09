@@ -77,9 +77,9 @@ weapons: [{
 		}]}
         
         fragVelocityMin: -0.5,
-        fragVelocityMax: 34,
+        fragVelocityMax: 60,
         fragLifeMin: 100
-        fragLifeMax: 180
+        fragLifeMax: 240
         fragBullets: 200
 		fragBullet: {
       		type: BasicBulletType,
@@ -99,12 +99,15 @@ weapons: [{
             collidesAir: false,
 			collidesGround: false,
 			collidesTiles: false,
-            shrinkY: 20,
-            shrinkX: 20,
+            shrinkY: 50,
+            shrinkX: 50,
             drag: 0.03,
             drawSize: 1.01,
             sprite: large-bomb,
             spin: 1,
+            splashDamagePierce: false,
+            splashDamage: 0,
+            splashDamageRadius: 0
             parts: [{
                 type: HoverPart,
                 x: 0,
@@ -120,7 +123,7 @@ weapons: [{
             
             fragVelocityMin: 7,
             fragVelocityMax: 10,
-            fragLifeMin: 200
+            fragLifeMin: 140
             fragLifeMax: 500
             fragBullets: 20
             fragBullet: {
@@ -142,7 +145,7 @@ weapons: [{
                 splashDamagePierce: true,
                 collidesGround: true,
                 collidesTiles: true,
-                splashDamage: 2000,
+                splashDamage: 600,
                 drag: 0.04,
                 splashDamageRadius: 90
                 createChance: 0.9,
