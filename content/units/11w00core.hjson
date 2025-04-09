@@ -77,7 +77,7 @@ weapons: [{
 		}]}
         
         fragVelocityMin: -0.5,
-        fragVelocityMax: 60,
+        fragVelocityMax: 40,
         fragLifeMin: 100
         fragLifeMax: 240
         fragBullets: 200
@@ -101,7 +101,7 @@ weapons: [{
 			collidesTiles: false,
             shrinkY: 50,
             shrinkX: 50,
-            drag: 0.03,
+            drag: 0.02,
             drawSize: 1.01,
             sprite: large-bomb,
             spin: 1,
@@ -139,12 +139,12 @@ weapons: [{
                 absorbable: true,
                 despawnShake: 5,
                 shootEffect: none,
-                keepVelocity: false,
+                keepVelocity: true,
                 despawnEffect: scatheExplosion,
                 collidesAir: true,
                 splashDamagePierce: true,
-                collidesGround: true,
-                collidesTiles: true,
+                collidesGround: false,
+                collidesTiles: false,
                 splashDamage: 600,
                 drag: 0.04,
                 splashDamageRadius: 90
