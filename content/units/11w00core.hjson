@@ -100,10 +100,12 @@ weapons: [
             collidesAir: false,
 			collidesGround: false,
 			collidesTiles: false,
-            shrinkY: 0.5
-            shrinkX: 0.5
+            shrinkY: 0.5,
+            shrinkX: 0.5,
             drag: 0.03,
-            drawSize: 200
+            drawSize: 200,
+            sprite: large-bomb,
+            spin: 1,
             
             fragVelocityMin: 1,
             fragVelocityMax: 30,
@@ -131,19 +133,21 @@ weapons: [
                 splashDamage: 230,
                 drag: 0.02,
                 createChance: 0.9,
-                shrinkY: 0.5
-                shrinkX: 0.5
-                drawSize: 200
+                shrinkY: 0.5,
+                shrinkX: 0.5,
+                drawSize: 200,
+                sprite: large-bomb,
+                spin: 2,
                 
                 fragLifeMin: 200
                 fragLifeMax: 800
-                fragBullets: 1
+                fragBullets: 10
                 fragBullet: {
                     type: FireBulletType,
                     damage: 600,
                     instantDisapear: false,
                     velMin: 1,
-                    velMax: 10,
+                    velMax: 8,
                     lifetime: 1,
                     despawnEffect: none,
                     collidesAir: true,
@@ -179,11 +183,11 @@ weapons: [
             collidesAir: false,
             collidesGround: false,
             collidesTiles: false,
-            shrinkY: 0.2
-            shrinkX: 0.2
-            drawSize: 300
+            shrinkY: 0.2,
+            shrinkX: 0.2,
+            drawSize: 300,
                 
-                fragBullets: 2000
+                fragBullets: 4000
                 fragBullet: {
       		type: FireBulletType,
 			colorFrom: 00000010,
@@ -193,7 +197,7 @@ weapons: [
 			instantDisapear: false,
 			velMin: 2,
 			velMax: 20,
-			lifetime: 1000,
+			lifetime: 2000,
 			despawnEffect: none,
 			collidesAir: true,
 			collidesGround: true,
