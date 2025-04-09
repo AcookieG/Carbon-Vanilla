@@ -15,7 +15,7 @@
 	"inaccuracy": 5,
 	"outlineRadius": 4,
 	"squareSprite": false,
-	"	rotateSpeed": 3,
+	"rotateSpeed": 3,
 	"targetAir": false,
 	"drawer": {
 	"type": "drawTurret",
