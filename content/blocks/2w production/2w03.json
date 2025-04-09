@@ -5,7 +5,7 @@
 	"size": 3,
 	"tier": 3,
 	"updateEffect": "coalSmeltsmoke",
-	"drillTime": 250,
+	"drillTime": 240,
 	"itemCapacity": 10,
 	"drawRim": true,
 	"drawMineItem": false,

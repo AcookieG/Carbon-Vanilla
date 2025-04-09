@@ -6,14 +6,6 @@
 	"updateEffect": "coalSmeltsmoke",
 	"drillTime": 200,
 	"itemCapacity": 10,
-	"consumes": {
-		"liquid": {
-			"liquid": "water", 
-			"amount": 0.1,
-			"optional": true,
-			"booster": true
-		}
-	},
 	"output": "slate",
 	"attribute": "Tslate",
 	"requirements": [

@@ -77,10 +77,10 @@
 			"reloadMultiplier": 1.2,
 			"width": 10,
 			"height": 15,
-			"lifetime": 30,
+			"lifetime": 45,
 			"speed": 2,
 			"rangeChange": 60,
-			"shrinkY": 1.2,
+			"shrinkY": -0.02,
       "shrinkX": 0.1,
 			"drag": -0.03
 			"collideAir": false,
