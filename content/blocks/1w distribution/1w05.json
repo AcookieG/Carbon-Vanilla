@@ -3,8 +3,8 @@
 	"name": "Unloader",
 	"health": 60,
 	"requirements": [
-		{"item": "silicon", "amount": 60},
-		{"item": "slate", "amount": 60},
+		{"item": "silicon", "amount": 20},
+		{"item": "slate", "amount": 20},
 	],
 	"category": "distribution",
 	"research": "1w04"
