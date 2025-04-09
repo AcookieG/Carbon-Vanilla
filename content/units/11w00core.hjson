@@ -78,7 +78,7 @@ weapons: [
 		}]}
         
         fragVelocityMin: 3,
-        fragVelocityMax: 15,
+        fragVelocityMax: 20,
         fragLifeMin: 40
         fragLifeMax: 500
         fragBullets: 200
@@ -106,10 +106,10 @@ weapons: [
             drawSize: 200
             
             fragVelocityMin: 1,
-            fragVelocityMax: 12,
+            fragVelocityMax: 15,
             fragLifeMin: 60
             fragLifeMax: 500
-            fragBullets: 30
+            fragBullets: 20
             fragBullet: {
                 type: BasicBulletType,
                 hitSound: explosionBig,
@@ -135,15 +135,15 @@ weapons: [
                 shrinkX: 0.5
                 drawSize: 200
                 
-                fragLifeMin: 600
-                fragLifeMax: 2000
-                fragBullets: 30
+                fragLifeMin: 200
+                fragLifeMax: 800
+                fragBullets: 20
                 fragBullet: {
                     type: FireBulletType,
                     damage: 600,
                     instantDisapear: false,
-                    velMin: 5,
-                    velMax: 20,
+                    velMin: 1,
+                    velMax: 10,
                     lifetime: 1,
                     despawnEffect: none,
                     collidesAir: true,
