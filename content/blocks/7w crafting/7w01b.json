@@ -15,11 +15,11 @@
 	"power": 0.2,
 		"items": {
 			"items": [
-				{"item": "slate", "amount": 2}
+				{"item": "slate", "amount": 1}
 			]
 		},
 		"liquids":  [
-		{"liquid": "oil", "amount": 0.2},
+		{"liquid": "oil", "amount": 0.25},
 		]
 	},
 	"requirements": [
@@ -36,19 +36,15 @@
 				"suffix": "-bottom"
 			},
 			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "oil",
+				"padding": 5,
+			},
+			{
 				"type": "DrawRegion",
 				"spinSprite": true,
 				"rotateSpeed": 3,
 				"suffix": "-spinner",
-			},
-			{
-				"type": "DrawRegion"
-				"suffix": "-cap"
-			},
-			{
-				"type": "DrawLiquidTile",
-				"drawLiquid": "oil",
-				"padding": 3,
 			},
 			{
 				"type": "DrawDefault"
@@ -67,11 +63,11 @@ research: {
   ]
 }
 "outputItems": [
-		{ "item": "graphite", "amount": 4 },
+		{ "item": "graphite", "amount": 2 },
 	],
 	"idleSound": "machine",
 	"idleSoundVolume": 0.03,
-	"craftTime": 20,
+	"craftTime": 24,
 	"squareSprite": false,
 			"conductivePower": true
 }

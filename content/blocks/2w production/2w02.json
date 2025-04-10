@@ -4,7 +4,7 @@
 	"type": "WallCrafter",
 	"size": 2,
 	"updateEffect": "coalSmeltsmoke",
-	"drillTime": 200,
+	"drillTime": 150,
 	"itemCapacity": 10,
 	"output": "slate",
 	"attribute": "Tslate",

@@ -66,7 +66,8 @@ research: {
 	"outputLiquids": [
 		{ "liquid": "oil", "amount": 0.2 },
 	],
-	"craftTime": 60,
+	"craftTime": 20,
 	"squareSprite": false,
 			"conductivePower": true
+			
 }

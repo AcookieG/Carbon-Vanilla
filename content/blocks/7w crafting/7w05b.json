@@ -83,7 +83,7 @@ research: {
 	"craftTime": 40,
 	"squareSprite": false,
 	"conductivePower": true
-	"rotate": false,
-	"invertFlip": true
+	"rotate": true,
+	"rotateDraw": false,
 	liquidOutputDirections: [2,4,]
 }
