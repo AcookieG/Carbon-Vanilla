@@ -78,12 +78,12 @@
 			},
 		]
 	},
-	"heatRequirement": 48
+	"heatRequirement": 36
 	"maxEfficiency": 1
 	"consumes": {
 		"power": 8,
     "liquids":  [
-		{"liquid": "oil", "amount": 0.8},
+		{"liquid": "oil", "amount": 0.6},
 		]
 	},
 	"requirements": [
