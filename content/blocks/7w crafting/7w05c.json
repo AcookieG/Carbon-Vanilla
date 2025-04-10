@@ -36,34 +36,34 @@
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "water",
-				"padright": 10,
-				"padLeft": 10,
+				"padright": 9,
+				"padLeft": 9,
 				"padTop": 3,
-				"padBottom": 12,
+				"padBottom": 14,
 			},
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "oil",
-				"padright": 10,
-				"padLeft": 10,
-				"padTop": 12,
+				"padright": 9,
+				"padLeft": 9,
+				"padTop": 14,
 				"padBottom": 3,
 			},
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "H",
-				"padright": 12,
+				"padright": 14,
 				"padLeft": 3,
-				"padTop": 10,
-				"padBottom": 10,
+				"padTop": 9,
+				"padBottom": 9,
 			},
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "O",
 				"padright": 3,
-				"padLeft": 12,
-				"padTop": 10,
-				"padBottom": 10,
+				"padLeft": 14,
+				"padTop": 9,
+				"padBottom": 9,
 			},
 			{
 				"type": "DrawDefault",
@@ -78,7 +78,7 @@
 			},
 		]
 	},
-	"heatRequirement": 96
+	"heatRequirement": 48
 	"maxEfficiency": 1
 	"consumes": {
 		"power": 8,
