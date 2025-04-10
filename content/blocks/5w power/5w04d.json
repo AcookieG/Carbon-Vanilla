@@ -1,0 +1,44 @@
+{
+	"name": "Air Filter",
+	"description": "Traps small amounts of pressure from the atmosphere.",
+	"type": "GenericCrafter"
+	"size": 1,
+	"health": 90,
+	"liquidCapacity": 10,
+	"hasLiquids": true,
+	"hasPower": false,
+	"hasItems": false,
+	"updateEffect": "none",
+	"craftEffect": "steam",
+	"requirements": [
+		{ "item": "scrap", "amount": 12 },
+		{ "item": "graphite", "amount": 40 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "pressure",
+				"padding": 2
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"category": "crafting",
+	"rotate": false
+	"research": "9w01",
+	"idleSound": "hum",
+	"idleSoundVolume": 0.03,
+	"craftTime": 180,
+	"outputLiquid": {"liquid": "pressure", "amount": 0.05},
+	"squareSprite": false,
+	rotateDraw: false,
+	rotate: true,
+}

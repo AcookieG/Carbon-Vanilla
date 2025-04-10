@@ -27,8 +27,8 @@
 	"idleSound": "machine",
 	"idleSoundVolume": 0.03,
 	"outputItems": [
-		{ "item": "graphite", "amount": 2 },
+		{ "item": "graphite", "amount": 3 },
 	],
-	"craftTime": 48,
+	"craftTime": 72,
 	"squareSprite": false,
 }
