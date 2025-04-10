@@ -1,30 +1,30 @@
 {
 	"name": "Soaping Boiler",
-	"description": "Uses Base and Acid's chemical properties to extract even higher amounts of Hydrogen.",
+	"description": "Uses Base and Acid's chemical properties to extract even higher amounts of Hydrogen, along with some Nitrogen",
 	"type": "HeatCrafter"
 	"size": 3,
 	"health": 300,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
-	"updateEffect": {
+	"updateEffect": none,
+	"craftEffect": {
 			type: ExplosionEffect
 			lifetime: 30
-			waveRad: 0
-			waveLife: 1
-			waveStroke: 0
+			waveRad: 10
+			waveLife: 10
+			waveStroke: 1
 			smokeColor: ffffff00
 			smokeSize: 0
 			smokes: 0
 			smokeRad: 0
-			sparks: 4
-			sparkRad: 20
-			sparkStroke: 3
-			sparkLen: 5.2
+			sparks: 6
+			sparkRad: 28
+			sparkStroke: 3.5
+			sparkLen: 6.2
 			sparkColor: ffffffff
-			waveColor: ffffff00
+			waveColor: ffffffff
 		}
-	"craftEffect": none
 	"liquidCapacity": 30,
 	"drawer": {
 		"type": "DrawMulti",
@@ -35,7 +35,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
+				"drawLiquid": "oil",
 				"padright": 9,
 				"padLeft": 9,
 				"padTop": 3,
@@ -43,7 +43,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "oil",
+				"drawLiquid": "N",
 				"padright": 9,
 				"padLeft": 9,
 				"padTop": 14,
@@ -104,8 +104,8 @@ research: {
 }
 	"idleSound": "electricHum",
 	"idleSoundVolume": 0.1,
-	"outputLiquids": [{"liquid": "H", "amount": 0.4},{"liquid": "water", "amount": 0.2},{"liquid": "O", "amount": 0.2},]
-	"craftTime": 40,
+	"outputLiquids": [{"liquid": "H", "amount": 0.4},{"liquid": "N", "amount": 0.2},{"liquid": "O", "amount": 0.2},]
+	"craftTime": 50,
 	"squareSprite": false,
 	"conductivePower": true
 	"rotate": true,
