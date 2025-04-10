@@ -42,6 +42,7 @@
 	"craftTime": 180,
 	"outputLiquid": {"liquid": "pressure", "amount": 0.033333334},
 	"squareSprite": false,
+	"conductivePower": true
 	rotateDraw: false,
 	rotate: true,
 }
