@@ -12,16 +12,16 @@
 			type: ExplosionEffect
 			lifetime: 30
 			waveRad: 10
-			waveLife: 10
-			waveStroke: 1
+			waveLife: 20
+			waveStroke: 2
 			smokeColor: ffffff00
 			smokeSize: 0
 			smokes: 0
 			smokeRad: 0
-			sparks: 6
-			sparkRad: 28
-			sparkStroke: 3.5
-			sparkLen: 6.2
+			sparks: 5
+			sparkRad: 20
+			sparkStroke: 3.2
+			sparkLen: 5.8
 			sparkColor: ffffffff
 			waveColor: ffffffff
 		}
@@ -36,7 +36,7 @@
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "oil",
-				"padright": 9,
+				"padRight": 9,
 				"padLeft": 9,
 				"padTop": 3,
 				"padBottom": 14,
@@ -44,7 +44,7 @@
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "N",
-				"padright": 9,
+				"padRight": 9,
 				"padLeft": 9,
 				"padTop": 14,
 				"padBottom": 3,
@@ -52,7 +52,7 @@
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "H",
-				"padright": 14,
+				"padRight": 14,
 				"padLeft": 3,
 				"padTop": 9,
 				"padBottom": 9,
@@ -60,7 +60,7 @@
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "O",
-				"padright": 3,
+				"padRight": 3,
 				"padLeft": 14,
 				"padTop": 9,
 				"padBottom": 9,
