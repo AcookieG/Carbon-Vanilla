@@ -1,5 +1,5 @@
 {
-	"name": "Air Filter",
+	"name": "Purifier",
 	"description": "Traps small amounts of pressure from the atmosphere.",
 	"type": "GenericCrafter"
 	"size": 1,
@@ -24,20 +24,23 @@
 			{
 				"type": "DrawLiquidTile",
 				"drawLiquid": "pressure",
-				"padding": 2
+				"padding": 1
 			},
 			{
 				"type": "DrawDefault"
 			},
 		]
 	},
-	"category": "crafting",
+	"consumes": {
+		"power": 0.1,
+	},
+	"category": "production",
 	"rotate": false
 	"research": "9w01",
 	"idleSound": "hum",
 	"idleSoundVolume": 0.03,
 	"craftTime": 180,
-	"outputLiquid": {"liquid": "pressure", "amount": 0.05},
+	"outputLiquid": {"liquid": "pressure", "amount": 0.033333334},
 	"squareSprite": false,
 	rotateDraw: false,
 	rotate: true,

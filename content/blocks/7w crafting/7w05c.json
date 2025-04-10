@@ -1,0 +1,114 @@
+{
+	"name": "Soaping Boiler",
+	"description": "Uses Base and Acid's chemical properties to extract even higher amounts of Hydrogen.",
+	"type": "HeatCrafter"
+	"size": 3,
+	"health": 300,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"updateEffect": {
+			type: ExplosionEffect
+			lifetime: 30
+			waveRad: 0
+			waveLife: 1
+			waveStroke: 0
+			smokeColor: ffffff00
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 4
+			sparkRad: 20
+			sparkStroke: 3
+			sparkLen: 5.2
+			sparkColor: ffffffff
+			waveColor: ffffff00
+		}
+	"craftEffect": none
+	"liquidCapacity": 30,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water",
+				"padright": 10,
+				"padLeft": 10,
+				"padTop": 3,
+				"padBottom": 12,
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "oil",
+				"padright": 10,
+				"padLeft": 10,
+				"padTop": 12,
+				"padBottom": 3,
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "H",
+				"padright": 12,
+				"padLeft": 3,
+				"padTop": 10,
+				"padBottom": 10,
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "O",
+				"padright": 3,
+				"padLeft": 12,
+				"padTop": 10,
+				"padBottom": 10,
+			},
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawHeatInput",
+				"suffix": "-heat",
+			},
+			{
+				"type": "DrawGlowRegion",
+				"color": d1efff
+			},
+		]
+	},
+	"heatRequirement": 96
+	"maxEfficiency": 1
+	"consumes": {
+		"power": 8,
+    "liquids":  [
+		{"liquid": "oil", "amount": 0.8},
+		]
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "carbon-fiber", "amount": 60 },
+		{ "item": "sand", "amount": 180 },
+		{ "item": "dense", "amount": 40 },
+	],
+	"category": "crafting",
+research: {
+  parent: 7w05c
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"idleSound": "electricHum",
+	"idleSoundVolume": 0.1,
+	"outputLiquids": [{"liquid": "H", "amount": 0.4},{"liquid": "water", "amount": 0.2},{"liquid": "O", "amount": 0.2},]
+	"craftTime": 40,
+	"squareSprite": false,
+	"conductivePower": true
+	"rotate": true,
+	"rotateDraw": false,
+	liquidOutputDirections: [2,3,4]
+}

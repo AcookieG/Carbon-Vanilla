@@ -1,6 +1,6 @@
 {
 	"name": "Hydrolisis Chamber",
-	"description": "Explodes water..",
+	"description": "Explodes water.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 200,
@@ -67,7 +67,6 @@
 		{ "item": "dense", "amount": 30 },
 	],
 	"category": "crafting",
-	"rotate": false
 research: {
   parent: 7w05
   objectives: [
