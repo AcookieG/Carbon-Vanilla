@@ -177,4 +177,6 @@ itemWhitelist: [
   "scrap", 
 	"flex-joint",
 	"chip",
+	"canolla",
+	"metarkle",
 ]
