@@ -24,17 +24,15 @@
 				"padding": 3,
 			},
 			{
-        "type": "DrawMultiWeave"
-				"rotateSpeed": 0.7
-				"rotateSpeed2": -0.7
+        "type": "DrawMultiWeave",
+				"rotateSpeed": 0.7,
+				"rotateSpeed2": -0.7,
       },
 			{
-        "type": "DrawMultiWeave"
-				"rotateSpeed": 0.35
-				"rotateSpeed2": -0.35
-      },
-			{
-        "type": "DrawArcSmelt"
+        "type": "DrawArcSmelt",
+				"alpha": 1,
+				"particles": 32,
+				"circleSpace": 2.5,
       },
 			{
 				"type": "DrawDefault",
