@@ -35,9 +35,6 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 				"padding": 3,
 			},
 			{
-        "type": "DrawCrucibleFlame"
-      },
-			{
         "type": "DrawSoftParticles"
       },
 			{

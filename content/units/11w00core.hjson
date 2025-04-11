@@ -53,38 +53,91 @@ weapons: [{
 		shootEffect: none,
 		keepVelocity: false,
 		lightning: 70,
-		lightningDamage: 8000,
+		lightningDamage: 6000,
 		lightningCone: 360,
-		lightningLengthRand: 30,
-		lightningLength: 10,
+		lightningLengthRand: 17,
+		lightningLength: 70,
 		despawnEffect: {
             type: multiEffect
-            effects: [
-            {
-			type: ExplosionEffect,
-			lifetime: 500,
-			waveRad: 40,
-			waveLife: 360,
-			waveStroke: 30,
-			smokeColor: ffffa3ff,
-			smokeSize: 80,
-			smokes: 100,
-			smokeRad: 200,
-			sparks: 50,
-			sparkRad: 500,
-			sparkStroke: 10,
-			sparkLen: 15,
+            effects: [{
+			type: ParticleEffect
+			particles: 1
+			length: 0
+			lifetime: 180
+			interp: circleOut
+			cone: 360
+			sizeFrom: 8000
+			sizeTo: 8000
+			colorFrom: ffffffaa
+			colorTo: ffffff11
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 500
+			waveRad: 2400
+			waveLife: 360
+			waveStroke: 30
+			smokeColor: ffffa3ff
+			smokeSize: 80
+			smokes: 100
+			smokeRad: 200
+			sparks: 50
+			sparkRad: 500
+			sparkStroke: 10
+			sparkLen: 15
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 500
+			waveRad: 600
+			waveLife: 300
+			waveStroke: 3
+			smokeColor: ffffff88
+			smokeSize: 100
+			smokes: 80
+			smokeRad: 220
+			sparks: 50
+			sparkRad: 500
+			sparkStroke: 10
+			sparkLen: 15
+			sparkColor: ffffa3ff
+			waveColor: ffffffff
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 3600
+			waveRad: 600
+			waveLife: 300
+			waveStroke: 200
+			smokeSize: 80
+			smokeColor: 111111ee
+			smokes: 20
+			smokeRad: 100
+			sparks: 0
+			waveColor: ffffffff
+			}
+			{
+			type: ParticleEffect
+			particles: 1
+			length: 0
+			lifetime: 180
+			interp: circleOut
+			cone: 360
+			sizeFrom: 8000
+			sizeTo: 8000
+			colorFrom: ffffffff
+			colorTo: 00000000
 		}]}
         
-        fragVelocityMin: -0.5,
-        fragVelocityMax: 40,
+        fragVelocityMin: -0.1,
+        fragVelocityMax: 15,
         fragLifeMin: 100
         fragLifeMax: 240
-        fragBullets: 70
+        fragBullets: 40
 		fragBullet: {
       		type: BasicBulletType,
             hitSound: explosionBig,
-            damage: 0,
+            damage: 10000,
             lifetime: 1
             speed: 1
             width: 1.01,
@@ -99,8 +152,8 @@ weapons: [{
             collidesAir: false,
 			collidesGround: false,
 			collidesTiles: false,
-            shrinkY: 50,
-            shrinkX: 50,
+            shrinkY: 30,
+            shrinkX: 30,
             drag: 0.02,
             drawSize: 1.01,
             sprite: large-bomb,
@@ -113,7 +166,7 @@ weapons: [{
                 x: 0,
                 y: 0,
                 mirror: false,
-                radius: 25,
+                radius: 18,
                 phase: 80,
                 stroke: 8,
                 layerOffset: -0.001,
@@ -121,15 +174,15 @@ weapons: [{
                 sides: 4,
             }]
             
-            fragVelocityMin: 7,
-            fragVelocityMax: 10,
+            fragVelocityMin: 2,
+            fragVelocityMax: 5,
             fragLifeMin: 140
             fragLifeMax: 500
-            fragBullets: 10
+            fragBullets: 4
             fragBullet: {
                 type: EmpBulletType,
                 hitSound: explosionBig,
-                damage: 9000,
+                damage: 10000,
                 lifetime: 1
                 speed: 1
                 width: 20,
@@ -150,7 +203,7 @@ weapons: [{
                 createChance: 0.9,
                 shrinkY: 0.7,
                 shrinkX: 0.7,
-                drawSize: 200,
+                drawSize: 150,
                 sprite: large-bomb,
                 spin: 3,
                 parts: [{
@@ -166,7 +219,7 @@ weapons: [{
                     sides: 4,
             }]
             
-                fragBullets: 30
+                fragBullets: 20
                 fragBullet: {
                     type: FireBulletType,
                     colorFrom: 00000010,
@@ -174,8 +227,9 @@ weapons: [{
                     colorTo: 00000010,
                     damage: 50,
                     instantDisapear: false,
-                    velMin: -2,
-                    velMax: 4,
+                    velMin: -1.2,
+                    velMax: 3.5,
+										drag: 0.03,
                     lifetime: 360,
                     despawnEffect: none,
                     collidesAir: true,
@@ -217,7 +271,7 @@ weapons: [{
             sprite: large-bomb,
             spin: 9,
                 
-                fragBullets: 3000
+                fragBullets: 2000
                 fragBullet: {
       		type: FireBulletType,
 			colorFrom: 00000010,
@@ -226,7 +280,7 @@ weapons: [{
 			damage: 600,
 			instantDisapear: false,
 			velMin: 0,
-			velMax: 18,
+			velMax: 10,
 			lifetime: 2000,
 			despawnEffect: none,
 			collidesAir: true,
@@ -235,8 +289,8 @@ weapons: [{
 			hittable: false,
 			reflectable: false,
 			absorbable: true,
-			width: 180,
-			height: 180,
+			width: 18,
+			height: 18,
 			keepVelocity: false,
             status: carbon-vanilla-helios-effect,
         }}
