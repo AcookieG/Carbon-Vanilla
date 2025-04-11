@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Canolla",
+	"description": "A hard yet britle mineral found deep beneath the ground. Extensively used as ammo. Explosive and slightly radioactive.",
+	"cost": 1.3,
+	"flammability": 0.5,
+	"radioactivity": 0.1,
+	"explosiveness": 3.0,
+	"charge": 0.0,
+	"color": "af4753"
+}

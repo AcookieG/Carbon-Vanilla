@@ -87,10 +87,10 @@
 		]
 	},
 	"requirements": [
-		{ "item": "graphite", "amount": 100 },
+		{ "item": "flex", "amount": 90 },
 		{ "item": "carbon-fiber", "amount": 60 },
 		{ "item": "sand", "amount": 180 },
-		{ "item": "dense", "amount": 40 },
+		{ "item": "circuit", "amount": 40 },
 	],
 	"category": "crafting",
 research: {

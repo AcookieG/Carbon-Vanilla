@@ -68,7 +68,7 @@
 		"power": 3,
     "liquids":  [
 		{"liquid": "water", "amount": 1},
-		{"liquid": "N", "amount": 0.1},
+		{"liquid": "N", "amount": 0.15},
 		]
 		"items": {
 			"items": [
