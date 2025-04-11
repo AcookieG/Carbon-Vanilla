@@ -19,7 +19,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 	"requirements": [
 		{ "item": "dense", "amount": 50 },
 		{ "item": "flex-joint", "amount": 60 },
-		{ "item": "copper", "amount": 80 },
+		{ "item": "coppa", "amount": 80 },
 		{ "item": "graphite", "amount": 80 },
 	],
 	"drawer": {
@@ -58,7 +58,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 	"loopSound": "hum",
 	"loopSoundVolume": 0.1,
 research: {
-  parent: 5w08
+  parent: 5w09
   objectives: [
     {
       type: OnSector
