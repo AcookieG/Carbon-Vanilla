@@ -6,7 +6,7 @@
 	"health": 360,
 	"hasLiquids": true,
 	"hasPower": true,
-	"hasItems": false,
+	"hasItems": true,
 	"updateEffect": "turbinegenerate",
 	"craftEffect": "none",
 	"liquidCapacity": 60,
