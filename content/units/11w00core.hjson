@@ -52,11 +52,11 @@ weapons: [{
 		despawnShake: 60,
 		shootEffect: none,
 		keepVelocity: false,
-		lightning: 70,
-		lightningDamage: 6000,
+		lightning: 400,
+		lightningDamage: 600,
 		lightningCone: 360,
 		lightningLengthRand: 17,
-		lightningLength: 70,
+		lightningLength: 10,
 		despawnEffect: {
             type: multiEffect
             effects: [{
@@ -174,11 +174,11 @@ weapons: [{
                 sides: 4,
             }]
             
-            fragVelocityMin: 2,
-            fragVelocityMax: 5,
+            fragVelocityMin: 4,
+            fragVelocityMax: 7,
             fragLifeMin: 140
             fragLifeMax: 500
-            fragBullets: 4
+            fragBullets: 5
             fragBullet: {
                 type: EmpBulletType,
                 hitSound: explosionBig,
@@ -221,16 +221,13 @@ weapons: [{
             
                 fragBullets: 20
                 fragBullet: {
-                    type: FireBulletType,
-                    colorFrom: 00000010,
-                    colorMid: 00000010,
-                    colorTo: 00000010,
+                    type: BasicBulletType,
                     damage: 50,
-                    instantDisapear: false,
+                    instantDisapear: true,
                     velMin: -1.2,
                     velMax: 3.5,
 										drag: 0.03,
-                    lifetime: 360,
+                    lifetime: 1000,
                     despawnEffect: none,
                     collidesAir: true,
                     collidesGround: true,
@@ -289,8 +286,8 @@ weapons: [{
 			hittable: false,
 			reflectable: false,
 			absorbable: true,
-			width: 18,
-			height: 18,
+			width: 180,
+			height: 180,
 			keepVelocity: false,
             status: carbon-vanilla-helios-effect,
         }}
