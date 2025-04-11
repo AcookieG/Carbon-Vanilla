@@ -8,7 +8,11 @@
 	"hasPower": true,
 	"hasItems": true,
 	"updateEffect": "none",
-	"craftEffect": "none",
+	"craftEffect": {
+		"type": "RadialEffect",
+		"effect": shootBigSmoke,
+		"rotationSpacing": 180,
+	},
 	"liquidCapacity": 10,
 	"drawer": {
 		"type": "DrawMulti",
