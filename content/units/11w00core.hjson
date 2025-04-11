@@ -73,10 +73,10 @@ weapons: [{
 			}
 			{
 			type: ExplosionEffect
-			lifetime: 500
-			waveRad: 6000
-			waveLife: 500
-			waveStroke: 150
+			lifetime: 1000
+			waveRad: 4000
+			waveLife: 1000
+			waveStroke: 300
 			smokeColor: ffffa3ff
 			smokeSize: 80
 			smokes: 100
