@@ -87,7 +87,7 @@
 		]
 	},
 	"requirements": [
-		{ "item": "flex", "amount": 90 },
+		{ "item": "flex-joint", "amount": 90 },
 		{ "item": "carbon-fiber", "amount": 60 },
 		{ "item": "sand", "amount": 180 },
 		{ "item": "circuit", "amount": 40 },
