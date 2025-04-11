@@ -219,14 +219,14 @@ weapons: [{
                     sides: 4,
             }]
             
-                fragBullets: 20
+                fragBullets: 10
                 fragBullet: {
                     type: BasicBulletType,
-                    damage: 80,
+                    damage: 50,
                     instantDisapear: false,
                     velMin: -1.2,
                     velMax: 12.5,
-										drag: 0.03,
+										drag: 0.01,
                     lifetime: 1000,
                     despawnEffect: none,
                     collidesAir: true,
@@ -235,8 +235,8 @@ weapons: [{
                     hittable: false,
                     reflectable: false,
                     absorbable: true,
-                    width: 12,
-                    height: 12,
+                    width: 1,
+                    height: 1,
                     keepVelocity: false,
                     status: carbon-vanilla-helios-effect,
         }}}
