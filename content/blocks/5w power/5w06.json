@@ -44,7 +44,7 @@ They are the danger.
 				"type": "DrawDefault"
 			},
 			{
-				"type": "DrawglowRegion"
+				"type": "DrawGlowRegion"
 			},
 		]
 	},

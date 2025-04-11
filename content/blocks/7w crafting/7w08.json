@@ -1,7 +1,7 @@
 {
 	"name": "Combustion Blower",
-	"description": "Uses Freshly-mined Canolla and presses it into Metarkle Ingots.",
-	"type": "HeatCrafter"
+	"description": "Uses freshly-mined Canolla and presses it into Metarkle Ingots.",
+	"type": "GenericCrafter"
 	"size": 3,
 	"health": 275,
 	"hasLiquids": true,
@@ -49,10 +49,6 @@
 				"type": "DrawDefault",
 			},
 			{
-				"type": "DrawHeatInput",
-				"suffix": "-heat",
-			},
-			{
 				"type": "DrawGlowRegion",
 			},
 		]
@@ -68,8 +64,6 @@
 			]
 		},
 	},
-	"heatRequirement": 72
-	"maxEfficiency": 2,
 	"requirements": [
 		{ "item": "circuit", "amount": 40 },
 		{ "item": "flex-joint", "amount": 70 },
@@ -83,7 +77,7 @@
 	"research": "7w07",
 	"idleSound": "hum",
 	"idleSoundVolume": 0.12,
-	"craftTime": 160,
+	"craftTime": 120,
 	"squareSprite": false,
 	"conductivePower": true
 }
