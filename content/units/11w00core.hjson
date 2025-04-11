@@ -74,9 +74,9 @@ weapons: [{
 			{
 			type: ExplosionEffect
 			lifetime: 500
-			waveRad: 2400
-			waveLife: 360
-			waveStroke: 30
+			waveRad: 6000
+			waveLife: 500
+			waveStroke: 150
 			smokeColor: ffffa3ff
 			smokeSize: 80
 			smokes: 100
@@ -201,8 +201,8 @@ weapons: [{
                 drag: 0.04,
                 splashDamageRadius: 40
                 createChance: 0.9,
-                shrinkY: 0.7,
-                shrinkX: 0.7,
+                shrinkY: 0.5,
+                shrinkX: 0.5,
                 drawSize: 150,
                 sprite: large-bomb,
                 spin: 3,
@@ -222,10 +222,10 @@ weapons: [{
                 fragBullets: 20
                 fragBullet: {
                     type: BasicBulletType,
-                    damage: 50,
-                    instantDisapear: true,
+                    damage: 80,
+                    instantDisapear: false,
                     velMin: -1.2,
-                    velMax: 3.5,
+                    velMax: 12.5,
 										drag: 0.03,
                     lifetime: 1000,
                     despawnEffect: none,
@@ -235,8 +235,8 @@ weapons: [{
                     hittable: false,
                     reflectable: false,
                     absorbable: true,
-                    width: 1,
-                    height: 1,
+                    width: 12,
+                    height: 12,
                     keepVelocity: false,
                     status: carbon-vanilla-helios-effect,
         }}}
