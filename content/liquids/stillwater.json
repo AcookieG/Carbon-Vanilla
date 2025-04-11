@@ -3,11 +3,10 @@
 	"moveThroughBlocks": true,
 	"canStayOn": ["water", "oil", "cryofluid"],
 	"incinerable": true,
-	"spreadDamage": 0.5,
+	"spreadDamage": 0.1,
 	"cells": 8
 	"capPuddles": false,
 	"maxSpread": 2000,
-	"spreadConversion": 8,
 	"name": "Still Water",
 	"description": "A byproduct of most oil-based reactors. Will slowly eat away at your base.",
 	"coolant": true,
