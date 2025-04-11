@@ -12,6 +12,7 @@
 		"type": "RadialEffect",
 		"effect": shootBigSmoke,
 		"rotationSpacing": 180,
+		"amount": 2,
 	},
 	"liquidCapacity": 10,
 	"drawer": {
@@ -33,10 +34,16 @@
 				"rotateSpeed2": -0.7,
       },
 			{
+        "type": "DrawMultiWeave",
+				"rotateSpeed": 0.7,
+				"rotateSpeed2": -0.7,
+      },
+			{
         "type": "DrawArcSmelt",
 				"alpha": 1,
 				"particles": 32,
-				"circleSpace": 2.5,
+				"circleSpace": 3.2,
+				"particleLife": 25
       },
 			{
 				"type": "DrawDefault",
@@ -57,7 +64,7 @@
 		]
 		"items": {
 			"items": [
-				{"item": "canolla", "amount": 2}
+				{"item": "canolla", "amount": 4}
 			]
 		},
 	},
@@ -70,13 +77,13 @@
 		{ "item": "dense", "amount": 40 },
 	],
 	"outputItems": [
-		{ "item": "metarkle", "amount": 1 },
+		{ "item": "metarkle", "amount": 2 },
 	],
 	"category": "crafting",
 	"research": "7w07",
 	"idleSound": "hum",
 	"idleSoundVolume": 0.12,
-	"craftTime": 80,
+	"craftTime": 160,
 	"squareSprite": false,
 	"conductivePower": true
 }
