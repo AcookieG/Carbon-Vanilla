@@ -1,9 +1,0 @@
-{
-	"name": "Dark Sand",
-	"type": "Floor",
-	"variants": 3,
-		"itemDrop": sadn,
-	"attributes": {
-  "sand": 1.0
-}
-}
