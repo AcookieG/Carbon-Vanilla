@@ -1,5 +1,7 @@
 type: Floor
 name: Dark Sand Water
+blendGroup: darksand
+parent: darksand
 speedMultiplier: 0.7
 variants: 4
 statusDuration: 10
