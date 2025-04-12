@@ -81,8 +81,9 @@ knockback:-0.5
 
 trailColor:708d94,
 trailChance:0.0,
-trailInterval:1,
-trailParam:3.0,
+trailInterval:0,
+trailParam:2.0,
+trailEffect:none,
 trailLength:5.0,
 		}
 		"sili": {
@@ -189,7 +190,7 @@ trailColor:e58956ff,
 trailChance:0.5,
 trailInterval:1,
 trailParam:2.0,
-trailLength:0.0,
+trailLength:-1,
 
 makeFire:true,
 incendAmount:2.0,
