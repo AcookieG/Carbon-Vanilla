@@ -1,6 +1,6 @@
 {
 	"name": "Boost",
-	"description": "Fires three bullets in quick succession.",
+	"description": "Fires three bullets in quick succession. Highly versatile depending on the ammo.",
 	"details": "Look at how cute it is!"
 	"type": "ItemTurret",
 	"health": 310,
@@ -49,6 +49,18 @@
 			"bulletShrink": 0.6,
 			"speed": 8,
 			"rangeChange": 40,
+		},
+		"slate": {
+			"type": "BasicBulletType",
+			"collideAir": true
+			"damage": 25,
+			"ammoMultiplier": 2,
+			"width": 8,
+			"height": 12,
+			"lifetime": 20,
+			"bulletShrink": 0.6,
+			"speed": 11,
+			"rangeChange": 100,
 		},
 		"sili": {
 			"type": "BasicBulletType",

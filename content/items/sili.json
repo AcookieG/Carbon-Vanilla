@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Silicon",
-	"description": "Extensively used in unit production.",
+	"description": "Extensively used in unit production. [salmon]Guided.",
 	"cost": 0.8,
 	"flammability": 0.0,
 	"radioactivity": 0.0,

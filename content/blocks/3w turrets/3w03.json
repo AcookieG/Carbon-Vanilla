@@ -63,6 +63,16 @@
 	"ammoMultiplier": 3,
 	"status": "melting",
 },
+"metal": {
+	"type": "liquidBulletType",
+	"liquid": stillwater
+	"knockback": 1.1,
+	"damage": 18,
+	"drag": 0.001,
+	"ammoMultiplier": 3,
+	"status": "corroded",
+	"lightOpacity": 0
+},
 	},
 	"requirements": [
 		{ "item": "graph", "amount": 60 },

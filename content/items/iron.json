@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Iron Composites",
-	"description": "Hard metals, can be used in pretty much every branch of Mindustry. Think of it as advanced scrap.",
+	"description": "Hard metals, can be used in pretty much every branch of Mindustry. Think of it as advanced scrap. [salmon]Basic.",
 	"cost": 1.1,
 	"flammability": 0.0,
 	"radioactivity": 0.0,
