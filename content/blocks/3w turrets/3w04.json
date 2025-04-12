@@ -37,7 +37,7 @@
 			"collideAir": false,
 			"shootEffect": "shootBig",
 		},
-		"graphite": {
+		"graph": {
 			"type": "BasicBulletType",
 			"damage": 135,
 			"ammoMultiplier": 2,
@@ -53,7 +53,7 @@
 			"collideAir": false,
 			"shootEffect": "shootBig",
 		},
-		"silicon": {
+		"sili": {
 			"type": "BasicBulletType",
 			"reloadMultiplier": 0.8,
 			"damage": 144,
@@ -94,8 +94,8 @@
 	},
 	"coolantMultiplier": 3
 	"requirements": [
-		{ "item": "graphite", "amount": 30 },
-		{ "item": "scrap", "amount": 50 },
+		{ "item": "graph", "amount": 30 },
+		{ "item": "scrp", "amount": 50 },
 		{ "item": "iron", "amount": 30 },
 	],
 	"buildCostMultiplier": 1.25,

@@ -1,6 +1,6 @@
 {
 	"name": "Filter",
-	"description": "Filters through scrap and water.",
+	"description": "Filters through Scrap and Water.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 110,
@@ -20,7 +20,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
+				"drawLiquid": "wtr",
 				"padding": 2
 			},
 			{
@@ -39,22 +39,22 @@
 		"power": 0.8,
 		"items": {
 			"items": [
-				{"item": "scrap", "amount": 3}
+				{"item": "scrp", "amount": 3}
 			]
 		},
-    "liquid":  {"liquid": "water", "amount": 0.2},
+    "liquid":  {"liquid": "wtr", "amount": 0.2},
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 30 },
+		{ "item": "sili", "amount": 30 },
 		{ "item": "slate", "amount": 40 },
-		{ "item": "sand", "amount": 80 },
+		{ "item": "sadn", "amount": 80 },
 	],
 	"category": "crafting",
 	"rotate": false
 	"research": "7w01",
 	"idleSound": "machine",
 	"idleSoundVolume": 0.08,
-	"outputLiquid": {"liquid": "oil", "amount": 0.1},
+	"outputLiquid": {"liquid": "i", "amount": 0.1},
 	"outputItems": [
 		{ "item": "slate", "amount": 1 },
 		{ "item": "iron", "amount": 2 },

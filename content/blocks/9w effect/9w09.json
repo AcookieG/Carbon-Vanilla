@@ -14,7 +14,7 @@
 	"effectChance": 0.03
 	"requirements": [
 		{"item": "circuit", "amount": 10},
-		{"item": "silicon", "amount": 130},
+		{"item": "sili", "amount": 130},
 		{"item": "coppa", "amount": 130},
 	],
 	"consumes": {

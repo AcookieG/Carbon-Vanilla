@@ -18,8 +18,8 @@
 		]
 }
 	"requirements": [
-		{ "item": "graphite", "amount": 10},
-		{ "item": "silicon", "amount": 10},
+		{ "item": "graph", "amount": 10},
+		{ "item": "sili", "amount": 10},
 		{ "item": "iron", "amount": 10}
 	],
 	"consumes": {

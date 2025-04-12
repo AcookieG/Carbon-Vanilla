@@ -21,7 +21,7 @@
 	"basePrefix": "reinforced-"
 	},
 	"ammoTypes": {
-"water": {
+"wtr": {
 	"type": "liquidBulletType",
 	"liquid": water
 	"knockback": 0.4,
@@ -49,13 +49,13 @@
 	"status": "wet",
 	"lightOpacity": 0
 },
-"oil": {
+"i": {
 	"type": "liquidBulletType",
 	"liquid": oil
 	"drag": 0.01,
 	"status": "tarred",
 },
-"slag": {
+"s": {
 	"type": "liquidBulletType",
 	"drag": 0.01,
 	"damage": 18,
@@ -65,7 +65,7 @@
 },
 	},
 	"requirements": [
-		{ "item": "graphite", "amount": 60 },
+		{ "item": "graph", "amount": 60 },
 		{ "item": "iron", "amount": 10 },
 	],
 	"category": "turret",

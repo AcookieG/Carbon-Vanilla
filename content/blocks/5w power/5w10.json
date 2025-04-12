@@ -20,7 +20,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 		{ "item": "dense", "amount": 50 },
 		{ "item": "flex-joint", "amount": 60 },
 		{ "item": "coppa", "amount": 80 },
-		{ "item": "graphite", "amount": 80 },
+		{ "item": "graph", "amount": 80 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -31,7 +31,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "slag",
+				"drawLiquid": "s",
 				"padding": 3,
 			},
 			{
@@ -50,7 +50,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "slag", "amount": 0.1},
+			{"liquid": "s", "amount": 0.1},
 		]
 		"items": {
 			"items": [

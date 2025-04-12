@@ -26,7 +26,7 @@
 	"basePrefix": "reinforced-"
 	},
 	"ammoTypes": {
-		"scrap": {
+		"scrp": {
 			"type": "BasicBulletType",
 			"collideAir": true
 			"reloadMultiplier": 1,
@@ -38,7 +38,7 @@
 			"bulletShrink": 0.6,
 			"speed": 4,
 		},
-		"graphite": {
+		"graph": {
 			"type": "BasicBulletType",
 			"collideAir": true
 			"damage": 48,
@@ -50,7 +50,7 @@
 			"speed": 8,
 			"rangeChange": 40,
 		},
-		"silicon": {
+		"sili": {
 			"type": "BasicBulletType",
 			"collideAir": true
 			"reloadMultiplier": 0.8,
@@ -72,8 +72,8 @@
 	},
 	"coolantMultiplier": 3
 	"requirements": [
-		{ "item": "sand", "amount": 20 },
-		{ "item": "scrap", "amount": 20 },
+		{ "item": "sadn", "amount": 20 },
+		{ "item": "scrp", "amount": 20 },
 	],
 	"buildCostMultiplier": 1.25,
 	"category": "turret",

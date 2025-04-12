@@ -36,7 +36,7 @@
 	"flareLength": 25,
 	"flareWidth": 2.5,
 },
-"oil": {
+"i": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["000000", "606060", "aaaaaa", "ffffff"],
 	"damage": 16,
@@ -55,7 +55,7 @@
 },
 	},
 	"requirements": [
-		{ "item": "graphite", "amount": 60 },
+		{ "item": "graph", "amount": 60 },
 		{ "item": "slate", "amount": 60 },
 	],
 	"category": "turret",

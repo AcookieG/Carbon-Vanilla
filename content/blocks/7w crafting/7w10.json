@@ -33,15 +33,15 @@
 		]
 		"items": {
 			"items": [
-	{ "item": "graphite", "amount": 2 },
+	{ "item": "graph", "amount": 2 },
 			]
 		},
 	},
 	"requirements": [
 		{ "item": "dense", "amount": 20 },
-		{ "item": "graphite", "amount": 70 },
+		{ "item": "graph", "amount": 70 },
 		{ "item": "coppa", "amount": 30 },
-		{ "item": "sand", "amount": 100 },
+		{ "item": "sadn", "amount": 100 },
 	],
 	"category": "crafting",
 	"rotate": false

@@ -15,7 +15,7 @@ Produces clean energy and heat by cooling Pressure down to water.
 	"requirements": [
 		{ "item": "dense", "amount": 30 },
 		{ "item": "iron", "amount": 60 },
-		{ "item": "graphite", "amount": 80 },
+		{ "item": "graph", "amount": 80 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -26,7 +26,7 @@ Produces clean energy and heat by cooling Pressure down to water.
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
+				"drawLiquid": "wtr",
 				"padding": 3,
 			},
 			{
@@ -53,7 +53,7 @@ Produces clean energy and heat by cooling Pressure down to water.
 	"rotate": true
 	"loopSound": "hum",
 	"loopSoundVolume": 0.1,
-	"outputLiquid": {"liquid": "water", "amount": 0.5},
+	"outputLiquid": {"liquid": "wtr", "amount": 0.5},
 research: {
   parent: 5w08
   objectives: [

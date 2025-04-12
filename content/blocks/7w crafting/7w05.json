@@ -43,13 +43,13 @@
 		"power": 1.4,
     "liquids":  [
 		{"liquid": "pressure", "amount": 0.3},
-		{"liquid": "oil", "amount": 0.2},
+		{"liquid": "i", "amount": 0.2},
 		]
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 40 },
+		{ "item": "sili", "amount": 40 },
 		{ "item": "slate", "amount": 60 },
-		{ "item": "sand", "amount": 120 },
+		{ "item": "sadn", "amount": 120 },
 		{ "item": "iron", "amount": 50 },
 	],
 	"category": "crafting",

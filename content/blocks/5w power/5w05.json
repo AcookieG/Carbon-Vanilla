@@ -10,7 +10,7 @@ You burn oil.
 You've done it. You tipped the balance.
 You re-created life, but at what cost?
 '''
-	"description": "Burns through oil to generate power. Explodes if impurities are not instantly removed."
+	"description": "Burns through Oil to generate power. Explodes if impurities are not instantly removed."
 	"type": "ConsumeGenerator"
 	"size": 2,
 	"health": 120,
@@ -24,7 +24,7 @@ You re-created life, but at what cost?
 	"explosionShake": 0.2,
 	"powerProduction": 3,
 	"requirements": [
-		{ "item": "sand", "amount": 80 },
+		{ "item": "sadn", "amount": 80 },
 		{ "item": "slate", "amount": 60 },
 	],
 	"drawer": {
@@ -36,7 +36,7 @@ You re-created life, but at what cost?
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "oil",
+				"drawLiquid": "i",
 				"padding": 2
 			},
 			{
@@ -50,7 +50,7 @@ You re-created life, but at what cost?
 		]
 	},
 	"consumes": {
-		"liquid": {"liquid": "oil", "amount": 0.1},
+		"liquid": {"liquid": "i", "amount": 0.1},
 	},
 	"outputLiquid": {"liquid": "stillwater", "amount": 0.01},
 	"explodeOnFull": true

@@ -5,7 +5,7 @@
 	"health": 2080,
 	"size": 2,
 	"requirements": [
-		{ "item": "graphite", "amount": 24 }
+		{ "item": "graph", "amount": 24 }
 	],
 	"armor": 4,
 	"category": "defense",

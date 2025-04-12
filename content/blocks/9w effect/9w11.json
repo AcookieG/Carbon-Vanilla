@@ -14,9 +14,9 @@
 	"hasLiquids": true
 	"hasPower": false
 	"requirements": [
-		{"item": "silicon", "amount": 60},
+		{"item": "sili", "amount": 60},
 		{"item": "coppa", "amount": 60},
-		{"item": "graphite", "amount": 60},
+		{"item": "graph", "amount": 60},
 	],
 	"research": "9w06"
 	"category": "effect",

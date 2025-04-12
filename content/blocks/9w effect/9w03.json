@@ -8,7 +8,7 @@
 	"isFirstTier": false
 	"requirements": [
 		{"item": "carbon-fiber", "amount": 1000},
-		{"item": "graphite", "amount": 1200},
+		{"item": "graph", "amount": 1200},
 		{"item": "circuit", "amount": 100}
 	]
 	"research": "9w02",

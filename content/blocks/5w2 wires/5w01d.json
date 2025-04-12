@@ -7,7 +7,7 @@
 "squareSprite": "false"
 "research": "5w01"
 "requirements": [
-  {"item": "graphite", "amount": 5}
+  {"item": "graph", "amount": 5}
 	{"item": "iron", "amount": 3}
 ]
 	"conductivePower": true,

@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "slag",
+				"drawLiquid": "s",
 				"padding": 4,
 			},
 			{
@@ -53,16 +53,16 @@
 		},
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 40 },
+		{ "item": "sili", "amount": 40 },
 		{ "item": "slate", "amount": 60 },
-		{ "item": "sand", "amount": 130 },
+		{ "item": "sadn", "amount": 130 },
 		{ "item": "iron", "amount": 160 },
 	],
 	"category": "crafting",
 	"research": "7w05",
 	"idleSound": "hum",
 	"idleSoundVolume": 0.12,
-	"outputLiquid": {"liquid": "slag", "amount": 0.1},
+	"outputLiquid": {"liquid": "s", "amount": 0.1},
 	"craftTime": 60,
 	"squareSprite": false,
 	"conductivePower": true

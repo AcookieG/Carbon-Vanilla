@@ -5,7 +5,7 @@ And thus, Sharded kept on exploring new territories in hopes of fleeing the spor
 But they were not running away from the danger,
 They are the danger.
 '''
-	"description": "Burns through liters of oil to generate more power. Explodes if impurities are not instantly removed."
+	"description": "Burns through liters of Oil to generate more power. Explodes if impurities are not instantly removed."
 	"type": "ConsumeGenerator"
 	"size": 3,
 	"health": 230,
@@ -17,10 +17,10 @@ They are the danger.
 	"explosionRadius": 40,
 	"explosionDamage": 90,
 	"explosionShake": 0.6,
-	"powerProduction": 13,
+	"powerProduction": 14,
 	"requirements": [
-		{ "item": "graphite", "amount": 90 },
-		{ "item": "silicon", "amount": 80 },
+		{ "item": "graph", "amount": 90 },
+		{ "item": "sili", "amount": 80 },
 		{ "item": "dense", "amount": 20 },
 	],
 	"drawer": {
@@ -32,7 +32,7 @@ They are the danger.
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "oil",
+				"drawLiquid": "i",
 				"padding": 3
 			},
 			{
@@ -49,7 +49,7 @@ They are the danger.
 		]
 	},
 	"consumes": {
-		"liquid": {"liquid": "oil", "amount": 0.3},
+		"liquid": {"liquid": "i", "amount": 0.3},
 	},
 	"outputLiquid": {"liquid": "stillwater", "amount": 0.03},
 	"explodeOnFull": true

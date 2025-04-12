@@ -4,7 +4,7 @@
 	"health": 40,
 	"invert": true
 	"requirements": [
-		{"item": "scrap", "amount": 4},
+		{"item": "scrp", "amount": 4},
 		{"item": "slate", "amount": 4},
 	],
 	"category": "distribution",

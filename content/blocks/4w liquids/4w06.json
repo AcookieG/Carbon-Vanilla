@@ -2,8 +2,8 @@
 	"name": "Liquid Tank",
 	"type": "LiquidRouter"
 	"requirements": [
-			{"item": "graphite", "amount": 50},
-			{"item": "sand", "amount": 70},
+			{"item": "graph", "amount": 50},
+			{"item": "sadn", "amount": 70},
 		  {"item": "iron", "amount": 20},
 	]
 	"liquidCapacity": 300

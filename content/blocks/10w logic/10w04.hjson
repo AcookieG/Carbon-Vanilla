@@ -4,9 +4,9 @@ description: Runs logic and controls units or buildings. Requires Power. Runs at
 category: logic
 research: 9w01
 requirements: [
-	{"item": "graphite", "amount": 40}
-	{"item": "silicon", "amount": 40}
-	{"item": "sand", "amount": 120}
+	{"item": "graph", "amount": 40}
+	{"item": "sili", "amount": 40}
+	{"item": "sadn", "amount": 120}
 ]
 instructionsPerTick: 1
 size: 1

@@ -13,7 +13,7 @@
 	"hasBoost": false
 	"effectChance": 0.03
 	"requirements": [
-		{"item": "silicon", "amount": 60},
+		{"item": "sili", "amount": 60},
 		{"item": "iron", "amount": 60},
 	],
 	"consumes": {

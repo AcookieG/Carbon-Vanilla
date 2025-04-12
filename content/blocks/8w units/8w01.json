@@ -13,8 +13,8 @@
 			"unit": "11w02a",
 			"time": 840
 			"requirements": [
-				{ "item": "silicon", "amount": 20 },
-				{ "item": "coal", "amount": 20 },
+				{ "item": "sili", "amount": 20 },
+				{ "item": "anthracite", "amount": 20 },
 			]
 		},
 	]
@@ -22,8 +22,8 @@
 	"research": "9w01",
 	"unitType": "ErekirUnitType",
 	"requirements": [
-		{ "item": "sand", "amount": 120 },
-		{ "item": "graphite", "amount": 90 },
-		{ "item": "silicon", "amount": 50 },
+		{ "item": "sadn", "amount": 120 },
+		{ "item": "graph", "amount": 90 },
+		{ "item": "sili", "amount": 150 },
 	]
 }

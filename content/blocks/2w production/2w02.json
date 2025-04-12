@@ -9,8 +9,8 @@
 	"output": "slate",
 	"attribute": "Tslate",
 	"requirements": [
-		{ "item": "sand", "amount": 12 },
-		{ "item": "scrap", "amount": 12 },
+		{ "item": "sadn", "amount": 12 },
+		{ "item": "dcrp", "amount": 12 },
 	],
 	"category": "production",
 	"research": "2w01"

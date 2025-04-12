@@ -9,7 +9,7 @@
 	"healPercent": 0.03,
 	"consumes": {
 		"liquid": {
-			"liquid": "water", 
+			"liquid": "wtr", 
 			"amount": 0.2,
 			"optional": true,
 		}
@@ -17,8 +17,8 @@
 	"optionalMultiplier":	2
 	"effectChance": 0.04
 	"requirements": [
-		{"item": "graphite", "amount": 60},
-		{"item": "silicon", "amount": 60},
+		{"item": "graph", "amount": 60},
+		{"item": "sili", "amount": 60},
 	],
 	"category": "effect",
 	"research": "9w01"

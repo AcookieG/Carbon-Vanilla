@@ -9,7 +9,7 @@
 	"healPercent": 0.1,
 	"consumes": {
 		"liquid": {
-			"liquid": "water", 
+			"liquid": "wtr", 
 			"amount": 0.2,
 			"optional": false,
 		}
@@ -19,7 +19,7 @@
 	"effectChance": 0.04
 	"requirements": [
 		{"item": "dense", "amount": 20},
-		{"item": "graphite", "amount": 110},
+		{"item": "graph", "amount": 110},
 		{"item": "coppa", "amount": 90},
 	],
 	"category": "effect",

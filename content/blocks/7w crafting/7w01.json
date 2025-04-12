@@ -1,6 +1,6 @@
 {
 	"name": "Slate Press",
-	"description": "Presses the carbon present in slate to make Graphite.",
+	"description": "Presses the carbon present in Slate to make Graphite.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 120,
@@ -27,8 +27,8 @@
 	"idleSound": "machine",
 	"idleSoundVolume": 0.03,
 	"outputItems": [
-		{ "item": "graphite", "amount": 3 },
+		{ "item": "graph", "amount": 3 },
 	],
-	"craftTime": 108,
+	"craftTime": 150,
 	"squareSprite": false,
 }

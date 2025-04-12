@@ -4,8 +4,8 @@
 	"requirements": [
 		{"item": "coppa", "amount": 30},
 		{"item": "dense", "amount": 10},
-		{"item": "graphite", "amount": 50},
-		{"item": "sand", "amount": 130},
+		{"item": "graph", "amount": 50},
+		{"item": "sadn", "amount": 130},
 	]
 	"liquidCapacity": 30
 	"size": 4
@@ -27,7 +27,7 @@ research: {
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "slag",
+				"drawLiquid": "s",
 				"padding": 4,
 			},
 			{
@@ -43,11 +43,11 @@ research: {
 		"power": 3.5,
 		"items": {
 			"items": [
-				{"item": "sand", "amount": 2}
+				{"item": "sadn", "amount": 2}
 			]
 		},
 	},
-	"outputLiquid": {"liquid": "slag", "amount": 0.2},
+	"outputLiquid": {"liquid": "s", "amount": 0.2},
 	"health": 290
 	"category": "production"
 	"squareSprite": false,
@@ -55,7 +55,7 @@ research: {
 	"buildCostMultiplier": 1.5,
 	"attribute": heat,
 	"maxBoost": 1,
-	"result": "slag",
+	"result": "s",
 	"baseEfficiency": 0,
 	"boostScale": 0.0833334,
 	"displayEfficiencyScale": 0.0833334,

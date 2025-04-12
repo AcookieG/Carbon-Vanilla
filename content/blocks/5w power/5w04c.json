@@ -7,8 +7,8 @@
 	"powerProduction": 0.05555556,
 	"liquidCapacity": 30,
 	"requirements": [
-		{"item": "silicon", "amount": 60},
-		{"item": "graphite", "amount": 60},
+		{"item": "sili", "amount": 60},
+		{"item": "graph", "amount": 60},
 		{"item": "iron", "amount": 30},
 	],
 	"drawer": {

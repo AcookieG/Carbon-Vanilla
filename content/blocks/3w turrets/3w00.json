@@ -10,8 +10,8 @@
 	"glowColor": 364166,
 	"hasBoost": false
 	"requirements": [
-		{"item": "scrap", "amount": 50},
-		{"item": "graphite", "amount": 20},
+		{"item": "scrp", "amount": 50},
+		{"item": "graph", "amount": 20},
 	],
 	"consumes": {
 		"power": 0.5,

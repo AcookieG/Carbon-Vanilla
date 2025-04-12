@@ -4,7 +4,7 @@
 	"health": 40,
 	"hasPower": false
 	"requirements": [
-		{"item": "scrap", "amount": 10},
+		{"item": "scrp", "amount": 10},
 		{"item": "slate", "amount": 10},
 	],
 	"category": "distribution",

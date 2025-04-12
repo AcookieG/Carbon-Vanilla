@@ -6,7 +6,7 @@
   "leaks": false,
   "liquidCapacity": 8,
 	"requirements": [
-		{"item": "graphite", "amount": 1},
+		{"item": "graph", "amount": 1},
 	],
 	junctionReplacement: 4w03b
 	bridgeReplacement: 4w04

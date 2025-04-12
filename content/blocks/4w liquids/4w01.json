@@ -3,8 +3,8 @@
 	"type": "Pump"
 	"pumpAmount": 0.15
 	"requirements": [
-		{"item": "graphite", "amount": 24},
-		{"item": "sand", "amount": 24},
+		{"item": "graph", "amount": 24},
+		{"item": "sadn", "amount": 24},
 	]
 	"liquidCapacity": 10
 	"size": 1

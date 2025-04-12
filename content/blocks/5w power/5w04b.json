@@ -6,8 +6,8 @@
 	"size": 2,
 	"powerProduction": 0.11666667,
 	"requirements": [
-		{"item": "graphite", "amount": 30},
-		{"item": "scrap", "amount": 20},
+		{"item": "graph", "amount": 30},
+		{"item": "scrp", "amount": 20},
 	],
 	"category": "power",
 	"research": "5w01"

@@ -20,8 +20,8 @@
 	},
 	"requirements": [
 		{ "item": "slate", "amount": 30 },
-		{ "item": "graphite", "amount": 30 },
-		{ "item": "sand", "amount": 80 },
+		{ "item": "grph", "amount": 30 },
+		{ "item": "sadn", "amount": 80 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -52,10 +52,10 @@ research: 7w01
 	"idleSound": "machine",
 	"idleSoundVolume": 0.03,
 	"outputLiquids": [
-		{ "liquid": "oil", "amount": 0.05 },
+		{ "liquid": "i", "amount": 0.05 },
 	],
 	"outputItems": [
-		{ "item": "coal", "amount": 3 },
+		{ "item": "anthracite", "amount": 3 },
 	],
 	"craftTime": 60,
 	"squareSprite": false,

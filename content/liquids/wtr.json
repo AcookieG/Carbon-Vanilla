@@ -1,0 +1,16 @@
+{
+	"type": "Liquid",
+	"moveThroughBlocks": false,
+	"incinerable": true,
+	"name": "Water",
+	"coolant": true,
+	"color": "596ab8",
+	"blockReactive": true,
+	"viscosity": 0.5,
+	"heatCapacity": 0.5,
+	"explosiveness": 0.0,
+	"temperature": 0.5,
+	"flammability": 0.0,
+	"research": "9w01",
+	"gas": false,
+}

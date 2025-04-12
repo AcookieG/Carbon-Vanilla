@@ -20,7 +20,7 @@
       },
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
+				"drawLiquid": "wtr",
 				"padding": 3,
 			},
 			{ 
@@ -42,7 +42,7 @@
 	"consumes": {
 		"power": 2.2,
 		"liquids":  [
-		{"liquid": "water", "amount": 0.3333333334},
+		{"liquid": "wtr", "amount": 0.3333333334},
 		]
 		"items": {
 			"items": [
@@ -52,9 +52,9 @@
 	},
 	"requirements": [
 		{ "item": "dense", "amount": 30 },
-		{ "item": "silicon", "amount": 120 },
+		{ "item": "sili", "amount": 120 },
 		{ "item": "carbon-fiber", "amount": 50 },
-		{ "item": "sand", "amount": 150 },
+		{ "item": "sadn", "amount": 150 },
 	],
 	"category": "crafting",
 	"rotate": false

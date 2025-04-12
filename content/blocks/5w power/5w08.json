@@ -1,8 +1,8 @@
 {
-	"name": "Coal Burner",
+	"name": "Anthracite Burner",
 	"description": 
 '''
-Burns coal to produce heat and power. Cleaner than those Oil Burners...
+Burns Anthracite to produce heat and power. Cleaner than those Oil Burners...
 '''
 	"type": "HeaterGenerator"
 	"size": 2,
@@ -13,7 +13,7 @@ Burns coal to produce heat and power. Cleaner than those Oil Burners...
 	"itemCapacity": 10,
 	"powerProduction": 1.2,
 	"requirements": [
-		{ "item": "graphite", "amount": 80 },
+		{ "item": "graph", "amount": 80 },
 		{ "item": "iron", "amount": 40 },
 	],
 	"drawer": {
@@ -30,7 +30,7 @@ Burns coal to produce heat and power. Cleaner than those Oil Burners...
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "coal", "amount": 1}
+				{"item": "Anthracite", "amount": 1}
 			]
 		},
 	},

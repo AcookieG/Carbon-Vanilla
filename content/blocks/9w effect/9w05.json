@@ -7,8 +7,8 @@
 	"hasItems": true,
 	"health": 80,
 	"requirements": [
-		{"item": "sand", "amount": 500},
-		{"item": "graphite", "amount": 100}
+		{"item": "sadn", "amount": 500},
+		{"item": "graph", "amount": 100}
 	]
 	"research": "1w05",
 	"category": "effect",

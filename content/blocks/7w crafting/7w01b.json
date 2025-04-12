@@ -19,7 +19,7 @@
 			]
 		},
 		"liquids":  [
-		{"liquid": "oil", "amount": 0.25},
+		{"liquid": "i", "amount": 0.25},
 		]
 	},
 	"requirements": [
@@ -37,7 +37,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "oil",
+				"drawLiquid": "i",
 				"padding": 5,
 			},
 			{
@@ -63,7 +63,7 @@ research: {
   ]
 }
 "outputItems": [
-		{ "item": "graphite", "amount": 2 },
+		{ "item": "graph", "amount": 2 },
 	],
 	"idleSound": "machine",
 	"idleSoundVolume": 0.03,

@@ -1,0 +1,16 @@
+{
+	"type": "Liquid",
+	"moveThroughBlocks": false,
+	"incinerable": true,
+	"name": "Oil",
+	"coolant": false,
+	"color": "313131",
+	"blockReactive": true,
+	"viscosity": 0.75,
+	"heatCapacity": 0.7,
+	"explosiveness": 1.2,
+	"temperature": 0.5,
+	"flammability": 1.2,
+	"research": "wtr",
+	"gas": false,
+}

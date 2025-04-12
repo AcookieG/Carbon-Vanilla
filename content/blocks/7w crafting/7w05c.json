@@ -35,7 +35,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "oil",
+				"drawLiquid": "i",
 				"padRight": 9,
 				"padLeft": 9,
 				"padTop": 3,
@@ -83,13 +83,13 @@
 	"consumes": {
 		"power": 8,
     "liquids":  [
-		{"liquid": "oil", "amount": 0.6},
+		{"liquid": "i", "amount": 0.6},
 		]
 	},
 	"requirements": [
 		{ "item": "flex-joint", "amount": 90 },
 		{ "item": "carbon-fiber", "amount": 60 },
-		{ "item": "sand", "amount": 180 },
+		{ "item": "sadn", "amount": 180 },
 		{ "item": "circuit", "amount": 40 },
 	],
 	"category": "crafting",

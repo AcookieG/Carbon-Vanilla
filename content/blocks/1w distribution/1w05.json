@@ -4,7 +4,7 @@
 	"description": "Capped at 60fps.",
 	"health": 60,
 	"requirements": [
-		{"item": "silicon", "amount": 20},
+		{"item": "sili", "amount": 20},
 		{"item": "slate", "amount": 20},
 	],
 	"speed": 0,

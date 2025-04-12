@@ -12,7 +12,7 @@
 	"rotateSpeed": 2.4
 	"consumes": {
 		"liquid": {
-			"liquid": "water", 
+			"liquid": "wtr", 
 			"amount": 0.1,
 			"optional": true,
 			"booster": true
@@ -20,7 +20,7 @@
 	},
 	"requirements": [
 		{ "item": "iron", "amount": 80 },
-		{ "item": "graphite", "amount": 80 },
+		{ "item": "graph", "amount": 80 },
 		{ "item": "dense", "amount": 10 },
 	],
 	"category": "production",

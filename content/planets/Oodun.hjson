@@ -162,19 +162,18 @@ orbitTime: 120
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  "sand"
-  "graphite",  
+  "sadn"
+  "graph",  
   "silicon", 
   "slate",
   "iron",
-  "coal", 
+  "anthracite", 
   "waffer", 
   "circuit", 
 	"carbon-fiber", 
 	"dense", 
-	"cotton", 
 	"coppa", 
-  "scrap", 
+  "scrp", 
 	"flex-joint",
 	"chip",
 	"canolla",

@@ -1,6 +1,6 @@
 {
 	"name": "Hydrolisis Chamber",
-	"description": "Explodes water.",
+	"description": "Explodes Water.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 200,
@@ -57,13 +57,13 @@
 	"consumes": {
 		"power": 10,
     "liquids":  [
-		{"liquid": "water", "amount": 0.3},
+		{"liquid": "wtr", "amount": 0.3},
 		]
 	},
 	"requirements": [
-		{ "item": "graphite", "amount": 80 },
+		{ "item": "graph", "amount": 80 },
 		{ "item": "iron", "amount": 60 },
-		{ "item": "sand", "amount": 120 },
+		{ "item": "sadn", "amount": 120 },
 		{ "item": "dense", "amount": 30 },
 	],
 	"category": "crafting",

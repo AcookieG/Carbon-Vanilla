@@ -8,7 +8,7 @@
 	"isFirstTier": true,
 	"alwaysUnlocked": true,
 	"requirements": [
-		{"item": "graphite", "amount": 800},
+		{"item": "graph", "amount": 800},
 		{"item": "slate", "amount": 200}
 	]
 "research": {

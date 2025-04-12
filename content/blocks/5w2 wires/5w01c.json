@@ -5,7 +5,7 @@
   "health": 20,
 	"liquidCapacity": 0,
 	"requirements": [
-		{"item": "graphite", "amount": 2},
+		{"item": "graph", "amount": 2},
 		{"item": "slate", "amount": 2},
 	],
 	"consumes": {"powerBuffered": 5,} 

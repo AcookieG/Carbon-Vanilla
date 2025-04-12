@@ -1,0 +1,16 @@
+{
+	"type": "Liquid",
+	"moveThroughBlocks": false,
+	"incinerable": true,
+	"name": "Slag",
+	"coolant": false,
+	"color": "ffa166",
+	"blockReactive": true,
+	"viscosity": 0.6,
+	"heatCapacity": 0.0,
+	"explosiveness": 0.0,
+	"temperature": 1.0,
+	"flammability": 0.1,
+	"research": "N",
+	"gas": false,
+}

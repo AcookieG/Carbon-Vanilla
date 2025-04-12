@@ -14,7 +14,7 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "coal", "amount": 1}
+				{"item": "anthracite", "amount": 1}
 			]
 		},
 		"liquids":  [
@@ -23,8 +23,8 @@
 	},
 	"requirements": [
 		{ "item": "iron", "amount": 60 },
-		{ "item": "graphite", "amount": 60 },
-		{ "item": "sand", "amount": 150 },
+		{ "item": "graph", "amount": 60 },
+		{ "item": "sadn", "amount": 150 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -63,7 +63,7 @@ research: {
 	"idleSound": "machine",
 	"idleSoundVolume": 0.03,
 	"outputLiquids": [
-		{ "liquid": "oil", "amount": 0.2 },
+		{ "liquid": "i", "amount": 0.2 },
 	],
 	"craftTime": 20,
 	"squareSprite": false,
