@@ -1,0 +1,110 @@
+{
+	"type": "flying",
+	"name": "Hawk",
+	"health": 560,
+	"armor": 2,
+	
+	"hovering": true,
+	"rotateSpeed": 4,
+	"speed": 20,
+	"accel": 0.02,
+	"drag": 0.01,
+	
+	"range": 150,
+	"hitSize": 20,
+	
+	"itemCapacity": 0,
+	
+	"engineOffset": 0,
+	"engineSize": 0,
+	"trailLength": 3,
+engines: [
+  {
+    x: -2
+    y: -8
+    radius: 2.5
+    rotation: -90
+  }
+  {
+    x: 2
+    y: -8
+    radius: 2.5
+    rotation: -90
+  }
+]
+	AlwaysUnlocked: true
+	
+	"weapons": [
+		{
+			"name": "11w02b-gun",
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 72,
+			"inaccuracy": 0,
+			"shootSound": "shoot"
+			"rotate": true
+			"shake": 0.0
+			"shootCone": 30,
+			"x": 2
+			"y": -2
+			"shootY": 2
+			"mirror": true
+			"shootEffect": "shootBig"
+			"rotateSpeed": 3,
+			"bullet": {
+			"type": "BasicBulletType",
+lifetime:22,
+speed:6.0,
+drag:0.0,
+accel:0.1,
+backColor:c7524c,
+frontColor:ff8a66,
+width:8.0,
+height:12.0,
+shrinkX:0.0,
+ShrinkY:0.5,
+shrinkInterp:linear,
+sprite:missile,
+damage:50,
+hitSize:4,
+drawSize:40,
+spin:0.0
+
+hitEffect:blastExplosion,
+despawnEffect:blastExplosion,
+inaccuracy:3,
+ammoMultiplier:3.0,
+reloadMultiplier:1.0,
+rangeChange:0.0,
+
+status:burning,
+statusDuration:480,
+
+trailColor:e58956ff,
+trailChance:0.5,
+trailInterval:1,
+trailParam:2.0,
+trailLength:-1,
+
+makeFire:true,
+incendAmount:2.0,
+incendSpread:8.0,
+incendChance:0.5,
+
+weaveScale:2.0,
+weaveMag:9.0,
+		}
+		}
+	]
+	"outlineColor": 00000000,
+	"fogRadius": 0,
+	"research": {
+		"parent": "11w02a"
+		"requirements": [
+			{
+				"item": "sand",
+				"amount": 1
+			},
+		]
+	}
+}

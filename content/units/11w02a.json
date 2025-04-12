@@ -1,65 +1,56 @@
 {
 	"type": "flying",
-	"name": "Egcheyle",
-	"health": 170,
-	"armor": 1,
+	"name": "Vulture",
+	"health": 560,
+	"armor": 2,
 	
+	"range": 100,
 	"hovering": true,
-	"shadowElevation": 0.1,
 	"rotateSpeed": 6,
-	"speed": 40,
+	"speed": 20,
 	"accel": 0.01,
 	"drag": 0.01,
 	
-	"hitSize": 8,
+	"hitSize": 12,
 	
 	"itemCapacity": 0,
 	
 	"engineOffset": 7,
 	"engineSize": 2.8,
-	"researchCostMultiplier": 0,
-	"useEngineElevation": false,
-	"parts": [
-		{
-			"type": "HoverPart",
-			x: 0
-			y: 0
-			mirror: false
-			radius: 6
-			phase: 120
-			stroke: 2
-			layerOffset: -0.001
-			color: f17afa
-		},
-]
+	"trailLength": 3,
+	AlwaysUnlocked: true
+	
 	"weapons": [
 		{
 			"name": "clear",
-			shootOnDeath: true,
-			shootCone: 180,
-			shootSound: explosion,
-			mirror: false,
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 72,
+			"ejectEffect": "none",
+			"inaccuracy": 0,
+			"shootSound": "shoot"
+			"rotate": true
+			"shake": 0.0
+			"shootCone": 30,
+			"x": 0
+			"y": 0
+			"shootY": 8
+			"mirror": false
+			"shootEffect": "shootBig"
+			"rotateSpeed": 0,
 			"bullet": {
-				"type": "BulletType",
-				collidesTiles: false,
-				collides: false,
-				hitSound: explosion,
-				rangeOverride: 30
-				hitEffect: pulverize
-				"speed": 0,
-				"splashDamageRadius": 60,
-				"splashDamage": 120,
-				killShooter: true,
-				hittable: false,
-				collidesAir: true,
+				type: LaserBulletType
+        hitSoundVolume: 1
+        hitSound: spark
+        buildingDamageMultiplier: 0.7
+        damage: 90
 			},
 		}
 	]
-	"trailLength": 10,
 	"outlineColor": 00000000,
 	"fogRadius": 0,
 	"research": {
-		"parent": "9w01"
+		"parent": "11w02a"
 		"requirements": [
 			{
 				"item": "sand",
