@@ -1,14 +1,13 @@
 {
 	"type": "flying",
 	"name": "Hawk",
-	"health": 560,
+	"health": 1120,
 	"armor": 2,
 	
-	"hovering": true,
 	"rotateSpeed": 4,
-	"speed": 20,
+	"speed": 15,
 	"accel": 0.02,
-	"drag": 0.01,
+	"drag": 0.06,
 	
 	"range": 150,
 	"hitSize": 20,
@@ -39,13 +38,13 @@ engines: [
 			"name": "11w02b-gun",
 			"alternate": true,
 			"ignoreRotation": true,
-			"reload": 72,
+			"reload": 36,
 			"inaccuracy": 0,
 			"shootSound": "shoot"
 			"rotate": true
 			"shake": 0.0
 			"shootCone": 30,
-			"x": 2
+			"x": 6
 			"y": -2
 			"shootY": 2
 			"mirror": true
@@ -65,7 +64,7 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:missile,
-damage:50,
+damage:90,
 hitSize:4,
 drawSize:40,
 spin:0.0
@@ -96,7 +95,7 @@ weaveMag:9.0,
 		}
 		}
 	]
-	"outlineColor": 00000000,
+	"outlineColor": 2c2d38,
 	"fogRadius": 0,
 	"research": {
 		"parent": "11w02a"

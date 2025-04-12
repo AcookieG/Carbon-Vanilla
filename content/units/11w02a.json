@@ -5,11 +5,10 @@
 	"armor": 2,
 	
 	"range": 100,
-	"hovering": true,
 	"rotateSpeed": 6,
-	"speed": 20,
+	"speed": 12,
 	"accel": 0.01,
-	"drag": 0.01,
+	"drag": 0.05,
 	
 	"hitSize": 12,
 	
@@ -34,7 +33,7 @@
 			"shootCone": 30,
 			"x": 0
 			"y": 0
-			"shootY": 8
+			"shootY": 0
 			"mirror": false
 			"shootEffect": "shootBig"
 			"rotateSpeed": 0,
@@ -47,7 +46,7 @@
 			},
 		}
 	]
-	"outlineColor": 00000000,
+	"outlineColor": 2c2d38,
 	"fogRadius": 0,
 	"research": {
 		"parent": "11w02a"
