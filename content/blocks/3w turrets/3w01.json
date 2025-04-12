@@ -27,8 +27,8 @@
 	"ammoTypes": {
 		"scrp": {
 "type": "BasicBulletType",
-lifetime:25,
-speed:6.0,
+lifetime:30,
+speed:5.0,
 drag:0.0,
 accel:0.0,
 backColor:9b928bff,
@@ -39,10 +39,10 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:bullet,
-damage:32,
+damage:64,
 hitSize:1,
 drawSize:1,
-spin:5,
+spin:6.5,
 
 hitEffect:hitBulletSmall,
 despawnEffect:hitBulletSmall,
