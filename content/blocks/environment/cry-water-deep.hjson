@@ -1,0 +1,12 @@
+type: Floor
+name: Crystal Cluster Water
+speedMultiplier: 0.3
+variants: 4
+statusDuration: 60
+liquidDrop: wtr
+isLiquid: true
+cacheLayer: water
+liquidMultiplier: 1.5
+albedo: 0.9
+supportsOverlay: true
+drownTime: 600

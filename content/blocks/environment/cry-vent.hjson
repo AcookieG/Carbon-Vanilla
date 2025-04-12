@@ -1,0 +1,8 @@
+type: SteamVent
+blendGroup: cry
+parent: cry
+	"variants": 2,
+attributes: {
+   steam: 1
+}
+effectColor: d1efff
