@@ -16,8 +16,8 @@
 	"itemCapacity": 0,
 	
 	"engineOffset": 7.5,
-	"engineSize": 3.2,
-	"trailLength": 3,
+	"engineSize": 3.0,
+	"trailLength": 5,
 	AlwaysUnlocked: true
 	
 	"weapons": [
