@@ -1,5 +1,5 @@
 {
-	"type": "ItemBridge",
+	"type": "DuctBridge",
 	"name": "Duct Bridge",
 	"health": 40,
 	"hasPower": false
