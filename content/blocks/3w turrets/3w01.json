@@ -46,7 +46,8 @@ ammoMultiplier:2.0,
 reloadMultiplier:0.6,
 rangeChange:0.0,
 
-splashDamage:32,
+damage:12,
+splashDamage:20,
 splashDamageRadius:20.0,
 
 hitEffect:flakExplosion,
@@ -108,7 +109,7 @@ homingPower:0.05,
 homingRange:40.0,
 		}
 		"iron": {
-"type": "FlakBulletType",
+"type": "ArtilleryBulletType",
 lifetime:25,
 speed:6.0,
 backColor:f9c27aff,
@@ -125,10 +126,12 @@ inaccuracy:6.0,
 ammoMultiplier:3.0,
 reloadMultiplier:0.8,
 rangeChange:0.0,
+scaleLife:true,
 
+damage:10,
 hitEffect:flakExplosion,
 despawnEffect:flakExplosion,
-splashDamage:30,
+splashDamage:20,
 splashDamageRadius:30.0,
 
 fragBullets:4
