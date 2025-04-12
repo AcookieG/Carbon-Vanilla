@@ -46,7 +46,7 @@ ammoMultiplier:2.0,
 reloadMultiplier:0.6,
 rangeChange:0.0,
 
-splashDamage:64,
+splashDamage:32,
 splashDamageRadius:20.0,
 
 hitEffect:flakExplosion,
@@ -62,7 +62,7 @@ width:4.5,
 height:7.5,
 shrinkX:0.05,
 ShrinkY:0.4,
-damage:80,
+damage:40,
 hitSize:4,
 drawSize:40,
 
@@ -86,7 +86,7 @@ trailLength:2.0,
 		}
 		"sili": {
 "type": "BasicBulletType",
-lifetime:30,
+lifetime:25,
 speed:6.0,
 backColor:f9c27aff,
 frontColor:8e9097,
@@ -94,7 +94,7 @@ width:8.0,
 height:12.0,
 shrinkX:0.0,
 ShrinkY:0.5,
-damage:96,
+damage:48,
 hitSize:4,
 drawSize:40,
 spin:0.0
@@ -108,8 +108,8 @@ homingPower:0.05,
 homingRange:40.0,
 		}
 		"iron": {
-"type": "ShrapnelBulletType",
-lifetime:30,
+"type": "FlakBulletType",
+lifetime:25,
 speed:6.0,
 backColor:f9c27aff,
 frontColor:8e9097,
@@ -121,7 +121,7 @@ hitSize:4,
 drawSize:40,
 spin:0.0
 
-inaccuracy:7.0,
+inaccuracy:6.0,
 ammoMultiplier:3.0,
 reloadMultiplier:0.8,
 rangeChange:0.0,
@@ -129,18 +129,19 @@ rangeChange:0.0,
 hitEffect:flakExplosion,
 despawnEffect:flakExplosion,
 
-fragBullets:7
+fragBullets:4
 fragVelocityMin:0.2,
 fragVelocityMax:1.0,
 fragBullet:{
 	"type": "BasicBulletType"
-	splashDamage:12,
+	splashDamage:10,
 	splashDamageRadius:30.0,
+	drawSize:1,
 },
 		}
 		"canolla": {
 "type": "BasicBulletType",
-lifetime:20,
+lifetime:22,
 speed:6.0,
 drag:0.0,
 accel:0.1,
@@ -152,7 +153,7 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:missile,
-damage:200,
+damage:100,
 hitSize:4,
 drawSize:40,
 spin:0.0
@@ -178,7 +179,7 @@ incendAmount:2.0,
 incendSpread:8.0,
 incendChance:0.5,
 
-weaveScale:3.0,
+weaveScale:2.0,
 weaveMag:9.0,
 		}
 	},
