@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Graphite",
-	"description": "Packed carbon, used in waterworks and construction. [salmon]+5 range. 120%",
+	"description": "Packed carbon, used in waterworks and construction. [salmon]+5 range. 1.2 Reload. 120%",
 	"cost": 1.1,
 	"flammability": 0.1,
 	"radioactivity": 0.0,

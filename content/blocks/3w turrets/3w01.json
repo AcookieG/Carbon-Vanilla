@@ -28,33 +28,159 @@
 	},
 	"ammoTypes": {
 		"scrp": {
-"type": "BasicBulletType",
+"type": "FlakBulletType",
 lifetime:30,
 speed:5.0,
-drag:0.0,
-accel:0.0,
 backColor:9b928bff,
 frontColor:e0b28dff,
+width:5.0,
+height:7.0,
+shrinkX:0.0,
+ShrinkY:0.5,
+hitSize:4,
+drawSize:40,
+spin:6.5,
+
+inaccuracy:12.0,
+ammoMultiplier:2.0,
+reloadMultiplier:0.6,
+rangeChange:0.0,
+
+splashDamage:64,
+splashDamageRadius:20.0,
+
+hitEffect:flakExplosion,
+despawnEffect:flakExplosion,
+		},
+		"slate": {
+"type": "BasicBulletType",
+lifetime:22,
+speed:7.0,
+backColor:f9c27aff,
+frontColor:708d94,
+width:4.5,
+height:7.5,
+shrinkX:0.05,
+ShrinkY:0.4,
+damage:80,
+hitSize:4,
+drawSize:40,
+
+ammoMultiplier:2.0,
+reloadMultiplier:1.5,
+rangeChange:0.0,
+
+pierce:true,
+pierceBuilding:true,
+pierceCap:3,
+buildingDamageMultiplier:1.0,
+shieldDamageMultiplier:0.5,
+knockback:-0.5
+
+
+trailColor:708d94,
+trailChance:0.5,
+trailInterval:1,
+trailParam:2.0,
+trailLength:2.0,
+		}
+		"sili": {
+"type": "BasicBulletType",
+lifetime:30,
+speed:6.0,
+backColor:f9c27aff,
+frontColor:8e9097,
+width:8.0,
+height:12.0,
+shrinkX:0.0,
+ShrinkY:0.5,
+damage:96,
+hitSize:4,
+drawSize:40,
+spin:0.0
+
+inaccuracy:0.0,
+ammoMultiplier:3.0,
+reloadMultiplier:0.8,
+rangeChange:0.0,
+
+homingPower:0.05,
+homingRange:40.0,
+		}
+		"iron": {
+"type": "ShrapnelBulletType",
+lifetime:30,
+speed:6.0,
+backColor:f9c27aff,
+frontColor:8e9097,
+width:8.0,
+height:12.0,
+shrinkX:0.0,
+ShrinkY:0.5,
+hitSize:4,
+drawSize:40,
+spin:0.0
+
+inaccuracy:7.0,
+ammoMultiplier:3.0,
+reloadMultiplier:0.8,
+rangeChange:0.0,
+
+hitEffect:flakExplosion,
+despawnEffect:flakExplosion,
+
+fragBullets:7
+fragVelocityMin:0.2,
+fragVelocityMax:1.0,
+fragBullet:{
+	"type": "BasicBulletType"
+	splashDamage:12,
+	splashDamageRadius:30.0,
+},
+		}
+		"canolla": {
+"type": "BasicBulletType",
+lifetime:20,
+speed:6.0,
+drag:0.0,
+accel:0.1,
+backColor:c7524c,
+frontColor:ff8a66,
 width:8.0,
 height:12.0,
 shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
-sprite:bullet,
-damage:64,
-hitSize:1,
-drawSize:1,
-spin:6.5,
+sprite:missile,
+damage:200,
+hitSize:4,
+drawSize:40,
+spin:0.0
 
-hitEffect:hitBulletSmall,
-despawnEffect:hitBulletSmall,
-shootEffect:shootSmall,
-smokeEffect:shootSmallSmoke,
-inaccuracy:12.0,
-ammoMultiplier:2.0,
-reloadMultiplier:0.7,
+hitEffect:blastExplosion,
+despawnEffect:blastExplosion,
+inaccuracy:3,
+ammoMultiplier:3.0,
+reloadMultiplier:1.0,
 rangeChange:0.0,
-},
+
+status:burning,
+statusDuration:480,
+
+trailColor:e58956ff,
+trailChance:0.5,
+trailInterval:1,
+trailParam:2.0,
+trailLength:2.0,
+
+makeFire:true,
+incendAmount:2.0,
+incendSpread:8.0,
+incendChance:0.5,
+
+weaveScale:3.0,
+weaveMag:9.0,
+		}
 	},
 	"consumes": {
 		"coolant": {
