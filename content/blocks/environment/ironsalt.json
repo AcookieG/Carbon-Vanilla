@@ -1,0 +1,10 @@
+{
+	"name": "Light Iron Floor",
+	"type": "Floor",
+	"variants": 3,
+	"itemDrop": sadn,
+	"attributes": {
+  "sand": 0.4
+}
+
+}

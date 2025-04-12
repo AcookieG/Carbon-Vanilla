@@ -1,8 +1,8 @@
 type: SteamVent
-blendGroup: ironice
-parent: ironice
+blendGroup: cry
+parent: cry
 	"variants": 2,
 attributes: {
    steam: 1
 }
-effectColor: 675b53
+effectColor: 997454
