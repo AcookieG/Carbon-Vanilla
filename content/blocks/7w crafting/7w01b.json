@@ -12,7 +12,7 @@
 	"updateEffect": "pulverizeMedium",
 	"craftEffect": "steam",
 	"consumes": {
-	"power": 0.2,
+	"power": 1,
 		"items": {
 			"items": [
 				{"item": "slate", "amount": 1}

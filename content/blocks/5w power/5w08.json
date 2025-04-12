@@ -50,5 +50,5 @@ research: {
 }
 	"itemDuration": 30,
 	"squareSprite": false,
-	"heatOutput": 9,
+	"heatOutput": 12,
 }

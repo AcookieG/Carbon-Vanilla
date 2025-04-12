@@ -10,7 +10,7 @@
 	"colorTo": "d1e4ff",
 	"gasColor": "d1e4ff"
 	"blockReactive": true,
-	"viscosity": 0.1,
+	"viscosity": 0.3,
 	"heatCapacity": 0,
 	"explosiveness": 1.0,
 	"temperature": 0.5,

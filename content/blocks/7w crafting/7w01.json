@@ -29,6 +29,6 @@
 	"outputItems": [
 		{ "item": "graphite", "amount": 3 },
 	],
-	"craftTime": 72,
+	"craftTime": 108,
 	"squareSprite": false,
 }

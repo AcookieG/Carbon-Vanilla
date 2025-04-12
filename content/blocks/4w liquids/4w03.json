@@ -4,7 +4,7 @@
   "description": "Transports liquids at a slow pace."
   "health": 40,
   "leaks": false,
-  "liquidCapacity": 16,
+  "liquidCapacity": 8,
 	"requirements": [
 		{"item": "graphite", "amount": 1},
 	],

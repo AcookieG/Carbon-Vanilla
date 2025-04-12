@@ -17,7 +17,7 @@
 	"lightColor": "8bbeb000"
 	"spreadTarget": "pressure",
 	"blockReactive": true,
-	"viscosity": 0.85,
+	"viscosity": 0.9,
 	"heatCapacity": 0.3,
 	"explosiveness": 0,
 	"temperature": 0.5,
