@@ -9,9 +9,6 @@
 	"hasItems": true,
 	"updateEffect": "none",
 	"liquidCapacity": 80000000,
-	"consumes": {
-		"power": 0.001,
-	},
     "requirements": [
 		{ "item": "sadn", "amount": 1 },
     ],
