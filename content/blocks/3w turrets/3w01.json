@@ -80,10 +80,10 @@ knockback:-0.5
 
 
 trailColor:708d94,
-trailChance:0.5,
+trailChance:0.0,
 trailInterval:1,
-trailParam:2.0,
-trailLength:2.0,
+trailParam:3.0,
+trailLength:5.0,
 		}
 		"sili": {
 "type": "BasicBulletType",
@@ -112,14 +112,18 @@ homingRange:40.0,
 "type": "ArtilleryBulletType",
 lifetime:25,
 speed:6.0,
-backColor:f9c27aff,
-frontColor:8e9097,
+backColor:9b928bff,
+frontColor:e0b28dff,
 width:8.0,
 height:12.0,
 shrinkX:0.0,
 ShrinkY:0.5,
 hitSize:4,
 drawSize:40,
+shrinkX:0.0,
+ShrinkY:0.5,
+shrinkInterp:linear,
+sprite:bullet,
 spin:0.0
 
 inaccuracy:6.0,
@@ -128,11 +132,17 @@ reloadMultiplier:0.8,
 rangeChange:0.0,
 scaleLife:true,
 
+shootEffect:shootSmall,
+smokeEffect:shootSmallSmoke,
 damage:10,
 hitEffect:flakExplosion,
 despawnEffect:flakExplosion,
 splashDamage:20,
 splashDamageRadius:30.0,
+
+trailChance:0.0,
+hitShake:0.0
+despawnShake:0.0
 
 fragBullets:4
 fragVelocityMin:0.1,
@@ -179,7 +189,7 @@ trailColor:e58956ff,
 trailChance:0.5,
 trailInterval:1,
 trailParam:2.0,
-trailLength:2.0,
+trailLength:0.0,
 
 makeFire:true,
 incendAmount:2.0,
