@@ -44,7 +44,7 @@
 	"idleSound": "machine",
 	"idleSoundVolume": 0.05,
 	"outputItem": {
-		"item": "solid-heat",
+		"item": "metarkle",
 		"amount": 1
 	},
 	"craftTime": 10,

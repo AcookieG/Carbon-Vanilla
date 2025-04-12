@@ -164,7 +164,7 @@ launchCandidates: []
 itemWhitelist: [
   "sadn"
   "graph",  
-  "silicon", 
+  "sili", 
   "slate",
   "iron",
   "anthracite", 

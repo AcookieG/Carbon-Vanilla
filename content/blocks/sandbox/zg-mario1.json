@@ -38,7 +38,7 @@
 			}
 		},
 	"requirements": [
-		{ "item": "copper", "amount": 1 },
+		{ "item": "sadn", "amount": 1 },
 	],
 	"category": "logic",
 	"research": "duo"

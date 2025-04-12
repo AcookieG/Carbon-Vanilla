@@ -19,7 +19,7 @@
 	"hasPower": false
 	"ammoPerShot": 1,
 	"ammoTypes": {
-		"copper": {
+		"sadn": {
 			"type": "BasicBulletType",
 			"damage": 123450,
 			"ammoMultiplier": 10,
@@ -44,9 +44,7 @@
 		},
 	},
 	"requirements": [
-		{ "item": "phase-decay", "amount": 2500000 },
-		{ "item": "spore-pod", "amount": 150000 },
-   	     { "item": "surge-alloy", "amount": 2000000 }
+		{ "item": "sadn", "amount": 1 },
 	],
 	"category": "logic",
 	"research": "duo"

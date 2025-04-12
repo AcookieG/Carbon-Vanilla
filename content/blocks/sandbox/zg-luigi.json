@@ -12,9 +12,7 @@
     "hasPower": false
     "category": "logic",
     "requirements": [
-		{ "item": "phase-decay", "amount": 2500000 },
-		{ "item": "spore-pod", "amount": 150000 },
-   	     { "item": "surge-alloy", "amount": 2000000 }
+		{ "item": "sadn", "amount": 1 },
     ],
     "research": "force-projector"
 }

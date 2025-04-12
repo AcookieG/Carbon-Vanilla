@@ -13,9 +13,7 @@
 		"power": 0.001,
 	},
     "requirements": [
-		{ "item": "phase-decay", "amount": 2500000 },
-		{ "item": "spore-pod", "amount": 150000 },
-   	     { "item": "surge-alloy", "amount": 2000000 }
+		{ "item": "sadn", "amount": 1 },
     ],
 	"category": "effect",
 	"rotate": false
@@ -43,6 +41,25 @@
 		{ "item": "blast-compound", "amount": 60 },
 
 		{ "item": "pyratite", "amount": 60 },
+		
+		
+		{ "item": "sadn", "amount": 60 },
+		{ "item": "scrp", "amount": 60 },
+		{ "item": "anthracite", "amount": 60 },
+		{ "item": "grph", "amount": 60 },
+		{ "item": "canolla", "amount": 60 },
+		{ "item": "carbon-fiber", "amount": 60 },
+		{ "item": "chip", "amount": 60 },
+		{ "item": "coppa", "amount": 60 },
+			
+		{ "item": "circuit", "amount": 60 },
+		{ "item": "dense", "amount": 60 },
+		{ "item": "flex-joint", "amount": 60 },
+		{ "item": "iron", "amount": 60 },
+		{ "item": "metarkle", "amount": 60 },
+		{ "item": "sili", "amount": 60 },
+		{ "item": "slate", "amount": 60 },
+		{ "item": "waffer", "amount": 60 },
 ],
 	"craftTime": 1
 }
