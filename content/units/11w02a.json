@@ -4,9 +4,10 @@
 	"health": 560,
 	"armor": 2,
 	
+		"flying": true,
 	"range": 100,
 	"rotateSpeed": 6,
-	"speed": 12,
+	"speed": 16,
 	"accel": 0.01,
 	"drag": 0.05,
 	

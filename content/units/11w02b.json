@@ -2,10 +2,11 @@
 	"type": "flying",
 	"name": "Hawk",
 	"health": 1120,
-	"armor": 2,
+	"armor": 8,
 	
+		"flying": true,
 	"rotateSpeed": 4,
-	"speed": 15,
+	"speed": 18,
 	"accel": 0.02,
 	"drag": 0.06,
 	
