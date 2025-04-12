@@ -42,6 +42,7 @@ sprite:bullet,
 damage:1,
 hitSize:1,
 drawSize:1,
+spin:0.0
 
 hitEffect:hitBulletSmall,
 despawnEffect:hitBulletSmall,
@@ -125,8 +126,8 @@ lightningDamage:40,
 lightningCone:360,
 lightningAngle:0.0,
 
-weaveScale:0.5,
-weaveMag:2.0,
+weaveScale:6.0,
+weaveMag:4.0,
 },
 	},
 	"consumes": {
