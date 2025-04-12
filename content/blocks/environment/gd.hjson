@@ -1,4 +1,4 @@
-type: OreBlock
+type: OverlayFloor
 attributes: {
    steam: 0.1
 	 heat: 0.3

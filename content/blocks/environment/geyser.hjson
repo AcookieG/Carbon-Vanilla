@@ -1,6 +1,6 @@
 type: SteamVent
-blendGroup: dacite-floor
-parent: dacite-floor
+blendGroup: dacite
+parent: dacite
 	"variants": 2,
 attributes: {
    steam: 3
