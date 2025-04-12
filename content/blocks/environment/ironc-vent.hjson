@@ -1,6 +1,6 @@
 type: SteamVent
-blendGroup: ironc
-parent: ironc
+blendGroup: ironsalt
+parent: ironsalt
 	"variants": 2,
 attributes: {
    steam: 1
