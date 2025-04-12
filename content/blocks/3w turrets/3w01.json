@@ -54,7 +54,7 @@ despawnEffect:flakExplosion,
 		},
 		"slate": {
 "type": "BasicBulletType",
-lifetime:22,
+lifetime:26,
 speed:7.0,
 backColor:f9c27aff,
 frontColor:708d94,
@@ -68,7 +68,7 @@ drawSize:40,
 
 ammoMultiplier:2.0,
 reloadMultiplier:1.5,
-rangeChange:0.0,
+rangeChange:32,
 
 pierce:true,
 pierceBuilding:true,
@@ -128,15 +128,19 @@ rangeChange:0.0,
 
 hitEffect:flakExplosion,
 despawnEffect:flakExplosion,
+splashDamage:30,
+splashDamageRadius:30.0,
 
 fragBullets:4
-fragVelocityMin:0.2,
-fragVelocityMax:1.0,
+fragVelocityMin:0.1,
+fragVelocityMax:0.5,
 fragBullet:{
 	"type": "BasicBulletType"
-	splashDamage:10,
-	splashDamageRadius:30.0,
+	lifetime:10,
+	damage: 5
 	drawSize:1,
+	hitEffect:none,
+	despawnEffect:none,
 },
 		}
 		"canolla": {
