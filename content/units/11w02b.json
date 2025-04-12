@@ -15,23 +15,23 @@
 	
 	"itemCapacity": 0,
 	
-	"engineOffset": 0,
-	"engineSize": 0,
+	"engineOffset": 8,
+	"engineSize": 3,
 	"trailLength": 3,
 engines: [
   {
-    x: -4
-    y: -11
+    x: -3
+    y: -10
     radius: 2.5
     rotation: -90
-		trailLength: 5,
+		trailLength: 2.5,
   }
   {
-    x: 4
-    y: -11
+    x: 3
+    y: -10
     radius: 2.5
     rotation: -90
-		trailLength: 5,
+		trailLength: 2.5,
   }
 ]
 	AlwaysUnlocked: true
