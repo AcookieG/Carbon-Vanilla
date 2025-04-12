@@ -20,7 +20,7 @@
 	},
 	"requirements": [
 		{ "item": "slate", "amount": 30 },
-		{ "item": "grph", "amount": 30 },
+		{ "item": "graph", "amount": 30 },
 		{ "item": "sadn", "amount": 80 },
 	],
 	"drawer": {

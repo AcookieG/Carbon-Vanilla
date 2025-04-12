@@ -30,7 +30,7 @@ Burns Anthracite to produce heat and power. Cleaner than those Oil Burners...
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "Anthracite", "amount": 1}
+				{"item": "anthracite", "amount": 1}
 			]
 		},
 	},
