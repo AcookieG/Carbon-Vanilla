@@ -20,16 +20,18 @@
 	"trailLength": 3,
 engines: [
   {
-    x: -2
-    y: -8
+    x: -4
+    y: -11
     radius: 2.5
     rotation: -90
+		trailLength: 5,
   }
   {
-    x: 2
-    y: -8
+    x: 4
+    y: -11
     radius: 2.5
     rotation: -90
+		trailLength: 5,
   }
 ]
 	AlwaysUnlocked: true
