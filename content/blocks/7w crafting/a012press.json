@@ -1,0 +1,58 @@
+{
+	"name": "Carbon Pressoir",
+	"description": "Uses compounds remaining in Plastanium to weave Carbon Fiber. Isn't as good as an actual weaver though.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 160,
+	"itemCapacity": 20,
+	"hasLiquids": false,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "smeltsmoke",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawWeave"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{
+				"item": "plastanium",
+				"amount": 4,
+				}
+				{
+				"item": "phase-fabric",
+				"amount": 2,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount": 90 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "phase-fabric", "amount": 30 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "plastanium-compressor",
+	"idleSound": "techloop",
+	"idleSoundVolume": 0.03,
+	"outputItem": {
+		"item": "carbon-fiber",
+		"amount": 3
+	},
+	"craftTime": 90,
+}

@@ -1,0 +1,57 @@
+{
+	"type": "ThermalGenerator",
+	"name": "Pressure Trap",
+	"description": "A small platform to generate Pressure and generate power in the process.",
+	"health": 210,
+	"size": 3,
+	"powerProduction": 0.05555556,
+	"liquidCapacity": 30,
+	"requirements": [
+		{"item": "sili", "amount": 60},
+		{"item": "graph", "amount": 60},
+		{"item": "iron", "amount": 30},
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "pressure",
+				"padding": 3
+			},
+			{
+				"type": "DrawBlurSpin"
+				"suffix": "-rotator"
+				"rotateSpeed": 6.5,
+				"blurThresh": 0.01,
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"attribute": "steam",
+	"effectChance": 0.03
+	"generateEffect": "turbinegenerate",
+	"category": "production",
+research: {
+  parent: 5w04b
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"displayEfficiencyScale": 0.1111112,
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.1,
+	"displayEfficiency": false,
+	"outputLiquid": {"liquid": "pressure", "amount": 0.05555555555555},
+	"minEfficiency": 0.999999
+		"squareSprite": false,
+}

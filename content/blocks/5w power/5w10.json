@@ -1,0 +1,78 @@
+{
+	"name": "Overheater",
+	"description": 
+'''
+Produces dangerous amounts of heat, at the cost of durability. Don't let it explode.
+'''
+	"type": "HeaterGenerator"
+	"size": 3,
+	"health": 110,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"baseExplosiveness": 1.0,
+	"explosionRadius": 40,
+	"explosionDamage": 90,
+	"explosionShake": 1.5,
+	"itemCapacity": 10,
+	"powerProduction": 10,
+	"requirements": [
+		{ "item": "dense", "amount": 50 },
+		{ "item": "flex-joint", "amount": 60 },
+		{ "item": "coppa", "amount": 80 },
+		{ "item": "graph", "amount": 80 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "s",
+				"padding": 3,
+			},
+			{
+        "type": "DrawSoftParticles"
+      },
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+			{
+				"type": "DrawGlowRegion"
+			},
+		]
+	},
+	"consumes": {
+		"liquids":  [
+			{"liquid": "s", "amount": 0.1},
+		]
+		"items": {
+			"items": [
+				{"item": "canolla", "amount": 1}
+			]
+		},
+	},
+	"category": "power",
+	"conductivePower": true
+	"rotate": true
+	"loopSound": "hum",
+	"loopSoundVolume": 0.1,
+research: {
+  parent: 5w09
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"itemDuration": 60,
+	"squareSprite": false,
+	"heatOutput": 72,
+}

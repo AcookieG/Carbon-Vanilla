@@ -1,0 +1,13 @@
+{
+	"type": "OverflowGate",
+	"name": "Underflow Duct",
+	"health": 40,
+	"invert": true
+	"requirements": [
+		{"item": "scrp", "amount": 4},
+		{"item": "slate", "amount": 4},
+	],
+	"category": "distribution",
+	"research": "1w06"
+	"squareSprite": false,
+}

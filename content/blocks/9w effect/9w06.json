@@ -1,0 +1,26 @@
+{
+	"name": "Rectifier",
+	"description": "A small structure to mend blocks.",
+	"type": "RegenProjector",
+	"health": 40,
+	"size": 1,
+	"hasPower": false,
+	"range": 7,
+	"healPercent": 0.03,
+	"consumes": {
+		"liquid": {
+			"liquid": "wtr", 
+			"amount": 0.2,
+			"optional": true,
+		}
+	},
+	"optionalMultiplier":	2
+	"effectChance": 0.04
+	"requirements": [
+		{"item": "graph", "amount": 60},
+		{"item": "sili", "amount": 60},
+	],
+	"category": "effect",
+	"research": "9w01"
+			"conductivePower": false
+}

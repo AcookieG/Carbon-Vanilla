@@ -1,0 +1,69 @@
+{
+	"name": "Pressure Metalisis Chamber",
+	"description": "Generates Slag through intense heat and pressure, as well as iron.",
+	"type": "HeatCrafter"
+	"size": 4,
+	"health": 360,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "turbinegenerate",
+	"craftEffect": "none",
+	"liquidCapacity": 60,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "s",
+				"padding": 4,
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-methane",
+			},
+			{
+        "type": "DrawMultiWeave"
+      },
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawHeatInput",
+				"suffix": "-heat",
+			},
+		]
+	},
+	"heatRequirement": 36
+	"maxEfficiency": 1.25
+	"consumes": {
+		"power": 4,
+    "liquids":  [
+		{"liquid": "pressure", "amount": 0.7},
+		{"liquid": "N", "amount": 0.2},
+		]
+	"items": {
+			"items": [
+				{"item": "iron", "amount": 2}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "sili", "amount": 40 },
+		{ "item": "slate", "amount": 60 },
+		{ "item": "sadn", "amount": 130 },
+		{ "item": "iron", "amount": 160 },
+	],
+	"category": "crafting",
+	"research": "7w05",
+	"idleSound": "hum",
+	"idleSoundVolume": 0.12,
+	"outputLiquid": {"liquid": "s", "amount": 0.1},
+	"craftTime": 60,
+	"squareSprite": false,
+	"conductivePower": true
+}

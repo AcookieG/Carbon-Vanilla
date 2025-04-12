@@ -1,0 +1,112 @@
+{
+	"name": "Soaping Boiler",
+	"description": "Uses Base and Acid's chemical properties to extract even higher amounts of Hydrogen, along with some Nitrogen",
+	"type": "HeatCrafter"
+	"size": 3,
+	"health": 300,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"updateEffect": none,
+	"craftEffect": {
+			type: ExplosionEffect
+			lifetime: 30
+			waveRad: 10
+			waveLife: 20
+			waveStroke: 2
+			smokeColor: ffffff00
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 5
+			sparkRad: 20
+			sparkStroke: 3.2
+			sparkLen: 5.8
+			sparkColor: ffffffff
+			waveColor: ffffffff
+		}
+	"liquidCapacity": 30,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "i",
+				"padRight": 9,
+				"padLeft": 9,
+				"padTop": 3,
+				"padBottom": 14,
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "N",
+				"padRight": 9,
+				"padLeft": 9,
+				"padTop": 14,
+				"padBottom": 3,
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "H",
+				"padRight": 14,
+				"padLeft": 3,
+				"padTop": 9,
+				"padBottom": 9,
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "O",
+				"padRight": 3,
+				"padLeft": 14,
+				"padTop": 9,
+				"padBottom": 9,
+			},
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawHeatInput",
+				"suffix": "-heat",
+			},
+			{
+				"type": "DrawGlowRegion",
+				"color": d1efff
+			},
+		]
+	},
+	"heatRequirement": 36
+	"maxEfficiency": 1
+	"consumes": {
+		"power": 8,
+    "liquids":  [
+		{"liquid": "i", "amount": 0.6},
+		]
+	},
+	"requirements": [
+		{ "item": "flex-joint", "amount": 90 },
+		{ "item": "carbon-fiber", "amount": 60 },
+		{ "item": "sadn", "amount": 180 },
+		{ "item": "circuit", "amount": 40 },
+	],
+	"category": "crafting",
+research: {
+  parent: 7w05c
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"idleSound": "electricHum",
+	"idleSoundVolume": 0.1,
+	"outputLiquids": [{"liquid": "H", "amount": 0.6},{"liquid": "N", "amount": 0.25},{"liquid": "O", "amount": 0.25},]
+	"craftTime": 50,
+	"squareSprite": false,
+	"conductivePower": true
+	liquidOutputDirections: [2,3,4]
+}

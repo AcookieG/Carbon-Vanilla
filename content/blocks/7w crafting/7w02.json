@@ -1,0 +1,47 @@
+{
+	"name": "Silicon Cooker",
+	"description": "Burns through Anthracite and Sand to make Silicon and reduce power consumption internally.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 120,
+	"itemCapacity": 10,
+	"hasLiquids": false,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "smeltsmoke",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawFlame"
+				"flameColor": ffef99
+			},
+		]
+	},
+	"consumes": {
+		"power": 0.25,
+		"items": {
+			"items": [
+				{"item": "anthracite", "amount": 2}
+				{"item": "sadn", "amount": 1}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "slate", "amount": 24 },
+		{ "item": "sadn", "amount": 60 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "7w01",
+	"idleSound": "smelter",
+	"idleSoundVolume": 0.09,
+	"outputItem": { "item": "sili", "amount": 1 },
+	"craftTime": 40,
+	"squareSprite": false,
+		"conductivePower": true
+}

@@ -1,0 +1,29 @@
+{
+	"name": "Incision Drill",
+	"description": "Such power... Cannot be overdriven.",
+	"type": "Drill",
+	"size": 5,
+	"tier": 6,
+	"updateEffect": "pulverizeRed",
+	"drillTime": 1,
+	"itemCapacity": 100,
+	"drawRim": true,
+	"drawMineItem": false,
+	"canOverdrive": false
+	"consumes": {
+		"power": 4,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.2,
+			"optional": false,
+			"booster": false
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 120 },
+		{ "item": "phase-decay", "amount": 30 },
+		{ "item": "graphite", "amount": 90 }
+	],
+	"category": "production",
+	"research": "airblast-drill"
+}

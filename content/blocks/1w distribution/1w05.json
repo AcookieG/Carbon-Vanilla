@@ -1,0 +1,14 @@
+{
+	"type": "Unloader",
+	"name": "Unloader",
+	"description": "Capped at 60fps.",
+	"health": 60,
+	"requirements": [
+		{"item": "sili", "amount": 20},
+		{"item": "slate", "amount": 20},
+	],
+	"speed": 0,
+	"category": "distribution",
+	"research": "1w04"
+	"squareSprite": false,
+}

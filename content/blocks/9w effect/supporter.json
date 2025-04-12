@@ -1,0 +1,21 @@
+{
+	"name": "Suporter",
+	"type": "BuildTurret",
+	"health": 250,
+	"size": 2,
+	"range": 200,
+	"rotateSpeed": 2,
+	"buildSpeed": 0.5
+	"targetInterval": 15
+	"requirements": [
+		{ "item": "titanium", "amount": 450 },
+		{ "item": "graphite", "amount": 520 },
+		{ "item": "surge-alloy", "amount": 90 }
+	],
+	"consumes": {
+		"power": 20
+		"liquid": "slag/3"
+	},
+	"category": "effect",
+	"research": "ripple"
+}

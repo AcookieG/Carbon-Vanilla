@@ -1,0 +1,79 @@
+{
+	"type": "HeaterGenerator",
+	"health": 350,
+	"name": "Heat Charger"
+	"description": 
+'''
+A building that has the task of transforming Supercritical Goop into actual heat.
+The most powerfull power source when running at full speed, similar to an Impact reactor, except on a much larger scale.
+Highly explosive.
+Conducts power.
+[red]Produces up to 9000 power/second.[]
+'''
+	"size": 2,
+	"lightColor": "FB9957FF",
+	"liquidCapacity": 20,
+	"baseExplosiveness": 1,
+	"explosionRadius": 80,
+	"explosionDamage": 40,
+	"hasLiquids": true,
+	"hasItems": false,
+	"powerProduction": 50,
+	"heatOutput": 24
+	"warmupSpeed": 0.7,
+	"itemDuration": 1,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan1"
+				"spinSprite": true
+				"rotateSpeed": 35
+				"rotation": 0
+			},
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+		]
+	},
+	"consumes": {
+                "liquid": {
+			"liquid": "liquidheat",
+			"amount": 0.2
+		},
+	},
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 130
+		},
+		{
+			"item": "thorium",
+			"amount": 75
+		},
+		{
+			"item": "silicon",
+			"amount": 150
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 120
+		},
+	],
+	"category": "power",
+	"conductivePower": true
+	"rotate": true
+	"loopSound": "pulse",
+	"loopSoundVolume": 1.0,
+	"research": "pq01-heated",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 1,
+}

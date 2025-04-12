@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Sand",
+	"cost": 0.5,
+	"flammability": 0.0,
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"charge": 0.0
+	"color": "f7cba4"
+	research: scrp
+}

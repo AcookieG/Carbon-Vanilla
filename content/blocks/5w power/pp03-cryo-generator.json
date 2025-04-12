@@ -1,0 +1,66 @@
+{
+	"type": "ImpactReactor",
+	"health": 135,
+	"name": "Cryo Generator"
+	"description": "A small but efficient generator, requires hydrogen.",
+	"size": 2,
+	"lightColor": "FB9957FF",
+	"baseExplosiveness": 0,
+	"explosionRadius": 1,
+	"explosionDamage": 0,
+	"liquidCapacity": 20
+	"hasLiquids": true,
+	"hasItems": false,
+	"powerProduction": 10,
+	"warmupSpeed": 0.05,
+	"itemDuration": 360,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "hydrogen",
+			},
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawGlowRegion"
+				"suffix": "-heat"
+				"glowScale": 3,
+				"glowIntensity": 0.5
+				"alpha": 0.9
+			},
+		]
+	},
+	"consumes": {
+		"power": 0,
+		"liquids": [
+			"hydrogen/0.1"
+		]
+	},
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 50
+		},
+		{
+			"item": "copper",
+			"amount": 75
+		},
+		{
+			"item": "silicon",
+			"amount": 50
+		},
+	],
+	"category": "power",
+	"loopSound": "pulse",
+	"loopSoundVolume": 1.0,
+	"research": "steam-generator",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.85,
+}

@@ -1,0 +1,63 @@
+{
+	"name": "Cobble Breaker",
+	"description": "Crushes raw Slate and extracts Coal. Requires Pressure.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 130,
+	"liquidCapacity": 10,
+	"itemCapacity": 10,
+	"hasLiquids": true,
+	"hasPower": false,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "pulverizeMedium",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "slate", "amount": 2}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "slate", "amount": 30 },
+		{ "item": "graph", "amount": 30 },
+		{ "item": "sadn", "amount": 80 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "pressure",
+				"padding": 2,
+			},
+			{
+				"type": "DrawRegion",
+				"spinSprite": true,
+				"rotateSpeed": 3,
+				"suffix": "-spinner",
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"category": "crafting",
+	"rotate": false
+research: 7w01
+	"idleSound": "machine",
+	"idleSoundVolume": 0.03,
+	"outputLiquids": [
+		{ "liquid": "i", "amount": 0.05 },
+	],
+	"outputItems": [
+		{ "item": "anthracite", "amount": 3 },
+	],
+	"craftTime": 60,
+	"squareSprite": false,
+	"conductivePower": false
+}

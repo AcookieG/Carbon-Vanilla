@@ -1,0 +1,20 @@
+{
+	"type": "Liquid",
+	"moveThroughBlocks": false,
+	"canStayOn": [],
+	"incinerable": true,
+	"name": "Hydrogen",
+	"coolant": false,
+	"color": "d1e4ff",
+	"colorFrom": "97a5f7",
+	"colorTo": "d1e4ff",
+	"gasColor": "d1e4ff"
+	"blockReactive": true,
+	"viscosity": 0.3,
+	"heatCapacity": 0,
+	"explosiveness": 1.0,
+	"temperature": 0.5,
+	"flammability": 1.0,
+	"research": "wtr",
+	"gas": true,
+}

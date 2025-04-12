@@ -1,0 +1,305 @@
+{
+type: missile,
+controller: MissileAI,
+template: MissileUnitType ,
+lowAltitude: false,
+speed: 10,
+rotateSpeed: 0.3,
+lifetime: 3000,
+physics: false,
+flying: true,
+hidden: false,
+health: 2500,
+hitSize: 12,
+engineLayer: 110,
+trailColor: 00d0ff,
+missileAccelTime: 120,
+engineOffset: 20,
+engineSize: 2.6,
+drawCell: false,
+engineColor: 00d0ff,
+outlineColor: 00000000,
+maxRange: 100,
+trailLength: 1.2,
+range: 100,
+shootOnDeath: true,
+
+weapons: [{
+	shootOnDeath: true,
+	controllable: true,
+	shootSound: explosionBig,
+	shootCone: 90,
+	mirror: false,
+	rotateSpeed: 36,
+    
+	bullet: {
+		type: BasicBulletType,
+		killShooter: true,
+		instantDisappear: true,
+		hitSound: explosionBig,
+		hitSoundVolume: 30,
+		damage: 0,
+		lifeTime: 30,
+		speed: 32,
+		width: 20,
+		height: 20,
+		collidesAir: false,
+		collidesGround: false,
+		collidesTiles: false,
+		hittable: false,
+		reflectable: false,
+		absorbable: false,
+		despawnShake: 60,
+		shootEffect: none,
+		keepVelocity: false,
+		lightning: 400,
+		lightningDamage: 600,
+		lightningCone: 360,
+		lightningLengthRand: 17,
+		lightningLength: 10,
+		despawnEffect: {
+            type: multiEffect
+            effects: [{
+			type: ParticleEffect
+			particles: 1
+			length: 0
+			lifetime: 180
+			interp: circleOut
+			cone: 360
+			sizeFrom: 8000
+			sizeTo: 8000
+			colorFrom: ffffffaa
+			colorTo: ffffff11
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 1000
+			waveRad: 4000
+			waveLife: 1000
+			waveStroke: 300
+			smokeColor: ffffa3ff
+			smokeSize: 80
+			smokes: 100
+			smokeRad: 200
+			sparks: 50
+			sparkRad: 500
+			sparkStroke: 10
+			sparkLen: 15
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 500
+			waveRad: 600
+			waveLife: 300
+			waveStroke: 3
+			smokeColor: ffffff88
+			smokeSize: 100
+			smokes: 80
+			smokeRad: 220
+			sparks: 50
+			sparkRad: 500
+			sparkStroke: 10
+			sparkLen: 15
+			sparkColor: ffffa3ff
+			waveColor: ffffffff
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 3600
+			waveRad: 600
+			waveLife: 300
+			waveStroke: 200
+			smokeSize: 80
+			smokeColor: 111111ee
+			smokes: 20
+			smokeRad: 100
+			sparks: 0
+			waveColor: ffffffff
+			}
+			{
+			type: ParticleEffect
+			particles: 1
+			length: 0
+			lifetime: 180
+			interp: circleOut
+			cone: 360
+			sizeFrom: 8000
+			sizeTo: 8000
+			colorFrom: ffffffff
+			colorTo: 00000000
+		}]}
+        
+        fragVelocityMin: -0.1,
+        fragVelocityMax: 15,
+        fragLifeMin: 100
+        fragLifeMax: 240
+        fragBullets: 40
+		fragBullet: {
+      		type: BasicBulletType,
+            hitSound: explosionBig,
+            damage: 10000,
+            lifetime: 1
+            speed: 1
+            width: 1.01,
+            height: 1.01,
+            hittable: false,
+            reflectable: false,
+            absorbable: true,
+            despawnShake: 5,
+            shootEffect: none,
+            keepVelocity: false,
+            despawnEffect: none,
+            collidesAir: false,
+			collidesGround: false,
+			collidesTiles: false,
+            shrinkY: 30,
+            shrinkX: 30,
+            drag: 0.02,
+            drawSize: 1.01,
+            sprite: large-bomb,
+            spin: 1,
+            splashDamagePierce: false,
+            splashDamage: 0,
+            splashDamageRadius: 0
+            parts: [{
+                type: HoverPart,
+                x: 0,
+                y: 0,
+                mirror: false,
+                radius: 18,
+                phase: 80,
+                stroke: 8,
+                layerOffset: -0.001,
+                color: 00d0ff,
+                sides: 4,
+            }]
+            
+            fragVelocityMin: 4,
+            fragVelocityMax: 7,
+            fragLifeMin: 140
+            fragLifeMax: 500
+            fragBullets: 5
+            fragBullet: {
+                type: EmpBulletType,
+                hitSound: explosionBig,
+                damage: 10000,
+                lifetime: 1
+                speed: 1
+                width: 20,
+                height: 20,
+                hittable: true,
+                reflectable: true,
+                absorbable: true,
+                despawnShake: 5,
+                shootEffect: none,
+                keepVelocity: true,
+                despawnEffect: scatheExplosion,
+                collidesAir: false,
+                collidesGround: false,
+                collidesTiles: false,
+                splashDamage: 100,
+                drag: 0.04,
+                splashDamageRadius: 40
+                createChance: 0.9,
+                shrinkY: 0.5,
+                shrinkX: 0.5,
+                drawSize: 150,
+                sprite: large-bomb,
+                spin: 3,
+                parts: [{
+                    type: HoverPart,
+                    x: 0,
+                    y: 0,
+                    mirror: false,
+                    radius: 15,
+                    phase: 40,
+                    stroke: 4,
+                    layerOffset: -0.001,
+                    color: 00d0ff,
+                    sides: 4,
+            }]
+            
+                fragBullets: 10
+                fragBullet: {
+                    type: BasicBulletType,
+                    damage: 50,
+                    instantDisapear: false,
+                    velMin: -1.2,
+                    velMax: 23.5,
+										drag: 0.01,
+                    lifetime: 1000,
+                    hittable: false,
+                    reflectable: false,
+                    absorbable: true,
+                    width: 1,
+                    height: 1,
+                    keepVelocity: false,
+                    status: carbon-vanilla-helios-effect,
+        }}}
+        
+		intervalBullets: 1,
+		intervalSpread: 1,
+		bulletInterval: 1,
+		intervalBullet: {
+            type: BasicBulletType,
+            hitSound: explosionBig,
+            damage: 0,
+            lifetime: 90
+            speed: 0
+            width: 80,
+            height: 80,
+            hittable: false,
+            reflectable: false,
+            absorbable: false,
+            despawnShake: 5,
+            shootEffect: none,
+            keepVelocity: false,
+            despawnEffect: none,
+            collidesAir: false,
+            collidesGround: false,
+            collidesTiles: false,
+            shrinkY: 0.6,
+            shrinkX: 0.6,
+            drawSize: 200,
+            sprite: large-bomb,
+            spin: 9,
+                
+                fragBullets: 2000
+                fragBullet: {
+      		type: FireBulletType,
+			colorFrom: 00000010,
+			colorMid: 00000010,
+			colorTo: 00000010,
+			damage: 600,
+			instantDisapear: false,
+			velMin: 0,
+			velMax: 10,
+			lifetime: 2000,
+			despawnEffect: none,
+			collidesAir: true,
+			collidesGround: true,
+			collidesTiles: true,
+			hittable: false,
+			reflectable: false,
+			absorbable: true,
+			width: 180,
+			height: 180,
+			keepVelocity: false,
+            status: carbon-vanilla-helios-effect,
+        }}
+    }}]
+
+    parts: [
+        {
+        type: HoverPart,
+        x: 0,
+        y: 0,
+        mirror: false,
+        radius: 60,
+        phase: 120,
+        stroke: 12,
+        layerOffset: -0.001,
+        color: 00d0ff,
+        sides: 6,
+    }
+]}

@@ -1,0 +1,12 @@
+type: Floor
+name: Shallow Crystal Water
+speedMultiplier: 0.7
+variants: 4
+statusDuration: 10
+liquidDrop: wtr
+isLiquid: true
+cacheLayer: water
+liquidMultiplier: 1.0
+albedo: 0.9
+supportsOverlay: true
+shallow: true

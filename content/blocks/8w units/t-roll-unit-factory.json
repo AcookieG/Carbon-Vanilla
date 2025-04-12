@@ -1,0 +1,45 @@
+{
+	"name": "Unit Factory",
+	"description": "idk man im tired. But hey this is a tank factory!",
+	"type": "UnitFactory"
+	"size": 3,
+	"itemCapacity": 30,
+	"maxSpawn": 4,
+	"consumes": {
+		"power": 1.2,
+	},
+	"plans": [
+		{
+			"unit": "w1-roll",
+			"time": 840
+			"requirements": [
+				{ "item": "silicon", "amount": 20 },
+				{ "item": "titanium", "amount": 20 },
+			]
+		},
+		{
+			"unit": "cargo1",
+			"time": 840
+			"requirements": [
+				{ "item": "silicon", "amount": 40 },
+				{ "item": "graphite", "amount": 200 },
+			]
+		},
+		{
+			"unit": "stick",
+			"time": 8400
+			"requirements": [
+				{ "item": "silicon", "amount": 4000 },
+				{ "item": "copper", "amount": 4000 },
+			]
+		},
+	]
+	"category": "units",
+	"research": "ground-factory",
+	"unitType": "ErekirUnitType"
+	"requirements": [
+		{ "item": "lead", "amount": 120 },
+		{ "item": "graphite", "amount": 90 },
+		{ "item": "silicon", "amount": 50 },
+	]
+}

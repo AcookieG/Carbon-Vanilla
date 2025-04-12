@@ -1,0 +1,121 @@
+{
+	"name": "Rafale",
+	"description": "Chat you cant kill my manager. A smaller cousin of Cyclone.",
+	"type": "ItemTurret",
+	"health": 570,
+	"size": 2,
+	"reload": 8,
+	"shake": 0.5,
+	"range": 260,
+	"ammoUseEffect": "casing2Double",
+	"shootSound": "shoot",
+	"restitution": 0.05,
+	"shootCone": 15,
+	"hasLiquids": true,
+	"inaccuracy": 7,
+	"targetGround": false
+	"shoot": {
+		"type": "ShootMulti",
+		"source": {
+			"type": "ShootBarrel"
+			"barrels": [
+			2.5, 1, 0,
+			-2.5, 1, 0
+			]
+		},
+		"dest": [
+			{
+			"type": "ShootPattern",
+			"shots": 1
+			}
+		]
+	},
+	"ammoTypes": {
+		"lead": {
+			"type": "BasicBulletType",
+			"drawsize": 40,
+			"collidesAir": true
+			"collidesGround": false
+			"collidesTiles": false
+			"damage": 48,
+			"ammoMultiplier": 4,
+			"width": 6,
+			"height": 9,
+			"lifetime": 32,
+			"bulletShrink": 0,
+			"shootEffect": "none",
+			"speed": 8,
+			"hitEffect": "explosion"
+			"homingPower": 0.02,
+			"homingRange": 30,
+		},
+		"metaglass": {
+			"type": "FlakBulletType",
+			"explodeRange": 12
+			"drawsize": 40,
+			"collidesAir": true
+			"collidesGround": false
+			"collidesTiles": false
+			"damage": 6,
+			"ammoMultiplier": 6,
+			"width": 6,
+			"height": 9,
+			"lifetime": 32,
+			"bulletShrink": 0,
+			"shootEffect": "none",
+			"speed": 8,
+			"homingPower": 0.02,
+			"homingRange": 30,
+			"fragBullets": 2,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"damage": 32,
+				"fragVelocityMin": 0.3,
+				"fragVelocityMax": 1.2,
+				"lifetime": 5,
+				"collideGround": false
+				"hitEffect": "explosion"
+			},
+		},
+		"plastanium": {
+			"type": "FlakBulletType",
+			"explodeRange": 12
+			"drawsize": 40,
+			"collidesAir": true
+			"collidesGround": false
+			"collidesTiles": false
+			"damage": 10,
+			"ammoMultiplier": 3,
+			"width": 6,
+			"height": 9,
+			"reloadMultiplier": 0.9,
+			"lifetime": 32,
+			"bulletShrink": 0,
+			"shootEffect": "none",
+			"speed": 8,
+			"fragBullets": 5,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"damage": 34,
+				"fragVelocityMin": 0.5,
+				"fragVelocityMax": 1.9,
+				"lifetime": 8,
+				"collideGround": false
+				"hitEffect": "explosion"
+			},
+		},
+	},
+	"consumes": {
+		"coolant": {
+		"amount": 0.1
+		}
+	},
+	"coolantMultiplier": 8
+	"requirements": [
+		{ "item": "copper", "amount": 60 },
+		{ "item": "graphite", "amount": 75 },
+		{ "item": "titanium", "amount": 60 },
+	],
+	"category": "turret",
+	"research": "scatter"
+}

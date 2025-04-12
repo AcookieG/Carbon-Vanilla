@@ -1,0 +1,24 @@
+{
+	"name": "Liquid Tank",
+	"type": "LiquidRouter"
+	"requirements": [
+			{"item": "graph", "amount": 50},
+			{"item": "sadn", "amount": 70},
+		  {"item": "iron", "amount": 20},
+	]
+	"liquidCapacity": 300
+	"size": 2
+research: {
+  parent: 4w05
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"health": 200
+	"category": "liquid"
+	"squareSprite": false,
+	"liquidPadding": 4
+}

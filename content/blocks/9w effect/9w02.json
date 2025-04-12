@@ -1,0 +1,21 @@
+{
+	"type": "CoreBlock",
+	"name": "Anchor"
+	"size": 3,
+	"itemCapacity": 4000,
+	"hasItems": true,
+	"health": 900,
+	"isFirstTier": false
+	"requirements": [
+		{"item": "sili", "amount": 800},
+		{"item": "graph", "amount": 1200},
+		{"item": "dense", "amount": 200}
+	]
+	"research": "9w01",
+	"category": "effect",
+	"unitType": "11w01b"
+	"squareSprite": false,
+	"unitCapModifier": 12
+	"researchCostMultiplier": 0.1
+	"fogRadius": 9,
+}

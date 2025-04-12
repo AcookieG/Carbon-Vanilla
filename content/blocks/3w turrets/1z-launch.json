@@ -1,0 +1,105 @@
+{
+	"type": "MassDriver",
+	"name": "Accelerator Pad"
+	"description": "Launches large batches of items accross sectors or asteroids, but be weary of the extreme reload.",
+	"details": "Use unloaders for higher efficency"
+	"health": 3290,
+	"squareSprite": false,
+	"size": 5,
+	"itemCapacity": 4000,
+	"range": 3000,
+	"bulletLifetime": 600
+	"drawTeamOverlay": true
+	"shootEffect": {
+		"type": "multiEffect",
+		"effects": [
+			{
+				"type": "ParticleEffect",
+				"particles": 32,
+				"length": 72,
+				"lifetime": 180,
+				"interp": "circleOut",
+				"cone": 180,
+				"sizeFrom": 12,
+				"sizeTo": 5,
+				"colorFrom": "bbbbbbff",
+				"colorTo": "00000000"
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 9,
+				"length": 90,
+				"lifetime": 210,
+				"interp": "circleOut",
+				"cone": 180,
+				"sizeFrom": 15,
+				"sizeTo": 7,
+				"colorFrom": "bbbbbbff",
+				"colorTo": "00000055"
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 13,
+				"length": 90,
+				"lifetime": 90,
+				"interp": "circleOut",
+				"cone": 12,
+				"sizeFrom": 10,
+				"sizeTo": 2,
+				"colorFrom": "7b7b7bee",
+				"colorTo": "77777700"
+			},
+		]
+	}
+	"receiveEffect": {
+			"type": "multiEffect",
+			"effects": [
+			{
+				"type": "ParticleEffect",
+				"particles": 9,
+				"length": 80,
+				"lifetime": 200,
+				"interp": "circleOut",
+				"cone": 180,
+				"sizeFrom": 16,
+				"sizeTo": 7,
+				"colorFrom": "bbbbbbff",
+				"colorTo": "00000022"
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 12,
+				"length": 90,
+				"lifetime": 150,
+				"interp": "circleOut",
+				"cone": 20,
+				"sizeFrom": 10,
+				"sizeTo": 3,
+				"colorFrom": "cbcbcbff",
+				"colorTo": "00000022"
+				"baseRotation": 180
+			},
+		]
+	}
+	"bulletSpeed": 9
+	"rotateSpeed": 1,
+	"reload": 2400,
+	"shake": 25,
+	"minDistribute": 500
+	"hasPower": true,
+	"shootSound": "explosionBig"
+	"consumes": {
+		"power": 12,
+	},
+	"knockback": 0,
+	"requirements": [
+		"surge-alloy/450",
+		"silicon/450",
+		"copper/1500"
+		"titanium/1500"
+		"thorium/1000"
+	],
+	"research": "launch-pad",
+	"category": "effect"
+	"dumpTime": 2
+}

@@ -1,0 +1,86 @@
+{
+	"name": "Hydrolisis Chamber",
+	"description": "Explodes Water.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 200,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"updateEffect": none
+	"craftEffect": {
+			type: ExplosionEffect
+			lifetime: 30
+			waveRad: 0
+			waveLife: 1
+			waveStroke: 0
+			smokeColor: ffffff00
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 4
+			sparkRad: 20
+			sparkStroke: 3
+			sparkLen: 5.2
+			sparkColor: ffffffff
+			waveColor: ffffff00
+		}
+	"liquidCapacity": 30,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "O",
+				"padding": 2,
+				"padLeft": 8,
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "H",
+				"padding": 2,
+				"padRight": 8,
+			},
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawGlowRegion",
+				"color": d1efff
+			},
+		]
+	},
+	"consumes": {
+		"power": 10,
+    "liquids":  [
+		{"liquid": "wtr", "amount": 0.3},
+		]
+	},
+	"requirements": [
+		{ "item": "graph", "amount": 80 },
+		{ "item": "iron", "amount": 60 },
+		{ "item": "sadn", "amount": 120 },
+		{ "item": "dense", "amount": 30 },
+	],
+	"category": "crafting",
+research: {
+  parent: 7w05
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"idleSound": "electricHum",
+	"idleSoundVolume": 0.08,
+	"outputLiquids": [{"liquid": "H", "amount": 0.2},{"liquid": "O", "amount": 0.1},]
+	"craftTime": 40,
+	"squareSprite": false,
+	"conductivePower": true
+	liquidOutputDirections: [2,4,]
+}

@@ -1,0 +1,21 @@
+{
+	"type": "MassDriver",
+	"name": "Micro Driver"
+	"description": "Transports small apounts of items through small mountains. Like bridges, but any degree. Requires no power.",
+	"health": 50,
+	"size": 1,
+	"itemCapacity": 20,
+	"range": 60,
+	"rotateSpeed": 18,
+	"reloadTime": 60,
+	"shake": 0.5,
+	"hasPower": false,
+	"knockback": 0.5,
+	"requirements": [
+		"copper/28",
+		"silicon/12",
+		"lead/20"
+	],
+	"research": "titanium-conveyor",
+	"category": "distribution"
+}

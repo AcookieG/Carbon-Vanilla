@@ -1,0 +1,13 @@
+{
+	"name": "Dense Wall",
+	"description": "The larger standard wall. Strong armor.",
+	"type": "Wall",
+	"health": 3240,
+	"size": 2,
+	"requirements": [
+		{ "item": "dense", "amount": 24 }
+	],
+	"armor": 11,
+	"category": "defense",
+	"research": "6w05",
+}

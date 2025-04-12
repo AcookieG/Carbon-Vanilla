@@ -1,0 +1,54 @@
+{
+	"name": "Anthracite Burner",
+	"description": 
+'''
+Burns Anthracite to produce heat and power. Cleaner than those Oil Burners...
+'''
+	"type": "HeaterGenerator"
+	"size": 2,
+	"health": 80,
+	"hasLiquids": false,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"powerProduction": 1.2,
+	"requirements": [
+		{ "item": "graph", "amount": 80 },
+		{ "item": "iron", "amount": 40 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+		]
+	},
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "anthracite", "amount": 1}
+			]
+		},
+	},
+	"category": "power",
+	"conductivePower": true
+	"rotate": true
+	"loopSound": "hum",
+	"loopSoundVolume": 0.1,
+research: {
+  parent: 5w04b
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"itemDuration": 30,
+	"squareSprite": false,
+	"heatOutput": 12,
+}

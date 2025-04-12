@@ -1,0 +1,17 @@
+{
+  "type": "StackConveyor",
+  "name": "Mass Production Conveyor"
+  "description": "Quickly transports items forward in large batches.",
+  "loadEffect": "none"
+  "unloadEffect": "none"
+  "health": 160,
+  "speed": 0.25,
+  "itemCapacity": 45,
+  "outputRouter": true,
+  "requirements": [
+    "silicon/4",
+    "phase-decay/4"
+  ],
+  "research": "plastanium-conveyor",
+  "category": "distribution"
+}

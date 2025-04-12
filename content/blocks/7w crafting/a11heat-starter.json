@@ -1,0 +1,98 @@
+{
+	"name": "Superheater",
+	"description": "Heats Goop until it is fit for particle accelerators of various scale.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 230,
+	"liquidCapacity": 20,
+	"baseExplosiveness": 100,
+	"explosionRadius": 40,
+	"explosionDamage": 160,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "steam",
+	"craftEffect": none,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "hydrogen",
+				"padding": 2
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "liquidheat",
+				"padding": 2
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-fan"
+				"spinSprite": true
+				"rotateSpeed": -8
+				"rotation": 0
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"power": 60,
+		"liquids": [
+			{
+			"liquid": "hydrogen", 
+			"amount": 1,
+			}
+			{
+			"liquid": "oil", 
+			"amount": 1,
+			}
+		]
+		"items": {
+			"items": [
+				{
+				"item": "plastanium",
+				"amount": 1,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 330
+		},
+		{
+			"item": "thorium",
+			"amount": 245
+		},
+		{
+			"item": "silicon",
+			"amount": 200
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 120
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 90
+		},
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "a09hydrogen-separator",
+	"idleSound": "hum",
+	"idleSoundVolume": 1,
+	"outputLiquid": {
+		"liquid": "liquidheat",
+		"amount": 0.02
+	},
+	"craftTime": 30,
+}

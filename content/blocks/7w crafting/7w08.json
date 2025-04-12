@@ -1,0 +1,83 @@
+{
+	"name": "Combustion Blower",
+	"description": "Uses freshly-mined Canolla and presses it into Metarkle Ingots.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 275,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": {
+		"type": "RadialEffect",
+		"effect": shootBigSmoke,
+		"rotationSpacing": 180,
+		"amount": 2,
+	},
+	"liquidCapacity": 10,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "H",
+				"alpha": 1,
+				"padding": 3,
+			},
+			{
+        "type": "DrawMultiWeave",
+				"rotateSpeed": 0.7,
+				"rotateSpeed2": -0.7,
+      },
+			{
+        "type": "DrawMultiWeave",
+				"rotateSpeed": 0.7,
+				"rotateSpeed2": -0.7,
+      },
+			{
+        "type": "DrawArcSmelt",
+				"alpha": 1,
+				"particles": 32,
+				"circleSpace": 3.2,
+				"particleLife": 25
+      },
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawGlowRegion",
+			},
+		]
+	},
+	"consumes": {
+		"power": 1.2,
+    "liquids":  [
+		{"liquid": "H", "amount": 0.6},
+		]
+		"items": {
+			"items": [
+				{"item": "canolla", "amount": 4}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "circuit", "amount": 40 },
+		{ "item": "flex-joint", "amount": 70 },
+		{ "item": "graph", "amount": 80 },
+		{ "item": "dense", "amount": 40 },
+	],
+	"outputItems": [
+		{ "item": "metarkle", "amount": 2 },
+	],
+	"category": "crafting",
+	"research": "7w07",
+	"idleSound": "hum",
+	"idleSoundVolume": 0.12,
+	"craftTime": 120,
+	"squareSprite": false,
+	"conductivePower": true
+}

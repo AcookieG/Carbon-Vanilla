@@ -1,0 +1,229 @@
+{
+	"name": "Helios",
+	"description": "A large turret mounted with a gigantic flamethrower.",
+	"type": "ItemTurret",
+	"health": 5300,
+	"size": 5,
+	"reload": 1,
+	"shake": 1,
+	"recoil": 2,
+	"range": 276,
+	"ammoUseEffect": "none",
+	"shootSound": "flame",
+	"restitution": 0.005,
+	"cooldownTime": 50,
+	"shootCone": 15,
+	"rotateSpeed": 1.2,
+	"hasPower": true
+	"shootY": 28
+	"shoot": {
+		"type": "shootSpread",
+		"shots": 4,
+		"spread": 9,
+	},
+	"consumes": {
+		"power": 10
+		"liquid": "liquidheat/0.25"
+	},
+	"inaccuracy": 12,
+	"squareSprite": false,
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-",
+	"parts": [
+		{
+			"type": "RegionPart",
+			"suffix": "-body",
+			"moveY": 9.5,
+			"moveX": 3,
+			"moveRot": 0,
+			"mirror": true,
+			"progress": "warmup"
+		},
+		{
+			"type": "RegionPart",
+			"colorTo": "ffcd66",
+			"color": "ffcd6600",
+			"blending": "additive",
+			"progress": {
+				"type": "warmup",
+				"op": "blend",
+				"other": "heat",
+				"amount": 0.25
+				},
+			"outline": false,
+			"suffix": "-glow"
+			"mirror": true
+			"moveRot": 0,
+			"moveY": 9.5,
+			"moveX": 3,
+		},
+		{
+			"type": "RegionPart",
+			"colorTo": "ffcd66",
+			"color": "ffcd6600",
+			"blending": "additive",
+			"progress": {
+				"type": "warmup",
+				"op": "blend",
+				"other": "heat",
+				"amount": 0.25
+				},
+			"outline": false,
+			"suffix": "-glow"
+			"mirror": false
+			"moveRot": 0,
+			"moveX": 0,
+		},
+		{
+			"type": "shapePart",
+			"y": 28,
+			"hollow": true,
+			"circle": true,
+			"layer": 110,
+			"color": "ffcd66",
+			"stroke": 0,
+			"strokeTo": 1.1,
+			"radiusTo": 5,
+			"radius": 5
+		},
+		{
+			"type": "shapePart",
+			"y": 28,
+			"hollow": true,
+			"circle": true,
+			"layer": 110,
+			"color": "ffcd66",
+			"stroke": 0,
+			"strokeTo": 1.9,
+			"radiusTo": 9,
+			"radius": 9
+		},
+{
+"type": "shapePart",
+"y": 28,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffcd66",
+"stroke": 0,
+"strokeTo": 1.1,
+"radiusTo": 5,
+"radius": 5
+},
+{
+"type": "HaloPart",
+"y": 28,
+"radius": 3,
+"tri": true,
+"layer": 110,
+"haloRotation": 90,
+"shapeRotation": 180,
+"color": "ffcd66",
+"haloRadius": 12,
+"haloRadiusTo": 12,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 2,
+"triLengthTo": 3,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": 28,
+"radius": 3,
+"tri": true,
+"layer": 110,
+"haloRotation": 90,
+"color": "ffcd66",
+"haloRadius": 12,
+"haloRadiusTo": 12,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 2,
+"triLengthTo": 13,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": 28,
+"radius": 3.5,
+"tri": true,
+"layer": 110,
+"color": "ffcd66",
+"haloRotateSpeed": 1.7,
+"haloRadius": 9,
+"haloRadiusTo": 9,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 6,
+"triLengthTo": 5,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": 4,
+"radius": 4,
+"tri": true,
+"layer": 110,
+"haloRotation": 180,
+"color": "ffcd66",
+"haloRadius": 12,
+"haloRadiusTo": 12,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 1,
+"triLengthTo": 18,
+"triLength": 0
+},
+	]
+	},
+	"ammoPerShot": 1,
+	"ammoTypes": {
+		"blast-compound": {
+			"type": "FireBulletType",
+			"colorFrom": "ffffa3ff",
+			"colorMid": "ffcd66ff",
+			"colorTo": "e28654ff",
+			"damage": 0,
+			"width": 20,
+			"height": 20,
+			"status": "carbon-vanilla-helios-effect",
+			"statusDuration": 360000
+			"lifetime": 60
+			"incendAmount": 1,
+			"incendSpread": 10,
+			"incendChance": 2,
+			"velMin": 2.1
+			"velMax": 10
+			"hitGround": true
+			"hitAir": true
+			"drawSize": 250
+			"intervalBullets": 2,
+			"intervalRandomSpread": 10,
+			"bulletInterval": 6,
+			"intervalBullet": {
+"type": "BasicBulletType",
+"despawnHit": true,
+"damage": 25,
+"status": "carbon-vanilla-helios-effect",
+"statusDuration": 360000
+"instantDisapear": true
+"velMin": 2.1
+"velMax": 10
+"lifetime": 60
+"hitAir": true
+"hitground": true
+			}
+		}
+	}
+	"requirements": [
+		{ "item": "copper", "amount": 1200 },
+		{ "item": "titanium", "amount": 750 },
+		{ "item": "phase-decay", "amount": 300 },
+		{ "item": "surge-alloy", "amount": 480 },
+		{ "item": "blast-compound", "amount": 560 }
+	],
+	"category": "turret",
+	"research": "1-crow"
+}

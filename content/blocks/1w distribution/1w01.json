@@ -1,0 +1,13 @@
+{
+	"type": "Duct",
+	"name": "Basic Duct",
+	"description": "the most basic transport system."
+	"health": 40,
+	"requirements": [
+		{"item": "scrp", "amount": 1},
+	],
+	"category": "distribution",
+	"speed": 5,
+	"research": "9w01"
+	bridgeReplacement: 1w03
+}

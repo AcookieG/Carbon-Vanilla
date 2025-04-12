@@ -1,0 +1,65 @@
+{
+	"name": "Filter",
+	"description": "Filters through Scrap and Water.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 110,
+	"itemCapacity": 10,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "smeltsmoke",
+	"craftEffect": "none",
+	"liquidCapacity": 20,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "wtr",
+				"padding": 2
+			},
+			{
+				"type": "DrawRegion"
+				"suffix": "-spinner"
+				"spinSprite": true
+				"rotateSpeed": 3
+				"rotation": 0
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"power": 0.8,
+		"items": {
+			"items": [
+				{"item": "scrp", "amount": 3}
+			]
+		},
+    "liquid":  {"liquid": "wtr", "amount": 0.2},
+	},
+	"requirements": [
+		{ "item": "sili", "amount": 30 },
+		{ "item": "slate", "amount": 40 },
+		{ "item": "sadn", "amount": 80 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "7w01",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.08,
+	"outputLiquid": {"liquid": "i", "amount": 0.1},
+	"outputItems": [
+		{ "item": "slate", "amount": 1 },
+		{ "item": "iron", "amount": 2 },
+	],
+	"craftTime": 120,
+	"squareSprite": false,
+		"conductivePower": true
+}

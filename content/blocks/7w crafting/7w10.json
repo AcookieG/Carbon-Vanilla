@@ -1,0 +1,58 @@
+{
+	"name": "Carbon Fiber Weaver",
+	"description": "Slowly produces super strong Carbon Fibers from Graphite sheets in a pure Oxygen environment.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 180,
+	"itemCapacity": 10,
+	"liquidCapacity": 10,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "smeltsmoke",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawWeave"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+	"consumes": {
+		"power": 0.5,
+		"liquids":  [
+		{"liquid": "O", "amount": 0.1},
+		]
+		"items": {
+			"items": [
+	{ "item": "graph", "amount": 2 },
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "dense", "amount": 20 },
+		{ "item": "graph", "amount": 70 },
+		{ "item": "coppa", "amount": 30 },
+		{ "item": "sadn", "amount": 100 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "7w01",
+	"idleSound": "techloop",
+	"idleSoundVolume": 0.04,
+	"outputItem": {
+		"item": "carbon-fiber",
+		"amount": 2
+	},
+	"craftTime": 48,
+	"squareSprite": false,
+		"conductivePower": true
+}

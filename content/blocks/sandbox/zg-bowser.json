@@ -1,0 +1,17 @@
+{
+	"name": "GAME",
+	"description": "tu tum tu tum tum tum tu tu tu tu.",
+"sandboxOnly": true,
+	"type": "OverdriveProjector",
+	"health": 75000000,
+	"size": 2,
+	"range": 300,
+	"hasPower": false
+	"speedBoost": 100,
+	"requirements": [
+		{ "item": "sadn", "amount": 1 },
+	],
+	"category": "logic",
+	"research": "overdrive-projector"
+	"BuildVisibility": "sandboxOnly"
+}

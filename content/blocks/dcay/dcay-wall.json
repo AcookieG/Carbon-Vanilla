@@ -1,0 +1,17 @@
+{
+	"name": "Phase Decay Wall",
+	"description": "An extremely strong wall, made from a durable material. Deflects bullets.",
+	"type": "Wall",
+	"health": 2820,
+	"size": 1,
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 2 },
+		{ "item": "silicon", "amount": 2 },
+		{ "item": "phase-decay", "amount": 30 }
+	],
+	"category": "defense",
+	"research": "surge-wall"
+	"chanceDeflect": 12
+	"flashHit": true
+	"absorbLasers": true
+}

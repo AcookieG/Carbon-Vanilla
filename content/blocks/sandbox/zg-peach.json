@@ -1,0 +1,18 @@
+{
+	"name": "HILL",
+	"description": "The absolute best Mender. If the absolute power of this beast doesn't make you happy, nothing will.",
+	"type": "MendProjector",
+	"health": 999999999,
+	"size": 2,
+	"hasPower": false
+"sandboxOnly": true,
+	"range": 400,
+	"reload": 1,
+	"useTime": 100,
+	"healPercent": 100,
+	"requirements": [
+		{ "item": "sadn", "amount": 1 },
+	],
+	"category": "logic",
+	"research": "mend-projector"
+}

@@ -1,0 +1,38 @@
+{
+	"name": "Heat Wire",
+	"description": "A small block to transport heat efficiently over long distances. Conducts power.",
+	"type": "HeatConductor",
+	"health": 20,
+	"size": 1,
+	"drawer": {
+	"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-"
+			},
+			{
+				"type": "DrawHeatOutput"
+				"drawGlow": true
+			},
+			{
+				"type": "DrawHeatInput"
+			},
+		]
+}
+	"requirements": [
+		{ "item": "graph", "amount": 2},
+		{ "item": "sili", "amount": 2},
+		{ "item": "iron", "amount": 2}
+	],
+	"consumes": {
+  "powerBuffered": 5
+	}
+	"category": "power",
+	"research": "5w08"
+	"visualMaxHeat": 48
+		"squareSprite": false,
+		"conductivePower": true
+	"hasPower": true
+	"outputsPower": true
+}

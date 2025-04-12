@@ -1,0 +1,19 @@
+{
+  "localizedName": "I",
+  "effectChance": 0.5,
+  "damage": 0,
+  "healthMultiplier": 1
+  "transitionDamage": 0,
+  "opposites": [
+    "none",
+  ],
+  "speedMultiplier": 2,
+  "show": true,
+
+  "colors": [
+    "ffffffff",
+  ],
+  "affinities": [
+    "none",
+  ],
+}

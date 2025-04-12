@@ -1,0 +1,16 @@
+{
+	"name": "Phase Decay Conduit Wall",
+	"description": "A wall able to carry fluidds to any building in contact. Essentially an armored tank.",
+	"type": "LiquidRouter",
+	"health": 3150,
+	"size": 2,
+	"liquidCapacity": 360
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 8 },
+		{ "item": "silicon", "amount": 8 },
+		{ "item": "phase-decay", "amount": 60 }
+		{ "item": "metaglass", "amount": 80 }
+	],
+	"category": "defense",
+	"research": "surge-wall"
+}

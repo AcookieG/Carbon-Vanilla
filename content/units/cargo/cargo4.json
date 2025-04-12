@@ -1,0 +1,163 @@
+{
+	"type": "flying",
+	"name": "Cargo Oct-Eclipse",
+	"health": 28000,
+	"armor": 16,
+	"flying": true,
+	"maxVelocity": 2,
+	"speed": 0.6,
+	"drag": 0.04,
+	"rotateSpeed": 1,
+	"hitSize": 66
+	"range": 300,
+	"attackLength": 300,
+	"shootCone": 150,
+	"rotateWeapon": true,
+	"targetAir": true,
+	"engineOffset": 46,
+	"engineSize": 7.8,
+	"buildSpeed": 3
+	"buildBeamOffset": 43
+	"faceTarget": false
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 125,
+			"rotation": 0,
+			"sides": 8,
+			"max": 8100,
+			"regen": 5,
+			"color": "6ce5f5",
+		},
+		{
+			"type": "mindustry.entities.abilities.RepairFieldAbility",
+			"activeEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 150,
+				"strokeFrom": 8,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5ff",
+				"colorTo": "6ce5f5"
+			},
+			"healEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 150,
+				"strokeFrom": 8,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5ff",
+				"colorTo": "6ce5f5"
+			},
+			"range": 150,
+			"amount": 120,
+			"reload": 40
+		},
+		{
+			"type": "EnergyFieldAbility",
+			"healEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 30,
+				"sides": 10,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5"
+				"colorTo": "6ce5f500"
+			},
+			"color": "6ce5f5ff"
+			"maxTargets": 10,
+			"healPercent": 0.5,
+			"damage": 11,
+			"range": 200,
+			"sectors": 10,
+			"rotateSpeed": 3,
+			"hitBuildings": true,
+			"sectorRad": 0.03,
+			"reload": 30,
+		}
+		{
+			"type": "EnergyFieldAbility",
+			"healEffect": none
+			"color": "6ce5f5ff"
+			"maxTargets": 2,
+			"healPercent": 1.5,
+			"damage": 28,
+			"range": 210,
+			"sectors": 10,
+			"blinkScl": 80,
+			"rotateSpeed": 1.5,
+			"hitBuildings": true,
+			"sectorRad": 0.03,
+			"reload": 2,
+		}
+	]
+	"weapons": [
+		{
+			"name": "cargo-gun",
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 155,
+			"ejectEffect": "casing3",
+			"inaccuracy": 0,
+			"shootSound": "beam"
+			"rotate": true
+			"shake": 6
+			"recoil": 2
+			"shootCone": 30,
+			"x": 0
+			"y": 0
+			"shootY": 30
+			"mirror": false
+			continuous: true
+			chargeSound: lasercharge2
+			"rotateSpeed": 1.4,
+			"bullet": {
+type: ContinuousLaserBulletType
+damage: 125
+length: 300
+width: 11
+hitEffect: hitMeltHeal
+drawSize: 420
+lifetime: 200
+shake: 1.5
+despawnEffect: smokeCloud
+smokeEffect: none
+layer: 118
+chargeEffect: {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 30,
+				"sides": 10,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "6ce5f5"
+				"colorTo": "6ce5f500"
+},
+incendChance: 0.1
+incendSpread: 5
+IncendAmount: 1
+colors: [
+506aad55
+6cb7f5aa
+6ce5f5ff
+ffffffff
+]
+			},
+		}
+	]
+	"outlineColor": 00000000
+	"research": {
+		"parent": "cargo3"
+		"requirements": [
+			{
+				"item": "graphite",
+				"amount": 240
+			},
+		]
+	}
+}

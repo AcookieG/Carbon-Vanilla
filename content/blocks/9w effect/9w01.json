@@ -1,0 +1,25 @@
+{
+	"type": "CoreBlock",
+	"name": "Harbor"
+	"size": 2,
+	"itemCapacity": 2000,
+	"hasItems": true,
+	"health": 600,
+	"isFirstTier": true,
+	"alwaysUnlocked": true,
+	"requirements": [
+		{"item": "graph", "amount": 800},
+		{"item": "slate", "amount": 200}
+	]
+"research": {
+  "planet": Oodun
+  "root": true
+  "name": Oodun
+  "requiresUnlock": false
+}
+	"category": "effect",
+	"unitType": "11w01"
+	"squareSprite": false,
+	"unitCapModifier": 8
+	"fogRadius": 8,
+}

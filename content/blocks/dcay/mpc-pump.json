@@ -1,0 +1,25 @@
+{
+	"name": "Mass Production Pump",
+	"type": "Pump"
+	"pumpAmount": 0.75
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 50
+		},
+		{
+			"item": "metaglass",
+			"amount": 72
+		},
+		{
+			"item": "phase-decay",
+			"amount": 30
+		},
+	]
+	"liquidCapacity": 100
+	"size": 3
+	"research": "mpc-tank"
+	"health": 330
+	"category": "liquid"
+	"hasPower": false
+}

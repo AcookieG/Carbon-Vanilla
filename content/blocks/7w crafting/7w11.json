@@ -1,0 +1,71 @@
+{
+	"name": "Flex Crisscrosser",
+	"description": "Exploits Carbon fiber's properties using Water to get a very strong coupling joint.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 290,
+	"itemCapacity": 80,
+	"liquidCapacity": 30,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "scatheExplosion",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "wtr",
+				"padding": 3,
+			},
+			{ 
+			"type": "DrawArcSmelt",
+			}
+			{
+        "type": "DrawMultiWeave"
+				"glowColor": d1efff
+      },
+      {
+        "type": "DrawDefault"
+      }
+			{
+				"type": "DrawGlowRegion",
+				"color": d1efff
+			},
+    ]
+  },
+	"consumes": {
+		"power": 2.2,
+		"liquids":  [
+		{"liquid": "wtr", "amount": 0.3333333334},
+		]
+		"items": {
+			"items": [
+	{ "item": "carbon-fiber", "amount": 45 },
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "dense", "amount": 30 },
+		{ "item": "sili", "amount": 120 },
+		{ "item": "carbon-fiber", "amount": 50 },
+		{ "item": "sadn", "amount": 150 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "7w10",
+	"idleSound": "techloop",
+	"idleSoundVolume": 0.04,
+	"outputItem": {
+		"item": "flex-joint",
+		"amount": 24
+	},
+	"craftTime": 720,
+	"squareSprite": false,
+		"conductivePower": true
+}

@@ -1,0 +1,15 @@
+{
+	"name": "ZtorageBlock",
+	"type": "StorageBlock",
+	"health": 999999999,
+	"size": 2,
+	"hasPower": false
+"sandboxOnly": true,
+	"itemCapacity": 9999999,
+	"hasItems": true,
+	"requirements": [
+		{ "item": "sadn", "amount": 1 },
+	],
+	"category": "logic",
+	"research": "vault"
+}

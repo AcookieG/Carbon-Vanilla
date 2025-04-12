@@ -1,0 +1,16 @@
+{
+  "type": "Conduit",
+  "name": "Basic Conduit"
+  "description": "Transports liquids at a slow pace."
+  "health": 40,
+  "leaks": false,
+  "liquidCapacity": 8,
+	"requirements": [
+		{"item": "graph", "amount": 1},
+	],
+	junctionReplacement: 4w03b
+	bridgeReplacement: 4w04
+	rotBridgeReplacement: 4w04
+  "research": "4w01",
+  "category": "liquid"
+}

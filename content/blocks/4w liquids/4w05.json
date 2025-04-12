@@ -1,0 +1,15 @@
+{
+	"name": "Liquid Container",
+	"type": "LiquidRouter"
+	"requirements": [
+			{"item": "graph", "amount": 20},
+			{"item": "sadn", "amount": 30},
+	]
+	"liquidCapacity": 50
+	"size": 1
+	"research": "4w04"
+	"health": 40
+	"category": "liquid"
+	"squareSprite": false,
+	"liquidPadding": 2
+}

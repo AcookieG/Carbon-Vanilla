@@ -1,0 +1,24 @@
+{
+	"name": "Liquid Pump",
+	"type": "Pump"
+	"pumpAmount": 0.15
+	"requirements": [
+		{"item": "graph", "amount": 24},
+		{"item": "sadn", "amount": 24},
+	]
+	"liquidCapacity": 10
+	"size": 1
+research: {
+  parent: 9w01
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 13w01
+    }
+  ]
+}
+	"health": 40
+	"category": "liquid"
+	"squareSprite": false,
+	"hasPower": false
+}

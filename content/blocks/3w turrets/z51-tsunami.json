@@ -1,0 +1,153 @@
+{
+	"name": "Carbonized Tsunami",
+	"description": "A modified version of Tsunami, shoots liquid fire at enemies.",
+	"details": "Fires powerfull streams of liquid at enemies."
+	"type": "ItemTurret",
+	"health": 1630,
+	"size": 3,
+	"reload": 6,
+	"shake": 0.2,
+	"range": 190,
+	"ammoUseEffect": "casing3Double",
+	"shootSound": "flame",
+	"restitution": 0.01,
+	"shootCone": 15,
+	"hasLiquids": true,
+	"cooldownTime": 50,
+	"inaccuracy": 1,
+	"velocityRnd": 0.1,
+	"shoot": {
+		"type": "shootSpread",
+		"shots": 1,
+		"spread": 0,
+	},
+	"drawer": {
+	"type": "drawTurret",
+	"parts": [
+		{
+			"type": "RegionPart",
+			"suffix": "-wing",
+			"moveY": -5,
+			"moveX": -5,
+			"moveRot": 0,
+			"mirror": true,
+			"progress": "warmup"
+		},
+		{
+			"type": "RegionPart",
+			"suffix": "-none",
+			"moveY": 0,
+			"moveX": 0,
+			"moveRot": 0,
+			"mirror": false,
+			"progress": "warmup"
+		},
+		{
+			"type": "RegionPart",
+			"suffix": "-cannon",
+			"moveY": -2,
+			"moveX": 0,
+			"moveRot": 0,
+			"mirror": false,
+			"progress": "warmup"
+		},
+	]
+	},
+	"ammoTypes": {
+		"blast-compound": {
+			"type": "BasicBulletType",
+			"despawnHit": true,
+			"damage": 60,
+			"instantDisapear": false
+			"lifetime": 50
+			"velMin": 3.8
+			"velMax": 6.8
+			"collidesAir": true
+			"collidesGround": true
+			"collidesTiles": false
+			"hittable": false
+			"reflectable": false
+			"absorbable": false
+			"pierce": true,
+			"pierceCap": 2
+			"pierceBuilding": true
+			"intervalBullets": 1,
+			"intervalRandomSpread": 4,
+			"bulletInterval": 20,
+			"intervalBullet": {
+				"type": "FireBulletType",
+				"colorFrom": "f4f4f4",
+				"colorMid": "d3d9e8",
+				"colorTo": "c1c3d4",
+				"damage": 34,
+				"width": 20,
+				"height": 20,
+				"status": "burning",
+				"statusDuration": 300
+				"lifetime": 60
+				"velMin": 2.1
+				"velMax": 8.5
+				"hitGround": true
+				"hitAir": true
+				"drawSize": 250
+				"despawnShake": 0.1
+				"hitSound": explosionBig,
+			}
+		}
+		"carbon-fiber": {
+			"type": "BasicBulletType",
+			"despawnHit": true,
+			"damage": 60,
+			"instantDisapear": false
+			"lifetime": 50
+			"velMin": 3.8
+			"velMax": 6.8
+			"collidesAir": true
+			"collidesGround": true
+			"collidesTiles": false
+			"hittable": false
+			"reflectable": false
+			"absorbable": false
+			"pierce": true,
+			"pierceCap": 3
+			"pierceBuilding": true
+			"intervalBullets": 2,
+			"intervalRandomSpread": 2.5,
+			"bulletInterval": 10,
+			"intervalBullet": {
+				"type": "FireBulletType",
+				"colorFrom": "f4f4f4",
+				"colorMid": "d3d9e8",
+				"colorTo": "c1c3d4",
+				"damage": 34,
+				"width": 20,
+				"height": 20,
+				"status": "melting",
+				"statusDuration": 300
+				"lifetime": 60
+				"velMin": 2.1
+				"velMax": 8.5
+				"hitGround": true
+				"hitAir": true
+				"drawSize": 250
+				"despawnShake": 0.1
+				"hitSound": explosionBig,
+			}
+		}
+	},
+	"consumes": {
+		"coolant": {
+		"amount": 0.2
+		}
+	},
+	"coolantMultiplier": 6.5
+	"requirements": [
+		{ "item": "lead", "amount": 420 },
+		{ "item": "metaglass", "amount": 110 },
+		{ "item": "titanium", "amount": 230 },
+		{ "item": "carbon-fiber", "amount": 110 },
+		{ "item": "phase-decay", "amount": 80 },
+	],
+	"category": "turret",
+	"research": "tsunami"
+}

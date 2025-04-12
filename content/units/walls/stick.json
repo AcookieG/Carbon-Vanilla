@@ -1,0 +1,37 @@
+{
+	"type": "flying",
+	"name": "Fire Stick",
+	"health": 31200,
+	"armor": 0,
+	"flying": true,
+	"maxVelocity": 2,
+	"speed": 0.2,
+	"drag": 0.08,
+	"hitSize": 20
+	"itemCapacity": 0
+	"range": 15,
+	"attackLength": 15,
+	"shootCone": 15,
+	"engineOffset": 12,
+	"engineSize": 2.5,
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 24,
+			"rotation": 0,
+			"sides": 6,
+			"max": 21900,
+			"regen": 21,
+		},
+	]
+	"outlineColor": 00000000
+	"research": {
+		"parent": "dagger"
+		"requirements": [
+			{
+				"item": "graphite",
+				"amount": 240
+			},
+		]
+	}
+}

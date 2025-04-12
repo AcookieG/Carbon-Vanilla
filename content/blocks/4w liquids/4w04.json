@@ -1,0 +1,13 @@
+{
+  "type": "DirectionLiquidBridge",
+  "name": "Conduit Bridge"
+  "health": 40,
+  "leaks": false,
+  "liquidCapacity": 8,
+	"requirements": [
+		{"item": "graph", "amount": 10},
+	],
+"squareSprite": false,
+  "research": "4w03b",
+  "category": "liquid"
+}

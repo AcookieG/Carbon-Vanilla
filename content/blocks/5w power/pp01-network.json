@@ -1,0 +1,31 @@
+{
+  "type": "PowerNode",
+  "name": "Power Network",
+	"description": "A massive node, storing small amounts of energy.",
+  "size": 2,
+  "health": 280,
+  "laserRange": 30,
+  "maxNodes": 25,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    {
+      "item": "phase-decay",
+      "amount": 2
+    },
+    {
+      "item": "titanium",
+      "amount": 20
+    },
+    {
+      "item": "silicon",
+      "amount": 15
+    },
+    {
+      "item": "lead",
+      "amount": 15
+    }
+  ],
+  "research": "pp00-reader"
+	"consumes": { "powerBuffered": 50 },
+}

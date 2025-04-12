@@ -1,0 +1,71 @@
+{
+	"name": "Oil Burner",
+	"details": '''
+In a world where coal is a rare, but oil is plentyful,
+You burn oil.
+In a world where luscious ecosystems prosper,
+You burn oil.
+In a world where water had all ressources to create life,
+You burn oil.
+You've done it. You tipped the balance.
+You re-created life, but at what cost?
+'''
+	"description": "Burns through Oil to generate power. Explodes if impurities are not instantly removed."
+	"type": "ConsumeGenerator"
+	"size": 2,
+	"health": 120,
+	"liquidCapacity": 20,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"baseExplosiveness": 0.2,
+	"explosionRadius": 24,
+	"explosionDamage": 30,
+	"explosionShake": 0.2,
+	"powerProduction": 3,
+	"requirements": [
+		{ "item": "sadn", "amount": 80 },
+		{ "item": "slate", "amount": 60 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "i",
+				"padding": 2
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "stillwater",
+				"padding": 2
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"liquid": {"liquid": "i", "amount": 0.1},
+	},
+	"outputLiquid": {"liquid": "stillwater", "amount": 0.01},
+	"explodeOnFull": true
+	"category": "power",
+	"conductivePower": true
+	"rotate": false
+	"loopSound": "hum",
+	"loopSoundVolume": 0.1,
+	"research": "5w01",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.1,
+	"itemDuration": 60,
+	"squareSprite": false,
+	          explosionPuddles: 40
+            explosionPuddleRange: 15
+            explosionPuddleLiquid: stillwater
+            explosionPuddleAmount: 1000
+}

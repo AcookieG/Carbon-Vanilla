@@ -1,0 +1,21 @@
+{
+	"type": "CoreBlock",
+	"name": "Bay"
+	"size": 4,
+	"itemCapacity": 6000,
+	"hasItems": true,
+	"health": 1200,
+	"isFirstTier": false
+	"requirements": [
+		{"item": "carbon-fiber", "amount": 1000},
+		{"item": "graph", "amount": 1200},
+		{"item": "circuit", "amount": 100}
+	]
+	"research": "9w02",
+	"category": "effect",
+	"unitType": "11w01b"
+	"squareSprite": false,
+	"unitCapModifier": 20
+	"researchCostMultiplier": 0.1
+	"fogRadius": 10,
+}

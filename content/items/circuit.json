@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Circuit Parts",
+	"description": "Microchips!",
+	"cost": 2.5,
+	"flammability": 0.0,
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"charge": 0.5,
+	"color": "baff66"
+		research: sili
+}

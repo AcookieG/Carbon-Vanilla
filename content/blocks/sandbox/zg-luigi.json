@@ -1,0 +1,18 @@
+{
+    "type": "ForceProjector",
+"sandboxOnly": true,
+    "name": "DOOMe",
+    "description": "lol.",
+    "size": 2,
+    "health": 50000,
+    "radius": 300,
+    "cooldownNormal": 1,
+    "cooldownLiquid": 1,
+    "cooldownBrokenBase": 1,
+    "hasPower": false
+    "category": "logic",
+    "requirements": [
+		{ "item": "sadn", "amount": 1 },
+    ],
+    "research": "force-projector"
+}

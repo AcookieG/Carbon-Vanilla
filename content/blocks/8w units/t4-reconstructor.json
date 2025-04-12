@@ -1,0 +1,39 @@
+{
+	"name": "T4 Reconstructor",
+	"description": "idk man im tired.",
+	"type": "Reconstructor"
+	"size": 7,
+	"itemCapacity": 1000,
+	"constructTime": 5400
+	"consumes": {
+		"power": 12,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 820 },
+				{ "item": "graphite", "amount": 530 },
+				{ "item": "plastanium", "amount": 250 },
+				{ "item": "blast-compound", "amount": 50 },
+			]
+		},
+	},
+	"upgrades": [
+		[
+			"w3-clamor",
+			"w4-roar"
+		]
+		[
+			"cargo3",
+			"cargo5"
+		]
+	],
+	"category": "units",
+	"research": "t3-reconstructor",
+	"unitType": "FlyingUnit"
+	"requirements": [
+		{ "item": "lead", "amount": 2000 },
+		{ "item": "titanium", "amount": 2100 },
+		{ "item": "silicon", "amount": 900 },
+		{ "item": "thorium", "amount": 630 },
+		{ "item": "phase-decay", "amount": 60 },
+	]
+}

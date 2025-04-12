@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Microchip",
+	"description": "The absolute best chipset. Conducts power.",
+	"cost": 3.5,
+	"flammability": 0.0,
+	"radioactivity": 0.0,
+	"explosiveness": 0.3,
+	"charge": 2.0,
+	"color": "00d0ff"
+	research: waffer
+}

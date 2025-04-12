@@ -1,0 +1,22 @@
+{
+  "type": "BeamNode",
+  "name": "Lightwire"
+  "description": "Electric bridges! Stupid expensive tho.",
+  "health": 40,
+	"requirements": [
+		{"item": "graph", "amount": 40},
+		{"item": "iron", "amount": 80},
+	],
+	"consumes": {
+  "powerBuffered": 5
+	} 
+	"range": 4
+	"lazerColor2": "cf6d9c"
+  "research": "5w01c",
+  "category": "power"
+	"buildCostMultiplier": 3
+	"conductivePower": true
+	"hasPower": true
+	"outputsPower": true
+		"squareSprite": false,
+}

@@ -1,0 +1,72 @@
+{
+	"name": "Flare",
+	"description": "Fires a continuous fire breath at enemies.",
+	"type": "ContinuousLiquidTurret",
+	"health": 330,
+	"size": 1,
+	"reload": 60,
+	"range": 80,
+	"fogRadius": 5,
+	"liquidConsumed": 0.2,
+	"liquidCapacity": 20
+	"loopSound": "torch",
+	"loopSoundVolume": 0.3,
+	"shootCone": 15,
+	"hasLiquids": true,
+	"inaccuracy": 0,
+	"outlineRadius": 4,
+	"squareSprite": false,
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-"
+	},
+	"ammoTypes": {
+"H": {
+	"type": "ContinuousFlameBulletType",
+	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
+	"damage": 12,
+	"knockback": 0.2,
+	"buildingDamageMultiplier": 0.2
+	"width": 1,
+	"drawFlare": true,
+	"hitEffect": none
+	"status": "melting",
+	"length": 80,
+	"flareColor": d1e4ff,
+	"flareLength": 25,
+	"flareWidth": 2.5,
+},
+"i": {
+	"type": "ContinuousFlameBulletType",
+	"colors": ["000000", "606060", "aaaaaa", "ffffff"],
+	"damage": 16,
+	"knockback": 0,
+	"buildingDamageMultiplier": 0.2
+	"width": 1.5,
+	"drawFlare": true,
+	"hitEffect": "hitFlameSmall"
+	"length": 60,
+	"rangeChange": -20,
+	"status": "tarred",
+	"ammoMultiplier": 1
+	"flareColor": 000000,
+	"flareLength": 40,
+	"flareWidth": 6,
+},
+	},
+	"requirements": [
+		{ "item": "graph", "amount": 60 },
+		{ "item": "slate", "amount": 60 },
+	],
+	"category": "turret",
+research: {
+  parent: 3w03
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"buildCostMultiplier": 1.75,
+}

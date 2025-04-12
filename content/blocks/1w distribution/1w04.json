@@ -1,0 +1,15 @@
+{
+	"type": "DuctRouter",
+	"name": "Duct Router",
+	"description": "Capped at 60fps.",
+	"health": 40,
+	"requirements": [
+		{"item": "scrp", "amount": 3},
+		{"item": "slate", "amount": 3},
+	],
+	"category": "distribution",
+	"speed": 0,
+	"itemCapacity": 1
+	"research": "1w03"
+	"squareSprite": false,
+}

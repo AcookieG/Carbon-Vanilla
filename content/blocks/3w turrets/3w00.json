@@ -1,0 +1,23 @@
+{
+	"name": "Radar",
+	"description": "To conquer new places.",
+	"type": "Radar",
+	"health": 120,
+	"size": 1,
+	"hasPower": true,
+	"hasItems": false,
+	"discoveryTime": 1200,
+	"glowColor": 364166,
+	"hasBoost": false
+	"requirements": [
+		{"item": "scrp", "amount": 50},
+		{"item": "graph", "amount": 20},
+	],
+	"consumes": {
+		"power": 0.5,
+	},
+	"category": "turret",
+	"research": "3w01"
+	"conductivePower": true
+	"fogRadius": 34,
+}

@@ -1,0 +1,13 @@
+{
+	"type": "OverflowGate",
+	"name": "Overflow Duct",
+	"health": 40,
+	"invert": false
+	"requirements": [
+		{"item": "scrp", "amount": 4},
+		{"item": "slate", "amount": 4},
+	],
+	"category": "distribution",
+	"research": "1w05"
+	"squareSprite": false,
+}

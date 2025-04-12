@@ -1,0 +1,181 @@
+localizedName: Oodun
+description: Similar to Serpulo, but without spores. Under an nextremely dense atmosphere.
+generator: ErekirPlanetGenerator
+alwaysUnlocked: true
+mesh: [
+ {
+    //water
+    type: NoiseMesh
+    planet: Oodun
+    divisions: 5
+    seed: 7
+    radius: 1.229
+    color1: 587d89
+    color2: 5e95a8
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //slate
+    type: NoiseMesh
+    planet: Oodun
+    divisions: 5
+    radius: 1.22
+    seed: 94
+    color1: 526570
+    color2: 3a464d
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //sand
+    type: NoiseMesh
+    planet: Oodun
+    divisions: 6
+    seed: 101
+    radius: 1.2441
+    color1: babca8
+    color2: c6c282
+    octaves: 5.1
+    persistence: 0.8
+  }
+  {
+    //graphite
+    type: NoiseMesh
+    planet: Oodun
+    seed: 69
+    divisions: 5
+    color1: 626f9b
+    color2: 364166
+    radius: 1.212
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1
+  }
+  {
+    //stone
+    type: NoiseMesh
+    planet: Oodun
+    divisions: 5
+    seed: 19
+    radius: 1.247
+    color1: 989aa4
+    color2: 6e7080
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //dark sand
+    type: NoiseMesh
+    planet: Oodun
+    divisions: 6
+    seed: 61
+    radius: 1.248
+    color1: 998979
+    color2: 665e56
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //black sand
+    type: NoiseMesh
+    planet: Oodun
+    divisions: 6
+    seed: 17
+    radius: 1.2514
+    color1: 3d3732
+    color2: 4a4b53
+    octaves: 5.7
+    persistence: 0.9
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: Oodun
+   speed: 2
+   radius: 0.01
+   divisions: 5
+   color: ffffff
+   octaves: 2
+   persistence: 0.42
+   scl: 1
+   thresh: 0.43
+  }
+	 {
+   type: HexSkyMesh
+   planet: Oodun
+   speed: 3
+   radius: 0.05
+   divisions: 5
+   color: ffffff
+   octaves: 2
+   persistence: 0.42
+   scl: 1.2
+   thresh: 0.45
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.4
+  carbonChance: 0.5
+  berylChance: 0
+  ferricChance: 0.2
+}
+sectorSize: 2
+allowLaunchSchematics: false
+allowLaunchToNumbered: true
+allowLaunchLoadout: true
+allowSectorInvasion: true
+startSector: 2
+orbitSpacing: 0.9
+radius: 1.2
+drawOrbit: true
+atmosphereRadIn: 0.01
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 1
+bloom: false
+visible: true
+landCloudColor: 626f9b
+atmosphereColor: 708d94
+iconColor: 95abd9
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: 9w01
+parent: sun
+orbitRadius: 40
+orbitTime: 120
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "sadn"
+  "graph",  
+  "sili", 
+  "slate",
+  "iron",
+  "anthracite", 
+  "waffer", 
+  "circuit", 
+	"carbon-fiber", 
+	"dense", 
+	"coppa", 
+  "scrp", 
+	"flex-joint",
+	"chip",
+	"canolla",
+	"metarkle",
+]

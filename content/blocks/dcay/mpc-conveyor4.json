@@ -1,0 +1,16 @@
+{
+	"type": "ItemBridge",
+	"name": "Itemway Bridge",
+	"description": "A stylish redesign of the Carbon Bridge. Still slow, but very long somehow. Crazy expensive, you might as well use the normal Phase conveyor.",
+	"health": 210,
+	"hasPower": false
+  "requirements": [
+    "silicon/40",
+    "phase-decay/20"
+    "carbon-fiber/20"
+  ],
+	"category": "distribution",
+	"transportTime": 1,
+	"range": 16
+	"research": "mpc-conveyor2"
+}

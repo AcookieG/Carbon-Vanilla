@@ -1,0 +1,70 @@
+{
+	"name": "Grease Centrifuge",
+	"description": "Extracts oil using coal and Pressure.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 270,
+	"liquidCapacity": 10,
+	"itemCapacity": 10,
+	"hasLiquids": true,
+	"hasPower": false,
+	"hasItems": true,
+	"updateEffect": "smoke",
+	"craftEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "anthracite", "amount": 1}
+			]
+		},
+		"liquids":  [
+		{"liquid": "pressure", "amount": 0.4},
+		]
+	},
+	"requirements": [
+		{ "item": "iron", "amount": 60 },
+		{ "item": "graph", "amount": 60 },
+		{ "item": "sadn", "amount": 150 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "pressure",
+				"padding": 2,
+			},
+			{
+				"type": "DrawRegion",
+				"spinSprite": true,
+				"rotateSpeed": 3,
+				"suffix": "-spinner",
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"category": "crafting",
+	"rotate": false
+research: {
+  parent: 7w04
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"idleSound": "machine",
+	"idleSoundVolume": 0.03,
+	"outputLiquids": [
+		{ "liquid": "i", "amount": 0.2 },
+	],
+	"craftTime": 20,
+	"squareSprite": false,
+}

@@ -1,0 +1,12 @@
+{
+"type": "LiquidJunction"
+"name": "Conduit Junction"
+"solid": false
+"description": "To mix'n match some liquids."
+"category": "liquid"
+"squareSprite": "false"
+"research": "4w03"
+"requirements": [
+  {"item": "graph", "amount": 3}
+]
+}

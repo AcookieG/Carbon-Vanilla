@@ -1,0 +1,29 @@
+{
+	"name": "Five Axis Printer",
+	"description": "A two by two to print the most basic of any unit tree.",
+	"type": "UnitFactory"
+	"size": 3,
+	"itemCapacity": 30,
+	"maxSpawn": 4,
+	"consumes": {
+		"power": 1.2,
+	},
+	"plans": [
+		{
+			"unit": "11w02a",
+			"time": 840
+			"requirements": [
+				{ "item": "sili", "amount": 20 },
+				{ "item": "anthracite", "amount": 20 },
+			]
+		},
+	]
+	"category": "units",
+	"research": "9w01",
+	"unitType": "ErekirUnitType",
+	"requirements": [
+		{ "item": "sadn", "amount": 120 },
+		{ "item": "graph", "amount": 90 },
+		{ "item": "sili", "amount": 150 },
+	]
+}

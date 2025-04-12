@@ -1,0 +1,14 @@
+{
+	"type": "SolarGenerator",
+	"name": "Charging Panel",
+	"description": "A small solar panel for power startup. Won't destroy the ecosystem.",
+	"health": 60,
+	"size": 2,
+	"powerProduction": 0.11666667,
+	"requirements": [
+		{"item": "graph", "amount": 30},
+		{"item": "scrp", "amount": 20},
+	],
+	"category": "power",
+	"research": "5w01"
+}

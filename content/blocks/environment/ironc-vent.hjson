@@ -1,0 +1,8 @@
+type: SteamVent
+blendGroup: ironsalt
+parent: ironsalt
+	"variants": 2,
+attributes: {
+   steam: 1
+}
+effectColor: 997454

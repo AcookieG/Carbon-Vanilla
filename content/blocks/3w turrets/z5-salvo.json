@@ -1,0 +1,129 @@
+{
+	"name": "Carbonized Salvo",
+	"description": "A modified version of salvo, made to anihiliate any threat. Only hears about Geneva Suggestions.",
+	"details": "Fires quick salvo of bullets to enemies."
+	"type": "ItemTurret",
+	"health": 960,
+	"size": 2,
+	"reload": 48,
+	"shake": 0.3,
+	"range": 170,
+	"ammoUseEffect": "casing1",
+	"shootSound": "shootBig",
+	"restitution": 0.01,
+	"shootCone": 15,
+	"hasLiquids": true,
+	"inaccuracy": 2,
+	"shoot": {
+		"type": "ShootPattern",
+		"shots": 6
+		"spread": 0
+		"shotDelay": 2
+	},
+	"drawer": {
+	"type": "drawTurret",
+	"parts": [
+		{
+			"type": "RegionPart",
+			"suffix": "-gun",
+			"moveY": -2,
+			"moveX": 0,
+			"moveRot": 0,
+			"mirror": false,
+			"progress": "recoil"
+			"children": [
+				{
+				"type": "RegionPart",
+				"colorTo": "ab3400ff",
+				"color": "ab340000",
+				"blending": "additive",
+				"progress": {
+					"type": "recoil",
+					"op": "blend",
+					"other": "heat",
+					"amount": 0.2
+					},
+				"outline": false,
+				"suffix": "-gun-heat"
+				"mirror": false
+				},
+			]
+		},
+		{
+			"type": "RegionPart",
+			"suffix": "",
+			"moveY": 0,
+			"moveX": 0,
+			"moveRot": 0,
+			"mirror": false,
+			"progress": "warmup"
+		},
+	]
+	},
+	"ammoTypes": {
+		"thorium": {
+			"type": "BasicBulletType",
+			"drawsize": 170,
+			"collideAir": true
+			"reloadMultiplier": 1,
+			"damage": 32,
+			"ammoMultiplier": 3,
+			"width": 8,
+			"height": 12,
+			"toColor": "thoriumPink",
+			"lifetime": 28,
+			"bulletShrink": 0.6,
+			"shootEffect": "shootBig2",
+			"smokeEffect": "thoriumShoot"
+			"speed": 6,
+			"pierce": true
+		},
+		"titanium": {
+			"type": "BasicBulletType",
+			"drawsize": 170,
+			"collideAir": true
+			"damage": 28,
+			"ammoMultiplier": 2,
+			"width": 8,
+			"height": 12,
+			"reloadMultiplier": 1.2,
+			"lifetime": 40,
+			"bulletShrink": 0.6,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke"
+			"speed": 6,
+			"rangeChange": 70,
+		},
+		"carbon-fiber": {
+			"type": "BasicBulletType",
+			"drawsize": 170,
+			"collideAir": true
+			"damage": 68,
+			"ammoMultiplier": 1,
+			"width": 8,
+			"height": 12,
+			"reloadMultiplier": 0.5,
+			"lifetime": 21,
+			"bulletShrink": 0,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke"
+			"speed": 8,
+			"homingPower": 0.05,
+			"homingRange": 24,
+		},
+	},
+	"consumes": {
+		"coolant": {
+		"amount": 0.2
+		}
+	},
+	"coolantMultiplier": 6.5
+	"requirements": [
+		{ "item": "copper", "amount": 130 },
+		{ "item": "titanium", "amount": 60 },
+		{ "item": "carbon-fiber", "amount": 90 },
+		{ "item": "phase-decay", "amount": 60 },
+	],
+	"category": "turret",
+	"research": "salvo"
+}

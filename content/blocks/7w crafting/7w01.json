@@ -1,0 +1,34 @@
+{
+	"name": "Slate Press",
+	"description": "Presses the carbon present in Slate to make Graphite.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 120,
+	"itemCapacity": 10,
+	"hasLiquids": false,
+	"hasPower": false,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "pulverizeMedium",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "slate", "amount": 2}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "scrap", "amount": 12 },
+		{ "item": "sand", "amount": 40 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "9w01",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.03,
+	"outputItems": [
+		{ "item": "graph", "amount": 3 },
+	],
+	"craftTime": 150,
+	"squareSprite": false,
+}

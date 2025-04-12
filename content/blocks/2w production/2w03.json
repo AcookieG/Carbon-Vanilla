@@ -1,0 +1,30 @@
+{
+	"name": "Square Drill",
+	"description": "Crushes deep ores with smaller incision drills.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 3,
+	"updateEffect": "coalSmeltsmoke",
+	"drillTime": 240,
+	"itemCapacity": 10,
+	"drawRim": true,
+	"drawMineItem": false,
+	"rotateSpeed": 2.4
+	"consumes": {
+		"liquid": {
+			"liquid": "wtr", 
+			"amount": 0.1,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "iron", "amount": 80 },
+		{ "item": "graph", "amount": 80 },
+		{ "item": "dense", "amount": 10 },
+	],
+	"category": "production",
+	"research": "2w01"
+	"squareSprite": false,
+	"buildCostMultiplier": 0.6,
+}

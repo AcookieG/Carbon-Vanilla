@@ -1,0 +1,61 @@
+{
+	"name": "Slag Melter",
+	"description": "Mixes Copper and Water in large amounts to produce Slag.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 140,
+	"itemCapacity": 20,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "burning",
+	"craftEffect": "none",
+	"liquidCapacity": 04,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "slag",
+				"padding": 2
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+				{
+				"item": "copper",
+				"amount": 1,
+				}
+			]
+		},
+                "liquid": {
+			"liquid": "water",
+			"amount": 0.2
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 20 },
+		{ "item": "titanium", "amount": 35 },
+		{ "item": "copper", "amount": 50 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "cryofluid-mixer",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.05,
+	"outputLiquid": {
+		"liquid": "slag",
+		"amount": 0.2
+	},
+	"craftTime": 60,
+}

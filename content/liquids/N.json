@@ -1,0 +1,19 @@
+{
+	"type": "Liquid",
+	"canStayOn": [],
+	"incinerable": true,
+	"name": "Nitrogen",
+	"coolant": true,
+	"color": "5ec1bf",
+	"colorFrom": "5ec1bf",
+	"colorTo": "5ec1bf",
+	"gasColor": "5ec1bf"
+	"blockReactive": true,
+	"viscosity": 0.3,
+	"heatCapacity": 0.8,
+	"explosiveness": 0.0,
+	"temperature": 0.3,
+	"flammability": 0.0,
+	"research": "wtr",
+	"gas": true,
+}

@@ -1,0 +1,52 @@
+{
+	"name": "Seizure",
+	"description": "A medium range electric turret.",
+	"type": "PowerTurret",
+	"health": 850,
+	"size": 2,
+	"reload": 18,
+	"shake": 0.5,
+	"range": 110,
+	"shootSound": "lightningShoot",
+	"restitution": 0.1,
+	"shootCone": 45,
+	"spread": 1,
+	"hasLiquids": true,
+	"inaccuracy": 0,
+	"targetAir": false
+	"rotateSpeed": 2,
+	"hasPower": true
+	"consumes": {
+		"power": 4
+		"coolant": {
+		"amount": 0.1
+		}
+	},
+	"coolantMultiplier": 8
+	"shootType": {
+		"type": "BasicBulletType",
+		"drawsize": 60,
+		"collideAir": false
+		"damage": 0,
+		"width": 7,
+		"length": 45,
+		"lifetime": 1,
+		"bulletShrink": 0,
+		"shootEffect": "none",
+		"reloadMultiplier": 0.2,
+		"speed": 0,
+		"lightning": 3,
+		"lightningDamage": 42,
+		"lightningCone": 30,
+		"lightningLengthRand": 8,
+		"lightningLength": 15,
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 125 },
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "silicon", "amount": 120 },
+	],
+	"category": "turret",
+	"research": "arc"
+}

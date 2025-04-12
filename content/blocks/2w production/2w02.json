@@ -1,0 +1,19 @@
+{
+	"name": "Wall Cog Drill",
+	"description": "A basic crusher drill, but for walls.",
+	"type": "WallCrafter",
+	"size": 2,
+	"updateEffect": "coalSmeltsmoke",
+	"drillTime": 150,
+	"itemCapacity": 10,
+	"output": "slate",
+	"attribute": "Tslate",
+	"requirements": [
+		{ "item": "sadn", "amount": 12 },
+		{ "item": "scrp", "amount": 12 },
+	],
+	"category": "production",
+	"research": "2w01"
+	"squareSprite": false,
+	"buildCostMultiplier": 1.5,
+}

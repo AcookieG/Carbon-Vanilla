@@ -1,0 +1,28 @@
+{
+  "localizedName": "Hydrogen burn",
+  "description": "A burn worse than direct contact to a solar flame. No unit may recover from it. A fate possibly worse than death."
+  "effectChance": 0.5,
+  "damage": 5,
+  "healthMultiplier": 0.6
+  "transitionDamage": 120,
+  "opposites": [
+    "freezing",
+    "wet"
+  ],
+  "speedMultiplier": 0.5,
+  "show": true,
+
+  "colors": [
+    "ffffffff",
+    "ffffa3ff",
+    "ffcd66ff",
+    "e28654ff"
+  ],
+  "affinities": [
+    "blasted",
+    "tarred",
+    "spore-slowed",
+    "freezing",
+  ],
+  "effect": "melting",
+}

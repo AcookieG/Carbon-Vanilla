@@ -1,0 +1,33 @@
+{
+	"name": "Flying-Tank Reconstructor",
+	"description": "idk man im tired.",
+	"type": "Reconstructor"
+	"size": 5,
+	"itemCapacity": 200,
+	"constructTime": 1800
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 125 },
+				{ "item": "graphite", "amount": 80 },
+				{ "item": "metaglass", "amount": 120 },
+			]
+		},
+	},
+	"upgrades": [
+		[
+			"w2-resound",
+			"w3-below"
+		]
+	],
+	"category": "units",
+	"research": "t2-reconstructor",
+	"unitType": "FlyingUnit"
+	"requirements": [
+		{ "item": "lead", "amount": 610 },
+		{ "item": "titanium", "amount": 490 },
+		{ "item": "silicon", "amount": 350 },
+		{ "item": "thorium", "amount": 250 },
+	]
+}

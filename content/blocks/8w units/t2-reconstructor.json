@@ -1,0 +1,36 @@
+{
+	"name": "T2 Reconstructor",
+	"description": "idk man im tired.",
+	"type": "Reconstructor"
+	"size": 3,
+	"constructTime": 600
+	"itemCapacity": 50,
+	"consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 40 },
+				{ "item": "graphite", "amount": 15 },
+				{ "item": "metaglass", "amount": 10 },
+			]
+		},
+	},
+	"upgrades": [
+		[
+			"w1-roll",
+			"w2-resound"
+		]
+		[
+			"cargo1",
+			"cargo2"
+		]
+	],
+	"category": "units",
+	"research": "additive-reconstructor",
+	"unitType": "FlyingUnit"
+	"requirements": [
+		{ "item": "lead", "amount": 210 },
+		{ "item": "graphite", "amount": 90 },
+		{ "item": "silicon", "amount": 100 },
+	]
+}

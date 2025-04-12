@@ -1,0 +1,96 @@
+{
+	"name": "Control Chamber",
+	"description": "Presses and melts materials into circuit bords, ready to use in advanced electronics.",
+	"type": "GenericCrafter"
+	"size": 3,
+	"health": 290,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": {
+			type: ExplosionEffect
+			lifetime: 30
+			waveRad: 0
+			waveLife: 1
+			waveStroke: 0
+			smokeColor: ffffff00
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 2
+			sparkRad: 12
+			sparkStroke: 1
+			sparkLen: 2
+			sparkColor: ffffffff
+			waveColor: ffffff00
+			}
+	"craftEffect": {
+			type: ExplosionEffect
+			lifetime: 30
+			waveRad: 30
+			waveLife: 20
+			waveStroke: 1
+			smokeColor: ffffff00
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 8
+			sparkRad: 34
+			sparkStroke: 3.5
+			sparkLen: 9
+			sparkColor: ffffffff
+			waveColor: ffffffff
+		}
+	"itemCapacity": 160,
+	"liquidCapacity": 40,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "wtr",
+				"padding": 3,
+			},
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawGlowRegion",
+				"color": ff3838cc
+			},
+		]
+	},
+	"consumes": {
+		"power": 3,
+    "liquids":  [
+		{"liquid": "wtr", "amount": 1},
+		{"liquid": "N", "amount": 0.15},
+		]
+		"items": {
+			"items": [
+				{"item": "coppa", "amount": 20}
+				{"item": "sili", "amount": 80}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "sili", "amount": 90 },
+		{ "item": "coppa", "amount": 80 },
+		{ "item": "graph", "amount": 110 },
+		{ "item": "flex-joint", "amount": 60 },
+	],
+	"outputItems": [
+		{ "item": "circuit", "amount": 8 },
+	],
+	"category": "crafting",
+	"research": "7w07",
+	"idleSound": "hum",
+	"idleSoundVolume": 0.12,
+	"craftTime": 300,
+	"squareSprite": false,
+	"conductivePower": true
+}

@@ -1,0 +1,42 @@
+{
+	"name": "Large Slate Wall",
+	"description": "Has more health and shrapnel.",
+	"type": "Wall",
+	"health": 1200,
+	"size": 2,
+	"requirements": [
+		{ "item": "slate", "amount": 24 }
+	],
+	"armor": 2,
+	"category": "defense",
+	"research": "6w01",
+	"destroyBullet": {
+		"type": "BasicBulletType",
+		"instantDisappear": true,
+		"hitSound": "explosion",
+		"hitSoundVolume": 1,
+		"damage": 80,
+		"lifeTime": 1,
+		"speed": 0,
+		"width": 20,
+		"height": 20,
+		"collidesAir": false,
+		"collidesGround": false,
+		"collidesTiles": false,
+		"shootEffect": none,
+		"despawnEffect": none,
+		"fragBullets": 20,
+		"fragBullet": {
+			"type": "BasicBulletType",
+			"damage": 44,
+			"lifeTime": 13,
+			"speed": 7,
+			"width": 3,
+			"height": 8,
+			"drag": 0.08
+			"despawnEffect": none,
+			"buildingDamageMultiplier": 0.01,
+		}
+	}
+	"destroyBulletSameTeam": true
+}

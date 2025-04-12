@@ -1,0 +1,57 @@
+{
+	"name": "Hydrogen Separator",
+	"description": "Isolates hydrogen from water, at the cost of lost oxygen, and energy.",
+	"type": "GenericCrafter"
+	"size": 2,
+	"health": 230,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"updateEffect": "steam",
+	"craftEffect": "none",
+	"liquidCapacity": 20,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "cryofluid",
+				"padding": 2
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "hydrogen",
+				"padding": 2
+			},
+			{
+				"type": "DrawDefault"
+			},
+		]
+	},
+	"consumes": {
+		"power": 3,
+                "liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.3
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 130 },
+		{ "item": "titanium", "amount": 90 },
+		{ "item": "copper", "amount": 90 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "cryofluid-mixer",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.05,
+	"outputLiquid": {
+		"liquid": "hydrogen",
+		"amount": 0.3
+	},
+	"craftTime": 100,
+}

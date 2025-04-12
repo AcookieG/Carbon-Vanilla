@@ -1,0 +1,39 @@
+{
+	"type": "UnitCargoLoader",
+	"name": "Mining Facility",
+	"description": "A small unit Pod to launch mining units. Similar to V5 Draught or V6 Mono."
+	"size": 2,
+	"health": 220,
+	"hasPower": false,
+	"unitType": "minedrone1"
+	"buildTime": 480
+	"polyRadius": 4
+	"polyColor": "9e78dc"
+	"itemCapacity": 10
+	"requirements": [
+		{
+		"item": "titanium",
+		"amount": 15
+		},
+		{
+		"item": "silicon",
+		"amount": 20
+		},
+		{
+		"item": "lead",
+		"amount": 60
+		}
+	],
+	"consumes": {
+		"items": {
+			"items": [
+				{
+				"item": "spore-pod",
+				"amount": 10,
+				}
+			]
+		},
+	},
+	"research": "laser-drill"
+	"category": "production",
+}

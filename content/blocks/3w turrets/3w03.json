@@ -1,0 +1,73 @@
+{
+	"name": "Pulse",
+	"description": "Shoots small amounts of liquids at enemies or structures. Extinguishes fires.",
+	"type": "LiquidTurret",
+	"health": 290,
+	"size": 1,
+	"reload": 4,
+	"range": 100,
+	"fogRadius": 4.25,
+	"liquidCapacity": 10
+	"shootEffect": "shootLiquid",
+	"smokeEffect": "none",
+	"shootCone": 50,
+	"hasLiquids": true,
+	"inaccuracy": 5,
+	"outlineRadius": 4,
+	"squareSprite": false,
+	"recoil": 0
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-"
+	},
+	"ammoTypes": {
+"wtr": {
+	"type": "liquidBulletType",
+	"liquid": water
+	"knockback": 0.4,
+	"drag": 0.01,
+	"status": "wet",
+}
+"stillwater": {
+	"type": "liquidBulletType",
+	"liquid": stillwater
+	"knockback": 0.4,
+	"drag": 0.022,
+	"rangeChange": -20,
+	"puddles": 1,
+	"puddleLiquid": stillwater
+	"puddleAmount": 12,
+	"status": "corroded",
+	"lightOpacity": 0
+},
+"pressure": {
+	"type": "liquidBulletType",
+	"liquid": water
+	"knockback": 2.8,
+	"drag": 0.006,
+	"rangeChange": 20,
+	"status": "wet",
+	"lightOpacity": 0
+},
+"i": {
+	"type": "liquidBulletType",
+	"liquid": oil
+	"drag": 0.01,
+	"status": "tarred",
+},
+"s": {
+	"type": "liquidBulletType",
+	"drag": 0.01,
+	"damage": 18,
+	"liquid": slag
+	"ammoMultiplier": 3,
+	"status": "melting",
+},
+	},
+	"requirements": [
+		{ "item": "graph", "amount": 60 },
+		{ "item": "iron", "amount": 10 },
+	],
+	"category": "turret",
+	"research": "3w01"
+}

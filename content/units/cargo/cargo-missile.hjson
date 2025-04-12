@@ -1,0 +1,92 @@
+{
+type: missile
+controller: MissileAI
+template: MissileUnitType 
+lowAltitude: false
+speed: 5
+rotateSpeed: 3
+lifetime: 300
+physics: false
+flying: true
+hidden: false
+health: 280
+hitSize: 8
+trailColor: 6ce5f5
+missileAccelTime: 30
+engineOffset: 4,
+engineSize: 2
+drawCell: false
+engineColor: 6ce5f5
+outlineColor: 00000000
+maxRange: 30
+trailLength: 1.5
+range: 30
+shootOnDeath: false
+weapons: [
+	{
+	shootOnDeath: true
+	controllable: true
+	shootSound: explosionBig
+	shootCone: 90
+	reload: 60,
+	mirror: false
+	rotateSpeed: 36
+	bullet: {
+			"type": "BasicBulletType",
+			"drawsize": 200,
+			"collideAir": true
+			"damage": 82,
+			"width": 16,
+			"height": 16,
+			"lifetime": 5,
+			"smokeEffect": "massiveExplosion"
+			"speed": 1,
+			"pierce": false
+			"keepVelocity": false
+		fragBullets: 18
+		fragBullet: {
+      			type: FireBulletType
+			colorFrom: ffffa3ff
+			colorMid: ffffffff
+			colorTo: e2865400
+			damage: 43
+			width: 20
+			height: 20
+			lifetime: 20
+			velMin: 0.2
+			velMax: 2
+			drawSize: 250
+			keepVelocity: false
+		}
+	}
+}
+]
+abilities: [
+	{
+	type: MoveEffectAbility
+	interval: 2
+	y: 0
+	rotateEffect: true
+	rotation: 180
+	effect: {
+	type: multiEffect
+	effects: [
+		{
+		type: ParticleEffect
+		particles: 6
+		sizeFrom: 4
+		sizeTo: 0
+		length: 24
+		lifetime: 30
+		lightOpacity: 0
+		interp: circleOut
+		sizeInterp: pow5In
+		colorFrom: 6ce5f5ff
+		colorTo: 508aad00
+		cone: 30
+		}
+	]
+	}
+	}
+]
+}

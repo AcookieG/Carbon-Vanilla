@@ -1,0 +1,18 @@
+{
+	"name": "rebuildddd",
+	"type": "BuildTurret",
+	"health": 999999999,
+	"size": 2,
+	"reload": 1,
+	"range": 80000,
+	"ammoUseEffect": "none",
+	"rotateSpeed": 180,
+	"targetAir": false
+	"targetInterval": 1
+	"buildSpeed": 50
+	"requirements": [
+		{ "item": "sadn", "amount": 1 },
+	],
+	"category": "logic",
+	"research": "ripple"
+}

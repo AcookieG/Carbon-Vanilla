@@ -1,0 +1,28 @@
+{
+	"type": "CellLiquid",
+	"moveThroughBlocks": true,
+	"canStayOn": ["water", "oil", "cryofluid"],
+	"incinerable": true,
+	"spreadDamage": 0.1,
+	"cells": 8
+	"capPuddles": false,
+	"maxSpread": 2000,
+	"name": "Still Water",
+	"description": "A byproduct of most oil-based reactors. Will slowly eat away at your base.",
+	"coolant": true,
+	"color": "8bbeb0",
+	"colorFrom": "5e988d",
+	"colorTo": "8bbeb0",
+	"gas": false
+	"lightColor": "8bbeb000"
+	"spreadTarget": "pressure",
+	"blockReactive": true,
+	"viscosity": 0.9,
+	"heatCapacity": 0.3,
+	"explosiveness": 0,
+	"temperature": 0.5,
+	"flammability": 0.0,
+	"research": "water",
+	"effect": "slow"
+	"removeScaling": 0,
+}

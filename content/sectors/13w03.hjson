@@ -1,0 +1,20 @@
+localizedName: Crossroads
+description: 
+''' 
+		Welcome to the Grand Crossroad, the largest accessible area of Oodun.
+		Prepare defenses quickly and dominate the battlefield.
+''' 
+captureWave: 20
+planet: Oodun
+sector: 47
+research: {
+  parent: 13w02
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 13w02
+    }
+  ]
+}
+difficulty: 2
+alwaysUnlocked: false

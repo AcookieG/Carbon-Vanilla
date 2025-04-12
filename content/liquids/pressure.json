@@ -1,0 +1,21 @@
+{
+	"type": "Liquid",
+	"moveThroughBlocks": false,
+	"canStayOn": [],
+	"incinerable": true,
+	"name": "Pressure",
+	"description": "A part of the atmosphere trapped in pipes and canisters. Hot.",
+	"coolant": false,
+	"color": "c1c3d4",
+	"colorFrom": "c1c3d4",
+	"colorTo": "f4f4f4",
+	"gasColor": "c1c3d4"
+	"blockReactive": true,
+	"viscosity": 0.5,
+	"heatCapacity": 0,
+	"explosiveness": 0.2,
+	"temperature": 0.7,
+	"flammability": 0.0,
+	"research": wtr,
+	"gas": true,
+}

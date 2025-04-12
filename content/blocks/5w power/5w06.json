@@ -1,0 +1,78 @@
+{
+	"name": "Large Oil Burner",
+	"details": '''
+And thus, Sharded kept on exploring new territories in hopes of fleeing the spores of Serpulo, or the Neoplasm from Erekir...
+But they were not running away from the danger,
+They are the danger.
+'''
+	"description": "Burns through liters of Oil to generate more power. Explodes if impurities are not instantly removed."
+	"type": "ConsumeGenerator"
+	"size": 3,
+	"health": 230,
+	"liquidCapacity": 30,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"baseExplosiveness": 0.2,
+	"explosionRadius": 40,
+	"explosionDamage": 90,
+	"explosionShake": 0.6,
+	"powerProduction": 14,
+	"requirements": [
+		{ "item": "graph", "amount": 90 },
+		{ "item": "sili", "amount": 80 },
+		{ "item": "dense", "amount": 20 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion"
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "i",
+				"padding": 3
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "stillwater",
+				"padding": 3
+			},
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawGlowRegion"
+			},
+		]
+	},
+	"consumes": {
+		"liquid": {"liquid": "i", "amount": 0.3},
+	},
+	"outputLiquid": {"liquid": "stillwater", "amount": 0.03},
+	"explodeOnFull": true
+	"category": "power",
+	"conductivePower": true
+	"rotate": false
+	"loopSound": "hum",
+	"loopSoundVolume": 0.1,
+research: {
+  parent: 5w05
+  objectives: [
+    {
+      type: OnSector
+      preset: 13w03
+    }
+  ]
+}
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.1,
+	"itemDuration": 60,
+	"squareSprite": false,
+	          explosionPuddles: 80
+            explosionPuddleRange: 30
+            explosionPuddleLiquid: stillwater
+            explosionPuddleAmount: 2000
+}

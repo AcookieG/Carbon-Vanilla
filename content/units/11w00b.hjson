@@ -1,0 +1,123 @@
+{
+type: missile
+controller: MissileAI
+template: MissileUnitType 
+lowAltitude: false
+speed: 10
+rotateSpeed: 0.6
+lifetime: 3000
+physics: false
+flying: true
+hidden: false
+health: 2500
+hitSize: 12
+engineLayer: 110
+trailColor: FFFFffff
+missileAccelTime: 120
+engineOffset: 20
+engineSize: 2
+drawCell: false
+engineColor: FFFFffff
+outlineColor: 00000000
+maxRange: 100
+trailLength: 1
+range: 100
+shootOnDeath: true
+weapons: [
+	{
+	shootOnDeath: true
+	controllable: true
+	shootSound: explosionBig
+	shootCone: 90
+	mirror: false
+	rotateSpeed: 36
+	bullet: {
+		type: BasicBulletType
+		killShooter: true
+		instantDisappear: true
+		hitSound: explosionBig
+		hitSoundVolume: 30
+		damage: 1
+		lifeTime: 30
+		speed: 32
+		width: 20
+		height: 20
+		collidesAir: false
+		collidesGround: false
+		collidesTiles: false
+		hittable: false
+		reflectable: false
+		absorbable: false
+		despawnShake: 60
+		shootEffect: none
+			keepVelocity: false
+			lightning: 70
+			lightningDamage: 8000
+			lightningCone: 360
+			lightningLengthRand: 30
+			lightningLength: 10
+		despawnEffect: {
+		type: multiEffect
+		effects: [
+			{
+			type: ExplosionEffect
+			lifetime: 500
+			waveRad: 40
+			waveLife: 360
+			waveStroke: 30
+			smokeColor: ffffa3ff
+			smokeSize: 80
+			smokes: 100
+			smokeRad: 200
+			sparks: 50
+			sparkRad: 500
+			sparkStroke: 10
+			sparkLen: 15
+			}
+			{
+			type: ExplosionEffect
+			lifetime: 500
+			waveRad: 80
+			waveLife: 300
+			waveStroke: 3
+			smokeColor: ffffff88
+			smokeSize: 100
+			smokes: 80
+			smokeRad: 220
+			sparks: 50
+			sparkRad: 500
+			sparkStroke: 10
+			sparkLen: 15
+			sparkColor: ffffa3ff
+			waveColor: ffffffff
+			}
+		]
+		}
+		intervalBullets: 3000
+		intervalSpread: 1
+		bulletInterval: 1
+		intervalBullet: {
+      			type: FireBulletType
+			colorFrom: 00000010
+			colorMid: 00000010
+			colorTo: 00000010
+			damage: 22000
+			instantDisapear: false
+			velMin: 5
+			velMax: 20
+			lifetime: 1000
+			despawnEffect: scatheExplosion
+			collidesAir: false
+			collidesGround: false
+			collidesTiles: false
+			hittable: false
+			reflectable: false
+			absorbable: true
+			width: 180
+			height: 180
+			keepVelocity: false
+		}
+	}
+}
+]
+}

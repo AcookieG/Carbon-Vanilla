@@ -1,0 +1,28 @@
+{
+	"name": "Corrector",
+	"description": "A large structure to repair blocks.",
+	"type": "RegenProjector",
+	"health": 220,
+	"size": 2,
+	"hasPower": true,
+	"range": 14,
+	"healPercent": 0.1,
+	"consumes": {
+		"liquid": {
+			"liquid": "wtr", 
+			"amount": 0.2,
+			"optional": false,
+		}
+		"power": 1.5
+	},
+	"optionalMultiplier":	2
+	"effectChance": 0.04
+	"requirements": [
+		{"item": "dense", "amount": 20},
+		{"item": "graph", "amount": 110},
+		{"item": "coppa", "amount": 90},
+	],
+	"category": "effect",
+	"research": "9w06"
+			"conductivePower": true
+}

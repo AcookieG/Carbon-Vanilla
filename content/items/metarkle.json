@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Metarkle Brick",
+	"description": "A pressed brick of Canolla. Highly unstable, makes for great fuel. Charged with Hydrogen.",
+	"cost": 2.0,
+	"flammability": 2.0,
+	"radioactivity": 0.0,
+	"explosiveness": 8.0,
+	"charge": 0.0,
+	"color": "ce735e"
+	research: canolla
+}

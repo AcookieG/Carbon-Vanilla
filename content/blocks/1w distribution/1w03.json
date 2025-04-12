@@ -1,0 +1,15 @@
+{
+	"type": "DuctBridge",
+	"name": "Duct Bridge",
+	"health": 40,
+	"hasPower": false
+	"requirements": [
+		{"item": "scrp", "amount": 10},
+		{"item": "slate", "amount": 10},
+	],
+	"category": "distribution",
+	"speed": 5,
+	"range": 4,
+	"research": "1w01"
+	"squareSprite": false,
+}

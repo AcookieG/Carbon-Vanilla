@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Graphite",
+	"description": "Packed carbon, used in waterworks and construction.",
+	"cost": 1.1,
+	"flammability": 0.1,
+	"radioactivity": 0.0,
+	"explosiveness": 0.1,
+	"charge": 0.0
+	"color": "b2c6d2"
+	research: slate
+}

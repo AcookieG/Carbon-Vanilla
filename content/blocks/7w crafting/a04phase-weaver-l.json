@@ -1,0 +1,65 @@
+{
+	"name": "Large Phase Weaver",
+	"type": "AttributeCrafter"
+	"size": 3,
+	"health": 330,
+	"itemCapacity": 60,
+	"hasLiquids": false,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "none",
+	"craftEffect": "smeltsmoke",
+	"attribute": "heat"
+	"boostScale": 0.5
+	"minEfficiency": 0.25
+	"maxBoost": 3
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawWeave"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+	"consumes": {
+		"power": 12,
+		"items": {
+			"items": [
+				{
+				"item": "thorium",
+				"amount": 5,
+				}
+				{
+				"item": "sand",
+				"amount": 8,
+				}
+				{
+				"item": "graphite",
+				"amount": 2,
+				}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "thorium", "amount": 90 },
+		{ "item": "metaglass", "amount": 60 },
+	],
+	"category": "crafting",
+	"rotate": false
+	"research": "phase-weaver",
+	"idleSound": "techloop",
+	"idleSoundVolume": 0.03,
+	"outputItem": {
+		"item": "phase-fabric",
+		"amount": 5
+	},
+	"craftTime": 30,
+}
