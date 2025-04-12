@@ -17,7 +17,7 @@
     ],
 	"category": "effect",
 	"rotate": false
-	"research": "surge-smelter",
+	"research": "9w01",
 	"idleSound": "none",
 	"outputItems": [
 		{ "item": "scrap", "amount": 60 },
