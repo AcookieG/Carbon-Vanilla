@@ -1,0 +1,146 @@
+{
+	"name": "Tester",
+	"description": "Description.",
+	"details": "Details"
+	"type": "ItemTurret",
+	"health": 10,
+	"size": 1,
+	"reload": 1,
+	"range": 1000,
+	"fogRadius": 10,
+	"ammoUseEffect": "casing1",
+	"shootSound": "shoot",
+	"shootCone": 45,
+	"hasLiquids": true,
+	"shoot": {
+		"type": "ShootPattern",
+		"shots": 3
+		"spread": 0
+		"shotDelay": 6
+	},
+	"outlineRadius": 4,
+	"squareSprite": false,
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-"
+	},
+	"ammoTypes": {
+		"scrp": {
+"type": "BasicBulletType",
+lifetime:30,
+speed:4.0,
+drag:0.0,
+accel:0.0,
+backColor:f9c27aff,
+frontColor:fff8e8ff,
+width:5.0,
+height:7.0,
+shrinkX:0.0,
+ShrinkY:0.5,
+shrinkInterp:linear,
+sprite:bullet,
+damage:1,
+hitSize:1,
+drawSize:1,
+
+hitEffect:hitBulletSmall,
+despawnEffect:hitBulletSmall,
+shootEffect:shootSmall,
+smokeEffect:shootSmallSmoke,
+inaccuracy:0.0,
+ammoMultiplier:2.0,
+reloadMultiplier:1.0,
+rangeChange:0.0,
+
+velocityScaleRandMin:1.0,
+velocityScaleRandMax:1.0,
+lifeScaleRandMin:1.0,
+lifeScaleRandMax:1.0,
+
+pierce:false,
+pierceBuilding:false,
+pierceCap:-1,
+pierceDamageFactor:0.0,
+buildingDamageMultiplier:1.0,
+shieldDamageMultiplier:1.0,
+
+status:none,
+statusDuration:480,
+
+scaleLife:false,
+despawnShake:0.0,
+spawnUnit:null,
+instantDisappear:false,
+
+collidesTiles:true,
+collidesTeam:false,
+collidesAir:true,
+collidesGround:true,
+hittable:true,
+reflectable:true,
+absorbable:true,
+
+healPercent:0.0,
+healAmount:0.0,
+
+fragBullet:{},
+fragRandomSpread:360,
+fragSpread:0.0,
+fragBullets:0.0,
+fragVelocityMin:0.2,
+fragVelocityMax:1.0,
+fragLifeMin:1.0,
+fragLifeMax:1.0,
+
+intervalBullet:{},
+bulletInterval:20,
+intervalBullets:0,
+intervalRandomSpread:0.0,
+intervalSpread:15.0,
+
+createChance:1.0,
+
+parts:none,
+
+trailColor:e58956ff,
+trailChance:1.0,
+trailInterval:1,
+trailParam:2.0,
+trailLength:2.0,
+
+splashDamage:0,
+splashDamageRadius:20.0,
+
+makeFire:false,
+incendAmount:2.0,
+incendSpread:8.0,
+incendChance:0.0,
+
+homingPower:0.0,
+homingRange:40.0,
+
+lightningColor:f3e979ff,
+lightning:0,
+lightningLength:5.0,
+lightningLengthRand:0.0,
+lightningDamage:40,
+lightningCone:360,
+lightningAngle:0.0,
+
+weaveScale:1.0,
+weaveMag:1.0,
+},
+	},
+	"consumes": {
+		"coolant": {
+		"amount": 0.2
+		}
+	},
+	"coolantMultiplier": 3
+	"requirements": [
+		{ "item": "sadn", "amount": 1 },
+	],
+	"buildCostMultiplier": 9999999999,
+	"category": "turret",
+	"research": "9w01"
+}
