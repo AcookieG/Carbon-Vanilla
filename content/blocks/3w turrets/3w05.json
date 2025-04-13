@@ -31,7 +31,7 @@
 		"scrp": {
 "type": "BasicBulletType",
 lifetime:1,
-speed:1.0,
+speed:-2.0,
 drag:0.0,
 accel:0.0,
 
@@ -82,7 +82,7 @@ fragBullet:{
 	despawnEffect:flakExplosion,
 	
 	trailColor:9b928bff,
-	trailChance:1.0,
+	trailChance:0.2,
 	trailInterval:1,
 	trailParam:2.0,
 	trailLength:0.0,

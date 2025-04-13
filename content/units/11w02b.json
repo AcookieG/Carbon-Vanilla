@@ -6,9 +6,9 @@
 	
 		"flying": true,
 	"rotateSpeed": 4,
-	"speed": 18,
-	"accel": 0.02,
-	"drag": 0.06,
+	"speed": 20,
+	"accel": 0.006,
+	"drag": 0.05,
 	
 	"range": 150,
 	"hitSize": 20,
@@ -38,12 +38,12 @@ engines: [
 	
 	"weapons": [
 		{
-			"name": "11w02b-gun",
-			"alternate": true,
+			"name": "clear",
+			"alternate": false,
 			"ignoreRotation": true,
 			"reload": 36,
 			"inaccuracy": 0,
-			"shootSound": "shoot"
+			"shootSound": "shootAlt"
 			"rotate": true
 			"shake": 0.0
 			"shootCone": 30,
@@ -52,7 +52,7 @@ engines: [
 			"shootY": 2
 			"mirror": true
 			"shootEffect": "shootBig"
-			"rotateSpeed": 3,
+			"rotateSpeed": 0,
 			"bullet": {
 			"type": "BasicBulletType",
 lifetime:22,
@@ -83,10 +83,10 @@ status:burning,
 statusDuration:480,
 
 trailColor:e58956ff,
-trailChance:0.5,
+trailChance:0.0,
 trailInterval:1,
 trailParam:2.0,
-trailLength:-1,
+trailLength:2.0,
 
 makeFire:true,
 incendAmount:2.0,

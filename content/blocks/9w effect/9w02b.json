@@ -1,0 +1,21 @@
+{
+	"type": "CoreBlock",
+	"name": "Sky Anchor"
+	"size": 3,
+	"itemCapacity": 1000,
+	"hasItems": true,
+	"health": 750,
+	"isFirstTier": false
+	"requirements": [
+		{"item": "canolla", "amount": 600},
+		{"item": "graph", "amount": 1200},
+		{"item": "dense", "amount": 200}
+	]
+	"research": "9w02a",
+	"category": "effect",
+	"unitType": "11w02a"
+	"squareSprite": false,
+	"unitCapModifier": 8
+	"researchCostMultiplier": 0.1
+	"fogRadius": 9,
+}

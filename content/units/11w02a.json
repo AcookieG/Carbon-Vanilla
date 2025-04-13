@@ -7,9 +7,9 @@
 		"flying": true,
 	"range": 100,
 	"rotateSpeed": 6,
-	"speed": 16,
-	"accel": 0.01,
-	"drag": 0.05,
+	"speed": 20,
+	"accel": 0.003,
+	"drag": 0.03,
 	
 	"hitSize": 12,
 	
@@ -19,6 +19,8 @@
 	"engineSize": 3.0,
 	"trailLength": 5,
 	AlwaysUnlocked: true
+		"buildSpeed": 0.75,
+	"buildBeamOffset": 4,
 	
 	"weapons": [
 		{
@@ -28,7 +30,7 @@
 			"reload": 72,
 			"ejectEffect": "none",
 			"inaccuracy": 0,
-			"shootSound": "shoot"
+			"shootSound": "laser"
 			"rotate": true
 			"shake": 0.0
 			"shootCone": 30,
@@ -44,6 +46,7 @@
         hitSound: spark
         buildingDamageMultiplier: 0.7
         damage: 90
+				colors:[bd4068,ff7066,ffffff]
 			},
 		}
 	]
