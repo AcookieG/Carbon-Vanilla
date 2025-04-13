@@ -195,15 +195,15 @@ fragBullet:{
 	backColor:f9c27aff,
 	frontColor:d99d73,
 	hitColor:d99d73,
-	width:4.5,
-	height:7.5,
-	shrinkX:0.05,
-	ShrinkY:0.4,
+	width:8.0,
+	height:12.0,
+	shrinkX:0.0,
+	ShrinkY:0.5,
 	damage:40,
 	hitSize:4,
 	drawSize:120,
 
-	knockback:3
+	knockback:3.5
 
 	trailColor:d99d73,
 	trailChance:0.0,
@@ -211,6 +211,65 @@ fragBullet:{
 	trailParam:2.0,
 	trailEffect:none,
 	trailLength:5.0,
+
+	hitEffect:hitSquaresColor,
+	despawnEffect:hitSquaresColor,
+			},
+		},
+		"dense": {
+"type": "BasicBulletType",
+damage:0.0,
+lifetime:1,
+speed:1.0,
+drag:0.0,
+accel:0.0,
+
+hitEffect:none,
+despawnEffect:none,
+shootEffect:shootBig,
+smokeEffect:shootSmokeSquareBig,
+ammoMultiplier:4,
+reloadMultiplier:0.5,
+
+instantDisappear:true,
+
+collidesTiles:false,
+collidesTeam:false,
+collidesAir:false,
+collidesGround:false,
+hittable:false,
+reflectable:false,
+absorbable:false,
+
+fragRandomSpread:0.0,
+fragSpread:2.0,
+fragBullets:20,
+fragVelocityMin:1.0,
+fragVelocityMax:1.0,
+fragLifeMin:1.0,
+fragLifeMax:1.0,
+fragBullet:{
+	"type": "BasicBulletType",
+	lifetime:24,
+	speed:5.0,
+	backColor:f9c27aff,
+	frontColor:3c3c4f,
+	hitColor:3c3c4f,
+	width:8.0,
+	height:12.0,
+	shrinkX:0.05,
+	ShrinkY:0.4,
+	damage:106.5,
+	hitSize:4,
+	drawSize:160,
+
+	knockback:8
+
+	trailColor:3c3c4f,
+	trailChance:0.3,
+	trailInterval:0,
+	trailParam:3.0,
+	trailLength:0.0,
 
 	hitEffect:hitSquaresColor,
 	despawnEffect:hitSquaresColor,
@@ -256,15 +315,15 @@ fragBullet:{
 	backColor:f9c27aff,
 	frontColor:526570,
 	hitColor:526570,
-	width:4.5,
-	height:7.5,
-	shrinkX:0.05,
-	ShrinkY:0.4,
+	width:8.0,
+	height:12.0,
+	shrinkX:0.0,
+	ShrinkY:0.5,
 	damage:42.5,
 	hitSize:4,
 	drawSize:120,
 
-	knockback:3
+	knockback:2
 
 	trailColor:526570,
 	trailChance:0.1,
