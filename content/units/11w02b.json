@@ -7,8 +7,8 @@
 		"flying": true,
 	"rotateSpeed": 4,
 	"speed": 20,
-	"accel": 0.006,
-	"drag": 0.05,
+	"accel": 0.01,
+	"drag": 0.03,
 	
 	"range": 150,
 	"hitSize": 20,
@@ -16,20 +16,20 @@
 	"itemCapacity": 0,
 	
 	"engineOffset": 8,
-	"engineSize": 3,
+	"engineSize": 0,
 	"trailLength": 3,
 engines: [
   {
     x: -3
     y: -10
-    radius: 2.5
+    radius: 2.0
     rotation: -90
 		trailLength: 2.5,
   }
   {
     x: 3
     y: -10
-    radius: 2.5
+    radius: 2.0
     rotation: -90
 		trailLength: 2.5,
   }
@@ -95,6 +95,7 @@ incendChance:0.5,
 
 weaveScale:2.0,
 weaveMag:9.0,
+weaveRandom:false
 		}
 		}
 	]

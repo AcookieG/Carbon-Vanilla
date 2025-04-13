@@ -8,8 +8,8 @@
 	"range": 100,
 	"rotateSpeed": 6,
 	"speed": 20,
-	"accel": 0.003,
-	"drag": 0.03,
+	"accel": 0.006,
+	"drag": 0.02,
 	
 	"hitSize": 12,
 	
