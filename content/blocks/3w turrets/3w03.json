@@ -76,7 +76,7 @@
 	},
 	"requirements": [
 		{ "item": "graph", "amount": 60 },
-		{ "item": "iron", "amount": 10 },
+		{ "item": "iron", "amount": 22 },
 	],
 	"category": "turret",
 	"research": "3w01"

@@ -1,8 +1,9 @@
 {
 	"name": "Radar",
 	"description": "To conquer new places.",
+	"details": "Let there be light upon this desolate sea."
 	"type": "Radar",
-	"health": 120,
+	"health": 820,
 	"size": 1,
 	"hasPower": true,
 	"hasItems": false,

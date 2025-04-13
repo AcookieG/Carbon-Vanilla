@@ -3,9 +3,9 @@
 	"description": '''
 	Fires three bullets in quick succession. Highly versatile depending on the ammo.
 	''',
-	"details": "Look at how cute it is!"
+	"details": "The first turret implanted in the planet. Evolved from the same thinking as Duo. 120dps."
 	"type": "ItemTurret",
-	"health": 310,
+	"health": 610,
 	"size": 1,
 	"reload": 60,
 	"range": 150,
@@ -28,7 +28,7 @@
 	},
 	"ammoTypes": {
 		"scrp": {
-"type": "FlakBulletType",
+"type": "ArtilleryBulletType",
 lifetime:30,
 speed:5.0,
 backColor:9b928bff,
@@ -52,6 +52,15 @@ splashDamageRadius:20.0,
 
 hitEffect:flakExplosion,
 despawnEffect:flakExplosion,
+
+shrinkInterp:linear,
+sprite:bullet,
+shootEffect:shootSmall,
+smokeEffect:shootSmallSmoke,
+trailChance:0.0,
+hitShake:0.0
+despawnShake:0.0
+scaleLife:true,
 		},
 		"slate": {
 "type": "BasicBulletType",
@@ -77,7 +86,6 @@ pierceCap:3,
 buildingDamageMultiplier:1.0,
 shieldDamageMultiplier:0.5,
 knockback:-0.5
-
 
 trailColor:708d94,
 trailChance:0.0,
@@ -108,6 +116,13 @@ rangeChange:0.0,
 
 homingPower:0.05,
 homingRange:40.0,
+
+trailColor:8e9097,
+trailChance:0.0,
+trailInterval:0,
+trailParam:2.0,
+trailEffect:none,
+trailLength:5.0,
 		}
 		"iron": {
 "type": "ArtilleryBulletType",
@@ -203,10 +218,10 @@ weaveMag:9.0,
 	},
 	"consumes": {
 		"coolant": {
-		"amount": 0.2
+		"amount": 0.1
 		}
 	},
-	"coolantMultiplier": 3
+	"coolantMultiplier": 6
 	"requirements": [
 		{ "item": "sadn", "amount": 20 },
 		{ "item": "scrp", "amount": 20 },

@@ -9,6 +9,7 @@
 	"maxSpread": 2000,
 	"name": "Still Water",
 	"description": "A byproduct of most oil-based reactors. Will slowly eat away at your base.",
+		"details": "Yet all good things must come to an end."
 	"coolant": true,
 	"color": "8bbeb0",
 	"colorFrom": "5e988d",
@@ -22,7 +23,7 @@
 	"explosiveness": 0,
 	"temperature": 0.5,
 	"flammability": 0.0,
-	"research": "water",
+	"research": "oil",
 	"effect": "slow"
 	"removeScaling": 0,
 }

@@ -131,10 +131,10 @@ weaveMag:9.0,
 	},
 	"consumes": {
 		"coolant": {
-		"amount": 0.2
+		"amount": 0.1
 		}
 	},
-	"coolantMultiplier": 3
+	"coolantMultiplier": 6
 	"requirements": [
 		{ "item": "sadn", "amount": 1 },
 	],

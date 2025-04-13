@@ -2,8 +2,9 @@
 	"name": "Anthracite Burner",
 	"description": 
 '''
-Burns Anthracite to produce heat and power. Cleaner than those Oil Burners...
+Burns Anthracite to produce heat and power.
 '''
+	"details": "Cleaner than those Oil Burners..."
 	"type": "HeaterGenerator"
 	"size": 2,
 	"health": 80,

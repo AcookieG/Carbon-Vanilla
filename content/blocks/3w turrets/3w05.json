@@ -1,0 +1,98 @@
+{
+	"name": "Crash",
+	"description": '''
+	Fires walls of bullets at short ranges as deterrents.
+	''',
+	"details": "These mighty turrets would dominate the battlefield, until ranged artillery made everything obselete. 200dps."
+	"type": "ItemTurret",
+	"health": 1130,
+	"size": 3,
+	"reload": 40,
+	"range": 120,
+	"fogRadius": 8,
+	"ammoUseEffect": "casing2Double",
+	"shootSound": "shoot",
+	"shootCone": 50,
+	"hasLiquids": true,
+	"shoot": {
+		"type": "ShootPattern",
+		"shots": 1
+		"spread": 0
+		"shotDelay": 0
+	},
+	"outlineRadius": 4,
+	"squareSprite": false,
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-"
+	},
+	"ammoTypes": {
+		"scrp": {
+"type": "Basic",
+lifetime:1,
+speed:1.0,
+drag:0.0,
+accel:0.0,
+
+hitEffect:none,
+despawnEffect:none,
+shootEffect:shootBig,
+smokeEffect:shootBigSmoke,
+ammoMultiplier:2.0,
+reloadMultiplier:0.6,
+
+instantDisappear:true,
+
+collidesTiles:false,
+collidesTeam:false,
+collidesAir:false,
+collidesGround:false,
+hittable:false,
+reflectable:false,
+absorbable:false,
+
+fragRandomSpread:0.0,
+fragSpread:3.0,
+fragBullets:15,
+fragVelocityMin:0.8,
+fragVelocityMax:1.1,
+fragLifeMin:0.8,
+fragLifeMax:1.1,
+fragBullet:{
+	"type": "BasicBulletType",
+	lifetime:24,
+	speed:5.0,
+	backColor:9b928bff,
+	frontColor:e0b28dff,
+	width:5.0,
+	height:7.0,
+	shrinkX:0.0,
+	ShrinkY:0.5,
+	hitSize:4,
+	drawSize:40,
+	spin:6.5,
+
+	inaccuracy:12.0,
+	
+	damage:8,
+
+	hitEffect:flakExplosion,
+	despawnEffect:flakExplosion,
+			},
+		},
+	},
+	"consumes": {
+		"coolant": {
+		"amount": 0.1
+		}
+	},
+	"coolantMultiplier": 6
+	"requirements": [
+		{ "item": "graph", "amount": 100 },
+		{ "item": "iron", "amount": 70 },
+		{ "item": "sili", "amount": 50 },
+	],
+	"buildCostMultiplier": 1.0,
+	"category": "turret",
+	"research": "3w01"
+}

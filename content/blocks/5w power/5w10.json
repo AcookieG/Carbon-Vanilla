@@ -4,6 +4,7 @@
 '''
 Produces dangerous amounts of heat, at the cost of durability. Don't let it explode.
 '''
+	"details": "You are faced with two choices: keep exploiting Slag and Mercury as dangerous resources, or turn to fossil fuels. Your choice."
 	"type": "HeaterGenerator"
 	"size": 3,
 	"health": 110,
