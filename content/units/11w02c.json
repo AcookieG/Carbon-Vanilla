@@ -7,8 +7,8 @@
 		"flying": true,
 	"rotateSpeed": 4,
 	"speed": 10,
-	"accel": 0.01,
-	"drag": 0.03,
+	"accel": 0.012,
+	"drag": 0.02,
 	
 	"range": 150,
 	"hitSize": 20,
@@ -17,21 +17,18 @@
 	
 	"engineOffset": 8,
 	"engineSize": 0,
-	"trailLength": 3,
 engines: [
   {
     x: -3
     y: -10
     radius: 2.5
     rotation: -90
-		trailLength: 2.5,
   }
   {
     x: 3
     y: -10
     radius: 2.5
     rotation: -90
-		trailLength: 2.5,
   }
 ]
 	AlwaysUnlocked: true

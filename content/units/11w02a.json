@@ -8,8 +8,8 @@
 	"range": 100,
 	"rotateSpeed": 6,
 	"speed": 10,
-	"accel": 0.006,
-	"drag": 0.02,
+	"accel": 0.01,
+	"drag": 0.015,
 	
 	"hitSize": 12,
 	
@@ -17,7 +17,6 @@
 	
 	"engineOffset": 7.5,
 	"engineSize": 3.0,
-	"trailLength": 5,
 	AlwaysUnlocked: true
 		"buildSpeed": 0.75,
 	"buildBeamOffset": 4,
