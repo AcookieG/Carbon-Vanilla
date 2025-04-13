@@ -22,14 +22,14 @@ engines: [
   {
     x: -3
     y: -10
-    radius: 2.0
+    radius: 2.2
     rotation: -90
 		trailLength: 2.5,
   }
   {
     x: 3
     y: -10
-    radius: 2.0
+    radius: 2.2
     rotation: -90
 		trailLength: 2.5,
   }

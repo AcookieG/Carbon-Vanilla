@@ -14,7 +14,7 @@
 	"shootSound": "shootAltLong",
 	"shootCone": 50,
 	"hasLiquids": true,
-	"rotateSpeed": 1.4
+	"rotateSpeed": 2.5
 	"shootY":-3
 	"shoot": {
 		"type": "ShootPattern",
