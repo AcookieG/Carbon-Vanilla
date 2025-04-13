@@ -333,6 +333,9 @@ fragBullet:{
 
 	hitEffect:hitSquaresColor,
 	despawnEffect:hitSquaresColor,
+	
+	status:disarmed,
+	statusDuration:120,
 			},
 		},
 	},
