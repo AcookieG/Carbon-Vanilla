@@ -1,7 +1,7 @@
 {
 	"type": "flying",
 	"name": "Vulture",
-	"health": 560,
+	"health": 640,
 	"armor": 2,
 	
 		"flying": true,
