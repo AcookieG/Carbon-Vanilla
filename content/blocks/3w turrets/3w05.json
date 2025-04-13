@@ -14,7 +14,7 @@
 	"shootSound": "shootAltLong",
 	"shootCone": 50,
 	"hasLiquids": true,
-	"rotateSpeed": 2.5
+	"rotateSpeed": 3.6
 	"shootY":-3
 	"shoot": {
 		"type": "ShootPattern",
@@ -57,7 +57,7 @@ absorbable:false,
 fragRandomSpread:12.0,
 fragSpread:1.5,
 fragBullets:30,
-fragVelocityMin:0.4,
+fragVelocityMin:0.6,
 fragVelocityMax:1.1,
 fragLifeMin:0.3,
 fragLifeMax:1.1,
@@ -72,7 +72,7 @@ fragBullet:{
 	shrinkX:0.0,
 	ShrinkY:0.5,
 	hitSize:4,
-	drawSize:80,
+	drawSize:160,
 	spin:6.5,
 	knockback: 2,
 
@@ -133,7 +133,7 @@ shrinkX:0.05,
 ShrinkY:0.4,
 damage:26,
 hitSize:4,
-drawSize:80,
+drawSize:120,
 
 pierce:true,
 pierceBuilding:true,

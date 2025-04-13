@@ -75,7 +75,7 @@ shrinkInterp:linear,
 sprite:missile,
 damage:120,
 hitSize:4,
-drawSize:80,
+drawSize:120,
 spin:0.0
 
 hitEffect:blastExplosion,
