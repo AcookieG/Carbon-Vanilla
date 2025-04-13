@@ -33,6 +33,8 @@ drag:0.0,
 accel:0.0,
 backColor:f9c27aff,
 frontColor:fff8e8ff,
+hitColor:fff8e8ff,
+
 width:8.0,
 height:12.0,
 shrinkX:0.0,
