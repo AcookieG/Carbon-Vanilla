@@ -61,6 +61,7 @@ trailChance:0.0,
 hitShake:0.0
 despawnShake:0.0
 scaleLife:true,
+collidesAir:true,
 		},
 		"slate": {
 "type": "BasicBulletType",
@@ -159,6 +160,7 @@ splashDamageRadius:30.0,
 trailChance:0.0,
 hitShake:0.0
 despawnShake:0.0
+collidesAir:true,
 
 fragBullets:4
 fragVelocityMin:0.1,

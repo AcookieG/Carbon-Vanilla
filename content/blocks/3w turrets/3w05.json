@@ -3,17 +3,18 @@
 	"description": '''
 	Fires walls of bullets at short ranges as deterrents.
 	''',
-	"details": "These mighty turrets would dominate the battlefield, until ranged artillery made everything obselete. 200dps."
+	"details": "These mighty turrets would dominate the battlefield, until ranged artillery made everything obselete. 800dps."
 	"type": "ItemTurret",
 	"health": 1130,
 	"size": 3,
 	"reload": 40,
 	"range": 120,
 	"fogRadius": 8,
-	"ammoUseEffect": "casing2Double",
-	"shootSound": "shoot",
+	"ammoUseEffect": "casing4",
+	"shootSound": "shootAltLong",
 	"shootCone": 50,
 	"hasLiquids": true,
+	"rotateSpeed": 1.4
 	"shoot": {
 		"type": "ShootPattern",
 		"shots": 1
@@ -28,7 +29,7 @@
 	},
 	"ammoTypes": {
 		"scrp": {
-"type": "Basic",
+"type": "BasicBulletType",
 lifetime:1,
 speed:1.0,
 drag:0.0,
@@ -52,11 +53,11 @@ reflectable:false,
 absorbable:false,
 
 fragRandomSpread:0.0,
-fragSpread:3.0,
-fragBullets:15,
-fragVelocityMin:0.8,
+fragSpread:1.5,
+fragBullets:30,
+fragVelocityMin:0.9,
 fragVelocityMax:1.1,
-fragLifeMin:0.8,
+fragLifeMin:0.6,
 fragLifeMax:1.1,
 fragBullet:{
 	"type": "BasicBulletType",
@@ -69,15 +70,22 @@ fragBullet:{
 	shrinkX:0.0,
 	ShrinkY:0.5,
 	hitSize:4,
-	drawSize:40,
+	drawSize:60,
 	spin:6.5,
+	knockback: 2,
 
 	inaccuracy:12.0,
 	
-	damage:8,
+	damage:15,
 
 	hitEffect:flakExplosion,
 	despawnEffect:flakExplosion,
+	
+	trailColor:9b928bff,
+	trailChance:1.0,
+	trailInterval:1,
+	trailParam:2.0,
+	trailLength:0.0,
 			},
 		},
 	},
