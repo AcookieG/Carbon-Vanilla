@@ -61,7 +61,7 @@ Part of a large power plant.
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "superheat",
+				"drawLiquid": "metal",
 				"padding": 1.25
 			},
 
@@ -205,7 +205,7 @@ midColor: ad74f7
 	"consumes": {
 		"power": 2500,
 		"liquids": [
-			"liquidheat/20"
+			"metal/20"
 		]
 		"items": {
 			"items": [

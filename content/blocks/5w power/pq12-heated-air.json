@@ -57,7 +57,7 @@ WARNING: TO BE PROTECTED AT ANY COSTS; YOU WILL NOT HAVE A SECOND CHANCE.
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "liquidheat",
+				"drawLiquid": "metal",
 				"padding": 0
 			},
 			{
@@ -127,7 +127,7 @@ WARNING: TO BE PROTECTED AT ANY COSTS; YOU WILL NOT HAVE A SECOND CHANCE.
 	"consumes": {
 		"power": 250,
 		"liquids": [
-			"liquidheat/6"
+			"metal/6"
 		]
 	},
 	"updateEffect": {

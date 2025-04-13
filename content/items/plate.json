@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Insulator Plate",
+	"description": "A heat and power-resistant shell used in high-end structures.",
+	"cost": 2.4
+	"flammability": -1.0,
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"charge": -1.0,
+	"color": "5d6672"
+	research: dense
+}

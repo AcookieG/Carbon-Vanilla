@@ -30,7 +30,7 @@
 	"consumes": {
 		"power": 5,
       "liquid": {
-			"liquid": "liquidheat",
+			"liquid": "metal",
 			"amount": 0.85
 		},
 	},

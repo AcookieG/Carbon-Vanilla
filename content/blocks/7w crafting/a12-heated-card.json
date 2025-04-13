@@ -113,7 +113,7 @@ Conducts power.
 	"ambientSound": "hum",
 	"ambientSoundVolume": 2,
 	"outputLiquid": {
-		"liquid": "liquidheat",
+		"liquid": "metal",
 		"amount": 1
 	},
 	"craftTime": 1,
