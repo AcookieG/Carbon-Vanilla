@@ -181,7 +181,7 @@ reflectable:false,
 absorbable:false,
 
 fragRandomSpread:0.0,
-fragSpread:1.5,
+fragSpread:2.0,
 fragBullets:20,
 fragVelocityMin:1.0,
 fragVelocityMax:1.0,

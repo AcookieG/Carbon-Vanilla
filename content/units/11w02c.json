@@ -6,7 +6,7 @@
 	
 		"flying": true,
 	"rotateSpeed": 4,
-	"speed": 20,
+	"speed": 10,
 	"accel": 0.01,
 	"drag": 0.03,
 	
@@ -48,8 +48,7 @@ engines: [
 			"shake": 0.0
 			"shootCone": 30,
 			"x": 6
-			"y": -2
-			"shootY": 2
+			"y": 0
 			"mirror": true
 			"shootEffect": "shootBig"
 			"rotateSpeed": 0,
@@ -57,7 +56,7 @@ engines: [
 		"type": "ShootPattern",
 		"shots": 3
 		"spread": 5
-		"shotDelay": 0
+		"shotDelay": 2
 	},
 			"bullet": {
 			"type": "BasicBulletType",
@@ -80,7 +79,6 @@ spin:0.0
 
 hitEffect:blastExplosion,
 despawnEffect:blastExplosion,
-reloadMultiplier:1.0,
 
 status:burning,
 statusDuration:480,
@@ -89,7 +87,7 @@ trailColor:e58956ff,
 trailChance:0.0,
 trailInterval:1,
 trailParam:2.0,
-trailLength:2.0,
+trailLength:0.0,
 
 makeFire:true,
 incendAmount:2.0,
@@ -100,13 +98,5 @@ incendChance:0.5,
 	]
 	"outlineColor": 2c2d38,
 	"fogRadius": 0,
-	"research": {
-		"parent": "11w02a"
-		"requirements": [
-			{
-				"item": "sand",
-				"amount": 1
-			},
-		]
-	}
+	"research": 11w02a
 }

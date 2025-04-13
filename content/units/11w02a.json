@@ -7,7 +7,7 @@
 		"flying": true,
 	"range": 100,
 	"rotateSpeed": 6,
-	"speed": 20,
+	"speed": 10,
 	"accel": 0.006,
 	"drag": 0.02,
 	
@@ -52,13 +52,5 @@
 	]
 	"outlineColor": 2c2d38,
 	"fogRadius": 0,
-	"research": {
-		"parent": "11w02a"
-		"requirements": [
-			{
-				"item": "sand",
-				"amount": 1
-			},
-		]
-	}
+	"research": 11w01
 }
