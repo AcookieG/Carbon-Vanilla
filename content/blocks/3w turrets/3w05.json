@@ -12,7 +12,7 @@
 	"fogRadius": 8,
 	"ammoUseEffect": "casing4",
 	"shootSound": "shootAltLong",
-	"shootCone": 50,
+	"shootCone": 40,
 	"hasLiquids": true,
 	"rotateSpeed": 3.6
 	"shootY":-3
