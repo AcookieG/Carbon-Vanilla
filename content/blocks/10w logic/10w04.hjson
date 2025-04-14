@@ -5,7 +5,7 @@ category: logic
 research: 9w01
 requirements: [
 	{"item": "circuit", "amount": 40}
-	{"item": "sili", "amount": 40}
+	{"item": "sili", "amount": 180}
 	{"item": "sadn", "amount": 120}
 ]
 instructionsPerTick: 100,
@@ -13,5 +13,5 @@ maxInstructionsPerTick: 6000,
 range: 240,
 size: 1
 "consumes": {
-		"power": 0.1
+		"power": 1.0
 	},
