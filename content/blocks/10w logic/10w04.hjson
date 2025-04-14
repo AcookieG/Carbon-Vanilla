@@ -1,14 +1,16 @@
 type: LogicBlock
 name: Microcontroler
-description: Runs logic and controls units or buildings. Requires Power. Runs at 60fps.
+description: Runs logic and controls units or buildings. Requires Power. Runs at 6000fps.
 category: logic
 research: 9w01
 requirements: [
-	{"item": "graph", "amount": 40}
+	{"item": "circuit", "amount": 40}
 	{"item": "sili", "amount": 40}
 	{"item": "sadn", "amount": 120}
 ]
-instructionsPerTick: 1
+instructionsPerTick: 100,
+maxInstructionsPerTick: 6000,
+range: 240,
 size: 1
 "consumes": {
 		"power": 0.1

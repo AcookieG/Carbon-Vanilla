@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Thermal Rod",
-	"description": "A metalic container storing high amounts of thermal energy.  [salmon]Pyrotechnics. 400%",
+	"description": "A metalic container storing high amounts of thermal energy.  [salmon]Pyrotechnics. 600%",
 	"cost": 2.4
 	"flammability": 5.0,
 	"radioactivity": 0.0,

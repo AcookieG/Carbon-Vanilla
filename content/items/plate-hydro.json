@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Fusion Rod",
-	"description": "A cell containing high amounts of chemical energy.  [salmon]Shockwaves. 400%",
+	"description": "A cell containing high amounts of chemical energy.  [salmon]Shockwaves. 800%",
 	"cost": 2.4
 	"flammability": 0.0,
 	"radioactivity": 5.0,
