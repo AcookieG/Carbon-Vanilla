@@ -288,8 +288,8 @@ fragBullet:{
 
 	trailColor:50477b,
 	trailChance:0.3,
-	trailInterval:0,
-	trailParam4.0,
+	trailInterval:0.0,
+	trailParam:4.0,
 	trailLength:0.0,
 
 	shootEffect:shootBig,
