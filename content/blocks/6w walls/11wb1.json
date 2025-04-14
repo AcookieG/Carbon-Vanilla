@@ -3,7 +3,7 @@
 	"health": 1,
 	"size": 1,
 	"requirements": [
-		{ "item": "snad", "amount": 1 }
+		{ "item": "sadn", "amount": 1 }
 	],
 	"armor": 2,
 	"category": "defense",
