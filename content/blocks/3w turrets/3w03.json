@@ -65,7 +65,7 @@
 },
 "metal": {
 	"type": "liquidBulletType",
-	"liquid": stillwater
+	"liquid": water
 	"knockback": 1.1,
 	"damage": 18,
 	"drag": 0.001,

@@ -31,11 +31,6 @@
 	"ammoTypes": {
 		"scrp": {
 "type": "BasicBulletType",
-collidesTeam:true,
-
-
-
-
 lifetime:30,
 speed:6.0,
 drag:0.0,
