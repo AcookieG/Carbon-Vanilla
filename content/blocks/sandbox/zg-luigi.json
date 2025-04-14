@@ -4,7 +4,9 @@
     "name": "DOOMe",
     "description": "lol.",
     "size": 2,
-    "health": 500000,
+    "health": 999999999,
+		"shieldHealth":999999999,
+		"shieldRotation":45,
     "radius": 300,
     "hasPower": false
     "category": "logic",
