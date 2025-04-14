@@ -3,7 +3,7 @@
 	"description": '''
 	Rains heavy fire against the enemy.
 	''',
-	"details": "A mass-firing area denial turret. 680dps."
+	"details": "A mass-firing area denial turret. Rendered walls basically useless, the first trigger to the arms race. 680dps."
 	"type": "ItemTurret",
 	"health": 610,
 	"size": 2,
