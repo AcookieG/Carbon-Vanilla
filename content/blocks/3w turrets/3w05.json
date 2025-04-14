@@ -284,13 +284,14 @@ fragBullet:{
 	hitSize:4,
 	drawSize:320,
 
-	knockback:8
+	knockback:10
 
 	trailColor:50477b,
 	trailChance:0.4,
 	trailInterval:0.0,
 	trailParam:3.0,
-	trailLength:3.0,
+	trailWidth:4.0
+	trailLength:4.0,
 
 	shootEffect:shootBig,
 	hitEffect:hitSquaresColor,

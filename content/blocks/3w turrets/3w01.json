@@ -96,6 +96,7 @@ trailInterval:0,
 trailParam:2.0,
 trailEffect:none,
 trailLength:5.0,
+trailWidth:1.7
 		}
 		"graph": {
 "type": "BasicBulletType",
@@ -149,7 +150,8 @@ homingRange:40.0,
 trailColor:767a84,
 trailChance:0.0,
 trailInterval:0,
-trailParam:4,
+trailParam:2.0,
+trailWidth:4.0
 trailEffect:none,
 trailLength:5.0,
 		}

@@ -4,10 +4,12 @@
     "name": "DOOMe",
     "description": "lol.",
     "size": 2,
-    "health": 50000,
+    "health": 500000,
     "radius": 300,
     "hasPower": false
     "category": "logic",
+		"sides":4,
+		"crashDamageMultiplier":0,
     "requirements": [
 		{ "item": "sadn", "amount": 1 },
     ],

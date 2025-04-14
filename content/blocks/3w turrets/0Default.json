@@ -107,6 +107,7 @@ trailChance:1.0,
 trailInterval:1,
 trailParam:2.0,
 trailLength:2.0,
+trailWidth:2.0,
 
 splashDamage:0,
 splashDamageRadius:20.0,
