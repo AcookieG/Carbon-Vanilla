@@ -15,6 +15,7 @@
 	"shootSound": "shoot",
 	"shootCone": 45,
 	"hasLiquids": true,
+	"rotateSpeed": 5.0,
 	"shoot": {
 		"type": "ShootPattern",
 		"shots": 3
