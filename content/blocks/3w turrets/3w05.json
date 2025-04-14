@@ -44,6 +44,7 @@
 		"outline": false,
 		"suffix": "-glow"
 		"mirror": true
+		}
 		]
 	},
 	"ammoTypes": {
@@ -272,23 +273,23 @@ fragBullet:{
 	"type": "BasicBulletType",
 	lifetime:24,
 	speed:5.0,
-	backColor:3c3c4f,
-	frontColor:5d6672,
-	hitColor:5d6672,
+	backColor:50477b,
+	frontColor:89769a,
+	hitColor:89769a,
 	width:8.0,
 	height:12.0,
 	shrinkX:0.05,
 	ShrinkY:0.4,
 	damage:106.5,
 	hitSize:4,
-	drawSize:160,
+	drawSize:320,
 
 	knockback:8
 
-	trailColor:5d6672,
+	trailColor:50477b,
 	trailChance:0.3,
 	trailInterval:0,
-	trailParam:3.0,
+	trailParam4.0,
 	trailLength:0.0,
 
 	shootEffect:shootBig,

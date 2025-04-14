@@ -135,7 +135,7 @@ shrinkX:0.0,
 ShrinkY:0.5,
 damage:48,
 hitSize:4,
-drawSize:120,
+drawSize:200,
 spin:0.0
 
 inaccuracy:0.0,
@@ -149,7 +149,7 @@ homingRange:40.0,
 trailColor:767a84,
 trailChance:0.0,
 trailInterval:0,
-trailParam:2.0,
+trailParam:3.5,
 trailEffect:none,
 trailLength:5.0,
 		}
