@@ -15,7 +15,8 @@
 	"shootCone": 40,
 	"hasLiquids": true,
 	"rotateSpeed": 3.6
-	"shootY":-3
+	"shootY":4
+	"shake": 0.5,
 	"shoot": {
 		"type": "ShootPattern",
 		"shots": 1
@@ -27,6 +28,23 @@
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
+		"parts": [
+		{
+		"type": "RegionPart",
+		"colorTo": "fb9957",
+		"color": "fb995700",
+		"blending": "additive",
+		"progress": {
+			"type": "warmup",
+			"op": "blend",
+			"other": "heat",
+			"amount": 0.25
+		},
+		"layerOffset": 0.001,
+		"outline": false,
+		"suffix": "-glow"
+		"mirror": true
+		]
 	},
 	"ammoTypes": {
 		"scrp": {
@@ -152,6 +170,7 @@ fragBullet:{
 	trailEffect:none,
 	trailLength:5.0,
 
+	shootEffect:shootBig,
 	hitEffect:hitSquaresColor,
 	despawnEffect:hitSquaresColor,
 			},
@@ -212,6 +231,7 @@ fragBullet:{
 	trailEffect:none,
 	trailLength:5.0,
 
+	shootEffect:shootBig,
 	hitEffect:hitSquaresColor,
 	despawnEffect:hitSquaresColor,
 			},
@@ -271,6 +291,7 @@ fragBullet:{
 	trailParam:3.0,
 	trailLength:0.0,
 
+	shootEffect:shootBig,
 	hitEffect:hitSquaresColor,
 	despawnEffect:hitSquaresColor,
 			},
@@ -331,6 +352,7 @@ fragBullet:{
 	trailParam:2.0,
 	trailLength:0.0,
 
+	shootEffect:shootBig,
 	hitEffect:hitSquaresColor,
 	despawnEffect:hitSquaresColor,
 	
