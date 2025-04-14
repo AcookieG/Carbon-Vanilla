@@ -1,0 +1,16 @@
+{
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "snad", "amount": 1 }
+	],
+	"armor": 2,
+	"category": "defense",
+	"research": "zg-items",
+	"destroyBullet": {
+		"type": "BasicBulletType",
+spawnUnit:11w02a
+	}
+	"destroyBulletSameTeam": false
+}
