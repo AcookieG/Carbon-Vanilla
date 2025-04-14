@@ -25,6 +25,20 @@
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
+			"parts": [
+		{
+		"under": true,
+		"type": "RegionPart",
+		"colorTo": "fb9957",
+		"color": "fb995700",
+		"blending": "additive",
+		"progress": recoil,
+		"layerOffset": 0.001,
+		"outline": false,
+		"suffix": "-glow"
+		"mirror": false,
+		}
+		]
 	},
 	"ammoTypes": {
 		"scrp": {
