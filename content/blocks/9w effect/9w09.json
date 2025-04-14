@@ -20,7 +20,7 @@
 	"consumes": {
 		"power": 1,
 		"liquid": {
-			"liquid": "water", 
+			"liquid": "wtr", 
 			"amount": 0.2,
 		}
 	},

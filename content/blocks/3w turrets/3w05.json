@@ -10,13 +10,14 @@
 	"reload": 40,
 	"range": 120,
 	"fogRadius": 8,
+	"recoil":4,
 	"ammoUseEffect": "casing4",
 	"shootSound": "shootAltLong",
 	"shootCone": 40,
 	"hasLiquids": true,
 	"rotateSpeed": 3.6
 	"shootY":5.5
-	"shake": 0.5,
+	"shake": 1.0,
 	"shoot": {
 		"type": "ShootPattern",
 		"shots": 1
@@ -30,20 +31,16 @@
 	"basePrefix": "reinforced-"
 		"parts": [
 		{
+		"under": true,
 		"type": "RegionPart",
 		"colorTo": "fb9957",
 		"color": "fb995700",
 		"blending": "additive",
-		"progress": {
-			"type": "warmup",
-			"op": "blend",
-			"other": "heat",
-			"amount": 0.25
-		},
+		"progress": recoil,
 		"layerOffset": 0.001,
 		"outline": false,
 		"suffix": "-glow"
-		"mirror": true
+		"mirror": false,
 		}
 		]
 	},

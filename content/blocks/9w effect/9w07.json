@@ -10,7 +10,7 @@
 	"consumes": {
 		"liquid": {
 			"liquid": "wtr", 
-			"amount": 0.2,
+			"amount": 0.1,
 			"optional": false,
 		}
 		"power": 1.5
