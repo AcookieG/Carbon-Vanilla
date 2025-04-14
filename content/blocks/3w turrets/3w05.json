@@ -375,5 +375,5 @@ fragBullet:{
 	],
 	"buildCostMultiplier": 1.25,
 	"category": "turret",
-	"research": "3w01"
+	"research": "3w00"
 }
