@@ -11,7 +11,7 @@
 		{"item": "graph", "amount": 1200},
 		{"item": "dense", "amount": 200}
 	]
-	"research": "9w02a",
+	"research": "9w02",
 	"category": "effect",
 	"unitType": "11w02a"
 	"squareSprite": false,

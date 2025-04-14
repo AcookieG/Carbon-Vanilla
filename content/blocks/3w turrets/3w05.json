@@ -15,7 +15,7 @@
 	"shootCone": 40,
 	"hasLiquids": true,
 	"rotateSpeed": 3.6
-	"shootY":4
+	"shootY":5.5
 	"shake": 0.5,
 	"shoot": {
 		"type": "ShootPattern",
@@ -169,7 +169,7 @@ fragBullet:{
 	trailInterval:0,
 	trailParam:2.0,
 	trailEffect:none,
-	trailLength:5.0,
+	trailLength:7.0,
 
 	shootEffect:shootBig,
 	hitEffect:hitSquaresColor,
@@ -287,10 +287,10 @@ fragBullet:{
 	knockback:8
 
 	trailColor:50477b,
-	trailChance:0.3,
+	trailChance:0.4,
 	trailInterval:0.0,
-	trailParam:4.0,
-	trailLength:0.0,
+	trailParam:3.0,
+	trailLength:3.0,
 
 	shootEffect:shootBig,
 	hitEffect:hitSquaresColor,

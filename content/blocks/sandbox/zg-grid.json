@@ -10,5 +10,5 @@
   "requirements": [
 		{ "item": "sadn", "amount": 1 },
   ],
-  "research": "surge-tower"
+  "research": "zg-items"
 }

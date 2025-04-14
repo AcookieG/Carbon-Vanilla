@@ -94,7 +94,7 @@
 	],
 	"category": "crafting",
 research: {
-  parent: 7w05c
+  parent: 7w05b
   objectives: [
     {
       type: OnSector
