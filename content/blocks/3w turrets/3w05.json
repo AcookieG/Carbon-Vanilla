@@ -369,9 +369,9 @@ fragBullet:{
 	},
 	"coolantMultiplier": 6
 	"requirements": [
-		{ "item": "graph", "amount": 100 },
-		{ "item": "iron", "amount": 70 },
-		{ "item": "sili", "amount": 50 },
+		{ "item": "graph", "amount": 130 },
+		{ "item": "iron", "amount": 90 },
+		{ "item": "sili", "amount": 130 },
 	],
 	"buildCostMultiplier": 1.25,
 	"category": "turret",

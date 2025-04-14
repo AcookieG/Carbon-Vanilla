@@ -18,7 +18,7 @@
 		"power": 0.5,
 	},
 	"category": "turret",
-	"research": "3w01"
+	"research": "9w01"
 	"conductivePower": true
 	"fogRadius": 34,
 }

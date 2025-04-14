@@ -275,8 +275,8 @@ weaveMag:9.0,
 	},
 	"coolantMultiplier": 6
 	"requirements": [
-		{ "item": "sadn", "amount": 20 },
-		{ "item": "scrp", "amount": 20 },
+		{ "item": "sadn", "amount": 60 },
+		{ "item": "scrp", "amount": 80 },
 	],
 	"buildCostMultiplier": 1.25,
 	"category": "turret",

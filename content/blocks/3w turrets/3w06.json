@@ -121,9 +121,9 @@ splashDamageRadius:32.0,
 	},
 	"coolantMultiplier": 6
 	"requirements": [
-		{ "item": "sadn", "amount": 120 },
-		{ "item": "iron", "amount": 110 },
-		{ "item": "scrp", "amount": 90 },
+		{ "item": "sadn", "amount": 170 },
+		{ "item": "iron", "amount": 80 },
+		{ "item": "scrp", "amount": 190 },
 	],
 	"buildCostMultiplier": 1.25,
 	"category": "turret",
