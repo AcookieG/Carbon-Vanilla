@@ -279,5 +279,5 @@ weaveMag:9.0,
 	],
 	"buildCostMultiplier": 1.25,
 	"category": "turret",
-	"research": "9w01"
+	"research": "3w00"
 }

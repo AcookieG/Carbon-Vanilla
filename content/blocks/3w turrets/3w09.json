@@ -373,7 +373,7 @@ fragBullet:{
 		{ "item": "iron", "amount": 70 },
 		{ "item": "sili", "amount": 50 },
 	],
-	"buildCostMultiplier": 1.25,
+	"buildCostMultiplier": 1.0,
 	"category": "turret",
 	"research": "3w01"
 }
