@@ -50,8 +50,8 @@
 	"ammoTypes": {
 		"scrp": {
 "type": "ArtilleryBulletType",
-lifetime:40,
-speed:5.0,
+lifetime:45,
+speed:4.0,
 drag:0.0,
 accel:0.0,
 backColor:666666,
@@ -67,19 +67,51 @@ spin:6.5,
 
 damage:0,
 
-inaccuracy:12,
+inaccuracy:24,
 ammoMultiplier:1.5,
 reloadMultiplier:0.6,
 
-velocityScaleRandMin:0.7,
-velocityScaleRandMax:1.1,
-lifeScaleRandMin:0.7,
-lifeScaleRandMax:1.1,
+velocityScaleRandMin:0.4,
+velocityScaleRandMax:1.2,
+lifeScaleRandMin:0.4,
+lifeScaleRandMax:1.2,
 
 scaleLife:true,
 
 splashDamage:148,
-splashDamageRadius:30.0,
+splashDamageRadius:24.0,
+		}
+		"coppa": {
+"type": "ArtilleryBulletType",
+lifetime:40,
+speed:5.0,
+drag:0.0,
+accel:0.0,
+backColor:b8705c,
+frontColor:d99d73,
+hitColor:d99d73,
+width:11.0,
+height:11.0,
+shrinkX:0.7,
+ShrinkY:0.7,
+hitSize:4,
+drawSize:120,
+
+damage:0,
+
+inaccuracy:12,
+ammoMultiplier:1.5,
+reloadMultiplier:1.1,
+
+velocityScaleRandMin:0.7,
+velocityScaleRandMax:1.2,
+lifeScaleRandMin:0.7,
+lifeScaleRandMax:1.2,
+
+scaleLife:true,
+
+splashDamage:279,
+splashDamageRadius:32.0,
 		}
 	},
 	"consumes": {
