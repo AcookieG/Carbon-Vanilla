@@ -60,129 +60,8 @@
 		"progress": recoil,
 		"layerOffset": 0.0021,
 		"outline": false,
-		"suffix": "-1"
+		"suffix": "-core"
 		"mirror": false,
-		"moveY": 1,
-		}
-		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0022,
-		"outline": false,
-		"suffix": "-2"
-		"mirror": false,
-		"moveY": 2,
-		}
-		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0023,
-		"outline": false,
-		"suffix": "-3"
-		"mirror": false,
-		"moveY": 3,
-		}
-		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0024,
-		"outline": false,
-		"suffix": "-4"
-		"mirror": false,
-		"moveY": 4,
-		}
-		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0025,
-		"outline": false,
-		"suffix": "-5"
-		"mirror": false,
-		"moveY": 5,
-		}
-		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0026,
-		"outline": false,
-		"suffix": "-6"
-		"mirror": false,
-		"moveY": 6,
-		}
-				{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0027,
-		"outline": false,
-		"suffix": "-7"
-		"mirror": false,
-		"moveY": 7,
-		}
-		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0028,
-		"outline": false,
-		"suffix": "-8"
-		"mirror": false,
-		"moveY": 8,
-		}
-		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0029,
-		"outline": false,
-		"suffix": "-9"
-		"mirror": false,
-		"moveY": 9,
-		}
-		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0030,
-		"outline": false,
-		"suffix": "-10"
-		"mirror": false,
-		"moveY": 10,
-		}
-		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
-		"under": true,
-		"type": "RegionPart",
-		"progress": recoil,
-		"layerOffset": 0.0031,
-		"outline": false,
-		"suffix": "-11"
-		"mirror": false,
-		"moveY": 11,
 		}
 
 		{
@@ -194,7 +73,7 @@
 		"progress": recoil,
 		"layerOffset": 0.001,
 		"outline": false,
-		"suffix": "-top"
+		"suffix": "-arrow"
 		"mirror": false,
 		"moveY": -2,
 		"moveX": 0,
