@@ -147,7 +147,7 @@ despawnEffect:randLifeSpark,
 shootEffect:instTrail,
 smokeEffect:randLifeSpark,
 ammoMultiplier:2.0,
-reloadMultiplier:1.5,
+reloadMultiplier:1.2,
 
 knockback:-5
 pierce:true,
@@ -176,5 +176,5 @@ trailWidth:2.0,
 	],
 	"buildCostMultiplier": 1.25,
 	"category": "turret",
-	"research": "3w00"
+	"research": "3w03"
 }

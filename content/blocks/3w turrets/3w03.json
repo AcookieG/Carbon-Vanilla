@@ -1,90 +1,112 @@
 {
-	"name": "Pulse",
-	"description": "Shoots small amounts of liquids at enemies or structures. Extinguishes fires.",
-	"type": "LiquidTurret",
-	"health": 290,
+	"name": "Dread",
+	"description": '''
+	Sends a high-speed shell at enemies. Low turning speed.
+	''',
+	"details": "originally a railgun test turret. Massively exploited at #5688's last stand, before it fell. 90dps."
+	"type": "ItemTurret",
+	"health": 840,
 	"size": 1,
-	"reload": 4,
-	"range": 100,
-	"fogRadius": 4.25,
-	"liquidCapacity": 10
-	"shootEffect": "shootLiquid",
-	"shootSound": "splash",
-	"smokeEffect": "none",
-	"shootCone": 50,
+	"reload": 300,
+	"range": 250,
+	"drawMinRange": true,
+	"minRange": 100,
+	"fogRadius": 8,
+	"recoil":2,
+	"ammoPerShot":8,
+	"maxAmmo":30,
+	"ammoUseEffect": "casing3",
+	"shootSound": "pulseBlast",
+	"shootCone": 0.1,
 	"hasLiquids": true,
-	"inaccuracy": 5,
+	"rotateSpeed": 0.4,
 	"outlineRadius": 4,
 	"squareSprite": false,
-	"recoil": 0
+	"shake": 1.2,
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
+			"parts": [
+		{
+		"under": true,
+		"type": "RegionPart",
+		"colorTo": "fb9957",
+		"color": "fb995700",
+		"blending": "additive",
+		"progress": warmup,
+		"layerOffset": 0.005,
+		"outline": false,
+		"suffix": "-glow"
+		"mirror": false,
+		}
+		{
+		"under": true,
+		"type": "RegionPart",
+		"colorTo": "ab3400ff",
+		"color": "ab340000",
+		"blending": "additive",
+		"progress": recoil,
+		"layerOffset": 0.004,
+		"outline": false,
+		"suffix": "-burn"
+		"mirror": false,
+		}
+		]
 	},
 	"ammoTypes": {
-"wtr": {
-	"type": "liquidBulletType",
-	"liquid": water
-		"shootEffect": "shootLiquid",
-	"knockback": 0.4,
-	"drag": 0.01,
-	"status": "wet",
-}
-"stillwater": {
-	"type": "liquidBulletType",
-	"liquid": stillwater
-		"shootEffect": "shootLiquid",
-	"knockback": 0.4,
-	"drag": 0.022,
-	"rangeChange": -20,
-	"puddles": 1,
-	"puddleLiquid": stillwater
-	"puddleAmount": 12,
-	"status": "corroded",
-	"lightOpacity": 0
-},
-"pressure": {
-	"type": "liquidBulletType",
-	"liquid": water
-		"shootEffect": "shootLiquid",
-	"knockback": 2.8,
-	"drag": 0.006,
-	"rangeChange": 20,
-	"status": "wet",
-	"lightOpacity": 0
-},
-"i": {
-	"type": "liquidBulletType",
-	"liquid": oil
-		"shootEffect": "shootLiquid",
-	"drag": 0.01,
-	"status": "tarred",
-},
-"s": {
-	"type": "liquidBulletType",
-	"drag": 0.01,
-		"shootEffect": "shootLiquid",
-	"damage": 18,
-	"liquid": slag
-	"ammoMultiplier": 3,
-	"status": "melting",
-},
-"metal": {
-	"type": "liquidBulletType",
-	"liquid": metal
-		"shootEffect": "shootLiquid",
-	"knockback": 1.1,
-	"damage": 18,
-	"drag": 0.001,
-	"ammoMultiplier": 3,
-	"status": "corroded",
-	"lightOpacity": 0
-},
+		"scrp": {
+"type": "BasicBulletType",
+lifetime:35,
+speed:8.0,
+drag:0.01,
+accel:0.00,
+backColor:666666,
+frontColor:9b928b,
+hitColor:9b928b,
+
+width:12.0,
+height:18.0,
+shrinkX:0.1,
+ShrinkY:0.5,
+shrinkInterp:swingIn,
+sprite:bullet,
+damage:360,
+hitSize:8,
+drawSize:120,
+spin:0.0
+
+hitEffect:colorSpark,
+despawnEffect:colorSpark,
+shootEffect:shootTitan,
+smokeEffect:colorSparkBig,
+inaccuracy:6.0,
+ammoMultiplier:1.5,
+reloadMultiplier:0.8,
+
+pierce:true,
+pierceBuilding:true,
+pierceCap:2,
+
+trailColor:9b928b,
+trailChance:0.7,
+trailParam:2.0,
+trailLength:8.0,
+trailWidth:2.0,
+		}
 	},
+	"consumes": {
+		"power": 2,
+		"coolant": {
+		"amount": 0.1
+		}
+	},
+	"coolantMultiplier": 4,
 	"requirements": [
-		{ "item": "graph", "amount": 80 },
-		{ "item": "iron", "amount": 40 },
+		{ "item": "iron", "amount": 80 },
+		{ "item": "scrp", "amount": 130 },
+		{ "item": "sili", "amount": 120 },
 	],
+	"buildCostMultiplier": 1.25,
 	"category": "turret",
 	"research": "3w00"
 }

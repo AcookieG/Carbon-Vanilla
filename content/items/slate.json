@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Slate",
-	"description": "A basic rock, abundant on Opalyne. [salmon]+4 Range, pierce. 1.5 Reload. 100%",
+	"description": "A basic rock, abundant on Opalyne. [salmon]+4 Range, pierce. 1.2 Reload. 100%",
 	"cost": 0.75,
 	"flammability": 0.1,
 	"radioactivity": 0.0,
