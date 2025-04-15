@@ -23,6 +23,7 @@
 	"outlineRadius": 4,
 	"squareSprite": false,
 	"shake": 2.0,
+	"xRand": 0.0,
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
