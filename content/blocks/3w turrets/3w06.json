@@ -11,7 +11,7 @@
 	"range": 300,
 	"fogRadius": 8,
 	"recoil":3.5,
-	"ammoPerShot":3,
+	"ammoPerShot":10,
 	"maxAmmo":30,
 	"ammoUseEffect": "casing2",
 	"shootSound": "artillery",

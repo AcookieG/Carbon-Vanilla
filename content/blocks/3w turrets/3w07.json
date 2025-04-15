@@ -10,16 +10,16 @@
 	"reload": 300,
 	"range": 400,
 	"drawMinRange": true,
-	"minRange": 100,
+	"minRange": 150,
 	"fogRadius": 8,
 	"recoil":3,
-	"ammoPerShot":10,
-	"maxAmmo":45,
+	"ammoPerShot":8,
+	"maxAmmo":30,
 	"ammoUseEffect": "casing4",
 	"shootSound": "LaserBig",
 	"shootCone": 0.1,
 	"hasLiquids": true,
-	"rotateSpeed": 0.75,
+	"rotateSpeed": 0.5,
 	"outlineRadius": 4,
 	"squareSprite": false,
 	"shake": 2.0,
@@ -41,8 +41,6 @@
 		}
 		
 		{
-		"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -53,8 +51,6 @@
 		"moveY": 1,
 		}
 		{
-			"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -65,8 +61,6 @@
 		"moveY": 2,
 		}
 		{
-			"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -77,8 +71,6 @@
 		"moveY": 3,
 		}
 		{
-			"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -89,8 +81,6 @@
 		"moveY": 4,
 		}
 		{
-			"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -101,8 +91,6 @@
 		"moveY": 5,
 		}
 		{
-			"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -113,8 +101,6 @@
 		"moveY": 6,
 		}
 				{
-					"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -125,8 +111,6 @@
 		"moveY": 7,
 		}
 		{
-			"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -137,8 +121,6 @@
 		"moveY": 8,
 		}
 		{
-			"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -149,8 +131,6 @@
 		"moveY": 9,
 		}
 		{
-			"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -161,8 +141,6 @@
 		"moveY": 10,
 		}
 		{
-			"colorTo": "ffffffff",
-		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -193,7 +171,7 @@
 	"ammoTypes": {
 		"scrp": {
 "type": "BasicBulletType",
-lifetime:45,
+lifetime:47,
 speed:10.0,
 drag:0.01,
 accel:0.00,
@@ -201,35 +179,75 @@ backColor:666666,
 frontColor:9b928b,
 hitColor:9b928b,
 
-width:12.0,
-height:18.0,
-shrinkX:0.0,
+width:15.0,
+height:20.0,
+shrinkX:0.1,
 ShrinkY:0.5,
 shrinkInterp:swingIn,
 sprite:bullet,
 damage:2160,
-hitSize:6,
+hitSize:8,
 drawSize:120,
 spin:0.0
 
 hitEffect:colorSpark,
-despawnEffect:colorSpark,
+despawnEffect:randLifeSpark,
 shootEffect:instTrail,
 smokeEffect:shootSmokeSquare,
-inaccuracy:1.0,
+inaccuracy:6.0,
 ammoMultiplier:1.5,
 reloadMultiplier:0.8,
 
 pierce:true,
 pierceBuilding:true,
-pierceCap:8,
+pierceCap:6,
 
 collidesTeam:true,
 
 trailColor:9b928b,
-trailChance:0.5,
+trailChance:0.7,
 trailParam:2.0,
-trailLength:0.0,
+trailLength:8.0,
+trailWidth:2.0,
+		}
+		"slate": {
+"type": "BasicBulletType",
+lifetime:30,
+speed:12.0,
+drag:0.00,
+accel:0.01,
+backColor:526570,
+frontColor:708d94,
+hitColor:708d94,
+
+width:12.0,
+height:18.0,
+shrinkX:0.1,
+ShrinkY:0.4,
+shrinkInterp:swingIn,
+sprite:bullet,
+damage:2700,
+hitSize:8,
+drawSize:120,
+spin:0.0
+
+hitEffect:colorSpark,
+despawnEffect:randLifeSpark,
+shootEffect:instTrail,
+smokeEffect:shootSmokeSquare,
+ammoMultiplier:2.0,
+reloadMultiplier:1.5,
+
+pierce:true,
+pierceBuilding:true,
+pierceCap:13,
+
+collidesTeam:true,
+
+trailColor:708d94,
+trailChance:0.7,
+trailParam:2.0,
+trailLength:10.0,
 trailWidth:2.0,
 		}
 	},

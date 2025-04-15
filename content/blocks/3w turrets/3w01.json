@@ -84,7 +84,7 @@ collidesAir:true,
 		},
 		"slate": {
 "type": "BasicBulletType",
-lifetime:26,
+lifetime:22,
 speed:7.0,
 backColor:526570,
 frontColor:708d94,
@@ -99,7 +99,6 @@ drawSize:120,
 
 ammoMultiplier:2.0,
 reloadMultiplier:1.5,
-rangeChange:32,
 
 pierce:true,
 pierceBuilding:true,

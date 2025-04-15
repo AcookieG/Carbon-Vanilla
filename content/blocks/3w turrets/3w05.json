@@ -122,7 +122,6 @@ shootEffect:shootBig,
 smokeEffect:shootSmokeSquareBig,
 ammoMultiplier:2.0,
 reloadMultiplier:1.5,
-rangeChange:32,
 
 instantDisappear:true,
 
@@ -143,7 +142,7 @@ fragLifeMin:1.0,
 fragLifeMax:1.0,
 fragBullet:{
 	"type": "BasicBulletType",
-	lifetime:22,
+	lifetime:17,
 	speed:7.0,
 	backColor:526570,
 	frontColor:708d94,
