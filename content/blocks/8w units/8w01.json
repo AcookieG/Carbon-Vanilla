@@ -3,7 +3,7 @@
 	"description": "A three by three to print the most basic of any unit tree.",
 	"type": "UnitFactory"
 	"size": 3,
-	"itemCapacity": 220,
+	"itemCapacity": 500,
 	"maxSpawn": 4,
 	"consumes": {
 		"power": 1.2,
@@ -13,8 +13,8 @@
 			"unit": "11w02a",
 			"time": 840
 			"requirements": [
-				{ "item": "sili", "amount": 110 },
-				{ "item": "scrp", "amount": 80 },
+				{ "item": "sili", "amount": 60 },
+				{ "item": "scrp", "amount": 40 },
 			]
 		},
 	]
