@@ -42,6 +42,8 @@
 		}
 		
 		{
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -52,8 +54,8 @@
 		"moveY": 1,
 		}
 		{
-						"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -64,8 +66,8 @@
 		"moveY": 2,
 		}
 		{
-						"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -76,8 +78,8 @@
 		"moveY": 3,
 		}
 		{
-						"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -88,8 +90,8 @@
 		"moveY": 4,
 		}
 		{
-						"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -100,8 +102,8 @@
 		"moveY": 5,
 		}
 		{
-						"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -112,8 +114,8 @@
 		"moveY": 6,
 		}
 				{
-								"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -124,8 +126,8 @@
 		"moveY": 7,
 		}
 		{
-						"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -136,8 +138,8 @@
 		"moveY": 8,
 		}
 		{
-						"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -148,8 +150,8 @@
 		"moveY": 9,
 		}
 		{
-						"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -160,8 +162,8 @@
 		"moveY": 10,
 		}
 		{
-						"colorTo": "ffffffff",
- 		"color": "00000000",
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
@@ -173,7 +175,7 @@
 		}
 
 		{
-		"colorTo": "00000000",
+		"colorTo": "ffffff00",
 		"color": "ffffffff",
 		"under": true,
 		"type": "RegionPart",
