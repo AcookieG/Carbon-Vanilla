@@ -19,7 +19,7 @@
 	"shootSound": "laserbig",
 	"shootCone": 0.1,
 	"hasLiquids": true,
-	"rotateSpeed": 0.5,
+	"rotateSpeed": 0.3,
 	"outlineRadius": 4,
 	"squareSprite": false,
 	"shake": 2.0,
@@ -223,8 +223,6 @@ pierce:true,
 pierceBuilding:true,
 pierceCap:6,
 
-collidesTeam:true,
-
 trailColor:9b928b,
 trailChance:0.7,
 trailParam:2.0,
@@ -262,8 +260,6 @@ reloadMultiplier:1.5,
 pierce:true,
 pierceBuilding:true,
 pierceCap:13,
-
-collidesTeam:true,
 
 trailColor:708d94,
 trailChance:0.7,
