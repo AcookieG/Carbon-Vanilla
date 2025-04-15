@@ -103,7 +103,7 @@ research: {
   ]
 }
 	"idleSound": "techloop",
-	"outputLiquids": [{"liquid": "H", "amount": 0.6},{"liquid": "N", "amount": 0.25},{"liquid": "O", "amount": 0.25},]
+	"outputLiquids": [{"liquid": "H", "amount": 1.2},{"liquid": "N", "amount": 0.5},{"liquid": "O", "amount": 0.6},]
 	"craftTime": 50,
 	"squareSprite": false,
 	"conductivePower": true
