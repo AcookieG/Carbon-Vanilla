@@ -114,7 +114,6 @@ lifetime:1,
 speed:1.0,
 drag:0.0,
 accel:0.0,
-rangeChange:32,
 
 hitEffect:none,
 despawnEffect:none,
