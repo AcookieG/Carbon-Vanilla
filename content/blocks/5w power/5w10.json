@@ -62,8 +62,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 	"category": "power",
 	"conductivePower": true
 	"rotate": true
-	"loopSound": "hum",
-	"loopSoundVolume": 0.1,
+	"loopSound": "extractLoop",
 research: {
   parent: 5w09
   objectives: [

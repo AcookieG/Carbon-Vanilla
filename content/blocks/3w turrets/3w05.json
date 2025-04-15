@@ -5,7 +5,7 @@
 	''',
 	"details": "These mighty turrets would dominate the battlefield, until ranged artillery made everything obselete. 800dps."
 	"type": "ItemTurret",
-	"health": 1130,
+	"health": 1250,
 	"size": 3,
 	"reload": 40,
 	"range": 120,
@@ -28,6 +28,7 @@
 	},
 	"outlineRadius": 4,
 	"squareSprite": false,
+	"shake": 1.0
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
@@ -364,10 +365,10 @@ fragBullet:{
 	},
 	"consumes": {
 		"coolant": {
-		"amount": 0.1
+		"amount": 0.2
 		}
 	},
-	"coolantMultiplier": 6
+	"coolantMultiplier": 4
 	"requirements": [
 		{ "item": "graph", "amount": 130 },
 		{ "item": "iron", "amount": 90 },

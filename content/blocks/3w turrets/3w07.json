@@ -1,0 +1,125 @@
+{
+	"name": "Dire",
+	"description": '''
+	Sends a shell at very high speeds towards the enemy.
+	''',
+	"details": "The supposed solution to end all sieges, capable of destruction deep within enemy walls. But artillery... Oh sweet, sweet, artillery... 520dps."
+	"type": "ItemTurret",
+	"health": 1670,
+	"size": 2,
+	"reload": 300,
+	"range": 400,
+	"drawMinRange": true,
+	"minRange": 100,
+	"fogRadius": 8,
+	"recoil":2,
+	"ammoPerShot":10,
+	"maxAmmo":45,
+	"ammoUseEffect": "casing4",
+	"shootSound": "LaserBig",
+	"shootCone": 0.1,
+	"hasLiquids": true,
+	"rotateSpeed": 0.0,
+	"shoot": {
+		"type": "ShootPattern",
+		"shots": 1,
+		"spread": 0,
+		"shotDelay": 0,
+	},
+	"outlineRadius": 4,
+	"squareSprite": false,
+	"shootY":0.0,
+	"shake": 2.0,
+	"elevation": 0,
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-"
+			"parts": [
+		{
+		"under": true,
+		"type": "RegionPart",
+		"colorTo": "fb9957",
+		"color": "fb995700",
+		"blending": "additive",
+		"progress": recoil,
+		"layerOffset": 0.009,
+		"outline": false,
+		"suffix": "-glow"
+		"mirror": false,
+		}
+		{
+		"under": true,
+		"type": "RegionPart",
+		"blending": "additive",
+		"progress": warmup,
+		"layerOffset": 0.007,
+		"outline": false,
+		"suffix": "-cover"
+		"mirror": false,
+		"moveY": 4,
+		"moveX": 0,
+		"moveRot": 0,
+		}
+		{
+		"under": true,
+		"type": "RegionPart",
+		"blending": "additive",
+		"progress": warmup,
+		"layerOffset": 0.006,
+		"outline": false,
+		"suffix": "-cover"
+		"mirror": false,
+		"moveY": 8,
+		"moveX": 0,
+		"moveRot": 0,
+		}
+		{
+		"under": true,
+		"type": "RegionPart",
+		"blending": "additive",
+		"progress": warmup,
+		"layerOffset": 0.005,
+		"outline": false,
+		"suffix": "-cover"
+		"mirror": false,
+		"moveY": 12,
+		"moveX": 0,
+		"moveRot": 0,
+		}
+		{
+		"under": true,
+		"type": "RegionPart",
+		"blending": "additive",
+		"progress": warmup,
+		"layerOffset": 0.008,
+		"outline": false,
+		"suffix": ""
+		"mirror": false,
+		"moveY": 0,
+		"moveX": 0,
+		"moveRot": 0,
+		}
+		]
+	},
+	"ammoTypes": {
+		"scrp": {
+"type": "BasicBulletType",
+		}
+	},
+	"consumes": {
+		"power": 5,
+		"coolant": {
+		"amount": 0.3
+		}
+	},
+	"coolantMultiplier": 4
+	"requirements": [
+		{ "item": "sadn", "amount": 170 },
+		{ "item": "iron", "amount": 80 },
+		{ "item": "scrp", "amount": 190 },
+	],
+	"buildCostMultiplier": 1.25,
+	"category": "turret",
+	"research": "3w00"
+	"rotate": true,
+}

@@ -38,8 +38,7 @@ Burns Anthracite to produce heat and power.
 	"category": "power",
 	"conductivePower": true
 	"rotate": true
-	"loopSound": "hum",
-	"loopSoundVolume": 0.1,
+	"loopSound": "torch",
 research: {
   parent: 5w04b
   objectives: [

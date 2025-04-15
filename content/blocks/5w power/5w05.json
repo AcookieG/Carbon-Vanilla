@@ -57,11 +57,9 @@ You re-created life, but at what cost?
 	"category": "power",
 	"conductivePower": true
 	"rotate": false
-	"loopSound": "hum",
-	"loopSoundVolume": 0.1,
+	"loopSound": "torch",
 	"research": "5w01",
-	"ambientSound": "hum",
-	"ambientSoundVolume": 0.1,
+	"ambientSound": "torch",
 	"itemDuration": 60,
 	"squareSprite": false,
 	          explosionPuddles: 40

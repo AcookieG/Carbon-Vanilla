@@ -39,7 +39,6 @@
 	"rotate": false
 	"research": "7w01",
 	"idleSound": "smelter",
-	"idleSoundVolume": 0.09,
 	"outputItem": { "item": "sili", "amount": 1 },
 	"craftTime": 40,
 	"squareSprite": false,

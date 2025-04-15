@@ -1,7 +1,7 @@
 {
 	"type": "flying",
 	"name": "Hawk",
-	"health": 2130,
+	"health": 2650,
 	"armor": 8,
 	
 		"flying": true,
@@ -69,7 +69,7 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:missile,
-damage:120,
+damage:1,
 hitSize:4,
 drawSize:120,
 spin:0.0

@@ -1,7 +1,7 @@
 {
 	"type": "flying",
 	"name": "Vulture",
-	"health": 640,
+	"health": 740,
 	"armor": 2,
 	
 		"flying": true,
@@ -43,8 +43,8 @@
 				type: LaserBulletType
         hitSoundVolume: 1
         hitSound: spark
-        buildingDamageMultiplier: 0.7
-        damage: 90
+        buildingDamageMultiplier: 0.5
+        damage: 1
 				colors:[bd4068,ff7066,ffffff]
 			},
 		}

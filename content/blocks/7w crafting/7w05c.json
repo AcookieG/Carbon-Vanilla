@@ -102,8 +102,7 @@ research: {
     }
   ]
 }
-	"idleSound": "electricHum",
-	"idleSoundVolume": 0.1,
+	"idleSound": "techloop",
 	"outputLiquids": [{"liquid": "H", "amount": 0.6},{"liquid": "N", "amount": 0.25},{"liquid": "O", "amount": 0.25},]
 	"craftTime": 50,
 	"squareSprite": false,

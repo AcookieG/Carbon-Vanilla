@@ -88,8 +88,7 @@
 	],
 	"category": "crafting",
 	"research": "7w07",
-	"idleSound": "hum",
-	"idleSoundVolume": 0.12,
+	"idleSound": "techloop",
 	"craftTime": 300,
 	"squareSprite": false,
 	"conductivePower": true

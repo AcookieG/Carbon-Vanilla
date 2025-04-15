@@ -46,8 +46,7 @@
 	"category": "crafting",
 	"rotate": false
 	"research": "7w01",
-	"idleSound": "techloop",
-	"idleSoundVolume": 0.04,
+	"idleSound": "electricHum",
 	"outputItem": {
 		"item": "carbon-fiber",
 		"amount": 2

@@ -48,8 +48,7 @@ research: {
   ]
 }
 	"displayEfficiencyScale": 0.1111112,
-	"ambientSound": "hum",
-	"ambientSoundVolume": 0.1,
+	"ambientSound": "windhowl",
 	"displayEfficiency": false,
 	"outputLiquid": {"liquid": "pressure", "amount": 0.05555555555555},
 	"minEfficiency": 0.999999

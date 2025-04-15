@@ -60,7 +60,6 @@
 	"rotate": false
 	"research": "7w10",
 	"idleSound": "techloop",
-	"idleSoundVolume": 0.04,
 	"outputItem": {
 		"item": "flex-joint",
 		"amount": 24

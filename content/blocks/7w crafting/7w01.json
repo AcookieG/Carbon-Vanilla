@@ -24,8 +24,7 @@
 	"category": "crafting",
 	"rotate": false
 	"research": "9w01",
-	"idleSound": "machine",
-	"idleSoundVolume": 0.03,
+	"idleSound": "grinding",
 	"outputItems": [
 		{ "item": "graph", "amount": 3 },
 	],

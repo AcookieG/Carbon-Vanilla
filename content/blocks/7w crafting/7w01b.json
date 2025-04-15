@@ -65,8 +65,7 @@ research: {
 "outputItems": [
 		{ "item": "graph", "amount": 2 },
 	],
-	"idleSound": "machine",
-	"idleSoundVolume": 0.03,
+	"idleSound": "grinding",
 	"craftTime": 24,
 	"squareSprite": false,
 			"conductivePower": true
