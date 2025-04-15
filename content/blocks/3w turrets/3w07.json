@@ -16,7 +16,7 @@
 	"ammoPerShot":8,
 	"maxAmmo":30,
 	"ammoUseEffect": "casing4",
-	"shootSound": "laserBig",
+	"shootSound": "laserbig",
 	"shootCone": 0.1,
 	"hasLiquids": true,
 	"rotateSpeed": 0.5,
@@ -47,7 +47,7 @@
 		"layerOffset": 0.0021,
 		"outline": false,
 		"suffix": "-1"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 1,
 		}
 		{
@@ -59,7 +59,7 @@
 		"layerOffset": 0.0022,
 		"outline": false,
 		"suffix": "-2"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 2,
 		}
 		{
@@ -71,7 +71,7 @@
 		"layerOffset": 0.0023,
 		"outline": false,
 		"suffix": "-3"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 3,
 		}
 		{
@@ -83,7 +83,7 @@
 		"layerOffset": 0.0024,
 		"outline": false,
 		"suffix": "-4"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 4,
 		}
 		{
@@ -95,7 +95,7 @@
 		"layerOffset": 0.0025,
 		"outline": false,
 		"suffix": "-5"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 5,
 		}
 		{
@@ -107,7 +107,7 @@
 		"layerOffset": 0.0026,
 		"outline": false,
 		"suffix": "-6"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 6,
 		}
 				{
@@ -119,7 +119,7 @@
 		"layerOffset": 0.0027,
 		"outline": false,
 		"suffix": "-7"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 7,
 		}
 		{
@@ -131,7 +131,7 @@
 		"layerOffset": 0.0028,
 		"outline": false,
 		"suffix": "-8"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 8,
 		}
 		{
@@ -143,7 +143,7 @@
 		"layerOffset": 0.0029,
 		"outline": false,
 		"suffix": "-9"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 9,
 		}
 		{
@@ -155,7 +155,7 @@
 		"layerOffset": 0.0030,
 		"outline": false,
 		"suffix": "-10"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 10,
 		}
 		{
@@ -167,7 +167,7 @@
 		"layerOffset": 0.0031,
 		"outline": false,
 		"suffix": "-11"
-		"mirror": false,
+		"mirror": true,
 		"moveY": 11,
 		}
 

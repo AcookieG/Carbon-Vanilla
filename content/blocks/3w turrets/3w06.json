@@ -9,6 +9,8 @@
 	"size": 2,
 	"reload": 180,
 	"range": 300,
+	"drawMinRange": true,
+	"minRange": 60,
 	"fogRadius": 8,
 	"recoil":3.5,
 	"ammoPerShot":10,
