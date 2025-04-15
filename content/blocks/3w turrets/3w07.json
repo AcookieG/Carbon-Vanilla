@@ -60,7 +60,7 @@
 		"progress": recoil,
 		"layerOffset": 0.0021,
 		"outline": false,
-		"suffix": "-core"
+		"suffix": "-preview"
 		"mirror": false,
 		}
 
