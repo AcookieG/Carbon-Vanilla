@@ -80,7 +80,7 @@ lifeScaleRandMax:1.2,
 scaleLife:true,
 
 splashDamage:148,
-splashDamageRadius:24.0,
+splashDamageRadius:30.0,
 		}
 		"coppa": {
 "type": "ArtilleryBulletType",
@@ -101,7 +101,7 @@ drawSize:120,
 damage:0,
 
 inaccuracy:8,
-ammoMultiplier:1.5,
+ammoMultiplier:2.0,
 reloadMultiplier:1.1,
 
 velocityScaleRandMin:0.9,
@@ -112,7 +112,50 @@ lifeScaleRandMax:1.1,
 scaleLife:true,
 
 splashDamage:279,
-splashDamageRadius:32.0,
+splashDamageRadius:24.0,
+		}
+		"canolla": {
+"type": "ArtilleryBulletType",
+lifetime:60,
+speed:5.0,
+drag:0.0,
+accel:0.0,
+backColor:c7524c,
+frontColor:ff8a66,
+hitColor:ff8a66,
+width:11.0,
+height:11.0,
+shrinkX:0.7,
+ShrinkY:0.7,
+hitSize:4,
+drawSize:120,
+
+damage:0,
+
+inaccuracy:8,
+ammoMultiplier:2.5,
+reloadMultiplier:1.1,
+
+velocityScaleRandMin:0.9,
+velocityScaleRandMax:1.1,
+lifeScaleRandMin:0.9,
+lifeScaleRandMax:1.1,
+
+scaleLife:true,
+
+trailColor:ff8a66,
+trailChance:0.5,
+trailParam:2.0,
+trailWidth:3.0
+trailLength:3,
+
+makeFire:true,
+incendAmount:2.0,
+incendSpread:8.0,
+incendChance:0.5,
+
+splashDamage:510,
+splashDamageRadius:24.0,
 		}
 	},
 	"consumes": {

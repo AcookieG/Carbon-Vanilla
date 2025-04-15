@@ -103,7 +103,6 @@ fragBullet:{
 	
 	trailColor:9b928b,
 	trailChance:0.1,
-	trailInterval:1,
 	trailParam:2.0,
 	trailLength:0.0,
 			},
@@ -166,7 +165,6 @@ fragBullet:{
 
 	trailColor:708d94,
 	trailChance:0.0,
-	trailInterval:0,
 	trailParam:2.0,
 	trailEffect:none,
 	trailLength:7.0,
@@ -188,7 +186,7 @@ hitEffect:none,
 despawnEffect:none,
 shootEffect:shootBig,
 smokeEffect:shootSmokeSquareBig,
-ammoMultiplier:2.5,
+ammoMultiplier:2.0,
 reloadMultiplier:1.1,
 
 instantDisappear:true,
@@ -227,7 +225,6 @@ fragBullet:{
 
 	trailColor:d99d73,
 	trailChance:0.0,
-	trailInterval:0,
 	trailParam:2.0,
 	trailEffect:none,
 	trailLength:5.0,
@@ -288,7 +285,6 @@ fragBullet:{
 
 	trailColor:50477b,
 	trailChance:0.4,
-	trailInterval:0.0,
 	trailParam:3.0,
 	trailWidth:4.0
 	trailLength:4.0,
@@ -353,7 +349,6 @@ fragBullet:{
 
 	trailColor:95abd9,
 	trailChance:0.4,
-	trailInterval:0,
 	trailParam:2.0,
 	trailLength:0.0,
 

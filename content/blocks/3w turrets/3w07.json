@@ -1,9 +1,9 @@
 {
 	"name": "Dire",
 	"description": '''
-	Sends a shell at very high speeds towards the enemy.
+	Sends a shell at very high speeds towards the enemy. Low turning speed.
 	''',
-	"details": "The supposed solution to end all sieges, capable of destruction deep within enemy walls. But artillery... Oh sweet, sweet, artillery... 520dps."
+	"details": "The supposed solution to end all sieges, capable of destruction deep within enemy walls. But artillery... Oh sweet, sweet, artillery... 540dps."
 	"type": "ItemTurret",
 	"health": 1670,
 	"size": 2,
@@ -12,25 +12,17 @@
 	"drawMinRange": true,
 	"minRange": 100,
 	"fogRadius": 8,
-	"recoil":2,
+	"recoil":3,
 	"ammoPerShot":10,
 	"maxAmmo":45,
 	"ammoUseEffect": "casing4",
 	"shootSound": "LaserBig",
 	"shootCone": 0.1,
 	"hasLiquids": true,
-	"rotateSpeed": 0.0,
-	"shoot": {
-		"type": "ShootPattern",
-		"shots": 1,
-		"spread": 0,
-		"shotDelay": 0,
-	},
+	"rotateSpeed": 0.75,
 	"outlineRadius": 4,
 	"squareSprite": false,
-	"shootY":0.0,
 	"shake": 2.0,
-	"elevation": 0,
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
@@ -41,7 +33,7 @@
 		"colorTo": "fb9957",
 		"color": "fb995700",
 		"blending": "additive",
-		"progress": recoil,
+		"progress": warmup,
 		"layerOffset": 0.005,
 		"outline": false,
 		"suffix": "-glow"
@@ -53,7 +45,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0021,
 		"outline": false,
 		"suffix": "-1"
@@ -65,7 +57,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0022,
 		"outline": false,
 		"suffix": "-2"
@@ -77,7 +69,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0023,
 		"outline": false,
 		"suffix": "-3"
@@ -89,7 +81,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0024,
 		"outline": false,
 		"suffix": "-4"
@@ -101,7 +93,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0025,
 		"outline": false,
 		"suffix": "-5"
@@ -113,7 +105,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0026,
 		"outline": false,
 		"suffix": "-6"
@@ -125,7 +117,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0027,
 		"outline": false,
 		"suffix": "-7"
@@ -137,7 +129,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0028,
 		"outline": false,
 		"suffix": "-8"
@@ -149,7 +141,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0029,
 		"outline": false,
 		"suffix": "-9"
@@ -161,7 +153,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0030,
 		"outline": false,
 		"suffix": "-10"
@@ -173,7 +165,7 @@
 		"color": "00000000",
 		"under": true,
 		"type": "RegionPart",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.0031,
 		"outline": false,
 		"suffix": "-11"
@@ -182,15 +174,17 @@
 		}
 
 		{
+		"colorTo": "00000000",
+		"color": "ffffffff",
 		"under": true,
 		"type": "RegionPart",
 		"blending": "additive",
-		"progress": warmup,
+		"progress": recoil,
 		"layerOffset": 0.001,
 		"outline": false,
 		"suffix": "-top"
 		"mirror": false,
-		"moveY": 0,
+		"moveY": -2,
 		"moveX": 0,
 		"moveRot": 0,
 		}
@@ -199,6 +193,44 @@
 	"ammoTypes": {
 		"scrp": {
 "type": "BasicBulletType",
+lifetime:45,
+speed:10.0,
+drag:0.01,
+accel:0.00,
+backColor:666666,
+frontColor:9b928b,
+hitColor:9b928b,
+
+width:12.0,
+height:18.0,
+shrinkX:0.0,
+ShrinkY:0.5,
+shrinkInterp:swingIn,
+sprite:bullet,
+damage:2160,
+hitSize:6,
+drawSize:120,
+spin:0.0
+
+hitEffect:colorSpark,
+despawnEffect:colorSpark,
+shootEffect:instTrail,
+smokeEffect:shootSmokeSquare,
+inaccuracy:1.0,
+ammoMultiplier:1.5,
+reloadMultiplier:0.8,
+
+pierce:true,
+pierceBuilding:true,
+pierceCap:8,
+
+collidesTeam:true,
+
+trailColor:9b928b,
+trailChance:0.5,
+trailParam:2.0,
+trailLength:0.0,
+trailWidth:2.0,
 		}
 	},
 	"consumes": {
@@ -207,14 +239,14 @@
 		"amount": 0.3
 		}
 	},
-	"coolantMultiplier": 4
+	"coolantMultiplier": 4,
 	"requirements": [
-		{ "item": "sadn", "amount": 170 },
-		{ "item": "iron", "amount": 80 },
-		{ "item": "scrp", "amount": 190 },
+		{ "item": "graph", "amount": 150 },
+		{ "item": "dense", "amount": 40 },
+		{ "item": "scrp", "amount": 240 },
+		{ "item": "sili", "amount": 190 },
 	],
 	"buildCostMultiplier": 1.25,
 	"category": "turret",
 	"research": "3w00"
-	"rotate": true,
 }
