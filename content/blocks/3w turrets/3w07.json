@@ -103,10 +103,10 @@ hitSize:8,
 drawSize:120,
 spin:0.0
 
-hitEffect:colorSpark,
+hitEffect:randLifeSpark,
 despawnEffect:randLifeSpark,
 shootEffect:instTrail,
-smokeEffect:shootSmokeSquare,
+smokeEffect:randLifeSpark,
 inaccuracy:6.0,
 ammoMultiplier:1.5,
 reloadMultiplier:0.8,
@@ -123,7 +123,7 @@ trailWidth:2.0,
 		}
 		"slate": {
 "type": "BasicBulletType",
-lifetime:30,
+lifetime:32,
 speed:12.0,
 drag:0.00,
 accel:0.01,
@@ -142,10 +142,10 @@ hitSize:8,
 drawSize:120,
 spin:0.0
 
-hitEffect:colorSpark,
+hitEffect:randLifeSpark,
 despawnEffect:randLifeSpark,
 shootEffect:instTrail,
-smokeEffect:shootSmokeSquare,
+smokeEffect:randLifeSpark,
 ammoMultiplier:2.0,
 reloadMultiplier:1.5,
 
