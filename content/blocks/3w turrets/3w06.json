@@ -3,7 +3,7 @@
 	"description": '''
 	Rains heavy fire against the enemy.
 	''',
-	"details": "A mass-firing area denial turret. Rendered walls basically useless, the first trigger to the arms race. 680dps."
+	"details": "A mass-firing area denial turret. Rendered walls basically useless, the first trigger to the arms race. 410dps."
 	"type": "ItemTurret",
 	"health": 1130,
 	"size": 2,
@@ -81,7 +81,7 @@ lifeScaleRandMax:1.2,
 
 scaleLife:true,
 
-splashDamage:148,
+splashDamage:98,
 splashDamageRadius:30.0,
 		}
 		"coppa": {
@@ -113,7 +113,7 @@ lifeScaleRandMax:1.1,
 
 scaleLife:true,
 
-splashDamage:279,
+splashDamage:184,
 splashDamageRadius:24.0,
 		}
 		"canolla": {
@@ -156,7 +156,7 @@ incendAmount:2.0,
 incendSpread:8.0,
 incendChance:0.5,
 
-splashDamage:510,
+splashDamage:307,
 splashDamageRadius:24.0,
 		}
 	},

@@ -105,7 +105,7 @@ pierceBuilding:true,
 pierceCap:3,
 buildingDamageMultiplier:1.0,
 shieldDamageMultiplier:0.5,
-knockback:-0.5
+knockback:-1.0
 
 trailColor:708d94,
 trailChance:0.0,
