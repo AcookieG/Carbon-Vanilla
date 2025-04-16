@@ -160,7 +160,6 @@ trailParam:2.0,
 trailLength:10.0,
 trailWidth:2.0,
 		}
-	},
 	"dense": {
 "type": "BasicBulletType",
 lifetime:30,
@@ -203,6 +202,7 @@ trailParam:3.0,
 trailLength:10.0,
 trailWidth:3.0,
 		}
+	},
 	"consumes": {
 		"power": 5,
 		"coolant": {
