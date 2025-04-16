@@ -104,7 +104,7 @@ trailWidth:2.0,
 	"requirements": [
 		{ "item": "graph", "amount": 90 },
 		{ "item": "scrp", "amount": 130 },
-		{ "item": "sili", "amount": 160 },
+		{ "item": "sili", "amount": 210 },
 	],
 	"buildCostMultiplier": 1.5,
 	"category": "turret",

@@ -212,9 +212,9 @@ trailEffect:artilleryTrailSmoke
 	"coolantMultiplier": 5,
 	"requirements": [
 		{ "item": "sadn", "amount": 210 },
-		{ "item": "carbon-fiber", "amount": 70 },
+		{ "item": "flex-joint", "amount": 70 },
 		{ "item": "scrp", "amount": 190 },
-		{ "item": "sili", "amount": 240 },
+		{ "item": "circuit", "amount": 160 },
 	],
 	"buildCostMultiplier": 1.3,
 	"category": "turret",
