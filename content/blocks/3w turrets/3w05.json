@@ -250,7 +250,7 @@ absorbable:false,
 
 fragRandomSpread:0.0,
 fragSpread:2.0,
-fragBullets:20,
+fragBullets:30,
 fragVelocityMin:1.0,
 fragVelocityMax:1.0,
 fragLifeMin:1.0,
@@ -266,11 +266,11 @@ fragBullet:{
 	height:16.0,
 	shrinkX:0.05,
 	ShrinkY:0.4,
-	damage:267,
+	damage:142,
 	hitSize:4,
 	drawSize:320,
 
-	knockback:10
+	knockback:6
 
 	trailColor:50477b,
 	trailChance:0.4,
