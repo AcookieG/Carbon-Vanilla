@@ -85,6 +85,7 @@
 		{ "item": "graph", "amount": 80 },
 		{ "item": "iron", "amount": 40 },
 	],
+	"buildCostMultiplier": 2.0,
 	"category": "turret",
 	"research": "3w00"
 }

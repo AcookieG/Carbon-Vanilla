@@ -267,7 +267,7 @@ weaveMag:9.0,
 		{ "item": "sadn", "amount": 60 },
 		{ "item": "scrp", "amount": 80 },
 	],
-	"buildCostMultiplier": 1.25,
+	"buildCostMultiplier": 2.0,
 	"category": "turret",
 	"research": "3w00"
 }

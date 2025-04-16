@@ -102,11 +102,11 @@ trailWidth:2.0,
 	},
 	"coolantMultiplier": 5,
 	"requirements": [
-		{ "item": "iron", "amount": 80 },
+		{ "item": "graph", "amount": 90 },
 		{ "item": "scrp", "amount": 130 },
-		{ "item": "sili", "amount": 120 },
+		{ "item": "sili", "amount": 160 },
 	],
-	"buildCostMultiplier": 1.25,
+	"buildCostMultiplier": 1.5,
 	"category": "turret",
 	"research": "3w00"
 }

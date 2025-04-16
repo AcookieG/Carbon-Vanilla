@@ -354,7 +354,7 @@ fragBullet:{
 	"coolantMultiplier": 20
 	"requirements": [
 		{ "item": "graph", "amount": 130 },
-		{ "item": "iron", "amount": 90 },
+		{ "item": "dense", "amount": 60 },
 		{ "item": "sili", "amount": 130 },
 	],
 	"buildCostMultiplier": 1.25,

@@ -183,7 +183,7 @@ spin:0.0
 buildingDamageMultiplier:2
 
 hitEffect:shootPayloadDriver,
-despawnEffect:randLifeSpark,
+despawnEffect:none,
 shootEffect:instTrail,
 smokeEffect:randLifeSpark,
 reloadMultiplier:0.5,
@@ -211,12 +211,12 @@ trailEffect:artilleryTrailSmoke
 	},
 	"coolantMultiplier": 5,
 	"requirements": [
-		{ "item": "graph", "amount": 150 },
-		{ "item": "dense", "amount": 40 },
-		{ "item": "scrp", "amount": 240 },
-		{ "item": "sili", "amount": 190 },
+		{ "item": "sadn", "amount": 210 },
+		{ "item": "carbon-fiber", "amount": 70 },
+		{ "item": "scrp", "amount": 190 },
+		{ "item": "sili", "amount": 240 },
 	],
-	"buildCostMultiplier": 1.25,
+	"buildCostMultiplier": 1.3,
 	"category": "turret",
 	"research": "3w03"
 }
