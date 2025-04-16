@@ -32,7 +32,7 @@
 			"shootSound": "laser"
 			"rotate": true
 			"shake": 0.0
-			"shootCone": 30,
+			"shootCone": 0.5,
 			"x": 0
 			"y": 0
 			"shootY": 0

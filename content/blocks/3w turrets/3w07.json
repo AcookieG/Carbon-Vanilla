@@ -3,7 +3,7 @@
 	"description": '''
 	Sends a shell at very high speeds towards the enemy. Low turning speed.
 	''',
-	"details": "The supposed solution to end all sieges, capable of destruction deep within enemy walls. But artillery... Oh sweet, sweet, artillery... 350dps."
+	"details": "The supposed solution to end all sieges, capable of destruction deep within enemy walls. But artillery... Oh sweet, sweet, artillery... 290dps."
 	"type": "ItemTurret",
 	"health": 1670,
 	"size": 2,
@@ -98,7 +98,7 @@ shrinkX:0.1,
 ShrinkY:0.5,
 shrinkInterp:swingIn,
 sprite:bullet,
-damage:1400,
+damage:435,
 hitSize:8,
 drawSize:120,
 spin:0.0
@@ -108,8 +108,8 @@ despawnEffect:randLifeSpark,
 shootEffect:instTrail,
 smokeEffect:randLifeSpark,
 inaccuracy:6.0,
-ammoMultiplier:1.5,
-reloadMultiplier:0.8,
+ammoMultiplier:1.0,
+reloadMultiplier:2.0,
 
 pierce:true,
 pierceBuilding:true,
@@ -137,7 +137,7 @@ shrinkX:0.1,
 ShrinkY:0.4,
 shrinkInterp:swingIn,
 sprite:bullet,
-damage:1750,
+damage:1208,
 hitSize:8,
 drawSize:120,
 spin:0.0

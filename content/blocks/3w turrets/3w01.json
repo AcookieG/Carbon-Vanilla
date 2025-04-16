@@ -3,7 +3,7 @@
 	"description": '''
 	Fires three bullets in quick succession. Highly versatile depending on the ammo.
 	''',
-	"details": "The first turret implanted in the planet. Evolved from the same thinking as Duo. 120dps."
+	"details": "The first turret implanted in the planet. Evolved from the same thinking as Duo. 110dps."
 	"type": "ItemTurret",
 	"health": 610,
 	"size": 1,
@@ -61,12 +61,12 @@ drawSize:120,
 spin:6.5,
 
 inaccuracy:12.0,
-ammoMultiplier:1.5,
-reloadMultiplier:0.6,
+ammoMultiplier:1.0,
+reloadMultiplier:2.0,
 rangeChange:0.0,
 
-damage:12,
-splashDamage:20,
+damage:2,
+splashDamage:9,
 splashDamageRadius:20.0,
 
 hitEffect:flakExplosion,
@@ -93,12 +93,12 @@ width:4.5,
 height:7.5,
 shrinkX:0.05,
 ShrinkY:0.4,
-damage:40,
+damage:31,
 hitSize:4,
 drawSize:120,
 
 ammoMultiplier:2.0,
-reloadMultiplier:1.5,
+reloadMultiplier:1.2,
 
 pierce:true,
 pierceBuilding:true,
@@ -125,7 +125,7 @@ width:8.0,
 height:12.0,
 shrinkX:0.0,
 ShrinkY:0.5,
-damage:48,
+damage:37,
 hitSize:4,
 drawSize:120,
 
@@ -149,7 +149,7 @@ width:12.0,
 height:17.0,
 shrinkX:0.0,
 ShrinkY:0.5,
-damage:48,
+damage:55,
 hitSize:4,
 drawSize:120,
 spin:0.0
@@ -157,7 +157,6 @@ spin:0.0
 inaccuracy:0.0,
 ammoMultiplier:3.0,
 reloadMultiplier:0.8,
-rangeChange:0.0,
 
 homingPower:0.05,
 homingRange:40.0,
@@ -196,7 +195,7 @@ scaleLife:true,
 
 shootEffect:shootSmall,
 smokeEffect:shootSmallSmoke,
-damage:10,
+damage:2,
 hitEffect:flakExplosion,
 despawnEffect:flakExplosion,
 splashDamage:20,
@@ -213,7 +212,7 @@ fragVelocityMax:0.5,
 fragBullet:{
 	"type": "BasicBulletType"
 	lifetime:10,
-	damage: 5
+	damage: 15
 	drawSize:1,
 	hitEffect:none,
 	despawnEffect:none,
@@ -234,7 +233,7 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:missile,
-damage:100,
+damage:92,
 hitSize:4,
 drawSize:120,
 spin:0.0

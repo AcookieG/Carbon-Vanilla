@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Scrap Metal",
-	"description": "Old remnants of past structures. Structuraly strong, used in early-game buidlings and conveyors. [salmon]Cheap but inaccurate. 0.6 Reload.  80%",
+	"description": "Old remnants of past structures. Structuraly strong, used in early-game buidlings and conveyors. [salmon]Cheap but inaccurate. 2.0 Reload. 60%",
 	"cost": 1.0,
 	"flammability": 0.0,
 	"radioactivity": 0.0,

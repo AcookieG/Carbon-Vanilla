@@ -1,7 +1,7 @@
 {
 	"name": "Crash",
 	"description": '''
-	Fires walls of bullets at short ranges as deterrents.
+	Fires walls of bullets at short ranges as deterrent.
 	''',
 	"details": "These mighty turrets would dominate the battlefield, until ranged artillery made everything obselete. 800dps."
 	"type": "ItemTurret",
@@ -20,12 +20,6 @@
 	"rotateSpeed": 3.6
 	"shootY":5.5
 	"shake": 1.0,
-	"shoot": {
-		"type": "ShootPattern",
-		"shots": 1
-		"spread": 0
-		"shotDelay": 0
-	},
 	"outlineRadius": 4,
 	"squareSprite": false,
 	"shake": 1.0
@@ -60,8 +54,8 @@ hitEffect:none,
 despawnEffect:none,
 shootEffect:shootBig,
 smokeEffect:shootSmokeSquareBig,
-ammoMultiplier:1.5,
-reloadMultiplier:0.6,
+ammoMultiplier:1.0,
+reloadMultiplier:2.0,
 
 instantDisappear:true,
 
@@ -96,7 +90,7 @@ fragBullet:{
 	spin:6.5,
 	knockback: 2,
 
-	damage:14.5,
+	damage:6,
 
 	hitEffect:flakExplosion,
 	despawnEffect:flakExplosion,
@@ -150,7 +144,7 @@ fragBullet:{
 	height:7.5,
 	shrinkX:0.05,
 	ShrinkY:0.4,
-	damage:18,
+	damage:15,
 	hitSize:4,
 	drawSize:120,
 
@@ -185,7 +179,7 @@ despawnEffect:none,
 shootEffect:shootBig,
 smokeEffect:shootSmokeSquareBig,
 ammoMultiplier:2.0,
-reloadMultiplier:1.1,
+reloadMultiplier:1.0,
 
 instantDisappear:true,
 
@@ -215,7 +209,7 @@ fragBullet:{
 	height:12.0,
 	shrinkX:0.0,
 	ShrinkY:0.5,
-	damage:40,
+	damage:27,
 	hitSize:4,
 	drawSize:120,
 
@@ -244,7 +238,7 @@ hitEffect:none,
 despawnEffect:none,
 shootEffect:shootBig,
 smokeEffect:shootSmokeSquareBig,
-ammoMultiplier:3.5,
+ammoMultiplier:3.0,
 reloadMultiplier:0.5,
 
 instantDisappear:true,
@@ -275,7 +269,7 @@ fragBullet:{
 	height:12.0,
 	shrinkX:0.05,
 	ShrinkY:0.4,
-	damage:106.5,
+	damage:267,
 	hitSize:4,
 	drawSize:320,
 
@@ -339,7 +333,7 @@ fragBullet:{
 	height:12.0,
 	shrinkX:0.0,
 	ShrinkY:0.5,
-	damage:42.5,
+	damage:36,
 	hitSize:4,
 	drawSize:120,
 

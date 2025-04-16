@@ -3,7 +3,7 @@
 	"description": '''
 	Sends a high-speed shell at enemies. Low turning speed.
 	''',
-	"details": "originally a railgun test turret. Massively exploited at #5688's last stand, before it fell. 90dps."
+	"details": "originally a railgun test turret. Massively exploited at #5688's last stand, before it fell. 45dps."
 	"type": "ItemTurret",
 	"health": 840,
 	"size": 1,
@@ -70,7 +70,7 @@ shrinkX:0.1,
 ShrinkY:0.5,
 shrinkInterp:swingIn,
 sprite:bullet,
-damage:360,
+damage:67.5,
 hitSize:8,
 drawSize:120,
 spin:0.0
@@ -80,8 +80,8 @@ despawnEffect:colorSpark,
 shootEffect:shootBig,
 smokeEffect:colorSparkBig,
 inaccuracy:6.0,
-ammoMultiplier:1.5,
-reloadMultiplier:0.8,
+ammoMultiplier:1.0,
+reloadMultiplier:2.0,
 
 pierce:true,
 pierceBuilding:true,
