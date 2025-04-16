@@ -167,7 +167,7 @@ trailWidth:2.0,
 		"amount": 0.3
 		}
 	},
-	"coolantMultiplier": 4,
+	"coolantMultiplier": 5,
 	"requirements": [
 		{ "item": "graph", "amount": 150 },
 		{ "item": "dense", "amount": 40 },

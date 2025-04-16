@@ -100,7 +100,7 @@ trailWidth:2.0,
 		"amount": 0.1
 		}
 	},
-	"coolantMultiplier": 4,
+	"coolantMultiplier": 5,
 	"requirements": [
 		{ "item": "iron", "amount": 80 },
 		{ "item": "scrp", "amount": 130 },

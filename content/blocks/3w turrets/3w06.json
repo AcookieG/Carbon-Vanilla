@@ -232,11 +232,10 @@ scaleLife:true,
 despawnShake:2.0,
 
 trailColor:89769a,
-trailChance:0.2,
-trailParam:1.0,
+trailChance:0.5,
+trailParam:3.0,
 trailLength:4.0,
 trailWidth:4.0,
-trailEffect:artilleryTrailSmoke,
 
 splashDamage:1272,
 splashDamageRadius:45.0,
@@ -247,7 +246,7 @@ splashDamageRadius:45.0,
 		"amount": 0.2
 		}
 	},
-	"coolantMultiplier": 6
+	"coolantMultiplier": 5
 	"requirements": [
 		{ "item": "sadn", "amount": 170 },
 		{ "item": "iron", "amount": 80 },

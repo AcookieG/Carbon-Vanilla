@@ -267,7 +267,7 @@ weaveMag:9.0,
 		"amount": 0.1
 		}
 	},
-	"coolantMultiplier": 6
+	"coolantMultiplier": 10
 	"requirements": [
 		{ "item": "sadn", "amount": 60 },
 		{ "item": "scrp", "amount": 80 },

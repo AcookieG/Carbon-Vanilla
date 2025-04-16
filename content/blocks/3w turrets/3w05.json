@@ -282,28 +282,8 @@ fragBullet:{
 	trailLength:4.0,
 
 	shootEffect:shootBig,
-hitEffect:{
-			type: ExplosionEffect
-			lifetime: 30
-			waveRad: 0
-			waveLife: 1
-			sparkColor:89769a
-			sparks: 8
-			sparkRad: 24
-			sparkStroke: 6
-			sparkLen: 6
-			},
-despawnEffect:{
-			type: ExplosionEffect
-			lifetime: 30
-			waveRad: 0
-			waveLife: 1
-			sparkColor:89769a
-			sparks: 8
-			sparkRad: 24
-			sparkStroke: 6
-			sparkLen: 6
-			},
+hitEffect:hitSquaresColor
+despawnEffect:hitSquaresColor
 			
 	status:disarmed,
 	statusDuration:120,
@@ -375,7 +355,7 @@ fragBullet:{
 		"amount": 0.2
 		}
 	},
-	"coolantMultiplier": 4
+	"coolantMultiplier": 20
 	"requirements": [
 		{ "item": "graph", "amount": 130 },
 		{ "item": "iron", "amount": 90 },
