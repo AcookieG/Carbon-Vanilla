@@ -113,7 +113,7 @@ reloadMultiplier:2.0,
 
 pierce:true,
 pierceBuilding:true,
-pierceCap:6,
+pierceCap:4,
 
 trailColor:9b928b,
 trailChance:0.7,
@@ -161,6 +161,48 @@ trailLength:10.0,
 trailWidth:2.0,
 		}
 	},
+	"dense": {
+"type": "BasicBulletType",
+lifetime:30,
+speed:10.0,
+drag:0.00,
+accel:0.02,
+backColor:50477b,
+frontColor:89769a,
+hitColor:89769a,
+
+width:13.0,
+height:21.0,
+shrinkX:0.1,
+ShrinkY:0.4,
+shrinkInterp:swingIn,
+sprite:bullet,
+damage:5800,
+hitSize:8,
+drawSize:120,
+spin:0.0
+buildingDamageMultiplier:2
+
+hitEffect:randLifeSpark,
+despawnEffect:randLifeSpark,
+shootEffect:instTrail,
+smokeEffect:randLifeSpark,
+reloadMultiplier:0.5,
+
+knockback:4
+pierce:true,
+pierceBuilding:true,
+pierceCap:6,
+
+status:disarmed,
+statusDuration:120,
+
+trailColor:89769a,
+trailChance:0.9,
+trailParam:3.0,
+trailLength:10.0,
+trailWidth:3.0,
+		}
 	"consumes": {
 		"power": 5,
 		"coolant": {

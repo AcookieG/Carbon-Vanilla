@@ -35,7 +35,7 @@
 	"liquid": stillwater
 		"shootEffect": "shootLiquid",
 	"knockback": 0.4,
-	"drag": 0.022,
+	"drag": 0.023,
 	"rangeChange": -20,
 	"puddles": 1,
 	"puddleLiquid": stillwater
@@ -48,7 +48,7 @@
 	"liquid": water
 		"shootEffect": "shootLiquid",
 	"knockback": 2.8,
-	"drag": 0.006,
+	"drag": 0.005,
 	"rangeChange": 20,
 	"status": "wet",
 	"lightOpacity": 0
@@ -75,7 +75,7 @@
 		"shootEffect": "shootLiquid",
 	"knockback": 1.1,
 	"damage": 18,
-	"drag": 0.001,
+	"drag": 0.01,
 	"ammoMultiplier": 3,
 	"status": "corroded",
 	"lightOpacity": 0

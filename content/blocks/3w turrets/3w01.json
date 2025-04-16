@@ -97,7 +97,6 @@ damage:31,
 hitSize:4,
 drawSize:120,
 
-ammoMultiplier:2.0,
 reloadMultiplier:1.2,
 
 pierce:true,
@@ -129,7 +128,6 @@ damage:37,
 hitSize:4,
 drawSize:120,
 
-ammoMultiplier:3.0,
 reloadMultiplier:1.2,
 rangeChange:80,
 
@@ -155,7 +153,6 @@ drawSize:120,
 spin:0.0
 
 inaccuracy:0.0,
-ammoMultiplier:3.0,
 reloadMultiplier:0.8,
 
 homingPower:0.05,
@@ -188,7 +185,6 @@ sprite:bullet,
 spin:0.0
 
 inaccuracy:6.0,
-ammoMultiplier:3.0,
 reloadMultiplier:0.8,
 rangeChange:0.0,
 scaleLife:true,
@@ -241,7 +237,6 @@ spin:0.0
 hitEffect:blastExplosion,
 despawnEffect:blastExplosion,
 inaccuracy:3,
-ammoMultiplier:2.5,
 reloadMultiplier:1.0,
 rangeChange:0.0,
 

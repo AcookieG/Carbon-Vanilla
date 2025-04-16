@@ -88,7 +88,7 @@ fragBullet:{
 	hitSize:4,
 	drawSize:120,
 	spin:6.5,
-	knockback: 2,
+	knockback: 0.7,
 
 	damage:6,
 
@@ -113,7 +113,6 @@ hitEffect:none,
 despawnEffect:none,
 shootEffect:shootBig,
 smokeEffect:shootSmokeSquareBig,
-ammoMultiplier:2.0,
 reloadMultiplier:1.2,
 
 instantDisappear:true,
@@ -178,7 +177,6 @@ hitEffect:none,
 despawnEffect:none,
 shootEffect:shootBig,
 smokeEffect:shootSmokeSquareBig,
-ammoMultiplier:2.0,
 reloadMultiplier:1.0,
 
 instantDisappear:true,
@@ -213,7 +211,7 @@ fragBullet:{
 	hitSize:4,
 	drawSize:120,
 
-	knockback:3.5
+	knockback:2
 
 	trailColor:d99d73,
 	trailChance:0.0,
@@ -238,7 +236,6 @@ hitEffect:none,
 despawnEffect:none,
 shootEffect:shootBig,
 smokeEffect:shootSmokeSquareBig,
-ammoMultiplier:3.0,
 reloadMultiplier:0.5,
 
 instantDisappear:true,
@@ -265,8 +262,8 @@ fragBullet:{
 	backColor:50477b,
 	frontColor:89769a,
 	hitColor:89769a,
-	width:8.0,
-	height:12.0,
+	width:11.0,
+	height:16.0,
 	shrinkX:0.05,
 	ShrinkY:0.4,
 	damage:267,
@@ -302,7 +299,6 @@ hitEffect:none,
 despawnEffect:none,
 shootEffect:shootBig,
 smokeEffect:shootSmokeSquareBig,
-ammoMultiplier:3.0,
 reloadMultiplier:1.1,
 
 instantDisappear:true,
