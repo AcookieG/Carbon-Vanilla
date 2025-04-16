@@ -282,9 +282,29 @@ fragBullet:{
 	trailLength:4.0,
 
 	shootEffect:shootBig,
-	hitEffect:hitSquaresColor,
-	despawnEffect:hitSquaresColor,
-		
+hitEffect:{
+			type: ExplosionEffect
+			lifetime: 30
+			waveRad: 0
+			waveLife: 1
+			sparkColor:89769a
+			sparks: 8
+			sparkRad: 24
+			sparkStroke: 6
+			sparkLen: 6
+			},
+despawnEffect:{
+			type: ExplosionEffect
+			lifetime: 30
+			waveRad: 0
+			waveLife: 1
+			sparkColor:89769a
+			sparks: 8
+			sparkRad: 24
+			sparkStroke: 6
+			sparkLen: 6
+			},
+			
 	status:disarmed,
 	statusDuration:120,
 			},

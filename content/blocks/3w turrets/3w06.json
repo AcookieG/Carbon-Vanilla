@@ -182,12 +182,12 @@ hitEffect:{
 			lifetime: 30
 			waveRad: 45
 			waveLife: 30
-			waveStroke: 3
+			waveStroke: 4
 			sparkColor:89769a
 			smokeColor:89769a
-			smokeSize: 3
+			smokeSize: 6
 			smokes: 10
-			smokeRad: 50
+			smokeRad: 30
 			sparks: 10
 			sparkRad: 30
 			sparkStroke: 3
@@ -198,12 +198,12 @@ despawnEffect:{
 			lifetime: 30
 			waveRad: 45
 			waveLife: 30
-			waveStroke: 3
+			waveStroke: 4
 			sparkColor:89769a
 			smokeColor:89769a
-			smokeSize: 3
+			smokeSize: 6
 			smokes: 10
-			smokeRad: 50
+			smokeRad: 30
 			sparks: 10
 			sparkRad: 30
 			sparkStroke: 3
@@ -225,21 +225,20 @@ buildingDamageMultiplier:0.5,
 shieldDamageMultiplier:3.0,
 knockback:8.0
 
-status:none,
-statusDuration:480,
+status:disarmed,
+statusDuration:120,
 
-scaleLife:false,
-despawnShake:0.0,
-instantDisappear:false,
+scaleLife:true,
+despawnShake:2.0,
 
-trailColor:e58956ff,
-trailChance:1.0,
-trailParam:2.0,
-trailLength:2.0,
-trailWidth:2.0,
+trailColor:89769a,
+trailChance:0.2,
+trailParam:1.0,
+trailLength:4.0,
+trailWidth:4.0,
 trailEffect:artilleryTrailSmoke,
 
-splashDamage:2120,
+splashDamage:1272,
 splashDamageRadius:45.0,
 		}
 	},
