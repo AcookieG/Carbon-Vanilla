@@ -1,6 +1,6 @@
 {
 	"type": "material",
-	"name": "Copper",
+	"name": "Ralergic Ore",
 	"description": "Basic material, used in all branches. [salmon]Basic. 100%",
 	"cost": 1.3,
 	"flammability": 0.0,
