@@ -151,6 +151,7 @@ knockback:-5
 pierce:true,
 pierceBuilding:true,
 pierceCap:13,
+shieldDamageMultiplier:0.5,
 
 trailColor:708d94,
 trailChance:0.7,
