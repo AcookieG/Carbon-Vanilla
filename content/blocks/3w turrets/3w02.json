@@ -164,6 +164,10 @@ trailWidth:2.0,
 fragRandomSpread:0.0,
 fragSpread:6,
 fragBullets:4,
+fragVelocityMin:1
+fragVelocityMax:1,
+fragLifeMin:1,
+fragLifeMax:1,
 fragBullet:{
 	"type": "BasicBulletType",
 	lifetime:17,
