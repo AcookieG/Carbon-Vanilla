@@ -13,7 +13,7 @@
 	"minRange": 70,
 	"fogRadius": 8,
 	"recoil":2,
-	"ammoPerShot":6,
+	"ammoPerShot":4,
 	"maxAmmo":30,
 	"ammoUseEffect": "casing3",
 	"shootSound": "pulseBlast",
@@ -79,7 +79,7 @@ hitEffect:colorSpark,
 despawnEffect:colorSpark,
 shootEffect:shootBig,
 smokeEffect:colorSparkBig,
-inaccuracy:6.0,
+inaccuracy:12.0,
 ammoMultiplier:1.0,
 reloadMultiplier:2.0,
 
@@ -92,6 +92,12 @@ trailChance:0.7,
 trailParam:2.0,
 trailLength:8.0,
 trailWidth:2.0,
+		}
+		"slate": {
+"type": "BasicBulletType",
+		}
+		"canolla": {
+"type": "BasicBulletType",
 		}
 	},
 	"consumes": {

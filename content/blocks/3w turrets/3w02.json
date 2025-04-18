@@ -1,0 +1,72 @@
+{
+	"name": "Knuckle",
+	"description": '''
+	Fires spreading shells at far away enemies.
+	''',
+	"details": "An upgraded Boost, designed to to rain multiple shells upon enemy land. The release mechanism malfunctions, thus the airburst shell is born. 62dps."
+	"type": "ItemTurret",
+	"health": 540,
+	"size": 1,
+	"reload": 120,
+	"range": 180,
+	"fogRadius": 8,
+	"recoil":1.5,
+	"ammoPerShot":3,
+	"maxAmmo":30,
+	"ammoUseEffect": "casing2",
+	"shootSound": "shoot",
+	"shootCone": 20,
+	"hasLiquids": true,
+	"rotateSpeed": 4.0,
+	"outlineRadius": 4,
+	"squareSprite": false,
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-"
+			"parts": [
+		{
+		"under": true,
+		"type": "RegionPart",
+		"colorTo": "fb9957",
+		"color": "fb995700",
+		"blending": "additive",
+		"progress": recoil,
+		"layerOffset": 0.001,
+		"outline": false,
+		"suffix": "-glow"
+		"mirror": false,
+		}
+		]
+	},
+	"ammoTypes": {
+		"scrp": {
+"type": "ArtilleryBulletType",
+		},
+		"slate": {
+"type": "BasicBulletType",
+		}
+		"graph": {
+"type": "BasicBulletType",
+		}
+		"sili": {
+"type": "BasicBulletType",
+		}
+		"canolla": {
+"type": "BasicBulletType",
+		}
+	},
+	"consumes": {
+		"coolant": {
+		"amount": 0.1
+		}
+	},
+	"coolantMultiplier": 10
+	"requirements": [
+		{ "item": "sadn", "amount": 110 },
+		{ "item": "scrp", "amount": 70 },
+		{ "item": "iron", "amount": 90 },
+	],
+	"buildCostMultiplier": 2.0,
+	"category": "turret",
+	"research": "3w00"
+}

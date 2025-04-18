@@ -8,10 +8,10 @@
 	"health": 1250,
 	"size": 3,
 	"reload": 40,
-	"range": 120,
+	"range": 116,
 	"fogRadius": 8,
 	"recoil":4,
-	"ammoPerShot":10,
+	"ammoPerShot":5,
 	"maxAmmo":45,
 	"ammoUseEffect": "casing4",
 	"shootSound": "shootAltLong",
@@ -23,6 +23,7 @@
 	"outlineRadius": 4,
 	"squareSprite": false,
 	"shake": 1.0
+	"predictTarget": false,
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
