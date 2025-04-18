@@ -6,7 +6,7 @@
 	"health": 540,
 	"radius": 48,
 	"shieldHealth": 1200,
-	"sides": 30,
+	"sides": 16,
 	"rotation": 0,
 	"cooldownNormal": 2.2,
 	"cooldownBrokenBase": 1.4,

@@ -6,7 +6,7 @@
 	"size": 1,
 	"hasPower": false,
 	"range": 7,
-	"healPercent": 0.03,
+	"healPercent": 0.06,
 	"optionalMultiplier":	2
 	"effectChance": 0.04
 	"requirements": [

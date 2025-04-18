@@ -1,5 +1,5 @@
 {
-	"name": "Puff",
+	"name": "Carpal",
 	"description": '''
 	Rains heavy fire against the enemy.
 	''',
@@ -80,7 +80,7 @@ lifeScaleRandMin:0.7,
 lifeScaleRandMax:1.2,
 
 splashDamage:48,
-splashDamageRadius:24.0,
+splashDamageRadius:28.0,
 		}
 		"coppa": {
 "type": "ArtilleryBulletType",
@@ -109,7 +109,7 @@ lifeScaleRandMin:0.9,
 lifeScaleRandMax:1.1,
 
 splashDamage:159,
-splashDamageRadius:16.0,
+splashDamageRadius:22.0,
 		}
 		"canolla": {
 "type": "ArtilleryBulletType",
@@ -149,7 +149,7 @@ incendSpread:8.0,
 incendChance:0.5,
 
 splashDamage:398,
-splashDamageRadius:16.0,
+splashDamageRadius:22.0,
 		}
 		"dense": {
 "type": "ArtilleryBulletType",
@@ -228,7 +228,7 @@ trailLength:4.0,
 trailWidth:4.0,
 
 splashDamage:636,
-splashDamageRadius:32.0,
+splashDamageRadius:36.0,
 		}
 		"metarkle": {
 "type": "BasicBulletType",

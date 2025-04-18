@@ -142,8 +142,6 @@ fragBullet:{
 	hitColor:708d94,
 	width:4.5,
 	height:7.5,
-	shrinkX:0.05,
-	ShrinkY:0.4,
 	damage:15,
 	hitSize:4,
 	drawSize:120,
@@ -352,7 +350,7 @@ fragBullet:{
 		"amount": 0.2
 		}
 	},
-	"coolantMultiplier": 20
+	"coolantMultiplier": 10
 	"requirements": [
 		{ "item": "graph", "amount": 130 },
 		{ "item": "dense", "amount": 60 },
