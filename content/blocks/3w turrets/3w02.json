@@ -3,13 +3,13 @@
 	"description": '''
 	Fires spreading shells at far away enemies.
 	''',
-	"details": "An upgraded Boost, designed to to rain multiple shells upon enemy land. The release mechanism malfunctions, thus the airburst shell is born. 120dps."
+	"details": "An upgraded Boost, designed to to rain multiple shells upon enemy land. The release mechanism malfunctions, giving birth to the airborne shell design, but heavily limited to its narrow firing zone. 190dps."
 	"type": "ItemTurret",
-	"health": 540,
+	"health": 580,
 	"size": 1,
 	"reload": 60,
 	"range": 180,
-	"minRange": 80,
+	"minRange": 100,
 	"drawMinRange": true,
 	"fogRadius": 8,
 	"recoil":1.5,
@@ -17,7 +17,7 @@
 	"maxAmmo":30,
 	"ammoUseEffect": "casing2",
 	"shootSound": "shoot",
-	"shootCone": 20,
+	"shootCone": 30,
 	"hasLiquids": true,
 	"rotateSpeed": 4.0,
 	"outlineRadius": 4,
@@ -108,7 +108,7 @@ sprite:shell,
 	drawSize:60,
 	spin:6.5,
 
-	damage:9,
+	damage:14,
 
 	hitEffect:flakExplosion,
 	despawnEffect:flakExplosion,
@@ -162,6 +162,9 @@ trailEffect:none,
 trailLength:5.0,
 trailWidth:1.7
 
+homingPower:0.02,
+homingRange:80.0,
+
 fragRandomSpread:0.0,
 fragSpread:6,
 fragBullets:4,
@@ -186,7 +189,7 @@ sprite:shell,
 	drawSize:60,
 	spin:0,
 
-	damage:25,
+	damage:57,
 	
 	pierce:true,
 pierceBuilding:true,
@@ -249,6 +252,9 @@ trailWidth:4.0
 trailEffect:none,
 trailLength:5.0,
 
+homingPower:0.05,
+homingRange:80.0,
+
 fragRandomSpread:0.0,
 fragSpread:8,
 fragBullets:4,
@@ -273,10 +279,10 @@ sprite:shell,
 	drawSize:60,
 	spin:0,
 
-	damage:45,
+	damage:71,
 	
-homingPower:0.05,
-homingRange:40.0,
+homingPower:0.15,
+homingRange:50.0,
 	
 trailColor:767a84,
 trailChance:0.0,

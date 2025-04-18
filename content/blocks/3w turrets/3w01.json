@@ -3,7 +3,7 @@
 	"description": '''
 	Fires three bullets in quick succession. Highly versatile depending on the ammo.
 	''',
-	"details": "The first turret implanted in the planet. Evolved from the same thinking as Duo. 110dps."
+	"details": "The first turret implanted in the planet. Evolved from the same thinking as Duo. 160dps."
 	"type": "ItemTurret",
 	"health": 610,
 	"size": 1,
@@ -65,9 +65,7 @@ ammoMultiplier:1.0,
 reloadMultiplier:2.0,
 rangeChange:0.0,
 
-damage:2,
-splashDamage:9,
-splashDamageRadius:20.0,
+damage:16,
 
 hitEffect:flakExplosion,
 despawnEffect:flakExplosion,
@@ -93,7 +91,7 @@ width:4.5,
 height:7.5,
 shrinkX:0.05,
 ShrinkY:0.4,
-damage:31,
+damage:45,
 hitSize:4,
 drawSize:120,
 
@@ -124,7 +122,7 @@ width:8.0,
 height:12.0,
 shrinkX:0.0,
 ShrinkY:0.5,
-damage:37,
+damage:53,
 hitSize:4,
 drawSize:120,
 
@@ -147,7 +145,7 @@ width:12.0,
 height:17.0,
 shrinkX:0.0,
 ShrinkY:0.5,
-damage:55,
+damage:80,
 hitSize:4,
 drawSize:120,
 spin:0.0
@@ -208,7 +206,7 @@ fragVelocityMax:0.5,
 fragBullet:{
 	"type": "BasicBulletType"
 	lifetime:10,
-	damage: 15
+	damage: 22.5
 	drawSize:1,
 	hitEffect:none,
 	despawnEffect:none,
@@ -229,7 +227,7 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:missile,
-damage:92,
+damage:133,
 hitSize:4,
 drawSize:120,
 spin:0.0
@@ -253,7 +251,7 @@ incendAmount:2.0,
 incendSpread:8.0,
 incendChance:0.5,
 
-weaveScale:2.0,
+weaveScale:0.1,
 weaveMag:9.0,
 		}
 	},
