@@ -3,11 +3,11 @@
 	"description": '''
 	Fires spreading shells at far away enemies.
 	''',
-	"details": "An upgraded Boost, designed to to rain multiple shells upon enemy land. The release mechanism malfunctions, thus the airburst shell is born. 62dps."
+	"details": "An upgraded Boost, designed to to rain multiple shells upon enemy land. The release mechanism malfunctions, thus the airburst shell is born. 120dps."
 	"type": "ItemTurret",
 	"health": 540,
 	"size": 1,
-	"reload": 120,
+	"reload": 60,
 	"range": 180,
 	"minRange": 80,
 	"drawMinRange": true,
@@ -108,7 +108,7 @@ sprite:shell,
 	drawSize:60,
 	spin:6.5,
 
-	damage:9.5,
+	damage:9,
 
 	hitEffect:flakExplosion,
 	despawnEffect:flakExplosion,
@@ -164,10 +164,6 @@ trailWidth:2.0,
 fragRandomSpread:0.0,
 fragSpread:6,
 fragBullets:4,
-fragVelocityMin:0.6,
-fragVelocityMax:1.1,
-fragLifeMin:0.6,
-fragLifeMax:1.1,
 fragBullet:{
 	"type": "BasicBulletType",
 	lifetime:17,
@@ -185,7 +181,7 @@ sprite:shell,
 	drawSize:60,
 	spin:0,
 
-	damage:26,
+	damage:25,
 	
 	trailColor:708d94,
 	trailChance:0.3,
