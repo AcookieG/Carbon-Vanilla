@@ -79,8 +79,6 @@ velocityScaleRandMax:1.2,
 lifeScaleRandMin:0.7,
 lifeScaleRandMax:1.2,
 
-scaleLife:true,
-
 splashDamage:48,
 splashDamageRadius:24.0,
 		}
@@ -110,8 +108,6 @@ velocityScaleRandMax:1.1,
 lifeScaleRandMin:0.9,
 lifeScaleRandMax:1.1,
 
-scaleLife:true,
-
 splashDamage:159,
 splashDamageRadius:16.0,
 		}
@@ -140,8 +136,6 @@ velocityScaleRandMin:0.9,
 velocityScaleRandMax:1.1,
 lifeScaleRandMin:0.9,
 lifeScaleRandMax:1.1,
-
-scaleLife:true,
 
 trailColor:ff8a66,
 trailChance:0.5,
@@ -225,7 +219,6 @@ knockback:8.0
 status:disarmed,
 statusDuration:120,
 
-scaleLife:true,
 despawnShake:2.0,
 
 trailColor:89769a,

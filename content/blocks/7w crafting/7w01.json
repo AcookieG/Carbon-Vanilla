@@ -18,8 +18,8 @@
 		},
 	},
 	"requirements": [
-		{ "item": "scrap", "amount": 12 },
-		{ "item": "sand", "amount": 40 },
+		{ "item": "scrp", "amount": 12 },
+		{ "item": "sadn", "amount": 40 },
 	],
 	"category": "crafting",
 	"rotate": false

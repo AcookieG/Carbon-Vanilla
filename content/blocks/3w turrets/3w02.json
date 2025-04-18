@@ -9,6 +9,8 @@
 	"size": 1,
 	"reload": 120,
 	"range": 180,
+	"minRange": 80,
+	"drawMinRange": true,
 	"fogRadius": 8,
 	"recoil":1.5,
 	"ammoPerShot":3,
@@ -41,6 +43,47 @@
 	"ammoTypes": {
 		"scrp": {
 "type": "BasicBulletType",
+lifetime:16,
+speed:5.0,
+drag:0.0,
+accel:0.0,
+backColor:666666,
+frontColor:9b928b,
+hitColor:9b928b,
+
+width:8.0,
+height:12.0,
+shrinkX:0.15,
+ShrinkY:0.63,
+shrinkInterp:slope,
+sprite:shell,
+damage:0,
+hitSize:4,
+drawSize:120,
+
+despawnShake:0.5,
+
+ammoMultiplier:1.0,
+reloadMultiplier:2.0,
+
+collidesTiles:false,
+collidesTeam:false,
+collidesAir:false,
+collidesGround:false,
+hittable:false,
+reflectable:false,
+absorbable:false,
+
+hitEffect:none,
+despawnEffect:none,
+shootEffect:shootSmall,
+smokeEffect:shootSmoke,
+
+trailColor:9b928b,
+trailChance:0.5,
+trailParam:2.0,
+trailLength:4.0,
+trailWidth:2.0,
 		},
 		"slate": {
 "type": "BasicBulletType",

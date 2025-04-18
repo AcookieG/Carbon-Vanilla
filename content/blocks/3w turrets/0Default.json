@@ -1,6 +1,6 @@
 {
 	"name": "Tester",
-	"description": "Description.",
+	"description": "Description",
 	"details": "Details"
 	"type": "ItemTurret",
 	"health": 10,
