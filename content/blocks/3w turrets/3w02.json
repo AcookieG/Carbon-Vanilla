@@ -121,16 +121,16 @@ sprite:shell,
 		},
 		"slate": {
 "type": "BasicBulletType",
-lifetime:14,
-speed:6.0,
+lifetime:12,
+speed:7.0,
 drag:0.0,
 accel:0.0,
 backColor:526570,
 frontColor:708d94,
 hitColor:708d94,
 
-width:8.0,
-height:12.0,
+width:4.5,
+height:7.5,
 shrinkX:0.15,
 ShrinkY:0.63,
 shrinkInterp:slope,
@@ -156,10 +156,11 @@ despawnEffect:none,
 shootEffect:shootSmall,
 
 trailColor:708d94,
-trailChance:0.5,
+trailChance:0.0,
 trailParam:2.0,
-trailLength:4.0,
-trailWidth:2.0,
+trailEffect:none,
+trailLength:5.0,
+trailWidth:1.7
 
 fragRandomSpread:0.0,
 fragSpread:6,
@@ -175,8 +176,8 @@ fragBullet:{
 backColor:526570,
 frontColor:708d94,
 hitColor:708d94,
-width:8.0,
-height:12.0,
+width:4.5,
+height:7.5,
 shrinkX:0.15,
 ShrinkY:0.63,
 shrinkInterp:slope,
@@ -187,10 +188,19 @@ sprite:shell,
 
 	damage:25,
 	
-	trailColor:708d94,
-	trailChance:0.3,
-	trailParam:2.0,
-	trailLength:0.0,
+	pierce:true,
+pierceBuilding:true,
+pierceCap:3,
+buildingDamageMultiplier:1.0,
+shieldDamageMultiplier:0.5,
+knockback:-1.0
+	
+trailColor:708d94,
+trailChance:0.0,
+trailParam:2.0,
+trailEffect:none,
+trailLength:5.0,
+trailWidth:1.7
 			},
 		}
 		"graph": {
@@ -198,6 +208,83 @@ sprite:shell,
 		}
 		"sili": {
 "type": "BasicBulletType",
+lifetime:14,
+speed:6.0,
+drag:0.0,
+accel:0.0,
+backColor:3a3a50,
+frontColor:767a84,
+hitColor:767a84,
+
+width:12.0,
+height:17.0,
+shrinkX:0.15,
+ShrinkY:0.63,
+shrinkInterp:slope,
+sprite:shell,
+damage:0,
+hitSize:4,
+drawSize:120,
+
+despawnShake:0.5,
+
+reloadMultiplier:0.8,
+
+collidesTiles:false,
+collidesTeam:false,
+collidesAir:false,
+collidesGround:false,
+hittable:false,
+reflectable:false,
+absorbable:false,
+
+hitEffect:none,
+despawnEffect:none,
+shootEffect:shootSmall,
+
+trailColor:767a84,
+trailChance:0.0,
+trailParam:2.0,
+trailWidth:4.0
+trailEffect:none,
+trailLength:5.0,
+
+fragRandomSpread:0.0,
+fragSpread:8,
+fragBullets:4,
+fragVelocityMin:1
+fragVelocityMax:1,
+fragLifeMin:1,
+fragLifeMax:1,
+fragBullet:{
+	"type": "BasicBulletType",
+	lifetime:17,
+	speed:6.0,
+backColor:3a3a50,
+frontColor:767a84,
+hitColor:767a84,
+width:12.0,
+height:17.0,
+shrinkX:0.15,
+ShrinkY:0.63,
+shrinkInterp:slope,
+sprite:shell,
+	hitSize:4,
+	drawSize:60,
+	spin:0,
+
+	damage:45,
+	
+homingPower:0.05,
+homingRange:40.0,
+	
+trailColor:767a84,
+trailChance:0.0,
+trailParam:2.0,
+trailWidth:4.0
+trailEffect:none,
+trailLength:5.0,
+			},
 		}
 		"canolla": {
 "type": "BasicBulletType",
