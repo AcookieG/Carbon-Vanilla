@@ -5,8 +5,8 @@
 	"size": 2,
 	"health": 420,
 	"shieldHealth": 3000,
-width: 80
-padSize: 
+width:80
+padSize:58
 	"requirements": [
 		{"item": "sili", "amount": 80},
 		{"item": "Dense", "amount": 24},
