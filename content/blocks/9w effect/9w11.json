@@ -9,7 +9,7 @@ width:80
 padSize:58
 	"requirements": [
 		{"item": "sili", "amount": 80},
-		{"item": "Dense", "amount": 24},
+		{"item": "dense", "amount": 24},
 		{"item": "graph", "amount": 24},
 	],
 	"research": "9w06"
