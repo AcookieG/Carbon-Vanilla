@@ -37,12 +37,6 @@
 			"mirror": false
 			"shootEffect": "shootBig"
 			"rotateSpeed": 0,
-				"shoot": {
-		"type": "ShootPattern",
-		"shots": 10
-		"spread": 0
-		"shotDelay": 1
-	},
 			"bullet": {
 			"type": "BasicBulletType",
 lifetime:20,
@@ -61,7 +55,7 @@ trailChance:1.0,
 trailEffect:none,
 trailInterval:1,
 trailParam:2.0,
-trailLength:12.0,
+trailLength:80.0,
 		}
 		}
 	]
