@@ -17,29 +17,6 @@
 	"research": "9w01",
 	"idleSound": "none",
 	"outputItems": [
-		{ "item": "scrap", "amount": 60 },
-		{ "item": "copper", "amount": 60 },
-		{ "item": "lead", "amount": 60 },
-
-		{ "item": "graphite", "amount": 60 },
-		{ "item": "coal", "amount": 60 },
-		{ "item": "titanium", "amount": 60 },
-
-		{ "item": "thorium", "amount": 60 },
-		{ "item": "silicon", "amount": 60 },
-		{ "item": "plastanium", "amount": 60 },
-
-		{ "item": "metaglass", "amount": 60 },
-		{ "item": "sand", "amount": 60 },
-		{ "item": "phase-fabric", "amount": 60 },
-
-		{ "item": "surge-alloy", "amount": 60 },
-		{ "item": "spore-pod", "amount": 60 },
-		{ "item": "blast-compound", "amount": 60 },
-
-		{ "item": "pyratite", "amount": 60 },
-		
-		
 		{ "item": "sadn", "amount": 60 },
 		{ "item": "scrp", "amount": 60 },
 		{ "item": "anthracite", "amount": 60 },
@@ -57,6 +34,7 @@
 		{ "item": "sili", "amount": 60 },
 		{ "item": "slate", "amount": 60 },
 		{ "item": "waffer", "amount": 60 },
+		{ "item": "shell", "amount": 60 },
 ],
 	"craftTime": 1
 }

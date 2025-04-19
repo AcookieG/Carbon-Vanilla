@@ -239,6 +239,28 @@ incendAmount:2.0,
 incendSpread:8.0,
 incendChance:0.5,
 		}
+		"shell": {
+"type": "BasicBulletType",
+lifetime:13,
+speed:12.0,
+backColor:3c3c4f,
+frontColor:626f9b,
+hitColor:626f9b,
+width:8.0,
+height:12.0,
+damage:80,
+hitSize:4,
+drawSize:120,
+
+reloadMultiplier:2,
+
+trailColor:626f9b,
+trailChance:0.0,
+trailParam:2.0,
+trailWidth:2.0
+trailEffect:none,
+trailLength:8.0,
+		}
 	},
 	"consumes": {
 		"coolant": {

@@ -187,7 +187,7 @@ shootEffect:instTrail,
 smokeEffect:randLifeSpark,
 reloadMultiplier:0.5,
 
-knockback:4
+knockback:20
 pierce:true,
 pierceBuilding:true,
 pierceCap:6,
@@ -200,6 +200,34 @@ trailParam:1.0,
 trailLength:10.0,
 trailWidth:3.0,
 trailEffect:artilleryTrailSmoke
+		}
+	"shell": {
+"type": "BasicBulletType",
+lifetime:15,
+speed:20.0,
+backColor:3c3c4f,
+frontColor:626f9b,
+hitColor:626f9b,
+width:8.0,
+height:12.0,
+damage:2175,
+hitSize:4,
+drawSize:120,
+
+hitEffect:randLifeSpark,
+despawnEffect:randLifeSpark,
+shootEffect:instTrail,
+smokeEffect:railHit,
+reloadMultiplier:2,
+pierce:true,
+pierceBuilding:true,
+pierceCap:6,
+
+trailColor:626f9b,
+trailChance:0.0,
+trailParam:2.0,
+trailWidth:2.0
+trailLength:12.0,
 		}
 	},
 	"consumes": {

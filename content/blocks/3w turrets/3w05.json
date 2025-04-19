@@ -344,6 +344,65 @@ fragBullet:{
 	despawnEffect:hitSquaresColor,
 			},
 		},
+	"shell": {
+"type": "BasicBulletType",
+damage:0.0,
+lifetime:1,
+speed:1.0,
+drag:0.0,
+accel:0.0,
+
+hitEffect:none,
+despawnEffect:none,
+shootEffect:shootBig,
+smokeEffect:shootSmokeSquareBig,
+reloadMultiplier:2.0,
+
+instantDisappear:true,
+
+collidesTiles:false,
+collidesTeam:false,
+collidesAir:false,
+collidesGround:false,
+hittable:false,
+reflectable:false,
+absorbable:false,
+
+fragRandomSpread:0.0,
+fragSpread:2.0,
+fragBullets:30,
+fragVelocityMin:1.0,
+fragVelocityMax:1.0,
+fragLifeMin:1.0,
+fragLifeMax:1.0,
+fragBullet:{
+	"type": "BasicBulletType",
+	lifetime:10,
+	speed:12.0,
+backColor:3c3c4f,
+frontColor:626f9b,
+hitColor:626f9b,
+	width:8.0,
+	height:12.0,
+	shrinkX:0.0,
+	ShrinkY:0.5,
+	damage:27,
+	hitSize:4,
+	drawSize:120,
+
+	knockback:2
+
+	trailColor:d99d73,
+	trailChance:0.0,
+	trailParam:2.0,
+	trailEffect:none,
+	trailLength:5.0,
+
+	shootEffect:shootBig,
+	hitEffect:hitSquaresColor,
+	despawnEffect:hitSquaresColor,
+			},
+		},
 	},
 	"consumes": {
 		"coolant": {
