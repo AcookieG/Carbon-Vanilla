@@ -216,14 +216,30 @@ drawSize:120,
 
 hitEffect:randLifeSpark,
 despawnEffect:randLifeSpark,
-shootEffect:instTrail,
+shootEffect:{
+"type": "multiEffect",
+"effects": [
+{effect:instTrail,},
+{
+"type": "ParticleEffect",
+"particles": 20,
+"length": 120,
+"lifetime": 40,
+"line": true,
+"cone": 8,
+"sizeFrom": 12,
+"sizeTo": 1,
+"colorFrom": "fff8e8",
+"colorTo": "fff8e8"
+},
+]
+}
 smokeEffect:railHit,
 reloadMultiplier:2,
 pierce:true,
 pierceBuilding:true,
 pierceCap:6,
 
-trailColor:626f9b,
 trailChance:0.0,
 trailParam:2.0,
 trailWidth:2.0

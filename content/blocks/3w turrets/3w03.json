@@ -113,7 +113,6 @@ shootEffect:shootBig,
 smokeEffect:colorSparkBig,
 reloadMultiplier:2,
 
-trailColor:626f9b,
 trailChance:0.0,
 trailParam:2.0,
 trailWidth:2.0
