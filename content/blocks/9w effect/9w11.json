@@ -1,23 +1,17 @@
 {
-	"type": "ForceProjector",
-	"name": "Overarch Dome",
-	"description": "A dome to cover your weakest points.",
+	"type": "DirectionalForceProjector",
+	"name": "Dense Strongwall",
+	"description": "A long-range wall to protect your mainland.",
 	"size": 2,
-	"health": 540,
-	"radius": 48,
-	"shieldHealth": 1200,
-	"sides": 16,
-	"rotation": 0,
-	"cooldownNormal": 2.2,
-	"cooldownBrokenBase": 1.4,
-	"hasItems": false
-	"hasLiquids": true
-	"hasPower": false
+	"health": 420,
+	"shieldHealth": 3000,
+width: 80
+padSize: 
 	"requirements": [
-		{"item": "sili", "amount": 60},
-		{"item": "coppa", "amount": 60},
-		{"item": "graph", "amount": 60},
+		{"item": "sili", "amount": 80},
+		{"item": "Dense", "amount": 24},
+		{"item": "graph", "amount": 24},
 	],
 	"research": "9w06"
-	"category": "effect",
+	"category": "defence",
 }
