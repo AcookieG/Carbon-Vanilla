@@ -1,5 +1,5 @@
 {
-	"name": "One Axis Printer",
+	"name": "Single Axis Printer",
 	"description": "A three by three to print the most basic of any unit tree.",
 	"type": "UnitFactory"
 	"size": 3,
