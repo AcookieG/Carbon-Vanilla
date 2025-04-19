@@ -1,0 +1,79 @@
+{
+	"type": "flying",
+	"name": "Vulture",
+	"health": 740,
+	"armor": 2,
+	
+		"flying": true,
+	"rotateSpeed": 6,
+	"speed": 10,
+	"accel": 0.012,
+	"drag": 0.017,
+	omniMovement: false,
+	
+	"hitSize": 16,
+	
+	"itemCapacity": 0,
+	
+	"engineOffset": 8,
+	"engineSize": 3.3,
+	AlwaysUnlocked: true
+	
+	"weapons": [
+		{
+			"name": "clear",
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 40,
+			"inaccuracy": 0,
+			"shootSound": "shootAlt"
+			"rotate": true
+			"shake": 0.0
+			"shootCone": 30,
+			"x": 4
+			"y": 0
+			"mirror": true
+			"shootEffect": "shootBig"
+			"rotateSpeed": 0,
+			"bullet": {
+			"type": "BasicBulletType",
+lifetime:18,
+speed:6.0,
+drag:0.0,
+accel:0.1,
+backColor:c7524c,
+frontColor:ff8a66,
+width:8.0,
+height:12.0,
+shrinkX:0.0,
+ShrinkY:0.5,
+shrinkInterp:linear,
+sprite:missile,
+damage:1,
+hitSize:4,
+drawSize:120,
+spin:0.0
+
+hitEffect:blastExplosion,
+despawnEffect:blastExplosion,
+
+status:burning,
+statusDuration:480,
+
+trailColor:e58956ff,
+trailChance:0.0,
+trailInterval:1,
+trailParam:2.0,
+trailLength:0.0,
+
+makeFire:true,
+incendAmount:2.0,
+incendSpread:8.0,
+incendChance:0.5,
+		}
+		}
+	]
+	"outlineColor": 2c2d38,
+	"fogRadius": 0,
+	"research": 11w01
+}
