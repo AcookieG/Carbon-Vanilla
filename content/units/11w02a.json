@@ -5,11 +5,11 @@
 	"armor": 2,
 	
 		"flying": true,
-	"range": 100,
 	"rotateSpeed": 6,
 	"speed": 10,
 	"accel": 0.01,
 	"drag": 0.015,
+	omniMovement: false,
 	
 	"hitSize": 12,
 	

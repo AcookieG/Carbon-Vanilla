@@ -9,8 +9,8 @@
 	"speed": 10,
 	"accel": 0.012,
 	"drag": 0.02,
-	
-	"range": 150,
+		omniMovement: false,
+		
 	"hitSize": 20,
 	
 	"itemCapacity": 0,
@@ -36,9 +36,9 @@ engines: [
 	"weapons": [
 		{
 			"name": "clear",
-			"alternate": false,
+			"alternate": true,
 			"ignoreRotation": true,
-			"reload": 100,
+			"reload": 80,
 			"inaccuracy": 0,
 			"shootSound": "shootAlt"
 			"rotate": true

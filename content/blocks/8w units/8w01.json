@@ -10,11 +10,55 @@
 	},
 	"plans": [
 		{
-			"unit": "11w02a",
-			"time": 840
+			"unit": "stell",
+			"time": 800
 			"requirements": [
 				{ "item": "sili", "amount": 60 },
-				{ "item": "scrp", "amount": 40 },
+				{ "item": "iron", "amount": 40 },
+			]
+		},
+		{
+			"unit": "merui",
+			"time": 800
+			"requirements": [
+				{ "item": "sili", "amount": 60 },
+				{ "item": "graph", "amount": 40 },
+			]
+		},
+		{
+			"unit": "elude",
+			"time": 800
+			"requirements": [
+				{ "item": "sili", "amount": 60 },
+				{ "item": "slate", "amount": 80 },
+			]
+		},
+		
+		{
+			"unit": "precept",
+			"time": 400
+			"requirements": [
+				{ "item": "circuit", "amount": 40 },
+				{ "item": "sili", "amount": 90 },
+				{ "item": "dense", "amount": 40 },
+			]
+		},
+		{
+			"unit": "anthicus",
+			"time": 400
+			"requirements": [
+				{ "item": "circuit", "amount": 40 },
+				{ "item": "sili", "amount": 90 },
+				{ "item": "flex-joint", "amount": 40 },
+			]
+		},
+		{
+			"unit": "obviate",
+			"time": 400
+			"requirements": [
+				{ "item": "circuit", "amount": 40 },
+				{ "item": "sili", "amount": 90 },
+				{ "item": "carbon-fiber", "amount": 80 },
 			]
 		},
 	]
