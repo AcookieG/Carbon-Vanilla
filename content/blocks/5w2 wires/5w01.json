@@ -5,8 +5,7 @@
   "health": 20,
 	"liquidCapacity": 0,
 	"requirements": [
-		{"item": "graph", "amount": 2},
-		{"item": "slate", "amount": 2},
+		{"item": "graph", "amount": 1},
 	],
 	"consumes": {"powerBuffered": 5,} 
   "research": "9w01",
