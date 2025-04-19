@@ -1,11 +1,11 @@
 {
 	"type": "flying",
-	"name": "Vulture",
+	"name": "Merlin",
 	"health": 740,
 	"armor": 2,
 	
 		"flying": true,
-	"rotateSpeed": 6,
+	"rotateSpeed": 4,
 	"speed": 10,
 	"accel": 0.012,
 	"drag": 0.017,
@@ -65,11 +65,6 @@ trailChance:0.0,
 trailInterval:1,
 trailParam:2.0,
 trailLength:0.0,
-
-makeFire:true,
-incendAmount:2.0,
-incendSpread:8.0,
-incendChance:0.5,
 		}
 		}
 	]

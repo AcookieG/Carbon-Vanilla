@@ -5,7 +5,7 @@
 	"armor": 2,
 	
 		"flying": true,
-	"rotateSpeed": 6,
+	"rotateSpeed": 4.5,
 	"speed": 10,
 	"accel": 0.01,
 	"drag": 0.015,
@@ -26,27 +26,52 @@
 			"name": "clear",
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 72,
-			"ejectEffect": "none",
+			"reload": 80,
 			"inaccuracy": 0,
 			"shootSound": "laser"
 			"rotate": true
 			"shake": 0.0
-			"shootCone": 0.5,
+			"shootCone": 30,
 			"x": 0
 			"y": 0
-			"shootY": 0
 			"mirror": false
 			"shootEffect": "shootBig"
 			"rotateSpeed": 0,
+				"shoot": {
+		"type": "ShootPattern",
+		"shots": 15
+		"spread": 0
+		"shotDelay": 1
+	},
 			"bullet": {
-				type: LaserBulletType
-        hitSoundVolume: 1
-        hitSound: spark
-        buildingDamageMultiplier: 0.5
-        damage: 1
-				colors:[bd4068,ff7066,ffffff]
-			},
+			"type": "BasicBulletType",
+lifetime:10,
+speed:8.0,
+drag:0.1,
+accel:0.0,
+backColor:c7524c,
+frontColor:ff8a66,
+width:8.0,
+height:12.0,
+shrinkX:0.0,
+ShrinkY:0.5,
+shrinkInterp:linear,
+sprite:missile,
+damage:1,
+hitSize:4,
+drawSize:120,
+spin:0.0
+
+status:burning,
+statusDuration:480,
+
+trailColor:e58956ff,
+trailChance:1.0,
+trailEffect:none,
+trailInterval:1,
+trailParam:2.0,
+trailLength:12.0,
+		}
 		}
 	]
 	"outlineColor": 2c2d38,
