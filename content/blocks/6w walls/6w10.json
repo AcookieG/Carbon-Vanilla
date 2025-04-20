@@ -24,6 +24,9 @@
 			"type": "BasicBulletType",
 			lifetime:10,
 			speed:10.0,
+			
+			hitEffect:none,
+despawnEffect:none,
 
 width:0.0,
 height:0.0,
