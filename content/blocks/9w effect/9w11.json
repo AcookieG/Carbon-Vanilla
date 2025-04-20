@@ -10,7 +10,7 @@
   "radius": 8,
 	"sides":4,
 	"requirements": [
-		{"item": "sili", "amount": 80},
+		{"item": "circuit", "amount": 12},
 		{"item": "dense", "amount": 24},
 		{"item": "graph", "amount": 24},
 	],
