@@ -9,7 +9,7 @@
 	"itemCapacity": 20,
 	"drawRim": false,
 	"drawMineItem": true,
-	"rotateSpeed": 1.5
+	"rotateSpeed": -3
 	"consumes": {
 		"liquid": {
 			"liquid": "wtr", 
@@ -26,5 +26,5 @@
 	"category": "production",
 	"research": "2w03"
 	"squareSprite": false,
-	"buildCostMultiplier": 1.75,
+	"buildCostMultiplier": 1.5,
 }

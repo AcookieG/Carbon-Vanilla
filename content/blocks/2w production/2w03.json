@@ -9,7 +9,7 @@
 	"itemCapacity": 10,
 	"drawRim": false,
 	"drawMineItem": true,
-	"rotateSpeed": 1.5
+	"rotateSpeed": 2.3
 	"consumes": {
 		"liquid": {
 			"liquid": "wtr", 
