@@ -1,0 +1,47 @@
+{
+	"name": "Sharp Wall",
+	"description": '''
+	A wall that will slowly damage units near it.
+	''',
+	"details": "These walls have more than a few thousand microscopic needles embeded into their surface. It's no wonder they are a show of force."
+	"type": "powerTurret",
+	"health": 1230,
+	"size": 1,
+	"reload": 1,
+	"range": 60,
+	"fogRadius": 8,
+	"recoil":0,
+	"ammoUseEffect": "none",
+	"shootSound": "none",
+	"shootCone": 60,
+	"rotateSpeed": 36.0,
+	"outlineRadius": 0,
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "ai-"
+	},
+	"shootType": {
+			"type": "BasicBulletType",
+			lifetime:10,
+			speed:6.0,
+
+width:0.0,
+height:0.0,
+sprite:bullet,
+damage:1,
+hitSize:8,
+drawSize:0,
+spin:0.0
+
+pierce:true,
+pierceBuilding:false,
+pierceCap:4,
+		},
+	"requirements": [
+		{ "item": "shell", "amount": 12 },
+		{ "item": "circuit", "amount": 6 },
+	],
+	"buildCostMultiplier": 2.0,
+	"category": "defense",
+	"research": "6w08"
+}
