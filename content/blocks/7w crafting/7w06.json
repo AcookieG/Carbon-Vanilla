@@ -34,7 +34,7 @@
 			},
 			{
 				"type": "DrawHeatInput",
-				"suffix": "-heat",
+				heatColor:ff383899
 			},
 		]
 	},
@@ -43,7 +43,6 @@
 	"consumes": {
 		"power": 4,
     "liquids":  [
-		{"liquid": "pressure", "amount": 0.7},
 		{"liquid": "N", "amount": 0.2},
 		]
 	"items": {
@@ -62,7 +61,7 @@
 	"research": "7w05",
 	"idleSound": "torch",
 	"outputLiquid": {"liquid": "s", "amount": 0.1},
-	"craftTime": 60,
+	"craftTime": 40,
 	"squareSprite": false,
 	"conductivePower": true
 }

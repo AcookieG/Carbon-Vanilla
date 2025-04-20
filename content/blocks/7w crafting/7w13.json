@@ -61,7 +61,7 @@
 	"consumes": {
 		"power": 3,
     "liquids":  [
-		{"liquid": "N", "amount": 0.4},
+		{"liquid": "N", "amount": 0.2},
 		]
 	"items": {
 			"items": [
