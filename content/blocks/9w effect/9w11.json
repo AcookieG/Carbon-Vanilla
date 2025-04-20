@@ -7,7 +7,7 @@
 	"health": 420,
 	"shieldHealth": 4000,
 	"shieldRotation":45,
-  "radius": 8,
+  "radius": 12,
 	"sides":4,
 	"requirements": [
 		{"item": "circuit", "amount": 12},
