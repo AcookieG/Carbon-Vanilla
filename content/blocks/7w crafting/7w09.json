@@ -40,7 +40,7 @@
 		]
 	},
 	"heatRequirement": 48
-	"maxEfficiency": 2
+	"maxEfficiency": 3.0
 	"consumes": {
 		"power": 3,
     "liquids":  [
