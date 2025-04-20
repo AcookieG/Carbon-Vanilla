@@ -32,10 +32,11 @@
 			{
 				"type": "DrawHeatInput",
 				"suffix": "-heat",
-				"color": ff383899
+				"color": ff000066
 			},
 			{
 				"type": "DrawGlowRegion"
+				"color": ff3838ee
 			},
 		]
 	},
