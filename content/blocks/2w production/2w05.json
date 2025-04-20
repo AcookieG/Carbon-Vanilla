@@ -26,5 +26,5 @@
 	"category": "production",
 	"research": "2w03"
 	"squareSprite": false,
-	"buildCostMultiplier": 2.5,
+	"buildCostMultiplier": 1.75,
 }
