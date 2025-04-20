@@ -35,7 +35,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "s",
+				"drawLiquid": "metal",
 				"padRight": 2,
 				"padLeft": 2,
 				"padTop": 8,
