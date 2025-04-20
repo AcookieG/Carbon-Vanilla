@@ -227,7 +227,7 @@
 	"length": 130,
 	"drawSize": 200
 }
-"liquidheat": {
+"metal": {
 	"type": "ContinuousFlameBulletType",
 	"colors": ["e28654", "ffcd66", "ffffa3", "ffffff"],
 	"damage": 300,

@@ -7,7 +7,7 @@
 	"powerProduction": 0.11666667,
 	"requirements": [
 		{"item": "graph", "amount": 30},
-		{"item": "scrp", "amount": 20},
+		{"item": "sili", "amount": 30},
 	],
 	"category": "power",
 	"research": "5w01"

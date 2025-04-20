@@ -12,6 +12,5 @@
 		{ "item": "sadn", "amount": 1 },
 	],
 	"category": "logic",
-	"research": "overdrive-projector"
-	"BuildVisibility": "sandboxOnly"
+	"research": "zg-items"
 }

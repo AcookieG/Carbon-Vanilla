@@ -61,7 +61,6 @@ research: {
   ]
 }
 	"idleSound": "machine",
-	"idleSoundVolume": 0.03,
 	"outputLiquids": [
 		{ "liquid": "i", "amount": 0.2 },
 	],

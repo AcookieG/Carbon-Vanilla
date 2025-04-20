@@ -3,9 +3,9 @@
 	"type": "Pump"
 	"pumpAmount": 0.4
 	"requirements": [
-		{"item": "graph", "amount": 70},
-		{"item": "sadn", "amount": 60},
-		{"item": "iron", "amount": 20},
+		{"item": "graph", "amount": 110},
+		{"item": "sadn", "amount": 90},
+		{"item": "dense", "amount": 20},
 	]
 	"liquidCapacity": 20
 	"size": 2

@@ -23,7 +23,7 @@
 	},
 	"consumes": {
 		"power": 10
-		"liquid": "liquidheat/0.25"
+		"liquid": "metal/0.25"
 	},
 	"inaccuracy": 12,
 	"squareSprite": false,

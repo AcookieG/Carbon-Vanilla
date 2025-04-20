@@ -1,72 +1,301 @@
 {
-	"name": "Flare",
-	"description": "Fires a continuous fire breath at enemies.",
-	"type": "ContinuousLiquidTurret",
-	"health": 330,
+	"name": "Knuckle",
+	"description": '''
+	Fires spreading shells at far away enemies.
+	''',
+	"details": "An upgraded Boost, designed to to rain multiple shells upon enemy land. The release mechanism malfunctions, giving birth to the airborne shell design, but heavily limited to its narrow firing zone. 190dps."
+	"type": "ItemTurret",
+	"health": 580,
 	"size": 1,
 	"reload": 60,
-	"range": 80,
-	"fogRadius": 5,
-	"liquidConsumed": 0.2,
-	"liquidCapacity": 20
-	"loopSound": "torch",
-	"loopSoundVolume": 0.3,
-	"shootCone": 15,
+	"range": 180,
+	"minRange": 100,
+	"drawMinRange": true,
+	"fogRadius": 8,
+	"recoil":1.5,
+	"ammoPerShot":3,
+	"maxAmmo":30,
+	"ammoUseEffect": "casing2",
+	"shootSound": "shoot",
+	"shootCone": 30,
 	"hasLiquids": true,
-	"inaccuracy": 0,
+	"rotateSpeed": 4.0,
 	"outlineRadius": 4,
 	"squareSprite": false,
 	"drawer": {
 	"type": "drawTurret",
 	"basePrefix": "reinforced-"
+			"parts": [
+		{
+		"under": true,
+		"type": "RegionPart",
+		"colorTo": "fb9957",
+		"color": "fb995700",
+		"blending": "additive",
+		"progress": recoil,
+		"layerOffset": 0.001,
+		"outline": false,
+		"suffix": "-glow"
+		"mirror": false,
+		}
+		]
 	},
 	"ammoTypes": {
-"H": {
-	"type": "ContinuousFlameBulletType",
-	"colors": ["555de1", "97a5f7", "d1e4ff", "ffffff"],
-	"damage": 12,
-	"knockback": 0.2,
-	"buildingDamageMultiplier": 0.2
-	"width": 1,
-	"drawFlare": true,
-	"hitEffect": none
-	"status": "melting",
-	"length": 80,
-	"flareColor": d1e4ff,
-	"flareLength": 25,
-	"flareWidth": 2.5,
-},
-"i": {
-	"type": "ContinuousFlameBulletType",
-	"colors": ["000000", "606060", "aaaaaa", "ffffff"],
-	"damage": 16,
-	"knockback": 0,
-	"buildingDamageMultiplier": 0.2
-	"width": 1.5,
-	"drawFlare": true,
-	"hitEffect": "hitFlameSmall"
-	"length": 60,
-	"rangeChange": -20,
-	"status": "tarred",
-	"ammoMultiplier": 1
-	"flareColor": 000000,
-	"flareLength": 40,
-	"flareWidth": 6,
-},
+		"scrp": {
+"type": "BasicBulletType",
+lifetime:16,
+speed:5.0,
+drag:0.0,
+accel:0.0,
+backColor:666666,
+frontColor:9b928b,
+hitColor:9b928b,
+
+width:8.0,
+height:12.0,
+shrinkX:0.15,
+ShrinkY:0.63,
+shrinkInterp:slope,
+sprite:shell,
+damage:0,
+hitSize:4,
+drawSize:120,
+
+despawnShake:0.5,
+
+ammoMultiplier:1.0,
+reloadMultiplier:2.0,
+
+collidesTiles:false,
+collidesTeam:false,
+collidesAir:false,
+collidesGround:false,
+hittable:false,
+reflectable:false,
+absorbable:false,
+
+hitEffect:none,
+despawnEffect:none,
+shootEffect:shootSmall,
+
+trailColor:9b928b,
+trailChance:0.5,
+trailParam:2.0,
+trailLength:4.0,
+trailWidth:2.0,
+
+fragRandomSpread:7.0,
+fragSpread:5,
+fragBullets:4,
+fragVelocityMin:0.6,
+fragVelocityMax:1.1,
+fragLifeMin:0.6,
+fragLifeMax:1.1,
+fragBullet:{
+	"type": "BasicBulletType",
+	lifetime:20,
+	speed:5.0,
+	backColor:666666,
+	frontColor:9b928b,
+	hitColor:9b928b,
+width:8.0,
+height:12.0,
+	hitSize:4,
+	drawSize:60,
+	spin:6.5,
+
+	damage:14,
+
+	hitEffect:flakExplosion,
+	despawnEffect:flakExplosion,
+	
+	trailColor:9b928b,
+	trailChance:0.3,
+	trailParam:2.0,
+	trailLength:0.0,
+			},
+		},
+		"slate": {
+"type": "BasicBulletType",
+lifetime:12,
+speed:7.0,
+drag:0.0,
+accel:0.0,
+backColor:526570,
+frontColor:708d94,
+hitColor:708d94,
+
+width:4.5,
+height:7.5,
+shrinkX:0.15,
+ShrinkY:0.63,
+shrinkInterp:slope,
+sprite:shell,
+damage:0,
+hitSize:4,
+drawSize:120,
+
+despawnShake:0.5,
+
+reloadMultiplier:1.2,
+
+collidesTiles:false,
+collidesTeam:false,
+collidesAir:false,
+collidesGround:false,
+hittable:false,
+reflectable:false,
+absorbable:false,
+
+hitEffect:none,
+despawnEffect:none,
+shootEffect:shootSmall,
+
+trailColor:708d94,
+trailChance:0.0,
+trailParam:2.0,
+trailEffect:none,
+trailLength:5.0,
+trailWidth:1.7
+
+homingPower:0.02,
+homingRange:80.0,
+
+fragRandomSpread:0.0,
+fragSpread:6,
+fragBullets:4,
+fragVelocityMin:1
+fragVelocityMax:1,
+fragLifeMin:1,
+fragLifeMax:1,
+fragBullet:{
+	"type": "BasicBulletType",
+	lifetime:17,
+	speed:6.0,
+backColor:526570,
+frontColor:708d94,
+hitColor:708d94,
+width:4.5,
+height:7.5,
+	hitSize:4,
+	drawSize:60,
+	spin:0,
+
+	damage:57,
+	
+	pierce:true,
+pierceBuilding:true,
+pierceCap:3,
+buildingDamageMultiplier:1.0,
+shieldDamageMultiplier:0.5,
+knockback:-1.0
+	
+trailColor:708d94,
+trailChance:0.0,
+trailParam:2.0,
+trailEffect:none,
+trailLength:5.0,
+trailWidth:1.7
+			},
+		}
+		"graph": {
+"type": "BasicBulletType",
+		}
+		"sili": {
+"type": "BasicBulletType",
+lifetime:14,
+speed:6.0,
+drag:0.0,
+accel:0.0,
+backColor:3a3a50,
+frontColor:767a84,
+hitColor:767a84,
+
+width:12.0,
+height:17.0,
+shrinkX:0.15,
+ShrinkY:0.63,
+shrinkInterp:slope,
+sprite:shell,
+damage:0,
+hitSize:4,
+drawSize:120,
+
+despawnShake:0.5,
+
+reloadMultiplier:0.8,
+
+collidesTiles:false,
+collidesTeam:false,
+collidesAir:false,
+collidesGround:false,
+hittable:false,
+reflectable:false,
+absorbable:false,
+
+hitEffect:none,
+despawnEffect:none,
+shootEffect:shootSmall,
+
+trailColor:767a84,
+trailChance:0.0,
+trailParam:2.0,
+trailWidth:4.0
+trailEffect:none,
+trailLength:5.0,
+
+homingPower:0.05,
+homingRange:80.0,
+
+fragRandomSpread:0.0,
+fragSpread:8,
+fragBullets:4,
+fragVelocityMin:1
+fragVelocityMax:1,
+fragLifeMin:1,
+fragLifeMax:1,
+fragBullet:{
+	"type": "BasicBulletType",
+	lifetime:17,
+	speed:6.0,
+backColor:3a3a50,
+frontColor:767a84,
+hitColor:767a84,
+width:12.0,
+height:17.0,
+	hitSize:4,
+	drawSize:60,
+	spin:0,
+
+	damage:71,
+	
+homingPower:0.15,
+homingRange:50.0,
+	
+trailColor:767a84,
+trailChance:0.0,
+trailParam:2.0,
+trailWidth:4.0
+trailEffect:none,
+trailLength:5.0,
+			},
+		}
+		"canolla": {
+"type": "BasicBulletType",
+		}
 	},
+	"consumes": {
+		"coolant": {
+		"amount": 0.1
+		}
+	},
+	"coolantMultiplier": 10
 	"requirements": [
-		{ "item": "graph", "amount": 60 },
-		{ "item": "slate", "amount": 60 },
+		{ "item": "sadn", "amount": 110 },
+		{ "item": "scrp", "amount": 70 },
+		{ "item": "iron", "amount": 90 },
 	],
-	"category": "turret",
-research: {
-  parent: 3w03
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
 	"buildCostMultiplier": 1.75,
+	"category": "turret",
+	"research": "3w00"
 }

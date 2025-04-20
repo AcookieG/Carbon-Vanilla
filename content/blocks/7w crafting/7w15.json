@@ -68,7 +68,6 @@
 		"power": 3,
     "liquids":  [
 		{"liquid": "wtr", "amount": 1},
-		{"liquid": "N", "amount": 0.15},
 		]
 		"items": {
 			"items": [
@@ -88,8 +87,7 @@
 	],
 	"category": "crafting",
 	"research": "7w07",
-	"idleSound": "hum",
-	"idleSoundVolume": 0.12,
+	"idleSound": "techloop",
 	"craftTime": 300,
 	"squareSprite": false,
 	"conductivePower": true

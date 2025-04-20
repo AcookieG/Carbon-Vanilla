@@ -46,7 +46,7 @@ Conducts power.
 	},
 	"consumes": {
                 "liquid": {
-			"liquid": "liquidheat",
+			"liquid": "metal",
 			"amount": 0.2
 		},
 	},

@@ -2,9 +2,10 @@
 	"name": "Overheater",
 	"description": 
 '''
-Produces dangerous amounts of heat, at the cost of durability. Don't let it explode.
+Consumes fuel and Canolla. Cool it down with water or it will explode.
 '''
-	"type": "HeaterGenerator"
+	"details": "You are faced with two options: keep exploiting expensive and time-consuming resources, or turn to fossil fuels. Your choice."
+	"type": "VariableReactor"
 	"size": 3,
 	"health": 110,
 	"hasLiquids": true,
@@ -15,7 +16,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 	"explosionDamage": 90,
 	"explosionShake": 1.5,
 	"itemCapacity": 10,
-	"powerProduction": 10,
+	"powerProduction": 30,
 	"requirements": [
 		{ "item": "dense", "amount": 50 },
 		{ "item": "flex-joint", "amount": 60 },
@@ -31,7 +32,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "s",
+				"drawLiquid": "wtr",
 				"padding": 3,
 			},
 			{
@@ -41,7 +42,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 				"type": "DrawDefault"
 			},
 			{
-				"type": "DrawHeatOutput"
+				"type": "DrawHeatInput"
 			},
 			{
 				"type": "DrawGlowRegion"
@@ -50,7 +51,7 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "s", "amount": 0.1},
+			{"liquid": "wtr", "amount": 1.2},
 		]
 		"items": {
 			"items": [
@@ -60,9 +61,8 @@ Produces dangerous amounts of heat, at the cost of durability. Don't let it expl
 	},
 	"category": "power",
 	"conductivePower": true
-	"rotate": true
-	"loopSound": "hum",
-	"loopSoundVolume": 0.1,
+	"loopSound": "flux",
+	"effect": none,
 research: {
   parent: 5w09
   objectives: [
@@ -72,7 +72,7 @@ research: {
     }
   ]
 }
-	"itemDuration": 60,
+	"itemDuration": 40,
 	"squareSprite": false,
-	"heatOutput": 72,
+	"maxHeat": 100,
 }

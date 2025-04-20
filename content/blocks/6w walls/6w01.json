@@ -2,7 +2,7 @@
 	"name": "Slate Wall",
 	"description": "Very brittle, explodes into shards when desrtoyed.",
 	"type": "Wall",
-	"health": 300,
+	"health": 600,
 	"size": 1,
 	"requirements": [
 		{ "item": "slate", "amount": 6 }

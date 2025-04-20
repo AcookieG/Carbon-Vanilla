@@ -4,8 +4,9 @@
 	"requirements": [
 			{"item": "graph", "amount": 20},
 			{"item": "sadn", "amount": 30},
+			{"item": "iron", "amount": 10},
 	]
-	"liquidCapacity": 50
+	"liquidCapacity": 30
 	"size": 1
 	"research": "4w04"
 	"health": 40

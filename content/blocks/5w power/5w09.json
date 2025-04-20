@@ -2,7 +2,7 @@
 	"name": "Cooling chamber",
 	"description": 
 '''
-Produces clean energy and heat by cooling Pressure down to water.
+Produces energy and heat by cooling Pressure down to water.
 '''
 	"type": "HeaterGenerator"
 	"size": 3,
@@ -52,7 +52,6 @@ Produces clean energy and heat by cooling Pressure down to water.
 	"conductivePower": true
 	"rotate": true
 	"loopSound": "hum",
-	"loopSoundVolume": 0.1,
 	"outputLiquid": {"liquid": "wtr", "amount": 0.5},
 research: {
   parent: 5w08

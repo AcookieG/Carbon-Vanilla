@@ -2,7 +2,7 @@
 	"name": "Large Slate Wall",
 	"description": "Has more health and shrapnel.",
 	"type": "Wall",
-	"health": 1200,
+	"health": 2400,
 	"size": 2,
 	"requirements": [
 		{ "item": "slate", "amount": 24 }

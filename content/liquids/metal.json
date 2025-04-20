@@ -7,7 +7,7 @@
 	"color": "9a9dbf",
 	"blockReactive": true,
 	"viscosity": 0.75,
-	"heatCapacity": 0.8,
+	"heatCapacity": 0.9,
 	"explosiveness": 0.0,
 	"temperature": 0.2,
 	"flammability": 0.0,

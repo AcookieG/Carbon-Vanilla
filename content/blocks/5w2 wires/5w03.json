@@ -1,6 +1,6 @@
 {
 	"name": "Heat Wire",
-	"description": "A small block to transport heat efficiently over long distances. Conducts power.",
+	"description": "A small block to transport heat efficiently over long distances. Stores and conducts power.",
 	"type": "HeatConductor",
 	"health": 20,
 	"size": 1,

@@ -4,7 +4,7 @@
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 290,
-	"itemCapacity": 80,
+	"itemCapacity": 90,
 	"liquidCapacity": 30,
 	"hasLiquids": true,
 	"hasPower": true,
@@ -54,13 +54,12 @@
 		{ "item": "dense", "amount": 30 },
 		{ "item": "sili", "amount": 120 },
 		{ "item": "carbon-fiber", "amount": 50 },
-		{ "item": "sadn", "amount": 150 },
+		{ "item": "coppa", "amount": 160 },
 	],
 	"category": "crafting",
 	"rotate": false
 	"research": "7w10",
 	"idleSound": "techloop",
-	"idleSoundVolume": 0.04,
 	"outputItem": {
 		"item": "flex-joint",
 		"amount": 24

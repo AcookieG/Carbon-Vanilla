@@ -1,0 +1,287 @@
+{
+	"name": "Dire",
+	"description": '''
+	Sends a shell at very high speeds towards the enemy. Low turning speed.
+	''',
+	"details": "The supposed solution to end all sieges, capable of destruction deep within enemy walls. But artillery... Oh sweet, sweet, artillery... 290dps."
+	"type": "ItemTurret",
+	"health": 1670,
+	"size": 2,
+	"reload": 300,
+	"range": 300,
+	"fogRadius": 8,
+	"recoil":3,
+	"ammoPerShot":6,
+	"maxAmmo":30,
+	"ammoUseEffect": "casing4",
+	"shootSound": "laserbig",
+	"shootCone": 0.1,
+	"hasLiquids": true,
+	"rotateSpeed": 0.3,
+	"outlineRadius": 4,
+	"squareSprite": false,
+	"shake": 2.0,
+	"drawer": {
+	"type": "drawTurret",
+	"basePrefix": "reinforced-"
+			"parts": [
+		{
+		"under": true,
+		"type": "RegionPart",
+		"colorTo": "fb9957",
+		"color": "fb995700",
+		"blending": "additive",
+		"progress": warmup,
+		"layerOffset": 0.005,
+		"outline": false,
+		"suffix": "-glow"
+		"mirror": false,
+		}
+		{
+		"under": true,
+		"type": "RegionPart",
+		"colorTo": "ab3400ff",
+		"color": "ab340000",
+		"blending": "additive",
+		"progress": recoil,
+		"layerOffset": 0.004,
+		"outline": false,
+		"suffix": "-heat"
+		"mirror": false,
+		}
+		
+		{
+		"colorTo": "ffffffff",
+ 		"color": "ffffff00",
+		"under": true,
+		"type": "RegionPart",
+		"progress": recoil,
+		"layerOffset": 0.0021,
+		"outline": false,
+		"suffix": "-preview"
+		"mirror": false,
+		}
+
+		{
+		"colorTo": "ffffff00",
+		"color": "ffffffff",
+		"under": true,
+		"type": "RegionPart",
+		"blending": "additive",
+		"progress": recoil,
+		"layerOffset": 0.001,
+		"outline": false,
+		"suffix": "-arrow"
+		"mirror": false,
+		"moveY": -2,
+		"moveX": 0,
+		"moveRot": 0,
+		}
+		]
+	},
+	"ammoTypes": {
+		"scrp": {
+"type": "BasicBulletType",
+lifetime:35,
+speed:10.0,
+drag:0.01,
+accel:0.00,
+backColor:666666,
+frontColor:9b928b,
+hitColor:9b928b,
+
+width:15.0,
+height:20.0,
+shrinkX:0.1,
+ShrinkY:0.5,
+shrinkInterp:swingIn,
+sprite:bullet,
+damage:435,
+hitSize:8,
+drawSize:120,
+spin:0.0
+
+hitEffect:randLifeSpark,
+despawnEffect:randLifeSpark,
+shootEffect:instTrail,
+smokeEffect:randLifeSpark,
+inaccuracy:10.0,
+ammoMultiplier:1.0,
+reloadMultiplier:2.0,
+
+pierce:true,
+pierceBuilding:true,
+pierceCap:4,
+
+trailColor:9b928b,
+trailChance:0.7,
+trailParam:2.0,
+trailLength:8.0,
+trailWidth:2.0,
+		}
+		"slate": {
+"type": "BasicBulletType",
+lifetime:25,
+speed:12.0,
+drag:0.00,
+accel:0.01,
+backColor:526570,
+frontColor:708d94,
+hitColor:708d94,
+
+width:12.0,
+height:18.0,
+shrinkX:0.1,
+ShrinkY:0.5,
+shrinkInterp:swingIn,
+sprite:bullet,
+damage:1208,
+hitSize:8,
+drawSize:120,
+spin:0.0
+
+hitEffect:randLifeSpark,
+despawnEffect:randLifeSpark,
+shootEffect:instTrail,
+smokeEffect:randLifeSpark,
+ammoMultiplier:2.0,
+reloadMultiplier:1.2,
+
+knockback:-5
+pierce:true,
+pierceBuilding:true,
+pierceCap:13,
+shieldDamageMultiplier:0.5,
+
+trailColor:708d94,
+trailChance:0.7,
+trailParam:2.0,
+trailLength:10.0,
+trailWidth:2.0,
+		}
+	"dense": {
+"type": "BasicBulletType",
+lifetime:30,
+speed:10.0,
+drag:0.00,
+accel:0.02,
+backColor:50477b,
+frontColor:89769a,
+hitColor:89769a,
+
+width:13.0,
+height:21.0,
+shrinkX:0.1,
+ShrinkY:0.4,
+shrinkInterp:swingIn,
+sprite:bullet,
+damage:2900,
+hitSize:8,
+drawSize:120,
+spin:0.0
+buildingDamageMultiplier:2
+
+hitEffect:shootPayloadDriver,
+despawnEffect:none,
+shootEffect:instTrail,
+smokeEffect:randLifeSpark,
+reloadMultiplier:0.5,
+
+knockback:20
+pierce:true,
+pierceBuilding:true,
+pierceCap:6,
+
+status:disarmed,
+statusDuration:120,
+
+trailChance:1.0,
+trailParam:1.0,
+trailLength:10.0,
+trailWidth:3.0,
+trailEffect:artilleryTrailSmoke
+		}
+	"shell": {
+"type": "BasicBulletType",
+lifetime:15,
+speed:20.0,
+backColor:3c3c4f,
+frontColor:626f9b,
+hitColor:626f9b,
+width:8.0,
+height:12.0,
+damage:2175,
+hitSize:4,
+drawSize:120,
+
+hitEffect:{
+"type": "ParticleEffect",
+"particles": 25,
+"length": 20,
+"lifetime": 20,
+"line": true,
+"cone": 8,
+"sizeFrom": 12,
+"sizeTo": 1,
+"colorFrom": "626f9b",
+"colorTo": "626f9b"
+},
+despawnEffect:{
+"type": "ParticleEffect",
+"particles": 25,
+"length": 20,
+"lifetime": 20,
+"line": true,
+"cone": 8,
+"sizeFrom": 12,
+"sizeTo": 1,
+"colorFrom": "626f9b",
+"colorTo": "626f9b"
+},
+shootEffect:{
+"type": "multiEffect",
+"effects": [
+{effect:instTrail,},
+{
+"type": "ParticleEffect",
+"particles": 25,
+"length": 200,
+"lifetime": 20,
+"line": true,
+"cone": 8,
+"sizeFrom": 12,
+"sizeTo": 1,
+"colorFrom": "fff8e8",
+"colorTo": "fff8e8"
+},
+]
+}
+smokeEffect:railHit,
+reloadMultiplier:2,
+pierce:true,
+pierceBuilding:true,
+pierceCap:6,
+
+trailChance:0.0,
+trailParam:2.0,
+trailWidth:2.0
+trailLength:12.0,
+		}
+	},
+	"consumes": {
+		"power": 5,
+		"coolant": {
+		"amount": 0.3
+		}
+	},
+	"coolantMultiplier": 5,
+	"requirements": [
+		{ "item": "sadn", "amount": 210 },
+		{ "item": "flex-joint", "amount": 70 },
+		{ "item": "scrp", "amount": 190 },
+		{ "item": "circuit", "amount": 160 },
+	],
+	"buildCostMultiplier": 1.3,
+	"category": "turret",
+	"research": "3w03"
+}

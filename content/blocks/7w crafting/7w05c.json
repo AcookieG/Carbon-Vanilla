@@ -88,13 +88,13 @@
 	},
 	"requirements": [
 		{ "item": "flex-joint", "amount": 90 },
-		{ "item": "carbon-fiber", "amount": 60 },
-		{ "item": "sadn", "amount": 180 },
+		{ "item": "dense", "amount": 60 },
+		{ "item": "coppa", "amount": 180 },
 		{ "item": "circuit", "amount": 40 },
 	],
 	"category": "crafting",
 research: {
-  parent: 7w05c
+  parent: 7w05b
   objectives: [
     {
       type: OnSector
@@ -102,9 +102,8 @@ research: {
     }
   ]
 }
-	"idleSound": "electricHum",
-	"idleSoundVolume": 0.1,
-	"outputLiquids": [{"liquid": "H", "amount": 0.6},{"liquid": "N", "amount": 0.25},{"liquid": "O", "amount": 0.25},]
+	"idleSound": "techloop",
+	"outputLiquids": [{"liquid": "H", "amount": 1.2},{"liquid": "N", "amount": 0.5},{"liquid": "O", "amount": 0.6},]
 	"craftTime": 50,
 	"squareSprite": false,
 	"conductivePower": true

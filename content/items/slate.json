@@ -1,12 +1,12 @@
 {
 	"type": "material",
 	"name": "Slate",
-	"description": "A basic rock, abundant on Opalyne.",
+	"description": "A basic rock, abundant on Opalyne. [salmon]pierce. 1.2 Reload. 100%",
 	"cost": 0.75,
 	"flammability": 0.1,
 	"radioactivity": 0.0,
 	"explosiveness": 0.0,
 	"charge": 0.0
-	"color": "50477b"
+	"color": "708d94"
 	research: anthracite
 }

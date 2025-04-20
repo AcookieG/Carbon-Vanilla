@@ -63,8 +63,7 @@ research: {
     }
   ]
 }
-	"idleSound": "machine",
-	"idleSoundVolume": 0.08,
+	"idleSound": "windHowl",
 	"outputLiquid": {"liquid": "N", "amount": 0.2},
 	"craftTime": 60,
 	"squareSprite": false,

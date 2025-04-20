@@ -76,8 +76,7 @@ research: {
     }
   ]
 }
-	"idleSound": "electricHum",
-	"idleSoundVolume": 0.08,
+	"idleSound": "windhowl",
 	"outputLiquids": [{"liquid": "H", "amount": 0.2},{"liquid": "O", "amount": 0.1},]
 	"craftTime": 40,
 	"squareSprite": false,

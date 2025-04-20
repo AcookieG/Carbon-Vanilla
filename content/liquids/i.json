@@ -1,5 +1,6 @@
 {
 	"type": "Liquid",
+	"details": "This is where it all started."
 	"moveThroughBlocks": false,
 	"incinerable": true,
 	"name": "Oil",

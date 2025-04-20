@@ -65,7 +65,7 @@
 	"ambientSound": "hum",
 	"ambientSoundVolume": 1,
 	"outputLiquid": {
-		"liquid": "liquidheat",
+		"liquid": "metal",
 		"amount": 0.3
 	},
 	"craftTime": 1,

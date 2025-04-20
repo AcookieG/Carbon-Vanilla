@@ -5,10 +5,9 @@
 "description": "Power and water don't miw very well now do they?"
 "category": "power"
 "squareSprite": "false"
-"research": "5w01"
+"research": "11w01"
 "requirements": [
-  {"item": "graph", "amount": 5}
-	{"item": "iron", "amount": 3}
+  {"item": "sand", "amount": 1}
 ]
 	"conductivePower": true,
 	"hasPower": true,

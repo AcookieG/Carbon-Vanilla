@@ -27,7 +27,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "liquidheat",
+				"drawLiquid": "metal",
 				"padding": 2
 			},
 			{
@@ -91,7 +91,7 @@
 	"idleSound": "hum",
 	"idleSoundVolume": 1,
 	"outputLiquid": {
-		"liquid": "liquidheat",
+		"liquid": "metal",
 		"amount": 0.02
 	},
 	"craftTime": 30,

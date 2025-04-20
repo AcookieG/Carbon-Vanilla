@@ -24,7 +24,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "liquidheat",
+				"drawLiquid": "metal",
 				"padding": 4
 			},
 			{
@@ -53,7 +53,7 @@
 			]
 		},
                 "liquid": {
-			"liquid": "liquidheat",
+			"liquid": "metal",
 			"amount": 0.3
 		},
 	},

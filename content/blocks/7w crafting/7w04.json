@@ -49,7 +49,7 @@
 	"category": "crafting",
 	"rotate": false
 research: 7w01
-	"idleSound": "machine",
+	"idleSound": "grinding",
 	"idleSoundVolume": 0.03,
 	"outputLiquids": [
 		{ "liquid": "i", "amount": 0.05 },

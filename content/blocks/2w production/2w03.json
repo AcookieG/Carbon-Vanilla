@@ -1,15 +1,15 @@
 {
-	"name": "Square Drill",
-	"description": "Crushes deep ores with smaller incision drills.",
+	"name": "Cog Drill V",
+	"description": "A refined Cog Drill, using harder materials to grind deeper into the earth.",
 	"type": "Drill",
-	"size": 3,
+	"size": 2,
 	"tier": 3,
 	"updateEffect": "coalSmeltsmoke",
-	"drillTime": 240,
+	"drillTime": 300,
 	"itemCapacity": 10,
-	"drawRim": true,
-	"drawMineItem": false,
-	"rotateSpeed": 2.4
+	"drawRim": false,
+	"drawMineItem": true,
+	"rotateSpeed": 1.5
 	"consumes": {
 		"liquid": {
 			"liquid": "wtr", 
@@ -19,12 +19,10 @@
 		}
 	},
 	"requirements": [
-		{ "item": "iron", "amount": 80 },
-		{ "item": "graph", "amount": 80 },
-		{ "item": "dense", "amount": 10 },
+		{ "item": "dense", "amount": 12 },
 	],
 	"category": "production",
 	"research": "2w01"
 	"squareSprite": false,
-	"buildCostMultiplier": 0.6,
+	"buildCostMultiplier": 2.5,
 }

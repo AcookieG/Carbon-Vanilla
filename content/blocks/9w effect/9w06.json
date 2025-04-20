@@ -6,14 +6,7 @@
 	"size": 1,
 	"hasPower": false,
 	"range": 7,
-	"healPercent": 0.03,
-	"consumes": {
-		"liquid": {
-			"liquid": "wtr", 
-			"amount": 0.2,
-			"optional": true,
-		}
-	},
+	"healPercent": 0.06,
 	"optionalMultiplier":	2
 	"effectChance": 0.04
 	"requirements": [

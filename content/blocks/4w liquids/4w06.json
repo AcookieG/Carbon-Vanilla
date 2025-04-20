@@ -4,7 +4,7 @@
 	"requirements": [
 			{"item": "graph", "amount": 50},
 			{"item": "sadn", "amount": 70},
-		  {"item": "iron", "amount": 20},
+		  {"item": "dense", "amount": 20},
 	]
 	"liquidCapacity": 300
 	"size": 2
