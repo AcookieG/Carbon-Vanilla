@@ -1,7 +1,7 @@
 {
 	"type": "flying",
 	"name": "Merlin",
-	"health": 740,
+	"health": 990,
 	"armor": 3,
 	
 		"flying": true,
@@ -49,7 +49,7 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:missile,
-damage:1,
+damage:40,
 hitSize:4,
 drawSize:120,
 spin:0.0

@@ -1,0 +1,192 @@
+{
+	"type": "mech",
+	"name": "Breke",
+	"health": 1230,
+	"armor": 5,
+	"hovering": true,
+	"lowAltitude": true,
+	"rotateSpeed": 1.8,
+	"speed": 0.6,
+	"hitSize": 16,
+	"itemCapacity": 0,
+	"engineSize": 2.5,
+	"engineOffset": 7
+	"outlineColor": 2c2d38,
+	researchCostMultiplier:0
+		"research": 11w03a,
+	"fogRadius": 11,
+	shadowElevation:0.1
+	useEngineElevation :false
+	
+		"weapons": [
+		{
+			"name": "11w03b-gun",
+			"alternate": true,
+			"ignoreRotation": true,
+			"reload": 120,
+			"inaccuracy": 0,
+			"shootSound": "shootAlt"
+			"rotate": true
+			"shake": 0.2
+			"shootCone": 40,
+			"x": 6
+			"y": 6
+			"shoot": {
+		"type": "ShootPattern",
+		"shots": 5
+		"spread": 4
+		"shotDelay": 6
+	},
+			"mirror": true
+			"rotateSpeed": 6,
+			"bullet": {
+			"type": "ArtilleryBulletType",
+lifetime:20,
+speed:4.5,
+drag:0.0,
+backColor:626f9b,
+frontColor:95abd9,
+damage:0,
+hitSize:4,
+drawSize:120,
+spin:0.0
+splashDamage:30,
+splashDamageRadius:12.0,
+
+hitEffect:{
+			type: ExplosionEffect
+			lifetime: 20
+			waveRad: 8
+			waveLife: 20
+			waveStroke: 1.5
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 3
+			sparkRad: 10
+			sparkStroke: 2
+			sparkLen: 4
+			sparkColor: 95abd9
+			waveColor: 95abd9
+		},
+despawnEffect:{
+			type: ExplosionEffect
+			lifetime: 20
+			waveRad: 8
+			waveLife: 20
+			waveStroke: 1.5
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 3
+			sparkRad: 10
+			sparkStroke: 2
+			sparkLen: 4
+			sparkColor: 95abd9
+			waveColor: 95abd9
+		},
+
+trailColor:95abd9,
+trailChance:0.0,
+trailInterval:1,
+trailParam:0.0,
+trailLength:4.0,
+		}
+		}
+				{
+			"name": "11w03a-gun",
+			"alternate": false,
+			"ignoreRotation": true,
+			"reload": 180,
+			"inaccuracy": 0,
+			"shootSound": "shootAlt"
+			"rotate": true
+			"shake": 0.3
+			"shootCone": 20,
+			"x": 0
+			"y": -2
+			"mirror": false
+			"shootEffect": "shootBig"
+			"rotateSpeed": 3,
+			"bullet": {
+			"type": "ArtilleryBulletType",
+lifetime:30,
+speed:5.0,
+drag:0.0,
+backColor:626f9b,
+frontColor:95abd9,
+damage:0,
+hitSize:6,
+drawSize:160,
+spin:0.0
+splashDamage:180,
+splashDamageRadius:30.0,
+
+hitEffect:{
+			type: ExplosionEffect
+			lifetime: 20
+			waveRad: 24
+			waveLife: 20
+			waveStroke: 2
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 6
+			sparkRad: 30
+			sparkStroke: 2
+			sparkLen: 4
+			sparkColor: 95abd9
+			waveColor: 95abd9
+		},
+despawnEffect:{
+			type: ExplosionEffect
+			lifetime: 20
+			waveRad: 24
+			waveLife: 20
+			waveStroke: 2
+			smokeSize: 0
+			smokes: 0
+			smokeRad: 0
+			sparks: 6
+			sparkRad: 30
+			sparkStroke: 2
+			sparkLen: 4
+			sparkColor: 95abd9
+			waveColor: 95abd9
+		},
+
+trailColor:95abd9,
+trailChance:0.0,
+trailInterval:1,
+trailParam:0.0,
+trailLength:4.0,
+		}
+		}
+	]
+	parts: [
+        {
+        type: HoverPart,
+        x: 4,
+        y: -1.25,
+        mirror: true,
+        radius: 6.5,
+        phase: 120,
+        stroke: 2,
+        layerOffset: -0.001,
+        color: 6688ff,
+        sides: 6,
+    }
+		{
+        type: HoverPart,
+        x: 2,
+        y: 8,
+        mirror: true,
+        radius: 4,
+        phase: 120,
+        stroke: 1.5,
+        layerOffset: -0.001,
+        color: 6688ff,
+        sides: 6,
+    }
+	]
+}

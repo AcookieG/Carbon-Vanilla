@@ -1,0 +1,37 @@
+{
+	"name": "Dual Axis Printer",
+	"description": "Adds another dimension to your crafts.",
+	"type": "Reconstructor"
+	"size": 3,
+	"constructTime": 400
+	"itemCapacity": 500,
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "sili", "amount": 60 },
+				{ "item": "scrp", "amount": 100 },
+				{ "item": "iron", "amount": 20 },
+			]
+		},
+	},
+	"upgrades": [
+		[
+			"11w02a",
+			"11w02b"
+		]
+		[
+			"11w03a",
+			"11w03b"
+		]
+	],
+	"category": "units",
+	"research": "8w01",
+	"unitType": "ErekirUnitType"
+	"requirements": [
+		{ "item": "sadn", "amount": 210 },
+		{ "item": "graph", "amount": 120 },
+		{ "item": "sili", "amount": 160 },
+		{ "item": "iron", "amount": 90 },
+	]
+}

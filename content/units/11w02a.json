@@ -25,11 +25,11 @@ researchCostMultiplier:0
 		{
 			"name": "clear",
 			"alternate": false,
-			"ignoreRotation": true,
+			"ignoreRotation": false,
 			"reload": 40,
 			"inaccuracy": 0,
 			"shootSound": "laser"
-			"rotate": true
+			"rotate": false
 			"shake": 0.2
 			"shootCone": 90,
 			"x": 0
