@@ -17,6 +17,14 @@
 				{ "item": "iron", "amount": 40 },
 			]
 		},
+		{
+			"unit": "11w03a",
+			"time": 800
+			"requirements": [
+				{ "item": "sili", "amount": 60 },
+				{ "item": "graph", "amount": 40 },
+			]
+		},
 	]
 	"category": "units",
 	"research": "9w01",
