@@ -8,7 +8,7 @@
 	"hasPower": true,
 	"hasItems": false,
 	"discoveryTime": 1200,
-	"glowColor": 364166,
+	"glowColor": c9a5c8,
 	"hasBoost": false
 	"requirements": [
 		{"item": "scrp", "amount": 20},

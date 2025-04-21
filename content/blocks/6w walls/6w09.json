@@ -3,7 +3,7 @@
 	"description": '''
 	A wall that will slowly damage units near it.
 	''',
-	hasPower: false
+	fogRadiusMultiplier:0
 	"details": "These walls have more than a few thousand microscopic needles embeded into their surface. It's no wonder they are a show of force."
 	"type": "powerTurret",
 	"health": 1230,

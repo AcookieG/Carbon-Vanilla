@@ -11,7 +11,7 @@
 	"range": 180,
 	"minRange": 100,
 	"drawMinRange": true,
-	"fogRadius": 8,
+	fogRadiusMultiplier:0
 	"recoil":1.5,
 	"ammoPerShot":3,
 	"maxAmmo":30,

@@ -6,7 +6,7 @@
 	"size": 1,
 	"reload": 4,
 	"range": 100,
-	"fogRadius": 4.25,
+	fogRadiusMultiplier:0
 	"liquidCapacity": 10
 	"shootEffect": "shootLiquid",
 	"shootSound": "splash",

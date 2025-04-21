@@ -11,7 +11,7 @@
 	"drag": 0.017,
 	omniMovement: false,
 	
-	"hitSize": 16,
+	"hitSize": 14,
 	
 	"itemCapacity": 0,
 	

@@ -3,7 +3,7 @@
 	"description": '''
 	A wall that will slowly damage units near it. Larger and more powerfull.
 	''',
-	hasPower: false
+	fogRadiusMultiplier:0
 	"details": "To build forts and towers, to be seen from miles away, to inflict pain and fear into the enemy like a coward."
 	"type": "powerTurret",
 	"health": 4920,
