@@ -9,15 +9,7 @@
 	]
 	"liquidCapacity": 30
 	"size": 4
-research: {
-  parent: 2w03
-  objectives: [
-    {
-      type: SectorComplete
-      preset: 13w01
-    }
-  ]
-}
+research:2w03
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [

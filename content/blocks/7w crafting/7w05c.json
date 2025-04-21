@@ -93,15 +93,7 @@
 		{ "item": "circuit", "amount": 40 },
 	],
 	"category": "crafting",
-research: {
-  parent: 7w05b
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research: 7w05b
 	"idleSound": "techloop",
 	"outputLiquids": [{"liquid": "H", "amount": 1.2},{"liquid": "N", "amount": 0.5},{"liquid": "O", "amount": 0.6},]
 	"craftTime": 50,

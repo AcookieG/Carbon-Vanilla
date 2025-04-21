@@ -63,15 +63,7 @@ Consumes fuel and Canolla. Cool it down with water or it will explode.
 	"conductivePower": true
 	"loopSound": "flux",
 	"effect": none,
-research: {
-  parent: 5w09
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research: 5w09
 	"itemDuration": 40,
 	"squareSprite": false,
 	"maxHeat": 100,

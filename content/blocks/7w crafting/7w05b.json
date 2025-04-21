@@ -67,15 +67,7 @@
 		{ "item": "dense", "amount": 30 },
 	],
 	"category": "crafting",
-research: {
-  parent: 7w05
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research:7w05
 	"idleSound": "windhowl",
 	"outputLiquids": [{"liquid": "H", "amount": 0.2},{"liquid": "O", "amount": 0.1},]
 	"craftTime": 40,

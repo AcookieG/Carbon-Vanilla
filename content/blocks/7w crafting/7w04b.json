@@ -51,15 +51,7 @@
 	},
 	"category": "crafting",
 	"rotate": false
-research: {
-  parent: 7w04
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research: 7w04
 	"idleSound": "machine",
 	"outputLiquids": [
 		{ "liquid": "i", "amount": 0.2 },

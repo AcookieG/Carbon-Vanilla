@@ -54,15 +54,7 @@
 	],
 	"category": "crafting",
 	"rotate": false
-research: {
-  parent: 7w03
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research:7w03
 	"idleSound": "windHowl",
 	"outputLiquid": {"liquid": "N", "amount": 0.2},
 	"craftTime": 60,

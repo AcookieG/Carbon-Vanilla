@@ -8,15 +8,7 @@
 	]
 	"liquidCapacity": 300
 	"size": 2
-research: {
-  parent: 4w05
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research: 4w05
 	"health": 200
 	"category": "liquid"
 	"squareSprite": false,

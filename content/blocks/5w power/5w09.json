@@ -53,15 +53,7 @@ Produces energy and heat by cooling Pressure down to water.
 	"rotate": true
 	"loopSound": "hum",
 	"outputLiquid": {"liquid": "wtr", "amount": 0.5},
-research: {
-  parent: 5w08
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research: 5w08
 	"itemDuration": 60,
 	"squareSprite": false,
 	"heatOutput": 24,

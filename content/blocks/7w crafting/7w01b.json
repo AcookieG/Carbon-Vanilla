@@ -53,15 +53,7 @@
 	},
 	"category": "crafting",
 	"rotate": false
-research: {
-  parent: 7w01
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research: 7w01
 "outputItems": [
 		{ "item": "graph", "amount": 2 },
 	],

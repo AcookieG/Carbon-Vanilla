@@ -76,15 +76,7 @@
 		{ "item": "circuit", "amount": 80 },
 	],
 	"category": "crafting",
-research: {
-  parent: 7w15
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research: 7w15
 	"outputItem":{ "item": "shell", "amount": 1 },
 	"idleSound": "techloop",
 	"outputLiquid": {"liquid": "metal", "amount": 0.1},

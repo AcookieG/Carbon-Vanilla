@@ -38,15 +38,7 @@
 	"effectChance": 0.03
 	"generateEffect": "turbinegenerate",
 	"category": "production",
-research: {
-  parent: 5w04b
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research: 5w04b
 	"displayEfficiencyScale": 0.1111112,
 	"ambientSound": "windhowl",
 	"displayEfficiency": false,

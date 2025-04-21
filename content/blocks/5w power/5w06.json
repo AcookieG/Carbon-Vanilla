@@ -57,15 +57,7 @@ They are the danger.
 	"conductivePower": true
 	"rotate": false
 	"loopSound": "torch",
-research: {
-  parent: 5w05
-  objectives: [
-    {
-      type: OnSector
-      preset: 13w03
-    }
-  ]
-}
+research:5w05
 	"ambientSound": "torch",
 	"itemDuration": 60,
 	"squareSprite": false,
