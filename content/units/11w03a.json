@@ -1,5 +1,5 @@
 {
-	"type": "hovering",
+	"type": "flying",
 	"name": "Carnac",
 	"health": 680,
 	"armor": 3,
@@ -14,6 +14,8 @@
 	researchCostMultiplier:0
 		"research": 11w02a,
 	"fogRadius": 8,
+	shadowElevation:0.1
+	
 		"weapons": [
 		{
 			"name": "11w03a-gun",
