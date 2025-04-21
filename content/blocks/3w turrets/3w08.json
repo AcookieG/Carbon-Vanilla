@@ -6,7 +6,7 @@
 	"size": 2,
 	"hasPower": true,
 	"hasItems": false,
-	"discoveryTime": 400,
+	"discoveryTime": 800,
 	"glowColor": c9a5c8,
 	"hasBoost": false
 	"requirements": [
