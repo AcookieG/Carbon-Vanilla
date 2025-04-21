@@ -6,7 +6,7 @@ statusDuration: 60
 liquidDrop: wtr
 isLiquid: true
 cacheLayer: water
-liquidMultiplier: 1.5
+liquidMultiplier: 1.0
 albedo: 0.9
 supportsOverlay: true
-drownTime: 600
+drownTime: 300
