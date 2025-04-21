@@ -2,7 +2,7 @@
 	"type": "flying",
 	"name": "Hawk",
 	"health": 2650,
-	"armor": 8,
+	"armor": 6,
 	
 		"flying": true,
 	"rotateSpeed": 3,
@@ -31,7 +31,7 @@ engines: [
     rotation: -90
   }
 ]
-	AlwaysUnlocked: true
+researchCostMultiplier:0
 	
 	"weapons": [
 		{

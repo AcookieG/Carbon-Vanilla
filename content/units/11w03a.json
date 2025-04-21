@@ -1,16 +1,18 @@
 {
-	"type": "flying",
+	"type": "hovering",
 	"name": "Carnac",
 	"health": 680,
-	"armor": 0,
+	"armor": 3,
 	"hovering": true,
 	"lowAltitude ": true,
-	"rotateSpeed": 4,
-	"speed": 2,
+	"rotateSpeed": 2,
+	"speed": 0.7,
 	"hitSize": 8,
 	"itemCapacity": 0,
 	"engineSize": 0,
 	"outlineColor": 2c2d38,
+	researchCostMultiplier:0
+		"research": 11w02a,
 	"fogRadius": 8,
 		"weapons": [
 		{
@@ -44,7 +46,7 @@ splashDamageRadius:12.0,
 
 hitEffect:{
 			type: ExplosionEffect
-			lifetime: 30
+			lifetime: 20
 			waveRad: 10
 			waveLife: 20
 			waveStroke: 2
@@ -52,15 +54,15 @@ hitEffect:{
 			smokes: 0
 			smokeRad: 0
 			sparks: 5
-			sparkRad: 20
-			sparkStroke: 3.2
-			sparkLen: 5.8
+			sparkRad: 10
+			sparkStroke: 2
+			sparkLen: 4
 			sparkColor: 95abd9
 			waveColor: 95abd9
 		},
 despawnEffect:{
 			type: ExplosionEffect
-			lifetime: 30
+			lifetime: 20
 			waveRad: 10
 			waveLife: 20
 			waveStroke: 2
@@ -68,9 +70,9 @@ despawnEffect:{
 			smokes: 0
 			smokeRad: 0
 			sparks: 5
-			sparkRad: 20
-			sparkStroke: 3.2
-			sparkLen: 5.8
+			sparkRad: 10
+			sparkStroke: 2
+			sparkLen: 4
 			sparkColor: 95abd9
 			waveColor: 95abd9
 		},
@@ -86,12 +88,12 @@ trailLength:4.0,
 	parts: [
         {
         type: HoverPart,
-        x: 4,
-        y: -3,
+        x: 3.25,
+        y: -2.75,
         mirror: true,
-        radius: 12,
+        radius: 6,
         phase: 120,
-        stroke: 6,
+        stroke: 2,
         layerOffset: -0.001,
         color: 6688ff,
         sides: 6,
@@ -99,11 +101,11 @@ trailLength:4.0,
 		{
         type: HoverPart,
         x: 0,
-        y: 5,
+        y: 4.5,
         mirror: false,
-        radius: 12,
+        radius: 6,
         phase: 120,
-        stroke: 6,
+        stroke: 2,
         layerOffset: -0.001,
         color: 6688ff,
         sides: 6,

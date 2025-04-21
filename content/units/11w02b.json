@@ -2,7 +2,7 @@
 	"type": "flying",
 	"name": "Merlin",
 	"health": 740,
-	"armor": 2,
+	"armor": 3,
 	
 		"flying": true,
 	"rotateSpeed": 4,
@@ -17,7 +17,7 @@
 	
 	"engineOffset": 8,
 	"engineSize": 3.3,
-	AlwaysUnlocked: true
+researchCostMultiplier:0
 	
 	"weapons": [
 		{
