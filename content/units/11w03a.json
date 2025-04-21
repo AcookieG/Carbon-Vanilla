@@ -1,19 +1,19 @@
 {
-	"type": "flying",
+	"type": "mech",
 	"name": "Carnac",
 	"health": 680,
 	"armor": 3,
 	"hovering": true,
-	"lowAltitude ": true,
+	"lowAltitude": true,
 	"rotateSpeed": 2,
 	"speed": 0.7,
-	"hitSize": 8,
+	"hitSize": 14,
 	"itemCapacity": 0,
 	"engineSize": 0,
 	"outlineColor": 2c2d38,
 	researchCostMultiplier:0
 		"research": 11w02a,
-	"fogRadius": 8,
+	"fogRadius": 10,
 	shadowElevation:0.1
 	
 		"weapons": [
@@ -91,7 +91,7 @@ trailLength:4.0,
         {
         type: HoverPart,
         x: 3.25,
-        y: -2.75,
+        y: -2.25,
         mirror: true,
         radius: 6,
         phase: 120,
