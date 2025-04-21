@@ -4,7 +4,7 @@
 	"size": 2,
 	"itemCapacity": 2000,
 	"hasItems": true,
-	"health": 600,
+	"health": 2000,
 	"isFirstTier": true,
 	"alwaysUnlocked": true,
 	"requirements": [

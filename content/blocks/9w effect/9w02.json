@@ -4,7 +4,7 @@
 	"size": 3,
 	"itemCapacity": 4000,
 	"hasItems": true,
-	"health": 900,
+	"health": 2900,
 	"isFirstTier": false
 	"requirements": [
 		{"item": "sili", "amount": 800},

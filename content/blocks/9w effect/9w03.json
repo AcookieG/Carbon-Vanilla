@@ -4,7 +4,7 @@
 	"size": 4,
 	"itemCapacity": 6000,
 	"hasItems": true,
-	"health": 1200,
+	"health": 6000,
 	"isFirstTier": false
 	"requirements": [
 		{"item": "carbon-fiber", "amount": 1000},

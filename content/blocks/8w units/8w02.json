@@ -9,8 +9,8 @@
 		"power": 1.2,
 		"items": {
 			"items": [
-				{ "item": "sili", "amount": 60 },
-				{ "item": "scrp", "amount": 100 },
+				{ "item": "sili", "amount": 50 },
+				{ "item": "graph", "amount": 50 },
 				{ "item": "iron", "amount": 20 },
 			]
 		},

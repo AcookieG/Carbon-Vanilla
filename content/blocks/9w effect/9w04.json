@@ -4,7 +4,7 @@
 	"size": 5,
 	"itemCapacity": 8000,
 	"hasItems": true,
-	"health": 2800,
+	"health": 11000,
 	"isFirstTier": false
 	"requirements": [
 		{"item": "flex-joint", "amount": 1000},
