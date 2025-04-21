@@ -83,7 +83,7 @@ trailLength:4.0,
 		}
 		}
 	]
-	    parts: [
+	parts: [
         {
         type: HoverPart,
         x: 4,
@@ -108,4 +108,5 @@ trailLength:4.0,
         color: 6688ff,
         sides: 6,
     }
+	]
 }
