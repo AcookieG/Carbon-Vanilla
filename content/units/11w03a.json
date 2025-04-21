@@ -3,8 +3,6 @@
 	"name": "Carnac",
 	"health": 680,
 	"armor": 3,
-	"hovering": true,
-	"lowAltitude": true,
 	"rotateSpeed": 2,
 	"speed": 0.7,
 	"hitSize": 14,

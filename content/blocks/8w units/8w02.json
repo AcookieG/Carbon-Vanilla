@@ -28,6 +28,8 @@
 	"category": "units",
 	"research": "8w01",
 	"unitType": "ErekirUnitType"
+	"conductivePower": true
+	"squareSprite": false,
 	"requirements": [
 		{ "item": "sadn", "amount": 210 },
 		{ "item": "graph", "amount": 120 },

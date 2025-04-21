@@ -3,8 +3,6 @@
 	"name": "Breke",
 	"health": 1230,
 	"armor": 5,
-	"hovering": true,
-	"lowAltitude": true,
 	"rotateSpeed": 1.8,
 	"speed": 0.6,
 	"hitSize": 16,
@@ -29,8 +27,8 @@
 			"rotate": true
 			"shake": 0.2
 			"shootCone": 40,
-			"x": 6
-			"y": 6
+			"x": 4
+			"y": 3
 			"shoot": {
 		"type": "ShootPattern",
 		"shots": 5
@@ -166,7 +164,7 @@ trailLength:4.0,
 	parts: [
         {
         type: HoverPart,
-        x: 4,
+        x: 4.25,
         y: -1.25,
         mirror: true,
         radius: 6.5,
@@ -178,8 +176,8 @@ trailLength:4.0,
     }
 		{
         type: HoverPart,
-        x: 2,
-        y: 8,
+        x: 2.25,
+        y: 6,
         mirror: true,
         radius: 4,
         phase: 120,
