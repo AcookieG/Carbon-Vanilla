@@ -14,7 +14,7 @@
 			waveRad: 10
 			waveLife: 20
 			waveStroke: 2
-			smokeColor: ffffff00
+			smokeColor: 95abd9
 			smokeSize: 0
 			smokes: 0
 			smokeRad: 0
@@ -22,8 +22,8 @@
 			sparkRad: 20
 			sparkStroke: 3.2
 			sparkLen: 5.8
-			sparkColor: ffffffff
-			waveColor: ffffffff
+			sparkColor: 708d94
+			waveColor: d7bf74
 		}
 	"liquidCapacity": 30,
 	"drawer": {

@@ -26,12 +26,12 @@
 			"name": "clear",
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 80,
+			"reload": 40,
 			"inaccuracy": 0,
 			"shootSound": "laser"
 			"rotate": true
-			"shake": 0.0
-			"shootCone": 10,
+			"shake": 0.2
+			"shootCone": 180,
 			"x": 0
 			"y": 0
 			"mirror": false
@@ -45,10 +45,13 @@ drag:0.1,
 accel:0.0,
 width:1.0,
 height:1.0,
-damage:60,
+damage:40,
 hitSize:4,
 drawSize:1,
 spin:0.0
+
+hitEffect:explosion,
+despawnEffect:explosion,
 
 trailColor:e58956ff,
 trailChance:1.0,

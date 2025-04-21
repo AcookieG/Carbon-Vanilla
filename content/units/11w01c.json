@@ -26,6 +26,6 @@
 	"targetable": false,
 	"canAttack": false,
 	"trailLength": 14,
-	"outlineColor": 00000000,
+	"outlineColor": 2c2d38,
 	"fogRadius": 9
 }

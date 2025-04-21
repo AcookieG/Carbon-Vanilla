@@ -4,7 +4,7 @@
 	"description": "A pack of long and heavy rods to shoot at enemies. [salmon]Quickfire. 2.5 reload. 400%",
 	"cost": 2.4
 	"flammability": 0.0,
-	"radioactivity": 0.0,
+	"radioactivity": 0.2,
 	"explosiveness": 0.2,
 	"charge": 0.0,
 	"color": "766257"

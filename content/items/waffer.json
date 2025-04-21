@@ -5,7 +5,7 @@
 	"cost": 2,
 	"flammability": 0.0,
 	"radioactivity": 0.0,
-	"explosiveness": 0.1,
+	"explosiveness": 0.0,
 	"charge": 0.0,
 	"color": "d7bf74"
 		research: sili
