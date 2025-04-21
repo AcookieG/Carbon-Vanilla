@@ -1,0 +1,8 @@
+type: SteamVent
+blendGroup: beachsand
+parent: beachsand
+	"variants": 2,
+attributes: {
+   steam: 1
+}
+effectColor: f7cba4
