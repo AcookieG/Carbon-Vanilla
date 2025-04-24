@@ -48,7 +48,7 @@ researchCostMultiplier:0
 			"y": 0
 			"mirror": true
 			"shootEffect": "shootBig"
-			"rotateSpeed": 0,
+			"rotateSpeed": 5,
 				"shoot": {
 		"type": "ShootPattern",
 		"shots": 3
@@ -69,8 +69,8 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:missile,
-damage:50,
-hitSize:4,
+damage:90,
+hitSize:8,
 drawSize:120,
 spin:0.0
 

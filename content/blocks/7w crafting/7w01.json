@@ -13,7 +13,7 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "slate", "amount": 2}
+				{"item": "slate", "amount": 3}
 			]
 		},
 	},
