@@ -22,7 +22,7 @@
 				"suffix": "-heat"
 				"glowScale": 4,
 				"glowIntensity": 0.2
-				"alpha": 0.8
+				"alpha": 0.4
 			},
 			{
 				"type": "DrawRegion"
@@ -50,10 +50,10 @@
 		]
 	},
 	"requirements": [
-		{ "item": "thorium", "amount": 160 },
+		{ "item": "dense", "amount": 160 },
 		{ "item": "phase-decay", "amount": 30 },
 		{ "item": "graphite", "amount": 90 }
-		{ "item": "copper", "amount": 60 }
+		{ "item": "thorium", "amount": 60 }
 	],
 	"category": "production",
 	"rotate": false

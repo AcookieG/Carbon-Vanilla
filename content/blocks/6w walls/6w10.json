@@ -4,11 +4,11 @@
 	A wall that will slowly damage units near it. Larger and more powerfull.
 	''',
 	fogRadiusMultiplier:0
-	"details": "To build forts and towers, to be seen from miles away, to inflict pain and fear into the enemy like a coward."
+	"details": "To build forts and towers, to be seen from miles away, to inflict pain into the enemy, protected like a coward."
 	"type": "powerTurret",
 	"health": 4920,
 	"size": 2,
-	"reload": 3,
+	"reload": 20,
 	"range": 100,
 	"fogRadius": 8,
 	"recoil":0,

@@ -47,8 +47,8 @@
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 120 },
-		{ "item": "titanium", "amount": 80 },
-		{ "item": "metaglass", "amount": 15 },
+		{ "item": "dense", "amount": 80 },
+		{ "item": "metaglass", "amount": 150 },
 		{ "item": "phase-fabric", "amount": 30 }
 	],
 	"category": "crafting",

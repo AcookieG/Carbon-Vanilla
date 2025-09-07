@@ -30,7 +30,7 @@
 		},
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 80 },
+		{ "item": "dense", "amount": 80 },
 		{ "item": "silicon", "amount": 30 },
 		{ "item": "phase-fabric", "amount": 15 },
 	],

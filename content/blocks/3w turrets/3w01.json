@@ -200,7 +200,7 @@ fragBullet:{
 	despawnEffect:none,
 },
 		}
-		"canolla": {
+		"copper": {
 "type": "BasicBulletType",
 lifetime:22,
 speed:6.0,
@@ -248,7 +248,7 @@ frontColor:626f9b,
 hitColor:626f9b,
 width:8.0,
 height:12.0,
-damage:107,
+damage:187,
 hitSize:4,
 drawSize:120,
 

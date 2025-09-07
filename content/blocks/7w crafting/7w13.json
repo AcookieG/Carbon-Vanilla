@@ -1,6 +1,6 @@
 {
 	"name": "Discharge Facility",
-	"description": "Repeatedly shoots sharp darts of Slate to turn them into actual Piercing Shells. Produces Mercury as biproduct.",
+	"description": "Repeatedly shoots sharp darts of Phase Decay to turn them into actual Piercing Shells. Produces Mercury as biproduct.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 160,
@@ -65,7 +65,7 @@
 		]
 	"items": {
 			"items": [
-	{ "item": "lead", "amount": 5},
+	{ "item": "phase-decay", "amount": 1},
 			]
 		},
 	},
@@ -80,7 +80,7 @@ research: 7w15
 	"outputItem":{ "item": "shell", "amount": 1 },
 	"idleSound": "techloop",
 	"outputLiquid": {"liquid": "metal", "amount": 0.1},
-	"craftTime": 15,
+	"craftTime": 10,
 	"squareSprite": false,
 	"conductivePower": true
 	liquidOutputDirections: [4,]

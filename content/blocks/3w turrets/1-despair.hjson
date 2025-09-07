@@ -1,7 +1,10 @@
 {
 	type: ItemTurret,
 	name: Despair,
-	description: "A large turret capable of dealing insane amounts of damage to any unit. Not efficient against walls. Gets absorbed by shields.",
+	description: '''
+    A large turret capable of dealing insane amounts of damage to any unit. Not efficient against walls. Gets absorbed by shields.
+    [Salmon] Can shoot Pierceing Rods quite efficiently.
+    ''',
 	squareSprite: false,
 	health": 5300
 	size: 4
@@ -311,7 +314,7 @@
 	]
 	}
 	ammoTypes: {
-		titanium: {
+    		titanium: {
 			type: FlakBulletType
 			sprite: missile-large
 			damage: 0
@@ -357,10 +360,10 @@
 			fragBullets: 6
 			fragBullet: {
                 type: LaserBulletType
-                hitSoundVolume: 1
+                hitSoundVolume: 0.8
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
-                damage: 90
+                damage: 60
                 status: freezing
                 statusDuration: 720
 			keepVelocity: false
@@ -384,6 +387,83 @@
 			colors: [
 				6cb7f5
 				6cb7f5
+				FFFFFF
+			]
+			}
+		}
+		shell: {
+			type: FlakBulletType
+			sprite: missile-large
+			damage: 0
+			ammoMultiplier: 1
+			drawsize: 250
+			width: 7
+			height: 15
+			shootEffect: shootSmokeSquareBig
+			smokeEffect: {
+                type: ParticleEffect
+                particles: 3
+                length: -60
+                lifetime: 80
+                interp: circleOut
+                cone: 20
+                sizeFrom: 8
+                sizeTo: 1
+                colorFrom: 626f9b
+                colorTo: ffffff00
+            }
+			lifetime: 60
+			speed: 8
+			collidesAir: true
+			collidesGround: true
+			collidesTiles: true
+			instantDisapear: false
+			despawnEffect: none
+			hitEffect: none
+			shrinkY: -0.9
+			hitShake: 0
+			trailColor: 626f9b
+			trailEffect: colorSpark
+			trailRotation: true
+			trailInterval: 2
+			trailChance: -1
+			trailWidth: 2.0
+			trailLength: 29
+			frontColor: ffffff
+			backColor: 626f9b
+			homingPower: 0.02
+			homingRange: 120
+			explodeRange: 40
+			fragBullets: 8
+			fragBullet: {
+                type: LaserBulletType
+                hitSoundVolume: 1.2
+                hitSound: spark
+                buildingDamageMultiplier: 0.4
+                damage: 60
+                status: disarmed
+                statusDuration: 720
+			keepVelocity: false
+			collidesAir: true
+			collidesGround: true
+			collidesTiles: true
+			lightning: 2
+			lightningDamage: 30
+			lightningCone: 360
+			lightningLengthRand: 6
+			lightningLength: 6
+			lightningColor: 626f9b
+			lifeTime: 40
+			speed: 0
+			shootEffect: none
+			despawnEffect: none
+			length: 90
+			width: 10
+			hitEffect: hitLancer
+			lightColor: 626f9b
+			colors: [
+				626f9b
+				3c3c4f
 				FFFFFF
 			]
 			}

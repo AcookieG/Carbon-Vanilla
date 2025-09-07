@@ -60,9 +60,9 @@
 	"requirements": [
 		{ "item": "silicon", "amount": 70 },
 		{ "item": "titanium", "amount": 90 },
-		{ "item": "metaglass", "amount": 35 },
+		{ "item": "metaglass", "amount": 350 },
 		{ "item": "phase-decay", "amount": 30 },
-		{ "item": "lead", "amount": 60},
+		{ "item": "flex-joint", "amount": 60},
 	],
 	"category": "crafting",
 	"rotate": false

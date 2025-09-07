@@ -51,7 +51,7 @@
 	],
 	"category": "crafting",
 	"rotate": false
-	"research": "7w01",
+	"research": "kiln",
 	"idleSound": "grinding",
 	"outputLiquid": {"liquid": "oil", "amount": 0.1},
 	"outputItems": [
