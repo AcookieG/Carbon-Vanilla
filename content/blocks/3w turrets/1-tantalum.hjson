@@ -7,7 +7,7 @@
 	"squareSprite": false,
 	"health": 7100,
 	"size": 5,
-	"reload": 600,
+	"reload": 900,
 	"shake": 21,
 	"recoil": 9,
 	"range": 2800,
@@ -15,8 +15,8 @@
 	"shootSound": "largeCannon",
 	"restitution": 0.001,
 	"cooldownTime": 180,
-	"minWarmup": 0.5
-	"warmupMaintainTime": 250
+	"minWarmup": 0.6
+	"warmupMaintainTime": 180
 	"moveWhileCharging": false
 	"shootCone": 0.01,
 	"spread": 0,
@@ -31,12 +31,12 @@
 		"shotDelay": 20
 	},
 	"consumes": {
-		"power": 32
+		"power": 40
 		"coolant": {
-		"amount": 2
+		"amount": 3
 		}
 	},
-	"coolantMultiplier": 0.3
+	"coolantMultiplier": 0.2
 	"shootEffect": {
 "type": "multiEffect",
 "effects": [
@@ -375,7 +375,7 @@
 "color": "ffffff",
 "stroke": 0,
 "strokeTo": 200,
-"radiusTo": 8000,
+"radiusTo": 32000,
 "radius": 0
 "progress": "recoil"
 },
@@ -390,19 +390,6 @@
 "strokeTo": 20,
 "radiusTo": 320,
 "radius": 32
-"progress": "recoil"
-},
- {
-"type": "shapePart",
-"y": 0,
-"hollow": true,
-"circle": true,
-"layer": 110,
-"color": "ffffff",
-"stroke": 800,
-"strokeTo": 0,
-"radiusTo": 0,
-"radius": 8000
 "progress": "recoil"
 },
 
@@ -612,11 +599,11 @@
 			"pierceCap": 420
 			"drag": -0.003
 			"pierceBuilding": true
-			"buildingDamageMultiplier": 2
+			"buildingDamageMultiplier": 0.5
 			"hitAir": true
 			"drawSize": 300
-			"lightning": 10,
-			"lightningDamage": 24,
+			"lightning": 3,
+			"lightningDamage": 6,
 			"lightningCone": 360,
 			"lightningLengthRand": 4,
 			"lightningLength": 4,
@@ -626,12 +613,12 @@
 			"trailRotation": true
 			"trailInterval": 4
 			"trailChance": -1
-			"trailWidth": 3.0
+			"trailWidth": 2.0
 			"trailLength": 42
 			"frontColor": ffffff
 			"backColor": 626f9b
 			"homingPower": 0.0005
-			"homingRange": 300
+			"homingRange": 600
 			"hittable": false
 		},
 	},
