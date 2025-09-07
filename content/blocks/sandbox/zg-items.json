@@ -14,7 +14,7 @@
     ],
 	"category": "effect",
 	"rotate": false
-	"research": "9w01",
+	"research": "sand",
 	"idleSound": "none",
 	"outputItems": [
 		{ "item": "sadn", "amount": 60 },

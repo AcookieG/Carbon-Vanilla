@@ -11,6 +11,6 @@
 	"explosiveness": 0.0,
 	"temperature": 0.2,
 	"flammability": 0.0,
-	"research": "s",
+	"research": "slag",
 	"gas": false,
 }

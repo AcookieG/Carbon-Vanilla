@@ -1,6 +1,6 @@
 {
 	"name": "Combustion Blower",
-	"description": "Uses freshly-mined Canolla and presses it into Metarkle Ingots.",
+	"description": "Uses freshly-pressed Pyratite and presses it into Metarkle Ingots.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 275,
@@ -60,14 +60,14 @@
 		]
 		"items": {
 			"items": [
-				{"item": "canolla", "amount": 4}
+				{"item": "pyratite", "amount": 4}
 			]
 		},
 	},
 	"requirements": [
 		{ "item": "circuit", "amount": 40 },
 		{ "item": "flex-joint", "amount": 70 },
-		{ "item": "graph", "amount": 80 },
+		{ "item": "graphite", "amount": 80 },
 		{ "item": "dense", "amount": 40 },
 	],
 	"outputItems": [

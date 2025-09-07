@@ -1,6 +1,6 @@
 {
 	"name": "Filter",
-	"description": "Filters through Scrap and Water.",
+	"description": "Filters through Sand and Water.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 110,
@@ -20,7 +20,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "wtr",
+				"drawLiquid": "water",
 				"padding": 2
 			},
 			{
@@ -39,23 +39,23 @@
 		"power": 0.8,
 		"items": {
 			"items": [
-				{"item": "scrp", "amount": 2}
+				{"item": "sand", "amount": 2}
 			]
 		},
-    "liquid":  {"liquid": "wtr", "amount": 0.2},
+    "liquid":  {"liquid": "water", "amount": 0.2},
 	},
 	"requirements": [
-		{ "item": "sili", "amount": 30 },
-		{ "item": "slate", "amount": 40 },
-		{ "item": "sadn", "amount": 80 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "lead", "amount": 40 },
+		{ "item": "copper", "amount": 80 },
 	],
 	"category": "crafting",
 	"rotate": false
 	"research": "7w01",
 	"idleSound": "grinding",
-	"outputLiquid": {"liquid": "i", "amount": 0.1},
+	"outputLiquid": {"liquid": "oil", "amount": 0.1},
 	"outputItems": [
-		{ "item": "sadn", "amount": 1 },
+		{ "item": "copper", "amount": 1 },
 		{ "item": "iron", "amount": 2 },
 	],
 	"craftTime": 30,

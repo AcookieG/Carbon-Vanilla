@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "s",
+				"drawLiquid": "slag",
 				"padding": 4,
 			},
 			{"type": "DrawSoftParticles","y":-8,"x":-8,},
@@ -55,15 +55,15 @@
 	},
 	"requirements": [
 		{ "item": "circuit", "amount": 200 },
-		{ "item": "metarkle", "amount": 80 },
-		{ "item": "coppa", "amount": 260 },
+		{ "item": "pyratite", "amount": 80 },
+		{ "item": "copper", "amount": 260 },
 		{ "item": "dense", "amount": 160 },
 		{ "item": "flex-joint", "amount": 160 },
 	],
 	"category": "crafting",
-	"research": "7w05",
+	"research": "sadn",
 	"idleSound": "flux",
-	"outputLiquid": {"liquid": "s", "amount": 1},
+	"outputLiquid": {"liquid": "slag", "amount": 1},
 	"craftTime": 10,
 	"squareSprite": false,
 	"conductivePower": true

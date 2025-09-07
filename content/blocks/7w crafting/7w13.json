@@ -65,14 +65,14 @@
 		]
 	"items": {
 			"items": [
-	{ "item": "slate", "amount": 2},
+	{ "item": "lead", "amount": 5},
 			]
 		},
 	},
 	"requirements": [
 		{ "item": "flex-joint", "amount": 120 },
 		{ "item": "dense", "amount": 100 },
-		{ "item": "metarkle", "amount": 180 },
+		{ "item": "pyratite", "amount": 180 },
 		{ "item": "circuit", "amount": 80 },
 	],
 	"category": "crafting",
@@ -80,7 +80,7 @@ research: 7w15
 	"outputItem":{ "item": "shell", "amount": 1 },
 	"idleSound": "techloop",
 	"outputLiquid": {"liquid": "metal", "amount": 0.1},
-	"craftTime": 40,
+	"craftTime": 15,
 	"squareSprite": false,
 	"conductivePower": true
 	liquidOutputDirections: [4,]

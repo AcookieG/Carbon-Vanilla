@@ -1,7 +1,7 @@
 {
 	"type": "ForceProjector",
 	"name": "Dense Strongwall",
-	"description": "A shielded wall to protect your mainland.",
+	"description": "A cheaper shielded wall to protect your mainland.",
 	"size": 2,
 	"hasLiquids": false,
 	"health": 420,
@@ -12,8 +12,8 @@
 	"requirements": [
 		{"item": "circuit", "amount": 12},
 		{"item": "dense", "amount": 24},
-		{"item": "graph", "amount": 24},
+		{"item": "graphite", "amount": 24},
 	],
-	"research": "9w06"
+	"research": "dcay-wall"
 	"category": "defense",
 }

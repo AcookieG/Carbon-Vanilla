@@ -45,7 +45,7 @@
 	],
 	"category": "crafting",
 	"rotate": false
-	"research": "7w01",
+	"research": "sadn",
 	"idleSound": "electricHum",
 	"outputItem": {
 		"item": "carbon-fiber",

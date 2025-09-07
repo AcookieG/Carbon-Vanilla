@@ -52,7 +52,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "wtr",
+				"drawLiquid": "water",
 				"padding": 3,
 			},
 			{
@@ -67,19 +67,19 @@
 	"consumes": {
 		"power": 3,
     "liquids":  [
-		{"liquid": "wtr", "amount": 1},
+		{"liquid": "water", "amount": 1},
 		]
 		"items": {
 			"items": [
-				{"item": "coppa", "amount": 20}
-				{"item": "sili", "amount": 80}
+				{"item": "copper", "amount": 20}
+				{"item": "silicon", "amount": 80}
 			]
 		},
 	},
 	"requirements": [
-		{ "item": "sili", "amount": 90 },
-		{ "item": "coppa", "amount": 80 },
-		{ "item": "graph", "amount": 110 },
+		{ "item": "silicon", "amount": 90 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "graphite", "amount": 110 },
 		{ "item": "flex-joint", "amount": 60 },
 	],
 	"outputItems": [

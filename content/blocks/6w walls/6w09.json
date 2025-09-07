@@ -47,5 +47,5 @@ pierceCap:4,
 	],
 	"buildCostMultiplier": 2.0,
 	"category": "defense",
-	"research": "6w08"
+	"research": "dcay-wall"
 }
