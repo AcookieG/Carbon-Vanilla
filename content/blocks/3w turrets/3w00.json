@@ -11,11 +11,11 @@
 	"glowColor": c9a5c8,
 	"hasBoost": false
 	"requirements": [
-		{"item": "scrp", "amount": 20},
-		{"item": "graph", "amount": 20},
+		{"item": "copper", "amount": 20},
+		{"item": "graphite", "amount": 20},
 	],
 	"category": "turret",
-	"research": "9w01"
+	"research": "duo"
 	"conductivePower": true
 	"fogRadius": 16,
 }

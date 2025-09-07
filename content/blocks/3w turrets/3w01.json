@@ -3,7 +3,7 @@
 	"description": '''
 	Fires three bullets in quick succession. Highly versatile depending on the ammo.
 	''',
-	"details": "The first turret implanted in the planet. Evolved from the same thinking as Duo. 160dps."
+	"details": "The first turret implanted in the planet. Evolved from the same thinking as Duo."
 	"type": "ItemTurret",
 	"health": 610,
 	"size": 1,
@@ -45,7 +45,7 @@
 		]
 	},
 	"ammoTypes": {
-		"scrp": {
+		"scrap": {
 "type": "ArtilleryBulletType",
 lifetime:30,
 speed:5.0,
@@ -78,7 +78,7 @@ despawnShake:0.0
 scaleLife:true,
 collidesAir:true,
 		},
-		"slate": {
+		"lead": {
 "type": "BasicBulletType",
 lifetime:22,
 speed:7.0,
@@ -107,7 +107,7 @@ trailEffect:none,
 trailLength:5.0,
 trailWidth:1.7
 		}
-		"graph": {
+		"graphite": {
 "type": "BasicBulletType",
 lifetime:39,
 speed:6.0,
@@ -128,7 +128,7 @@ trailChance:0.3,
 trailParam:2.0,
 trailLength:0.0,
 		}
-		"sili": {
+		"silicon": {
 "type": "BasicBulletType",
 lifetime:25,
 speed:6.0,
@@ -268,8 +268,8 @@ trailLength:8.0,
 	},
 	"coolantMultiplier": 10
 	"requirements": [
-		{ "item": "sadn", "amount": 60 },
-		{ "item": "scrp", "amount": 80 },
+		{ "item": "copper", "amount": 60 },
+		{ "item": "lead", "amount": 80 },
 	],
 	"buildCostMultiplier": 2.0,
 	"category": "turret",

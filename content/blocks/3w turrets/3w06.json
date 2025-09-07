@@ -3,7 +3,7 @@
 	"description": '''
 	Rains heavy fire against the enemy.
 	''',
-	"details": "A mass-firing area denial turret. Rendered walls basically useless, the first trigger to the arms race. 530dps."
+	"details": "A mass-firing area denial turret. Rendered walls basically useless, the first trigger to the arms race."
 	"type": "ItemTurret",
 	"health": 1130,
 	"size": 2,
@@ -51,7 +51,7 @@
 		]
 	},
 	"ammoTypes": {
-		"scrp": {
+		"scrap": {
 "type": "ArtilleryBulletType",
 lifetime:75,
 speed:4.0,
@@ -82,7 +82,7 @@ lifeScaleRandMax:1.2,
 splashDamage:48,
 splashDamageRadius:28.0,
 		}
-		"coppa": {
+		"copper": {
 "type": "ArtilleryBulletType",
 lifetime:60,
 speed:5.0,
@@ -108,10 +108,10 @@ velocityScaleRandMax:1.1,
 lifeScaleRandMin:0.9,
 lifeScaleRandMax:1.1,
 
-splashDamage:159,
+splashDamage:120,
 splashDamageRadius:22.0,
 		}
-		"canolla": {
+		"pyratite": {
 "type": "ArtilleryBulletType",
 lifetime:60,
 speed:5.0,
@@ -230,9 +230,6 @@ trailWidth:4.0,
 splashDamage:636,
 splashDamageRadius:36.0,
 		}
-		"metarkle": {
-"type": "BasicBulletType",
-		}
 	},
 	"consumes": {
 		"coolant": {
@@ -241,8 +238,8 @@ splashDamageRadius:36.0,
 	},
 	"coolantMultiplier": 5
 	"requirements": [
-		{ "item": "sadn", "amount": 240 },
-		{ "item": "scrp", "amount": 190 },
+		{ "item": "copper", "amount": 240 },
+		{ "item": "titanium", "amount": 190 },
 		{ "item": "dense", "amount": 70 },
 	],
 	"buildCostMultiplier": 1.5,

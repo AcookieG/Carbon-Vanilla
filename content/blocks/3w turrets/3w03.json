@@ -3,7 +3,7 @@
 	"description": '''
 	Sends a high-speed shell at enemies. Low turning speed.
 	''',
-	"details": "originally a railgun test turret. Massively exploited at #5688's last stand, before it fell. 45dps."
+	"details": "originally a railgun test turret. Massively exploited at #5688's last stand, before it fell."
 	"type": "ItemTurret",
 	"health": 840,
 	"size": 1,
@@ -52,7 +52,7 @@
 		]
 	},
 	"ammoTypes": {
-		"scrp": {
+		"scrap": {
 "type": "BasicBulletType",
 lifetime:35,
 speed:8.0,
@@ -119,12 +119,6 @@ trailWidth:2.0
 trailEffect:none,
 trailLength:12.0,
 		}
-		"slate": {
-"type": "BasicBulletType",
-		}
-		"coppa": {
-"type": "BasicBulletType",
-		}
 	},
 	"consumes": {
 		"power": 2,
@@ -134,9 +128,9 @@ trailLength:12.0,
 	},
 	"coolantMultiplier": 5,
 	"requirements": [
-		{ "item": "graph", "amount": 90 },
-		{ "item": "scrp", "amount": 130 },
-		{ "item": "sili", "amount": 210 },
+		{ "item": "graphite", "amount": 90 },
+		{ "item": "lead", "amount": 130 },
+		{ "item": "silicon", "amount": 210 },
 	],
 	"buildCostMultiplier": 1.5,
 	"category": "turret",

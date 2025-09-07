@@ -11,7 +11,7 @@
 	"hasBoost": false
 	"requirements": [
 		{"item": "dense", "amount": 20},
-		{"item": "coppa", "amount": 20},
+		{"item": "titanium", "amount": 20},
 	],
 	"category": "turret",
 	"research": "3w04"

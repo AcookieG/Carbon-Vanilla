@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"description": "Eye candy :3",
+	"name": "Estrogen",
+	"cost": 0.7,
+	"flammability": 0.0,
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"charge": 0.0,
+	"color": "94d9cb"
+	research: lead
+}

@@ -92,10 +92,7 @@ weapons: [
 			waveRad: 600
 			waveLife: 300
 			waveStroke: 3
-			smokeColor: ffffff88
-			smokeSize: 100
-			smokes: 80
-			smokeRad: 220
+			smokes: 0
 			sparks: 50
 			sparkRad: 500
 			sparkStroke: 10
@@ -140,7 +137,7 @@ weapons: [
 			colorTo: 00000010
 			damage: 22000
 			instantDisapear: false
-			velMin: 90
+			velMin: 120
 			velMax: 220
 			lifetime: 10000
 			despawnEffect: scatheExplosion

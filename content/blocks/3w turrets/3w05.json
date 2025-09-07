@@ -3,7 +3,7 @@
 	"description": '''
 	Fires walls of bullets at short ranges as deterrent.
 	''',
-	"details": "These mighty turrets would dominate the battlefield, until ranged artillery made everything obselete. 800dps."
+	"details": "These mighty turrets would dominate the battlefield, until ranged artillery made everything obselete."
 	"type": "ItemTurret",
 	"health": 1250,
 	"size": 3,
@@ -43,7 +43,7 @@
 		]
 	},
 	"ammoTypes": {
-		"scrp": {
+		"scrap": {
 "type": "BasicBulletType",
 damage:0.0,
 lifetime:1,
@@ -102,7 +102,7 @@ fragBullet:{
 	trailLength:0.0,
 			},
 		},
-		"slate": {
+		"lead": {
 "type": "BasicBulletType",
 damage:0.0,
 lifetime:1,
@@ -164,7 +164,7 @@ fragBullet:{
 	despawnEffect:hitSquaresColor,
 			},
 		},
-		"coppa": {
+		"copper": {
 "type": "BasicBulletType",
 damage:0.0,
 lifetime:1,
@@ -206,7 +206,7 @@ fragBullet:{
 	height:12.0,
 	shrinkX:0.0,
 	ShrinkY:0.5,
-	damage:27,
+	damage:18,
 	hitSize:4,
 	drawSize:120,
 
@@ -285,7 +285,7 @@ despawnEffect:hitSquaresColor
 	statusDuration:120,
 			},
 		},
-	"graph": {
+	"graphite": {
 "type": "BasicBulletType",
 damage:0.0,
 lifetime:1,
@@ -410,9 +410,9 @@ hitColor:626f9b,
 	},
 	"coolantMultiplier": 10
 	"requirements": [
-		{ "item": "graph", "amount": 130 },
+		{ "item": "graphite", "amount": 130 },
 		{ "item": "dense", "amount": 60 },
-		{ "item": "sili", "amount": 130 },
+		{ "item": "silicon", "amount": 130 },
 	],
 	"buildCostMultiplier": 1.25,
 	"category": "turret",

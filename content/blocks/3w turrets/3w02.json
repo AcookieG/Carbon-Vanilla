@@ -3,7 +3,7 @@
 	"description": '''
 	Fires spreading shells at far away enemies.
 	''',
-	"details": "An upgraded Boost, designed to to rain multiple shells upon enemy land. The release mechanism malfunctions, giving birth to the airborne shell design, but heavily limited to its narrow firing zone. 190dps."
+	"details": "An upgraded Boost, designed to to rain multiple shells upon enemy land. The release mechanism malfunctions, giving birth to the airborne shell design, but heavily limited to its narrow firing zone."
 	"type": "ItemTurret",
 	"health": 580,
 	"size": 1,
@@ -41,7 +41,7 @@
 		]
 	},
 	"ammoTypes": {
-		"scrp": {
+		"scrap": {
 "type": "BasicBulletType",
 lifetime:16,
 speed:5.0,
@@ -115,7 +115,7 @@ height:12.0,
 	trailLength:0.0,
 			},
 		},
-		"slate": {
+		"lead": {
 "type": "BasicBulletType",
 lifetime:12,
 speed:7.0,
@@ -198,10 +198,7 @@ trailLength:5.0,
 trailWidth:1.7
 			},
 		}
-		"graph": {
-"type": "BasicBulletType",
-		}
-		"sili": {
+		"silicon": {
 "type": "BasicBulletType",
 lifetime:14,
 speed:6.0,
@@ -280,9 +277,6 @@ trailEffect:none,
 trailLength:5.0,
 			},
 		}
-		"canolla": {
-"type": "BasicBulletType",
-		}
 	},
 	"consumes": {
 		"coolant": {
@@ -291,8 +285,8 @@ trailLength:5.0,
 	},
 	"coolantMultiplier": 10
 	"requirements": [
-		{ "item": "sadn", "amount": 110 },
-		{ "item": "scrp", "amount": 70 },
+		{ "item": "copper", "amount": 110 },
+		{ "item": "lead", "amount": 70 },
 		{ "item": "iron", "amount": 90 },
 	],
 	"buildCostMultiplier": 1.75,

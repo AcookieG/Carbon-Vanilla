@@ -3,7 +3,7 @@
 	"description": '''
 	Sends a shell at very high speeds towards the enemy. Low turning speed.
 	''',
-	"details": "The supposed solution to end all sieges, capable of destruction deep within enemy walls. But artillery... Oh sweet, sweet, artillery... 290dps."
+	"details": "The supposed solution to end all sieges, capable of destruction deep within enemy walls."
 	"type": "ItemTurret",
 	"health": 1670,
 	"size": 2,
@@ -80,7 +80,7 @@
 		]
 	},
 	"ammoTypes": {
-		"scrp": {
+		"scrap": {
 "type": "BasicBulletType",
 lifetime:35,
 speed:10.0,
@@ -119,7 +119,7 @@ trailParam:2.0,
 trailLength:8.0,
 trailWidth:2.0,
 		}
-		"slate": {
+		"lead": {
 "type": "BasicBulletType",
 lifetime:25,
 speed:12.0,
@@ -276,9 +276,9 @@ trailLength:12.0,
 	},
 	"coolantMultiplier": 5,
 	"requirements": [
-		{ "item": "sadn", "amount": 210 },
+		{ "item": "copper", "amount": 210 },
 		{ "item": "flex-joint", "amount": 70 },
-		{ "item": "scrp", "amount": 190 },
+		{ "item": "titanium", "amount": 190 },
 		{ "item": "circuit", "amount": 160 },
 	],
 	"buildCostMultiplier": 1.3,
