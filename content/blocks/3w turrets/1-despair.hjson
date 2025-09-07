@@ -397,7 +397,7 @@
 			damage: 0
 			ammoMultiplier: 1
 			drawsize: 250
-            drag: -0.1
+            drag: -0.005
 			width: 7
 			height: 15
 			shootEffect: shootSmokeSquareBig
@@ -414,7 +414,7 @@
                 colorTo: ffffff00
             }
 			lifetime: 60
-			speed: 8
+			speed: 6
 			collidesAir: true
 			collidesGround: true
 			collidesTiles: true
