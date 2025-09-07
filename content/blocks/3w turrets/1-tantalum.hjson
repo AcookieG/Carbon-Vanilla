@@ -150,8 +150,78 @@
 				},
 			]
 		},
-{
+
+ {
 "type": "HaloPart",
+"y": 0,
+"radius": 4,
+"tri": true,
+"layer": 110,
+"color": "626f9b",
+"haloRotateSpeed": 0,
+"shapeRotation": 90,
+"haloRadius": 32,
+"haloRadiusTo": 32,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 36,
+"triLengthTo": 4,
+"triLength": 0
+ }
+ {
+"type": "HaloPart",
+"y": 0,
+"radius": 4,
+"tri": true,
+"layer": 110,
+"color": "626f9b",
+"haloRotateSpeed": 0,
+"shapeRotation": 270,
+"haloRadius": 32,
+"haloRadiusTo": 32,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 18,
+"triLengthTo": 3,
+"triLength": 0
+ }
+  {
+"type": "HaloPart",
+"y": 0,
+"radius": 2.5,
+"tri": true,
+"layer": 110,
+"color": "ffffff",
+"haloRotateSpeed": 0,
+"shapeRotation": 90,
+"haloRadius": 32,
+"haloRadiusTo": 32,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 36,
+"triLengthTo": 2.5,
+"triLength": 0
+ }
+ {
+"type": "HaloPart",
+"y": 0,
+"radius": 2.5,
+"tri": true,
+"layer": 110,
+"color": "ffffff",
+"haloRotateSpeed": 0,
+"shapeRotation": 270,
+"haloRadius": 32,
+"haloRadiusTo": 32,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 18,
+"triLengthTo": 2.7,
+"triLength": 0
+ }
+
+ 
+ {"type": "HaloPart",
 "y": 8,
 "radius": 4,
 "tri": true,
@@ -270,75 +340,6 @@
  }
  
  {
-"type": "HaloPart",
-"y": 0,
-"radius": 4,
-"tri": true,
-"layer": 110,
-"color": "626f9b",
-"haloRotateSpeed": 0,
-"shapeRotation": 90,
-"haloRadius": 32,
-"haloRadiusTo": 32,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 36,
-"triLengthTo": 4,
-"triLength": 0
- }
- {
-"type": "HaloPart",
-"y": 0,
-"radius": 4,
-"tri": true,
-"layer": 110,
-"color": "626f9b",
-"haloRotateSpeed": 0,
-"shapeRotation": 270,
-"haloRadius": 32,
-"haloRadiusTo": 32,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 18,
-"triLengthTo": 3,
-"triLength": 0
- }
-  {
-"type": "HaloPart",
-"y": 0,
-"radius": 3,
-"tri": true,
-"layer": 110,
-"color": "ffffff",
-"haloRotateSpeed": 0,
-"shapeRotation": 90,
-"haloRadius": 32,
-"haloRadiusTo": 32,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 36,
-"triLengthTo": 3,
-"triLength": 0
- }
- {
-"type": "HaloPart",
-"y": 0,
-"radius": 3,
-"tri": true,
-"layer": 110,
-"color": "ffffff",
-"haloRotateSpeed": 0,
-"shapeRotation": 270,
-"haloRadius": 32,
-"haloRadiusTo": 32,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 18,
-"triLengthTo": 3,
-"triLength": 0
- }
- 
- {
 "type": "shapePart",
 "y": 0,
 "hollow": true,
@@ -373,8 +374,8 @@
 "layer": 110,
 "color": "ffffff",
 "stroke": 0,
-"strokeTo": 80,
-"radiusTo": 16000,
+"strokeTo": 200,
+"radiusTo": 8000,
 "radius": 0
 "progress": "recoil"
 },
@@ -389,6 +390,19 @@
 "strokeTo": 20,
 "radiusTo": 320,
 "radius": 32
+"progress": "recoil"
+},
+ {
+"type": "shapePart",
+"y": 0,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffffff",
+"stroke": 800,
+"strokeTo": 0,
+"radiusTo": 0,
+"radius": 8000
 "progress": "recoil"
 },
 
@@ -440,7 +454,7 @@
 "layer": 110,
 "color": "626f9b",
 "stroke": 0,
-"strokeTo": 4,
+"strokeTo": 6.5,
 "radiusTo": 0,
 "radius": 0
 "progress": "recoil"
@@ -453,45 +467,14 @@
 "layer": 110,
 "color": "ffffff",
 "stroke": 0,
-"strokeTo": 2.5,
+"strokeTo": 4,
 "radiusTo": 0,
 "radius": 0
 "progress": "recoil"
 },
 
+
 {
-"type": "HaloPart",
-"y": 100,
-"radius": 4,
-"tri": true,
-"layer": 110,
-"color": "626f9b",
-"haloRotateSpeed": 0,
-"shapeRotation": 180,
-"haloRadius": 0,
-"haloRadiusTo": 0,
-"stroke": 0,
-"strokeTo": 4,
-"shapes": 1,
-"triLengthTo": 4,
-"triLength": 0
- }  {
-"type": "HaloPart",
-"y": 120,
-"radius": 4,
-"tri": true,
-"layer": 110,
-"color": "626f9b",
-"haloRotateSpeed": 0,
-"shapeRotation": 180,
-"haloRadius": 0,
-"haloRadiusTo": 0,
-"stroke": 0,
-"strokeTo": 4,
-"shapes": 1,
-"triLengthTo": 4,
-"triLength": 0
- }  {
 "type": "HaloPart",
 "y": 200,
 "radius": 4,
@@ -509,8 +492,8 @@
 "triLength": 0
  }  {
 "type": "HaloPart",
-"y": 220,
-"radius": 4,
+"y": 240,
+"radius": 6,
 "tri": true,
 "layer": 110,
 "color": "626f9b",
@@ -519,14 +502,46 @@
 "haloRadius": 0,
 "haloRadiusTo": 0,
 "stroke": 0,
-"strokeTo": 4,
+"strokeTo": 6,
 "shapes": 1,
-"triLengthTo": 4,
+"triLengthTo": 6,
+"triLength": 0
+ }  {
+"type": "HaloPart",
+"y": 400,
+"radius": 6,
+"tri": true,
+"layer": 110,
+"color": "626f9b",
+"haloRotateSpeed": 0,
+"shapeRotation": 180,
+"haloRadius": 0,
+"haloRadiusTo": 0,
+"stroke": 0,
+"strokeTo": 6,
+"shapes": 1,
+"triLengthTo": 6,
+"triLength": 0
+ }  {
+"type": "HaloPart",
+"y": 440,
+"radius": 6,
+"tri": true,
+"layer": 110,
+"color": "626f9b",
+"haloRotateSpeed": 0,
+"shapeRotation": 180,
+"haloRadius": 0,
+"haloRadiusTo": 0,
+"stroke": 0,
+"strokeTo": 6,
+"shapes": 1,
+"triLengthTo": 6,
 "triLength": 0
  }{
 "type": "HaloPart",
-"y": 300,
-"radius": 4,
+"y": 600,
+"radius": 6,
 "tri": true,
 "layer": 110,
 "color": "626f9b",
@@ -535,14 +550,14 @@
 "haloRadius": 0,
 "haloRadiusTo": 0,
 "stroke": 0,
-"strokeTo": 4,
+"strokeTo": 6,
 "shapes": 1,
-"triLengthTo": 4,
+"triLengthTo": 6,
 "triLength": 0
  }{
 "type": "HaloPart",
-"y": 320,
-"radius": 4,
+"y": 640,
+"radius": 6,
 "tri": true,
 "layer": 110,
 "color": "626f9b",
@@ -551,9 +566,9 @@
 "haloRadius": 0,
 "haloRadiusTo": 0,
 "stroke": 0,
-"strokeTo": 4,
+"strokeTo": 6,
 "shapes": 1,
-"triLengthTo": 4,
+"triLengthTo": 6,
 "triLength": 0
  }
 
@@ -564,7 +579,7 @@
 		"shell": {
 			"type": "BasicBulletType",
 			"damage": 3800,
-			"shrinkY": -0.9
+			"shrinkY": -1.8
 			"ammoMultiplier": 1,
 			"drawsize": 380
 			"width": 7,
@@ -595,7 +610,7 @@
 			"speed": 30,
 			"pierce": true,
 			"pierceCap": 420
-			"drag": -0.002
+			"drag": -0.003
 			"pierceBuilding": true
 			"buildingDamageMultiplier": 2
 			"hitAir": true
