@@ -46,7 +46,7 @@
 "length": 70,
 "lifetime": 55,
 "line": true,
-"cone": ,
+"cone": 7,
 "sizeFrom": 10,
 "sizeTo": 2,
 "colorFrom": "626f9b",
