@@ -13,10 +13,10 @@
 	"range": 2800,
 	"ammoUseEffect": "casing4",
 	"shootSound": "largeCannon",
-	"restitution": 0.0001,
+	"restitution": 0.001,
 	"cooldownTime": 180,
-	"minWarmup": 0.3
-	"warmupMaintainTime": 900
+	"minWarmup": 0.5
+	"warmupMaintainTime": 250
 	"moveWhileCharging": false
 	"shootCone": 0.01,
 	"spread": 0,
@@ -26,9 +26,9 @@
 	"maxHeatEfficiency": 4
 	"shoot": {
 		"type": "ShootPattern",
-		"shots": 8
+		"shots": 6
 		"spread": 0.5
-		"shotDelay": 8
+		"shotDelay": 20
 	},
 	"consumes": {
 		"power": 32
@@ -80,15 +80,10 @@
 				{
 				"type": "RegionPart",
 				"colorTo": "626f9b",
-				"color": "626f9b",
+				"color": "626f9b00",
 				"blending": "additive",
 				"layerOffset": 0.003,
-				"progress": {
-					"type": "warmup",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-				},
+				"progress": "recoil"
 				"outline": false,
 				"suffix": "-glow"
 				"mirror": false
@@ -123,12 +118,7 @@
 				"color": "626f9b00",
 				"blending": "additive",
 				"layerOffset": 0.001,
-				"progress": {
-					"type": "warmup",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-				},
+				"progress": "recoil"
 				"outline": false,
 				"suffix": "-glow"
 				"mirror": true
@@ -153,14 +143,9 @@
 				"color": "626f9b00",
 				"blending": "additive",
 				"layerOffset": 0.002,
-				"progress": {
-					"type": "warmup",
-					"op": "blend",
-					"other": "heat",
-					"amount": 0.25
-				},
+				"progress": "recoil"
 				"outline": false,
-				"suffix": "-glow"
+				"suffix": "top2-glow"
 				"mirror": true
 				},
 			]
@@ -286,35 +271,35 @@
  {
 "type": "HaloPart",
 "y": 0,
-"radius": 32,
+"radius": 4,
 "tri": true,
 "layer": 110,
 "color": "626f9b",
 "haloRotateSpeed": 0,
-"shapeRotation": 0,
-"haloRadius": 10,
-"haloRadiusTo": 10,
+"shapeRotation": 90,
+"haloRadius": 32,
+"haloRadiusTo": 32,
 "stroke": 0,
 "strokeTo": 2,
-"shapes": 18,
-"triLengthTo": 6,
+"shapes": 36,
+"triLengthTo": 4,
 "triLength": 0
  }
  {
 "type": "HaloPart",
 "y": 0,
-"radius": 40,
+"radius": 4,
 "tri": true,
 "layer": 110,
 "color": "626f9b",
 "haloRotateSpeed": 0,
-"shapeRotation": 180,
-"haloRadius": 10,
-"haloRadiusTo": 10,
+"shapeRotation": 270,
+"haloRadius": 32,
+"haloRadiusTo": 32,
 "stroke": 0,
 "strokeTo": 2,
-"shapes": 36,
-"triLengthTo": 6,
+"shapes": 18,
+"triLengthTo": 3,
 "triLength": 0
  }
  {
@@ -324,9 +309,35 @@
 "circle": true,
 "layer": 110,
 "color": "ffffff",
+"stroke": 8,
+"strokeTo": 0,
+"radiusTo": 32,
+"radius": 0
+"progress": "recoil"
+},
+ {
+"type": "shapePart",
+"y": 0,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffffff",
 "stroke": 0,
 "strokeTo": 3,
-"radiusTo": 37,
+"radiusTo": 32,
+"radius": 24
+"progress": "recoil"
+},
+ {
+"type": "shapePart",
+"y": 0,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffffff",
+"stroke": 1,
+"strokeTo": 20,
+"radiusTo": 320,
 "radius": 32
 "progress": "recoil"
 },
@@ -334,7 +345,7 @@
 	},
 	"ammoPerShot": 20,
 	"ammoTypes": {
-		"phase-decay": {
+		"shell": {
 			"type": "BasicBulletType",
 			"damage": 3800,
 			"shrinkY": -0.9
@@ -368,7 +379,7 @@
 			"speed": 30,
 			"pierce": true,
 			"pierceCap": 420
-			"drag": -0.001
+			"drag": -0.002
 			"pierceBuilding": true
 			"buildingDamageMultiplier": 2
 			"hitAir": true
