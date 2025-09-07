@@ -22,12 +22,12 @@
 	"spread": 0,
 	"rotateSpeed": 0.3,
 	"hasPower": true
-	"heatRequirement": 2000
+	"heatRequirement": 1200
 	"maxHeatEfficiency": 4
 	"shoot": {
 		"type": "ShootPattern",
 		"shots": 6
-		"spread": 0.5
+		"spread": 0.75
 		"shotDelay": 20
 	},
 	"consumes": {
@@ -594,10 +594,10 @@
 "colorTo": "3c3c4f"
 }
 			"lifetime": 80,
-			"speed": 30,
+			"speed": 10,
 			"pierce": true,
-			"pierceCap": 420
-			"drag": -0.003
+			"pierceCap": 120
+			"drag": -0.05
 			"pierceBuilding": true
 			"buildingDamageMultiplier": 0.5
 			"hitAir": true
@@ -617,7 +617,7 @@
 			"trailLength": 42
 			"frontColor": ffffff
 			"backColor": 626f9b
-			"homingPower": 0.0005
+			"homingPower": 0.001
 			"homingRange": 600
 			"hittable": false
 		},
