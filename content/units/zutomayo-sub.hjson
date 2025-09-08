@@ -41,21 +41,21 @@ range: 100
 			collidesTiles: false
 			hittable: false
 			reflectable: false
-		"lifeTime": 300
+		"lifeTime": 40
 		"speed": 0
 		"width": 1,
 		"height": 1,
 		"shootEffect": "none",
-				intervalBullets: 30
+				intervalBullets: 400
 		intervalRandomSpread: 360
 		bulletInterval: 30
 		intervalBullet: {
       			type: FireBulletType
-			damage: 2
+			damage: 10
 			instantDisapear: false
 			velMin: -1
-			velMax: 22
-			lifetime: 100
+			velMax: 18
+			lifetime: 300
 			despawnEffect: none
 			hittable: false
 			reflectable: false
