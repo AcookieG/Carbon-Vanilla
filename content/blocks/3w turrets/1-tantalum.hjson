@@ -9,17 +9,17 @@
 	"maxAmmo": 72
 	"health": 7100,
 	"size": 5,
-	"reload": 900,
+	"reload": 1200,
 	"shake": 11,
 	"recoil": 9,
 	"range": 2000,
 	"ammoUseEffect": "casing4",
 	"shootSound": "largeCannon",
-	"restitution": 0.001,
+	"restitution": 0.0005,
 	"cooldownTime": 300,
 	"minWarmup": 0.9
 	"warmupMaintainTime": 180
-	"moveWhileCharging": true
+	"moveWhileCharging": false
 	"shootCone": 0.005,
 	"rotateSpeed": 0.3,
 	"hasPower": true
@@ -34,10 +34,10 @@
 	"consumes": {
 		"power": 40
 		"coolant": {
-		"amount": 3
+		"amount": 4
 		}
 	},
-	"coolantMultiplier": 0.15
+	"coolantMultiplier": 0.1
 	"shootEffect": {
 "type": "multiEffect",
 "effects": [
@@ -50,8 +50,8 @@
 "cone": 7,
 "sizeFrom": 10,
 "sizeTo": 2,
-"colorFrom": "626f9b",
-"colorTo": "3c3c4f"
+"colorFrom": "6e7080",
+"colorTo": "ffcd66"
 },
 {
 "type": "ParticleEffect",
@@ -62,8 +62,8 @@
 "cone": 1,
 "sizeFrom": 8,
 "sizeTo": 2,
-"colorFrom": "626f9b",
-"colorTo": "3c3c4f"
+"colorFrom": "4a4b53",
+"colorTo": "ffcd66"
 },
 ]
 }
@@ -521,8 +521,8 @@
 		"shell": {
 			"type": "BasicBulletType",
 			"damage": 3800,
-			"shrinkX": 0.5
-			"shrinkY": -2
+			"shrinkX": 0.7
+			"shrinkY": -3
 			"ammoMultiplier": 1,
 			"drawsize": 380
 			"width": 15,
@@ -552,17 +552,17 @@
 			"lifetime": 80,
 			"speed": 6,
 			"pierce": true,
-			"pierceCap": 120
+			"pierceCap": 100
 			"drag": -0.035
 			"pierceBuilding": true
-			"buildingDamageMultiplier": 0.01
+			"buildingDamageMultiplier": 0.005
 			"hitAir": true
 			"drawSize": 300
 			"lightning": 3,
-			"lightningDamage": 12,
-			"lightningCone": 30,
-			"lightningLengthRand": 4,
-			"lightningLength": 4,
+			"lightningDamage": 3,
+			"lightningCone": 360,
+			"lightningLengthRand": 5,
+			"lightningLength": 5,
 			"hitShake": 3
 			"trailColor": 626f9b
 			"trailEffect": colorSpark

@@ -281,7 +281,7 @@
 			"lifetime": 80,
 			"speed": 36,
 			"pierce": true,
-			"pierceCap": 120
+			"pierceCap": 70
 			"pierceBuilding": true
 			"buildingDamageMultiplier": 6
 			"hitAir": true
@@ -294,6 +294,11 @@
 			"lightningLength": 4,
 			"hitShake": 5,
 			"hittable": false
+				"trailColor": fb9957
+			"trailRotation": true
+			"trailChance": 0
+			"trailWidth": 2.0
+			"trailLength": 16
 		},
 	},
 	"requirements": [
