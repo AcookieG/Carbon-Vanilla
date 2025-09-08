@@ -71,11 +71,18 @@
 	"type": "drawTurret",
 	"basePrefix": "reinforced-",
 	"parts": [
+			{
+			"type": "RegionPart",
+			"suffix": "-preview",
+			"layerOffset": -0.001,
+			"outlineLayerOffset": -0.000,
+			"mirror": false
+		},
 		{
 			"type": "RegionPart",
 			"suffix": "-top3",
-			"layerOffset": 0.002,
-			"outlineLayerOffset": -0.002,
+			"layerOffset": 0.001,
+			"outlineLayerOffset": -0.000,
 			"mirror": false
 			"children": [
 				{
@@ -94,8 +101,6 @@
 		{
 			"type": "RegionPart",
 			"under": true,
-			"layerOffset": 0.002,
-			"outlineLayerOffset": -0.002,
 			"suffix": "-body",
 			"moveY": -2,
 			"moveX": -10,
@@ -314,33 +319,7 @@
 "triLengthTo": 6,
 "triLength": 0
  }
- 
- {
-"type": "shapePart",
-"y": 0,
-"hollow": true,
-"circle": true,
-"layer": 110,
-"color": "626f9b",
-"stroke": 0,
-"strokeTo": 2.2,
-"radiusTo": 31.9,
-"radius": 0
-"progress": "recoil"
-},
- {
-"type": "shapePart",
-"y": 0,
-"hollow": true,
-"circle": true,
-"layer": 110,
-"color": "ffffff",
-"stroke": 0,
-"strokeTo": 2.2,
-"radiusTo": 31.9,
-"radius": 24
-"progress": "recoil"
-},
+
 
  {
 "type": "shapePart",
@@ -417,7 +396,7 @@
 "layer": 110,
 "color": "626f9b",
 "stroke": 0,
-"strokeTo": 6.5,
+"strokeTo": 8,
 "radiusTo": 0,
 "radius": 0
 "progress": "recoil"
@@ -430,7 +409,7 @@
 "layer": 110,
 "color": "ffffff",
 "stroke": 0,
-"strokeTo": 4,
+"strokeTo": 5.5,
 "radiusTo": 0,
 "radius": 0
 "progress": "recoil"
@@ -574,7 +553,7 @@
 			"speed": 6,
 			"pierce": true,
 			"pierceCap": 120
-			"drag": -0.05
+			"drag": -0.035
 			"pierceBuilding": true
 			"buildingDamageMultiplier": 0.01
 			"hitAir": true
