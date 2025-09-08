@@ -6,22 +6,22 @@
 	"size": 2,
 	"range": 28,
 	"hasPower": true
-	"speedBoost": 8,
-    "speedBoostPhase": 8,
+	"speedBoost": 2,
+    "speedBoostPhase": 14,
     "phaseRangeBoost": 60,
     "consumes": { 
         "power": 40,
         "items": {
-			"items": [ {"item": "phase-decay", "amount": 1} ],
+			"items": [ {"item": "phase-decay", "amount": 5},{"item": "silicon", "amount": 5} ],
 			"booster": true,
 			"optional": true
         } 
     },
 	"requirements": [
-		{ "item": "phase-decay", "amount": 35 },
+		{ "item": "phase-decay", "amount": 95 },
 		{ "item": "lead", "amount": 350 },
 		{ "item": "plastanium", "amount": 190 },
-   	{ "item": "titanium", "amount": 200 }
+   	{ "item": "dense", "amount": 120 }
    	{ "item": "thorium", "amount": 280 }
 	],
 	"category": "effect",
