@@ -42,7 +42,7 @@ pierceBuilding:false,
 pierceCap:4,
 		},
 	"requirements": [
-		{ "item": "shell", "amount": 48 },
+		{ "item": "shell", "amount": 12 },
 		{ "item": "circuit", "amount": 24 },
 	],
 	"buildCostMultiplier": 2.0,
