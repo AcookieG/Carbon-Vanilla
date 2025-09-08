@@ -71,16 +71,9 @@
 	"type": "drawTurret",
 	"basePrefix": "reinforced-",
 	"parts": [
-			{
-			"type": "RegionPart",
-			"suffix": "-preview",
-			"layerOffset": -0.001,
-			"outlineLayerOffset": -0.000,
-			"mirror": false
-		},
 		{
 			"type": "RegionPart",
-			"suffix": "-top3",
+			"suffix": "-preview",
 			"layerOffset": 0.001,
 			"outlineLayerOffset": -0.000,
 			"mirror": false
