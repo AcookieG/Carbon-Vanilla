@@ -1,6 +1,6 @@
 {
 	"name": "Discharge Facility",
-	"description": "Repeatedly shoots sharp darts of Phase Decay to turn them into actual Piercing Shells. Produces Mercury as biproduct.",
+	"description": "Repeatedly shoots sharp darts of Phase Decay to turn them into actual Piercing Shells. Produces Nitrous as biproduct.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 160,
@@ -61,7 +61,7 @@
 	"consumes": {
 		"power": 3,
     "liquids":  [
-		{"liquid": "N", "amount": 0.2},
+		{"liquid": "metal", "amount": 0.2},
 		]
 	"items": {
 			"items": [
@@ -79,7 +79,7 @@
 research: 7w15
 	"outputItem":{ "item": "shell", "amount": 1 },
 	"idleSound": "techloop",
-	"outputLiquid": {"liquid": "metal", "amount": 0.1},
+	"outputLiquid": {"liquid": "N", "amount": 0.1},
 	"craftTime": 10,
 	"squareSprite": false,
 	"conductivePower": true

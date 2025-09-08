@@ -63,7 +63,7 @@ ammoMultiplier:1.0,
 reloadMultiplier:2.0,
 rangeChange:0.0,
 
-damage:16,
+damage:8,
 
 hitEffect:flakExplosion,
 despawnEffect:flakExplosion,
@@ -87,7 +87,7 @@ frontColor:708d94,
 hitColor:708d94,
 width:4.5,
 height:7.5
-damage:45,
+damage:13,
 hitSize:4,
 drawSize:120,
 
@@ -116,7 +116,7 @@ frontColor:95abd9,
 hitColor:95abd9,
 width:8.0,
 height:12.0,
-damage:53,
+damage:15,
 hitSize:4,
 drawSize:120,
 
@@ -137,7 +137,7 @@ frontColor:767a84,
 hitColor:767a84,
 width:12.0,
 height:17.0,
-damage:80,
+damage:22,
 hitSize:4,
 drawSize:120,
 spin:0.0
@@ -194,13 +194,13 @@ fragVelocityMax:0.5,
 fragBullet:{
 	"type": "BasicBulletType"
 	lifetime:10,
-	damage: 22.5
+	damage: 8
 	drawSize:1,
 	hitEffect:none,
 	despawnEffect:none,
 },
 		}
-		"copper": {
+		"coal": {
 "type": "BasicBulletType",
 lifetime:22,
 speed:6.0,
@@ -215,7 +215,7 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:missile,
-damage:133,
+damage:30,
 hitSize:4,
 drawSize:120,
 spin:0.0
@@ -227,7 +227,7 @@ reloadMultiplier:1.0,
 rangeChange:0.0,
 
 status:burning,
-statusDuration:480,
+statusDuration:60,
 
 trailColor:e58956ff,
 trailChance:0.5,
@@ -248,7 +248,7 @@ frontColor:626f9b,
 hitColor:626f9b,
 width:8.0,
 height:12.0,
-damage:187,
+damage:86,
 hitSize:4,
 drawSize:120,
 

@@ -91,7 +91,7 @@ fragBullet:{
 	spin:6.5,
 	knockback: 0.7,
 
-	damage:6,
+	damage:3,
 
 	hitEffect:flakExplosion,
 	despawnEffect:flakExplosion,
@@ -142,7 +142,7 @@ fragBullet:{
 	hitColor:708d94,
 	width:4.5,
 	height:7.5,
-	damage:15,
+	damage:8,
 	hitSize:4,
 	drawSize:120,
 
@@ -206,7 +206,7 @@ fragBullet:{
 	height:12.0,
 	shrinkX:0.0,
 	ShrinkY:0.5,
-	damage:18,
+	damage:6,
 	hitSize:4,
 	drawSize:120,
 
@@ -265,7 +265,7 @@ fragBullet:{
 	height:16.0,
 	shrinkX:0.05,
 	ShrinkY:0.4,
-	damage:142,
+	damage:36,
 	hitSize:4,
 	drawSize:320,
 
@@ -328,7 +328,7 @@ fragBullet:{
 	height:12.0,
 	shrinkX:0.0,
 	ShrinkY:0.5,
-	damage:36,
+	damage:15,
 	hitSize:4,
 	drawSize:120,
 
@@ -386,7 +386,7 @@ hitColor:626f9b,
 	height:12.0,
 	shrinkX:0.0,
 	ShrinkY:0.5,
-	damage:92,
+	damage:64,
 	hitSize:4,
 	drawSize:120,
 

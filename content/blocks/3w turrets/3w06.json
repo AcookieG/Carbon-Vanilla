@@ -79,7 +79,7 @@ velocityScaleRandMax:1.2,
 lifeScaleRandMin:0.7,
 lifeScaleRandMax:1.2,
 
-splashDamage:48,
+splashDamage:24,
 splashDamageRadius:28.0,
 		}
 		"copper": {
@@ -108,7 +108,7 @@ velocityScaleRandMax:1.1,
 lifeScaleRandMin:0.9,
 lifeScaleRandMax:1.1,
 
-splashDamage:120,
+splashDamage:43,
 splashDamageRadius:22.0,
 		}
 		"pyratite": {
@@ -148,7 +148,7 @@ incendAmount:2.0,
 incendSpread:8.0,
 incendChance:0.5,
 
-splashDamage:398,
+splashDamage:68,
 splashDamageRadius:22.0,
 		}
 		"dense": {
@@ -227,7 +227,7 @@ trailParam:3.0,
 trailLength:4.0,
 trailWidth:4.0,
 
-splashDamage:636,
+splashDamage:230,
 splashDamageRadius:36.0,
 		}
 	},

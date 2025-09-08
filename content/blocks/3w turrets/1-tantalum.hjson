@@ -348,37 +348,10 @@
 "circle": true,
 "layer": 110,
 "color": "626f9b",
-"stroke": 0,
-"strokeTo": 4,
-"radiusTo": 31,
-"radius": 0
-"progress": "recoil"
-},
- {
-"type": "shapePart",
-"y": 0,
-"hollow": true,
-"circle": true,
-"layer": 110,
-"color": "626f9b",
-"stroke": 0,
-"strokeTo": 4,
-"radiusTo": 31,
-"radius": 24
-"progress": "recoil"
-},
-
- {
-"type": "shapePart",
-"y": 0,
-"hollow": true,
-"circle": true,
-"layer": 110,
-"color": "626f9b",
 "stroke": 1,
 "strokeTo": 4,
-"radiusTo": 31,
-"radius": 24
+"radiusTo": 45,
+"radius": 26
 "progress": "recoil"
 },
  {
@@ -513,7 +486,7 @@
 	"ammoTypes": {
 		"shell": {
 			"type": "BasicBulletType",
-			"damage": 3800,
+			"damage": 4125,
 			"shrinkX": 0.7
 			"shrinkY": -3
 			"ammoMultiplier": 1,
@@ -542,11 +515,11 @@
 "colorFrom": "626f9b",
 "colorTo": "3c3c4f"
 }
-			"lifetime": 80,
-			"speed": 6,
+			"lifetime": 130,
+			"speed": 20,
 			"pierce": true,
 			"pierceCap": 100
-			"drag": -0.035
+			"drag": 0.005
 			"pierceBuilding": true
 			"buildingDamageMultiplier": 0.005
 			"hitAir": true

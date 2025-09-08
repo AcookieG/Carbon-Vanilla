@@ -39,7 +39,7 @@
 		"power": 0.8,
 		"items": {
 			"items": [
-				{"item": "sand", "amount": 2}
+				{"item": "sand", "amount": 3}
 			]
 		},
     "liquid":  {"liquid": "water", "amount": 0.2},
@@ -55,10 +55,10 @@
 	"idleSound": "grinding",
 	"outputLiquid": {"liquid": "oil", "amount": 0.1},
 	"outputItems": [
-		{ "item": "copper", "amount": 1 },
+		{ "item": "scrap", "amount": 1 },
 		{ "item": "iron", "amount": 2 },
 	],
-	"craftTime": 30,
+	"craftTime": 20,
 	"squareSprite": false,
 		"conductivePower": true
 }

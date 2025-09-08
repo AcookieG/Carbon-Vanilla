@@ -104,7 +104,7 @@ height:12.0,
 	drawSize:60,
 	spin:6.5,
 
-	damage:14,
+	damage:6,
 
 	hitEffect:flakExplosion,
 	despawnEffect:flakExplosion,
@@ -181,7 +181,7 @@ height:7.5,
 	drawSize:60,
 	spin:0,
 
-	damage:57,
+	damage:11,
 	
 	pierce:true,
 pierceBuilding:true,
@@ -264,7 +264,7 @@ height:17.0,
 	drawSize:60,
 	spin:0,
 
-	damage:71,
+	damage:22,
 	
 homingPower:0.15,
 homingRange:50.0,
