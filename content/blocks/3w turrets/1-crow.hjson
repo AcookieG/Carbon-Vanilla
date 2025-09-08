@@ -6,6 +6,7 @@
 	"health": 5300,
 	"size": 5,
 	"reload": 300,
+	"maxAmmo": 72,
 	"shake": 15,
 	"recoil": 6,
 	"range": 2800,
@@ -247,7 +248,7 @@
  }
 	]
 	},
-	"ammoPerShot": 10,
+	"ammoPerShot": 36,
 	"ammoTypes": {
 		"phase-decay": {
 			"type": "BasicBulletType",

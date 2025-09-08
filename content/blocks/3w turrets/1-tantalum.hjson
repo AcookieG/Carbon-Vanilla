@@ -1,12 +1,12 @@
 {
 	"name": "Tantal",
 	"description": '''
-	A ricochet turret. very long reload times, necessary for the loading of all 24 APFSDS rounds into the chamber. Seems pretty obvious where this gun was modified from.
+	A ricochet turret. very long reload times, necessary for the loading of all 6 APFSDS rounds into the chamber. Seems pretty obvious where this gun was modified from.
 	Shorter range than Atlas, since the rods burn up due to friction very fast.
 	''',
 	"type": "ItemTurret",
 	"squareSprite": false,
-	"maxAmmo": 72
+	"maxAmmo": 150
 	"health": 7100,
 	"size": 5,
 	"reload": 1200,
@@ -516,7 +516,7 @@
 
 	]
 	},
-	"ammoPerShot": 24,
+	"ammoPerShot": 90,
 	"ammoTypes": {
 		"shell": {
 			"type": "BasicBulletType",
