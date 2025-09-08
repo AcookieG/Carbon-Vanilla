@@ -106,10 +106,7 @@ weapons: [
 			waveRad: 600
 			waveLife: 300
 			waveStroke: 200
-			smokeSize: 80
-			smokeColor: 111111ee
-			smokes: 20
-			smokeRad: 100
+			smokes: 0
 			sparks: 0
 			waveColor: ffffffff
 			}

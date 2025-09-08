@@ -493,13 +493,13 @@
 "colorFrom": "626f9b",
 "colorTo": "3c3c4f"
 }
-			"lifetime": 130,
-			"speed": 20,
+			"lifetime": 100,
+			"speed": 25,
 			"pierce": true,
-			"pierceCap": 100
+			"pierceCap": 180
 			"drag": 0.004
 			"pierceBuilding": true
-			"buildingDamageMultiplier": 0.005
+			"buildingDamageMultiplier": 0.03
 			"hitAir": true
 			"drawSize": 300
 			"lightning": 3,
