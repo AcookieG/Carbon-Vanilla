@@ -5,6 +5,7 @@
 	''',
 	"type": "ItemTurret",
 	"squareSprite": false,
+	"maxAmmo": 72
 	"health": 7100,
 	"size": 5,
 	"reload": 900,
@@ -26,7 +27,7 @@
 	"shoot": {
 		"type": "ShootPattern",
 		"shots": 6
-		"spread": 0.5
+		"spread": 0.75
 		"shotDelay": 15
 	},
 	"consumes": {
@@ -120,31 +121,6 @@
 				"progress": "recoil"
 				"outline": false,
 				"suffix": "-glow"
-				"mirror": true
-				},
-			]
-		},
-		{
-			"type": "RegionPart",
-			"under": true,
-			"layerOffset": 0.001,
-			"outlineLayerOffset": -0.001,
-			"suffix": "-top2",
-			"moveY": -12,
-			"moveX": 0,
-			"moveRot": 0,
-			"mirror": false,
-			"progress": "recoil"
-						"children": [
-				{
-				"type": "RegionPart",
-				"colorTo": "626f9b",
-				"color": "626f9b00",
-				"blending": "additive",
-				"layerOffset": 0.002,
-				"progress": "recoil"
-				"outline": false,
-				"suffix": "top2-glow"
 				"mirror": true
 				},
 			]
@@ -596,9 +572,9 @@
 			"speed": 6,
 			"pierce": true,
 			"pierceCap": 120
-			"drag": -0.06
+			"drag": -0.05
 			"pierceBuilding": true
-			"buildingDamageMultiplier": 0.11
+			"buildingDamageMultiplier": 0.01
 			"hitAir": true
 			"drawSize": 300
 			"lightning": 3,

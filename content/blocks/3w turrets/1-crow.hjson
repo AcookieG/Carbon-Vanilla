@@ -1,6 +1,6 @@
 {
 	"name": "Atlas",
-	"description": "An extremely precise long-range turret. This is why a group of Crows is called a murder.",
+	"description": "An extremely precise long-range turret. This is why a group of Crows is called a murder. Anti-Material.",
 	"type": "ItemTurret",
 	"squareSprite": false,
 	"health": 5300,
@@ -251,7 +251,7 @@
 	"ammoTypes": {
 		"phase-decay": {
 			"type": "BasicBulletType",
-			"damage": 6350,
+			"damage": 2350,
 			"ammoMultiplier": 1,
 			"drawsize": 380
 			"width": 7,
@@ -283,7 +283,7 @@
 			"pierce": true,
 			"pierceCap": 120
 			"pierceBuilding": true
-			"buildingDamageMultiplier": 2
+			"buildingDamageMultiplier": 6
 			"hitAir": true
 			"drawSize": 300
 			"bulletShrink": -0.7,
