@@ -73,18 +73,23 @@
 	"parts": [
 		{
 			"type": "RegionPart",
-			"suffix": "-preview",
-			"layerOffset": 0.001,
-			"outlineLayerOffset": -0.000,
+			"suffix": "-top",
+			"layerOffset": 0.002,
+			"outlineLayerOffset": -0.002,
 			"mirror": false
 			"children": [
 				{
 				"type": "RegionPart",
-				"colorTo": "626f9b",
-				"color": "626f9b00",
+				"colorTo": "fb9957",
+				"color": "fb995700",
 				"blending": "additive",
 				"layerOffset": 0.003,
-				"progress": "recoil"
+				"progress": {
+					"type": "warmup",
+					"op": "blend",
+					"other": "heat",
+					"amount": 0.25
+				},
 				"outline": false,
 				"suffix": "-glow"
 				"mirror": false
@@ -94,6 +99,8 @@
 		{
 			"type": "RegionPart",
 			"under": true,
+			"layerOffset": 0.001,
+			"outlineLayerOffset": -0.001,
 			"suffix": "-body",
 			"moveY": -2,
 			"moveX": -10,
@@ -113,11 +120,16 @@
 			"children": [
 				{
 				"type": "RegionPart",
-				"colorTo": "626f9b",
-				"color": "626f9b00",
+				"colorTo": "fb9957",
+				"color": "fb995700",
 				"blending": "additive",
 				"layerOffset": 0.001,
-				"progress": "recoil"
+				"progress": {
+					"type": "warmup",
+					"op": "blend",
+					"other": "heat",
+					"amount": 0.25
+				},
 				"outline": false,
 				"suffix": "-glow"
 				"mirror": true
