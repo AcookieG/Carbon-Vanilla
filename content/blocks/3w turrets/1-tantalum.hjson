@@ -140,69 +140,35 @@
  {
 "type": "HaloPart",
 "y": 0,
-"radius": 4,
+"radius": 6,
 "tri": true,
 "layer": 110,
 "color": "626f9b",
-"haloRotateSpeed": 0,
-"shapeRotation": 90,
+"haloRotateSpeed": 0.7,
+"shapeRotation": 0,
 "haloRadius": 32,
-"haloRadiusTo": 32,
+"haloRadiusTo": 38,
 "stroke": 0,
-"strokeTo": 2,
-"shapes": 36,
-"triLengthTo": 4,
+"strokeTo": 4,
+"shapes": 10,
+"triLengthTo": 8,
 "triLength": 0
  }
  {
 "type": "HaloPart",
 "y": 0,
-"radius": 4,
+"radius": 6,
 "tri": true,
 "layer": 110,
 "color": "626f9b",
-"haloRotateSpeed": 0,
-"shapeRotation": 270,
+"haloRotateSpeed": -0.7,
+"shapeRotation": 180,
 "haloRadius": 32,
-"haloRadiusTo": 32,
+"haloRadiusTo": 38,
 "stroke": 0,
-"strokeTo": 2,
-"shapes": 18,
-"triLengthTo": 3,
-"triLength": 0
- }
-  {
-"type": "HaloPart",
-"y": 0,
-"radius": 2.5,
-"tri": true,
-"layer": 110,
-"color": "ffffff",
-"haloRotateSpeed": 0,
-"shapeRotation": 90,
-"haloRadius": 32,
-"haloRadiusTo": 32,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 36,
-"triLengthTo": 2.5,
-"triLength": 0
- }
- {
-"type": "HaloPart",
-"y": 0,
-"radius": 2.5,
-"tri": true,
-"layer": 110,
-"color": "ffffff",
-"haloRotateSpeed": 0,
-"shapeRotation": 270,
-"haloRadius": 32,
-"haloRadiusTo": 32,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 18,
-"triLengthTo": 2.7,
+"strokeTo": 4,
+"shapes": 10,
+"triLengthTo": 6,
 "triLength": 0
  }
 
@@ -531,7 +497,7 @@
 			"speed": 20,
 			"pierce": true,
 			"pierceCap": 100
-			"drag": 0.005
+			"drag": 0.004
 			"pierceBuilding": true
 			"buildingDamageMultiplier": 0.005
 			"hitAir": true
