@@ -46,16 +46,16 @@ range: 100
 		"width": 1,
 		"height": 1,
 		"shootEffect": "none",
-				intervalBullets: 400
+				intervalBullets: 500
 		intervalRandomSpread: 360
 		bulletInterval: 30
 		intervalBullet: {
       			type: FireBulletType
-			damage: 10
+			damage: 20
 			instantDisapear: false
-			velMin: -1
-			velMax: 18
-			lifetime: 300
+			velMin: 0
+			velMax: 15
+			lifetime: 900
 			despawnEffect: none
 			hittable: false
 			reflectable: false

@@ -43,6 +43,30 @@
 "effects": [
 {
 "type": "ParticleEffect",
+"particles": 8,
+"length": 140,
+"lifetime": 110,
+"line": true,
+"cone": 3,
+"sizeFrom": 10,
+"sizeTo": 2,
+"colorFrom": "6e7080",
+"colorTo": "ffcd66"
+},
+{
+"type": "ParticleEffect",
+"particles": 90,
+"length": 1800,
+"lifetime": 100,
+"interp": "circleOut",
+"cone": 0.5,
+"sizeFrom": 8,
+"sizeTo": 2,
+"colorFrom": "4a4b53",
+"colorTo": "ffcd66"
+},
+{
+"type": "ParticleEffect",
 "particles": 20,
 "length": 70,
 "lifetime": 55,
@@ -55,7 +79,7 @@
 },
 {
 "type": "ParticleEffect",
-"particles": 90,
+"particles": 45,
 "length": 800,
 "lifetime": 50,
 "interp": "circleOut",
