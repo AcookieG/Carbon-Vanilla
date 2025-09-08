@@ -62,7 +62,7 @@
 	"idleSound": "techloop",
 	"outputItem": {
 		"item": "flex-joint",
-		"amount": 24
+		"amount": 6
 	},
 	"craftTime": 720,
 	"squareSprite": false,

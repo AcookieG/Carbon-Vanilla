@@ -555,11 +555,12 @@
 		},
 	},
 	"requirements": [
-		{ "item": "iron", "amount": 1200 },
-		{ "item": "flex-joint", "amount": 850 },
-		{ "item": "phase-decay", "amount": 500 },
-		{ "item": "surge-alloy", "amount": 180 },
-		{ "item": "metaglass", "amount": 960 }
+		{ "item": "copper", "amount": 1200 },
+		{ "item": "titanium", "amount": 850 },
+		{ "item": "phase-decay", "amount": 540 },
+		{ "item": "carbon-fiber", "amount": 880 },
+		{ "item": "plastanium", "amount": 960 }
+		{ "item": "flex-joint", "amount": 450 }
 	],
 	"category": "turret",
 	"research": "1-crow"
