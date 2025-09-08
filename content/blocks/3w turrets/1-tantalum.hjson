@@ -2,6 +2,7 @@
 	"name": "Tantal",
 	"description": '''
 	A ricochet turret. very long reload times, necessary for the loading of all 24 APFSDS rounds into the chamber. Seems pretty obvious where this gun was modified from.
+	Shorter range than Atlas, since the rods burn up due to friction very fast.
 	''',
 	"type": "ItemTurret",
 	"squareSprite": false,
@@ -11,12 +12,12 @@
 	"reload": 900,
 	"shake": 11,
 	"recoil": 9,
-	"range": 2800,
+	"range": 2000,
 	"ammoUseEffect": "casing4",
 	"shootSound": "largeCannon",
 	"restitution": 0.001,
-	"cooldownTime": 180,
-	"minWarmup": 0.6
+	"cooldownTime": 300,
+	"minWarmup": 0.9
 	"warmupMaintainTime": 180
 	"moveWhileCharging": true
 	"shootCone": 0.005,
@@ -541,10 +542,11 @@
 		"shell": {
 			"type": "BasicBulletType",
 			"damage": 3800,
+			"shrinkX": 0.5
 			"shrinkY": -2
 			"ammoMultiplier": 1,
 			"drawsize": 380
-			"width": 9,
+			"width": 15,
 			"height": 25,
 			"reloadMultiplier": 1
 			"smokeEffect": "shootBigSmoke"
@@ -568,7 +570,7 @@
 "colorFrom": "626f9b",
 "colorTo": "3c3c4f"
 }
-			"lifetime": 100,
+			"lifetime": 80,
 			"speed": 6,
 			"pierce": true,
 			"pierceCap": 120
