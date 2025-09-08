@@ -6,7 +6,7 @@
 	fogRadiusMultiplier:0
 	"details": "To build forts and towers, to be seen from miles away, to inflict pain into the enemy, protected like a coward."
 	"type": "powerTurret",
-	"health": 4920,
+	"health": 12920,
 	"size": 2,
 	"reload": 20,
 	"range": 100,
