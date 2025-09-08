@@ -1,14 +1,14 @@
 {
 	"name": "Tantal",
 	"description": '''
-	A ricochet turret. very long reload times, necessary for the loading of all 12 APFSDS rounds into the chamber. Seems pretty obvious where this gun was modified from.
+	A ricochet turret. very long reload times, necessary for the loading of all 24 APFSDS rounds into the chamber. Seems pretty obvious where this gun was modified from.
 	''',
 	"type": "ItemTurret",
 	"squareSprite": false,
 	"health": 7100,
 	"size": 5,
 	"reload": 900,
-	"shake": 21,
+	"shake": 11,
 	"recoil": 9,
 	"range": 2800,
 	"ammoUseEffect": "casing4",
@@ -17,18 +17,17 @@
 	"cooldownTime": 180,
 	"minWarmup": 0.6
 	"warmupMaintainTime": 180
-	"moveWhileCharging": false
-	"shootCone": 0.01,
-	"spread": 0,
+	"moveWhileCharging": true
+	"shootCone": 0.005,
 	"rotateSpeed": 0.3,
 	"hasPower": true
 	"heatRequirement": 1200
-	"maxHeatEfficiency": 4
+	"maxHeatEfficiency": 3
 	"shoot": {
 		"type": "ShootPattern",
 		"shots": 6
-		"spread": 0.75
-		"shotDelay": 20
+		"spread": 0.5
+		"shotDelay": 15
 	},
 	"consumes": {
 		"power": 40
@@ -36,7 +35,7 @@
 		"amount": 3
 		}
 	},
-	"coolantMultiplier": 0.2
+	"coolantMultiplier": 0.15
 	"shootEffect": {
 "type": "multiEffect",
 "effects": [
@@ -561,15 +560,15 @@
 
 	]
 	},
-	"ammoPerShot": 20,
+	"ammoPerShot": 24,
 	"ammoTypes": {
 		"shell": {
 			"type": "BasicBulletType",
 			"damage": 3800,
-			"shrinkY": -1.8
+			"shrinkY": -2
 			"ammoMultiplier": 1,
 			"drawsize": 380
-			"width": 7,
+			"width": 9,
 			"height": 25,
 			"reloadMultiplier": 1
 			"smokeEffect": "shootBigSmoke"
@@ -593,21 +592,21 @@
 "colorFrom": "626f9b",
 "colorTo": "3c3c4f"
 }
-			"lifetime": 80,
-			"speed": 10,
+			"lifetime": 100,
+			"speed": 6,
 			"pierce": true,
 			"pierceCap": 120
-			"drag": -0.05
+			"drag": -0.06
 			"pierceBuilding": true
-			"buildingDamageMultiplier": 0.5
+			"buildingDamageMultiplier": 0.11
 			"hitAir": true
 			"drawSize": 300
 			"lightning": 3,
-			"lightningDamage": 6,
-			"lightningCone": 360,
+			"lightningDamage": 12,
+			"lightningCone": 30,
 			"lightningLengthRand": 4,
 			"lightningLength": 4,
-			"hitShake": 16
+			"hitShake": 3
 			"trailColor": 626f9b
 			"trailEffect": colorSpark
 			"trailRotation": true
@@ -617,14 +616,12 @@
 			"trailLength": 42
 			"frontColor": ffffff
 			"backColor": 626f9b
-			"homingPower": 0.001
-			"homingRange": 600
 			"hittable": false
 		},
 	},
 	"requirements": [
 		{ "item": "iron", "amount": 1200 },
-		{ "item": "flex-joint", "amount": 450 },
+		{ "item": "flex-joint", "amount": 850 },
 		{ "item": "phase-decay", "amount": 500 },
 		{ "item": "surge-alloy", "amount": 180 },
 		{ "item": "metaglass", "amount": 960 }
