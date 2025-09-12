@@ -61,7 +61,7 @@
 	"consumes": {
 		"power": 3,
     "liquids":  [
-		{"liquid": "metal", "amount": 0.2},
+		{"liquid": "metal", "amount": 0.7},
 		]
 	"items": {
 			"items": [
@@ -79,7 +79,7 @@
 research: 7w15
 	"outputItem":{ "item": "shell", "amount": 1 },
 	"idleSound": "techloop",
-	"outputLiquid": {"liquid": "N", "amount": 0.1},
+	"outputLiquid": {"liquid": "N", "amount": 0.3},
 	"craftTime": 10,
 	"squareSprite": false,
 	"conductivePower": true
