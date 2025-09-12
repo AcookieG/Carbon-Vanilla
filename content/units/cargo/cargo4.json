@@ -1,6 +1,6 @@
 {
 	"type": "flying",
-	"name": "Cargo Oct-Eclipse",
+	"name": "Cargo Eclipse",
 	"health": 28000,
 	"armor": 16,
 	"flying": true,
@@ -117,7 +117,7 @@
 			"rotateSpeed": 1.4,
 			"bullet": {
 type: ContinuousLaserBulletType
-damage: 125
+damage: 60
 length: 300
 width: 11
 hitEffect: hitMeltHeal

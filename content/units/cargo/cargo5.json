@@ -1,11 +1,11 @@
 {
 	"type": "flying",
 	"name": "Cargo Oct-Eclipse",
-	"health": 28000,
-	"armor": 16,
+	"health": 52000,
+	"armor": 60,
 	"flying": true,
-	"maxVelocity": 2,
-	"speed": 0.6,
+	"maxVelocity": 2.2,
+	"speed": 0.7,
 	"drag": 0.04,
 	"rotateSpeed": 1,
 	"hitSize": 66
@@ -22,11 +22,20 @@
 	"abilities": [
 		{
 			"type": "mindustry.entities.abilities.ForceFieldAbility",
-			"radius": 125,
+			"radius": 90,
 			"rotation": 0,
 			"sides": 8,
-			"max": 8100,
-			"regen": 5,
+			"max": 19200,
+			"regen": 8,
+			"color": "6ce5f5",
+		},
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 90,
+			"rotation": 0,
+			"sides": 4,
+			"max": 3200,
+			"regen": 125,
 			"color": "6ce5f5",
 		},
 		{
@@ -117,7 +126,7 @@
 			"rotateSpeed": 1.4,
 			"bullet": {
 type: ContinuousLaserBulletType
-damage: 125
+damage: 75
 length: 300
 width: 11
 hitEffect: hitMeltHeal
@@ -152,7 +161,7 @@ ffffffff
 	]
 	"outlineColor": 00000000
 	"research": {
-		"parent": "cargo3"
+		"parent": "cargo4"
 		"requirements": [
 			{
 				"item": "graphite",
