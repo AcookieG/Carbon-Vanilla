@@ -44,8 +44,8 @@
 		},
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 20 },
-		{ "item": "titanium", "amount": 35 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "thorium", "amount": 35 },
 		{ "item": "copper", "amount": 50 },
 	],
 	"category": "crafting",
@@ -55,7 +55,7 @@
 	"idleSoundVolume": 0.05,
 	"outputLiquid": {
 		"liquid": "slag",
-		"amount": 0.1
+		"amount": 0.05
 	},
-	"craftTime": 60,
+	"craftTime": 10,
 }
