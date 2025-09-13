@@ -18,19 +18,17 @@
 		]
 }
 	"requirements": [
-		{ "item": "graph", "amount": 10},
-		{ "item": "sili", "amount": 10},
-		{ "item": "iron", "amount": 10}
+		{ "item": "lead", "amount": 2},
+		{ "item": "silicon", "amount": 2},
+		{ "item": "iron", "amount": 2}
 	],
 	"consumes": {
-  "powerBuffered": 5
+  "power": 1
 	}
+	"hasPower": true
 	"category": "power",
 	"research": "5w03"
 	"visualMaxHeat": 48,
 		"squareSprite": false,
-		"conductivePower": true
-	"hasPower": true
-	"outputsPower": true
 	"splitHeat": true
 }
