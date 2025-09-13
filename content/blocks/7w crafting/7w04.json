@@ -52,7 +52,7 @@ research: 7w01
 	"idleSound": "grinding",
 	"idleSoundVolume": 0.03,
 	"outputLiquids": [
-		{ "liquid": "i", "amount": 0.05 },
+		{ "liquid": "oil", "amount": 0.05 },
 	],
 	"outputItems": [
 		{ "item": "anthracite", "amount": 3 },

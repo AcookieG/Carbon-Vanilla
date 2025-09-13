@@ -42,8 +42,7 @@
 	"consumes": {
 		"power": 1.4,
     "liquids":  [
-		{"liquid": "pressure", "amount": 0.3},
-		{"liquid": "oil", "amount": 0.2},
+		{"liquid": "oil", "amount": 0.3},
 		]
 	},
 	"requirements": [
@@ -56,8 +55,8 @@
 	"rotate": false
 research:7w03
 	"idleSound": "windHowl",
-	"outputLiquid": {"liquid": "N", "amount": 0.2},
+	liquidOutputDirections: [2,4]
+	"outputLiquids": [{"liquid": "N", "amount": 1.2},{"liquid": "pressure", "amount": 1},]
 	"craftTime": 60,
 	"squareSprite": false,
-	"conductivePower": true
 }

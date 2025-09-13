@@ -58,7 +58,6 @@
 		{ "item": "scrap", "amount": 1 },
 		{ "item": "iron", "amount": 2 },
 	],
-	"craftTime": 20,
+	"craftTime": 80,
 	"squareSprite": false,
-		"conductivePower": true
 }
