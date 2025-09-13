@@ -2,7 +2,7 @@
 	"name": "Overheater",
 	"description": 
 '''
-Consumes fuel and Canolla. Cool it down with water or it will explode.
+Consumes fuel and pyratite. Cool it down with water or it will explode.
 '''
 	"details": "You are faced with two options: keep exploiting expensive and time-consuming resources, or turn to fossil fuels. Your choice."
 	"type": "VariableReactor"
@@ -20,8 +20,8 @@ Consumes fuel and Canolla. Cool it down with water or it will explode.
 	"requirements": [
 		{ "item": "dense", "amount": 50 },
 		{ "item": "flex-joint", "amount": 60 },
-		{ "item": "coppa", "amount": 80 },
-		{ "item": "graph", "amount": 80 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "lead", "amount": 80 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -32,7 +32,7 @@ Consumes fuel and Canolla. Cool it down with water or it will explode.
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "wtr",
+				"drawLiquid": "water",
 				"padding": 3,
 			},
 			{
@@ -51,11 +51,11 @@ Consumes fuel and Canolla. Cool it down with water or it will explode.
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "wtr", "amount": 0.8},
+			{"liquid": "water", "amount": 0.8},
 		]
 		"items": {
 			"items": [
-				{"item": "canolla", "amount": 1}
+				{"item": "metarkle", "amount": 1}
 			]
 		},
 	},
@@ -64,7 +64,7 @@ Consumes fuel and Canolla. Cool it down with water or it will explode.
 	"loopSound": "flux",
 	"effect": none,
 research: 5w09
-	"itemDuration": 40,
+	"itemDuration": 90,
 	"squareSprite": false,
 	"maxHeat": 100,
 }

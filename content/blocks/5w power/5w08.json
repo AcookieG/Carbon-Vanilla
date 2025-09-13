@@ -2,7 +2,7 @@
 	"name": "Anthracite Generator",
 	"description": 
 '''
-Burns Anthracite to produce heat and power.
+Burns coal to produce heat and power.
 '''
 	"details": "Cleaner than those Oil Burners..."
 	"type": "HeaterGenerator"
@@ -14,7 +14,7 @@ Burns Anthracite to produce heat and power.
 	"itemCapacity": 10,
 	"powerProduction": 1.2,
 	"requirements": [
-		{ "item": "graph", "amount": 80 },
+		{ "item": "lead", "amount": 60 },
 		{ "item": "iron", "amount": 40 },
 	],
 	"drawer": {
@@ -31,7 +31,7 @@ Burns Anthracite to produce heat and power.
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "anthracite", "amount": 1}
+				{"item": "combustion-generator", "amount": 1}
 			]
 		},
 	},
@@ -42,5 +42,5 @@ Burns Anthracite to produce heat and power.
 research: 5w04b
 	"itemDuration": 30,
 	"squareSprite": false,
-	"heatOutput": 12,
+	"heatOutput": 4,
 }

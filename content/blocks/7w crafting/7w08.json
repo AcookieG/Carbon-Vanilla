@@ -1,6 +1,6 @@
 {
 	"name": "Combustion Blower",
-	"description": "Uses freshly-pressed Pyratite and presses it into Metarkle Ingots.",
+	"description": "Uses pure carbon and presses it into Metarkle Ingots.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 275,
@@ -60,7 +60,7 @@
 		]
 		"items": {
 			"items": [
-				{"item": "pyratite", "amount": 4}
+				{"item": "coal", "amount": 4}
 			]
 		},
 	},

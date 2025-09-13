@@ -15,7 +15,7 @@ Produces energy and heat by cooling Pressure down to water.
 	"requirements": [
 		{ "item": "dense", "amount": 30 },
 		{ "item": "iron", "amount": 60 },
-		{ "item": "graph", "amount": 80 },
+		{ "item": "lead", "amount": 80 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -26,7 +26,7 @@ Produces energy and heat by cooling Pressure down to water.
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "wtr",
+				"drawLiquid": "water",
 				"padding": 3,
 			},
 			{
@@ -45,16 +45,16 @@ Produces energy and heat by cooling Pressure down to water.
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "pressure", "amount": 0.5},
+			{"liquid": "pressure", "amount": 1},
 		]
 	},
 	"category": "power",
 	"conductivePower": true
 	"rotate": true
 	"loopSound": "hum",
-	"outputLiquid": {"liquid": "wtr", "amount": 0.5},
+	"outputLiquid": {"liquid": "water", "amount": 0.5},
 research: 5w08
 	"itemDuration": 60,
 	"squareSprite": false,
-	"heatOutput": 24,
+	"heatOutput": 9,
 }
