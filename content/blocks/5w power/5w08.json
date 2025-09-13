@@ -31,7 +31,7 @@ Burns coal to produce heat and power.
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "combustion-generator", "amount": 1}
+				{"item": "coal", "amount": 1}
 			]
 		},
 	},
@@ -39,7 +39,7 @@ Burns coal to produce heat and power.
 	"conductivePower": true
 	"rotate": true
 	"loopSound": "torch",
-research: 5w04b
+research: combustion-generator
 	"itemDuration": 30,
 	"squareSprite": false,
 	"heatOutput": 4,
