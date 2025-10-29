@@ -19,8 +19,8 @@ They are the danger.
 	"explosionShake": 0.6,
 	"powerProduction": 14,
 	"requirements": [
-		{ "item": "graph", "amount": 90 },
-		{ "item": "sili", "amount": 80 },
+		{ "item": "graphite", "amount": 90 },
+		{ "item": "silicon", "amount": 80 },
 		{ "item": "dense", "amount": 20 },
 	],
 	"drawer": {
@@ -32,7 +32,7 @@ They are the danger.
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "i",
+				"drawLiquid": "oil",
 				"padding": 3
 			},
 			{
@@ -49,7 +49,7 @@ They are the danger.
 		]
 	},
 	"consumes": {
-		"liquid": {"liquid": "i", "amount": 0.3},
+		"liquid": {"liquid": "oil", "amount": 0.3},
 	},
 	"outputLiquid": {"liquid": "stillwater", "amount": 0.03},
 	"explodeOnFull": true

@@ -19,14 +19,14 @@
 			]
 		},
 		"liquids":  [
-		{"liquid": "i", "amount": 0.25},
+		{"liquid": "oil", "amount": 0.25},
 		]
 	},
 	"requirements": [
 		{ "item": "dense", "amount": 40 },
 		{ "item": "carbon-fiber", "amount": 30 },
-		{ "item": "sadn", "amount": 150 },
-		{ "item": "graph", "amount": 110 },
+		{ "item": "sand", "amount": 150 },
+		{ "item": "graphite", "amount": 110 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -37,7 +37,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "i",
+				"drawLiquid": "oil",
 				"padding": 5,
 			},
 			{
@@ -55,7 +55,7 @@
 	"rotate": false
 research: 7w01
 "outputItems": [
-		{ "item": "graph", "amount": 2 },
+		{ "item": "graphite", "amount": 2 },
 	],
 	"idleSound": "grinding",
 	"craftTime": 24,

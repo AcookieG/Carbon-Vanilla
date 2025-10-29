@@ -36,7 +36,7 @@ You re-created life, but at what cost?
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "i",
+				"drawLiquid": "oil",
 				"padding": 2
 			},
 			{
@@ -50,7 +50,7 @@ You re-created life, but at what cost?
 		]
 	},
 	"consumes": {
-		"liquid": {"liquid": "i", "amount": 0.1},
+		"liquid": {"liquid": "oil", "amount": 0.1},
 	},
 	"outputLiquid": {"liquid": "stillwater", "amount": 0.01},
 	"explodeOnFull": true
