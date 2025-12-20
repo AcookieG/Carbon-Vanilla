@@ -2,7 +2,7 @@
 	"name": "Beach Sand",
 	"type": "Floor",
 	"variants": 3,
-		"itemDrop": sadn,
+		"itemDrop": sand,
 	"attributes": {
   "sand": 1.0
 }

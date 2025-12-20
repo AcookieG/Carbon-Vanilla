@@ -2,5 +2,5 @@
 	"name": "Canolla Salt",
 	"type": "Floor",
 	"variants": 0,
-		"itemDrop": canolla,
+		"itemDrop": copper,
 }

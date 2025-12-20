@@ -2,7 +2,7 @@
 	"name": "Light Iron Floor",
 	"type": "Floor",
 	"variants": 3,
-	"itemDrop": sadn,
+	"itemDrop": sand,
 	"attributes": {
   "sand": 0.4
 }
