@@ -7,6 +7,6 @@
 "squareSprite": "false"
 "research": "4w03"
 "requirements": [
-  {"item": "graph", "amount": 3}
+  {"item": "graphite", "amount": 3}
 ]
 }

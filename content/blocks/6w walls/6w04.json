@@ -1,11 +1,10 @@
 {
 	"name": "Graphite Wall",
-	"description": "The larger standard wall.",
 	"type": "Wall",
 	"health": 3040,
 	"size": 2,
 	"requirements": [
-		{ "item": "graph", "amount": 24 }
+		{ "item": "graphite", "amount": 24 }
 	],
 	"armor": 4,
 	"category": "defense",

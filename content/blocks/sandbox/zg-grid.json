@@ -8,7 +8,7 @@
   "hasPower": true,
   "category": "logic",
   "requirements": [
-		{ "item": "sadn", "amount": 1 },
+		{ "item": "sand", "amount": 1 },
   ],
   "research": "zg-items"
 }

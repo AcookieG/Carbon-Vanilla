@@ -9,7 +9,7 @@
 	"hasPower": false
 	"speedBoost": 100,
 	"requirements": [
-		{ "item": "sadn", "amount": 1 },
+		{ "item": "sand", "amount": 1 },
 	],
 	"category": "logic",
 	"research": "zg-items"

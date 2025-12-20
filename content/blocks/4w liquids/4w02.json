@@ -3,8 +3,8 @@
 	"type": "Pump"
 	"pumpAmount": 0.4
 	"requirements": [
-		{"item": "graph", "amount": 110},
-		{"item": "sadn", "amount": 90},
+		{"item": "graphite", "amount": 110},
+		{"item": "sand", "amount": 90},
 		{"item": "dense", "amount": 20},
 	]
 	"liquidCapacity": 20

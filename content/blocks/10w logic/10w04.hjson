@@ -1,17 +1,17 @@
 type: LogicBlock
 name: Microcontroler
-description: Runs logic and controls units or buildings. Requires Power. Runs at 6000fps.
+description: Runs logic and controls units or buildings. Requires Power. Runs at 12000 instructions per second. Thinking sand.
 category: logic
 research: 9w01
 requirements: [
 	{"item": "circuit", "amount": 40}
-	{"item": "sili", "amount": 180}
-	{"item": "sadn", "amount": 120}
+	{"item": "silicon", "amount": 180}
+	{"item": "sand", "amount": 620}
 ]
-instructionsPerTick: 100,
+instructionsPerTick: 200,
 maxInstructionsPerTick: 6000,
-range: 240,
+range: 300,
 size: 1
 "consumes": {
-		"power": 1.0
+		"power": 5.0
 	},

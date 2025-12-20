@@ -1,11 +1,11 @@
 {
-	"name": "Large Metarkle Wall",
+	"name": "Large Pyro Wall",
 	"description": "A strong yet explosive block. Bigger.",
 	"type": "Wall",
 	"health": 4600,
 	"size": 2,
 	"requirements": [
-		{ "item": "metarkle", "amount": 24 }
+		{ "item": "pyratite", "amount": 24 }
 	],
 	"armor": 2,
 	"category": "defense",

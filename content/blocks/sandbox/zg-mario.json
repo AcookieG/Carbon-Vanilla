@@ -1,14 +1,13 @@
 {
 	"name": "KILL",
 	"description": "I have seen enough. I am satisfied. -Satisfied",
-"sandboxOnly": true,
-	"type": "ItemTurret",
+	"type": "powerTurret",
 	"health": 999999,
-	"size": 2,
+	"size": 1,
 	"reload": 1,
 	"shake": 0,
-	"recoil": -8,
-	"range": 500,
+	"recoil": 0,
+	"range": 560,
 	"ammoUseEffect": none,
 	"shootSound": none,
 	"restitution": 0.01,
@@ -16,10 +15,8 @@
 	"shootCone": 360,
 	"spread": 0,
 	"rotateSpeed": 25,
-	"hasPower": false
-	"ammoPerShot": 1,
-	"ammoTypes": {
-		"sadn": {
+	"hasPower": true
+	"shootType": {
 			"type": "BasicBulletType",
 			"damage": 123450,
 			"ammoMultiplier": 10,
@@ -41,10 +38,9 @@
 			"lightningLength": 8,
 			"homingPower": 5,
 			"homingRange": 3000,
-		},
 	},
 	"requirements": [
-		{ "item": "sadn", "amount": 1 },
+		{ "item": "sand", "amount": 1 },
 	],
 	"category": "logic",
 	"research": "zg-items"

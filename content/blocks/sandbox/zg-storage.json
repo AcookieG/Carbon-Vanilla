@@ -8,7 +8,7 @@
 	"itemCapacity": 9999999,
 	"hasItems": true,
 	"requirements": [
-		{ "item": "sadn", "amount": 1 },
+		{ "item": "sand", "amount": 1 },
 	],
 	"category": "logic",
 	"research": "zg-items"

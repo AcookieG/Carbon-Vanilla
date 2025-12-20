@@ -13,7 +13,7 @@
 		"sides":4,
 		"crashDamageMultiplier":0,
     "requirements": [
-		{ "item": "sadn", "amount": 1 },
+		{ "item": "sand", "amount": 1 },
     ],
     "research": "zg-items"
 }
