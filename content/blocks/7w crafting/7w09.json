@@ -1,0 +1,70 @@
+{
+	"name": "Slag Mirror",
+	"description": "Generates intense heat to melt Iron Composites into Slag. Requires small amounts of Mercury to function.",
+	"type": "HeatCrafter"
+	"size": 5,
+	"health": 520,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"updateEffect": "turbinegenerate",
+	"craftEffect": "fluxVapor",
+	"liquidCapacity": 60,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "slag",
+				"padding": 4,
+			},
+			{"type": "DrawSoftParticles","y":-8,"x":-8,},
+			{"type": "DrawSoftParticles","y":8,"x":-8,},
+			{"type": "DrawSoftParticles","y":-8,"x":8,},
+			{"type": "DrawSoftParticles","y":8,"x":8,},
+			{
+				"type": "DrawDefault",
+			},
+			{
+				"type": "DrawHeatInput",
+				"suffix": "-heat",
+				"color": ff000066
+			},
+			{
+				"type": "DrawGlowRegion"
+				"color": ff3838ee
+			},
+		]
+	},
+	"heatRequirement": 48
+	"maxEfficiency": 3.0
+	"consumes": {
+		"power": 3,
+    "liquids":  [
+		{"liquid": "metal", "amount": 0.2},
+		]
+	"items": {
+			"items": [
+				{"item": "iron", "amount": 1}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "circuit", "amount": 200 },
+		{ "item": "pyratite", "amount": 80 },
+		{ "item": "copper", "amount": 260 },
+		{ "item": "dense", "amount": 160 },
+		{ "item": "flex-joint", "amount": 160 },
+	],
+	"category": "crafting",
+	"research": "sand",
+	"idleSound": "flux",
+	"outputLiquid": {"liquid": "slag", "amount": 1},
+	"craftTime": 10,
+	"squareSprite": false,
+	"conductivePower": true
+}

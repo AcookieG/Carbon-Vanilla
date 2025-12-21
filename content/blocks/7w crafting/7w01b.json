@@ -1,6 +1,6 @@
 {
 	"name": "Graphite Pounder",
-	"description": "Presses carbon bases into Graphite sheets.",
+	"description": "Presses carbon bases into Slate sheets.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 230,
@@ -15,11 +15,11 @@
 	"power": 1,
 		"items": {
 			"items": [
-				{"item": "slate", "amount": 1}
+				{"item": "Graphite", "amount": 1}
 			]
 		},
 		"liquids":  [
-		{"liquid": "oil", "amount": 0.25},
+		{"liquid": "water", "amount": 0.5},
 		]
 	},
 	"requirements": [
@@ -37,7 +37,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "oil",
+				"drawLiquid": "water",
 				"padding": 5,
 			},
 			{
@@ -55,7 +55,7 @@
 	"rotate": false
 research: 7w01
 "outputItems": [
-		{ "item": "graphite", "amount": 2 },
+		{ "item": "slate", "amount": 2 },
 	],
 	"idleSound": "grinding",
 	"craftTime": 24,

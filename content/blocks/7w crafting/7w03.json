@@ -1,6 +1,6 @@
 {
 	"name": "Filter",
-	"description": "Filters through Sand and Water.",
+	"description": "Filters through Copper ore and Water.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 110,
@@ -39,7 +39,7 @@
 		"power": 0.8,
 		"items": {
 			"items": [
-				{"item": "sand", "amount": 3}
+				{"item": "copper", "amount": 3}
 			]
 		},
     "liquid":  {"liquid": "water", "amount": 0.2},
