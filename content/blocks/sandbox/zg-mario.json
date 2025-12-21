@@ -7,7 +7,7 @@
 	"reload": 1,
 	"shake": 0,
 	"recoil": 0,
-	"range": 500,
+	"range": 1000,
 	"ammoUseEffect": none,
 	"shootSound": none,
 	"restitution": 0.01,
@@ -19,7 +19,7 @@
 	"shootType": {
 			"type": "BasicBulletType",
 			"lifetime": 1,
-			"fragBullets": 500,
+			"fragBullets": 200,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 888888,
@@ -28,7 +28,7 @@
 				"reloadMultiplier": 10
 				"shootEffect": none
 				"smokeEffect": none
-				"lifetime": 7,
+				"lifetime": 14,
 				"speed": 80,
 				"pierce": true,
 				"pierceCap": 50
