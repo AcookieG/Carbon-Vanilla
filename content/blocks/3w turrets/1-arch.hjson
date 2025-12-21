@@ -3,7 +3,7 @@
 	name: Arch,
 	description: "Shoots charged balls at high velocity. Very innacurate. Very high voltage, do not touch. Could also be called the Kofi. Giving it more heat allows for more power, have fun!",
 	squareSprite: false,
-	health": 5300
+	health: 5300
 	size: 4
 	reload: 40
 	shake: 3
