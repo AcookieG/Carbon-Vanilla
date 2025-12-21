@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Solid Heat",
+	"cost": 1,
+	"flammability": 1,
+	"radioactivity": 0,
+	"explosiveness": 1,
+	"color": "ffcd66"
+}

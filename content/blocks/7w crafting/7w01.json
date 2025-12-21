@@ -26,7 +26,7 @@
 	"research": "9w01",
 	"idleSound": "grinding",
 	"outputItems": [
-		{ "item": "graph", "amount": 3 },
+		{ "item": "graphite", "amount": 3 },
 	],
 	"craftTime": 150,
 	"squareSprite": false,

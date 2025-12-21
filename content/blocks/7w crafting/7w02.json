@@ -39,7 +39,7 @@
 	"rotate": false
 	"research": "7w01",
 	"idleSound": "smelter",
-	"outputItem": { "item": "sili", "amount": 1 },
+	"outputItem": { "item": "silicon", "amount": 1 },
 	"craftTime": 40,
 	"squareSprite": false,
 		"conductivePower": true
