@@ -13,15 +13,15 @@
 			"unit": "11w02a",
 			"time": 800
 			"requirements": [
-				{ "item": "graph", "amount": 60 },
-				{ "item": "sili", "amount": 40 },
+				{ "item": "graphite", "amount": 60 },
+				{ "item": "silicon", "amount": 40 },
 			]
 		},
 		{
 			"unit": "11w03a",
 			"time": 800
 			"requirements": [
-				{ "item": "graph", "amount": 60 },
+				{ "item": "graphite", "amount": 60 },
 				{ "item": "iron", "amount": 40 },
 			]
 		},
@@ -32,8 +32,8 @@
 		"squareSprite": false,
 		"conductivePower": true
 	"requirements": [
-		{ "item": "sadn", "amount": 120 },
-		{ "item": "graph", "amount": 90 },
-		{ "item": "sili", "amount": 150 },
+		{ "item": "sand", "amount": 120 },
+		{ "item": "graphite", "amount": 90 },
+		{ "item": "silicon", "amount": 150 },
 	]
 }

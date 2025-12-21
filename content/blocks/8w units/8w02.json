@@ -9,8 +9,8 @@
 		"power": 1.2,
 		"items": {
 			"items": [
-				{ "item": "sili", "amount": 50 },
-				{ "item": "graph", "amount": 50 },
+				{ "item": "silicon", "amount": 50 },
+				{ "item": "graphite", "amount": 50 },
 				{ "item": "iron", "amount": 20 },
 			]
 		},
@@ -31,9 +31,9 @@
 	"conductivePower": true
 	"squareSprite": false,
 	"requirements": [
-		{ "item": "sadn", "amount": 210 },
-		{ "item": "graph", "amount": 120 },
-		{ "item": "sili", "amount": 160 },
+		{ "item": "sand", "amount": 210 },
+		{ "item": "graphite", "amount": 120 },
+		{ "item": "silicon", "amount": 160 },
 		{ "item": "iron", "amount": 90 },
 	]
 }

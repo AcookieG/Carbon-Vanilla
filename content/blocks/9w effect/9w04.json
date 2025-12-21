@@ -8,7 +8,7 @@
 	"isFirstTier": false
 	"requirements": [
 		{"item": "flex-joint", "amount": 1000},
-		{"item": "metarkle", "amount": 1200},
+		{"item": "copper", "amount": 1200},
 		{"item": "chip", "amount": 250}
 	]
 	"research": "9w03",

@@ -7,8 +7,8 @@
 	"health": 3500,
 	"isFirstTier": false
 	"requirements": [
-		{"item": "metarkle", "amount": 600},
-		{"item": "graph", "amount": 1200},
+		{"item": "copper", "amount": 600},
+		{"item": "graphite", "amount": 1200},
 		{"item": "dense", "amount": 200}
 	]
 	"research": "9w02",

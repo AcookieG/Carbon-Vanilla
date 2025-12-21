@@ -26,14 +26,14 @@
 		"power": 0.25,
 		"items": {
 			"items": [
-				{"item": "anthracite", "amount": 2}
-				{"item": "sadn", "amount": 2}
+				{"item": "coal", "amount": 2}
+				{"item": "sand", "amount": 2}
 			]
 		},
 	},
 	"requirements": [
 		{ "item": "slate", "amount": 24 },
-		{ "item": "sadn", "amount": 60 },
+		{ "item": "sand", "amount": 60 },
 	],
 	"category": "crafting",
 	"rotate": false

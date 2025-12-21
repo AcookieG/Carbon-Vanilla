@@ -24,7 +24,7 @@ You re-created life, but at what cost?
 	"explosionShake": 0.2,
 	"powerProduction": 3,
 	"requirements": [
-		{ "item": "sadn", "amount": 80 },
+		{ "item": "sand", "amount": 80 },
 		{ "item": "slate", "amount": 60 },
 	],
 	"drawer": {
