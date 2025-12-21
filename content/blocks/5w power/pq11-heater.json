@@ -19,7 +19,7 @@ Conducts power.
 	"hasLiquids": true,
 	"hasItems": false,
 	"powerProduction": 50,
-	"heatOutput": 24
+	"heatOutput": 48
 	"warmupSpeed": 0.7,
 	"itemDuration": 1,
 	"drawer": {
@@ -47,7 +47,7 @@ Conducts power.
 	"consumes": {
                 "liquid": {
 			"liquid": "metal",
-			"amount": 0.2
+			"amount": 0.666667
 		},
 	},
 	"requirements": [

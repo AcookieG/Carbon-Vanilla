@@ -19,7 +19,7 @@
 	"explosionDamage": 40,
 	"updateEffect": "steam",
 	"craftEffect": "none",
-	"heatRequirement": 24
+	"heatRequirement": 48
 	"maxEfficiency": 2
 	"outputFacing": true
 	"rotate": true
@@ -66,7 +66,7 @@
 	"ambientSoundVolume": 1,
 	"outputLiquid": {
 		"liquid": "metal",
-		"amount": 0.3
+		"amount": 1
 	},
 	"craftTime": 1,
 }

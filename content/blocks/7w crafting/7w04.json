@@ -1,6 +1,6 @@
 {
 	"name": "Cobble Breaker",
-	"description": "Crushes raw Slate and extracts Coal. Requires Pressure.",
+	"description": "Crushes raw Slate and extracts Coal.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 130,
@@ -52,7 +52,7 @@ research: 7w01
 	"idleSound": "grinding",
 	"idleSoundVolume": 0.03,
 	"outputLiquids": [
-		{ "liquid": "oil", "amount": 0.05 },
+		{ "liquid": "oil", "amount": 0.075 },
 	],
 	"outputItems": [
 		{ "item": "coal", "amount": 3 },

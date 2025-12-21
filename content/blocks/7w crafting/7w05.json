@@ -1,6 +1,6 @@
 {
 	"name": "Nitrous Decomposer",
-	"description": "Decomposes Pressure into its various gases to extract Nitrogen.",
+	"description": "Decomposes Oil into its various gases to extract Nitrogen.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 200,
@@ -42,7 +42,7 @@
 	"consumes": {
 		"power": 1.4,
     "liquids":  [
-		{"liquid": "oil", "amount": 0.3},
+		{"liquid": "oil", "amount": 0.15},
 		]
 	},
 	"requirements": [
