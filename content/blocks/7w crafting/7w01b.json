@@ -15,7 +15,7 @@
 	"power": 1,
 		"items": {
 			"items": [
-				{"item": "Graphite", "amount": 1}
+				{"item": "graphite", "amount": 1}
 			]
 		},
 		"liquids":  [
