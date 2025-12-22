@@ -19,7 +19,7 @@
 	"spreadTarget": "pressure",
 	"blockReactive": true,
 	"viscosity": 0.9,
-	"heatCapacity": 0.3,
+	"heatCapacity": 0.15,
 	"explosiveness": 0,
 	"temperature": 0.5,
 	"flammability": 0.0,
