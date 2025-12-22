@@ -248,7 +248,7 @@
  }
 	]
 	},
-	"ammoPerShot": 36,
+	"ammoPerShot": 60,
 	"ammoTypes": {
 		"phase-decay": {
 			"type": "BasicBulletType",
@@ -300,6 +300,63 @@
 			"trailChance": 0
 			"trailWidth": 2.0
 			"trailLength": 16
+		},
+				"shell": {
+			"type": "BasicBulletType",
+			"damage": 4125,
+			"shrinkX": 0.7
+			"shrinkY": -3
+			"ammoMultiplier": 1,
+			"drawsize": 380
+			"width": 15,
+			"height": 25,
+			"reloadMultiplier": 1
+			"smokeEffect": "shootBigSmoke"
+			"despawnEffect": {
+"type": "WaveEffect"
+"lifetime": 10
+"strokeFrom": 4
+"sizeTo": 60
+"colorFrom": "626f9b",
+"colorTo": "3c3c4f"
+}
+			"smokeEffect": {
+"type": "ParticleEffect"
+"particles": 3
+"length": -60
+"lifetime": 80
+"interp": circleOut
+"cone": 20
+"sizeFrom": 8
+"sizeTo": 1
+"colorFrom": "626f9b",
+"colorTo": "3c3c4f"
+}
+			"lifetime": 60,
+			"speed": 60,
+			"pierce": true,
+			"pierceCap": 180
+			"drag": 0.004
+			"pierceBuilding": true
+			"buildingDamageMultiplier": 0.03
+			"hitAir": true
+			"drawSize": 300
+			"lightning": 3,
+			"lightningDamage": 3,
+			"lightningCone": 360,
+			"lightningLengthRand": 5,
+			"lightningLength": 5,
+			"hitShake": 3
+			"trailColor": 626f9b
+			"trailEffect": colorSpark
+			"trailRotation": true
+			"trailInterval": 4
+			"trailChance": -1
+			"trailWidth": 2.0
+			"trailLength": 42
+			"frontColor": ffffff
+			"backColor": 626f9b
+			"hittable": false
 		},
 	},
 	"requirements": [
