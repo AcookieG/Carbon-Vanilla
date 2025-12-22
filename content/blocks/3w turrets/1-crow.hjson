@@ -1,6 +1,6 @@
 {
 	"name": "Atlas",
-	"description": "An extremely precise long-range turret. This is why a group of Crows is called a murder. Anti-Material.",
+	"description": "An extremely precise long-range turret. This is why a group of Crows is called a murder. Has anti-material, anti-personel and airstrike capabilities.",
 	"type": "ItemTurret",
 	"squareSprite": false,
 	"health": 5300,
@@ -253,7 +253,7 @@
 		"phase-decay": {
 			"type": "BasicBulletType",
 			"damage": 2350,
-			"ammoMultiplier": 1,
+			"ammoMultiplier": 1.2,
 			"drawsize": 380
 			"width": 7,
 			"height": 25,
@@ -303,15 +303,67 @@
 		},
 				"shell": {
 			"type": "BasicBulletType",
-			"damage": 4125,
+			"damage": 10500,
 			"shrinkX": 0.7
 			"shrinkY": -3
 			"ammoMultiplier": 1,
 			"drawsize": 380
 			"width": 15,
 			"height": 25,
-			"reloadMultiplier": 1
-			"smokeEffect": "shootBigSmoke"
+			"reloadMultiplier": 1.2
+			"smokeEffect": {
+"type": "multiEffect",
+"effects": [
+{
+"type": "ParticleEffect",
+"particles": 8,
+"length": 140,
+"lifetime": 180,
+"line": true,
+"cone": 3,
+"sizeFrom": 10,
+"sizeTo": 2,
+"colorFrom": "6e7080",
+"colorTo": "ffcd66"
+},
+{
+"type": "ParticleEffect",
+"particles": 60,
+"length": 2000,
+"lifetime": 200,
+"interp": "circleOut",
+"cone": 0.5,
+"sizeFrom": 8,
+"sizeTo": 2,
+"colorFrom": "4a4b53",
+"colorTo": "ffcd66"
+},
+{
+"type": "ParticleEffect",
+"particles": 18,
+"length": 70,
+"lifetime": 65,
+"line": true,
+"cone": 7,
+"sizeFrom": 10,
+"sizeTo": 2,
+"colorFrom": "6e7080",
+"colorTo": "ffcd66"
+},
+{
+"type": "ParticleEffect",
+"particles": 40,
+"length": 800,
+"lifetime": 60,
+"interp": "circleOut",
+"cone": 1,
+"sizeFrom": 8,
+"sizeTo": 2,
+"colorFrom": "4a4b53",
+"colorTo": "ffcd66"
+},
+]
+}
 			"despawnEffect": {
 "type": "WaveEffect"
 "lifetime": 10
@@ -347,6 +399,58 @@
 			"lightningLengthRand": 5,
 			"lightningLength": 5,
 			"hitShake": 3
+			"trailColor": 626f9b
+			"trailEffect": colorSpark
+			"trailRotation": true
+			"trailInterval": 4
+			"trailChance": -1
+			"trailWidth": 2.0
+			"trailLength": 42
+			"frontColor": ffffff
+			"backColor": 626f9b
+			"hittable": false
+		},
+		"chip": {
+			"type": "PointLaserBulletType",
+			"damage": 3750,
+			"shrinkX": 0.7
+			"shrinkY": -12
+			"ammoMultiplier": 1,
+			"drawsize": 380
+			"width": 15,
+			"height": 25,
+			"reloadMultiplier": 0.7
+			"smokeEffect": "shootBigSmoke"
+			"despawnEffect": {
+"type": "WaveEffect"
+"lifetime": 10
+"strokeFrom": 4
+"sizeTo": 60
+"colorFrom": "626f9b",
+"colorTo": "3c3c4f"
+}
+			"smokeEffect": {
+"type": "ParticleEffect"
+"particles": 3
+"length": -60
+"lifetime": 80
+"interp": circleOut
+"cone": 20
+"sizeFrom": 8
+"sizeTo": 1
+"colorFrom": "626f9b",
+"colorTo": "3c3c4f"
+}
+			"lifetime": 60,
+			"speed": 60,
+			"pierce": true,
+			"pierceCap": 180
+			"drag": 0.004
+			"pierceBuilding": true
+			"buildingDamageMultiplier": 0.03
+			"hitAir": true
+			"drawSize": 300
+			"hitShake": 12
 			"trailColor": 626f9b
 			"trailEffect": colorSpark
 			"trailRotation": true
