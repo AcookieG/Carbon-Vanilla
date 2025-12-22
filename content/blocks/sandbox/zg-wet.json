@@ -1,19 +1,20 @@
 {
-	"name": "Subranon",
-	"description": "High pierce...",
-	"type": "ItemTurret",
-	"health": 2870,
-	"size": 4,
+	"name": "Hanako (Swimsuit)",
+	"type": "powerTurret",
+	"health": 999999,
+	"size": 2,
 	"reload": 1,
 	"shake": 0,
-	"range": 12600,
-	"shootSound": "splash",
-	"restitution": 0.1,
-	"targetAir": true
-	"targetGround": true
-	"shootCone": 15,
-	"hasLiquids": false,
-	"hasItems": true
+	"recoil": 0,
+	"range": 1000,
+	"ammoUseEffect": none,
+	"shootSound": none,
+	"restitution": 0.01,
+	"cooldownTime": 50,
+	"shootCone": 360,
+	"spread": 0,
+	"rotateSpeed": 25,
+	"hasPower": true
 	"maxAmmo": 120
 	"inaccuracy": 3,
 	"extinguish": true
@@ -24,13 +25,12 @@
 		"spread": 0.01,
 	},
 	"velocityRnd": 0.5,
-	"ammoTypes": {
-		"graphite": {
+	"shootType": {
 			"type": "LiquidBulletType",
 			"orbSize": 12,
 			"liquid": "water"
 			"collideAir": true
-			"damage": 0.1,
+			"damage": 1,
 			"lifetime": 200,
 			"shootEffect": "shootBigSmoke",
 			"speed": 20.2,
@@ -49,14 +49,10 @@
 			"collidesAir": true
 			"collidesGround": true
 			"collidesTiles": true
-		}
 	}
 	"requirements": [
-		{ "item": "titanium", "amount": 775 },
-		{ "item": "metaglass", "amount": 360 },
-		{ "item": "plastanium", "amount": 210 },
-		{ "item": "phase-fabric", "amount": 130 },
+		{ "item": "sand", "amount": 1 },
 	],
-	"category": "turret",
-	"research": "tsunami"
+	"category": "logic",
+	"research": "zg-items"
 }
