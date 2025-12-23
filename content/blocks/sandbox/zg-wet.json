@@ -33,7 +33,7 @@
 			"damage": 1,
 			"lifetime": 200,
 			"shootEffect": "shootBigSmoke",
-			"speed": 20.2,
+			"speed": 60,
 			"knockback": -2,
 			"ammoMultiplier": 1,
 			"status": "wet"
