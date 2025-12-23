@@ -7,7 +7,7 @@
 	"reload": 1,
 	"shake": 0,
 	"recoil": 0,
-	"range": 1000,
+	"range": 800,
 	"ammoUseEffect": none,
 	"shootSound": none,
 	"restitution": 0.01,
