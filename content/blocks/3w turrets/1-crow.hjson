@@ -5,7 +5,7 @@
 	"squareSprite": false,
 	"health": 5300,
 	"size": 5,
-	"reload": 400,
+	"reload": 480,
 	"maxAmmo": 112,
 	"shake": 15,
 	"recoil": 6,
@@ -29,7 +29,7 @@
 		"amount": 1.5
 		}
 	},
-	"coolantMultiplier": 0.5
+	"coolantMultiplier": 0.3
 	"shootEffect": {
 "type": "multiEffect",
 "effects": [
@@ -368,10 +368,10 @@
 	},
 	"requirements": [
 		{ "item": "copper", "amount": 1200 },
-		{ "item": "titanium", "amount": 750 },
+		{ "item": "dense", "amount": 750 },
 		{ "item": "phase-decay", "amount": 300 },
-		{ "item": "surge-alloy", "amount": 480 },
-		{ "item": "metaglass", "amount": 560 }
+		{ "item": "cicuit", "amount": 480 },
+		{ "item": "flex", "amount": 560 }
 	],
 	"category": "turret",
 	"research": "z1raptor"
