@@ -279,8 +279,8 @@
 "colorFrom": "6e7080",
 "colorTo": "ffcd66"
 }
-			"lifetime": 80,
-			"speed": 36,
+			"lifetime": 94,
+			"speed": 30,
 			"pierce": true,
 			"pierceCap": 70
 			"pierceBuilding": true
@@ -300,8 +300,6 @@
 			"trailChance": 0
 			"trailWidth": 2.0
 			"trailLength": 16
-			homingPower: 0.003
-			homingRange: 70
 		},
 		"shell": {
 			"type": "BasicBulletType",
@@ -333,8 +331,8 @@
 "colorFrom": "626f9b",
 "colorTo": "3c3c4f"
 }
-			"lifetime": 60,
-			"speed": 60,
+			"lifetime": 70,
+			"speed": 40,
 			"pierce": true,
 			"pierceCap": 180
 			"drag": 0.004
@@ -358,8 +356,6 @@
 			"frontColor": ffffff
 			"backColor": 626f9b
 			"hittable": false
-			homingPower: 0.003
-			homingRange: 70
 		},
 		"chip": {
 			"type": "BasicBulletType",
