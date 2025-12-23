@@ -362,38 +362,8 @@
 			homingRange: 70
 		},
 		"chip": {
-			"type": "RailBulletType",
-			"damage": 3750,
-			"shrinkX": 0.7
-			"shrinkY": -12
-			"ammoMultiplier": 1,
-			"drawsize": 380,
-			"length": 2800,
-			"reloadMultiplier": 0.7
-			"smokeEffect": "shootBigSmoke"
-			"despawnEffect": {
-"type": "WaveEffect"
-"lifetime": 10
-"strokeFrom": 4
-"sizeTo": 60
-"colorFrom": "626f9b",
-"colorTo": "3c3c4f"
-}
-"hitEffect": {
-"type": "RadialEffect"
-"rotationSpacing": 180
-"amount": 4
-effect: instTrail
-}
-			"lifetime": 60,
-			"buildingDamageMultiplier": 0.03
-			"hitAir": true
-			"drawSize": 300
-			"hitShake": 12
-			"frontColor": ffffff
-			"backColor": 626f9b
-			"hittable": false
-		}
+			"type": "BasicBulletType",
+			"spawnUnit": "zutomayo-missile"
 	},
 	"requirements": [
 		{ "item": "copper", "amount": 1200 },
