@@ -301,7 +301,7 @@
 			"trailWidth": 2.0
 			"trailLength": 16
 		},
-				"shell": {
+		"shell": {
 			"type": "BasicBulletType",
 			"damage": 10500,
 			"shrinkX": 0.7
@@ -311,59 +311,6 @@
 			"width": 15,
 			"height": 25,
 			"reloadMultiplier": 1.2
-			"smokeEffect": {
-"type": "multiEffect",
-"effects": [
-{
-"type": "ParticleEffect",
-"particles": 8,
-"length": 140,
-"lifetime": 180,
-"line": true,
-"cone": 3,
-"sizeFrom": 10,
-"sizeTo": 2,
-"colorFrom": "6e7080",
-"colorTo": "ffcd66"
-},
-{
-"type": "ParticleEffect",
-"particles": 60,
-"length": 2000,
-"lifetime": 200,
-"interp": "circleOut",
-"cone": 0.5,
-"sizeFrom": 8,
-"sizeTo": 2,
-"colorFrom": "4a4b53",
-"colorTo": "ffcd66"
-},
-{
-"type": "ParticleEffect",
-"particles": 18,
-"length": 70,
-"lifetime": 65,
-"line": true,
-"cone": 7,
-"sizeFrom": 10,
-"sizeTo": 2,
-"colorFrom": "6e7080",
-"colorTo": "ffcd66"
-},
-{
-"type": "ParticleEffect",
-"particles": 40,
-"length": 800,
-"lifetime": 60,
-"interp": "circleOut",
-"cone": 1,
-"sizeFrom": 8,
-"sizeTo": 2,
-"colorFrom": "4a4b53",
-"colorTo": "ffcd66"
-},
-]
-}
 			"despawnEffect": {
 "type": "WaveEffect"
 "lifetime": 10
@@ -442,8 +389,7 @@ effect: instTrail
 			"frontColor": ffffff
 			"backColor": 626f9b
 			"hittable": false
-			}
-		},
+		}
 	},
 	"requirements": [
 		{ "item": "copper", "amount": 1200 },
