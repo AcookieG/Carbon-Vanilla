@@ -364,6 +364,7 @@
 		"chip": {
 			"type": "BasicBulletType",
 			"spawnUnit": "zutomayo-missile"
+		}
 	},
 	"requirements": [
 		{ "item": "copper", "amount": 1200 },
