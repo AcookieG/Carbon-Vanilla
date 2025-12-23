@@ -402,7 +402,7 @@
 			"trailColor": 626f9b
 			"trailEffect": colorSpark
 			"trailRotation": true
-			"trailInterval": 4
+			"trailInterval": 1
 			"trailChance": -1
 			"trailWidth": 2.0
 			"trailLength": 42
@@ -411,14 +411,13 @@
 			"hittable": false
 		},
 		"chip": {
-			"type": "PointLaserBulletType",
+			"type": "RailBulletType",
 			"damage": 3750,
 			"shrinkX": 0.7
 			"shrinkY": -12
 			"ammoMultiplier": 1,
-			"drawsize": 380
-			"width": 15,
-			"height": 25,
+			"drawsize": 380,
+			"length": 2800,
 			"reloadMultiplier": 0.7
 			"smokeEffect": "shootBigSmoke"
 			"despawnEffect": {
@@ -442,25 +441,33 @@
 "colorTo": "3c3c4f"
 }
 			"lifetime": 60,
-			"speed": 60,
-			"pierce": true,
-			"pierceCap": 180
-			"drag": 0.004
-			"pierceBuilding": true
 			"buildingDamageMultiplier": 0.03
 			"hitAir": true
 			"drawSize": 300
 			"hitShake": 12
-			"trailColor": 626f9b
-			"trailEffect": colorSpark
-			"trailRotation": true
-			"trailInterval": 4
-			"trailChance": -1
-			"trailWidth": 2.0
-			"trailLength": 42
 			"frontColor": ffffff
 			"backColor": 626f9b
 			"hittable": false
+			"intervalBullets": 1,
+			"intervalRandomSpread": 360,
+			"bulletInterval": 1,
+			"intervalBullet": {
+				"type": "BasicBulletType",
+				"colorFrom": "f4f4f4",
+				"colorMid": "d3d9e8",
+				"colorTo": "c1c3d4",
+				"damage": 0,
+				"width": 20,
+				"height": 20,
+				"lifetime": 20
+				"speed": -6
+				"drawSize": 250
+				"despawnShake": 0.1
+				"hitSound": explosionBig,
+				collidesAir: false,
+        collidesGround: false,
+        collidesTiles: false,
+			}
 		},
 	},
 	"requirements": [
