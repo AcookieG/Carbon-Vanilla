@@ -3,7 +3,6 @@
 	"description": 
 '''
 A massive building to transform heat into something usefull. Not much safer than the normal heat relay. 
-Gives 25% extra Supercritical Goop.
 Conducts power.
 [blue]Requires [yellow]"only"[] 4 Heat chargers to run at 100% speed, but can go all the way to 40 for 1000% efficiency.[]
 [red]Its power consumption makes it a very suitable candidate for power plants.[]
@@ -114,7 +113,7 @@ Conducts power.
 	"ambientSoundVolume": 2,
 	"outputLiquid": {
 		"liquid": "metal",
-		"amount": 3.3333334
+		"amount": 3.5
 	},
 	"craftTime": 1,
 }
