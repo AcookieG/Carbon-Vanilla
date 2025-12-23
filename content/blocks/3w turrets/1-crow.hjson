@@ -428,17 +428,11 @@
 "colorFrom": "626f9b",
 "colorTo": "3c3c4f"
 }
-			"smokeEffect": {
-"type": "ParticleEffect"
-"particles": 3
-"length": -60
-"lifetime": 80
-"interp": circleOut
-"cone": 20
-"sizeFrom": 8
-"sizeTo": 1
-"colorFrom": "626f9b",
-"colorTo": "3c3c4f"
+"hitEffect": {
+"type": "RadialEffect"
+"rotationSpacing": 180
+"amount": 4
+effect: instTrail
 }
 			"lifetime": 60,
 			"buildingDamageMultiplier": 0.03
@@ -448,25 +442,6 @@
 			"frontColor": ffffff
 			"backColor": 626f9b
 			"hittable": false
-			"intervalBullets": 1,
-			"intervalRandomSpread": 360,
-			"bulletInterval": 1,
-			"intervalBullet": {
-				"type": "BasicBulletType",
-				"colorFrom": "f4f4f4",
-				"colorMid": "d3d9e8",
-				"colorTo": "c1c3d4",
-				"damage": 0,
-				"width": 20,
-				"height": 20,
-				"lifetime": 20
-				"speed": -6
-				"drawSize": 250
-				"despawnShake": 0.1
-				"hitSound": explosionBig,
-				collidesAir: false,
-        collidesGround: false,
-        collidesTiles: false,
 			}
 		},
 	},
