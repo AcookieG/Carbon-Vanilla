@@ -31,7 +31,7 @@
 			"liquid": "water"
 			"collideAir": true
 			"damage": 1,
-			"lifetime": 200,
+			"lifetime": 60,
 			"shootEffect": "shootBigSmoke",
 			"speed": 60,
 			"knockback": -2,
