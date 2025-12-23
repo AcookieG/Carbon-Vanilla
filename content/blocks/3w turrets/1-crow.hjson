@@ -6,7 +6,7 @@
 	"health": 5300,
 	"size": 5,
 	"reload": 300,
-	"maxAmmo": 72,
+	"maxAmmo": 100,
 	"shake": 15,
 	"recoil": 6,
 	"range": 2800,
@@ -300,6 +300,8 @@
 			"trailChance": 0
 			"trailWidth": 2.0
 			"trailLength": 16
+			homingPower: 0.001
+			homingRange: 70
 		},
 		"shell": {
 			"type": "BasicBulletType",
@@ -337,11 +339,11 @@
 			"pierceCap": 180
 			"drag": 0.004
 			"pierceBuilding": true
-			"buildingDamageMultiplier": 0.03
+			"buildingDamageMultiplier": 0.01
 			"hitAir": true
 			"drawSize": 300
 			"lightning": 3,
-			"lightningDamage": 3,
+			"lightningDamage": 12,
 			"lightningCone": 360,
 			"lightningLengthRand": 5,
 			"lightningLength": 5,
@@ -356,6 +358,8 @@
 			"frontColor": ffffff
 			"backColor": 626f9b
 			"hittable": false
+			homingPower: 0.001
+			homingRange: 70
 		},
 		"chip": {
 			"type": "RailBulletType",
