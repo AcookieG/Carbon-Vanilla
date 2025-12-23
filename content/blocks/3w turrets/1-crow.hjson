@@ -370,7 +370,7 @@
 		{ "item": "copper", "amount": 1200 },
 		{ "item": "dense", "amount": 750 },
 		{ "item": "phase-decay", "amount": 300 },
-		{ "item": "cicuit", "amount": 480 },
+		{ "item": "circuit", "amount": 480 },
 		{ "item": "flex", "amount": 560 }
 	],
 	"category": "turret",
