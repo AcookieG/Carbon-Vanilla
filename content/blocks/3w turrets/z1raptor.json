@@ -39,7 +39,7 @@
 				"damage": 22,
 				"VelMin": 0.3,
 				"VelMax": 4.9,
-				"lifetime": 15,
+				"lifetime": 24,
 			},
 		},
 		"thorium": {
