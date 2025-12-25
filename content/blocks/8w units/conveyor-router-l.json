@@ -2,8 +2,8 @@
 	"name": "Large Payload Conveyor",
 	"description": "Carries larger payloads at faster speeds.",
 	"type": "PayloadRouter"
-	"size": 5,
-	"payloadLimit": 5,
+	"size": 6,
+	"payloadLimit": 9,
 	"category": "units",
 	"research": "conveyor-l",
 	"requirements": [
