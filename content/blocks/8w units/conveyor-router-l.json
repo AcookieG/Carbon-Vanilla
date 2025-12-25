@@ -5,7 +5,7 @@
 	"size": 5,
 	"payloadLimit": 5,
 	"category": "units",
-	"research": "payload-conveyor",
+	"research": "conveyor-l",
 	"requirements": [
 		{ "item": "titanium", "amount": 20 },
 		{ "item": "carbon-fiber", "amount": 20 },
