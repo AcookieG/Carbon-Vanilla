@@ -5,28 +5,27 @@
 	"size": 3,
 	"health": 230,
 	"liquidCapacity": 10,
-	"itemCapacity": 10,
+	"itemCapacity": 15,
 	"hasLiquids": true,
-	"hasPower": true,
+	"hasPower": false,
 	"hasItems": true,
 	"updateEffect": "pulverizeMedium",
 	"craftEffect": "steam",
 	"consumes": {
-	"power": 1,
 		"items": {
 			"items": [
-				{"item": "graphite", "amount": 1}
+				{"item": "graphite", "amount": 2}
 			]
 		},
 		"liquids":  [
-		{"liquid": "water", "amount": 0.5},
+		{"liquid": "water", "amount": 0.4},
 		]
 	},
 	"requirements": [
-		{ "item": "dense", "amount": 40 },
-		{ "item": "carbon-fiber", "amount": 30 },
-		{ "item": "sand", "amount": 150 },
-		{ "item": "graphite", "amount": 110 },
+		{ "item": "slate", "amount": 40 },
+		{ "item": "copper", "amount": 50 },
+		{ "item": "plastanium", "amount": 25 },
+		{ "item": "graphite", "amount": 60 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -55,10 +54,9 @@
 	"rotate": false
 research: 7w01
 "outputItems": [
-		{ "item": "slate", "amount": 2 },
+		{ "item": "slate", "amount": 5 },
 	],
 	"idleSound": "grinding",
 	"craftTime": 24,
 	"squareSprite": false,
-			"conductivePower": true
 }

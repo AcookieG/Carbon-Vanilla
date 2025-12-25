@@ -13,20 +13,20 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "graphite", "amount": 3}
+				{"item": "graphite", "amount": 2}
 			]
 		},
 	},
 	"requirements": [
-		{ "item": "scrap", "amount": 12 },
-		{ "item": "sand", "amount": 40 },
+		{ "item": "copper", "amount": 40 },
+		{ "item": "lead", "amount": 24 },
 	],
 	"category": "crafting",
 	"rotate": false
 	"research": "9w01",
 	"idleSound": "grinding",
 	"outputItems": [
-		{ "item": "slate", "amount": 3 },
+		{ "item": "slate", "amount": 4 },
 	],
 	"craftTime": 150,
 	"squareSprite": false,

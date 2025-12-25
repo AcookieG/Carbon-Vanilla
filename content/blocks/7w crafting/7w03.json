@@ -5,23 +5,17 @@
 	"size": 2,
 	"health": 110,
 	"itemCapacity": 10,
-	"hasLiquids": true,
+	"hasLiquids": false,
 	"hasPower": true,
 	"hasItems": true,
 	"updateEffect": "smeltsmoke",
 	"craftEffect": "none",
-	"liquidCapacity": 20,
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
 			{
 				"type": "DrawRegion"
 				"suffix": "-bottom"
-			},
-			{
-				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
-				"padding": 2
 			},
 			{
 				"type": "DrawRegion"
@@ -36,13 +30,13 @@
 		]
 	},
 	"consumes": {
-		"power": 0.8,
+		"power": 0.4,
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 3}
+				{"item": "copper", "amount": 2},
+				{"item": "sand", "amount": 2}
 			]
 		},
-    "liquid":  {"liquid": "water", "amount": 0.2},
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 30 },
@@ -53,10 +47,8 @@
 	"rotate": false
 	"research": "kiln",
 	"idleSound": "grinding",
-	"outputLiquid": {"liquid": "oil", "amount": 0.1},
 	"outputItems": [
-		{ "item": "scrap", "amount": 1 },
-		{ "item": "iron", "amount": 2 },
+		{ "item": "scrap", "amount": 2 },
 	],
 	"craftTime": 80,
 	"squareSprite": false,

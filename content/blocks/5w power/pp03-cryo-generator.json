@@ -2,7 +2,7 @@
 	"type": "ImpactReactor",
 	"health": 135,
 	"name": "Cryo Generator"
-	"description": "A small but efficient generator, requires hydrogen.",
+	"description": "A small but efficient generator, opposite to hydrolisis.",
 	"size": 2,
 	"lightColor": "FB9957FF",
 	"baseExplosiveness": 0,
@@ -40,7 +40,8 @@
 	"consumes": {
 		"power": 0,
 		"liquids": [
-			"hydrogen/0.1"
+			"H/0.2",
+			"O/0.1",
 		]
 	},
 	"requirements": [
