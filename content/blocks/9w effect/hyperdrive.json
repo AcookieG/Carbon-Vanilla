@@ -13,7 +13,7 @@
     "consumes": { 
         "power": 80,
         "items": {
-			"items": [ {"item": "phase-decay", "amount": 10},{"item": "silicon", "amount": 10} ],
+			"items": [ {"item": "chip", "amount": 10},{"item": "silicon", "amount": 10} ],
 			"booster": true,
 			"optional": true
         } 
@@ -23,7 +23,7 @@
 		{ "item": "lead", "amount": 350 },
 		{ "item": "plastanium", "amount": 190 },
    	{ "item": "dense", "amount": 120 }
-   	{ "item": "thorium", "amount": 280 }
+   	{ "item": "circuit", "amount": 40 }
 	],
 	"category": "effect",
 	"research": "overdrive-projector"
