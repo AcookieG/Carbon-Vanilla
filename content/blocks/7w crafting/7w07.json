@@ -1,6 +1,6 @@
 {
 	"name": "Alloy Foundry",
-	"description": "Cools down superheated Slag into a very dense alloy.",
+	"description": "Cools down superheated Iron into a very dense alloy.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 260,
@@ -42,14 +42,18 @@
 		"power": 1.6,
     "liquids":  [
 		{"liquid": "slag", "amount": 0.2},
-		{"liquid": "water", "amount": 0.5},
 		]
+		"items": {
+			"items": [
+				{"item": "iron", "amount": 2}
+			]
+		},
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 110 },
 		{ "item": "lead", "amount": 120 },
 		{ "item": "graphite", "amount": 80 },
-		{ "item": "iron", "amount": 90 },
+		{ "item": "copper", "amount": 90 },
 	],
 	"outputItems": [
 		{ "item": "dense", "amount": 1 },
@@ -57,7 +61,6 @@
 	"category": "crafting",
 	"research": "7w06",
 	"idleSound": "electricHum",
-	"craftTime": 40,
+	"craftTime": 30,
 	"squareSprite": false,
-	"conductivePower": true
 }

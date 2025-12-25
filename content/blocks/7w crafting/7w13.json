@@ -1,6 +1,6 @@
 {
 	"name": "Discharge Facility",
-	"description": "Repeatedly shoots sharp darts of Phase Decay to turn them into actual Piercing Shells. Produces Nitrous as biproduct.",
+	"description": "Repeatedly shoots sharp darts of Phase Decay to turn them into actual Piercing Shells.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 160,
@@ -38,14 +38,6 @@
 				"drawLiquid": "metal",
 				"padRight": 2,
 				"padLeft": 2,
-				"padTop": 8,
-				"padBottom": 2,
-			},
-			{
-				"type": "DrawLiquidTile",
-				"drawLiquid": "N",
-				"padRight": 2,
-				"padLeft": 8,
 				"padTop": 2,
 				"padBottom": 2,
 			},
@@ -70,18 +62,16 @@
 		},
 	},
 	"requirements": [
-		{ "item": "flex-joint", "amount": 120 },
+		{ "item": "flex-joint", "amount": 60 },
 		{ "item": "dense", "amount": 100 },
-		{ "item": "pyratite", "amount": 180 },
+		{ "item": "phase-decay", "amount": 40 },
 		{ "item": "circuit", "amount": 80 },
 	],
 	"category": "crafting",
 research: 7w15
 	"outputItem":{ "item": "shell", "amount": 1 },
 	"idleSound": "techloop",
-	"outputLiquid": {"liquid": "N", "amount": 0.3},
 	"craftTime": 10,
 	"squareSprite": false,
-	"conductivePower": true
 	liquidOutputDirections: [4,]
 }

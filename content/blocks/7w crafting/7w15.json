@@ -90,5 +90,4 @@
 	"idleSound": "techloop",
 	"craftTime": 300,
 	"squareSprite": false,
-	"conductivePower": true
 }

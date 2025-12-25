@@ -1,6 +1,6 @@
 {
 	"name": "Pressure Metalisis Chamber",
-	"description": "Generates large quantites of Slag through intense heat and pressure, as well as iron.",
+	"description": "Generates large quantites of Iron through intense heat and pressure.",
 	"type": "HeatCrafter"
 	"size": 4,
 	"health": 360,
@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "slag",
+				"drawLiquid": "N",
 				"padding": 4,
 			},
 			{
@@ -47,7 +47,7 @@
 		]
 	"items": {
 			"items": [
-				{"item": "iron", "amount": 2}
+				{"item": "scrap", "amount": 2}
 			]
 		},
 	},
@@ -60,8 +60,9 @@
 	"category": "crafting",
 	"research": "7w05",
 	"idleSound": "torch",
-	"outputLiquid": {"liquid": "slag", "amount": 1},
-	"craftTime": 40,
+	"outputItems": [
+		{ "item": "iron", "amount": 1 },
+	],
+	"craftTime": 60,
 	"squareSprite": false,
-	"conductivePower": true
 }

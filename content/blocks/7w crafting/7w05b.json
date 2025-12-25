@@ -72,6 +72,5 @@ research:7w05
 	"outputLiquids": [{"liquid": "H", "amount": 0.2},{"liquid": "O", "amount": 0.1},]
 	"craftTime": 40,
 	"squareSprite": false,
-	"conductivePower": true
 	liquidOutputDirections: [2,4,]
 }
