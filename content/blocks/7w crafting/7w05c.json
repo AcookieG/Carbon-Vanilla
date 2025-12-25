@@ -89,7 +89,7 @@
 	"requirements": [
 		{ "item": "flex-joint", "amount": 90 },
 		{ "item": "dense", "amount": 60 },
-		{ "item": "thorium", "amount": 180 },
+		{ "item": "plastanium", "amount": 120 },
 		{ "item": "circuit", "amount": 40 },
 	],
 	"category": "crafting",

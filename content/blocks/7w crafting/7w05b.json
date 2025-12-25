@@ -62,8 +62,8 @@
 	},
 	"requirements": [
 		{ "item": "graphite", "amount": 80 },
-		{ "item": "iron", "amount": 60 },
-		{ "item": "copper", "amount": 120 },
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "phase-fabric", "amount": 40 },
 		{ "item": "dense", "amount": 30 },
 	],
 	"category": "crafting",

@@ -52,10 +52,10 @@
 		},
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 40 },
+		{ "item": "silicon", "amount": 160 },
 		{ "item": "lead", "amount": 60 },
-		{ "item": "copper", "amount": 130 },
-		{ "item": "iron", "amount": 160 },
+		{ "item": "titanium", "amount": 130 },
+		{ "item": "metaglass", "amount": 100 },
 	],
 	"category": "crafting",
 	"research": "7w05",

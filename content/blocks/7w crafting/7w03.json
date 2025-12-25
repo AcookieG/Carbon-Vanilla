@@ -39,7 +39,6 @@
 		},
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 30 },
 		{ "item": "lead", "amount": 40 },
 		{ "item": "copper", "amount": 80 },
 	],
@@ -48,7 +47,7 @@
 	"research": "kiln",
 	"idleSound": "grinding",
 	"outputItems": [
-		{ "item": "scrap", "amount": 2 },
+		{ "item": "scrap", "amount": 3 },
 	],
 	"craftTime": 80,
 	"squareSprite": false,

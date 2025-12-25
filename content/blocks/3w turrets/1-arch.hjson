@@ -293,11 +293,11 @@
     }
 	}
 	requirements: [
-		copper/1300
-		titanium/620
-		phase-decay/280
-		surge-alloy/620
-		graphite/820
+		{ "item": "chip", "amount": 45 },
+		{ "item": "circuit", "amount": 80 },
+		{ "item": "phase-decay", "amount": 260 },
+		{ "item": "surge-alloy", "amount": 880 },
+		{ "item": "flex-joint", "amount": 160 },
 	]
 	category: turret
 	research: 1-crow

@@ -49,7 +49,7 @@
 		{ "item": "silicon", "amount": 40 },
 		{ "item": "lead", "amount": 60 },
 		{ "item": "copper", "amount": 120 },
-		{ "item": "iron", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
 	],
 	"category": "crafting",
 	"rotate": false

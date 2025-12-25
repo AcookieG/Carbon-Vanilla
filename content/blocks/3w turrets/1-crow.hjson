@@ -363,11 +363,13 @@
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 1200 },
-		{ "item": "dense", "amount": 750 },
-		{ "item": "phase-decay", "amount": 300 },
-		{ "item": "circuit", "amount": 480 },
-		{ "item": "flex-joint", "amount": 560 }
+		{ "item": "chip", "amount": 95 },
+		{ "item": "circuit", "amount": 120 },
+		{ "item": "phase-decay", "amount": 360 },
+		{ "item": "surge-alloy", "amount": 410 },
+		{ "item": "flex-joint", "amount": 350 },
+		{ "item": "plastanium", "amount": 1210 }, 
+		{ "item": "metaglass", "amount": 11000 }
 	],
 	"category": "turret",
 	"research": "z1raptor"

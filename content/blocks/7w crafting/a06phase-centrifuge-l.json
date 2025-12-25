@@ -58,7 +58,7 @@
 		},
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 70 },
+		{ "item": "circuit", "amount": 70 },
 		{ "item": "titanium", "amount": 90 },
 		{ "item": "metaglass", "amount": 350 },
 		{ "item": "phase-decay", "amount": 30 },

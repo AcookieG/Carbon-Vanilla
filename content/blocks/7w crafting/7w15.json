@@ -79,7 +79,7 @@
 	"requirements": [
 		{ "item": "silicon", "amount": 90 },
 		{ "item": "titanium", "amount": 80 },
-		{ "item": "graphite", "amount": 110 },
+		{ "item": "phase-fabric", "amount": 110 },
 		{ "item": "flex-joint", "amount": 60 },
 	],
 	"outputItems": [

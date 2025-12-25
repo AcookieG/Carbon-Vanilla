@@ -43,12 +43,12 @@ Conducts power.
 	"maxEfficiency": 10
 	"requirements": [
 		{
-			"item": "graphite",
-			"amount": 300
+			"item": "flex-joint",
+			"amount": 50
 		},
 		{
-			"item": "thorium",
-			"amount": 350
+			"item": "chip",
+			"amount": 50
 		},
 		{
 			"item": "plastanium",

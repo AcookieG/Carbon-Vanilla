@@ -22,9 +22,10 @@
 		]
 	},
 	"requirements": [
-		{ "item": "iron", "amount": 60 },
+		{ "item": "dense", "amount": 50 },
 		{ "item": "graphite", "amount": 60 },
-		{ "item": "sand", "amount": 150 },
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "metaglass", "amount": 50 },
 	],
 	"drawer": {
 		"type": "DrawMulti",

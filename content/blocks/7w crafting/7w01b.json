@@ -22,10 +22,9 @@
 		]
 	},
 	"requirements": [
-		{ "item": "slate", "amount": 40 },
+		{ "item": "graphite", "amount": 40 },
 		{ "item": "copper", "amount": 50 },
 		{ "item": "plastanium", "amount": 25 },
-		{ "item": "graphite", "amount": 60 },
 	],
 	"drawer": {
 		"type": "DrawMulti",

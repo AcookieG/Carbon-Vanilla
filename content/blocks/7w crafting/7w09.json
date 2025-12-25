@@ -55,8 +55,8 @@
 	},
 	"requirements": [
 		{ "item": "circuit", "amount": 200 },
-		{ "item": "pyratite", "amount": 80 },
-		{ "item": "copper", "amount": 260 },
+		{ "item": "silicon", "amount": 80 },
+		{ "item": "lead", "amount": 260 },
 		{ "item": "dense", "amount": 160 },
 		{ "item": "flex-joint", "amount": 160 },
 	],

@@ -41,7 +41,7 @@
 		},
 	},
 	"requirements": [
-		{ "item": "iron", "amount": 90 },
+		{ "item": "dense", "amount": 90 },
 		{ "item": "silicon", "amount": 30 },
 		{ "item": "phase-fabric", "amount": 30 },
 	],
