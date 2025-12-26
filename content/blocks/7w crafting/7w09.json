@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "metal",
+				"drawLiquid": "slag",
 				"padding": 4,
 			},
 			{"type": "DrawSoftParticles","y":-8,"x":-8,},
