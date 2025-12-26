@@ -371,7 +371,7 @@
 			collidesGround: true
 			collidesTiles: true
 			lightning: 2
-			lightningDamage: 30
+			lightningDamage: 40
 			lightningCone: 360
 			lightningLengthRand: 5
 			lightningLength: 6
@@ -441,7 +441,7 @@
                 hitSoundVolume: 1.2
                 hitSound: spark
                 buildingDamageMultiplier: 0.4
-                damage: 60
+                damage: 90
                 status: disarmed
                 statusDuration: 720
 			keepVelocity: false

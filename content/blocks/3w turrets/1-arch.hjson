@@ -284,7 +284,7 @@
         lifetime: 1
         hitAir: true
         lightning: 3
-        lightningDamage: 64
+        lightningDamage: 30
         lightningCone: 359
         lightningLengthRand: 3
         lightningLength: 4
