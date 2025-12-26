@@ -41,7 +41,7 @@
 		},
 	},
 	"requirements": [
-		{ "item": "dense", "amount": 90 },
+		{ "item": "plastanium", "amount": 90 },
 		{ "item": "silicon", "amount": 30 },
 		{ "item": "phase-fabric", "amount": 30 },
 	],
@@ -54,5 +54,5 @@
 		"item": "carbon-fiber",
 		"amount": 2
 	},
-	"craftTime": 48,
+	"craftTime": 90,
 }

@@ -10,7 +10,7 @@
 	"hasItems": true,
 	"updateEffect": "steam",
 	"craftEffect": "none",
-	"liquidCapacity": 150,
+	"liquidCapacity": 160,
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
@@ -20,7 +20,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
+				"drawLiquid": "H",
 				"padding": 2
 			},
 			{
@@ -44,13 +44,13 @@
 			]
 		},
                 "liquid": {
-			"liquid": "water",
+			"liquid": "H",
 			"amount": 1.5
 		},
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 90 },
-		{ "item": "titanium", "amount": 130 },
+		{ "item": "plastanium", "amount": 130 },
 		{ "item": "dense", "amount": 30 },
 	],
 	"category": "crafting",
@@ -60,7 +60,7 @@
 	"idleSoundVolume": 0.05,
 	"outputLiquid": {
 		"liquid": "cryofluid",
-		"amount": 1.6
+		"amount": 1.8
 	},
 	"craftTime": 50,
 }

@@ -1,11 +1,11 @@
 {
 	"name": "Carbon Pressoir",
-	"description": "Uses compounds remaining in Plastanium to weave Carbon Fiber. Isn't as good as an actual weaver though.",
+	"description": "Uses the carbon sheets in plastanium to weave Carbon Fiber.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 160,
 	"itemCapacity": 20,
-	"hasLiquids": false,
+	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
 	"updateEffect": "none",
@@ -17,6 +17,11 @@
         "type": "DrawRegion",
         "suffix": "-bottom"
       },
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "O",
+				"padding": 1.25
+			},
       {
         "type": "DrawWeave"
       },
@@ -27,23 +32,26 @@
   },
 	"consumes": {
 		"power": 1.2,
+		"liquids": [
+			"O/0.1",
+		]
 		"items": {
 			"items": [
 				{
 				"item": "plastanium",
-				"amount": 4,
+				"amount": 2,
 				}
 				{
 				"item": "phase-fabric",
-				"amount": 2,
+				"amount": 1,
 				}
 			]
 		},
 	},
 	"requirements": [
-		{ "item": "plastanium", "amount": 90 },
+		{ "item": "dense", "amount": 30 },
 		{ "item": "silicon", "amount": 60 },
-		{ "item": "phase-fabric", "amount": 30 },
+		{ "item": "flex-joint", "amount": 30 },
 	],
 	"category": "crafting",
 	"rotate": false
@@ -54,5 +62,5 @@
 		"item": "carbon-fiber",
 		"amount": 3
 	},
-	"craftTime": 90,
+	"craftTime": 48,
 }
