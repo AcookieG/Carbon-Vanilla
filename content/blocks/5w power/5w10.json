@@ -32,7 +32,7 @@ Consumes fuel and pyratite. Cool it down or it will explode.
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
+				"drawLiquid": "cryofluid",
 				"padding": 3,
 			},
 			{
