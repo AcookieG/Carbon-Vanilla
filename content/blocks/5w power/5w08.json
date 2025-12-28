@@ -15,7 +15,8 @@ Burns coal to produce heat and power.
 	"powerProduction": 1.2,
 	"requirements": [
 		{ "item": "lead", "amount": 60 },
-		{ "item": "iron", "amount": 40 },
+		{ "item": "copper", "amount": 40 },
+		{ "item": "graphite", "amount": 30 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -40,7 +41,7 @@ Burns coal to produce heat and power.
 	"rotate": true
 	"loopSound": "torch",
 research: combustion-generator
-	"itemDuration": 30,
+	"itemDuration": 60,
 	"squareSprite": false,
 	"heatOutput": 4,
 }

@@ -2,9 +2,9 @@
 	"name": "Overheater",
 	"description": 
 '''
-Consumes fuel and pyratite. Cool it down with water or it will explode.
+Consumes fuel and pyratite. Cool it down or it will explode.
 '''
-	"details": "You are faced with two options: keep exploiting expensive and time-consuming resources, or turn to fossil fuels. Your choice."
+	"details": "A burner alternative to nuclear power."
 	"type": "VariableReactor"
 	"size": 3,
 	"health": 110,
@@ -16,7 +16,7 @@ Consumes fuel and pyratite. Cool it down with water or it will explode.
 	"explosionDamage": 90,
 	"explosionShake": 1.5,
 	"itemCapacity": 10,
-	"powerProduction": 30,
+	"powerProduction": 7,
 	"requirements": [
 		{ "item": "dense", "amount": 50 },
 		{ "item": "flex-joint", "amount": 60 },
@@ -51,11 +51,11 @@ Consumes fuel and pyratite. Cool it down with water or it will explode.
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "water", "amount": 0.8},
+			{"liquid": "cryofluid", "amount": 0.2},
 		]
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 1}
+				{"item": "pyratite", "amount": 1}
 			]
 		},
 	},
@@ -66,5 +66,5 @@ Consumes fuel and pyratite. Cool it down with water or it will explode.
 research: 5w09
 	"itemDuration": 90,
 	"squareSprite": false,
-	"maxHeat": 100,
+	"maxHeat": 16,
 }

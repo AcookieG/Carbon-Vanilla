@@ -2,7 +2,7 @@
 	"name": "Cooling chamber",
 	"description": 
 '''
-Produces energy and heat by cooling Pressure down to water.
+Produces energy and heat, also produces pressure as a byproduct.
 '''
 	"type": "HeaterGenerator"
 	"size": 3,
@@ -11,11 +11,12 @@ Produces energy and heat by cooling Pressure down to water.
 	"hasPower": true,
 	"hasItems": false,
 	"itemCapacity": 10,
-	"powerProduction": 6,
+	"powerProduction": 5,
 	"requirements": [
-		{ "item": "dense", "amount": 30 },
-		{ "item": "iron", "amount": 60 },
+		{ "item": "plastanium", "amount": 30 },
+		{ "item": "glass", "amount": 60 },
 		{ "item": "lead", "amount": 80 },
+		{ "item": "thorium", "amount": 30 },
 	],
 	"drawer": {
 		"type": "DrawMulti",
@@ -45,16 +46,21 @@ Produces energy and heat by cooling Pressure down to water.
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "pressure", "amount": 1},
+			{"liquid": "water", "amount": 1},
 		]
+		"items": {
+			"items": [
+				{"item": "pyratite", "amount": 1}
+			]
+		},
 	},
 	"category": "power",
 	"conductivePower": true
 	"rotate": true
 	"loopSound": "hum",
-	"outputLiquid": {"liquid": "water", "amount": 0.5},
+	"outputLiquid": {"liquid": "pressure", "amount": 0.5},
 research: 5w08
 	"itemDuration": 60,
 	"squareSprite": false,
-	"heatOutput": 9,
+	"heatOutput": 8,
 }
