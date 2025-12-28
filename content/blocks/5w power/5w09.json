@@ -14,7 +14,7 @@ Produces energy and heat, also produces pressure as a byproduct.
 	"powerProduction": 5,
 	"requirements": [
 		{ "item": "plastanium", "amount": 30 },
-		{ "item": "glass", "amount": 60 },
+		{ "item": "metaglass", "amount": 60 },
 		{ "item": "lead", "amount": 80 },
 		{ "item": "thorium", "amount": 30 },
 	],
