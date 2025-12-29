@@ -52,11 +52,11 @@ Conducts power.
 	},
 	"requirements": [
 		{
-			"item": "titanium",
-			"amount": 130
+			"item": "circuit",
+			"amount": 25
 		},
 		{
-			"item": "thorium",
+			"item": "flex-joint",
 			"amount": 75
 		},
 		{
@@ -64,7 +64,7 @@ Conducts power.
 			"amount": 150
 		},
 		{
-			"item": "surge-alloy",
+			"item": "phase-fabric",
 			"amount": 120
 		},
 	],

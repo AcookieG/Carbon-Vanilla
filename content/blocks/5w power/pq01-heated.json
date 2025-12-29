@@ -25,20 +25,20 @@
 	"rotate": true
 	"requirements": [
 		{
-			"item": "titanium",
-			"amount": 110
+			"item": "dense",
+			"amount": 30
 		},
 		{
-			"item": "thorium",
-			"amount": 75
+			"item": "flex-joint",
+			"amount": 50
+		},
+		{
+			"item": "silicon",
+			"amount": 150
 		},
 		{
 			"item": "phase-fabric",
-			"amount": 80
-		},
-		{
-			"item": "surge-alloy",
-			"amount": 120
+			"amount": 90
 		},
 	],
 	"drawer": {

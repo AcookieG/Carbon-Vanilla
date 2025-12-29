@@ -9,14 +9,14 @@
 	"maxSpread": 2000,
 	"name": "Still Water",
 	"description": "A byproduct of most oil-based reactors. Will slowly eat away at your base.",
-		"details": "Yet all good things must come to an end."
+		"details": "Let's eradicate Spores once and for all."
 	"coolant": true,
 	"color": "8bbeb0",
 	"colorFrom": "5e988d",
 	"colorTo": "8bbeb0",
 	"gas": false
 	"lightColor": "8bbeb000"
-	"spreadTarget": "pressure",
+	"spreadTarget": "oil",
 	"blockReactive": true,
 	"viscosity": 0.9,
 	"heatCapacity": 0.15,
