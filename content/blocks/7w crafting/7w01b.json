@@ -14,11 +14,11 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "graphite", "amount": 2}
+				{"item": "graphite", "amount": 1}
 			]
 		},
 		"liquids":  [
-		{"liquid": "water", "amount": 0.4},
+		{"liquid": "pressure", "amount": 0.2},
 		]
 	},
 	"requirements": [
@@ -35,7 +35,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
+				"drawLiquid": "pressure",
 				"padding": 5,
 			},
 			{
@@ -53,9 +53,9 @@
 	"rotate": false
 research: 7w01
 "outputItems": [
-		{ "item": "slate", "amount": 5 },
+		{ "item": "slate", "amount": 2 },
 	],
 	"idleSound": "grinding",
-	"craftTime": 24,
+	"craftTime": 30,
 	"squareSprite": false,
 }

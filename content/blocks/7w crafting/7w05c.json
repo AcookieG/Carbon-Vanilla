@@ -84,6 +84,7 @@
 		"power": 8,
     "liquids":  [
 		{"liquid": "oil", "amount": 0.6},
+		{"liquid": "pressure", "amount": 0.5},
 		]
 	},
 	"requirements": [

@@ -28,6 +28,6 @@
 	"outputItems": [
 		{ "item": "slate", "amount": 4 },
 	],
-	"craftTime": 150,
+	"craftTime": 180,
 	"squareSprite": false,
 }
