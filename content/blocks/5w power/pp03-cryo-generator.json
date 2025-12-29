@@ -23,7 +23,11 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "hydrogen",
+				"drawLiquid": "H",
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "O",
 			},
 			{
 				"type": "DrawDefault"
