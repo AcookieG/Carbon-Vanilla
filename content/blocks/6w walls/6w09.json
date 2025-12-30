@@ -6,7 +6,7 @@
 	fogRadiusMultiplier:0
 	"details": "These walls have more than a few thousand microscopic needles embeded into their surface. It's no wonder they are a show of force."
 	"type": "powerTurret",
-	"health": 3230,
+	"health": 1150,
 	"size": 1,
 	"reload": 20,
 	"range": 60,

@@ -48,7 +48,7 @@
 		},
 	},
 	"requirements": [
-		{ "item": "iron", "amount": 80 },
+		{ "item": "dense", "amount": 50 },
 		{ "item": "silicon", "amount": 60 },
 		{ "item": "thorium", "amount": 90 },
 		{ "item": "metaglass", "amount": 60 },

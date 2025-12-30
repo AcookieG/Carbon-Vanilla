@@ -2,7 +2,7 @@
 	"name": "Large Pyro Wall",
 	"description": "A strong yet explosive block. Bigger.",
 	"type": "Wall",
-	"health": 4600,
+	"health": 2400,
 	"size": 2,
 	"requirements": [
 		{ "item": "pyratite", "amount": 24 }

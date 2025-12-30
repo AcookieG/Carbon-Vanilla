@@ -2,7 +2,7 @@
 	"name": "Dense Wall",
 	"description": "The larger standard wall. Strong armor.",
 	"type": "Wall",
-	"health": 3800,
+	"health": 3000,
 	"size": 2,
 	"requirements": [
 		{ "item": "dense", "amount": 24 }

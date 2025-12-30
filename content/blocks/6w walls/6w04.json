@@ -1,7 +1,7 @@
 {
 	"name": "Graphite Wall",
 	"type": "Wall",
-	"health": 3040,
+	"health": 1600,
 	"size": 2,
 	"requirements": [
 		{ "item": "graphite", "amount": 24 }

@@ -285,9 +285,9 @@ trailLength:5.0,
 	},
 	"coolantMultiplier": 10
 	"requirements": [
-		{ "item": "copper", "amount": 110 },
+		{ "item": "copper", "amount": 65 },
 		{ "item": "lead", "amount": 70 },
-		{ "item": "iron", "amount": 90 },
+		{ "item": "silicon", "amount": 45 },
 	],
 	"buildCostMultiplier": 1.75,
 	"category": "turret",
