@@ -2,7 +2,7 @@
 	"name": "Overheater",
 	"description": 
 '''
-Consumes fuel and pyratite. Cool it down or it will explode.
+Consumes fuel and Pyratite. Cool it down or it will explode.
 '''
 	"details": "A burner alternative to nuclear power."
 	"type": "VariableReactor"

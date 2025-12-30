@@ -60,7 +60,7 @@ Produces energy and heat, also produces pressure as a byproduct.
 	"loopSound": "hum",
 	"outputLiquid": {"liquid": "pressure", "amount": 0.5},
 research: 5w08
-	"itemDuration": 60,
+	"itemDuration": 160,
 	"squareSprite": false,
-	"heatOutput": 8,
+	"heatOutput": 12,
 }
