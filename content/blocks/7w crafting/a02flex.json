@@ -1,10 +1,10 @@
 {
 	"name": "Flex Crisscrosser",
-	"description": "Exploits Carbon fiber's properties using Water to get a very strong coupling joint.",
+	"description": "Exploits Carbon fiber's properties using Oxygen to get a very strong coupling joint.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 290,
-	"itemCapacity": 90,
+	"itemCapacity": 96,
 	"liquidCapacity": 30,
 	"hasLiquids": true,
 	"hasPower": true,
