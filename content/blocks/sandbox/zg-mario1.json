@@ -19,7 +19,7 @@
 	"shootType": {
 			"type": "BasicBulletType",
 			"lifetime": 1,
-			"fragBullets": 500,
+			"fragBullets": 5,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 888888,
@@ -29,12 +29,13 @@
 				"shootEffect": none
 				"smokeEffect": none
 				"lifetime": 70,
-				"speed": 80,
+				"speed": 100,
 				"pierce": true,
 				"pierceCap": 50
 				"hitAir": true
 				"homingPower": 10,
-				"homingRange": 200,
+				"homingRange": 2000,
+						"drag": 0.01
 			}
 		},
 	"requirements": [

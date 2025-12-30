@@ -19,7 +19,7 @@
 	"shootType": {
 			"type": "BasicBulletType",
 			"lifetime": 1,
-			"fragBullets": 200,
+			"fragBullets": 5,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 888888,
@@ -34,7 +34,7 @@
 				"pierceCap": 50
 				"hitAir": true
 				"homingPower": 10,
-				"homingRange": 200,
+				"homingRange": 2000,
 			}
 		},
 	"requirements": [
