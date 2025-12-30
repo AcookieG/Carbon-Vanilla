@@ -23,7 +23,6 @@
 	"shake": 2.0,
 	"drawer": {
 	"type": "drawTurret",
-	"basePrefix": "reinforced-"
 			"parts": [
 		{
 		"under": true,

@@ -24,7 +24,6 @@
 	"squareSprite": false,
 	"drawer": {
 	"type": "drawTurret",
-	"basePrefix": "reinforced-"
 			"parts": [
 		{
 		"under": true,

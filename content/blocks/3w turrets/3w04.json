@@ -19,7 +19,6 @@
 	"recoil": 0
 	"drawer": {
 	"type": "drawTurret",
-	"basePrefix": "reinforced-"
 	},
 	"ammoTypes": {
 "water": {
