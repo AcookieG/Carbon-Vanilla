@@ -52,7 +52,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "H",
+				"drawLiquid": "water",
 				"padding": 3,
 			},
 			{
@@ -67,7 +67,7 @@
 	"consumes": {
 		"power": 3,
     "liquids":  [
-		{"liquid": "H", "amount": 1},
+		{"liquid": "water", "amount": 1},
 		]
 		"items": {
 			"items": [

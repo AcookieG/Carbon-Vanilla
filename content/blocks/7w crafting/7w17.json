@@ -1,9 +1,9 @@
 {
-	"name": "Control Chamber",
-	"description": "Presses and melts materials into circuit bords, ready to use in advanced electronics.",
+	"name": "Silicon Engraver",
+	"description": "Uses extreme wavelengths to melt layers of copper onto silicon waffers.",
 	"type": "GenericCrafter"
-	"size": 3,
-	"health": 290,
+	"size": 6,
+	"health": 560,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
@@ -41,7 +41,7 @@
 			sparkColor: ffffffff
 			waveColor: ffffffff
 		}
-	"itemCapacity": 160,
+	"itemCapacity": 200,
 	"liquidCapacity": 40,
 	"drawer": {
 		"type": "DrawMulti",
@@ -52,7 +52,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "H",
+				"drawLiquid": "O",
 				"padding": 3,
 			},
 			{
@@ -65,14 +65,16 @@
 		]
 	},
 	"consumes": {
-		"power": 3,
+		"power": 50,
     "liquids":  [
-		{"liquid": "H", "amount": 1},
+		{"liquid": "O", "amount": 0.5},
+		{"liquid": "H", "amount": 2},
 		]
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 20}
-				{"item": "silicon", "amount": 80}
+				{"item": "copper", "amount": 60}
+				{"item": "waffer", "amount": 20}
+				{"item": "dense", "amount": 100}
 			]
 		},
 	},
@@ -83,11 +85,11 @@
 		{ "item": "flex-joint", "amount": 60 },
 	],
 	"outputItems": [
-		{ "item": "circuit", "amount": 8 },
+		{ "item": "chip", "amount": 1 },
 	],
 	"category": "crafting",
 	"research": "7w07",
 	"idleSound": "techloop",
-	"craftTime": 300,
+	"craftTime": 90,
 	"squareSprite": false,
 }
