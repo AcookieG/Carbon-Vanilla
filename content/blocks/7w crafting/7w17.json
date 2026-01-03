@@ -69,6 +69,7 @@
     "liquids":  [
 		{"liquid": "O", "amount": 0.5},
 		{"liquid": "H", "amount": 2},
+		{"liquid": "metal", "amount": 2},
 		]
 		"items": {
 			"items": [
