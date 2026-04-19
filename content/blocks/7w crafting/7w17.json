@@ -1,29 +1,29 @@
 {
 	"name": "Silicon Engraver",
 	"description": "Uses extreme wavelengths to melt layers of copper onto silicon waffers.",
-	"type": "GenericCrafter"
+	"type": "GenericCrafter",
 	"size": 6,
 	"health": 560,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": true,
 	"updateEffect": {
-			type: ExplosionEffect
-			lifetime: 30
-			waveRad: 0
-			waveLife: 1
-			waveStroke: 0
-			smokeColor: ffffff00
-			smokeSize: 0
-			smokes: 0
-			smokeRad: 0
-			sparks: 2
-			sparkRad: 12
-			sparkStroke: 1
-			sparkLen: 2
-			sparkColor: ffffffff
-			waveColor: ffffff00
-			}
+			type: ExplosionEffect,
+			lifetime: 30,
+			waveRad: 0,
+			waveLife: 1,
+			waveStroke: 0,
+			smokeColor: ffffff00,
+			smokeSize: 0,
+			smokes: 0,
+			smokeRad: 0,
+			sparks: 2,
+			sparkRad: 12,
+			sparkStroke: 1,
+			sparkLen: 2,
+			sparkColor: ffffffff,
+			waveColor: ffffff00,
+			},
 	"craftEffect": {
 			type: ExplosionEffect
 			lifetime: 30
@@ -33,14 +33,14 @@
 			smokeColor: ffffff00
 			smokeSize: 0
 			smokes: 0
-			smokeRad: 0
-			sparks: 8
-			sparkRad: 34
-			sparkStroke: 3.5
-			sparkLen: 9
-			sparkColor: ffffffff
-			waveColor: ffffffff
-		}
+			smokeRad: 0,
+			sparks: 8,
+			sparkRad: 34,
+			sparkStroke: 3.5,
+			sparkLen: 9,
+			sparkColor: ffffffff,
+			waveColor: ffffffff,
+		},
 	"itemCapacity": 200,
 	"liquidCapacity": 40,
 	"drawer": {
@@ -74,7 +74,7 @@
 		"items": {
 			"items": [
 				{"item": "copper", "amount": 60}
-				{"item": "waffer", "amount": 20}
+				{"item": "lead", "amount": 20}
 				{"item": "dense", "amount": 100}
 			]
 		},
