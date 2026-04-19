@@ -58,7 +58,7 @@
 	],
 	"category": "crafting",
 	"rotate": false
-	"research": "a01-weaver",
+	"research": "a01weaver",
 	"idleSound": "techloop",
 	"outputItem": {
 		"item": "flex-joint",
