@@ -11,7 +11,7 @@
 		{"item": "graphite", "amount": 800},
 		{"item": "slate", "amount": 200}
 	]
-"research":  "shard",
+"research": "coreShard",
 	"category": "effect",
 	"unitType": "11w01"
 	"squareSprite": false,
