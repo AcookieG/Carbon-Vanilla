@@ -17,7 +17,7 @@ missileAccelTime: 120
 engineOffset: 20
 engineSize: 2
 drawCell: false
-engineColor: FFFFffff
+engineColor: ffffffff
 outlineColor: 00000000
 maxRange: 100
 trailLength: 1
