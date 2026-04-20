@@ -26,6 +26,6 @@
       "amount": 15
     }
   ],
-  "research": "pp00-reader"
+  "research": "battery"
 	"consumes": { "powerBuffered": 50 },
 }
