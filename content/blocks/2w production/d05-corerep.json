@@ -23,5 +23,5 @@
 		{ "item": "silicon", "amount": 120 },
 	],
 	"category": "production",
-	"research": "coremine2"
+	"research": "sand-drill"
 }

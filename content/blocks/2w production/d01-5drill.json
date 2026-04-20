@@ -25,5 +25,5 @@
 		{ "item": "graphite", "amount": 90 }
 	],
 	"category": "production",
-	"research": "airblast-drill"
+	"research": "airblastDrill"
 }

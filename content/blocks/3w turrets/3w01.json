@@ -272,5 +272,5 @@ trailLength:8.0,
 	],
 	"buildCostMultiplier": 2.0,
 	"category": "turret",
-	"research": "3w00"
+	"research": "duo"
 }
