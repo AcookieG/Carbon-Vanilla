@@ -1,8 +1,8 @@
 {
 	"type": "HeaterGenerator",
 	"health": 350,
-	"name": "Heat Charger"
-	"description": 
+	"name": "Heat Charger",
+	"description":
 '''
 A building that has the task of transforming Supercritical Goop into actual heat.
 The most powerfull power source when running at full speed, similar to an Impact reactor, except on a much larger scale.
@@ -19,21 +19,21 @@ Conducts power.
 	"hasLiquids": true,
 	"hasItems": false,
 	"powerProduction": 50,
-	"heatOutput": 48
+	"heatOutput": 48,
 	"warmupSpeed": 0.7,
 	"itemDuration": 1,
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
 			{
-				"type": "DrawRegion"
-				"suffix": "-bottom"
+				"type": "DrawRegion",
+				"suffix": "-bottom",
 			},
 			{
-				"type": "DrawRegion"
-				"suffix": "-fan1"
-				"spinSprite": true
-				"rotateSpeed": 35
+				"type": "DrawRegion",
+				"suffix": "-fan1",
+				"spinSprite": true,
+				"rotateSpeed": 35,
 				"rotation": 0
 			},
 			{

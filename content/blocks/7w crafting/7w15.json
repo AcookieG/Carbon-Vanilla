@@ -1,6 +1,6 @@
 {
 	"name": "Control Chamber",
-	"description": "Presses and melts materials into circuit bords, ready to use in advanced electronics.",
+	"description": "Presses and melts materials into circuit boards, ready to use in advanced electronics.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 290,
