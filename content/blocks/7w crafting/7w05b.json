@@ -1,13 +1,14 @@
 {
 	"name": "Hydrolisis Chamber",
 	"description": "Explodes Water.",
-	"type": "GenericCrafter"
+	"type": "HeatProducer"
 	"size": 2,
 	"health": 200,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
 	"updateEffect": none
+	"heatOutput": 0
 	"craftEffect": {
 			type: ExplosionEffect
 			lifetime: 30
@@ -71,9 +72,6 @@
 	],
 	"category": "crafting",
 research:7w05
-	rotate: true
-    invertFlip: true
-    regionRotated1: 3
 	"idleSound": "windhowl",
 	"outputLiquids": [{"liquid": "H", "amount": 0.2},{"liquid": "O", "amount": 0.1},],
 	"craftTime": 40,
