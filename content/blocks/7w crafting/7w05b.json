@@ -49,6 +49,9 @@
 				"type": "DrawDefault",
 			},
 			{
+				"type": "DrawLiquidOutputs",
+			},
+			{
 				"type": "DrawGlowRegion",
 				"color": d1efff
 			},
@@ -69,8 +72,8 @@
 	"category": "crafting",
 research:7w05
 	"idleSound": "windhowl",
-	"outputLiquids": [{"liquid": "H", "amount": 0.2},{"liquid": "O", "amount": 0.1},]
+	"outputLiquids": [{"liquid": "H", "amount": 0.2},{"liquid": "O", "amount": 0.1},],
 	"craftTime": 40,
-	"squareSprite": false,
+	"rotate": true,
 	liquidOutputDirections: [2,4,]
 }
