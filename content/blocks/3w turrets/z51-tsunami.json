@@ -22,7 +22,6 @@
 		"spread": 0,
 		"shotDelay": 18,
 	},
-	},
 	"drawer": {
 	"type": "drawTurret",
 	"parts": [
