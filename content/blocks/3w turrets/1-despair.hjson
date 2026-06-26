@@ -450,7 +450,7 @@
 			collidesGround: true
 			collidesTiles: true
 			lightning: 2
-			lightningDamage: 45
+			lightningDamage: 36
 			lightningCone: 360
 			lightningLengthRand: 6
 			lightningLength: 6

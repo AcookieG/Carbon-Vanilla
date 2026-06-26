@@ -12,7 +12,7 @@
     "requirements": [
 		{ "item": "copper", "amount": 1 },
     ],
-	"category": "effect",
+	"category": "logic",
 	"rotate": false
 	"research": "sand",
 	"idleSound": "none",
