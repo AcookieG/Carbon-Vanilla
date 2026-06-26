@@ -59,7 +59,7 @@
 		"outline": false,
 		"suffix": "-core",
 		"mirror": false,
-		"moveY": -3,
+		"moveY": -2,
 		"moveX": 0,
 		"moveRot": 0,
 		}
@@ -75,7 +75,7 @@
 		"outline": false,
 		"suffix": "-arrow",
 		"mirror": false,
-		"moveY": -3,
+		"moveY": -2,
 		"moveX": 0,
 		"moveRot": 0,
 		}
