@@ -122,7 +122,6 @@
 		}
 		"titanium": {
 			"type": "BasicBulletType",
-			"ammoMultiplier":0.5,
 			"damage": 0,
 			"instantDisapear": false,
 			"lifetime": 4
@@ -162,7 +161,7 @@
 			"bulletInterval": 20,
 			"intervalBullet": {
 				"type": "liquidBulletType",
-				"damage": 45,
+				"damage": 30,
 				"width": 20,
 				"height": 20,
 				"lifetime": 60,
