@@ -35,7 +35,7 @@ researchCostMultiplier:0
 	
 	"weapons": [
 		{
-			"name": "clear",
+			"name": "gun",
 			"alternate": true,
 			"ignoreRotation": true,
 			"reload": 80,
