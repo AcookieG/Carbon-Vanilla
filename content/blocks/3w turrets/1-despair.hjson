@@ -19,11 +19,11 @@
 	minWarmup: 0.99
 	warmupMaintainTime: 30
 	shootCone: 15
-	rotateSpeed: 1.5
+	rotateSpeed: 1.35
 	hasPower: true
 	targetUnderBlocks: false
 	shootY: 18
-	ammoPerShot: 5
+	ammoPerShot: 6
 	velocityRnd: 0.5
 	heatRequirement: 600
 	maxHeatEfficiency: 1.5
@@ -363,7 +363,7 @@
                 hitSoundVolume: 0.8
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
-                damage: 50
+                damage: 60
                 status: freezing
                 statusDuration: 720
 			keepVelocity: false
@@ -442,7 +442,7 @@
                 hitSoundVolume: 1.2
                 hitSound: spark
                 buildingDamageMultiplier: 0.4
-                damage: 90
+                damage: 60
                 status: disarmed
                 statusDuration: 720
 			keepVelocity: false
@@ -450,7 +450,7 @@
 			collidesGround: true
 			collidesTiles: true
 			lightning: 2
-			lightningDamage: 52
+			lightningDamage: 45
 			lightningCone: 360
 			lightningLengthRand: 6
 			lightningLength: 6
