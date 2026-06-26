@@ -72,11 +72,12 @@
 			"fragBullets": 1,
 			"fragRandomSpread": 0,
 			"despawnEffect": none,
+			"hitEffect": none,
 			"fragBullet": {
 
 			"type": "BasicBulletType",
 			"despawnHit": true,
-			"damage": 60,
+			"damage": 12,
 			"instantDisapear": false,
 			"lifetime": 30,
 			"velMin": 3.8,
@@ -98,7 +99,7 @@
 				"colorFrom": "f4f4f4",
 				"colorMid": "d3d9e8",
 				"colorTo": "c1c3d4",
-				"damage": 34,
+				"damage": 45,
 				"width": 20,
 				"height": 20,
 				"status": "burning",
@@ -111,6 +112,67 @@
 				"drawSize": 250
 				"despawnShake": 0.1
 				"hitSound": explosionBig,
+			}
+			}
+		}
+		"titanium": {
+			"type": "BasicBulletType",
+			"damage": 0,
+			"instantDisapear": false,
+			"lifetime": 4
+			"speed": 16,
+			"collidesAir": false,
+			"collidesGround": false,
+			"collidesTiles": false,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			"fragBullets": 1,
+			"fragRandomSpread": 0,
+			"despawnEffect": none,
+			"hitEffect": none,
+			"fragBullet": {
+
+			"type": "BasicBulletType",
+			"despawnHit": true,
+			"damage": 12,
+			"instantDisapear": false,
+			"lifetime": 30,
+			"velMin": 3.8,
+			"velMax": 6.8,
+			"collidesAir": true,
+			"collidesGround": true,
+			"collidesTiles": false,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			"pierce": true,
+			"pierceCap": 2,
+			"pierceBuilding": true,
+			"intervalBullets": 1,
+			"intervalRandomSpread": 4,
+			"bulletInterval": 20,
+			"intervalBullet": {
+				"type": "liquidBulletType",
+				"damage": 45,
+				"width": 20,
+				"height": 20,
+				"lifetime": 60,
+				"velMin": 1.1,
+				"velMax": 4.5,
+				"hitGround": true,
+				"hitAir": true,
+				"drawSize": 250,
+				"despawnShake": 0.1,
+				"hitSound": explosionBig,
+				"liquid": cryofluid,
+				"knockback": 0.4,
+				"puddles": 1,
+				"puddleLiquid": cryofluid,
+				"puddleAmount": 12,
+				"status": "freezing",
+				"statusDuration": 300,
+				"lightOpacity": 0
 			}
 			}
 		}
@@ -127,13 +189,14 @@
 			"reflectable": false,
 			"absorbable": false,
 			"despawnEffect": none,
+			"hitEffect": none,
 			"fragBullets": 1,
 			"fragRandomSpread": 0,
 			"fragBullet": {
 
 			"type": "BasicBulletType",
 			"despawnHit": true,
-			"damage": 60,
+			"damage": 12,
 			"instantDisapear": false
 			"lifetime": 30
 			"velMin": 3.8
@@ -155,7 +218,7 @@
 				"colorFrom": "f4f4f4",
 				"colorMid": "d3d9e8",
 				"colorTo": "c1c3d4",
-				"damage": 34,
+				"damage": 45,
 				"width": 20,
 				"height": 20,
 				"status": "melting",
