@@ -29,7 +29,8 @@
     "suffix": "-rotor",
     "outline": false,
     "blending": "additive",
-    "rotation": 4
+    "rotation": 45,
+    "moveRot": 4,
   }
 	],
 	"weapons": [
