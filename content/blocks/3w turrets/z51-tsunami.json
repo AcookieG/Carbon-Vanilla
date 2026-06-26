@@ -20,7 +20,7 @@
 	"velocityRnd": 0.1,
 	"shoot": {
 		"type": "ShootPattern",
-		"shots": 10,
+		"shots": 6,
 		"spread": 0,
 		"shotDelay": 18,
 	},
@@ -114,7 +114,7 @@
 				"puddles": 1,
 				"puddleLiquid": slag,
 				"puddleAmount": 12,
-				"status": "freezing",
+				"status": "burning",
 				"statusDuration": 300,
 				"lightOpacity": 0
 			}
@@ -122,6 +122,7 @@
 		}
 		"titanium": {
 			"type": "BasicBulletType",
+			"ammoMultiplier":0.5,
 			"damage": 0,
 			"instantDisapear": false,
 			"lifetime": 4
@@ -203,7 +204,7 @@
 
 			"type": "BasicBulletType",
 			"despawnHit": true,
-			"damage": 35,
+			"damage": 60,
 			"instantDisapear": false
 			"lifetime": 120
 			"velMin": 4.8
@@ -216,9 +217,9 @@
 			"pierce": true,
 			"pierceCap": 3
 			"pierceBuilding": true
-			"intervalBullets": 2,
+			"intervalBullets": 1,
 			"intervalRandomSpread": 2.5,
-			"bulletInterval": 10,
+			"bulletInterval": 5,
 			"intervalBullet": {
 				"type": "FireBulletType",
 				"colorFrom": "f4f4f4",
