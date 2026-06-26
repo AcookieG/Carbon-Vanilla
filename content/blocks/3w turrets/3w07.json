@@ -50,20 +50,20 @@
 		}
 		
 		{
-		"colorTo": "ffffffff",
- 		"color": "ffffff00",
+		"colorTo": "ffffff00",
+ 		"color": "ffffffff",
 		"under": true,
 		"type": "RegionPart",
 		"progress": recoil,
 		"layerOffset": 0.0021,
 		"outline": false,
-		"suffix": "-preview"
+		"suffix": "-core"
 		"mirror": false,
 		}
 
 		{
-		"colorTo": "ffffff00",
-		"color": "ffffffff",
+		"colorTo": "ffffffff",
+		"color": "ffffff00",
 		"under": true,
 		"type": "RegionPart",
 		"blending": "additive",
