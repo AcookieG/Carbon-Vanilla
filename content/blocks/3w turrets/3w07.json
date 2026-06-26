@@ -57,22 +57,25 @@
 		"progress": recoil,
 		"layerOffset": 0.0021,
 		"outline": false,
-		"suffix": "-core"
+		"suffix": "-core",
 		"mirror": false,
+		"moveY": -3,
+		"moveX": 0,
+		"moveRot": 0,
 		}
 
 		{
 		"colorTo": "ffffffff",
-		"color": "ffffff00",
+		"color": "ffffffff",
 		"under": true,
 		"type": "RegionPart",
 		"blending": "additive",
 		"progress": recoil,
 		"layerOffset": 0.001,
 		"outline": false,
-		"suffix": "-arrow"
+		"suffix": "-arrow",
 		"mirror": false,
-		"moveY": -2,
+		"moveY": -3,
 		"moveX": 0,
 		"moveRot": 0,
 		}
