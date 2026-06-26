@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Ceramic",
+	"description": "Extremely hard material, but estremely brittle. Resists heat but bursts in case of temperature jumps. Great for sharpening.",
+	"cost": 5,
+	"flammability": 0.0,
+	"radioactivity": 0.1,
+	"explosiveness": 0.1,
+	"charge": 0.0,
+	"color": "fdecec"
+		research: waffer
+}

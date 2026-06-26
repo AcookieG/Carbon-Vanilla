@@ -1,12 +1,12 @@
 {
 	"type": "material",
-	"name": "Waffer",
-	"description": "Large silicon plates for microcircuits.",
+	"name": "Clay",
+	"description": "Fine Clay from the soil. Can be used for ceramics and pottery.",
 	"cost": 2,
 	"flammability": 0.0,
 	"radioactivity": 0.0,
 	"explosiveness": 0.0,
 	"charge": 0.0,
-	"color": "d7bf74"
-		research: silicon
+	"color": "766257"
+		research: sand
 }

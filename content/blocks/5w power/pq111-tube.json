@@ -1,0 +1,75 @@
+{
+	"type": "HeaterGenerator",
+	"health": 350,
+	"name": "Accelerator Pipe",
+	"description":
+'''
+A magnetic pipe to increase reactor efficiency. Only works one way.
+'''
+	"size": 2,
+	"lightColor": "FB9957FF",
+	"liquidCapacity": 20,
+	"baseExplosiveness": 1,
+	"explosionRadius": 80,
+	"explosionDamage": 40,
+	"hasLiquids": true,
+	"hasItems": false,
+	"powerProduction": 50,
+	"heatOutput": 48,
+	"warmupSpeed": 0.7,
+	"itemDuration": 1,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom",
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-fan1",
+				"spinSprite": true,
+				"rotateSpeed": 35,
+				"rotation": 0
+			},
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+		]
+	},
+	"consumes": {
+                "liquid": {
+			"liquid": "metal",
+			"amount": 0.666667
+		},
+	},
+	"requirements": [
+		{
+			"item": "circuit",
+			"amount": 25
+		},
+		{
+			"item": "flex-joint",
+			"amount": 75
+		},
+		{
+			"item": "silicon",
+			"amount": 150
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 120
+		},
+	],
+	"category": "power",
+	"conductivePower": true
+	"rotate": true
+	"loopSound": "pulse",
+	"loopSoundVolume": 1.0,
+	"research": "pq01-heated",
+	"ambientSound": "hum",
+	"ambientSoundVolume": 1,
+}
