@@ -15,7 +15,7 @@
 	"hasLiquids": true,
 	"inaccuracy": 7,
 	"velocityRnd": 0.2,
-	"xRand": 2,
+	"xRand": 1,
 "shoot": {
 	"type": "ShootMulti",
 	"source": {
