@@ -91,27 +91,32 @@
 			"pierce": true,
 			"pierceCap": 2,
 			"pierceBuilding": true,
+			"despawnEffect": none,
+			"hitEffect": none,
 			"intervalBullets": 1,
 			"intervalRandomSpread": 4,
 			"bulletInterval": 20,
 			"intervalBullet": {
-				"type": "FireBulletType",
-				"colorFrom": "f4f4f4",
-				"colorMid": "d3d9e8",
-				"colorTo": "c1c3d4",
+				"type": "liquidBulletType",
 				"damage": 45,
 				"width": 20,
 				"height": 20,
-				"status": "burning",
-				"statusDuration": 300
-				"lifetime": 60
-				"velMin": 1.1
-				"velMax": 4.5
-				"hitGround": true
-				"hitAir": true
-				"drawSize": 250
-				"despawnShake": 0.1
+				"lifetime": 60,
+				"velMin": 1.1,
+				"velMax": 4.5,
+				"hitGround": true,
+				"hitAir": true,
+				"drawSize": 250,
+				"despawnShake": 0.1,
 				"hitSound": explosionBig,
+				"liquid": slag,
+				"knockback": 0.1,
+				"puddles": 1,
+				"puddleLiquid": slag,
+				"puddleAmount": 12,
+				"status": "freezing",
+				"statusDuration": 300,
+				"lightOpacity": 0
 			}
 			}
 		}
@@ -146,6 +151,8 @@
 			"hittable": false,
 			"reflectable": false,
 			"absorbable": false,
+						"despawnEffect": none,
+			"hitEffect": none,
 			"pierce": true,
 			"pierceCap": 2,
 			"pierceBuilding": true,
@@ -166,7 +173,7 @@
 				"despawnShake": 0.1,
 				"hitSound": explosionBig,
 				"liquid": cryofluid,
-				"knockback": 0.4,
+				"knockback": 0.1,
 				"puddles": 1,
 				"puddleLiquid": cryofluid,
 				"puddleAmount": 12,
@@ -190,23 +197,22 @@
 			"absorbable": false,
 			"despawnEffect": none,
 			"hitEffect": none,
-			"fragBullets": 1,
-			"fragRandomSpread": 0,
+			"fragBullets": 2,
+			"fragRandomSpread": 5,
 			"fragBullet": {
 
 			"type": "BasicBulletType",
 			"despawnHit": true,
-			"damage": 12,
+			"damage": 35,
 			"instantDisapear": false
-			"lifetime": 30
-			"velMin": 3.8
-			"velMax": 6.8
+			"lifetime": 120
+			"velMin": 4.8
+			"velMax": 12.8
 			"collidesAir": true
 			"collidesGround": true
 			"collidesTiles": false
-			"hittable": false
-			"reflectable": false
-			"absorbable": false
+						"despawnEffect": none,
+			"hitEffect": none,
 			"pierce": true,
 			"pierceCap": 3
 			"pierceBuilding": true
@@ -218,12 +224,12 @@
 				"colorFrom": "f4f4f4",
 				"colorMid": "d3d9e8",
 				"colorTo": "c1c3d4",
-				"damage": 45,
+				"damage": 0,
 				"width": 20,
 				"height": 20,
 				"status": "melting",
 				"statusDuration": 300
-				"lifetime": 60
+				"lifetime": 12
 				"velMin": 1.1
 				"velMax": 4.5
 				"hitGround": true
