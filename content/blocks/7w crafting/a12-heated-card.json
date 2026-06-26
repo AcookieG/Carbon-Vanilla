@@ -40,7 +40,7 @@ Conducts power.
 	}
 	"craftEffect": none
 	"heatRequirement": 192
-	"maxEfficiency": 10
+	"maxEfficiency": 5
 	"requirements": [
 		{
 			"item": "flex-joint",
@@ -90,6 +90,11 @@ Conducts power.
 				"spinSprite": true
 				"rotateSpeed": 70
 				"rotation": 60
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "metal",
+				"padding": 4
 			},
 			{
 				"type": "DrawDefault"
