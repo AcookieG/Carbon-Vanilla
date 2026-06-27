@@ -6,7 +6,7 @@
 	"flying": true,
 	"maxVelocity": 2,
 	"speed": 1.65,
-	"drag": 0.02,
+	"drag": 0.04,
 	"hitSize": 10
 	"circleTarget" : true,
 	"faceTarget": true
@@ -18,23 +18,22 @@
 	"engineOffset": 7,
 	"engineSize": 2,
 	"buildSpeed": 0.25
-	"buildBeamOffset": 0
+	"buildBeamOffset": 7
 weapons: [
 	{
-	"name": "x1-mimosa-gun",
+	"name": "mount-purple-weapon",
 	shootCone: 45
-	reload: 45,
+	reload: 15,
 	mirror: true
 	rotateSpeed: 36
 	x: 2
-	y: -2
+	y: -1
 	bullet: {
 			"type": "BasicBulletType",
-			frontColor: bf92f9
-			backColor: 665c9f
-			speed: 6
-			lifetime: 20
-			damage: 6
+			width: 7
+			height: 9
+			lifetime: 60
+			backColor: bf92f9
 		}
 	}
 ]
