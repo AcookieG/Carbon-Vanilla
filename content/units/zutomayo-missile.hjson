@@ -19,9 +19,9 @@ engineSize: 2
 drawCell: false
 engineColor: FFFFffff
 outlineColor: 00000000
-maxRange: 100
+maxRange: 35
 trailLength: 1
-range: 100
+range: 35
 shootOnDeath: true
 targetable: false
 weapons: [
@@ -29,13 +29,12 @@ weapons: [
 	shootOnDeath: true
 	controllable: true
 	shootSound: explosionBig
-	shootCone: 90
+	shootCone: 45
 	mirror: false
-	rotateSpeed: 36
 	bullet: {
 		type: BasicBulletType
 		killShooter: true
-		instantDisappear: true
+		instantDisappear: false
 		hitSound: explosionBig
 		hitSoundVolume: 30
 		damage: 1
@@ -53,10 +52,10 @@ weapons: [
 		shootEffect: none
 			keepVelocity: false
 			lightning: 70
-			lightningDamage: 8000
+			lightningDamage: 5000
 			lightningCone: 360
-			lightningLengthRand: 30
-			lightningLength: 10
+			lightningLengthRand: 25
+			lightningLength: 8
 		despawnEffect: {
 		type: multiEffect
 		effects: [
@@ -125,7 +124,7 @@ weapons: [
 			}
 		]
 		}
-		intervalBullets: 3000
+		intervalBullets: 1000
 		intervalRandomSpread: 360
 		bulletInterval: 10
 		intervalBullet: {
