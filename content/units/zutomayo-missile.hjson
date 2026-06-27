@@ -27,7 +27,9 @@ weapons: [
 	controllable: true
 	shootSound: explosionBig
 	shootCone: 360
+	rotate: true
 	mirror: false
+	rotateSpeed: 18,
 	bullet: {
 		type: BasicBulletType
 		killShooter: true
