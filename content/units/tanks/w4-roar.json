@@ -71,7 +71,7 @@
 			"bullet": {
 				"type": "BasicBulletType",
 				"speed": 7,
-				"damage": 10,
+				"damage": 15,
 				"lifetime": 31,
 				"width": 6,
 				"height": 9,
@@ -83,7 +83,7 @@ layer: 110
 			"restitution": 0.008,
 			"alternate": true,
 			"ignoreRotation": true,
-			"reload": 45,
+			"reload": 30,
 			"recoil": 1,
 			"rotationLimit": 361,
 			"inaccuracy": 3,
@@ -100,7 +100,7 @@ layer: 110
 			"bullet": {
 				"type": "BasicBulletType",
 				"speed": 7,
-				"damage": 10,
+				"damage": 15,
 				"lifetime": 31,
 				"width": 6,
 				"height": 9,
@@ -220,7 +220,6 @@ layer: 110
 			}
 		},
 	]
-	"outlineColor": "00000000",
 	"research": {
 		"parent": "w3-clamor"
 		"requirements": [

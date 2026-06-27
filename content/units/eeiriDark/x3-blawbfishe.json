@@ -1,31 +1,31 @@
 {
 	"type": "flying",
-	"name": "Raymanta",
-	"health": 700,
-	"armor": 5,
+	"name": "Blawbfishe",
+	"health": 7200,
+	"armor": 9,
 	"flying": true,
 	"maxVelocity": 2,
-	"speed": 1.7,
-	"drag": 0.016,
-	"hitSize": 20
-	"itemCapacity": 80
+	"speed": 0.8,
+	"drag": 0.04,
+	"rotateSpeed": 1.9,
+	"hitSize": 46
 	"range": 150,
 	"attackLength": 150,
 	"shootCone": 150,
 	"rotateWeapon": true,
 	"targetAir": true,
-	"engineOffset": 12,
-	"engineSize": 3,
-	"buildSpeed": 1
+	"engineOffset": 21,
+	"engineSize": 5.3,
+	"buildSpeed": 1.25
 	"buildBeamOffset": 0
 	"abilities": [
 		{
 			"type": "mindustry.entities.abilities.ForceFieldAbility",
-			"radius": 60,
+			"radius": 90,
 			"rotation": 0,
-			"sides": 6,
-			"max": 480,
-			"regen": 0.3,
+			"sides": 10,
+			"max": 720,
+			"regen": 0.75,
 			"color": "6ce5f5",
 		},
 		{
@@ -34,8 +34,8 @@
 				"type": "WaveEffect",
 				"lifetime": 25,
 				"sizeFrom": 0,
-				"sizeTo": 80,
-				"strokeFrom": 6,
+				"sizeTo": 120,
+				"strokeFrom": 8,
 				"strokeTo": 0,
 				"colorFrom": "6ce5f5ff",
 				"colorTo": "6ce5f5"
@@ -44,14 +44,14 @@
 				"type": "WaveEffect",
 				"lifetime": 25,
 				"sizeFrom": 0,
-				"sizeTo": 80,
-				"strokeFrom": 6,
+				"sizeTo": 120,
+				"strokeFrom": 8,
 				"strokeTo": 0,
 				"colorFrom": "6ce5f5ff",
 				"colorTo": "6ce5f5"
 			},
-			"range": 80,
-			"amount": 80,
+			"range": 120,
+			"amount": 120,
 			"reload": 80
 		},
 		{
@@ -61,33 +61,34 @@
 				"lifetime": 25,
 				"sizeFrom": 0,
 				"sizeTo": 30,
-				"sides": 6,
+				"sides": 10,
 				"strokeFrom": 6,
 				"strokeTo": 0,
 				"colorFrom": "6ce5f5"
 				"colorTo": "6ce5f500"
 			},
 			"color": "6ce5f5ff"
-			"maxTargets": 6,
+			"maxTargets": 10,
 			"healPercent": 0.3,
-			"damage": 10,
-			"range": 80,
-			"sectors": 6,
+			"damage": 15,
+			"range": 140,
+			"sectors": 10,
 			"rotateSpeed": 3,
 			"hitBuildings": true,
-			"sectorRad": 0.09,
-			"reload": 60,
+			"sectorRad": 0.03,
+			"reload": 30,
 		}
 		{
 			"type": "EnergyFieldAbility",
 			"healEffect": none
 			"color": "6ce5f5ff"
-			"maxTargets": 1,
-			"healPercent": 0.6,
-			"damage": 2,
+			"maxTargets": 2,
+			"healPercent": 0.8,
+			"damage": 4,
 			"range": 150,
-			"sectors": 6,
-			"rotateSpeed": 3,
+			"sectors": 10,
+			"blinkScl": 80,
+			"rotateSpeed": 1.5,
 			"hitBuildings": true,
 			"sectorRad": 0.03,
 			"reload": 2,
@@ -95,7 +96,7 @@
 	]
 	"outlineColor": 00000000
 	"research": {
-		"parent": "mimosa"
+		"parent": "x2-raymanta"
 		"requirements": [
 			{
 				"item": "graphite",

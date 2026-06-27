@@ -106,7 +106,7 @@
 	]
 	"weapons": [
 		{
-			"name": "cargo-gun",
+			"name": "gun",
 			"alternate": false,
 			"ignoreRotation": true,
 			"reload": 155,
@@ -161,7 +161,7 @@ ffffffff
 	]
 	"outlineColor": 00000000
 	"research": {
-		"parent": "kramp"
+		"parent": "x4-kramp"
 		"requirements": [
 			{
 				"item": "graphite",

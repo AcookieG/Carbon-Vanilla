@@ -152,7 +152,7 @@ ffffffff
 	]
 	"outlineColor": 00000000
 	"research": {
-		"parent": "blawbfishe"
+		"parent": "x3-blawbfishe"
 		"requirements": [
 			{
 				"item": "graphite",

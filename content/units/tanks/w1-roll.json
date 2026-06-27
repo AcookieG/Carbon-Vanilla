@@ -56,7 +56,6 @@ layer: 110
 			},
 		}
 	]
-	"outlineColor": "00000000",
 	"research": {
 		"parent": "dagger"
 		"requirements": [

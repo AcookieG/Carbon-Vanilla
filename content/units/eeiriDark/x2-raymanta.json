@@ -1,0 +1,30 @@
+{
+	"type": "flying",
+	"name": "Raymanta",
+	"health": 370,
+	"armor": 1,
+	"flying": true,
+	"maxVelocity": 2,
+	"speed": 1.7,
+	"drag": 0.02,
+	"hitSize": 20
+	"itemCapacity": 30
+	"range": 150,
+	"attackLength": 150,
+	"shootCone": 150,
+	"rotateWeapon": true,
+	"targetAir": true,
+	"engineOffset": 2,
+	"engineSize": 3,
+	"buildSpeed": 0.5
+	"buildBeamOffset": 0
+	"research": {
+		"parent": "x1-mimosa"
+		"requirements": [
+			{
+				"item": "graphite",
+				"amount": 240
+			},
+		]
+	}
+}
