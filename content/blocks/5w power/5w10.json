@@ -51,7 +51,7 @@ Requires small amounts of heat to generate Power. Will explode violently if insu
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "cryofluid", "amount": 0.09},
+			{"liquid": "cryofluid", "amount": 0.04},
 		]
 	},
 	"category": "power",
