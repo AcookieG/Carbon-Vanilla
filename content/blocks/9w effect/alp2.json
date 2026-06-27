@@ -23,4 +23,6 @@
 "itemCapacity": 300,
 "acceptMultipleItems": true,
 "liquidCapacity": 200,
+"consumeLiquidAmount": 100,
+
 }
