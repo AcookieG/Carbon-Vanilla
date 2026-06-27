@@ -3,7 +3,7 @@
 	"description": "Sends items across sectors.",
 	"type": "LaunchPad",
 	"health": 300,
-	"size": 1,
+	"size": 3,
 	"requirements": [
 		{
 			"item": "copper",
@@ -28,12 +28,10 @@
 	],
 	"category": "effect",
 	"research": "container",
-itemCapacity: 100
-launchTime: 1200
-hasPower: true
-acceptMultipleItems: true
-lightRegion: -light
-podRegion: -pod
+"itemCapacity": 100,
+"launchTime": 1200,
+"hasPower": true,
+"acceptMultipleItems": true,
 "consumes": {
 		"power": 4,
 	},
