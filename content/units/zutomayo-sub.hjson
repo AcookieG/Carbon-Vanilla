@@ -22,7 +22,7 @@ outlineColor: 00000000
 maxRange: 100
 trailLength: 1
 range: 100
-mass: 80000000
+targetable: false
 "weapons": [
  	{
 	"shootOnDeath": true,
