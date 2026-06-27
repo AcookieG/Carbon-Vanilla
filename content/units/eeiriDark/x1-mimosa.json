@@ -37,7 +37,6 @@ weapons: [
 			damage: 6
 		}
 	}
-}
 ]
 	"research": {
 		"parent": "crawler"
