@@ -118,9 +118,9 @@ abilities: [
 				colorTo: e2865400
 			},
 			color: ffffa3ff
-			maxTargets: 1000,
+			maxTargets: 500,
 			healPercent: 0.3,
-			damage: 9,
+			damage: 3,
 			range: 240,
 			sectors: 4,
 			rotateSpeed: 0,
