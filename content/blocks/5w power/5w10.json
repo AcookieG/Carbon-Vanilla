@@ -2,7 +2,7 @@
 	"name": "Overheater",
 	"description": 
 '''
-Consumes fuel and Pyratite. Cool it down or it will explode.
+Requires small amounts of heat to generate Power. Will explode violently if insufficient amounts of coolant are supplied. 
 '''
 	"details": "A burner alternative to nuclear power."
 	"type": "VariableReactor"
@@ -16,7 +16,7 @@ Consumes fuel and Pyratite. Cool it down or it will explode.
 	"explosionDamage": 90,
 	"explosionShake": 1.5,
 	"itemCapacity": 10,
-	"powerProduction": 18,
+	"powerProduction": 12,
 	"requirements": [
 		{ "item": "dense", "amount": 50 },
 		{ "item": "flex-joint", "amount": 60 },
@@ -51,20 +51,14 @@ Consumes fuel and Pyratite. Cool it down or it will explode.
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "cryofluid", "amount": 0.0833},
+			{"liquid": "cryofluid", "amount": 0.09},
 		]
-		"items": {
-			"items": [
-				{"item": "pyratite", "amount": 1}
-			]
-		},
 	},
 	"category": "power",
 	"conductivePower": true
 	"loopSound": "flux",
 	"effect": none,
 research: 5w09
-	"itemDuration": 400,
 	"squareSprite": false,
 	"maxHeat": 10,
 }
