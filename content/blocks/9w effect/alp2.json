@@ -1,0 +1,29 @@
+{
+	"name": "Small Landing Pad",
+	"description": "Receives items from other sectors. Requires water.",
+	"type": "LaunchPad",
+	"health": 300,
+	"size": 3,
+	"requirements": [
+		{
+			"item": "copper",
+			"amount": 225
+		},
+		{
+			"item": "silicon",
+			"amount": 100
+		},
+		{
+			"item": "lead",
+			"amount": 140
+		},
+	],
+	"category": "effect",
+	"research": "alp",
+"itemCapacity": 300,
+"hasPower": true,
+"acceptMultipleItems": true,
+"consumes": {
+		"power": 4,
+	},
+}

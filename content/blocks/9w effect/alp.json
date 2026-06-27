@@ -1,5 +1,5 @@
 {
-	"name": "Launch Pad",
+	"name": "Small Launch Pad",
 	"description": "Sends items across sectors.",
 	"type": "LaunchPad",
 	"health": 300,
