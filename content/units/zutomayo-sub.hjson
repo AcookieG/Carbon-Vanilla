@@ -51,10 +51,10 @@ range: 100
 		bulletInterval: 30
 		intervalBullet: {
       			type: LiquidBulletType
-			damage: 10
+			damage: 21
 			instantDisapear: false
-			velocityScaleRandMin: -1
-			velocityScaleRandMax: 13
+			velocityScaleRandMin: -1.5
+			velocityScaleRandMax: 6.1
 			lifetime: 600
 			despawnEffect: none
 			hittable: false
@@ -65,8 +65,8 @@ range: 100
 			keepVelocity: false
 
 				"liquid": slag,
-				"knockback": -0.2,
-				"puddles": 3,
+				"knockback": 2.2,
+				"puddles": 1,
 				"puddleLiquid": slag,
 				"puddleAmount": 24,
 				"status": "melting",
