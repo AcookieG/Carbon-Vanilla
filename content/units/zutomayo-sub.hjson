@@ -46,7 +46,7 @@ range: 100
 		"width": 1,
 		"height": 1,
 		"shootEffect": "none",
-				intervalBullets: 300
+				intervalBullets: 200
 		intervalRandomSpread: 360
 		bulletInterval: 19
 		intervalBullet: {
@@ -55,18 +55,18 @@ range: 100
 			instantDisapear: false
 			velocityScaleRandMin: -0.1
 			velocityScaleRandMax: 2.1
-			lifetime: 200
+			lifetime: 120
 			collidesAir: false
 			collidesGround: false
 			collidesTiles: false
 			hittable: false
 			reflectable: false
 			absorbable: true
-			width: 7
-			height: 7
+			width: 10
+			height: 10
 			keepVelocity: false
 
-				"liquid": slag,
+				"liquid": neoplasm,
 				"knockback": 2.2,
 				"puddles": 1,
 				"puddleLiquid": slag,
@@ -95,7 +95,7 @@ range: 100
 				"knockback": 2.2,
 				"puddles": 1,
 				"puddleLiquid": slag,
-				"puddleAmount": 12,
+				"puddleAmount": 50,
 				"status": "melting",
 
 		}
