@@ -89,6 +89,7 @@ range: 100
 			absorbable: true
 			width: 5
 			height: 5
+			keepVelocity: false
 
 				"liquid": slag,
 				"knockback": 2.2,
