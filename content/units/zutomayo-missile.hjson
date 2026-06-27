@@ -12,16 +12,13 @@ hidden: false
 health: 999999
 hitSize: 1
 engineLayer: 110
-trailColor: FFFFffff
 missileAccelTime: 100
-engineOffset: 20
+engineOffset: 16
 engineSize: 2
 drawCell: false
-engineColor: FFFFffff
-outlineColor: 00000000
-maxRange: 35
+maxRange: 50
 trailLength: 1
-range: 35
+range: 50
 shootOnDeath: true
 targetable: false
 weapons: [
@@ -29,7 +26,7 @@ weapons: [
 	shootOnDeath: true
 	controllable: true
 	shootSound: explosionBig
-	shootCone: 45
+	shootCone: 360
 	mirror: false
 	bullet: {
 		type: BasicBulletType
@@ -39,7 +36,7 @@ weapons: [
 		hitSoundVolume: 30
 		damage: 1
 		lifetime: 3
-		speed: 32
+		speed: 50
 		width: 20
 		height: 20
 		collidesAir: false
@@ -119,7 +116,7 @@ weapons: [
 			}
 		]
 		}
-		intervalBullets: 500
+		intervalBullets: 750
 		intervalRandomSpread: 360
 		bulletInterval: 1
 		intervalBullet: {
