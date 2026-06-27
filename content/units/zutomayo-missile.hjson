@@ -38,7 +38,7 @@ weapons: [
 		hitSound: explosionBig
 		hitSoundVolume: 30
 		damage: 1
-		lifeTime: 30
+		lifeTime: 3
 		speed: 32
 		width: 20
 		height: 20
@@ -51,11 +51,6 @@ weapons: [
 		despawnShake: 60
 		shootEffect: none
 			keepVelocity: false
-			lightning: 70
-			lightningDamage: 5000
-			lightningCone: 360
-			lightningLengthRand: 25
-			lightningLength: 8
 		despawnEffect: {
 		type: multiEffect
 		effects: [
@@ -126,7 +121,7 @@ weapons: [
 		}
 		intervalBullets: 1000
 		intervalRandomSpread: 360
-		bulletInterval: 10
+		bulletInterval: 1
 		intervalBullet: {
       			type: BasicBulletType
 			colorFrom: 00000010
