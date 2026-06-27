@@ -38,7 +38,7 @@ weapons: [
 		hitSound: explosionBig
 		hitSoundVolume: 30
 		damage: 1
-		lifeTime: 2
+		lifetime: 3
 		speed: 32
 		width: 20
 		height: 20
