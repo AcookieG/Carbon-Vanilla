@@ -50,7 +50,7 @@
 				"type": "DrawDefault",
 			},
 			{
-				"type": "DrawLiquidOutputs",
+				"type": "DrawSideRegion",
 			},
 			{
 				"type": "DrawGlowRegion",
