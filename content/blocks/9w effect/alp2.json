@@ -1,7 +1,7 @@
 {
 	"name": "Small Landing Pad",
 	"description": "Receives items from other sectors. Requires water.",
-	"type": "LaunchPad",
+	"type": "LandingPad",
 	"health": 300,
 	"size": 3,
 	"requirements": [
