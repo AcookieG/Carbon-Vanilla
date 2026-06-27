@@ -18,8 +18,6 @@
 	"engineSize": 4,
 	"buildSpeed": 0.5
 	"buildBeamOffset": 9
-	"rotateMoveFirst": true,
-	"faceTarget": false,
 weapons: [
 	{
 	"name": "purple-missiles",
@@ -27,6 +25,7 @@ weapons: [
 	reload: 20,
 	mirror: false
 	rotateSpeed: 6
+	"rotate": true
 	"ignoreRotation": true,
 	"rotationLimit": 361,
 	x: 0

@@ -18,7 +18,6 @@
 	"rotateMoveFirst": true,
 	"engineOffset": 10,
 	"engineSize": 4,
-	"faceTarget": false,
 	"immunities": [
 		"freezing",
 		"burning",
