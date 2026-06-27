@@ -16,7 +16,7 @@ Consumes fuel and Pyratite. Cool it down or it will explode.
 	"explosionDamage": 90,
 	"explosionShake": 1.5,
 	"itemCapacity": 10,
-	"powerProduction": 7,
+	"powerProduction": 18,
 	"requirements": [
 		{ "item": "dense", "amount": 50 },
 		{ "item": "flex-joint", "amount": 60 },
@@ -51,7 +51,7 @@ Consumes fuel and Pyratite. Cool it down or it will explode.
 	},
 	"consumes": {
 		"liquids":  [
-			{"liquid": "cryofluid", "amount": 0.2},
+			{"liquid": "cryofluid", "amount": 0.0833},
 		]
 		"items": {
 			"items": [
@@ -64,7 +64,7 @@ Consumes fuel and Pyratite. Cool it down or it will explode.
 	"loopSound": "flux",
 	"effect": none,
 research: 5w09
-	"itemDuration": 90,
+	"itemDuration": 400,
 	"squareSprite": false,
-	"maxHeat": 16,
+	"maxHeat": 10,
 }
