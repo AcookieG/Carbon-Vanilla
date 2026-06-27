@@ -50,11 +50,11 @@ range: 100
 		intervalRandomSpread: 360
 		bulletInterval: 30
 		intervalBullet: {
-      			type: liquidBulletType
+      			type: LiquidBulletType
 			damage: 10
 			instantDisapear: false
-			velMin: -1
-			velMax: 13
+			velocityScaleRandMin: -1
+			velocityScaleRandMax: 13
 			lifetime: 600
 			despawnEffect: none
 			hittable: false

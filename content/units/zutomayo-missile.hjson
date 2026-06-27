@@ -134,8 +134,7 @@ weapons: [
 			colorTo: 00000010
 			damage: 22000
 			instantDisapear: false
-			velMin: 120
-			velMax: 220
+			speed: 120
 			lifetime: 10000
 			despawnEffect: scatheExplosion
 			collidesAir: false
