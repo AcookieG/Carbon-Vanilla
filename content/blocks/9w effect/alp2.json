@@ -22,6 +22,6 @@
 	"research": "alp",
 "itemCapacity": 300,
 "acceptMultipleItems": true,
-"liquidCapacity": 200,
-"consumeLiquidAmount": 100,
+"liquidCapacity": 300,
+"consumeLiquidAmount": 150,
 }
