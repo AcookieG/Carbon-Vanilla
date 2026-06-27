@@ -46,16 +46,16 @@ range: 100
 		"width": 1,
 		"height": 1,
 		"shootEffect": "none",
-				intervalBullets: 400
+				intervalBullets: 300
 		intervalRandomSpread: 360
-		bulletInterval: 30
+		bulletInterval: 19
 		intervalBullet: {
       			type: LiquidBulletType
 			damage: 21
 			instantDisapear: false
 			velocityScaleRandMin: -1.5
-			velocityScaleRandMax: 6.1
-			lifetime: 600
+			velocityScaleRandMax: 13.1
+			lifetime: 300
 			despawnEffect: none
 			hittable: false
 			reflectable: false
