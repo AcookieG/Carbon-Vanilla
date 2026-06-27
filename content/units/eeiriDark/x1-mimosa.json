@@ -20,6 +20,7 @@
 	"buildSpeed": 0.25
 	"buildBeamOffset": 7
 	"rotateMoveFirst": true,
+	"faceTarget": false,
 weapons: [
 	{
 	"name": "mount-purple-weapon",

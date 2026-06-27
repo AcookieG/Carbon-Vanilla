@@ -19,6 +19,7 @@
 	"buildSpeed": 0.5
 	"buildBeamOffset": 9
 	"rotateMoveFirst": true,
+	"faceTarget": false,
 weapons: [
 	{
 	"name": "purple-missiles",
