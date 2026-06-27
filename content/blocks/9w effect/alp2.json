@@ -21,9 +21,6 @@
 	"category": "effect",
 	"research": "alp",
 "itemCapacity": 300,
-"hasPower": true,
 "acceptMultipleItems": true,
-"consumes": {
-		"power": 4,
-	},
+"liquidCapacity": 200,
 }
