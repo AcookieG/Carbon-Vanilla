@@ -108,7 +108,7 @@ Conducts power.
 	"consumes": {
 		"power": 10,
 	},
-	"category": "crafting",
+	"category": "power",
 	"conductivePower": true
 	"rotate": false
 	"loopSound": "hum",
