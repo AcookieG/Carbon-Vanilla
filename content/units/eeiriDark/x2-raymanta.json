@@ -24,7 +24,9 @@ weapons: [
 	shootCone: 45
 	reload: 20,
 	mirror: false
-	rotateSpeed: 36
+	rotateSpeed: 6
+	"ignoreRotation": true,
+	"rotationLimit": 361,
 	x: 0
 	y: 1
 	shootSound: shootMissilePlasmaShort
@@ -37,11 +39,11 @@ weapons: [
                     weaveMag: 4
                     weaveScale: 4
                     lifetime: 50
+                    speed: 2
                     scaleKeepVelocity: true
-                    shootEffect: shootHeal
-                    smokeEffect: hitLaser
-                    hitEffect: hitLaser
-                    despawnEffect: hitLaser
+                    smokeEffect: sapExplosion
+                    hitEffect: sapExplosion
+                    despawnEffect: sapExplosion
                     hitSound: none
 
                     healPercent: 5.5
@@ -49,6 +51,7 @@ weapons: [
                     reflectable: false
                     backColor: bf92f9
                     trailColor: bf92f9
+                    frontColor: ffffff
 		}
 	}
 ]

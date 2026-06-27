@@ -25,7 +25,9 @@ weapons: [
 	shootCone: 45
 	reload: 15,
 	mirror: true
-	rotateSpeed: 36
+	rotateSpeed: 6
+	"ignoreRotation": true,
+	"rotationLimit": 361,
 	x: 2
 	y: -1
 	bullet: {
