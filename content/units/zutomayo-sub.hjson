@@ -57,8 +57,8 @@ targetable: false
 			instantDisapear: false
 			velocityScaleRandMin: -0.1
 			velocityScaleRandMax: 1.5
-			lifetime: 120
-			lifeScaleRandMin: 0.6
+			lifetime: 200
+			lifeScaleRandMin: 0.5
 			collidesAir: false
 			collidesGround: false
 			collidesTiles: false
