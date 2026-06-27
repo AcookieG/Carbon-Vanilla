@@ -51,12 +51,14 @@ range: 100
 		bulletInterval: 19
 		intervalBullet: {
       			type: LiquidBulletType
-			damage: 40
+			damage: 22000
 			instantDisapear: false
-			velocityScaleRandMin: -1.5
-			velocityScaleRandMax: 13.1
-			lifetime: 300
-			despawnEffect: none
+			velocityScaleRandMin: -2.5
+			velocityScaleRandMax: 6.1
+			lifetime: 200
+			collidesAir: false
+			collidesGround: false
+			collidesTiles: false
 			hittable: false
 			reflectable: false
 			absorbable: true
@@ -72,7 +74,7 @@ range: 100
 				"status": "melting",
 
 						intervalBullets: 1
-		intervalRandomSpread: 45
+		intervalRandomSpread: 30
 		bulletInterval: 2
 		intervalBullet: {
 		type: LiquidBulletType
@@ -80,14 +82,13 @@ range: 100
 			instantDisapear: false
 			velocityScaleRandMin: 1.5
 			velocityScaleRandMax: -13.1
-			lifetime: 50
+			lifetime: 30
 			despawnEffect: none
 			hittable: false
 			reflectable: false
 			absorbable: true
 			width: 5
 			height: 5
-			keepVelocity: false
 
 				"liquid": slag,
 				"knockback": 2.2,
