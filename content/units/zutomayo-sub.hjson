@@ -22,6 +22,7 @@ outlineColor: 00000000
 maxRange: 100
 trailLength: 1
 range: 100
+mass: 80000000
 "weapons": [
  	{
 	"shootOnDeath": true,
@@ -46,7 +47,7 @@ range: 100
 		"width": 1,
 		"height": 1,
 		"shootEffect": "none",
-				intervalBullets: 200
+				intervalBullets: 120
 		intervalRandomSpread: 360
 		bulletInterval: 19
 		intervalBullet: {
@@ -55,9 +56,9 @@ range: 100
 			drag: 0.005
 			instantDisapear: false
 			velocityScaleRandMin: -0.1
-			velocityScaleRandMax: 2.1
+			velocityScaleRandMax: 1.5
 			lifetime: 120
-			lifeScaleRandMin: 0.9
+			lifeScaleRandMin: 0.6
 			collidesAir: false
 			collidesGround: false
 			collidesTiles: false
@@ -85,7 +86,7 @@ range: 100
 			velocityScaleRandMin: -2
 			velocityScaleRandMax: 0.1
 			lifetime: 30
-			lifeScaleRandMin: 0.9
+			lifeScaleRandMin: 0.7
 			despawnEffect: none
 			hittable: false
 			reflectable: false
@@ -93,7 +94,7 @@ range: 100
 			width: 5
 			height: 5
 			keepVelocity: false
-			
+
 
 				"liquid": slag,
 				"knockback": 2.2,

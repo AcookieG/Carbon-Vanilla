@@ -23,6 +23,7 @@ maxRange: 100
 trailLength: 1
 range: 100
 shootOnDeath: true
+mass: 80000000
 weapons: [
 	{
 	shootOnDeath: true
