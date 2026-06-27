@@ -50,7 +50,7 @@ range: 100
 		intervalRandomSpread: 360
 		bulletInterval: 30
 		intervalBullet: {
-      			type: FireBulletType
+      			type: liquidBulletType
 			damage: 10
 			instantDisapear: false
 			velMin: -1
@@ -63,6 +63,13 @@ range: 100
 			width: 5
 			height: 5
 			keepVelocity: false
+
+				"liquid": slag,
+				"knockback": -0.2,
+				"puddles": 3,
+				"puddleLiquid": slag,
+				"puddleAmount": 24,
+				"status": "melting",
 		}
 	}
 }

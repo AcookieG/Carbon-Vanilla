@@ -128,7 +128,7 @@ weapons: [
 		intervalRandomSpread: 360
 		bulletInterval: 10
 		intervalBullet: {
-      			type: FireBulletType
+      			type: BasicBulletType
 			colorFrom: 00000010
 			colorMid: 00000010
 			colorTo: 00000010

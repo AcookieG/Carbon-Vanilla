@@ -7,7 +7,7 @@
 	"maxVelocity": 2,
 	"speed": 1.7,
 	"drag": 0.042,
-	"hitSize": 20
+	"hitSize": 16
 	"itemCapacity": 30
 	"range": 150,
 	"attackLength": 150,

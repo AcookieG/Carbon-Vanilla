@@ -141,7 +141,7 @@ layer: 110
 				"speed": 10,
 				"drawSize": 350,
 				"damage": 620,
-				"lifetime": 22,
+				"lifetime": 32,
 				"width": 12,
 				"height": 18,
 				"smokeEffect": "shootBigSmoke"
