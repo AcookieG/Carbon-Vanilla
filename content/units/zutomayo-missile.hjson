@@ -42,9 +42,7 @@ weapons: [
 		speed: 32
 		width: 20
 		height: 20
-		collidesAir: false
-		collidesGround: false
-		collidesTiles: false
+		collides: false
 		hittable: false
 		reflectable: false
 		absorbable: false
