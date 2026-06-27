@@ -51,11 +51,36 @@ range: 100
 		bulletInterval: 19
 		intervalBullet: {
       			type: LiquidBulletType
-			damage: 21
+			damage: 40
 			instantDisapear: false
 			velocityScaleRandMin: -1.5
 			velocityScaleRandMax: 13.1
 			lifetime: 300
+			despawnEffect: none
+			hittable: false
+			reflectable: false
+			absorbable: true
+			width: 7
+			height: 7
+			keepVelocity: false
+
+				"liquid": slag,
+				"knockback": 2.2,
+				"puddles": 1,
+				"puddleLiquid": slag,
+				"puddleAmount": 12,
+				"status": "melting",
+
+						intervalBullets: 1
+		intervalRandomSpread: 45
+		bulletInterval: 2
+		intervalBullet: {
+		type: LiquidBulletType
+			damage: 12
+			instantDisapear: false
+			velocityScaleRandMin: 1.5
+			velocityScaleRandMax: -13.1
+			lifetime: 50
 			despawnEffect: none
 			hittable: false
 			reflectable: false
@@ -68,8 +93,10 @@ range: 100
 				"knockback": 2.2,
 				"puddles": 1,
 				"puddleLiquid": slag,
-				"puddleAmount": 24,
+				"puddleAmount": 12,
 				"status": "melting",
+
+		}
 		}
 	}
 }
