@@ -22,11 +22,6 @@
 	"research": "alp",
 "itemCapacity": 300,
 "acceptMultipleItems": true,
-"liquidCapacity": 30,
-"consumes": {
-		liquid: {
-			liquid: water
-			amount: 0.25
-	},
-},
+"liquidCapacity": 200,
+"consumeLiquidAmount": 100,
 }
