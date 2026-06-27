@@ -1,0 +1,38 @@
+{
+	"name": "Launch Pad",
+	"description": "Sends items across sectors.",
+	"type": "Wall",
+	"health": 300,
+	"size": 1,
+	"requirements": [
+		{
+			"item": "copper",
+			"amount": 350
+		},
+		{
+			"item": "silicon",
+			"amount": 140
+		},
+		{
+			"item": "lead",
+			"amount": 200
+		},
+		{
+			"item": "titanium",
+			"amount": 150
+		},
+		{
+			"item": "plastanium",
+			"amount": 95
+		},
+	],
+	"category": "effect",
+	"research": "container",
+itemCapacity: 100
+launchTime: 1200
+hasPower: true
+acceptMultipleItems: true
+"consumes": {
+		"power": 4,
+	},
+}
