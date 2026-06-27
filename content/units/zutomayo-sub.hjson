@@ -53,8 +53,8 @@ range: 100
       			type: LiquidBulletType
 			damage: 22000
 			instantDisapear: false
-			velocityScaleRandMin: -2.5
-			velocityScaleRandMax: 6.1
+			velocityScaleRandMin: -0.1
+			velocityScaleRandMax: 2.1
 			lifetime: 200
 			collidesAir: false
 			collidesGround: false
@@ -80,8 +80,8 @@ range: 100
 		type: LiquidBulletType
 			damage: 12
 			instantDisapear: false
-			velocityScaleRandMin: 1.5
-			velocityScaleRandMax: -13.1
+			velocityScaleRandMin: -2.5
+			velocityScaleRandMax: 0.1
 			lifetime: 30
 			despawnEffect: none
 			hittable: false
