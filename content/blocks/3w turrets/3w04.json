@@ -25,27 +25,6 @@
 	"type": "liquidBulletType",
 	"liquid": water
 		"shootEffect": "shootLiquid",
-	"knockback": 0.4,
-	"drag": 0.01,
-	"status": "wet",
-}
-"stillwater": {
-	"type": "liquidBulletType",
-	"liquid": stillwater
-		"shootEffect": "shootLiquid",
-	"knockback": 0.4,
-	"drag": 0.023,
-	"rangeChange": -20,
-	"puddles": 1,
-	"puddleLiquid": stillwater
-	"puddleAmount": 12,
-	"status": "corroded",
-	"lightOpacity": 0
-},
-"pressure": {
-	"type": "liquidBulletType",
-	"liquid": water
-		"shootEffect": "shootLiquid",
 	"knockback": 0.7,
 	"drag": 0.005,
 	"rangeChange": 20,
@@ -68,7 +47,7 @@
 	"ammoMultiplier": 3,
 	"status": "melting",
 },
-"metal": {
+"cryofluid": {
 	"type": "liquidBulletType",
 	"liquid": cryofluid
 		"shootEffect": "shootLiquid",
