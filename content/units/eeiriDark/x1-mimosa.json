@@ -41,6 +41,7 @@ weapons: [
 			speed: 2
 			damage: 6
 			layer: 116
+			keepVelocity: false
 		}
 	}
 ]

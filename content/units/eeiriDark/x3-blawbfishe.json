@@ -5,13 +5,13 @@
 	"armor": 5,
 	"flying": true,
 	"maxVelocity": 2,
-	"speed": 1.2,
+	"speed": 1.4,
 	"drag": 0.04,
 	"hitSize": 20
 	"faceTarget": true
 	"itemCapacity": 70
-	"range": 80,
-	"attackLength": 80,
+	"range": 100,
+	"attackLength": 100,
 	"rotateWeapon": true,
 	"targetAir": true,
 	"engineOffset": 4,
@@ -38,7 +38,7 @@ weapons: [
 	bullet: {
 			"type": "SapBulletType",
 			sapStrength: 0.5
-            length: 75
+            length: 100
             damage: 23
             shootEffect: shootSmall
             hitColor: bf92f9
@@ -48,6 +48,7 @@ weapons: [
             lifetime: 35
             knockback: 0.4
             layer: 116
+            keepVelocity: false
 		}
 	}
 ]
