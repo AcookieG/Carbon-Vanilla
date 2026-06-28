@@ -10,7 +10,7 @@
 		{ "item": "phase-decay", "amount": 120 }
 	],
 	"category": "defense",
-	"research": "surge-wall"
+	"research": "dcay-wall"
 	"chanceDeflect": 12
 	"flashHit": true
 	"absorbLasers": true

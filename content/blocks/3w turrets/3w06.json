@@ -243,5 +243,5 @@ splashDamageRadius:36.0,
 	],
 	"buildCostMultiplier": 1.5,
 	"category": "turret",
-	"research": "3w02"
+	"research": "salvo"
 }

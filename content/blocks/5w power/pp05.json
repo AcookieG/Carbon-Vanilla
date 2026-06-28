@@ -58,7 +58,7 @@ Requires small amounts of heat to generate Power. Will explode violently if insu
 	"conductivePower": true
 	"loopSound": "flux",
 	"effect": none,
-research: 5w09
+research: 5w08
 	"squareSprite": false,
 	"maxHeat": 6,
 }

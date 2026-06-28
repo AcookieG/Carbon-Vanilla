@@ -40,7 +40,7 @@ Burns coal to produce heat and power.
 	"conductivePower": true
 	"rotate": true
 	"loopSound": "torch",
-research: combustion-generator
+research: differential-generator
 	"itemDuration": 60,
 	"squareSprite": false,
 	"heatOutput": 4,

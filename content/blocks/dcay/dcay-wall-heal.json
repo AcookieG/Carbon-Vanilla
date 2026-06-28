@@ -16,5 +16,5 @@
 		{ "item": "phase-decay", "amount": 60 }
 	],
 	"category": "defense",
-	"research": "dcay-wall"
+	"research": "dcay-wall-large"
 }
