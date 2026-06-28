@@ -1,6 +1,6 @@
 {
 	"name": "Soaping Boiler",
-	"description": "Uses Base and Acid's chemical properties to extract even higher amounts of Hydrogen, along with some Nitrogen",
+	"description": "Uses Acido-Basic reactions to extract even higher amounts of Hydrogen, along with some Nitrogen",
 	"type": "HeatCrafter"
 	"size": 3,
 	"health": 300,
@@ -84,7 +84,7 @@
 		"power": 8,
     "liquids":  [
 		{"liquid": "oil", "amount": 0.6},
-		{"liquid": "pressure", "amount": 0.5},
+		{"liquid": "water", "amount": 0.5},
 		]
 	},
 	"requirements": [

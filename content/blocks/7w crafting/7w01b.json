@@ -18,7 +18,7 @@
 			]
 		},
 		"liquids":  [
-		{"liquid": "pressure", "amount": 0.2},
+		{"liquid": "water", "amount": 0.2},
 		]
 	},
 	"requirements": [
@@ -35,7 +35,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "pressure",
+				"drawLiquid": "water",
 				"padding": 5,
 			},
 			{

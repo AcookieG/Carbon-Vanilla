@@ -1,6 +1,6 @@
 {
 	"name": "Large Cryofluid Mixer",
-	"description": "Mixes Titanium and Water in large amounts to produce cryofluid.",
+	"description": "Mixes Titanium and Nitrogen in large amounts to produce cryofluid.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 230,
@@ -20,7 +20,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "H",
+				"drawLiquid": "N",
 				"padding": 2
 			},
 			{
@@ -44,8 +44,8 @@
 			]
 		},
                 "liquid": {
-			"liquid": "H",
-			"amount": 1.5
+			"liquid": "N",
+			"amount": 0.5
 		},
 	},
 	"requirements": [
@@ -60,7 +60,7 @@
 	"idleSoundVolume": 0.05,
 	"outputLiquid": {
 		"liquid": "cryofluid",
-		"amount": 1.8
+		"amount": 1
 	},
 	"craftTime": 50,
 }
