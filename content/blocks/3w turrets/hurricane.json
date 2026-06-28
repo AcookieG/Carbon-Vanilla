@@ -1,10 +1,10 @@
 {
 	"name": "Hurricaine",
-	"description": "A higher-tier variant of Tsunami. Must be Manualy controled. Cannot deal damage.",
+	"description": "A higher-tier variant of Tsunami.",
 	"type": "ItemTurret",
 	"health": 2870,
 	"size": 4,
-	"reload": 8,
+	"reload": 10,
 	"shake": 0,
 	"range": 260,
 	"shootSound": "splash",
@@ -12,7 +12,7 @@
 	"shootCone": 15,
 	"hasLiquids": false,
 	"hasItems": true
-	"maxAmmo": 50
+	"maxAmmo": 20
 	"inaccuracy": 6,
 	"extinguish": true
 	"targetHealing": true
@@ -33,7 +33,7 @@
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 2,
-			"ammoMultiplier": 3,
+			"ammoMultiplier": 2,
 			"status": "wet"
 			"healPercent": 0.05
 			"collidesTeam": true
@@ -53,7 +53,7 @@
 			"healPercent": 0.05
 			"collidesTeam": true
 		}
-		"sand": {
+		"scrap": {
 			"type": "LiquidBulletType",
 			"orbSize": 4,
 			"liquid": "slag"
@@ -63,7 +63,7 @@
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 1.5,
-			"ammoMultiplier": 3,
+			"ammoMultiplier": 1,
 			"status": "melting"
 			"healPercent": 0.05
 			"collidesTeam": true
