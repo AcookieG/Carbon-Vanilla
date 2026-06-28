@@ -32,7 +32,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "pressure",
+				"drawLiquid": "water",
 				"padding": 2,
 			},
 			{
