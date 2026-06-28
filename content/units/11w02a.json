@@ -10,7 +10,7 @@
 	"accel": 0.01,
 	"drag": 0.015,
 	omniMovement: false,
-	
+	"faceTarget": true
 	"hitSize": 12,
 	
 	"itemCapacity": 0,
