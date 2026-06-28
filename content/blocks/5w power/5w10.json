@@ -60,5 +60,5 @@ Requires small amounts of heat to generate Power. Will explode violently if insu
 	"effect": none,
 research: 5w09
 	"squareSprite": false,
-	"maxHeat": 10,
+	"maxHeat": 6,
 }
