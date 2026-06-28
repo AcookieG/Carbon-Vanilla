@@ -31,7 +31,7 @@ researchCostMultiplier:0
 			"shootSound": "laser"
 			"rotate": false
 			"shake": 0.2
-			"shootCone": 90,
+			"shootCone": 30,
 			"x": 0
 			"y": 0
 			"mirror": false

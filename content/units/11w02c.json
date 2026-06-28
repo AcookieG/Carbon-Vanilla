@@ -90,4 +90,23 @@ layer: 116
 		}
 	]
 	"research": 11w02b,
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.RepairFieldAbility",
+			"activeEffect": {
+				"type": "WaveEffect",
+				"lifetime": 25,
+				"sizeFrom": 0,
+				"sizeTo": 60,
+				"strokeFrom": 4,
+				"strokeTo": 0,
+				"colorFrom": "98ffa9ff",
+				"colorTo": "98ffa9ff"
+			},
+			"healEffect": "healBlockFull",
+			"range": 60,
+			"amount": 50,
+			"reload": 180
+		},
+	]
 }
