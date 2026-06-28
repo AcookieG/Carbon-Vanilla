@@ -50,40 +50,43 @@
     	]
 	"weapons": [
 		{
-			"name": "small-gun",
+			"name": "rumble-flame",
 			"restitution": 0.008,
 			"alternate": true,
 			"ignoreRotation": true,
-			"reload": 30,
-			"recoil": 1,
+			"reload": 1,
+			"recoil": 0.1,
 			"rotationLimit": 361,
-			"inaccuracy": 3,
+			"inaccuracy": 8,
 			"shootSound": "shoot"
 			"rotate": true
 			"shootCone": 20,
 			"shake": 0
-			"x": 12
-			"y": -12
+			"x": 14
+			"y": -18
 			"shootY": 0
-			"mirror": true
+			"mirror": false
 			"shootEffect": "shootScatter"
 			"rotateSpeed": 6,
 			"bullet": {
-				"type": "BasicBulletType",
-				"speed": 7,
-				"damage": 15,
-				"lifetime": 31,
-				"width": 6,
-				"height": 9,
-				"smokeEffect": "shootSmallSmoke"
+				"type": "FireBulletType",
+			"damage": 12,
+			"lifetime": 30
+			"incendAmount": 1,
+			"incendSpread": 10,
+			"incendChance": 2,
+			"velMin": 2.1
+			"velMax": 10
+			"hitGround": true
+			"hitAir": true
 layer: 110
 			},
 		},		{
-			"name": "small-gun",
+			"name": "roll-gun",
 			"restitution": 0.008,
 			"alternate": true,
 			"ignoreRotation": true,
-			"reload": 30,
+			"reload": 45,
 			"recoil": 1,
 			"rotationLimit": 361,
 			"inaccuracy": 3,
@@ -91,8 +94,8 @@ layer: 110
 			"rotate": true
 			"shootCone": 20,
 			"shake": 0
-			"x": 12
-			"y": 8
+			"x": 14
+			"y": 16
 			"shootY": 0
 			"mirror": true
 			"shootEffect": "shootSmall"
@@ -118,22 +121,22 @@ layer: 110
 			"recoil": 10,
 			"rotationLimit": 361,
 			"velocityRnd": 0,
-			"ejectEffect": "casing3",
+			"ejectEffect": "casing4",
 			"inaccuracy": 3,
 			"shootSound": "explosionNavanax"
 			"rotate": true
 			"shootCone": 20,
 			"shake": 2
 			"x": 0
-			"y": 0
+			"y": 3
 			"shootY": 18
 			"mirror": false
 			"shootEffect": "shootBig"
-			"rotateSpeed": 1.2,
+			"rotateSpeed": 1,
 			"shoot": {
 				"type": "ShootPattern",
-				"shots": 2
-				"spread": 0
+				"shots": 12
+				"spread": 0.5
 				"shotDelay": 10
 			}
 			"bullet": {
@@ -148,7 +151,7 @@ layer: 110
 				"pierce": true,
 				"pierceCap": 6
 				"pierceBuilding": true
-				"recoil": 1,
+				"recoil": 2,
 layer: 110
 			},
 		},
@@ -157,26 +160,26 @@ layer: 110
 			"alternate": false,
 			"ignoreRotation": true,
 			"reload": 110,
-			"recoil": 2,
+			"recoil": 3,
 			"rotationLimit": 361,
 			"ejectEffect": "none",
 			"inaccuracy": 3,
 			"shootSound": "largeCannon"
 			"rotate": true
 			"shootCone": 20,
-			"shake": 4
+			"shake": 4.5
 			"x": 0
-			"y": 0
+			"y": 3
 			"shootY": 18
 			"mirror": false
 			"shootEffect": "shootBig"
-			"rotateSpeed": 1.2,
+			"rotateSpeed": 1,
 			"restitution": 0.02,
 			"cooldownTime": 60,
 			"shoot": {
 				"type": "ShootPattern",
-				"shots": 2
-				"spread": 0
+				"shots": 12
+				"spread": 0.5
 				"shotDelay": 10
 			}
 			"bullet": {
