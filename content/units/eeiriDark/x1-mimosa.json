@@ -5,7 +5,7 @@
 	"armor": 0,
 	"flying": true,
 	"maxVelocity": 2,
-	"speed": 1.65,
+	"speed": 1.75,
 	"drag": 0.04,
 	"hitSize": 10
 	"circleTarget" : true,
@@ -19,10 +19,11 @@
 	"engineSize": 2.4,
 	"buildSpeed": 0.25
 	"buildBeamOffset": 7
+		omniMovement: false,
 weapons: [
 	{
 	"name": "mount-purple-weapon",
-	shootCone: 45
+	shootCone: 10
 	reload: 15,
 	mirror: true
 	rotateSpeed: 6

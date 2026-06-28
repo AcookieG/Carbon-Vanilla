@@ -5,10 +5,9 @@
 	"armor": 5,
 	"flying": true,
 	"maxVelocity": 2,
-	"speed": 1.65,
+	"speed": 1.2,
 	"drag": 0.04,
 	"hitSize": 20
-	"circleTarget" : true,
 	"faceTarget": true
 	"itemCapacity": 70
 	"range": 80,
@@ -19,10 +18,11 @@
 	"engineSize": 8,
 	"buildSpeed": 0.75
 	"buildBeamOffset": 12.5
+	"accel": 0.012,
 weapons: [
 	{
 	"name": "spiroct-weapon",
-	shootCone: 45
+	shootCone: 30
 	reload: 15,
 	mirror: true
 	recoil: 2
