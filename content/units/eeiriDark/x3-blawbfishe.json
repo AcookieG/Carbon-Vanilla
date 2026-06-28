@@ -46,7 +46,7 @@ weapons: [
             despawnEffect: none
             widt: 0.54
             lifetime: 35
-            knockback: 0.4
+            knockback: -0.8
             layer: 116
             keepVelocity: false
 		}
