@@ -42,10 +42,10 @@
 		"lightningLength": 15,
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 125 },
-		{ "item": "graphite", "amount": 50 },
-		{ "item": "titanium", "amount": 80 },
-		{ "item": "silicon", "amount": 120 },
+		{ "item": "copper", "amount": 75 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "titanium", "amount": 25 },
+		{ "item": "silicon", "amount": 90 },
 	],
 	"category": "turret",
 	"research": "arc"

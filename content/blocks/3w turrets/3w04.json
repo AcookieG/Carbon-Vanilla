@@ -46,7 +46,7 @@
 	"type": "liquidBulletType",
 	"liquid": water
 		"shootEffect": "shootLiquid",
-	"knockback": 2.8,
+	"knockback": 0.7,
 	"drag": 0.005,
 	"rangeChange": 20,
 	"status": "wet",
@@ -63,25 +63,22 @@
 	"type": "liquidBulletType",
 	"drag": 0.01,
 		"shootEffect": "shootLiquid",
-	"damage": 18,
+	"damage": 3,
 	"liquid": slag
 	"ammoMultiplier": 3,
 	"status": "melting",
 },
 "metal": {
 	"type": "liquidBulletType",
-	"liquid": metal
+	"liquid": cryofluid
 		"shootEffect": "shootLiquid",
-	"knockback": 1.1,
-	"damage": 18,
 	"drag": 0.01,
 	"ammoMultiplier": 3,
-	"status": "corroded",
-	"lightOpacity": 0
+	"status": "freezing",
 },
 	},
 	"requirements": [
-		{ "item": "graphite", "amount": 80 },
+		{ "item": "copper", "amount": 40 },
 		{ "item": "metaglass", "amount": 40 },
 	],
 	"buildCostMultiplier": 2.0,
