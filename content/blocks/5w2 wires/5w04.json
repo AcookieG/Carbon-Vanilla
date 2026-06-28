@@ -1,8 +1,8 @@
 {
 	"name": "Wire Splitter"
-	"description": "Splits heat equally in three directions.",
+	"description": "Splits heat equally in three directions. Consumes power.",
 	"type": "HeatConductor",
-	"health": 20,
+	"health": 40,
 	"size": 1,
 	"drawer": {
 	"type": "DrawMulti",
@@ -18,14 +18,15 @@
 		]
 }
 	"requirements": [
-		{ "item": "lead", "amount": 2},
-		{ "item": "silicon", "amount": 2},
-		{ "item": "iron", "amount": 2}
+		{ "item": "lead", "amount": 6},
+		{ "item": "silicon", "amount": 6},
+		{ "item": "graphite", "amount": 6}
 	],
 	"consumes": {
   "power": 1
 	}
 	"hasPower": true
+	"conductivePower": true
 	"category": "power",
 	"research": "5w03"
 	"visualMaxHeat": 48,
