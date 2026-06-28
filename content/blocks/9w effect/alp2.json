@@ -20,7 +20,7 @@
 	],
 	"category": "effect",
 	"research": "alp",
-"itemCapacity": 300,
+"itemCapacity": 100,
 "acceptMultipleItems": true,
 "liquidCapacity": 300,
 "consumeLiquidAmount": 150,
