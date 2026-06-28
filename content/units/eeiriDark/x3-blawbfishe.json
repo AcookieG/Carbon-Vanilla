@@ -15,10 +15,10 @@
 	"attackLength": 80,
 	"rotateWeapon": true,
 	"targetAir": true,
-	"engineOffset": 3,
-	"engineSize": 10,
+	"engineOffset": 4,
+	"engineSize": 8,
 	"buildSpeed": 0.75
-	"buildBeamOffset": 14
+	"buildBeamOffset": 12.5
 weapons: [
 	{
 	"name": "spiroct-weapon",
@@ -26,14 +26,14 @@ weapons: [
 	reload: 15,
 	mirror: true
 	recoil: 2
-	rotateSpeed: 6
+	rotateSpeed: 1
 	"rotate": true
 	"ignoreRotation": true,
 	"rotationLimit": 361,
 	shootSound: shootSap
 	shootY: 4
-	x: 3
-	y: 1
+	x: 4
+	y: 0.5
 	bullet: {
 			"type": "SapBulletType",
 			sapStrength: 0.5
@@ -46,6 +46,7 @@ weapons: [
             widt: 0.54
             lifetime: 35
             knockback: 0.4
+            layer: 111
 		}
 	}
 ]

@@ -35,7 +35,7 @@ researchCostMultiplier:0
 	
 	"weapons": [
 		{
-			"name": "gun",
+			"name": "11w02c-gun",
 			"alternate": true,
 			"ignoreRotation": true,
 			"reload": 80,
@@ -90,10 +90,9 @@ makeFire:true,
 incendAmount:1.0,
 incendSpread:1.0,
 incendChance:0.3,
+layer: 111
 		}
 		}
 	]
-	"outlineColor": 2c2d38,
-	"fogRadius": 0,
 	"research": 11w02b,
 }
