@@ -67,7 +67,7 @@ weapons: [
 			"radius": 60,
 			"sides": 6,
 			"max": 300,
-			"regen": 1,
+			"regen": 0.5,
 		},
 	]
 }
