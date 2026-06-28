@@ -126,7 +126,7 @@ layer: 110
 			"shake": 2
 			"x": 0
 			"y": 0
-			"shootY": 18
+			"shootY": 20
 			"mirror": false
 			"shootEffect": "shootBig"
 			"rotateSpeed": 1.2,
@@ -167,7 +167,7 @@ layer: 110
 			"shake": 4
 			"x": 0
 			"y": 0
-			"shootY": 18
+			"shootY": 20
 			"mirror": false
 			"shootEffect": "shootBig"
 			"rotateSpeed": 1.2,

@@ -64,7 +64,7 @@
 			"shake": 0
 			"x": 14
 			"y": -18
-			"shootY": 0
+			"shootY": 6
 			"mirror": false
 			"shootEffect": "shootScatter"
 			"rotateSpeed": 6,
@@ -129,7 +129,7 @@ layer: 110
 			"shake": 2
 			"x": 0
 			"y": 3
-			"shootY": 18
+			"shootY": 26
 			"mirror": false
 			"shootEffect": "shootBig"
 			"rotateSpeed": 1,
@@ -170,7 +170,7 @@ layer: 110
 			"shake": 4.5
 			"x": 0
 			"y": 3
-			"shootY": 18
+			"shootY": 26
 			"mirror": false
 			"shootEffect": "shootBig"
 			"rotateSpeed": 1,
