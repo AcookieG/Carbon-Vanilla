@@ -50,12 +50,6 @@ researchCostMultiplier:0
 			"mirror": true
 			"shootEffect": "shootBig"
 			"rotateSpeed": 5,
-				"shoot": {
-		"type": "ShootPattern",
-		"shots": 3
-		"spread": 5
-		"shotDelay": 2
-	},
 			"bullet": {
 			"type": "BasicBulletType",
 lifetime:22,
@@ -70,7 +64,7 @@ shrinkX:0.0,
 ShrinkY:0.5,
 shrinkInterp:linear,
 sprite:missile,
-damage:90,
+damage:110,
 hitSize:8,
 drawSize:120,
 spin:0.0
