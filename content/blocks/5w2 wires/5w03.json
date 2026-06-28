@@ -8,6 +8,10 @@
 	"type": "DrawMulti",
 		"drawers": [
 			{
+				"type": "DrawRegion"
+				"suffix": ""
+			},
+			{
 				"type": "DrawHeatOutput"
 				"drawGlow": true
 			},
