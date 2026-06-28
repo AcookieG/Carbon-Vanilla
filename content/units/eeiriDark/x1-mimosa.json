@@ -1,6 +1,6 @@
 {
 	"type": "flying",
-	"name": "Mimosa",
+	"name": "Anemone",
 	"health": 60,
 	"armor": 0,
 	"flying": true,
@@ -15,8 +15,8 @@
 	"attackLength": 120,
 	"rotateWeapon": true,
 	"targetAir": true,
-	"engineOffset": 7,
-	"engineSize": 2,
+	"engineOffset": 7.5,
+	"engineSize": 2.4,
 	"buildSpeed": 0.25
 	"buildBeamOffset": 7
 weapons: [
@@ -37,6 +37,8 @@ weapons: [
 			height: 9
 			lifetime: 60
 			backColor: bf92f9
+			speed: 2
+			damage: 6
 		}
 	}
 ]

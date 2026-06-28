@@ -1,6 +1,6 @@
 {
 	"type": "flying",
-	"name": "Raymanta",
+	"name": "Stingray",
 	"health": 370,
 	"armor": 1,
 	"flying": true,
@@ -15,9 +15,9 @@
 	"rotateWeapon": true,
 	"targetAir": true,
 	"engineOffset": 2,
-	"engineSize": 4,
+	"engineSize": 4.5,
 	"buildSpeed": 0.5
-	"buildBeamOffset": 9
+	"buildBeamOffset": 9.5
 weapons: [
 	{
 	"name": "purple-missiles",
@@ -35,12 +35,13 @@ weapons: [
 	bullet: {
 			"type": "MissileBulletType",
 			width: 7
+			damage: 26
 			height: 9
 			homingPower: 0.08
                     weaveMag: 4
                     weaveScale: 4
                     lifetime: 50
-                    speed: 2
+                    speed: 3
                     scaleKeepVelocity: true
                     smokeEffect: sparkShoot
                     hitEffect: sparkShoot
