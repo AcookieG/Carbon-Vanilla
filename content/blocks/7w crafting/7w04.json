@@ -32,7 +32,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "water",
+				"drawLiquid": "oil",
 				"padding": 2,
 			},
 			{
@@ -52,7 +52,7 @@ research: 7w01
 	"idleSound": "grinding",
 	"idleSoundVolume": 0.03,
 	"outputLiquids": [
-		{ "liquid": "oil", "amount": 0.075 },
+		{ "liquid": "oil", "amount": 0.05 },
 	],
 	"outputItems": [
 		{ "item": "coal", "amount": 3 },
