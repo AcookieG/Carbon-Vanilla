@@ -18,7 +18,7 @@
 	"engineSize": 8,
 	"buildSpeed": 0.75
 	"buildBeamOffset": 12.5
-	"accel": 0.012,
+	"accel": 0.12,
 weapons: [
 	{
 	"name": "spiroct-weapon",
