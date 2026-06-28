@@ -9,7 +9,7 @@
 		"drawers": [
 			{
 				"type": "DrawRegion"
-				"suffix": ""
+				"suffix": "-"
 			},
 			{
 				"type": "DrawHeatOutput"
