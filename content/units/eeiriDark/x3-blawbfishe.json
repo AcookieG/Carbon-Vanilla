@@ -64,9 +64,8 @@ weapons: [
 	"abilities": [
 		{
 			"type": "mindustry.entities.abilities.ForceFieldAbility",
-			"radius": 80,
-			"rotation": 0,
-			"sides": 5,
+			"radius": 60,
+			"sides": 6,
 			"max": 300,
 			"regen": 1,
 		},
