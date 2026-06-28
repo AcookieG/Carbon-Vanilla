@@ -1,14 +1,14 @@
 {
 	"name": "Mass Production Liquid Bridge",
 	"type": "LiquidBridge",
-	"description": "Its high resistance cell allows for almost limitless fluid pressure.",
+	"description": "Its high resistance cell allows for almost extreme high fluid pressures.",
 	"liquidCapacity": 4600,
 	"size": 1,
 	"health": 160,
 	"category": "liquid",
 	"liquidCapacity": 80,
 	"liquidPressure": 72,
-	"range": 7,
+	"range": 12,
 	"hasPower": false,
 	"requirements": [
 		{
