@@ -65,7 +65,7 @@
 			"recoil": 1,
 			"rotationLimit": 361,
 			"inaccuracy": 3,
-			"shootSound": "shoot"
+			"shootSound": "shootScatter"
 			"rotate": true
 			"shootCone": 20,
 			"shake": 0
@@ -104,7 +104,7 @@ layer: 116
 			"velocityRnd": 0.4,
 			"ejectEffect": "casing2",
 			"inaccuracy": 3,
-			"shootSound": "artillery"
+			"shootSound": "shootAfflict"
 			"rotate": true
 			"shootCone": 20,
 			"shake": 0
@@ -134,7 +134,7 @@ layer: 116
 			"rotationLimit": 361,
 			"ejectEffect": "none",
 			"inaccuracy": 3,
-			"shootSound": "artillery"
+			"shootSound": "shootAfflict"
 			"rotate": true
 			"shootCone": 20,
 			"shake": 2

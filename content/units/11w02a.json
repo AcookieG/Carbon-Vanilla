@@ -28,7 +28,7 @@ researchCostMultiplier:0
 			"ignoreRotation": false,
 			"reload": 30,
 			"inaccuracy": 0,
-			"shootSound": "laser"
+			"shootSound": "shootLaser"
 			"rotate": false
 			"shake": 0.2
 			"shootCone": 30,

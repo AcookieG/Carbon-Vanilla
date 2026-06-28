@@ -45,7 +45,7 @@
 			},
 			"ejectEffect": "casing2",
 			"inaccuracy": 2,
-			"shootSound": "cannon"
+			"shootSound": "shootFlame"
 			"rotate": true
 			"shake": 1
 			"x": 0

@@ -34,7 +34,7 @@
 			"reload": 72,
 			"ejectEffect": "casing1",
 			"inaccuracy": 3,
-			"shootSound": "shoot"
+			"shootSound": "shootScatter"
 			"rotate": true
 			"shake": 0.5
 			"shootCone": 30,

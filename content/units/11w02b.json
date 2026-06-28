@@ -27,7 +27,7 @@ researchCostMultiplier:0
 			"ignoreRotation": true,
 			"reload": 20,
 			"inaccuracy": 0,
-			"shootSound": "shootAlt"
+			shootSound: shootMissilePlasmaShort
 			"rotate": true
 			"shake": 0.0
 			"shootCone": 30,
