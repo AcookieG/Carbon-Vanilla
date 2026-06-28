@@ -30,11 +30,11 @@ researchCostMultiplier:0
 			"rotate": true
 			"shake": 0.0
 			"shootCone": 30,
-			"x": 4
-			"y": 0
+			"x": 0
+			"y": -1
 			"mirror": false
 			"shootEffect": "shootBig"
-			"rotateSpeed": 5,
+			"rotateSpeed": 3,
 			"bullet": {
 			"type": "BasicBulletType",
 lifetime:18,
@@ -65,7 +65,7 @@ trailChance:0.0,
 trailInterval:1,
 trailParam:2.0,
 trailLength:0.0,
-layer: 111
+layer: 116
 		}
 		}
 	]

@@ -90,7 +90,7 @@ makeFire:true,
 incendAmount:1.0,
 incendSpread:1.0,
 incendChance:0.3,
-layer: 111
+layer: 116
 		}
 		}
 	]

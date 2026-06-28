@@ -39,7 +39,7 @@ weapons: [
 			backColor: bf92f9
 			speed: 2
 			damage: 6
-			layer: 111
+			layer: 116
 		}
 	}
 ]

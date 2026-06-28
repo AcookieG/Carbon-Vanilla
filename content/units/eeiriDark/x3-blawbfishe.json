@@ -46,7 +46,7 @@ weapons: [
             widt: 0.54
             lifetime: 35
             knockback: 0.4
-            layer: 111
+            layer: 116
 		}
 	}
 ]
