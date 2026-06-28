@@ -4,8 +4,8 @@
 	"health": 60,
 	"armor": 0,
 	"flying": true,
-	"maxVelocity": 2,
-	"speed": 2.2,
+	"maxVelocity": 3,
+	"speed": 2.5,
 	"drag": 0.04,
 	"hitSize": 10
 	"circleTarget" : true,

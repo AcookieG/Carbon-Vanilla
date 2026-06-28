@@ -4,8 +4,8 @@
 	"health": 370,
 	"armor": 1,
 	"flying": true,
-	"maxVelocity": 2,
-	"speed": 1.8,
+	"maxVelocity": 2.5,
+	"speed": 2,
 	"drag": 0.042,
 	"hitSize": 16
 	"itemCapacity": 30
