@@ -119,7 +119,7 @@ trailChance:0.7,
 trailParam:2.0,
 trailLength:10.0,
 trailWidth:2.0,
-trailEffect:{"type": "ParticleEffect","colorFrom": "dae1ee", "colorTo": "dae1ee","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 4, "sizeTo": 0},
+trailEffect:{"type": "ParticleEffect","colorFrom": "dae1ee", "colorTo": "7d89d8","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 4, "sizeTo": 0},
 		}
 	"thorium": {
 "type": "BasicBulletType",
@@ -159,7 +159,8 @@ trailChance:1.0,
 trailParam:1.0,
 trailLength:10.0,
 trailWidth:3.0,
-trailEffect:{"type": "ParticleEffect","colorFrom": "f595be", "colorTo": "f595be","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 4, "sizeTo": 0},
+trailColor: f595be
+trailEffect:{"type": "ParticleEffect","colorFrom": "ffffff", "colorTo": "f595be","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 4, "sizeTo": 0},
 }
 	"shell": {
 "type": "BasicBulletType",
