@@ -32,17 +32,7 @@
 	abilities: [
         	{
         	type: mindustry.entities.abilities.RepairFieldAbility
-        	healEffect: {
-        	type: WaveEffect
-        	lifetime: 30
-        	sizeFrom: 0
-        	sizeTo: 64
-        	strokeFrom: 2
-        	strokeTo: 0
-        	lightColor: d1efffff
-        	colorFrom: 8ca9e8ff
-        	colorTo: d1efffff
-        	}
+			"healEffect": "healBlockFull",
         	range: 64
         	amount: 60
         	reload: 180
