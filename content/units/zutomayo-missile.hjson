@@ -16,9 +16,9 @@ missileAccelTime: 100
 engineOffset: 12
 engineSize: 3.5
 drawCell: false
-maxRange: 50
+maxRange: 24
 trailLength: 3
-range: 50
+range: 24
 shootOnDeath: true
 targetable: false
 weapons: [
