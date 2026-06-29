@@ -23,7 +23,7 @@
 	],
 	"omniMovement": false,
 	"rotateMoveFirst": true,
-	"crushDamage": 2.5
+	"crushDamage": 1.8
 	"immunities": [
 		"freezing",
 		"burning",
@@ -75,12 +75,14 @@
 				frontRegion: clear
 				"shootEffect": "shootSmallFlame"
 				despawnEffect: none
-				pierce: true
-			"damage": 8,
+				"pierce": true,
+				"pierceCap": 4
+			"damage": 9,
 			"lifetime": 30
 			"speed": 6
 			"hitGround": true
 			"hitAir": true
+			makeFire: true
 			status:burning,
 statusDuration:180,
 
@@ -154,13 +156,13 @@ layer: 110
 				"type": "BasicBulletType",
 				"speed": 10,
 				"drawSize": 350,
-				"damage": 620,
+				"damage": 610,
 				"lifetime": 32,
 				"width": 12,
 				"height": 18,
 				"smokeEffect": "shootBigSmoke"
 				"pierce": true,
-				"pierceCap": 6
+				"pierceCap": 4
 				"pierceBuilding": true
 				"recoil": 1,
 layer: 110
