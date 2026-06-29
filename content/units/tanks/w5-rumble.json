@@ -1,7 +1,7 @@
 {
 	"type": "tank",
 	"name": "Rumble"
-	"description": "A large ground unit with treads for better movement. Mounted with a very large rifle.",
+	"description": "A large ground unit with treads for better movement. Mounted with a very large rifle, and flamethrower to melt down defenses.",
 	"rotateSpeed": 0.9,
 	"speed": 0.6,
 	"flying": false,
@@ -76,7 +76,7 @@
 				"shootEffect": "shootSmallFlame"
 				despawnEffect: none
 				pierce: true
-			"damage": 24,
+			"damage": 8,
 			"lifetime": 30
 			"speed": 6
 			"hitGround": true
@@ -114,7 +114,7 @@ layer: 110
 			"bullet": {
 				"type": "BasicBulletType",
 				"speed": 7,
-				"damage": 15,
+				"damage": 22,
 				"lifetime": 31,
 				"width": 6,
 				"height": 9,
@@ -127,7 +127,7 @@ layer: 110
 			"restitution": 0.008,
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 110,
+			"reload": 180,
 			"cooldownTime": 100,
 			"recoil": 10,
 			"rotationLimit": 361,
@@ -170,7 +170,7 @@ layer: 110
 			"name": "rumble-case",
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 110,
+			"reload": 180,
 			"recoil": 3,
 			"rotationLimit": 361,
 			"ejectEffect": "none",
