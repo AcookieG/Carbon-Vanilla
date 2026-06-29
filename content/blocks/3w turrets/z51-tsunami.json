@@ -10,7 +10,7 @@
 	"range": 190,
 	"minRange": 64,
 	"drawMinRange": true,
-	"ammoUseEffect": "casing3",
+	"ammoUseEffect": none,
 	"shootSound": "shootFlamePlasma",
 	"restitution": 0.01,
 	"shootCone": 15,
