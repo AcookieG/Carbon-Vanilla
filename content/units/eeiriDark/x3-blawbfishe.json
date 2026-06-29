@@ -39,14 +39,14 @@ weapons: [
 			"type": "SapBulletType",
 			sapStrength: 0.5
             length: 100
-            damage: 23
+            damage: 34
             shootEffect: shootSmall
             hitColor: bf92f9
             color: bf92f9
             despawnEffect: none
             width: 0.54
             lifetime: 35
-            knockback: -0.8
+            knockback: -1.7
             layer: 116
             keepVelocity: false
 		}

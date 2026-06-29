@@ -1,15 +1,15 @@
 {
 	"name": "Hyperdrive",
-	"description": "An extremely powerful overdrive projector, for singular buildings.",
+	"description": "An extremely powerful overdrive projector, for small structures.",
 	"type": "OverdriveProjector",
 	"health": 380,
 	"size": 2,
 	"range": 28,
 	"hasPower": true
 	"itemCapacity": 30,
-	"speedBoost": 4,
-    "speedBoostPhase": 16,
-    "phaseRangeBoost": 120,
+	"speedBoost": 3,
+    "speedBoostPhase": 8,
+    "phaseRangeBoost": 40,
     "consumes": { 
         "power": 80,
         "items": {
