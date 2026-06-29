@@ -9,7 +9,6 @@
 	"size": 2,
 	"reload": 450,
 	"range": 300,
-	fogRadiusMultiplier:0
 	"recoil":3,
 	"ammoPerShot":6,
 	"maxAmmo":30,
@@ -17,7 +16,7 @@
 	"shootSound": "laserbig",
 	"shootCone": 0.1,
 	"hasLiquids": true,
-	"rotateSpeed": 0.3,
+	"rotateSpeed": 0.6,
 	"outlineRadius": 4,
 	"squareSprite": false,
 	"shake": 2.0,
@@ -120,7 +119,7 @@ trailChance:0.7,
 trailParam:2.0,
 trailLength:10.0,
 trailWidth:2.0,
-trailEffect:{"type": "ParticleEffect","colorFrom": "dae1ee", "colorTo": "dae1ee","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 8, "sizeTo": 4},
+trailEffect:{"type": "ParticleEffect","colorFrom": "dae1ee", "colorTo": "dae1ee","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 4, "sizeTo": 0},
 		}
 	"thorium": {
 "type": "BasicBulletType",
@@ -147,7 +146,6 @@ hitEffect:shootPayloadDriver,
 despawnEffect:none,
 shootEffect:instTrail,
 smokeEffect:randLifeSpark,
-reloadMultiplier:0.5,
 
 knockback:20
 pierce:true,
@@ -161,7 +159,7 @@ trailChance:1.0,
 trailParam:1.0,
 trailLength:10.0,
 trailWidth:3.0,
-trailEffect:{"type": "ParticleEffect","colorFrom": "f595be", "colorTo": "f595be00","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 8, "sizeTo": 4},
+trailEffect:{"type": "ParticleEffect","colorFrom": "f595be", "colorTo": "f595be","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 4, "sizeTo": 0},
 }
 	"shell": {
 "type": "BasicBulletType",
