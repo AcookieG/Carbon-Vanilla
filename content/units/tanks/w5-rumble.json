@@ -36,7 +36,7 @@
         	type: WaveEffect
         	lifetime: 30
         	sizeFrom: 0
-        	sizeTo: 20
+        	sizeTo: 64
         	strokeFrom: 2
         	strokeTo: 0
         	lightColor: d1efffff
@@ -44,7 +44,7 @@
         	colorTo: d1efffff
         	}
         	range: 64
-        	amount: 230
+        	amount: 60
         	reload: 180
         	    }
     	]
@@ -77,7 +77,7 @@
 				despawnEffect: none
 				"pierce": true,
 				"pierceCap": 4
-			"damage": 9,
+			"damage": 8,
 			"lifetime": 30
 			"speed": 6
 			"hitGround": true
@@ -99,7 +99,7 @@ layer: 110
 			"restitution": 0.008,
 			"alternate": true,
 			"ignoreRotation": true,
-			"reload": 45,
+			"reload": 30,
 			"recoil": 1,
 			"rotationLimit": 361,
 			"inaccuracy": 3,
@@ -116,7 +116,7 @@ layer: 110
 			"bullet": {
 				"type": "BasicBulletType",
 				"speed": 7,
-				"damage": 22,
+				"damage": 18,
 				"lifetime": 31,
 				"width": 6,
 				"height": 9,
