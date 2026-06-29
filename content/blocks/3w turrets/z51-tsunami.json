@@ -5,7 +5,7 @@
 	"type": "ItemTurret",
 	"health": 1630,
 	"size": 3,
-	"reload": 30,
+	"reload": 20,
 	"shake": 0.2,
 	"range": 190,
 	"minRange": 64,
@@ -203,7 +203,7 @@
 
 			"type": "BasicBulletType",
 			"despawnHit": true,
-			"damage": 45,
+			"damage": 30,
 			"instantDisapear": false
 			"lifetime": 120
 			"collidesAir": true
