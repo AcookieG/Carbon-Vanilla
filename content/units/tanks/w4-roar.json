@@ -3,7 +3,7 @@
 	"name": "Roar"
 	"description": "A large ground unit with treads for better movement. Mounted with a large rifle.",
 	"rotateSpeed": 1,
-	"speed": 0.6,
+	"speed": 0.65,
 	"flying": false,
 	"range": 220,
 	"drownTimeMultiplier": 8
