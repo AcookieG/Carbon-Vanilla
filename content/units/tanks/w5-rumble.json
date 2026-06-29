@@ -8,7 +8,7 @@
 	"range": 220,
 	"drownTimeMultiplier": 8
 	"armor": 29,
-	"hitSize": 33,
+	"hitSize": 48,
 	"health": 22000,
 	"squareShape": true,
 	"treadPullOffset": 6,
@@ -96,7 +96,7 @@ layer: 110
 			"shake": 0
 			"x": 14
 			"y": 16
-			"shootY": 0
+			"shootY": 8
 			"mirror": true
 			"shootEffect": "shootSmall"
 			"rotateSpeed": 6,
