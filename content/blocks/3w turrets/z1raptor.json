@@ -1,7 +1,7 @@
 {
 	"name": "Raptor",
-	"description": "A super-fast shooting turret. Essentially a compact Spectre. Was not fit for Carbonized Fuse, but still has some of its components.",
-	"details": "Its use of Carbon Fiber is extremely controversial, as it would violate Geneva Conventions, having randomized live landmines and shrapnel."
+	"description": "A fast shooting turret. Essentially a compact Spectre. Was not fit for Carbonized Fuse, but still has some of its components.",
+	"details": "Its use of Carbon Fiber is extremely controversial, as it would violate Geneva Suggestions, having randomized live landmines and shrapnel."
 	"type": "ItemTurret",
 	"health": 1870,
 	"size": 3,
@@ -74,18 +74,21 @@
 			"smokeEffect": "shootBigSmoke"
 			"speed": 8,
 			"homingPower": 0.05,
-			"homingRange": 12,
+			"homingRange": 16,
 			"fragBullets": 1,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"sprite": "large-bomb"
 				"width": 18,
 				"height": 18,
-				"shrinkX": 0.4,
-				"shrinkY": 0.4,
+				"shrinkX": 0.45,
+				"shrinkY": 0.45,
 				"drawsize": 380,
 				"damage": 100,
-				"speed": 0,
+				"speed": 1,
+				"drag": 0.05
+				"homingPower": 0.1,
+				"homingRange": 24,
 				"lifetime": 720,
 				"hitEffect": "massiveExplosion"
 				"despawnEffect": "massiveExplosion"
