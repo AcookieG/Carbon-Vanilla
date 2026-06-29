@@ -1,6 +1,6 @@
 {
 	"name": "Alloy Foundry",
-	"description": "Cools down superheated Iron into a very dense alloy.",
+	"description": "Cools down superheated Copper into a very dense alloy.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 260,
@@ -45,7 +45,7 @@
 		]
 		"items": {
 			"items": [
-				{"item": "iron", "amount": 2}
+				{"item": "copper", "amount": 2}
 			]
 		},
 	},

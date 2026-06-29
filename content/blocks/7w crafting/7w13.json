@@ -53,11 +53,12 @@
 	"consumes": {
 		"power": 3,
     "liquids":  [
-		{"liquid": "metal", "amount": 0.7},
+		{"liquid": "metal", "amount": 0.5},
 		]
 	"items": {
 			"items": [
 	{ "item": "phase-decay", "amount": 1},
+	{ "item": "slate", "amount": 1},
 			]
 		},
 	},
@@ -71,7 +72,7 @@
 research: 7w15
 	"outputItem":{ "item": "shell", "amount": 1 },
 	"idleSound": "techloop",
-	"craftTime": 10,
+	"craftTime": 20,
 	"squareSprite": false,
 	liquidOutputDirections: [4,]
 }

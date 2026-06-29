@@ -1,6 +1,6 @@
 {
 	"name": "Slag Mirror",
-	"description": "Generates intense heat to melt Iron Composites into Dense Alloy. Requires small amounts of Slag to function.",
+	"description": "Generates intense heat to melt Copper Composites into Dense Alloy. Requires small amounts of Slag to function.",
 	"type": "HeatCrafter"
 	"size": 5,
 	"health": 520,
@@ -49,7 +49,7 @@
 		]
 	"items": {
 			"items": [
-				{"item": "iron", "amount": 1}
+				{"item": "copper", "amount": 1}
 			]
 		},
 	},
@@ -61,7 +61,7 @@
 		{ "item": "flex-joint", "amount": 160 },
 	],
 	"category": "crafting",
-	"research": "sand",
+	"research": "7w07",
 	"idleSound": "flux",
 	"outputItems": [
 		{ "item": "dense", "amount": 1 },

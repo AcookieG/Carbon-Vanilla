@@ -1,6 +1,6 @@
 {
 	"name": "Slag Melter",
-	"description": "Produces Slag from Scrap, but requires a coolant.",
+	"description": "Produces Slag from Copper, but requires a coolant.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 140,
@@ -33,7 +33,7 @@
 		"items": {
 			"items": [
 				{
-				"item": "scrap",
+				"item": "copper",
 				"amount": 1,
 				}
 			]

@@ -1,6 +1,6 @@
 {
 	"name": "Pressure Metalisis Chamber",
-	"description": "Generates large quantites of Iron through intense heat and pressure.",
+	"description": "Generates large quantites of Dense Alloy through intense heat and pressure.",
 	"type": "HeatCrafter"
 	"size": 4,
 	"health": 360,
@@ -61,7 +61,7 @@
 	"research": "7w05",
 	"idleSound": "torch",
 	"outputItems": [
-		{ "item": "iron", "amount": 1 },
+		{ "item": "dense", "amount": 1 },
 	],
 	"craftTime": 60,
 	"squareSprite": false,
