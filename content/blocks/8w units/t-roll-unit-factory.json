@@ -25,14 +25,6 @@
 				{ "item": "graphite", "amount": 200 },
 			]
 		},
-		{
-			"unit": "stick",
-			"time": 8400
-			"requirements": [
-				{ "item": "silicon", "amount": 4000 },
-				{ "item": "copper", "amount": 4000 },
-			]
-		},
 	]
 	"category": "units",
 	"research": "ground-factory",
