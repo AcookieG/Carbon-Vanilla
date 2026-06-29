@@ -138,7 +138,7 @@ layer: 110
 			"rotateSpeed": 1,
 			"shoot": {
 				"type": "ShootPattern",
-				"shots": 4
+				"shots": 6
 				"spread": 0.5
 				"shotDelay": 6
 			}
