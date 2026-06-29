@@ -66,16 +66,29 @@
 			"y": -18
 			"shootY": 6
 			"mirror": false
-			"shootEffect": "shootScatter"
+			
 			"rotateSpeed": 6,
 			"bullet": {
-				"type": "FireBulletType",
+				"type": "BulletType",
+				hitEffect: hitFlameSmall
+				"shootEffect": "shootSmallFlame"
+				despawnEffect: none
+				pierce: true
 			"damage": 12,
 			"lifetime": 30
-			"velMin": 4.1
-			"velMax": 10
+			"velMin": 6.1
+			"velMax": 8
 			"hitGround": true
 			"hitAir": true
+			status:burning,
+statusDuration:180,
+
+trailColor:db401cff,
+trailChance:0.0,
+trailInterval:1,
+trailParam:2.0,
+trailLength:0.0,
+trailEffect: ballfire
 layer: 110
 			},
 		},		{
