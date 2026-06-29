@@ -23,7 +23,7 @@
 	],
 	"category": "crafting",
 	"rotate": false
-	"research": "9w01",
+	"research": "graphite-press",
 	"idleSound": "grinding",
 	"outputItems": [
 		{ "item": "slate", "amount": 4 },

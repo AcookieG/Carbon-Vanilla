@@ -48,7 +48,7 @@
 	},
 	"category": "crafting",
 	"rotate": false
-research: 7w01
+research: 7w01b
 	"idleSound": "grinding",
 	"idleSoundVolume": 0.03,
 	"outputLiquids": [

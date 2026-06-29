@@ -9,7 +9,7 @@
 	],
 	"armor": 2,
 	"category": "defense",
-	"research": "6w06",
+	"research": "door",
 	"destroyBullet": {
 		"type": "BasicBulletType",
 		"instantDisappear": true,

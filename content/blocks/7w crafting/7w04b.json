@@ -52,7 +52,7 @@
 	},
 	"category": "crafting",
 	"rotate": false
-research: 7w04
+research: coal-centrifuge
 	"idleSound": "machine",
 	"outputLiquids": [
 		{ "liquid": "oil", "amount": 0.2 },

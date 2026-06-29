@@ -86,7 +86,7 @@
 		{ "item": "circuit", "amount": 8 },
 	],
 	"category": "crafting",
-	"research": "7w07",
+	"research": "a04phase-weaver-l",
 	"idleSound": "techloop",
 	"craftTime": 300,
 	"squareSprite": false,

@@ -9,7 +9,7 @@
 	],
 	"armor": 2,
 	"category": "defense",
-	"research": "9w01",
+	"research": "titanium-wall",
 	"destroyBullet": {
 		"type": "BasicBulletType",
 		"instantDisappear": true,

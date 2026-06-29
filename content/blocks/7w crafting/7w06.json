@@ -58,7 +58,7 @@
 		{ "item": "metaglass", "amount": 100 },
 	],
 	"category": "crafting",
-	"research": "7w05",
+	"research": "silicon-smelter",
 	"idleSound": "torch",
 	"outputItems": [
 		{ "item": "dense", "amount": 1 },

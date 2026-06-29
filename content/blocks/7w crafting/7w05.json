@@ -58,7 +58,7 @@
 		{ "item": "graphite", "amount": 50 },
 	],
 	"category": "crafting",
-research:7w03
+research:spore-press
 	"idleSound": "windHowl",
 	liquidOutputDirections: [2,4]
 	"outputLiquids": [{"liquid": "N", "amount": 0.5},{"liquid": "water", "amount": 0.5},]
