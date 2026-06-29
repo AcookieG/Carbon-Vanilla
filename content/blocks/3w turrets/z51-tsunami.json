@@ -93,7 +93,7 @@
 				"drawSize": 250,
 				"despawnShake": 0.1,
 				"hitSound": explosionBig,
-				"liquid": slag,
+				"liquid": cryofluid,
 				"knockback": 0.1,
 				"puddles": 1,
 				"puddleLiquid": cryofluid,
