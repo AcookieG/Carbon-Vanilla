@@ -203,11 +203,11 @@
 
 			"type": "BasicBulletType",
 			"despawnHit": true,
-			"damage": 60,
+			"damage": 30,
 			"instantDisapear": false
 			"lifetime": 120
-			"velMin": 4.8
-			"velMax": 12.8
+			"velocityScaleRandMin": 4.8
+			"velocityScaleRandMax": 12.8
 			"collidesAir": true
 			"collidesGround": true
 			"collidesTiles": false
