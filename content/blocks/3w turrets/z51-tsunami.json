@@ -64,7 +64,7 @@
 				"height": 20,
 				"lifetime": 40,
 				"velMin": 2.1,
-				"velMax": 4.5,
+				"velMax": 5.5,
 				"hitGround": true,
 				"hitAir": true,
 				"drawSize": 250,
@@ -78,6 +78,7 @@
 				"status": "burning",
 				"statusDuration": 300,
 				reloadMultiplier:2,
+				"inaccuracy": 15,
 			}
 		"titanium": {
 				"type": "liquidBulletType",
@@ -86,7 +87,7 @@
 				"height": 20,
 				"lifetime": 40,
 				"velMin": 2.1,
-				"velMax": 4.5,
+				"velMax": 5.5,
 				"hitGround": true,
 				"hitAir": true,
 				"drawSize": 250,
@@ -100,6 +101,7 @@
 				"status": "freezing",
 				"statusDuration": 300,
 				reloadMultiplier:2,
+				"inaccuracy": 15,
 			}
 		"carbon-fiber": {
 			"type": "BasicBulletType",
