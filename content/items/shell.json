@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Piercing Shells",
-	"description": "A pack of long and dense rods to shoot at enemies. [salmon]Only a few turrets are capable of using those in any meaningful maner.",
+	"description": "A pack of long and dense rods to shoot at enemies.",
 	"cost": 2.4
 	"flammability": 0.0,
 	"radioactivity": 0.2,

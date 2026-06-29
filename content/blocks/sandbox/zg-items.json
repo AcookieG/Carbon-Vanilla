@@ -38,14 +38,10 @@
 { "item": "chip", "amount": 60 },
 { "item": "circuit", "amount": 60 },
 { "item": "dense", "amount": 60 },
-{ "item": "estrogen", "amount": 60 },
 { "item": "flex-joint", "amount": 60 },
-{ "item": "iron", "amount": 60 },
 { "item": "phase-decay", "amount": 60 },
 { "item": "shell", "amount": 60 },
 { "item": "slate", "amount": 60 },
-{ "item": "waffer", "amount": 60 },
-{ "item": "solid-heat", "amount": 60 },
 ],
 	"craftTime": 1
 }

@@ -9,7 +9,6 @@
 	"maxSpread": 2000,
 	"name": "Still Water",
 	"description": "A byproduct of most oil-based reactors. Will slowly eat away at your base.",
-		"details": "Let's eradicate Spores once and for all."
 	"coolant": true,
 	"color": "8bbeb0",
 	"colorFrom": "5e988d",
