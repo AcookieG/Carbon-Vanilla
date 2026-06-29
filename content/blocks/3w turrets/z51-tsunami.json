@@ -59,7 +59,7 @@
 	"ammoTypes": {
 		"pyratite": {
 				"type": "liquidBulletType",
-				"damage": 40,
+				"damage": 38,
 				"width": 20,
 				"height": 20,
 				"lifetime": 40,
@@ -81,7 +81,7 @@
 			}
 		"titanium": {
 				"type": "liquidBulletType",
-				"damage": 40,
+				"damage": 38,
 				"width": 20,
 				"height": 20,
 				"lifetime": 40,
