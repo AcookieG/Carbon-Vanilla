@@ -57,7 +57,7 @@
 			"reload": 2,
 			"recoil": 0.1,
 			"rotationLimit": 361,
-			"inaccuracy": 12,
+			"inaccuracy": 8,
 			"shootSound": "shootFlame"
 			"rotate": true
 			"shootCone": 20,
@@ -71,6 +71,8 @@
 			"bullet": {
 				"type": "BasicBulletType",
 				hitEffect: hitFlameSmall
+				backRegion: clear
+				frontRegion: clear
 				"shootEffect": "none"
 				despawnEffect: none
 				pierce: true
@@ -84,7 +86,7 @@ statusDuration:180,
 
 trailColor:db401cff,
 trailChance:0.0,
-trailInterval:3,
+trailInterval:2,
 trailParam:2.0,
 trailLength:0.0,
 trailEffect: ballfire
