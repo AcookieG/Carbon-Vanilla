@@ -23,7 +23,7 @@
 	],
 	"omniMovement": false,
 	"rotateMoveFirst": true,
-	"crushDamage": 1.8
+	"crushDamage": 1
 	"immunities": [
 		"freezing",
 		"burning",
@@ -67,7 +67,7 @@
 				despawnEffect: none
 				"pierce": true,
 				"pierceCap": 4
-			"damage": 9,
+			"damage": 11,
 			"lifetime": 30
 			"speed": 6
 			"hitGround": true
@@ -89,7 +89,7 @@ layer: 110
 			"restitution": 0.008,
 			"alternate": true,
 			"ignoreRotation": true,
-			"reload": 30,
+			"reload": 15,
 			"recoil": 1,
 			"rotationLimit": 361,
 			"inaccuracy": 3,
@@ -106,10 +106,10 @@ layer: 110
 			"bullet": {
 				"type": "BasicBulletType",
 				"speed": 7,
-				"damage": 18,
+				"damage": 22,
 				"lifetime": 31,
-				"width": 6,
-				"height": 9,
+				"width": 10,
+				"height": 15,
 				"smokeEffect": "shootSmallSmoke"
 layer: 110
 			},
@@ -119,7 +119,7 @@ layer: 110
 			"restitution": 0.008,
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 210,
+			"reload": 240,
 			"cooldownTime": 100,
 			"recoil": 10,
 			"rotationLimit": 361,
@@ -138,7 +138,7 @@ layer: 110
 			"rotateSpeed": 1,
 			"shoot": {
 				"type": "ShootPattern",
-				"shots": 6
+				"shots": 4
 				"spread": 0.5
 				"shotDelay": 6
 			}
@@ -162,7 +162,7 @@ layer: 110
 			"name": "rumble-case",
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 180,
+			"reload": 240,
 			"recoil": 3,
 			"rotationLimit": 361,
 			"ejectEffect": "none",

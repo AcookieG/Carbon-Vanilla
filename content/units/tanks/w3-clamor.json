@@ -23,7 +23,7 @@
 	],
 	"omniMovement": false,
 	"rotateMoveFirst": true,
-	"crushDamage": 1
+	"crushDamage": 0.6
 	"immunities": [
 		"freezing",
 		"burning",
