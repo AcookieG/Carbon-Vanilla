@@ -58,7 +58,7 @@
 			"recoil": 0.1,
 			"rotationLimit": 361,
 			"inaccuracy": 8,
-			"shootSound": "shoot"
+			"shootSound": "shootFlame"
 			"rotate": true
 			"shootCone": 20,
 			"shake": 0
@@ -72,9 +72,6 @@
 				"type": "FireBulletType",
 			"damage": 12,
 			"lifetime": 30
-			"incendAmount": 1,
-			"incendSpread": 10,
-			"incendChance": 2,
 			"velMin": 4.1
 			"velMax": 10
 			"hitGround": true
