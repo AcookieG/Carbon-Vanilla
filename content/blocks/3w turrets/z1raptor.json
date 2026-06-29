@@ -38,13 +38,13 @@
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 25,
-				"VelMin": 2.8,
-				"VelMax": 4.9,
+				"VelMin": 3.3,
+				"VelMax": 6.1,
 				"lifetime": 10,
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
-					"damage": 12,
+					"damage": 9,
 					"VelMin": 0.3,
 					"VelMax": 3.9,
 					"lifetime": 24,
