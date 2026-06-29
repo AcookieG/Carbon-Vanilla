@@ -162,7 +162,7 @@ layer: 110
 				"height": 18,
 				"smokeEffect": "shootBigSmoke"
 				"pierce": true,
-				"pierceCap": 4
+				"pierceCap": 2
 				"pierceBuilding": true
 				"recoil": 1,
 layer: 110
