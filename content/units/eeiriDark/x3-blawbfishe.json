@@ -47,6 +47,36 @@ weapons: [
             width: 0.54
             lifetime: 35
             knockback: -0.8
+            layer: 116
+            keepVelocity: false
+		}
+	}
+	{
+	"name": "clear",
+	shootCone: 30
+	reload: 15,
+	mirror: true
+	recoil: 2
+	rotateSpeed: 3
+	"rotate": true
+	"ignoreRotation": true,
+	"rotationLimit": 361,
+	shootSound: shootSap
+	shootY: 4
+	x: 4
+	y: 0.5
+	bullet: {
+			"type": "SapBulletType",
+			sapStrength: 0.5
+            length: 100
+            damage: 0
+            shootEffect: shootSmall
+            hitColor: bf92f9
+            color: bf92f9
+            despawnEffect: none
+            width: 0.54
+            lifetime: 35
+            knockback: -0.8
             keepVelocity: false
 		}
 	}
@@ -69,5 +99,4 @@ weapons: [
 			"regen": 0.5,
 		},
 	]
-	            layer: 90
 }

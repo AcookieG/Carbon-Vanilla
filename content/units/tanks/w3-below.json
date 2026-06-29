@@ -88,8 +88,9 @@
 trailChance:1.0,
 trailEffect:none,
 trailInterval:1,
-trailParam:2.5,
-trailLength:40.0,
+trailParam:1.0,
+trailLength:6.0,
+layer: 116
 			},
 		},
 		{
@@ -132,7 +133,8 @@ trailChance:1.0,
 trailEffect:none,
 trailInterval:1,
 trailParam:2.5,
-trailLength:40.0,
+trailLength:10.0,
+layer: 116
 			},
 		},
 		{
@@ -164,6 +166,7 @@ trailLength:40.0,
 				"width": 1,
 				"height": 1,
 				"recoil": 1,
+				layer: 116
 				"smokeEffect": {
 					"type": "multiEffect",
 					"effects": [
@@ -209,5 +212,4 @@ trailLength:40.0,
 			},
 		]
 	}
-	layer: 90
 }

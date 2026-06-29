@@ -31,11 +31,56 @@ weapons: [
 	x: 0
 	y: 1
 	shootSound: shootMissilePlasmaShort
-	inaccuracy: 12
+	inaccuracy: 0
 	bullet: {
 			"type": "MissileBulletType",
 			width: 7
 			damage: 26
+			height: 9
+			homingPower: 0.08
+                    weaveMag: 4
+                    weaveScale: 4
+                    lifetime: 50
+                    speed: 3
+                    scaleKeepVelocity: true
+                    smokeEffect: sparkShoot
+                    hitEffect: sparkShoot
+                    despawnEffect: sparkShoot
+                    hitSound: none
+
+                    healPercent: 5.5
+                    collidesTeam: true
+                    reflectable: false
+                    backColor: bf92f9
+                    trailColor: bf92f9
+                    frontColor: ffffff
+                    layer: 116
+                    keepVelocity: false
+                    trailColor:bf92f9,
+trailChance:1.0,
+trailEffect:none,
+trailInterval:1,
+trailParam:1.5,
+trailLength:40.0,
+		}
+	}
+	{
+	"name": "clear",
+	shootCone: 15
+	reload: 20,
+	mirror: false
+	rotateSpeed: 6
+	"rotate": true
+	"ignoreRotation": true,
+	"rotationLimit": 361,
+	x: 0
+	y: 1
+	shootSound: shootMissilePlasmaShort
+	inaccuracy: 0
+	bullet: {
+			"type": "MissileBulletType",
+			width: 7
+			damage: 0
 			height: 9
 			homingPower: 0.08
                     weaveMag: 4
@@ -59,7 +104,7 @@ weapons: [
 trailChance:1.0,
 trailEffect:none,
 trailInterval:1,
-trailParam:2.5,
+trailParam:1.5,
 trailLength:40.0,
 		}
 	}
@@ -73,5 +118,4 @@ trailLength:40.0,
 			},
 		]
 	}
-	layer: 90
 }

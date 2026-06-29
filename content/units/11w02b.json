@@ -66,9 +66,9 @@ trailChance:0.0,
 trailInterval:1,
 trailParam:2.0,
 trailLength:0.0,
+layer: 116
 		}
 		}
 	]
 	"research": 11w02a,
-	layer: 90
 }
