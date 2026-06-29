@@ -45,7 +45,7 @@
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 40 },
-		{ "item": "dense", "amount": 15 },
+		{ "item": "graphite", "amount": 55 },
 		{ "item": "copper", "amount": 50 },
 	],
 	"category": "crafting",
