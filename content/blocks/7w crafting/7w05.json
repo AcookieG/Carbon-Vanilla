@@ -58,7 +58,6 @@
 		{ "item": "graphite", "amount": 50 },
 	],
 	"category": "crafting",
-	"rotate": false
 research:7w03
 	"idleSound": "windHowl",
 	liquidOutputDirections: [2,4]

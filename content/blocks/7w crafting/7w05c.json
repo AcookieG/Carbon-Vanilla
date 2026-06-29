@@ -103,5 +103,6 @@ research: 7w05b
 	"idleSound": "techloop",
 	"outputLiquids": [{"liquid": "H", "amount": 1.2},{"liquid": "N", "amount": 0.5},{"liquid": "O", "amount": 0.6},]
 	"craftTime": 50,
+	"rotate": true,
 	liquidOutputDirections: [2,3,4]
 }
