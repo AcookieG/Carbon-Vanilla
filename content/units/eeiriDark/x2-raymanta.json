@@ -60,8 +60,8 @@ weapons: [
 trailChance:1.0,
 trailEffect:none,
 trailInterval:1,
-trailParam:1.5,
-trailLength:40.0,
+trailParam:1.0,
+trailLength:10.0,
 		}
 	}
 	{
@@ -104,8 +104,8 @@ trailLength:40.0,
 trailChance:1.0,
 trailEffect:none,
 trailInterval:1,
-trailParam:1.5,
-trailLength:40.0,
+trailParam:1.0,
+trailLength:10.0,
 		}
 	}
 ]
