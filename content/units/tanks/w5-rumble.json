@@ -54,7 +54,7 @@
 			"restitution": 0.008,
 			"alternate": true,
 			"ignoreRotation": true,
-			"reload": 1,
+			"reload": 3,
 			"recoil": 0.1,
 			"rotationLimit": 361,
 			"inaccuracy": 8,
@@ -66,18 +66,17 @@
 			"y": -18
 			"shootY": 6
 			"mirror": false
-			
+			"velocityRnd": 0.3,
 			"rotateSpeed": 6,
 			"bullet": {
-				"type": "BulletType",
+				"type": "BasicBulletType",
 				hitEffect: hitFlameSmall
 				"shootEffect": "shootSmallFlame"
 				despawnEffect: none
 				pierce: true
-			"damage": 12,
+			"damage": 24,
 			"lifetime": 30
-			"velMin": 6.1
-			"velMax": 8
+			"speed": 6
 			"hitGround": true
 			"hitAir": true
 			status:burning,
