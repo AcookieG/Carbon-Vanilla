@@ -199,7 +199,7 @@
 
 			"type": "BasicBulletType",
 			"despawnHit": true,
-			"damage": 40,
+			"damage": 35,
 			"instantDisapear": false
 			"lifetime": 120
 			"collidesAir": true
