@@ -54,8 +54,13 @@ weapons: [
                     backColor: bf92f9
                     trailColor: bf92f9
                     frontColor: ffffff
-                    layer: 116
                     keepVelocity: false
+                    trailColor:bf92f9,
+trailChance:1.0,
+trailEffect:none,
+trailInterval:1,
+trailParam:2.5,
+trailLength:40.0,
 		}
 	}
 ]
@@ -68,4 +73,5 @@ weapons: [
 			},
 		]
 	}
+	layer: 90
 }

@@ -84,7 +84,12 @@
 				"height": 9,
 				"smokeEffect": "shootSmallSmoke"
 				"recoil": 0.1,
-layer: 116
+				trailColor:ffe2a9,
+trailChance:1.0,
+trailEffect:none,
+trailInterval:1,
+trailParam:2.5,
+trailLength:40.0,
 			},
 		},
 		{
@@ -122,7 +127,12 @@ layer: 116
 				"width": 12,
 				"height": 18,
 				"smokeEffect": "shootBigSmoke"
-layer: 116
+				trailColor:ffe2a9,
+trailChance:1.0,
+trailEffect:none,
+trailInterval:1,
+trailParam:2.5,
+trailLength:40.0,
 			},
 		},
 		{
@@ -154,7 +164,6 @@ layer: 116
 				"width": 1,
 				"height": 1,
 				"recoil": 1,
-				layer: 116
 				"smokeEffect": {
 					"type": "multiEffect",
 					"effects": [
@@ -200,4 +209,5 @@ layer: 116
 			},
 		]
 	}
+	layer: 90
 }

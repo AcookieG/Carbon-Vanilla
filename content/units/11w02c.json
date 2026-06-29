@@ -85,7 +85,6 @@ makeFire:true,
 incendAmount:1.0,
 incendSpread:1.0,
 incendChance:0.3,
-layer: 116
 		}
 		}
 	]
@@ -109,4 +108,5 @@ layer: 116
 			"reload": 180
 		},
 	]
+	layer: 90
 }
