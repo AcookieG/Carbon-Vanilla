@@ -9,7 +9,7 @@
 	"shake": 1,
 	"range": 200,
 	"ammoUseEffect": "casing3Double",
-	"shootSound": "shootBig",
+	"shootSound": "shootSpectre",
 	"restitution": 0.1,
 	"shootCone": 15,
 	"spread": 0,
@@ -31,12 +31,14 @@
 			"lifetime": 25,
 			"shrinkY": 0,
 			"shootEffect": "shootBig",
+			backColor: a1b46e
 			"speed": 8,
 			"homingPower": 0.03,
 			"homingRange": 40,
 			"fragBullets": 3,
 			"fragBullet": {
 				"type": "BasicBulletType",
+				backColor: a1b46e
 				"damage": 25,
 				"speed": 1.25,
 				"velocityScaleRandMax": 3.1
@@ -44,6 +46,7 @@
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
+					backColor: a1b46e
 					"damage": 9,
 					"speed": 0.75,
 				"velocityScaleRandMax": 3.1
@@ -60,7 +63,7 @@
 			"ammoMultiplier": 3,
 			"width": 8,
 			"height": 12,
-			"toColor": "thoriumPink",
+			"backColor": "f595be",
 			"lifetime": 33,
 			"shrinkY": 0.6,
 			"shootEffect": "shootBig2",
@@ -77,6 +80,7 @@
 			"width": 8,
 			"height": 12,
 			"reloadMultiplier": 0.5,
+			"backColor": "768a9a",
 			"lifetime": 30,
 			"shrinkY": 0,
 			"shootEffect": "shootBig",
@@ -101,6 +105,7 @@
 				"lifetime": 720,
 				"hitEffect": "massiveExplosion"
 				"despawnEffect": "massiveExplosion"
+				"backColor": "768a9a",
 			},
 		},
 	},
