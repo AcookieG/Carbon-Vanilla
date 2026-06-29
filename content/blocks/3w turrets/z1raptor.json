@@ -22,7 +22,7 @@
 			"type": "BasicBulletType",
 			"drawsize": 220,
 			"collideAir": true
-			"damage": 72,
+			"damage": 45,
 			"ammoMultiplier": 3,
 			"width": 8,
 			"height": 12,
@@ -37,9 +37,17 @@
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 25,
-				"VelMin": 0.3,
+				"VelMin": 0.8,
 				"VelMax": 4.9,
 				"lifetime": 24,
+				"fragBullets": 3,
+				"fragBullet": {
+					"type": "BasicBulletType",
+					"damage": 12,
+					"VelMin": 0.3,
+					"VelMax": 3.9,
+					"lifetime": 24,
+			},
 			},
 		},
 		"thorium": {
