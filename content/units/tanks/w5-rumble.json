@@ -7,7 +7,7 @@
 	"flying": false,
 	"range": 220,
 	"drownTimeMultiplier": 8
-	"armor": 26,
+	"armor": 23,
 	"hitSize": 48,
 	"health": 19700,
 	"squareShape": true,
@@ -156,7 +156,7 @@ layer: 110
 				"type": "BasicBulletType",
 				"speed": 10,
 				"drawSize": 350,
-				"damage": 530,
+				"damage": 420,
 				"lifetime": 32,
 				"width": 12,
 				"height": 18,
