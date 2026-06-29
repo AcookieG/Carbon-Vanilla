@@ -73,7 +73,7 @@
 				hitEffect: hitFlameSmall
 				backRegion: clear
 				frontRegion: clear
-				"shootEffect": "none"
+				"shootEffect": "shootSmallFlame"
 				despawnEffect: none
 				pierce: true
 			"damage": 24,
