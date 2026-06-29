@@ -5,7 +5,7 @@
 	"type": "ItemTurret",
 	"health": 1630,
 	"size": 3,
-	"reload": 21,
+	"reload": 24,
 	"shake": 0.2,
 	"range": 190,
 	"minRange": 64,
@@ -20,9 +20,9 @@
 	"velocityRnd": 0.1,
 	"shoot": {
 		"type": "ShootPattern",
-		"shots": 6,
+		"shots": 7,
 		"spread": 1,
-		"shotDelay": 18,
+		"shotDelay": 21,
 	},
 	"drawer": {
 	"type": "drawTurret",
