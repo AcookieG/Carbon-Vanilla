@@ -1,7 +1,7 @@
 {
 	"name": "Nitrous Decomposer",
 	"description": "Decomposes Oil into its various gases to extract Nitrogen.",
-	"type": "GenericCrafter"
+	"type": "HeatProducer"
 	"size": 3,
 	"health": 200,
 	"hasLiquids": true,
@@ -10,6 +10,7 @@
 	"updateEffect": "steam",
 	"craftEffect": "none",
 	"liquidCapacity": 30,
+	"heatOutput": 0
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
@@ -33,6 +34,11 @@
 			},
 			{
 				"type": "DrawDefault",
+			},
+			{
+			"type": "DrawSideRegion",
+				top1: "top1"
+				top2: "top1"
 			},
 			{
 				"type": "DrawGlowRegion",

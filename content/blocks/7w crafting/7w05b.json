@@ -52,7 +52,7 @@
 			{
 				"type": "DrawSideRegion",
 				top1: "top1"
-				top2: "top2"
+				top2: "top1"
 			},
 			{
 				"type": "DrawGlowRegion",
