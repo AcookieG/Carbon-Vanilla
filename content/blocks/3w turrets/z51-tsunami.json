@@ -206,8 +206,6 @@
 			"damage": 30,
 			"instantDisapear": false
 			"lifetime": 120
-			"velocityScaleRandMin": 4.8
-			"velocityScaleRandMax": 12.8
 			"collidesAir": true
 			"collidesGround": true
 			"collidesTiles": false
