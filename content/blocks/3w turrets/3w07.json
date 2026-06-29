@@ -82,54 +82,14 @@
 		]
 	},
 	"ammoTypes": {
-		"scrap": {
-"type": "BasicBulletType",
-lifetime:35,
-speed:10.0,
-drag:0.01,
-accel:0.00,
-backColor:666666,
-frontColor:9b928b,
-hitColor:9b928b,
-
-width:15.0,
-height:20.0,
-shrinkX:0.1,
-ShrinkY:0.5,
-shrinkInterp:swingIn,
-sprite:bullet,
-damage:43,
-hitSize:8,
-drawSize:120,
-spin:0.0
-
-hitEffect:randLifeSpark,
-despawnEffect:randLifeSpark,
-shootEffect:instTrail,
-smokeEffect:randLifeSpark,
-inaccuracy:10.0,
-ammoMultiplier:1.0,
-reloadMultiplier:2.0,
-
-pierce:true,
-pierceBuilding:true,
-pierceCap:4,
-
-trailColor:9b928b,
-trailChance:0.7,
-trailParam:2.0,
-trailLength:8.0,
-trailWidth:2.0,
-		}
-		"lead": {
+		"graphite": {
 "type": "BasicBulletType",
 lifetime:25,
 speed:12.0,
 drag:0.00,
 accel:0.01,
-backColor:526570,
-frontColor:708d94,
-hitColor:708d94,
+backColor:dae1ee,
+hitColor:dae1ee,
 
 width:12.0,
 height:18.0,
@@ -155,21 +115,20 @@ pierceBuilding:true,
 pierceCap:13,
 shieldDamageMultiplier:0.5,
 
-trailColor:708d94,
+trailColor:dae1ee,
 trailChance:0.7,
 trailParam:2.0,
 trailLength:10.0,
 trailWidth:2.0,
 		}
-	"dense": {
+	"thorium": {
 "type": "BasicBulletType",
 lifetime:30,
 speed:10.0,
 drag:0.00,
 accel:0.02,
-backColor:50477b,
-frontColor:89769a,
-hitColor:89769a,
+backColor:f595be,
+hitColor:f595be,
 
 width:13.0,
 height:21.0,
@@ -207,9 +166,8 @@ trailEffect:artilleryTrailSmoke
 "type": "BasicBulletType",
 lifetime:15,
 speed:20.0,
-backColor:3c3c4f,
-frontColor:626f9b,
-hitColor:626f9b,
+backColor:b1dd7e,
+hitColor:b1dd7e,
 width:8.0,
 height:12.0,
 damage:640,
@@ -225,8 +183,8 @@ hitEffect:{
 "cone": 8,
 "sizeFrom": 12,
 "sizeTo": 1,
-"colorFrom": "626f9b",
-"colorTo": "626f9b"
+"colorFrom": "b1dd7e",
+"colorTo": "b1dd7e"
 },
 despawnEffect:{
 "type": "ParticleEffect",
@@ -237,8 +195,8 @@ despawnEffect:{
 "cone": 8,
 "sizeFrom": 12,
 "sizeTo": 1,
-"colorFrom": "626f9b",
-"colorTo": "626f9b"
+"colorFrom": "b1dd7e",
+"colorTo": "b1dd7e"
 },
 shootEffect:{
 "type": "multiEffect",
@@ -253,8 +211,8 @@ shootEffect:{
 "cone": 8,
 "sizeFrom": 12,
 "sizeTo": 1,
-"colorFrom": "fff8e8",
-"colorTo": "fff8e8"
+"colorFrom": "b1dd7e",
+"colorTo": "b1dd7e"
 },
 ]
 }

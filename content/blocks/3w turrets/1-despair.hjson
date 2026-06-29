@@ -411,7 +411,7 @@
                 cone: 20
                 sizeFrom: 8
                 sizeTo: 1
-                colorFrom: 626f9b
+                colorFrom: b1dd7e
                 colorTo: ffffff00
             }
 			lifetime: 60
@@ -424,7 +424,7 @@
 			hitEffect: none
 			shrinkY: -0.9
 			hitShake: 0
-			trailColor: 626f9b
+			trailColor: b1dd7e
 			trailEffect: colorSpark
 			trailRotation: true
 			trailInterval: 2
@@ -432,7 +432,7 @@
 			trailWidth: 2.0
 			trailLength: 29
 			frontColor: ffffff
-			backColor: 626f9b
+			backColor: b1dd7e
 			homingPower: 0.025
 			homingRange: 120
 			explodeRange: 35
@@ -454,7 +454,7 @@
 			lightningCone: 360
 			lightningLengthRand: 6
 			lightningLength: 6
-			lightningColor: 626f9b
+			lightningColor: b1dd7e
 			lifeTime: 40
 			speed: 0
 			shootEffect: none
@@ -462,10 +462,10 @@
 			length: 90
 			width: 10
 			hitEffect: hitLancer
-			lightColor: 626f9b
+			lightColor: b1dd7e
 			colors: [
-				626f9b
-				3c3c4f
+				b1dd7e
+				768a9a
 				FFFFFF
 			]
 			}

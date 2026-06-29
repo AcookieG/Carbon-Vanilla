@@ -50,46 +50,15 @@
 		]
 	},
 	"ammoTypes": {
-		"scrap": {
-"type": "ArtilleryBulletType",
-lifetime:75,
-speed:4.0,
-drag:0.0,
-accel:0.0,
-backColor:666666,
-frontColor:9b928b,
-hitColor:9b928b,
-width:11.0,
-height:11.0,
-shrinkX:0.7,
-ShrinkY:0.7,
-hitSize:4,
-drawSize:120,
-spin:6.5,
-
-damage:0,
-
-inaccuracy:18,
-ammoMultiplier:1.0,
-reloadMultiplier:2.0,
-
-velocityScaleRandMin:0.7,
-velocityScaleRandMax:1.2,
-lifeScaleRandMin:0.7,
-lifeScaleRandMax:1.2,
-
-splashDamage:24,
-splashDamageRadius:28.0,
-		}
 		"copper": {
 "type": "ArtilleryBulletType",
 lifetime:60,
 speed:5.0,
 drag:0.0,
 accel:0.0,
-backColor:b8705c,
-frontColor:d99d73,
-hitColor:d99d73,
+backColor:d39169,
+frontColor:eac1a8,
+hitColor:eac1a8,
 width:11.0,
 height:11.0,
 shrinkX:0.7,
@@ -116,9 +85,9 @@ lifetime:60,
 speed:5.0,
 drag:0.0,
 accel:0.0,
-backColor:c7524c,
-frontColor:ff8a66,
-hitColor:ff8a66,
+backColor:db661c,
+frontColor:ffb855,
+hitColor:ffb855,
 width:11.0,
 height:11.0,
 shrinkX:0.7,
@@ -136,7 +105,7 @@ velocityScaleRandMax:1.1,
 lifeScaleRandMin:0.9,
 lifeScaleRandMax:1.1,
 
-trailColor:ff8a66,
+trailColor:ffb855,
 trailChance:0.5,
 trailParam:2.0,
 trailWidth:3.0
@@ -150,15 +119,15 @@ incendChance:0.5,
 splashDamage:68,
 splashDamageRadius:22.0,
 		}
-		"dense": {
+		"thorium": {
 "type": "ArtilleryBulletType",
 lifetime:75,
 speed:4.0,
 drag:0.0,
 accel:0.0,
-backColor:50477b,
-frontColor:89769a,
-hitColor:89769a,
+backColor:f595be,
+frontColor:ffffff,
+hitColor:f595be,
 width:20.0,
 height:20.0,
 shrinkX:0.7,
@@ -174,8 +143,8 @@ hitEffect:{
 			waveRad: 0
 			waveLife: 1
 			waveStroke: 0
-			sparkColor:89769a
-			smokeColor:89769a
+			sparkColor:f595be
+			smokeColor:f595be
 			smokeSize: 5
 			smokes: 8
 			smokeRad: 45
@@ -190,8 +159,8 @@ despawnEffect:{
 			waveRad: 0
 			waveLife: 1
 			waveStroke: 0
-			sparkColor:89769a
-			smokeColor:89769a
+			sparkColor:f595be
+			smokeColor:f595be
 			smokeSize: 5
 			smokes: 8
 			smokeRad: 45
@@ -220,7 +189,7 @@ statusDuration:120,
 
 despawnShake:2.0,
 
-trailColor:89769a,
+trailColor:f595be,
 trailChance:0.5,
 trailParam:3.0,
 trailLength:4.0,
