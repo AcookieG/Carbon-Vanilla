@@ -120,6 +120,7 @@ trailChance:0.7,
 trailParam:2.0,
 trailLength:10.0,
 trailWidth:2.0,
+trailEffect:{"type": "ParticleEffect","colorFrom": "dae1ee", "colorTo": "dae1ee","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 8, "sizeTo": 4},
 		}
 	"thorium": {
 "type": "BasicBulletType",
@@ -160,14 +161,14 @@ trailChance:1.0,
 trailParam:1.0,
 trailLength:10.0,
 trailWidth:3.0,
-trailEffect:artilleryTrailSmoke
-		}
+trailEffect:{"type": "ParticleEffect","colorFrom": "f595be", "colorTo": "f595be00","particles": 1, "length": 1, "lifetime": 20, "line": false, "cone": 360, "sizeFrom": 8, "sizeTo": 4},
+}
 	"shell": {
 "type": "BasicBulletType",
 lifetime:15,
 speed:20.0,
-backColor:b1dd7e,
-hitColor:b1dd7e,
+backColor:626f9b,
+hitColor:626f9b,
 width:8.0,
 height:12.0,
 damage:640,
@@ -183,8 +184,8 @@ hitEffect:{
 "cone": 8,
 "sizeFrom": 12,
 "sizeTo": 1,
-"colorFrom": "b1dd7e",
-"colorTo": "b1dd7e"
+"colorFrom": "626f9b",
+"colorTo": "626f9b"
 },
 despawnEffect:{
 "type": "ParticleEffect",
@@ -195,8 +196,8 @@ despawnEffect:{
 "cone": 8,
 "sizeFrom": 12,
 "sizeTo": 1,
-"colorFrom": "b1dd7e",
-"colorTo": "b1dd7e"
+"colorFrom": "626f9b",
+"colorTo": "626f9b"
 },
 shootEffect:{
 "type": "multiEffect",
@@ -211,8 +212,8 @@ shootEffect:{
 "cone": 8,
 "sizeFrom": 12,
 "sizeTo": 1,
-"colorFrom": "b1dd7e",
-"colorTo": "b1dd7e"
+"colorFrom": "626f9b",
+"colorTo": "626f9b"
 },
 ]
 }
