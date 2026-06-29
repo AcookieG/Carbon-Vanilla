@@ -20,8 +20,9 @@
 	"ammoTypes": {
 		"plastanium": {
 			"type": "BasicBulletType",
+			"inaccuracy": 18,
 			"drawsize": 220,
-			"collideAir": true
+			"collideAir": true,
 			"damage": 45,
 			"ammoMultiplier": 3,
 			"width": 8,
@@ -37,10 +38,10 @@
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 25,
-				"VelMin": 0.8,
+				"VelMin": 2.8,
 				"VelMax": 4.9,
-				"lifetime": 24,
-				"fragBullets": 3,
+				"lifetime": 10,
+				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
 					"damage": 12,
