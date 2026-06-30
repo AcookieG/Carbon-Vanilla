@@ -70,7 +70,7 @@ targetable: false
 			keepVelocity: false
 
 				"liquid": neoplasm,
-				"knockback": 2.2,
+				"knockback": -4.2,
 				"puddles": 1,
 				"puddleLiquid": neoplasm,
 				"puddleAmount": 60,
@@ -97,7 +97,7 @@ targetable: false
 
 
 				"liquid": slag,
-				"knockback": 2.2,
+				"knockback": -4.2,
 				"puddles": 1,
 				"puddleLiquid": slag,
 				"puddleAmount": 50,
