@@ -7,7 +7,7 @@
 	"liquidCapacity": 10,
 	"itemCapacity": 10,
 	"hasLiquids": true,
-	"hasPower": false,
+	"hasPower": true,
 	"hasItems": true,
 	"updateEffect": "smoke",
 	"craftEffect": "none",
@@ -18,8 +18,9 @@
 			]
 		},
 		"liquids":  [
-		{"liquid": "water", "amount": 0.4},
+		{"liquid": "water", "amount": 0.1},
 		]
+		"power": 0.8
 	},
 	"requirements": [
 		{ "item": "dense", "amount": 50 },
@@ -55,8 +56,8 @@
 research: coal-centrifuge
 	"idleSound": "machine",
 	"outputLiquids": [
-		{ "liquid": "oil", "amount": 0.2 },
+		{ "liquid": "oil", "amount": 0.15 },
 	],
-	"craftTime": 20,
+	"craftTime": 30,
 	"squareSprite": false,
 }
