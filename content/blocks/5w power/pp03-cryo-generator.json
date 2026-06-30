@@ -1,10 +1,9 @@
 {
 	"type": "ImpactReactor",
 	"health": 135,
-	"name": "Cryo Generator"
-	"description": "A small but efficient generator, opposite to hydrolisis.",
+	"name": "Freeze Generator"
+	"description": "A small but efficient generator, Uses Freezing Gas and Hydrogen.",
 	"size": 2,
-	"lightColor": "FB9957FF",
 	"baseExplosiveness": 0,
 	"explosionRadius": 1,
 	"explosionDamage": 0,
@@ -23,11 +22,11 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "H",
+				"drawLiquid": "N",
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "O",
+				"drawLiquid": "H",
 			},
 			{
 				"type": "DrawDefault"
@@ -45,7 +44,7 @@
 		"power": 0,
 		"liquids": [
 			"H/0.2",
-			"O/0.1",
+			"N/0.1",
 		]
 	},
 	"requirements": [

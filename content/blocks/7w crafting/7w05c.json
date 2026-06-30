@@ -1,6 +1,6 @@
 {
 	"name": "Soaping Boiler",
-	"description": "Uses Acido-Basic reactions to extract even higher amounts of Hydrogen, along with some Nitrogen",
+	"description": "Uses Acido-Basic reactions to extract even higher amounts of Hydrogen, along with some Freezing Gas",
 	"type": "HeatCrafter"
 	"size": 3,
 	"health": 300,

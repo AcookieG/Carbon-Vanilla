@@ -1,6 +1,6 @@
 {
 	"name": "Nitrous Decomposer",
-	"description": "Decomposes Oil into its various gases to extract Nitrogen.",
+	"description": "Decomposes Oil into its various gases to extract Freezing Gas.",
 	"type": "HeatProducer"
 	"size": 3,
 	"health": 200,
