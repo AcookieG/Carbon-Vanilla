@@ -17,7 +17,7 @@
 	minWarmup: 0.5
 	warmupMaintainTime: 20
 	shootCone: 35
-	rotateSpeed: 1.6
+	rotateSpeed: 2.2
 	hasPower: true
 	targetUnderBlocks: false
 	shootY: 8
@@ -219,7 +219,7 @@
 		metaglass: {
 		type: FlakBulletType
 			sprite: missile-large
-			damage: 60
+			damage: 32
 			ammoMultiplier: 1
 			drawsize: 250
 			width: 8
@@ -240,7 +240,7 @@
 			lifetime: 44
 			 weaveMag: 4
                     weaveScale: 4
-			speed: 1.2
+			speed: 1.25
 			drag: -0.05
 			collidesAir: true
 			collidesGround: true
@@ -259,12 +259,12 @@
 			trailLength: 18
 			frontColor: ffffff
 			backColor: d1e4ff
-			homingPower: 0.05
+			homingPower: 0.06
 			homingRange: 80
 			explodeRange: 16
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
-			bulletInterval: 10,
+			bulletInterval: 6,
 			intervalBullet: {
 				type: BasicBulletType
 				instantDisappear: true
@@ -276,7 +276,7 @@
                hitSoundVolume: 0.8
                hitSound: spark
                buildingDamageMultiplier: 0.7
-               damage: 5
+               damage: 8
                status: freezing
                statusDuration: 720
 		    	keepVelocity: false
@@ -306,7 +306,7 @@
                 hitSoundVolume: 0.8
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
-                damage: 10
+                damage: 22
                 status: freezing
                 statusDuration: 720
 			keepVelocity: false
