@@ -3,10 +3,9 @@
   "effectChance": 1,
   "transitionDamage": 34,
   "damageMultiplier": 0.6
-  "speedMultiplier": 0.5,
+  "speedMultiplier": 0.35,
   "healthMultiplier": 0.5
-  "transitionDamage": 22,
-  "intervalDamage": 18
+  "intervalDamage": 21
   "intervalDamageTime": 60
   "intervalDamagePierce": true
   "opposites": [

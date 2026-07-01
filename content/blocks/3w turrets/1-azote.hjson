@@ -212,7 +212,7 @@
 			trailLength: 18
 			frontColor: ffffff
 			backColor: d1e4ff
-			explodeRange: 16
+			explodeRange: 30
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
 			bulletInterval: 6,
