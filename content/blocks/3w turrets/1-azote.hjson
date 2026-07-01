@@ -3,54 +3,35 @@
 	name: Azote,
 	description: "Shoots frozen missiles at enemies.",
 	squareSprite: false,
-	health: 5300
-	size: 4
-	reload: 40
-	shake: 3
+	health: 4700
+	size: 3
+	reload: 80
+	shake: 2
 	recoil: 5
-	range: 400
+	range: 300
     inaccuracy: 10
-	ammoUseEffect: casing3Double
-	shootSound: ascends
-	restitution: 0.0001
+	ammoUseEffect: casing2Double
+	shootSound: shootCollaris
+	restitution: 0.001
 	cooldownTime: 10
-	minWarmup: 0.99
+	minWarmup: 0.5
 	warmupMaintainTime: 20
-	shootCone: 15
-	rotateSpeed: 1.2
+	shootCone: 35
+	rotateSpeed: 1.6
 	hasPower: true
 	targetUnderBlocks: false
 	shootY: 10
   targetAir: true
   targetGround: true
 	ammoPerShot: 4
-	heatRequirement: 240
+	heatRequirement: 96
 	maxHeatEfficiency: 2
 	consumes: {
-		power: 12
+		power: 8
 		coolant: {
             amount: 0.5
 		}
 	}
-    "shoot": {
-        "type": "ShootMulti",
-        "source": {
-            "type": "ShootBarrel"
-            "barrels": [
-                -3, 0, 0,
-                0, 0, 0,
-                3, 0, 0,
-                -1.5, 0, 0,
-                1.5, 0, 0,
-            ]
-        },
-        "dest": [
-            {
-                "type": "ShootPattern",
-                "shots": 5
-            }
-        ]
-    },
 	coolantMultiplier: 0.6
 	drawer: {
 	type: drawTurret
@@ -235,7 +216,81 @@
 	]
 	}
 	ammoTypes: {
-		surge-alloy: {
+		metaglass: {
+		type: FlakBulletType
+			sprite: missile-large
+			damage: 80
+			ammoMultiplier: 1
+			drawsize: 250
+			width: 10
+			height: 14
+			shootEffect: shootSmokeSquareBig
+			smokeEffect: {
+                type: ParticleEffect
+                particles: 3
+                length: 12
+                lifetime: 80
+                interp: circleOut
+                cone: 20
+                sizeFrom: 6
+                sizeTo: 1
+                colorFrom: d1e4ff
+                colorTo: ffffff00
+            }
+			lifetime: 44
+			speed: 6
+			drag: -0.005
+			collidesAir: true
+			collidesGround: true
+			collidesTiles: true
+			instantDisapear: false
+			despawnEffect: none
+			hitEffect: none
+			shrinkY: -0.5
+			hitShake: 0
+			trailColor: d1e4ff
+			trailEffect: colorSpark
+			trailRotation: true
+			trailInterval: 3
+			trailChance: -1
+			trailWidth: 2.7
+			trailLength: 18
+			frontColor: ffffff
+			backColor: d1e4ff
+			homingPower: 0.045
+			homingRange: 80
+			explodeRange: 30
+			fragRandomSpread: 0
+			fragSpread: 45
+			fragBullets: 8
+			fragBullet: {
+                type: LaserBulletType
+                hitSoundVolume: 0.8
+                hitSound: spark
+                buildingDamageMultiplier: 0.7
+                damage: 10
+                status: freezing
+                statusDuration: 720
+			keepVelocity: false
+			collidesAir: true
+			collidesGround: true
+			collidesTiles: true
+			lifeTime: 10
+			speed: -0.5
+			shootEffect: none
+			despawnEffect: none
+			length: 60
+			width: 12
+			hitEffect: hitLancer
+			lightColor: d1e4ff
+			colors: [
+				d1e4ff
+				d1e4ff
+				FFFFFF
+			]
+			}
+		}
+    	slate: {
 			type: BasicBulletType
 			damage: 96
 			ammoMultiplier: 8
@@ -290,7 +345,7 @@
         lightningLength: 4
         lightningColor: f3e979
 			}
-    }
+    	}
 	}
 	requirements: [
 		{ "item": "chip", "amount": 45 },

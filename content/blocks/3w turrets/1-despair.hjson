@@ -2,7 +2,7 @@
 	type: ItemTurret,
 	name: Despair,
 	description: '''
-    A large turret capable of dealing insane amounts of damage to any unit. Not efficient against walls. Gets absorbed by shields.
+    A large turret capable of dealing large amounts of damage to any unit. Not efficient against walls. Gets absorbed by shields.
     [Salmon] Can shoot Pierceing Rods quite efficiently.
     ''',
 	squareSprite: false,
@@ -25,7 +25,7 @@
 	shootY: 18
 	ammoPerShot: 6
 	velocityRnd: 0.5
-	heatRequirement: 600
+	heatRequirement: 180
 	maxHeatEfficiency: 1.5
 	consumes: {
 		power: 6
