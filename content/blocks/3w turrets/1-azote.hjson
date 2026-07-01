@@ -193,8 +193,8 @@
 			lifetime: 46
 			 weaveMag: 6
              weaveScale: 4
-			speed: 2
-			drag: -0.035
+			speed: 3
+			drag: -0.02
 			collidesAir: false
 			collidesGround: false
 			collidesTiles: false
