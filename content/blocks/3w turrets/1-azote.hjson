@@ -194,7 +194,7 @@
 			 weaveMag: 6
              weaveScale: 4
 			speed: 2
-			drag: -0.04
+			drag: -0.035
 			collidesAir: false
 			collidesGround: false
 			collidesTiles: false
@@ -212,8 +212,6 @@
 			trailLength: 18
 			frontColor: ffffff
 			backColor: d1e4ff
-			homingPower: 0.1
-			homingRange: 150
 			explodeRange: 16
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
