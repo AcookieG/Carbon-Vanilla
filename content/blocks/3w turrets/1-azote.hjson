@@ -213,7 +213,7 @@
 			frontColor: ffffff
 			backColor: d1e4ff
 			homingPower: 0.1
-			homingRange: 80
+			homingRange: 120
 			explodeRange: 16
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
