@@ -262,7 +262,7 @@
                 damage: 80
                 pierceArmor: true
                 status: carbon-vanilla-frostbitten
-                statusDuration: 720
+                statusDuration: 1200
 			keepVelocity: false
 			collidesAir: true
 			collidesGround: true
