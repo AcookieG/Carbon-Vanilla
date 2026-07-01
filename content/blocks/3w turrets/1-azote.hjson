@@ -106,112 +106,50 @@
 		}
 		{
 			type: shapePart
-			y: -5
+			y: -15
 			hollow: true
 			circle: true
 			layer: 110
 			color: d1e4ff
 			stroke: 0
 			strokeTo: 1.9
-			radiusTo: 9
-			radius: 9
+			radiusTo: 12
+			radius: 12
 		}
         {
-            type: shapePart
-            y: -5
-            hollow: true
-            circle: true
-            layer: 110
-            color: d1e4ff
-            stroke: 0
-            strokeTo: 1.1
-            radiusTo: 5
-            radius: 5
-        }
-        {
             type: HaloPart
-            y: -5
-            radius: 3
+            y: -15
+            radius: 1
             tri: true
             layer: 110
-            haloRotation: 90
-            shapeRotation: 180
+            haloRotation: 30
+            shapeRotation: 60
             color: d1e4ff
             haloRadius: 12
             haloRadiusTo: 12
             stroke: 0
             strokeTo: 2
-            shapes: 2
-            triLengthTo: 3
+            shapes: 6
+            triLengthTo: 6
             triLength: 0
         }
         {
             type: HaloPart
-            y: -5
-            radius: 4.3
-            tri: true
-            hollow: true
-            layer: 110
-            haloRotation: 0
-            color: d1e4ff
-            haloRadius: 16
-            haloRadiusTo: 16
-            haloRotateSpeed: -1.7
-            stroke: 0
-            strokeTo: 1.1
-            shapes: 5
-            triLengthTo: 5.5
-            triLength: 0
-        }
-        {
-            type: HaloPart
-            y: -5
-            radius: 3
-            tri: true
-            layer: 110
-            haloRotation: 90
-            color: d1e4ff
-            haloRadius: 12
-            haloRadiusTo: 12
-            stroke: 0
-            strokeTo: 2
-            shapes: 2
-            triLengthTo: 13
-            triLength: 0
-        }
-        {
-            type: HaloPart
-            y: -5
+            y: -15
             radius: 8
             tri: true
             layer: 110
+            haloRotation: 30
+            shapeRotation: 60
             color: d1e4ff
-            shapeRotation: 0
-            haloRotateSpeed: 1.7
             haloRadius: 12
             haloRadiusTo: 12
             stroke: 0
             strokeTo: 2
-            shapes: 5
-            triLengthTo: 2
+            shapes: 6
+            triLengthTo: 8
             triLength: 0
-        }
-        {
-            type: HaloPart
-            y: -5
-            radius: 3
-            tri: true
-            layer: 110
-            color: d1e4ff
-            shapeRotation: 180
             haloRotateSpeed: 1.7
-            haloRadius: 12
-            haloRadiusTo: 12
-            stroke: 0
-            strokeTo: 2
-            shapes: 5
-            triLengthTo: 5
-            triLength: 0
         }
 	]
 	}
