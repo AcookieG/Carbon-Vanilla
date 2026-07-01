@@ -8,8 +8,8 @@
 	reload: 80
 	shake: 2
 	recoil: 5
-	range: 300
-    inaccuracy: 10
+	range: 200
+    inaccuracy: 0
 	ammoUseEffect: casing2Double
 	shootSound: shootCollaris
 	restitution: 0.001
@@ -20,7 +20,7 @@
 	rotateSpeed: 1.6
 	hasPower: true
 	targetUnderBlocks: false
-	shootY: 10
+	shootY: 8
   targetAir: true
   targetGround: true
 	ammoPerShot: 4
@@ -219,7 +219,7 @@
 		metaglass: {
 		type: FlakBulletType
 			sprite: missile-large
-			damage: 80
+			damage: 60
 			ammoMultiplier: 1
 			drawsize: 250
 			width: 10
@@ -238,8 +238,8 @@
                 colorTo: ffffff00
             }
 			lifetime: 44
-			speed: 6
-			drag: -0.005
+			speed: 3
+			drag: -0.05
 			collidesAir: true
 			collidesGround: true
 			collidesTiles: true
@@ -249,7 +249,7 @@
 			shrinkY: -0.5
 			hitShake: 0
 			trailColor: d1e4ff
-			trailEffect: colorSpark
+			trailEffect: none
 			trailRotation: true
 			trailInterval: 3
 			trailChance: -1
@@ -260,9 +260,45 @@
 			homingPower: 0.045
 			homingRange: 80
 			explodeRange: 30
+			intervalBullets: 1,
+			intervalRandomSpread: 0,
+			bulletInterval: 3,
+			intervalBullet: {
+				type: BasicBulletType
+				instantDisappear: false
+				fragRandomSpread: 0
+				fragSpread: 60
+				fragBullets: 6
+				fragBullet: {
+             type: LaserBulletType
+               hitSoundVolume: 0.8
+               hitSound: spark
+               buildingDamageMultiplier: 0.7
+               damage: 5
+               status: freezing
+               statusDuration: 720
+		    	keepVelocity: false
+			    collidesAir: true
+				collidesGround: true
+				collidesTiles: true
+				lifeTime: 6
+				speed: -0.6
+				shootEffect: none
+				despawnEffect: none
+				length: 24
+				width: 6
+				hitEffect: hitLancer
+				lightColor: d1e4ff
+				colors: [
+				d1e4ff
+				d1e4ff
+				FFFFFF
+				]
+				}
+			}
 			fragRandomSpread: 0
-			fragSpread: 45
-			fragBullets: 8
+			fragSpread: 60
+			fragBullets: 6
 			fragBullet: {
                 type: LaserBulletType
                 hitSoundVolume: 0.8
