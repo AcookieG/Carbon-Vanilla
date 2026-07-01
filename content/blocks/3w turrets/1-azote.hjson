@@ -191,8 +191,10 @@
                 colorTo: ffffff00
             }
 			lifetime: 46
-			speed: 1.25
-			drag: -0.052
+			 weaveMag: 6
+             weaveScale: 4
+			speed: 2
+			drag: -0.04
 			collidesAir: false
 			collidesGround: false
 			collidesTiles: false
@@ -211,7 +213,7 @@
 			frontColor: ffffff
 			backColor: d1e4ff
 			homingPower: 0.1
-			homingRange: 80
+			homingRange: 150
 			explodeRange: 16
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
