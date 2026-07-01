@@ -1,7 +1,7 @@
 {
 	type: ItemTurret,
 	name: Azote,
-	description: "Shoots frozen missiles at enemies.",
+	description: "Shoots frozen missiles at enemies. Deals very high damage on the final snowflake.",
 	squareSprite: false,
 	health: 4700
 	size: 4
