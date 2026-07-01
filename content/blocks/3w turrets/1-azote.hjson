@@ -238,7 +238,7 @@
                 colorTo: ffffff00
             }
 			lifetime: 44
-			speed: 3
+			speed: 1
 			drag: -0.05
 			collidesAir: true
 			collidesGround: true
@@ -265,7 +265,7 @@
 			bulletInterval: 6,
 			intervalBullet: {
 				type: BasicBulletType
-				instantDisappear: false
+				instantDisappear: true
 				fragRandomSpread: 0
 				fragSpread: 60
 				fragBullets: 6
