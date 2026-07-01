@@ -1,12 +1,13 @@
 {
   "localizedName": "Frostbitten",
   "effectChance": 1,
-  "damage": 34,
+  "transitionDamage": 34,
   "damageMultiplier": 0.6
   "speedMultiplier": 0.5,
-  "transitionDamage": 120,
-  "intervalDamage": 11
-  "intervalDamageTime": 12
+  "healthMultiplier": 0.5
+  "transitionDamage": 22,
+  "intervalDamage": 18
+  "intervalDamageTime": 60
   "intervalDamagePierce": true
   "opposites": [
     "burning",
