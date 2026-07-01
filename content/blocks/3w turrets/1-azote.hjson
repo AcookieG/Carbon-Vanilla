@@ -7,17 +7,15 @@
 	size: 4
 	reload: 80
 	shake: 2
-	recoil: 5
+	recoil: 3
 	range: 200
     inaccuracy: 0
 	ammoUseEffect: casing2Double
 	shootSound: shootCollaris
 	restitution: 0.001
 	cooldownTime: 10
-	minWarmup: 0.25
-	warmupMaintainTime: 20
 	shootCone: 22
-	rotateSpeed: 3
+	rotateSpeed: 3.6
 	hasPower: true
 	targetUnderBlocks: false
 	shootY: 8
@@ -192,9 +190,9 @@
                 colorFrom: d1e4ff
                 colorTo: ffffff00
             }
-			lifetime: 44
-			 weaveMag: 4
-                    weaveScale: 4
+			lifetime: 46
+			 weaveMag: 6
+             weaveScale: 4
 			speed: 1.25
 			drag: -0.052
 			collidesAir: false
@@ -214,7 +212,7 @@
 			trailLength: 18
 			frontColor: ffffff
 			backColor: d1e4ff
-			homingPower: 0.07
+			homingPower: 0.1
 			homingRange: 80
 			explodeRange: 16
 			intervalBullets: 1,
@@ -223,6 +221,7 @@
 			intervalBullet: {
 				type: BasicBulletType
 				instantDisappear: true
+				despawnEffect: none
 				fragRandomSpread: 0
 				fragSpread: 60
 				fragBullets: 6
