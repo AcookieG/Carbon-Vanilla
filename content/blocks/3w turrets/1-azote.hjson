@@ -4,7 +4,7 @@
 	description: "Shoots frozen missiles at enemies.",
 	squareSprite: false,
 	health: 4700
-	size: 3
+	size: 4
 	reload: 80
 	shake: 2
 	recoil: 5
@@ -16,8 +16,8 @@
 	cooldownTime: 10
 	minWarmup: 0.5
 	warmupMaintainTime: 20
-	shootCone: 35
-	rotateSpeed: 2.2
+	shootCone: 22
+	rotateSpeed: 3
 	hasPower: true
 	targetUnderBlocks: false
 	shootY: 8
@@ -66,7 +66,7 @@
 				outline: false
 				blending: additive
 				colorTo: ffffff00
-				color: c9926f
+				color: d1e4ff
 				progress: {
 					type: warmup
 					op: blend
@@ -94,7 +94,7 @@
 				outline: false
 				blending: additive
 				colorTo: ffffff00
-				color: c9926f
+				color: d1e4ff
 				progress: {
 					type: warmup
 					op: blend
@@ -110,7 +110,7 @@
 			hollow: true
 			circle: true
 			layer: 110
-			color: c9926f
+			color: d1e4ff
 			stroke: 0
 			strokeTo: 1.9
 			radiusTo: 9
@@ -122,7 +122,7 @@
             hollow: true
             circle: true
             layer: 110
-            color: c9926f
+            color: d1e4ff
             stroke: 0
             strokeTo: 1.1
             radiusTo: 5
@@ -136,7 +136,7 @@
             layer: 110
             haloRotation: 90
             shapeRotation: 180
-            color: c9926f
+            color: d1e4ff
             haloRadius: 12
             haloRadiusTo: 12
             stroke: 0
@@ -153,7 +153,7 @@
             hollow: true
             layer: 110
             haloRotation: 0
-            color: c9926f
+            color: d1e4ff
             haloRadius: 16
             haloRadiusTo: 16
             haloRotateSpeed: -1.7
@@ -170,7 +170,7 @@
             tri: true
             layer: 110
             haloRotation: 90
-            color: c9926f
+            color: d1e4ff
             haloRadius: 12
             haloRadiusTo: 12
             stroke: 0
@@ -185,7 +185,7 @@
             radius: 8
             tri: true
             layer: 110
-            color: c9926f
+            color: d1e4ff
             shapeRotation: 0
             haloRotateSpeed: 1.7
             haloRadius: 12
@@ -202,7 +202,7 @@
             radius: 3
             tri: true
             layer: 110
-            color: c9926f
+            color: d1e4ff
             shapeRotation: 180
             haloRotateSpeed: 1.7
             haloRadius: 12
@@ -240,8 +240,8 @@
 			lifetime: 44
 			 weaveMag: 4
                     weaveScale: 4
-			speed: 1.25
-			drag: -0.05
+			speed: 1.21
+			drag: -0.051
 			collidesAir: true
 			collidesGround: true
 			collidesTiles: true
@@ -264,7 +264,7 @@
 			explodeRange: 16
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
-			bulletInterval: 6,
+			bulletInterval: 9,
 			intervalBullet: {
 				type: BasicBulletType
 				instantDisappear: true
