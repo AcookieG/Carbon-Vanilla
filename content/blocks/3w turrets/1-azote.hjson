@@ -174,7 +174,7 @@
 		metaglass: {
 		type: FlakBulletType
 			sprite: missile-large
-			damage: 32
+			damage: 0
 			ammoMultiplier: 1
 			drawsize: 250
 			width: 8
@@ -197,9 +197,9 @@
                     weaveScale: 4
 			speed: 1.25
 			drag: -0.052
-			collidesAir: true
-			collidesGround: true
-			collidesTiles: true
+			collidesAir: false
+			collidesGround: false
+			collidesTiles: false
 			instantDisapear: false
 			despawnEffect: none
 			hitEffect: none
@@ -231,7 +231,7 @@
                hitSoundVolume: 0.8
                hitSound: spark
                buildingDamageMultiplier: 0.7
-               damage: 11
+               damage: 22
                status: freezing
                statusDuration: 720
 		    	keepVelocity: false
@@ -261,8 +261,8 @@
                 hitSoundVolume: 0.8
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
-                damage: 28
-                status: freezing
+                damage: 66
+                status: carbon-vanilla-frostbitten
                 statusDuration: 720
 			keepVelocity: false
 			collidesAir: true
