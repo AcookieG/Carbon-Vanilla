@@ -14,7 +14,7 @@
 	shootSound: shootCollaris
 	restitution: 0.001
 	cooldownTime: 10
-	minWarmup: 0.5
+	minWarmup: 0.25
 	warmupMaintainTime: 20
 	shootCone: 22
 	rotateSpeed: 3
@@ -240,7 +240,7 @@
 			lifetime: 44
 			 weaveMag: 4
                     weaveScale: 4
-			speed: 1.22
+			speed: 1.25
 			drag: -0.052
 			collidesAir: true
 			collidesGround: true
@@ -259,12 +259,12 @@
 			trailLength: 18
 			frontColor: ffffff
 			backColor: d1e4ff
-			homingPower: 0.06
+			homingPower: 0.07
 			homingRange: 80
 			explodeRange: 16
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
-			bulletInterval: 7,
+			bulletInterval: 6,
 			intervalBullet: {
 				type: BasicBulletType
 				instantDisappear: true
@@ -276,7 +276,7 @@
                hitSoundVolume: 0.8
                hitSound: spark
                buildingDamageMultiplier: 0.7
-               damage: 8
+               damage: 11
                status: freezing
                statusDuration: 720
 		    	keepVelocity: false
@@ -306,7 +306,7 @@
                 hitSoundVolume: 0.8
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
-                damage: 22
+                damage: 28
                 status: freezing
                 statusDuration: 720
 			keepVelocity: false
