@@ -229,6 +229,7 @@
                hitSound: spark
                buildingDamageMultiplier: 0.7
                damage: 32
+               pierceArmor: true
                status: freezing
                statusDuration: 720
 		    	keepVelocity: false
@@ -259,6 +260,7 @@
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
                 damage: 80
+                pierceArmor: true
                 status: carbon-vanilla-frostbitten
                 statusDuration: 720
 			keepVelocity: false
