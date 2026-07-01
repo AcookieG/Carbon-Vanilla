@@ -5,11 +5,11 @@
 	squareSprite: false,
 	health: 4700
 	size: 4
-	reload: 80
+	reload: 60
 	shake: 2
 	recoil: 3
-	range: 200
-    inaccuracy: 0
+	range: 208
+    inaccuracy: 4
 	ammoUseEffect: casing2Double
 	shootSound: shootCollaris
 	restitution: 0.001
@@ -30,7 +30,7 @@
             amount: 0.5
 		}
 	}
-	coolantMultiplier: 0.6
+	coolantMultiplier: 1
 	drawer: {
 	type: drawTurret
 	basePrefix: reinforced-
@@ -228,7 +228,7 @@
                hitSoundVolume: 0.8
                hitSound: spark
                buildingDamageMultiplier: 0.7
-               damage: 22
+               damage: 32
                status: freezing
                statusDuration: 720
 		    	keepVelocity: false
@@ -258,7 +258,7 @@
                 hitSoundVolume: 0.8
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
-                damage: 66
+                damage: 80
                 status: carbon-vanilla-frostbitten
                 statusDuration: 720
 			keepVelocity: false

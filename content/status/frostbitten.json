@@ -5,7 +5,7 @@
   "damageMultiplier": 0.6
   "speedMultiplier": 0.35,
   "healthMultiplier": 0.5
-  "intervalDamage": 21
+  "intervalDamage": 31
   "intervalDamageTime": 60
   "intervalDamagePierce": true
   "opposites": [
