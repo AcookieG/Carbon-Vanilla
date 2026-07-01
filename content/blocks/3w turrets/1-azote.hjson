@@ -222,8 +222,8 @@
 			damage: 60
 			ammoMultiplier: 1
 			drawsize: 250
-			width: 10
-			height: 14
+			width: 8
+			height: 11
 			shootEffect: shootSmokeSquareBig
 			smokeEffect: {
                 type: ParticleEffect
@@ -238,7 +238,9 @@
                 colorTo: ffffff00
             }
 			lifetime: 44
-			speed: 1
+			 weaveMag: 4
+                    weaveScale: 4
+			speed: 1.2
 			drag: -0.05
 			collidesAir: true
 			collidesGround: true
@@ -253,16 +255,16 @@
 			trailRotation: true
 			trailInterval: 3
 			trailChance: -1
-			trailWidth: 2.7
+			trailWidth: 2
 			trailLength: 18
 			frontColor: ffffff
 			backColor: d1e4ff
-			homingPower: 0.045
+			homingPower: 0.05
 			homingRange: 80
-			explodeRange: 30
+			explodeRange: 16
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
-			bulletInterval: 6,
+			bulletInterval: 10,
 			intervalBullet: {
 				type: BasicBulletType
 				instantDisappear: true
