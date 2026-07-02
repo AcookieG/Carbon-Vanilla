@@ -18,7 +18,7 @@
 	"spreadTarget": "water",
 	"blockReactive": true,
 	"viscosity": 0.9,
-	"heatCapacity": 0.15,
+	"heatCapacity": 0.20,
 	"explosiveness": 0,
 	"temperature": 0.5,
 	"flammability": 0.0,

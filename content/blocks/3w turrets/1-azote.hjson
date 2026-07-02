@@ -30,7 +30,7 @@
             amount: 0.5
 		}
 	}
-	coolantMultiplier: 1
+	coolantMultiplier: 2
 	drawer: {
 	type: drawTurret
 	basePrefix: reinforced-
