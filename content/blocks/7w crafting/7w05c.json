@@ -88,7 +88,7 @@
 		"power": 12,
     "liquids":  [
 		{"liquid": "oil", "amount": 0.6},
-		{"liquid": "water", "amount": 0.2},
+		{"liquid": "water", "amount": 0.5},
 		]
 	},
 	"requirements": [
@@ -100,7 +100,7 @@
 	"category": "crafting",
 research: 7w05b
 	"idleSound": "techloop",
-	"outputLiquids": [{"liquid": "H", "amount": 1.2},{"liquid": "N", "amount": 0.5},{"liquid": "O", "amount": 0.6},]
+	"outputLiquids": [{"liquid": "H", "amount": 0.8},{"liquid": "N", "amount": 0.5},{"liquid": "O", "amount": 0.4},]
 	"craftTime": 50,
 	"rotate": true,
 	liquidOutputDirections: [2,3,4]

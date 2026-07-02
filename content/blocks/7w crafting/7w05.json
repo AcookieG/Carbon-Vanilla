@@ -9,7 +9,7 @@
 	"hasItems": false,
 	"updateEffect": "steam",
 	"craftEffect": "none",
-	"liquidCapacity": 30,
+	"liquidCapacity": 70,
 	"heatOutput": 0
 	"drawer": {
 		"type": "DrawMulti",
