@@ -5,7 +5,7 @@ template: MissileUnitType
 lowAltitude: false
 speed: 11
 rotateSpeed: 0.5
-lifetime: 2000
+lifetime: 1000
 physics: false
 flying: true
 hidden: false
@@ -71,7 +71,7 @@ weapons: [
 			waveRad: 2400
 			waveLife: 360
 			waveStroke: 30
-			smokeColor: ffffa3ff
+			smokeColor: bf92f9
 			smokeSize: 80
 			smokes: 100
 			smokeRad: 200
@@ -91,7 +91,7 @@ weapons: [
 			sparkRad: 500
 			sparkStroke: 10
 			sparkLen: 15
-			sparkColor: ffffa3ff
+			sparkColor: bf92f9
 			waveColor: ffffffff
 			}
 			{
@@ -169,8 +169,8 @@ abilities: [
 		lightOpacity: 0
 		interp: circleOut
 		sizeInterp: pow5In
-		colorFrom: ffffa3
-		colorTo: e2865400
+		colorFrom: bf92f9
+		colorTo: 665c9f00
 		cone: 13
 		}
 		{
