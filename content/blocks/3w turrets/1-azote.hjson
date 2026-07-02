@@ -35,73 +35,6 @@
 	type: drawTurret
 	basePrefix: reinforced-
 	parts: [
-      {
-      type: RegionPart
-		  suffix: -bottom
-			moveY: -4
-			moveX: 0
-			moveRot: 0
-			mirror: false
-			progress: warmup
-			"layerOffset": 0.000,
-			"outlineLayerOffset": -0.000,
-			}
-			{
-      type: RegionPart
-			suffix: -yes
-			moveY: 0
-			moveX: 0
-			moveRot: 0
-			mirror: false
-			progress: warmup
-			"layerOffset": 0.001,
-			"outlineLayerOffset": -0.001,
-			children: [
-				{
-				type: RegionPart
-				suffix: -glow
-				mirror: true
-				outline: false
-				blending: additive
-				colorTo: ffffff00
-				color: d1e4ff
-				progress: {
-					type: warmup
-					op: blend
-					other: heat
-					amount: 0.25
-					}
-				}
-			]
-			}
-			{
-			type: RegionPart
-			suffix: -top
-			moveY: -4
-			moveX: 4
-			moveRot: 0
-			mirror: true
-			progress: warmup
-      "layerOffset": 0.003,
-			"outlineLayerOffset": -0.003,
-			children: [
-				{
-				type: RegionPart
-				suffix: -heat
-				mirror: true
-				outline: false
-				blending: additive
-				colorTo: ffffff00
-				color: d1e4ff
-				progress: {
-					type: warmup
-					op: blend
-					other: heat
-					amount: 0.25
-					}
-				}
-			]
-		}
 		{
 			type: shapePart
 			y: -15
@@ -134,7 +67,7 @@
         {
             type: HaloPart
             y: -15
-            radius: 3.5
+            radius: 4
             tri: true
             layer: 110
             haloRotation: 90
@@ -145,7 +78,7 @@
             stroke: 0
             strokeTo: 2
             shapes: 2
-            triLengthTo: 14
+            triLengthTo: 16
             triLength: 0
         }
         {
@@ -190,7 +123,7 @@
                 colorFrom: d1e4ff
                 colorTo: ffffff00
             }
-			lifetime: 46
+			lifetime: 45
 			 weaveMag: 6
              weaveScale: 4
 			speed: 3
