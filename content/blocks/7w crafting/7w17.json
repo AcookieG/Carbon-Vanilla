@@ -41,7 +41,7 @@
 			sparkColor: ffffffff,
 			waveColor: ffffffff,
 		},
-	"itemCapacity": 20,
+	"itemCapacity": 40,
 	"liquidCapacity": 60,
 	"drawer": {
 		"type": "DrawMulti",
@@ -72,9 +72,9 @@
 		]
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 7}
-				{"item": "circuit", "amount": 3}
-				{"item": "silicon", "amount": 9}
+				{"item": "copper", "amount": 12}
+				{"item": "circuit", "amount": 6}
+				{"item": "silicon", "amount": 18}
 			]
 		},
 	},
@@ -91,6 +91,6 @@
 	"category": "crafting",
 	"research": "7w15",
 	"idleSound": "techloop",
-	"craftTime": 120,
+	"craftTime": 240,
 	"squareSprite": false,
 }
