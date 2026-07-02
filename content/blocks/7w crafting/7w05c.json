@@ -1,13 +1,14 @@
 {
 	"name": "Soaping Boiler",
 	"description": "Uses Acido-Basic reactions to extract even higher amounts of Hydrogen, along with some Freezing Gas",
-	"type": "HeatCrafter"
+	"type": "HeatProducer"
 	"size": 3,
 	"health": 300,
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
 	"updateEffect": none,
+	"heatOutput": 0
 	"craftEffect": {
 			type: ExplosionEffect
 			lifetime: 30
@@ -83,13 +84,11 @@
 			},
 		]
 	},
-	"heatRequirement": 12
-	"maxEfficiency": 1
 	"consumes": {
-		"power": 8,
+		"power": 12,
     "liquids":  [
 		{"liquid": "oil", "amount": 0.6},
-		{"liquid": "water", "amount": 0.5},
+		{"liquid": "water", "amount": 0.2},
 		]
 	},
 	"requirements": [

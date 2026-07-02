@@ -65,7 +65,7 @@
 		]
 	},
 	"consumes": {
-		"power": 3,
+		"power": 4,
     "liquids":  [
 		{"liquid": "O", "amount": 0.25},
 		]

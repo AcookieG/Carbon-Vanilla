@@ -41,8 +41,8 @@
 			sparkColor: ffffffff,
 			waveColor: ffffffff,
 		},
-	"itemCapacity": 200,
-	"liquidCapacity": 40,
+	"itemCapacity": 20,
+	"liquidCapacity": 60,
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
@@ -65,7 +65,7 @@
 		]
 	},
 	"consumes": {
-		"power": 50,
+		"power": 10,
     "liquids":  [
 		{"liquid": "O", "amount": 0.25},
 		{"liquid": "H", "amount": 0.5},
