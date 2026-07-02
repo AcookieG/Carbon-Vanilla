@@ -41,7 +41,7 @@
 			sparkColor: ffffffff
 			waveColor: ffffffff
 		}
-	"itemCapacity": 160,
+	"itemCapacity": 30,
 	"liquidCapacity": 40,
 	"drawer": {
 		"type": "DrawMulti",
@@ -71,8 +71,8 @@
 		]
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 6}
-				{"item": "silicon", "amount": 6}
+				{"item": "copper", "amount": 12}
+				{"item": "silicon", "amount": 12}
 			]
 		},
 	},
@@ -83,11 +83,11 @@
 		{ "item": "flex-joint", "amount": 60 },
 	],
 	"outputItems": [
-		{ "item": "circuit", "amount": 1 },
+		{ "item": "circuit", "amount": 2 },
 	],
 	"category": "crafting",
 	"research": "a04phase-weaver-l",
 	"idleSound": "techloop",
-	"craftTime": 90,
+	"craftTime": 120,
 	"squareSprite": false,
 }
