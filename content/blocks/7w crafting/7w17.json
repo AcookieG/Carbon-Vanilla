@@ -1,6 +1,6 @@
 {
 	"name": "Silicon Engraver",
-	"description": "Uses extreme wavelengths to melt layers of copper onto silicon waffers.",
+	"description": "Uses short wavelengths to melt layers of copper onto silicon waffers.",
 	"type": "GenericCrafter",
 	"size": 6,
 	"health": 560,
@@ -67,23 +67,24 @@
 	"consumes": {
 		"power": 50,
     "liquids":  [
-		{"liquid": "O", "amount": 0.5},
-		{"liquid": "H", "amount": 2},
-		{"liquid": "metal", "amount": 2},
+		{"liquid": "O", "amount": 0.25},
+		{"liquid": "H", "amount": 0.5},
+		{"liquid": "metal", "amount": 0.25},
 		]
 		"items": {
 			"items": [
 				{"item": "copper", "amount": 60}
-				{"item": "lead", "amount": 20}
-				{"item": "dense", "amount": 100}
+				{"item": "circuit", "amount": 20}
+				{"item": "silicon", "amount": 100}
 			]
 		},
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 90 },
-		{ "item": "titanium", "amount": 80 },
-		{ "item": "phase-fabric", "amount": 110 },
-		{ "item": "flex-joint", "amount": 60 },
+		{ "item": "silicon", "amount": 120 },
+		{ "item": "titanium", "amount": 110 },
+		{ "item": "phase-fabric", "amount": 70 },
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "circuit", "amount": 60 },
 	],
 	"outputItems": [
 		{ "item": "chip", "amount": 1 },
