@@ -12,7 +12,7 @@
 	"hasItems": true,
 	"powerProduction": 40,
 	"heating": 0.02,
-	"itemDuration": 60,
+	"itemDuration": 360,
 	"fuelItem": "copper"
 	"hotColor": ffffff00,
 	"flashThreshold": 0.24
