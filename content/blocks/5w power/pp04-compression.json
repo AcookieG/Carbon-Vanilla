@@ -12,9 +12,11 @@
 	"hasLiquids": true,
 	"hasItems": true,
 	"powerProduction": 40,
-	"heating": 0.004,
+	"heating": 0.006,
 	"itemDuration": 60,
 	"fuelItem": "copper"
+	"hotColor": ffffff00,
+	"flashThreshold": 0.24
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
