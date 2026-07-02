@@ -89,7 +89,7 @@
 		{ "item": "chip", "amount": 1 },
 	],
 	"category": "crafting",
-	"research": "7w07",
+	"research": "7w15",
 	"idleSound": "techloop",
 	"craftTime": 120,
 	"squareSprite": false,
