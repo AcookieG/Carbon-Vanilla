@@ -2,7 +2,7 @@
 	"type": "NuclearReactor",
 	"health": 420,
 	"name": "Compression Reactor"
-	"description": "Compresses basic elements under such a high pressure that it starts fusion even in usually stable conditions.",
+	"description": "Compresses basic elements under such a high temperatures that it starts fission even in usually stable conditions.",
 	"size": 3,
 	"squareSprite": false,
 	"baseExplosiveness": 500,
@@ -10,9 +10,9 @@
 	"liquidCapacity": 150
 	"hasLiquids": true,
 	"hasItems": true,
-	"powerProduction": 40,
+	"powerProduction": 25,
 	"heating": 0.02,
-	"itemDuration": 360,
+	"itemDuration": 180,
 	"fuelItem": "copper"
 	"hotColor": ffffff00,
 	"flashThreshold": 0.24
@@ -43,7 +43,7 @@
 	"consumes": {
 		liquid: {
 			liquid: cryofluid
-			amount: 0.5
+			amount: 0.1
 		}
 		"items": {
 			"items": [
@@ -57,8 +57,8 @@
 			"amount": 200
 		},
 		{
-			"item": "phase-fabric",
-			"amount": 100
+			"item": "circuit",
+			"amount": 50
 		},
 		{
 			"item": "silicon",
