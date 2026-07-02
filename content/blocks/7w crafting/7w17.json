@@ -52,7 +52,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "O",
+				"drawLiquid": "H",
 				"padding": 3,
 			},
 			{
