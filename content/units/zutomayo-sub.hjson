@@ -81,8 +81,8 @@ targetable: false
 		bulletInterval: 3
 		intervalBullet: {
 		type: LiquidBulletType
-			buildingDamageMultiplier: 0.3334
-			damage: 45
+			buildingDamageMultiplier: 0.5
+			damage: 30
 			instantDisapear: false
 			velocityScaleRandMin: -2
 			velocityScaleRandMax: 0.1
