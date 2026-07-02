@@ -479,5 +479,5 @@
 		{ "item": "flex-joint", "amount": 520 },
 	]
 	category: turret
-	research: 1-crow
+	research: 1-azote
 }

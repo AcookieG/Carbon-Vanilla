@@ -215,63 +215,6 @@
 			]
 			}
 		}
-    	slate: {
-			type: BasicBulletType
-			damage: 96
-			ammoMultiplier: 8
-			drawsize: 200
-			width: 10
-			height: 14
-			shootEffect: shootSmokeSquareBig
-			smokeEffect: {
-        type: ParticleEffect
-        particles: 3
-        length: -60
-        lifetime: 80
-        interp: circleOut
-        cone: 20
-        sizeFrom: 8
-        sizeTo: 1
-        colorFrom: f3e979ff
-        colorTo: ffffff00
-      }
-			lifetime: 50
-			speed: 8
-			collidesAir: true
-			collidesGround: true
-			collidesTiles: true
-			instantDisapear: false
-			despawnEffect: none
-			hitEffect: none
-			shrinkY: 0
-			hitShake: 0
-			trailColor: c9926f
-			trailEffect: colorSpark
-			trailRotation: true
-			trailInterval: 5
-			trailChance: -1
-			trailWidth: 3
-			trailLength: 20
-			frontColor: ffffff
-			backColor: c9926f
-      intervalBullets: 1,
-			intervalRandomSpread: 0,
-			bulletInterval: 3,
-			intervalBullet: {
-        type: BasicBulletType,
-        despawnHit: true,
-        damage: 0,
-        lifetime: 1
-        hitAir: true
-        lightning: 3
-        lightningDamage: 30
-        lightningCone: 359
-        lightningLengthRand: 3
-        lightningLength: 4
-        lightningColor: f3e979
-			}
-    	}
-	}
 	requirements: [
 		{ "item": "chip", "amount": 45 },
 		{ "item": "circuit", "amount": 80 },

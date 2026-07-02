@@ -21,7 +21,7 @@
 	"spread": 0,
 	"rotateSpeed": 0.45,
 	"hasPower": true
-	heatRequirement: 2400
+	heatRequirement: 500
 	maxHeatEfficiency: 2
 	"consumes": {
 		"power": 26
