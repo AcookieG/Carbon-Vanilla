@@ -2,7 +2,7 @@
 	"name": "Silicon Engraver",
 	"description": "Uses short wavelengths to melt layers of copper onto silicon waffers.",
 	"type": "GenericCrafter",
-	"size": 6,
+	"size": 4,
 	"health": 560,
 	"hasLiquids": true,
 	"hasPower": true,
