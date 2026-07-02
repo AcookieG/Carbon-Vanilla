@@ -215,6 +215,7 @@
 			]
 			}
 		}
+	}
 	requirements: [
 		{ "item": "chip", "amount": 45 },
 		{ "item": "circuit", "amount": 80 },
