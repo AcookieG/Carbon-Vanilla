@@ -51,29 +51,6 @@ trailParam:0.5,
 trailLength:10.0,
 		}
 	}
-	{
-	"name": "clear",
-	shootCone: 10
-	reload: 15,
-	mirror: true
-	rotateSpeed: 6
-	"rotate": true
-	"ignoreRotation": true,
-	"rotationLimit": 361,
-	"shootSound": "shootAlpha"
-	x: 2
-	y: -1
-	bullet: {
-			"type": "BasicBulletType",
-			width: 7
-			height: 9
-			lifetime: 60
-			backColor: bf92f9
-			speed: 2
-			damage: 0
-			keepVelocity: false
-		}
-	}
 ]
 	"research": {
 		"parent": "crawler"
