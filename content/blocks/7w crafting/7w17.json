@@ -69,13 +69,12 @@
     "liquids":  [
 		{"liquid": "O", "amount": 0.25},
 		{"liquid": "H", "amount": 0.5},
-		{"liquid": "metal", "amount": 0.25},
 		]
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 60}
-				{"item": "circuit", "amount": 20}
-				{"item": "silicon", "amount": 100}
+				{"item": "copper", "amount": 7}
+				{"item": "circuit", "amount": 3}
+				{"item": "silicon", "amount": 9}
 			]
 		},
 	},
@@ -92,6 +91,6 @@
 	"category": "crafting",
 	"research": "7w07",
 	"idleSound": "techloop",
-	"craftTime": 90,
+	"craftTime": 120,
 	"squareSprite": false,
 }
