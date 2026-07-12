@@ -37,7 +37,7 @@
 		"power": 0.5,
                 "liquid": {
 			"liquid": "water",
-			"amount": 0.2333333
+			"amount": 0.23334
 		},
 	},
 	"requirements": [
