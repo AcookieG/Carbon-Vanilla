@@ -1,11 +1,11 @@
 {
 	"type": "MassDriver",
 	"name": "Micro Driver"
-	"description": "Transports small apounts of items through small mountains. Like bridges, but any degree. Requires no power.",
+	"description": "Transports small amounts of items accross small hills. Like bridges, but any orientation. Requires no power.",
 	"health": 50,
 	"size": 1,
 	"itemCapacity": 20,
-	"range": 60,
+	"range": 40,
 	"rotateSpeed": 18,
 	"reloadTime": 60,
 	"shake": 0.5,

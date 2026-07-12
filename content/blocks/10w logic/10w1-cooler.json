@@ -1,0 +1,24 @@
+{
+	"name": "Heatsink",
+	"description": "A small overdrive projector, designed to boost processors. Can carry liquids.",
+	"type": "OverdriveProjector",
+	"health": 190,
+	"size": 1,
+	"range": 20,
+	"hasPower": true
+	"hasItems": false,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"speedBoost": 0.5,
+    "consumes": { 
+        "power": 3,
+    },
+	"requirements": [
+		{ "item": "lead", "amount": 95 },
+		{ "item": "silicon", "amount": 50 },
+   	{ "item": "plastanium", "amount": 35 }
+   	{ "item": "thorium", "amount": 10 }
+	],
+	"category": "logic",
+	"research": "logic-processor"
+}
