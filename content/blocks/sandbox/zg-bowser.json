@@ -5,9 +5,9 @@
 	"type": "OverdriveProjector",
 	"health": 75000000,
 	"size": 2,
-	"range": 300,
+	"range": 200,
 	"hasPower": false
-	"speedBoost": 100,
+	"speedBoost": 101,
 	"requirements": [
 		{ "item": "sand", "amount": 1 },
 	],

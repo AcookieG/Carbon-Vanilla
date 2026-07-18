@@ -1,13 +1,13 @@
 {
 	"type": "MassDriver",
 	"name": "Mass Production Drive"
-	"description": "Quickly transports items in large batches. Cannot be chain-linked, or items will be lost. Requires no power.",
+	"description": "Quickly transports items in large batches. Requires no power.",
 	"health": 620,
 	"size": 3,
-	"itemCapacity": 135,
+	"itemCapacity": 100,
 	"range": 800,
 	"rotateSpeed": 24,
-	"reloadTime": 40,
+	"reloadTime": 60,
 	"shake": 2,
 	"hasPower": false,
 	"knockback": 3,
