@@ -18,7 +18,7 @@
 			]
 		},
 		"liquids":  [
-		{"liquid": "water", "amount": 0.2},
+		{"liquid": "water", "amount": 0.1},
 		]
 	},
 	"requirements": [
@@ -56,6 +56,6 @@ research: 7w01
 		{ "item": "slate", "amount": 2 },
 	],
 	"idleSound": "grinding",
-	"craftTime": 30,
+	"craftTime": 20,
 	"squareSprite": false,
 }
