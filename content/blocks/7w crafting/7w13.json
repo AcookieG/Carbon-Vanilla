@@ -1,6 +1,6 @@
 {
 	"name": "Discharge Facility",
-	"description": "Repeatedly shoots sharp darts of Phase Decay to turn them into actual Piercing Shells.",
+	"description": "Repeatedly shoots darts of self-sharpening Phase Decay to turn them into actual Piercing Shells.",
 	"type": "GenericCrafter"
 	"size": 2,
 	"health": 160,
@@ -72,7 +72,7 @@
 research: 7w15
 	"outputItem":{ "item": "shell", "amount": 1 },
 	"idleSound": "techloop",
-	"craftTime": 20,
+	"craftTime": 40,
 	"squareSprite": false,
 	liquidOutputDirections: [4,]
 }
