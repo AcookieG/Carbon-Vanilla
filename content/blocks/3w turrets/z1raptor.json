@@ -20,7 +20,7 @@
 	"ammoTypes": {
 		"plastanium": {
 			"type": "FlakBulletType",
-			"rangeChange":80
+			"rangeChange": 80
 			"inaccuracy": 21,
 			"drawsize": 220,
 			"collideAir": true,
@@ -71,11 +71,12 @@
 			"width": 13,
 			"height": 18,
 			"backColor": "f595be",
-			"lifetime": 33,
+			"lifetime": 43,
 			"shrinkY": 0.3,
 			"shootEffect": "shootBig2",
 			"smokeEffect": "thoriumShoot"
 			"speed": 6,
+			"rangeChange": 60
 			"pierce": true
 		},
 		"carbon-fiber": {
