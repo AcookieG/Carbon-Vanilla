@@ -41,10 +41,10 @@
 				backColor: ffffff
 				"damage": 25,
 				"speed": 1.25,
-				"velocityScaleRandMin": 4.1
-				"velocityScaleRandMax": 7.1
-				"lifetime": 5,
-				"shrinkY": 0.1,
+				"velocityScaleRandMin": 2.1
+				"velocityScaleRandMax": 4.1
+				"lifetime": 10,
+				"shrinkY": 0.5,
 				"despawnEffect": none
 				"fragBullets": 2,
 				"fragBullet": {
@@ -52,10 +52,10 @@
 					backColor: ffffff
 					"damage": 9,
 					"speed": 0.75,
-				"velocityScaleRandMin": 4.1
-				"velocityScaleRandMax": 10.1
-					"lifetime": 8,
-					"shrinkY": 0.1,
+				"velocityScaleRandMin": 2.1
+				"velocityScaleRandMax": 7.1
+					"lifetime": 18,
+					"shrinkY": 1.0,
 					"despawnEffect": none
 			},
 			},
