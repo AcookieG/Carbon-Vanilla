@@ -43,6 +43,7 @@
 				"speed": 1.25,
 				"velocityScaleRandMax": 3.1
 				"lifetime": 10,
+				"shrinkY": 0.9,
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
@@ -51,6 +52,7 @@
 					"speed": 0.75,
 				"velocityScaleRandMax": 3.1
 					"lifetime": 24,
+					"shrinkY": 0.9,
 			},
 			},
 		},
