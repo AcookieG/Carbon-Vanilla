@@ -55,7 +55,7 @@ research: 7w01b
 		{ "liquid": "oil", "amount": 0.05 },
 	],
 	"outputItems": [
-		{ "item": "coal", "amount": 3 },
+		{ "item": "coal", "amount": 2 },
 	],
 	"craftTime": 60,
 	"squareSprite": false,
