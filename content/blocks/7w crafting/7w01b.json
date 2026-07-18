@@ -14,7 +14,8 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "graphite", "amount": 2}
+				{"item": "graphite", "amount": 1}
+				{"item": "coal", "amount": 2}
 			]
 		},
 		"liquids":  [
