@@ -7,7 +7,7 @@
 	"size": 2,
 	"range": 200,
 	"hasPower": false
-	"speedBoost": 101,
+	"speedBoost": 100.25,
 	"requirements": [
 		{ "item": "sand", "amount": 1 },
 	],
