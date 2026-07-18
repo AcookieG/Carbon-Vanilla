@@ -1,6 +1,6 @@
 {
 	"name": "Carbonized Tsunami",
-	"description": "A modified version of Tsunami, shoots liquid fire at enemies. Damage ramps up over time.",
+	"description": "A modified version of Tsunami, shoots liquid fire at enemies. Damage ramps up over time. Takes a long time to spool down.",
 	"details": "Fires powerfull streams of liquid at enemies."
 	"type": "ItemTurret",
 	"health": 1630,
@@ -49,7 +49,7 @@
 		{
 			"type": "RegionPart",
 			"suffix": "-cannon",
-			"moveY": -2,
+			"moveY": -3,
 			"moveX": 0,
 			"moveRot": 0,
 			"mirror": false,
