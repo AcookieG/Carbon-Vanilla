@@ -6,14 +6,14 @@
 	"size": 2,
 	"range": 28,
 	"hasPower": true
-	"itemCapacity": 30,
+	"itemCapacity": 10,
 	"speedBoost": 3,
     "speedBoostPhase": 7,
     "phaseRangeBoost": 40,
     "consumes": { 
         "power": 80,
         "items": {
-			"items": [ {"item": "chip", "amount": 10},{"item": "silicon", "amount": 10} ],
+			"items": [ {"item": "chip", "amount": 1},{"item": "phase-decay", "amount": 1} ],
 			"booster": true,
 			"optional": true
         } 
