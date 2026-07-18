@@ -71,12 +71,11 @@
 			"width": 13,
 			"height": 18,
 			"backColor": "f595be",
-			"lifetime": 43,
+			"lifetime": 33,
 			"shrinkY": 0.3,
 			"shootEffect": "shootBig2",
 			"smokeEffect": "thoriumShoot"
 			"speed": 6,
-			"rangeChange": 60
 			"pierce": true
 		},
 		"carbon-fiber": {
