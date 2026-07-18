@@ -53,9 +53,9 @@
 					"damage": 9,
 					"speed": 0.75,
 				"velocityScaleRandMin": 2.1
-				"velocityScaleRandMax": 7.1
-					"lifetime": 18,
-					"shrinkY": 1.0,
+				"velocityScaleRandMax": 5.1
+					"lifetime": 24,
+					"shrinkY": 0.99,
 					"despawnEffect": none
 			},
 			},
