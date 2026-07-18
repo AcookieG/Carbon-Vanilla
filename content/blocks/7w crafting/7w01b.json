@@ -14,7 +14,7 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "graphite", "amount": 1}
+				{"item": "graphite", "amount": 2}
 			]
 		},
 		"liquids":  [
@@ -53,9 +53,9 @@
 	"rotate": false
 research: 7w01
 "outputItems": [
-		{ "item": "slate", "amount": 2 },
+		{ "item": "slate", "amount": 4 },
 	],
 	"idleSound": "grinding",
-	"craftTime": 20,
+	"craftTime": 45,
 	"squareSprite": false,
 }
