@@ -52,7 +52,7 @@
 			"moveX": 0,
 			"moveRot": 0,
 			"mirror": false,
-			"progress": "warmup"
+			"progress": "recoil"
 		},
 	]
 	},
