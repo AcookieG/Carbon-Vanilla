@@ -44,6 +44,7 @@
 				"velocityScaleRandMax": 3.1
 				"lifetime": 10,
 				"shrinkY": 0.5,
+				"despawnEffect": none
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
@@ -53,6 +54,7 @@
 				"velocityScaleRandMax": 3.1
 					"lifetime": 24,
 					"shrinkY": 0.5,
+					"despawnEffect": none
 			},
 			},
 		},
