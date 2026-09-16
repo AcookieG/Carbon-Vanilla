@@ -3,8 +3,8 @@
 	"name": "Industrial Engine"
 	"description": "A compact but mighty processor.",
 	"size": 3,
-	"range": 200,
-	"instructionsPerTick": 50,
+	"range": 220,
+	"instructionsPerTick": 52,
 	"maxInstructionsPerTick": 1000,
 
 
