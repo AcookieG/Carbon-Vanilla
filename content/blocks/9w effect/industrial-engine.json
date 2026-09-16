@@ -1,0 +1,21 @@
+{
+	"type": "LogicBlock",
+	"name": "Industrial Engine"
+	"description": "A compact but mighty processor.",
+	"size": 3,
+	"range": 200,
+	"instructionsPerTick": 50,
+	"maxInstructionsPerTick": 1000,
+
+
+	"health": 320,
+	"requirements": [
+		{"item": "estrogen", "amount": 30},
+		{"item": "silicon", "amount": 130},
+		{"item": "copper", "amount": 90},
+		{"item": "chip", "amount": 45},
+		{"item": "flex-joint", "amount": 50},
+	],
+	"research": "logic-processor",
+	"category": "logic",
+}                             .
