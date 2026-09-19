@@ -3,11 +3,9 @@
 	"name": "Industrial Engine"
 	"description": "A compact but mighty processor.",
 	"size": 3,
-	"range": 220,
+	"range": 228,
 	"instructionsPerTick": 55,
 	"maxInstructionsPerTick": 1000,
-
-
 	"health": 320,
 	"requirements": [
 		{"item": "estrogen", "amount": 30},
