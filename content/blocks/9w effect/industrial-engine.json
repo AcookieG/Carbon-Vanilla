@@ -7,6 +7,7 @@
 	"instructionsPerTick": 8000,
 	"maxInstructionsPerTick": 8000,
 	"health": 520,
+	"requirements": [
 		{"item": "estrogen", "amount": 45},
 		{"item": "silicon", "amount": 230},
 		{"item": "copper", "amount": 110},

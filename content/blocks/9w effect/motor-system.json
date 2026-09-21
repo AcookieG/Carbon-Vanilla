@@ -6,7 +6,7 @@
 	"range": 228,
 	"instructionsPerTick": 800,
 	"maxInstructionsPerTick": 800,
-	"health": 320,
+	"health": 230,
 	"requirements": [
 		{"item": "estrogen", "amount": 15},
 		{"item": "silicon", "amount": 70},
