@@ -1,11 +1,11 @@
 {
 	"type": "LogicBlock",
 	"name": "Machining Engine"
-	"description": "A compact but mighty processor.",
-	"size": 3,
-	"range": 228,
-	"instructionsPerTick": 55,
-	"maxInstructionsPerTick": 5500,
+	"description": "A compact but mighty processor. Fixed rate.",
+	"size": 2,
+	"range": 260,
+	"instructionsPerTick": 2400,
+	"maxInstructionsPerTick": 2400,
 	"health": 320,
 	"requirements": [
 		{"item": "estrogen", "amount": 30},

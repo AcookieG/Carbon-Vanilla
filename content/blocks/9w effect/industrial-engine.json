@@ -1,13 +1,12 @@
 {
 	"type": "LogicBlock",
 	"name": "Industrial Engine"
-	"description": "A compact but mighty processor.",
+	"description": "An extremely powerful processor. Fixed rate.",
 	"size": 3,
-	"range": 400,
-	"instructionsPerTick": 55,
-	"maxInstructionsPerTick": 5500,
-	"health": 320,
-	"requirements": [
+	"range": 500,
+	"instructionsPerTick": 8000,
+	"maxInstructionsPerTick": 8000,
+	"health": 520,
 		{"item": "estrogen", "amount": 45},
 		{"item": "silicon", "amount": 230},
 		{"item": "copper", "amount": 110},
