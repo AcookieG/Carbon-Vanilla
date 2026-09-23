@@ -1,0 +1,16 @@
+{
+	"type": "MemoryBlock",
+	"name": "Storage Prism"
+	"description": "Laser-etched cristal to store data. 64kb storage.",
+	"size": 1,
+	"health": 170,
+	"maxTextLength": 65535,
+	"requirements": [
+		{"item": "silicon", "amount": 48},
+		{"item": "chip", "amount": 12},
+		{"item": "metaglass", "amount": 480},
+		{"item": "shell", "amount": 24},
+	],
+	"research": "motor-system",
+	"category": "logic",
+}
