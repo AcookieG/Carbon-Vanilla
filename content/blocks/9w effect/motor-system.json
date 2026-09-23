@@ -4,8 +4,8 @@
 	"description": "A compact but mighty processor. Fixed rate.",
 	"size": 1,
 	"range": 228,
-	"instructionsPerTick": 800,
-	"maxInstructionsPerTick": 800,
+	"instructionsPerTick": 80,
+	"maxInstructionsPerTick": 80,
 	"health": 230,
 	"requirements": [
 		{"item": "estrogen", "amount": 15},
