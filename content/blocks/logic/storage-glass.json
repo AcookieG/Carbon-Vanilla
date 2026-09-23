@@ -1,6 +1,6 @@
 {
 	"type": "MessageBlock",
-	"name": "Storage Prism"
+	"name": "Storage Glass"
 	"description": "Laser-etched cristal to store data. 64kb storage.",
 	"size": 1,
 	"health": 170,

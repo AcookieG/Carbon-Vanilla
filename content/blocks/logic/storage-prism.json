@@ -1,0 +1,17 @@
+{
+	"type": "MessageBlock",
+	"name": "Storage Prism"
+	"description": "Laser-etched cristal to store large data. 1024kb storage.",
+	"size": 2,
+	"health": 270,
+	"maxTextLength": 1048575,
+	"requirements": [
+		{"item": "dense", "amount": 80},
+		{"item": "chip", "amount": 15},
+		{"item": "circuit", "amount": 15},
+		{"item": "metaglass", "amount": 960},
+		{"item": "shell", "amount": 80},
+	],
+	"research": "storage-glass",
+	"category": "logic",
+}
