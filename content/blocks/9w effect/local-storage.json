@@ -1,0 +1,15 @@
+{
+	"type": "MemoryBlock",
+	"name": "Local Storage"
+	"description": "A small memory bank to handle all of your data needs. 64kb storage.",
+	"size": 1,
+	"health": 230,
+	"memoryCapacity": 65535,
+	"requirements": [
+		{"item": "silicon", "amount": 120},
+		{"item": "copper", "amount": 90},
+		{"item": "flex-joint", "amount": 60},
+	],
+	"research": "motor-system",
+	"category": "logic",
+}

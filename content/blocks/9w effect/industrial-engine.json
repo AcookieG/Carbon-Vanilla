@@ -15,6 +15,6 @@
 		{"item": "chip", "amount": 50},
 		{"item": "flex-joint", "amount": 70},
 	],
-	"research": "logic-processor",
+	"research": "machine-engine",
 	"category": "logic",
 }

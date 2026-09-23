@@ -1,0 +1,16 @@
+{
+	"type": "MemoryBlock",
+	"name": "Data Center"
+	"description": "A large memory bank to handle all of your data needs. 1024kb storage.",
+	"size": 2,
+	"health": 430,
+	"memoryCapacity": 1048575,
+	"requirements": [
+		{"item": "silicon", "amount": 420},
+		{"item": "copper", "amount": 110},
+		{"item": "flex-joint", "amount": 90},
+		{"item": "titanium", "amount": 90},
+	],
+	"research": "local-storage",
+	"category": "logic",
+}
