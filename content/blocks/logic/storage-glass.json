@@ -1,10 +1,10 @@
 {
 	"type": "MessageBlock",
 	"name": "Storage Glass"
-	"description": "Laser-etched cristal to store data. 16KB storage.",
+	"description": "Laser-etched cristal to store data. 64KB storage.",
 	"size": 1,
 	"health": 170,
-	"maxTextLength": 16384,
+	"maxTextLength": 65535,
 	"requirements": [
 		{"item": "silicon", "amount": 48},
 		{"item": "chip", "amount": 12},
