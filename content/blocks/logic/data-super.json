@@ -1,10 +1,10 @@
 {
 	"type": "MemoryBlock",
 	"name": "Data Center"
-	"description": "A large memory bank to handle all of your data needs. 16MB storage.",
+	"description": "A large memory bank to handle all of your data needs. 2MB storage.",
 	"size": 3,
 	"health": 530,
-	"memoryCapacity": 16777216,
+	"memoryCapacity": 2097152,
 	"requirements": [
 		{"item": "silicon", "amount": 360},
 		{"item": "copper", "amount": 110},
