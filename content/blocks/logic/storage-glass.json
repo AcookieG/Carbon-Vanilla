@@ -1,14 +1,14 @@
 {
 	"type": "MessageBlock",
 	"name": "Storage Glass"
-	"description": "Laser-etched cristal to store data. 64kb storage.",
+	"description": "Laser-etched cristal to store data. 16KB storage.",
 	"size": 1,
 	"health": 170,
-	"maxTextLength": 65535,
+	"maxTextLength": 16384,
 	"requirements": [
 		{"item": "silicon", "amount": 48},
 		{"item": "chip", "amount": 12},
-		{"item": "metaglass", "amount": 480},
+		{"item": "metaglass", "amount": 320},
 		{"item": "shell", "amount": 24},
 	],
 	"research": "motor-system",

@@ -1,7 +1,7 @@
 {
 	"type": "MemoryBlock",
 	"name": "Local Storage"
-	"description": "A small memory bank to handle all of your data needs. 64kb storage.",
+	"description": "A small memory bank to handle all of your data needs. 64KB storage.",
 	"size": 1,
 	"health": 230,
 	"memoryCapacity": 65535,

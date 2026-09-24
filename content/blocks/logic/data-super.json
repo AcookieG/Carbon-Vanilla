@@ -1,0 +1,20 @@
+{
+	"type": "MemoryBlock",
+	"name": "Data Center"
+	"description": "A large memory bank to handle all of your data needs. 16MB storage.",
+	"size": 3,
+	"health": 530,
+	"memoryCapacity": 16777216,
+	"requirements": [
+		{"item": "silicon", "amount": 360},
+		{"item": "copper", "amount": 110},
+		{"item": "flex-joint", "amount": 90},
+		{"item": "dense", "amount": 80},
+		{"item": "chip", "amount": 15},
+		{"item": "circuit", "amount": 30},
+		{"item": "metaglass", "amount": 750},
+		{"item": "shell", "amount": 45},
+	],
+	"research": "local-storage",
+	"category": "logic",
+}
