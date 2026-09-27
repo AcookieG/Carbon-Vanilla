@@ -1,45 +1,50 @@
 {
-	"name": "KILL",
+	"name": "KILLV3",
 	"description": "I have seen enough. I am satisfied. -Satisfied",
 	"type": "powerTurret",
-	"health": 999999,
-	"size": 2,
+	"health": 1000,
+	"size": 1,
 	"reload": 1,
 	"shake": 0,
 	"recoil": 0,
-	"range": 800,
+	"range": 2000,
 	"ammoUseEffect": none,
 	"shootSound": none,
 	"restitution": 0.01,
 	"cooldownTime": 50,
-	"shootCone": 360,
+	"shootCone": 10,
 	"spread": 0,
 	"rotateSpeed": 25,
 	"hasPower": true
 	"shootType": {
+		"type": "ArtilleryBulletType",
+		"lifetime": 10,
+		"speed": 200,
+		"trailMult": 0,
+		"trailSize": 0,
+		"homingPower": 10,
+		"homingRange": 2000,
+		"fragBullets": 2,
+		"fragBullet": {
 			"type": "BasicBulletType",
-			"lifetime": 1,
-			"fragBullets": 5,
-			"fragBullet": {
-				"type": "BasicBulletType",
-				"damage": 888888,
-				"width": 8,
-				"length": 20,
-				"reloadMultiplier": 10
-				"shootEffect": none
-				"smokeEffect": none
-				"lifetime": 14,
-				"speed": 80,
-				"pierce": true,
-				"pierceCap": 50
-				"hitAir": true
-				"homingPower": 10,
-				"homingRange": 2000,
+			"damage": 10000,
+			"width": 8,
+			"length": 20,
+			"shootEffect": none
+			"smokeEffect": none
+			"lifetime": 20,
+			"speed": 100,
+			"pierce": true,
+			"pierceCap": 50
+			"hitAir": true
+			"homingPower": 10,
+			"homingRange": 2000,
+			"drag": 0.01
 			}
 		},
-	"requirements": [
-		{ "item": "sand", "amount": 1 },
-	],
-	"category": "logic",
-	"research": "zg-items"
-}
+		"requirements": [
+					   { "item": "sand", "amount": 1 },
+					   ],
+		"category": "logic",
+		"research": "zg-items"
+			}
