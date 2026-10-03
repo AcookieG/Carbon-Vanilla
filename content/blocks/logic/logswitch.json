@@ -1,0 +1,12 @@
+{
+	"type": "switchBlock",
+	"name": "Strong Switch"
+	"size": 1,
+	"health": 230,
+	"requirements": [
+		{"item": "silicon", "amount": 12},
+		{"item": "copper", "amount": 9},
+	],
+	"research": "motor-system",
+	"category": "logic",
+}

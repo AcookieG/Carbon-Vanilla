@@ -1,6 +1,6 @@
 {
 	"name": "Override",
-	"description": "The apex weapon. Shoots missiles over extreme distances.",
+	"description": "Shoots missiles over extreme distances.",
 	"type": "ItemTurret",
 	"health": 4520,
 	"size": 5,
