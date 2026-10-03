@@ -4,8 +4,8 @@
 	"description": "An extremely powerful processor. Fixed rate.",
 	"size": 3,
 	"range": 500,
-	"instructionsPerTick": 1500,
-	"maxInstructionsPerTick": 1500,
+	"instructionsPerTick": 720,
+	"maxInstructionsPerTick": 720,
 	"health": 520,
 	"requirements": [
 		{"item": "estrogen", "amount": 45},
