@@ -1,7 +1,5 @@
 {
-type: missile
-controller: MissileAI
-template: MissileUnitType 
+type: MissileUnitType
 lowAltitude: false
 speed: 11
 rotateSpeed: 0.5
