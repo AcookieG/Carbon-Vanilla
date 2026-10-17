@@ -1,0 +1,28 @@
+{
+	"type": "CellLiquid",
+	"moveThroughBlocks": true,
+	"canStayOn": ["water", "oil", "cryofluid"],
+	"incinerable": false,
+	"spreadDamage": 0.1,
+	"cells": 8
+	"capPuddles": false,
+	"maxSpread": 2000,
+	"name": "Sap",
+	"description": "Remnants of Spores that have grown through water pipes..",
+	"coolant": true,
+	"color": "665c9f",
+	"colorFrom": "6d56bf",
+	"colorTo": "bf92f9",
+	"gas": false
+	"lightColor": "bf92f9"
+	"spreadTarget": "water",
+	"blockReactive": true,
+	"viscosity": 0.5,
+	"heatCapacity": 0.50,
+	"explosiveness": 0,
+	"temperature": 0.5,
+	"flammability": 0.3,
+	"research": "water",
+	"effect": "sapped"
+	"removeScaling": 0,
+}

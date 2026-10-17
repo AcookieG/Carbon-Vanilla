@@ -47,7 +47,7 @@ targetable: false
 		"width": 1,
 		"height": 1,
 		"shootEffect": "none",
-				intervalBullets: 120
+				intervalBullets: 130
 		intervalRandomSpread: 360
 		bulletInterval: 19
 		intervalBullet: {
@@ -69,10 +69,10 @@ targetable: false
 			height: 15
 			keepVelocity: false
 
-				"liquid": neoplasm,
+				"liquid": sap,
 				"knockback": 2.8,
 				"puddles": 1,
-				"puddleLiquid": neoplasm,
+				"puddleLiquid": sap,
 				"puddleAmount": 60,
 				"status": "melting",
 
@@ -81,12 +81,12 @@ targetable: false
 		bulletInterval: 3
 		intervalBullet: {
 		type: LiquidBulletType
-			buildingDamageMultiplier: 0.5
-			damage: 30
+			buildingDamageMultiplier: 0.75
+			damage: 33
 			instantDisapear: false
 			velocityScaleRandMin: -2
 			velocityScaleRandMax: 0.1
-			lifetime: 30
+			lifetime: 35
 			lifeScaleRandMin: 0.7
 			despawnEffect: none
 			hittable: false
@@ -97,10 +97,10 @@ targetable: false
 			keepVelocity: false
 
 
-				"liquid": slag,
+				"liquid": sap,
 				"knockback": 2.8,
 				"puddles": 1,
-				"puddleLiquid": slag,
+				"puddleLiquid": sap,
 				"puddleAmount": 50,
 				"status": "melting",
 
