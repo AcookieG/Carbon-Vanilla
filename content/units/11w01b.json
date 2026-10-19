@@ -11,7 +11,7 @@
 	"speed": 40,
 	"accel": 0.003,
 	"drag": 0.05,
-	"hitSize": 12,
+	"hitSize": 11,
 	"mineTier": 2,
 	"mineSpeed": 3.5,
 	"circleTarget" : false,
