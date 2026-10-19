@@ -115,14 +115,14 @@
 			"smokeEffect": "none"
 			"speed": 7,
 			"explodeRange": 24
-			"fragBullets": 4,
+			"fragBullets": 3,
 			"fragBullet": {
 				"type": "BasicBulletType",
-				"speed": 7,
+				"speed": 4,
 				"damage": 38,
 				"velocityScaleRandMin": 0.1
 				"velocityScaleRandMax": 1.5
-				"lifetime": 10,
+				"lifetime": 21,
 			},
 		},
 		"surge-alloy": {
@@ -164,14 +164,14 @@
 			"homingPower": 0.05,
 			"homingRange": 40,
 			explodeRange: 34
-			"fragBullets": 8,
+			"fragBullets": 5,
 			"fragBullet": {
 				"type": "BasicBulletType",
-				"speed": 8,
+				"speed": 7,
 				"damage": 51,
-				"velocityScaleRandMin": 0.1
+				"velocityScaleRandMin": 0.8
 				"velocityScaleRandMax": 1.5
-				"lifetime": 10,
+				"lifetime": 15,
 			},
 		},
 	},
