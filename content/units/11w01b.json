@@ -17,7 +17,7 @@
 	"circleTarget" : false,
 	"faceTarget": false,
 	"itemCapacity": 60,
-	"range": 18
+	"range": 160
 	"engineOffset": 7,
 	"engineSize": 3.5,
 	"buildSpeed": 1.5,
