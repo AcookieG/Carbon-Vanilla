@@ -1,0 +1,40 @@
+{
+	"name": "Exponential Carver",
+	"type": "Reconstructor"
+	"size": 7,
+	"constructTime": 4800
+	"consumes": {
+		"power": 13,
+		"items": {
+			"items": [
+				{ "item": "circuit", "amount": 350 },
+				{ "item": "flex-joint", "amount": 470 },
+				{ "item": "plastanium", "amount": 500 },
+			]
+		},
+		"liquid": {
+				"liquid": "O",
+				"amount": 0.5
+				},
+	},
+	"upgrades": [
+		[
+			"w3-clamor",
+			"w4-roar"
+		]
+		[
+			"w2-resound",
+			"w3-below"
+		]
+	],
+	"category": "units",
+	"research": "fac3",
+	"requirements": [
+		{ "item": "carbon-fiber", "amount": 600 },
+		{ "item": "plastanium", "amount": 600 },
+		{ "item": "silicon", "amount": 1000 },
+		{ "item": "circuit", "amount": 250 },
+		{ "item": "flex-joint", "amount": 650 },
+		{ "item": "phase-dcay", "amount": 450 },
+	]
+}

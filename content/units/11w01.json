@@ -5,7 +5,6 @@
 	"armor": 0,
 	"flying": true,
 	"lowAltitude ": true,
-	"coreUnitDock": true,
 	"hittable": false,
 	"maxVelocity": 4,
 	"rotateSpeed": 6,
@@ -18,7 +17,7 @@
 	"circleTarget" : false,
 	"faceTarget": false,
 	"itemCapacity": 25,
-	"range": 0,
+	"range": 12,
 	"engineOffset": 5,
 	"engineSize": 2.5,
 	"buildSpeed": 1,
@@ -26,6 +25,5 @@
 	"targetable": false,
 	"canAttack": false,
 	"trailLength": 10,
-	"outlineColor": 2c2d38,
 	"fogRadius": 4,
 }

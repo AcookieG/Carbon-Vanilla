@@ -1,0 +1,36 @@
+{
+	"name": "Additive Carver",
+	"type": "Reconstructor"
+	"size": 3,
+	"constructTime": 600
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 40 },
+				{ "item": "slate", "amount": 40 },
+			]
+		},
+	},
+	"upgrades": [
+		[
+			"w1-roll",
+			"w2-resound"
+		]
+		[
+			"x1-mimosa",
+			"x2-raymanta"
+		]
+		[
+			"11w01",
+			"11w01b"
+		]
+	],
+	"category": "units",
+	"research": "fac1",
+	"requirements": [
+		{ "item": "slate", "amount": 210 },
+		{ "item": "copper", "amount": 90 },
+		{ "item": "silicon", "amount": 100 },
+	]
+}

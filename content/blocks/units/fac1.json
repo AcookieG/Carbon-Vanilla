@@ -1,0 +1,43 @@
+{
+	"name": "Electric Stabber",
+	"description": "A small carving factory to produce small units.",
+	"type": "UnitFactory"
+	"size": 3,
+	"consumes": {
+		"power": 1.2,
+	},
+	"plans": [
+		{
+			"unit": "w1-roll",
+			"time": 480
+			"requirements": [
+				{ "item": "silicon", "amount": 20 },
+				{ "item": "titanium", "amount": 10 },
+			]
+		},
+		{
+			"unit": "x1-mimosa",
+			"time": 360
+			"requirements": [
+				{ "item": "silicon", "amount": 20 },
+				{ "item": "lead", "amount": 20 },
+			]
+		},
+		{
+			"unit": "11w01",
+			"time": 480
+			"requirements": [
+				{ "item": "silicon", "amount": 20 },
+				{ "item": "lead", "amount": 20 },
+				{ "item": "metaglass", "amount": 10 },
+			]
+		},
+	]
+	"category": "units",
+	"research": "ground-factory",
+	"requirements": [
+		{ "item": "slate", "amount": 120 },
+		{ "item": "copper", "amount": 90 },
+		{ "item": "silicon", "amount": 50 },
+	]
+}

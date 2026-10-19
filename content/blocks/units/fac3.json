@@ -1,0 +1,38 @@
+{
+	"name": "Multiplicative Carver",
+	"type": "Reconstructor"
+	"size": 5,
+	"constructTime": 1800
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 130 },
+				{ "item": "graphite", "amount": 70 },
+				{ "item": "plastanium", "amount": 40 },
+			]
+		},
+	},
+	"upgrades": [
+		[
+			"w2-resound",
+			"w3-clamor"
+		]
+		[
+			"x2-raymanta",
+			"x3-blawbfishe"
+		]
+		[
+			"11w01b",
+			"11w01c"
+		]
+	],
+	"category": "units",
+	"research": "fac2",
+	"requirements": [
+		{ "item": "carbon-fiber", "amount": 330 },
+		{ "item": "plastanium", "amount": 450 },
+		{ "item": "silicon", "amount": 750 },
+		{ "item": "thorium", "amount": 630 },
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"name": "Tetrative Carver",
+	"type": "Reconstructor"
+	"size": 9,
+	"constructTime": 14400
+	"consumes": {
+		"power": 25,
+		"items": {
+			"items": [
+				{ "item": "chip", "amount": 450 },
+				{ "item": "flex-joint", "amount": 870 },
+				{ "item": "plastanium", "amount": 500 },
+				{ "item": "phase-dcay", "amount": 700 },
+			]
+		},
+		"liquid": {
+				"liquid": "O",
+				"amount": 2
+				},
+	},
+	"upgrades": [
+		[
+			"w4-roar",
+			"w5-rumble"
+		]
+	],
+	"category": "units",
+	"research": "fac4",
+	"requirements": [
+		{ "item": "carbon-fiber", "amount": 1200 },
+		{ "item": "plastanium", "amount": 600 },
+		{ "item": "silicon", "amount": 2500 },
+		{ "item": "chip", "amount": 350 },
+		{ "item": "flex-joint", "amount": 1000 },
+		{ "item": "phase-dcay", "amount": 1000 },
+	]
+}
