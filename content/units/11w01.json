@@ -26,4 +26,17 @@
 	"canAttack": false,
 	"trailLength": 10,
 	"fogRadius": 4,
+	"research": {
+		"parent": "dagger"
+			"requirements": [
+						{
+	   "item": "titanium",
+	   "amount": 50
+	   },
+						{
+	   "item": "graphite",
+	   "amount": 50
+	   },
+						]
+						}
 }
