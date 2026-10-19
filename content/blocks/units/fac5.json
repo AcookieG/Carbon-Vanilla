@@ -32,6 +32,6 @@
 		{ "item": "silicon", "amount": 2500 },
 		{ "item": "chip", "amount": 350 },
 		{ "item": "flex-joint", "amount": 1000 },
-		{ "item": "phase-dcay", "amount": 1000 },
+		{ "item": "phase-decay", "amount": 1000 },
 	]
 }
