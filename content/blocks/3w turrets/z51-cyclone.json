@@ -9,7 +9,7 @@
 	"shake": 0.3,
 	"range": 280,
 	"ammoUseEffect": "casing3",
-	"shootSound": "shootBig",
+	"shootSound": "shootScatter",
 	"restitution": 0.01,
 	"shootCone": 23,
 	"hasLiquids": true,
@@ -116,12 +116,12 @@
 			"speed": 7,
 			"pierce": true
 			"explodeRange": 24
-			"fragBullets": 2,
+			"fragBullets": 4,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 38,
 				"fragVelocityMin": 2.1,
-				"fragVelocityMax": 3.7,
+				"fragVelocityMax": 6.7,
 				"lifetime": 15,
 			},
 		},
@@ -164,13 +164,13 @@
 			"homingPower": 0.05,
 			"homingRange": 40,
 			explodeRange: 34
-			"fragBullets": 3,
+			"fragBullets": 8,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 51,
-				"fragVelocityMin": 3.1,
-				"fragVelocityMax": 7.9,
-				"lifetime": 18,
+				"fragVelocityMin": 4.1,
+				"fragVelocityMax": 11.9,
+				"lifetime": 21,
 			},
 		},
 	},
