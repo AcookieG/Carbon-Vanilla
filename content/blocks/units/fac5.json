@@ -10,7 +10,7 @@
 				{ "item": "chip", "amount": 450 },
 				{ "item": "flex-joint", "amount": 870 },
 				{ "item": "plastanium", "amount": 500 },
-				{ "item": "phase-dcay", "amount": 700 },
+				{ "item": "phase-decay", "amount": 700 },
 			]
 		},
 		"liquid": {
