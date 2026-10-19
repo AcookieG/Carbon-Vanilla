@@ -99,7 +99,7 @@
 	]
 	},
 	"ammoTypes": {
-		"thorium": {
+		"metaglass": {
 			"type": "FlakBulletType",
 			"drawsize": 240,
 			"collideAir": true
@@ -108,21 +108,21 @@
 			"ammoMultiplier": 3,
 			"width": 8,
 			"height": 12,
-			"toColor": "thoriumPink",
+			"toColor": "white",
 			"lifetime": 40,
 			"bulletShrink": 0.6,
 			"shootEffect": "shootBig",
 			"smokeEffect": "none"
 			"speed": 7,
-			"pierce": true
 			"explodeRange": 24
 			"fragBullets": 4,
 			"fragBullet": {
 				"type": "BasicBulletType",
+				"speed": 7,
 				"damage": 38,
-				"fragVelocityMin": 2.1,
-				"fragVelocityMax": 6.7,
-				"lifetime": 15,
+				"velocityScaleRandMin": 0.1
+				"velocityScaleRandMax": 1.5
+				"lifetime": 10,
 			},
 		},
 		"surge-alloy": {
@@ -167,10 +167,11 @@
 			"fragBullets": 8,
 			"fragBullet": {
 				"type": "BasicBulletType",
+				"speed": 8,
 				"damage": 51,
-				"fragVelocityMin": 4.1,
-				"fragVelocityMax": 11.9,
-				"lifetime": 21,
+				"velocityScaleRandMin": 0.1
+				"velocityScaleRandMax": 1.5
+				"lifetime": 10,
 			},
 		},
 	},
