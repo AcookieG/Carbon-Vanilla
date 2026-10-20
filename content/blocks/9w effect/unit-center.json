@@ -1,6 +1,6 @@
 {
 	"type": "Wall",
-	"name": "Command Center",
+	"name": "Command Post",
 	"description": "Increases your unit capacity by a small amount. Counts as a Core.",
 	"size": 2,
 	"health": 460,
