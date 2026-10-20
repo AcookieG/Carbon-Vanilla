@@ -1,0 +1,27 @@
+{
+	"type": "Block",
+	"name": "Command Center"
+	"description": "Increases your unit capacity by a small amount.",
+	"size": 2,
+	"hasItems": true,
+	"health": 2090,
+	"requirements": [
+		{"item": "carbon-fiber", "amount": 200},
+		{"item": "titanium", "amount": 100},
+		{"item": "phase-decay", "amount": 200}
+	]
+	"consumes": {
+		"power": 3,
+		"liquids":  [
+				   {"liquid": "water", "amount": 0.5},
+				   ]
+		"items": {
+			"items": [
+			 {"item": "silicon", "amount": 1}
+			 ]
+			},
+	},
+	"research": "vault",
+	"category": "effect",
+	"unitCapModifier": 2
+}
