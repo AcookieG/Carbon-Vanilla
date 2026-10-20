@@ -1,5 +1,5 @@
 {
-	"type": "CoreBlock",
+	"type": "Block",
 	"name": "Command Center"
 	"description": "Increases your unit capacity by a small amount. Counts as a Core.",
 	"size": 2,
@@ -17,31 +17,6 @@
 	"research": "vault",
 	"category": "effect",
 	"unitCapModifier": 2,
-	"allowSpawn": false,
-	"requiresCoreZone": false,
-	"coreMerge": false,
 	"hasItems": false,
-	"isFirstTier": false,
-	"drawer": {
-		"type": "DrawMulti",
-		"drawers": [
-	{
-	"type": "DrawRegion",
-	"suffix": "-bottom"
-	},
-	{
-	"type": "DrawLiquidTile",
-	"drawLiquid": "water",
-	"padding": 0.2
-	},
-	{
-	"type": "DrawDefault"
-	},]},
-	"consumes": {
-		"power": 4,
-	"liquid": {
-		"liquid": "water",
-		"amount": 0.5
-	},
-	},
+	"flags": [core,unitModifier]
 }
