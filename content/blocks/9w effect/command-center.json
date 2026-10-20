@@ -9,9 +9,8 @@
 		{"item": "titanium", "amount": 100},
 		{"item": "phase-decay", "amount": 200}
 	]
-	"consumes": {
-		"power": 3,
-	},
+	"hasItems:" false
+	"hasLiquids:" true
 	"research": "vault",
 	"category": "effect",
 	"unitCapModifier": 2
@@ -37,11 +36,6 @@
 	},]},
 	"consumes": {
 		"power": 4,
-		"items": {
-			"items": [
-			 {"item": "graphite", "amount": 2}
-			 ]
-			},
 	"liquid": {
 		"liquid": "water",
 		"amount": 0.5
