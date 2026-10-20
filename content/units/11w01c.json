@@ -24,6 +24,16 @@
 	"canAttack": false,
 	"trailLength": 14,
 	"fogRadius": 9
+	"abilities": [
+				   {
+		"type": "mindustry.entities.abilities.ForceFieldAbility",
+		"radius": 60,
+		"rotation": 0,
+		"sides": 6,
+		"max": 1200,
+		"regen": 2.5,
+		},
+	]
 	"research": {
 		"parent": "dagger"
 			"requirements": [
