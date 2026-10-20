@@ -1,35 +1,38 @@
 {
 	"type": "CoreBlock",
 	"name": "Command Center"
-	"description": "Increases your unit capacity by a small amount.",
+	"description": "Increases your unit capacity by a small amount. Counts as a Core.",
 	"size": 2,
-	"health": 180,
+	"health": 460,
 	"requirements": [
 		{"item": "carbon-fiber", "amount": 200},
 		{"item": "titanium", "amount": 100},
 		{"item": "phase-decay", "amount": 200}
-	]
-	"hasItems:" false
-	"hasLiquids:" true
+	],
+	"hasItems": false,
+	"acceptsItems": false,
+	"itemCapacity": 0,
+	"liquidCapacity": 30,
+	"hasLiquids": true,
 	"research": "vault",
 	"category": "effect",
-	"unitCapModifier": 2
-	"allowSpawn": false
-	"requiresCoreZone": false
-	"coreMerge": false
-	"hasItems": false
-	"isFirstTier": false
+	"unitCapModifier": 2,
+	"allowSpawn": false,
+	"requiresCoreZone": false,
+	"coreMerge": false,
+	"hasItems": false,
+	"isFirstTier": false,
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
 	{
-	"type": "DrawRegion"
+	"type": "DrawRegion",
 	"suffix": "-bottom"
 	},
 	{
 	"type": "DrawLiquidTile",
 	"drawLiquid": "water",
-	"padding": 0.5
+	"padding": 0.2
 	},
 	{
 	"type": "DrawDefault"
