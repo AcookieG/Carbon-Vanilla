@@ -1,6 +1,6 @@
 {
-	"name": "Alloy Foundry",
-	"description": "Cools down superheated Copper into a very dense alloy.",
+	"name": "Based Foundry",
+	"description": "Uses the magic present in friendship and pronouns to condense Estrogen.",
 	"type": "GenericCrafter"
 	"size": 3,
 	"health": 260,
@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "slag",
+				"drawLiquid": "N",
 				"alpha": 1,
 				"padding": 4,
 			},
@@ -41,11 +41,11 @@
 	"consumes": {
 		"power": 1.6,
     "liquids":  [
-		{"liquid": "slag", "amount": 0.2},
+		{"liquid": "N", "amount": 0.2},
 		]
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 2}
+				{"item": "flex", "amount": 2}
 			]
 		},
 	},
@@ -56,7 +56,7 @@
 		{ "item": "copper", "amount": 90 },
 	],
 	"outputItems": [
-		{ "item": "dense", "amount": 1 },
+		{ "item": "estrogen", "amount": 1 },
 	],
 	"category": "crafting",
 	"research": "7w06",

@@ -1,6 +1,6 @@
 {
 	"name": "Silicon Engraver",
-	"description": "Uses short wavelengths to melt layers of copper onto silicon waffers.",
+	"description": "Uses short wavelengths to melt layers of Dense Alloy onto silicon waffers.",
 	"type": "GenericCrafter",
 	"size": 4,
 	"health": 560,
@@ -72,7 +72,7 @@
 		]
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 12}
+				{"item": "dense", "amount": 12}
 				{"item": "circuit", "amount": 6}
 				{"item": "silicon", "amount": 18}
 			]

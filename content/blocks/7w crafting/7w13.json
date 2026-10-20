@@ -58,7 +58,7 @@
 	"items": {
 			"items": [
 	{ "item": "phase-decay", "amount": 1},
-	{ "item": "slate", "amount": 1},
+	{ "item": "dense", "amount": 1},
 			]
 		},
 	},
