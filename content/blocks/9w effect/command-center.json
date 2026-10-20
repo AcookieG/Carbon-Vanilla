@@ -1,5 +1,5 @@
 {
-	"type": "Block",
+	"type": "Wall",
 	"name": "Command Center",
 	"description": "Increases your unit capacity by a small amount. Counts as a Core.",
 	"size": 2,
@@ -9,11 +9,7 @@
 		{"item": "titanium", "amount": 100},
 		{"item": "phase-decay", "amount": 200}
 	],
-	"hasItems": false,
-	"acceptsItems": false,
-	"itemCapacity": 0,
-	"liquidCapacity": 30,
-	"hasLiquids": true,
 	"research": "vault",
 	"category": "effect",
+	"unitCapModifier": 2,
 }
