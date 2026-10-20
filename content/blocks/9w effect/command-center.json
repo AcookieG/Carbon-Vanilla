@@ -1,6 +1,6 @@
 {
 	"type": "Block",
-	"name": "Command Center"
+	"name": "Command Center",
 	"description": "Increases your unit capacity by a small amount. Counts as a Core.",
 	"size": 2,
 	"health": 460,
@@ -17,6 +17,4 @@
 	"research": "vault",
 	"category": "effect",
 	"unitCapModifier": 2,
-	"hasItems": false,
-	"flags": [core,unitModifier]
 }
