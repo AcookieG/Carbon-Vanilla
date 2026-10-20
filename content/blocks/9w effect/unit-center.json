@@ -1,13 +1,16 @@
 {
 	"type": "Wall",
 	"name": "Command Post",
-	"description": "Increases your unit capacity by a small amount. Counts as a Core.",
+	"description": "Increases your unit capacity by 2.",
 	"size": 2,
 	"health": 460,
 	"requirements": [
-		{"item": "carbon-fiber", "amount": 200},
-		{"item": "titanium", "amount": 100},
-		{"item": "phase-decay", "amount": 200}
+			{ "item": "carbon-fiber", "amount": 760 },
+			{ "item": "plastanium", "amount": 530 },
+			{ "item": "silicon", "amount": 2300 },
+			{ "item": "chip", "amount": 350 },
+			{ "item": "flex-joint", "amount": 980 },
+			{ "item": "phase-decay", "amount": 650 },
 	],
 	"research": "vault",
 	"category": "effect",
