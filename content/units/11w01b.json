@@ -5,7 +5,6 @@
 	"armor": 6,
 	"flying": true,
 	"lowAltitude ": true,
-	"hittable": false,
 	"maxVelocity": 6,
 	"rotateSpeed": 7,
 	"speed": 40,
@@ -22,7 +21,6 @@
 	"engineSize": 3.5,
 	"buildSpeed": 1.5,
 	"buildBeamOffset": 6,
-	"targetable": false,
 	"canAttack": false,
 	"trailLength": 12,
 	"fogRadius": 7
