@@ -16,6 +16,7 @@
 	"health": 920,
 	"squareShape": true,
 	"rotateMoveFirst": true,
+	"accel": 0.012,
 	"engineOffset": 10,
 	"engineSize": 4,
 	"immunities": [

@@ -11,6 +11,7 @@
 	"hitSize": 33,
 	"health": 8300,
 	"squareShape": true,
+	"accel": 0.012,
 	"treadPullOffset": 6,
 	"treadFrames": 18,
 	"treadRects": [

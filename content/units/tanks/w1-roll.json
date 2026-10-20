@@ -12,6 +12,7 @@
 	"health": 150,
 	"squareShape": true,
 	"treadFrames": 18,
+	"accel": 0.012,
 	"treadPullOffset": 6,
 	"treadRects": [
 		{
