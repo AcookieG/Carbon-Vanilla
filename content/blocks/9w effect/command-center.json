@@ -19,4 +19,32 @@
 	"requiresCoreZone": false
 	"coreMerge": false
 	"hasItems": false
+	"isFirstTier": false
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+	{
+	"type": "DrawRegion"
+	"suffix": "-bottom"
+	},
+	{
+	"type": "DrawLiquidTile",
+	"drawLiquid": "water",
+	"padding": 0.5
+	},
+	{
+	"type": "DrawDefault"
+	},]},
+	"consumes": {
+		"power": 4,
+		"items": {
+			"items": [
+			 {"item": "graphite", "amount": 2}
+			 ]
+			},
+	"liquid": {
+		"liquid": "water",
+		"amount": 0.5
+	},
+	},
 }
