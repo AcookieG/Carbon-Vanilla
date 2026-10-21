@@ -150,11 +150,11 @@ layer: 110
 			"bullet": {
 				"type": "BasicBulletType",
 				"speed": 10,
-				"drawSize": 350,
+				"drawSize": 400,
 				"damage": 380,
 				"lifetime": 32,
-				"width": 12,
-				"height": 18,
+				"width": 16,
+				"height": 24,
 				"smokeEffect": "shootBigSmoke"
 				"pierce": true,
 				"pierceCap": 2
