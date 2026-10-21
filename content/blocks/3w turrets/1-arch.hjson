@@ -331,7 +331,7 @@
 				backColor: 626f9b
 				intervalBullets: 1,
 				intervalRandomSpread: 0,
-				bulletInterval: 3,
+				bulletInterval: 2,
 				intervalBullet: {
 					type: BasicBulletType,
 					despawnHit: true,
