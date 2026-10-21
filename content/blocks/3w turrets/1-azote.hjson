@@ -147,7 +147,7 @@
 			explodeRange: 30
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
-			bulletInterval: 12,
+			bulletInterval: 8,
 			intervalBullet: {
 				type: BasicBulletType
 				instantDisappear: true
