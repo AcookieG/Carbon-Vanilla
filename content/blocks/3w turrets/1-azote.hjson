@@ -16,16 +16,15 @@
 	cooldownTime: 10
 	shootCone: 22
 	rotateSpeed: 3.6
-	hasPower: true
 	targetUnderBlocks: false
 	shootY: 8
   targetAir: true
   targetGround: true
 	ammoPerShot: 4
-	heatRequirement: 96
-	maxHeatEfficiency: 2
 	consumes: {
-		power: 8
+		"liquids":  [
+			{"liquid": "N", "amount": 0.2},
+			]
 		coolant: {
             amount: 0.5
 		}
@@ -148,7 +147,7 @@
 			explodeRange: 30
 			intervalBullets: 1,
 			intervalRandomSpread: 0,
-			bulletInterval: 6,
+			bulletInterval: 12,
 			intervalBullet: {
 				type: BasicBulletType
 				instantDisappear: true
