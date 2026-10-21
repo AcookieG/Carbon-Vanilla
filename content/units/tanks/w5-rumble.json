@@ -164,7 +164,7 @@ layer: 110
 				trailEffect:none,
 				trailInterval:1,
 				trailParam:2.0,
-				trailLength:6.0,
+				trailLength:12.0,
 layer: 110
 			},
 		},
