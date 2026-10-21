@@ -150,6 +150,11 @@ layer: 110
 				"pierceCap": 6
 				"pierceBuilding": true
 				"recoil": 1,
+				trailChance:1.0,
+				trailEffect:none,
+				trailInterval:1,
+				trailParam:1.0,
+				trailLength:5.0,
 layer: 110
 			},
 		},

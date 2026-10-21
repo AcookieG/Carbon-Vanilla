@@ -35,7 +35,7 @@
 			"healEffect": "healBlockFull",
         	range: 64
         	amount: 60
-        	reload: 180
+        	reload: 120
         	    }
     	]
 	"weapons": [
@@ -80,7 +80,7 @@ trailColor:db401cff,
 trailChance:0.0,
 trailInterval:2,
 trailParam:2.0,
-trailLength:0.0,
+trailLength:1.0,
 trailEffect: ballfire
 layer: 110
 			},
@@ -111,6 +111,11 @@ layer: 110
 				"width": 10,
 				"height": 15,
 				"smokeEffect": "shootSmallSmoke"
+					trailChance:1.0,
+					trailEffect:none,
+					trailInterval:1,
+					trailParam:1.0,
+					trailLength:5.0,
 layer: 110
 			},
 		},
@@ -119,7 +124,7 @@ layer: 110
 			"restitution": 0.008,
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 240,
+			"reload": 200,
 			"cooldownTime": 100,
 			"recoil": 10,
 			"rotationLimit": 361,
@@ -146,7 +151,7 @@ layer: 110
 				"type": "BasicBulletType",
 				"speed": 10,
 				"drawSize": 350,
-				"damage": 360,
+				"damage": 380,
 				"lifetime": 32,
 				"width": 12,
 				"height": 18,
@@ -155,6 +160,11 @@ layer: 110
 				"pierceCap": 2
 				"pierceBuilding": true
 				"recoil": 1,
+				trailChance:1.0,
+				trailEffect:none,
+				trailInterval:1,
+				trailParam:1.0,
+				trailLength:5.0,
 layer: 110
 			},
 		},
