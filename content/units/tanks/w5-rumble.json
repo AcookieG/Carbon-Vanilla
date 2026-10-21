@@ -32,10 +32,9 @@
 	abilities: [
         	{
         	type: mindustry.entities.abilities.RepairFieldAbility
-			"healEffect": "healBlockFull",
-        	range: 64
+        	range: 48
         	amount: 60
-        	reload: 120
+        	reload: 90
         	    }
     	]
 	"weapons": [
