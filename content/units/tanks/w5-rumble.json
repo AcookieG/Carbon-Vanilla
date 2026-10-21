@@ -33,7 +33,7 @@
         	{
         	type: mindustry.entities.abilities.RepairFieldAbility
 			"healEffect": none,
-        	range: 12
+        	range: 1
         	amount: 60
         	reload: 90
         	    }
