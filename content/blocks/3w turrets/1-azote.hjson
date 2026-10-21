@@ -122,18 +122,18 @@
                 colorFrom: d1e4ff
                 colorTo: ffffff00
             }
-			lifetime: 45
+			lifetime: 40
 			 weaveMag: 6
              weaveScale: 4
 			speed: 3
-			drag: -0.02
+			drag: -0.03
 			collidesAir: false
 			collidesGround: false
 			collidesTiles: false
 			instantDisapear: false
 			despawnEffect: none
 			hitEffect: none
-			shrinkY: -0.5
+			shrinkY: -0.55
 			hitShake: 0
 			trailColor: d1e4ff
 			trailEffect: none
@@ -154,7 +154,7 @@
 				despawnEffect: none
 				fragRandomSpread: 0
 				fragSpread: 60
-				fragBullets: 6
+				fragBullets: 3
 				fragBullet: {
              type: LaserBulletType
                hitSoundVolume: 0.8
