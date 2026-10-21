@@ -41,7 +41,6 @@
 	}
 	drawer: {
 	type: drawTurret
-	basePrefix: reinforced-
 	parts: [
 		{
 			type: RegionPart

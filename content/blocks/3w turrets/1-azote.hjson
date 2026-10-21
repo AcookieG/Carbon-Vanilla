@@ -32,7 +32,6 @@
 	coolantMultiplier: 2
 	drawer: {
 	type: drawTurret
-	basePrefix: reinforced-
 	parts: [
 		{
 			type: shapePart
