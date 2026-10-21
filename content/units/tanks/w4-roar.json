@@ -153,7 +153,7 @@ layer: 110
 				trailChance:1.0,
 				trailEffect:none,
 				trailInterval:1,
-				trailParam:1.0,
+				trailParam:1.75,
 				trailLength:5.0,
 layer: 110
 			},

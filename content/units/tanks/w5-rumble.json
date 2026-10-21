@@ -93,7 +93,7 @@ layer: 110
 			"recoil": 1,
 			"rotationLimit": 361,
 			"inaccuracy": 3,
-			"shootSound": "shootScatter"
+			"shootSound": "shootLancer"
 			"rotate": true
 			"shootCone": 20,
 			"shake": 0
@@ -163,8 +163,8 @@ layer: 110
 				trailChance:1.0,
 				trailEffect:none,
 				trailInterval:1,
-				trailParam:1.0,
-				trailLength:5.0,
+				trailParam:2.0,
+				trailLength:6.0,
 layer: 110
 			},
 		},

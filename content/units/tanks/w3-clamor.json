@@ -58,11 +58,6 @@
 				"width": 6,
 				"height": 9,
 				"smokeEffect": "shootSmallSmoke"
-					trailChance:1.0,
-					trailEffect:none,
-					trailInterval:1,
-					trailParam:1.0,
-					trailLength:5.0,
 layer: 110
 			},
 		},
@@ -101,6 +96,11 @@ layer: 110
 				"width": 12,
 				"height": 18,
 				"smokeEffect": "shootBigSmoke"
+					trailChance:1.0,
+					trailEffect:none,
+					trailInterval:1,
+					trailParam:1.5,
+					trailLength:5.0,
 layer: 110
 			},
 		},
