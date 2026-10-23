@@ -66,6 +66,6 @@
 	"outputItems": [
 		{ "item": "dense", "amount": 1 },
 	],
-	"craftTime": 30,
+	"craftTime": 60,
 	"squareSprite": false,
 }
