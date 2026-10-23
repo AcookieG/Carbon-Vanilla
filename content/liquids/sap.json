@@ -8,7 +8,7 @@
 	"capPuddles": false,
 	"maxSpread": 2000,
 	"name": "Sap",
-	"description": "Remnants of Spores that have grown through water pipes..",
+	"description": "Remnants of Spores that have grown through water pipes.",
 	"coolant": true,
 	"color": "665c9f",
 	"colorFrom": "6d56bf",
