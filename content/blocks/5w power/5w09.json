@@ -1,0 +1,43 @@
+{
+	"name": "Ironclad Generator",
+	"description": 
+'''
+Cools hot Slag to extract heat and power.
+'''
+	"type": "HeaterGenerator"
+	"size": 3,
+	"health": 170,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": false,
+	"powerProduction": 6,
+	"requirements": [
+		{ "item": "thorium", "amount": 60 },
+		{ "item": "dense", "amount": 40 },
+		{ "item": "graphite", "amount": 70 },
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawHeatOutput"
+			},
+		]
+	},
+	"consumes": {
+		"liquids":  [
+				   {"liquid": "water", "amount": 0.6},
+				   {"liquid": "slag", "amount": 0.6},
+				   ]
+	},
+	"category": "power",
+	"conductivePower": true
+	"rotate": true
+	"loopSound": "torch",
+research: differential-generator
+	"squareSprite": false,
+	"heatOutput": 8,
+}
