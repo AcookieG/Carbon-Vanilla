@@ -18,8 +18,8 @@
 	"hasPower": true
 	"shootType": {
 		"type": "ArtilleryBulletType",
-		"lifetime": 20,
-		"speed": 66.6,
+		"lifetime": 10,
+		"speed": 150,
 		"trailMult": 0,
 		"trailSize": 0,
 		"homingPower": 10,
@@ -33,12 +33,12 @@
 			"shootEffect": none
 			"smokeEffect": none
 			"lifetime": 5,
-			"speed": 10,
+			"speed": 15,
 			"pierce": true,
 			"pierceCap": 50
 			"hitAir": true
 			"homingPower": 1,
-			"homingRange": 100,
+			"homingRange": 150,
 			"drag": 0.01
 			}
 		},
