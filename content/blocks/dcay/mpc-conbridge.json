@@ -12,16 +12,16 @@
 	"hasPower": false,
 	"requirements": [
 		{
-			"item": "titanium",
+			"item": "chip",
 			"amount": 6
 		},
 		{
 			"item": "metaglass",
-			"amount": 12
+			"amount": 24
 		},
 		{
 			"item": "phase-decay",
-			"amount": 3
+			"amount": 8
 		},
 	]
 	"placeableLiquid": true,

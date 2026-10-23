@@ -5,7 +5,7 @@
 	"health": 210,
 	"hasPower": false
   "requirements": [
-    "silicon/40",
+    "chip/4",
     "phase-decay/20"
     "carbon-fiber/20"
   ],
