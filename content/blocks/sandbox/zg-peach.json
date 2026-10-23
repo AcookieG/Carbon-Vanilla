@@ -2,7 +2,7 @@
 	"name": "HILL",
 	"description": "The absolute best Mender. If the absolute power of this beast doesn't make you happy, nothing will.",
 	"type": "MendProjector",
-	"health": 999999999,
+	"health": 4000000,
 	"size": 2,
 	"hasPower": false
 "sandboxOnly": true,

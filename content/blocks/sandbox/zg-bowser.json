@@ -3,7 +3,7 @@
 	"description": "tu tum tu tum tum tum tu tu tu tu.",
 "sandboxOnly": true,
 	"type": "OverdriveProjector",
-	"health": 75000000,
+	"health": 4000000,
 	"size": 2,
 	"range": 200,
 	"hasPower": false

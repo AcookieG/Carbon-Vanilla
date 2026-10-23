@@ -2,8 +2,8 @@
 	"name": "KILLV3",
 	"description": "I have seen enough. I am satisfied. -Satisfied",
 	"type": "powerTurret",
-	"health": 1000,
-	"size": 1,
+	"health": 40000000,
+	"size": 2,
 	"reload": 1,
 	"shake": 0,
 	"recoil": 0,
@@ -19,7 +19,7 @@
 	"shootType": {
 		"type": "ArtilleryBulletType",
 		"lifetime": 10,
-		"speed": 200,
+		"speed": 100,
 		"trailMult": 0,
 		"trailSize": 0,
 		"homingPower": 10,
@@ -32,7 +32,7 @@
 			"length": 20,
 			"shootEffect": none
 			"smokeEffect": none
-			"lifetime": 20,
+			"lifetime": 10,
 			"speed": 100,
 			"pierce": true,
 			"pierceCap": 50
