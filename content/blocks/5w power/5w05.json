@@ -1,15 +1,5 @@
 {
 	"name": "Oil Burner",
-	"details": '''
-In a world where coal is a rare, but oil is plentyful,
-You burn oil.
-In a world where luscious ecosystems prosper,
-You burn oil.
-In a world where water had all ressources to create life,
-You burn oil.
-You've done it. You tipped the balance.
-You re-created life, but at what cost?
-'''
 	"description": "Burns through Oil to generate power. Explodes if impurities are not instantly removed."
 	"type": "ConsumeGenerator"
 	"size": 2,

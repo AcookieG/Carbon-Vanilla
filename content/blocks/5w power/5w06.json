@@ -1,10 +1,5 @@
 {
 	"name": "Large Oil Burner",
-	"details": '''
-And thus, Sharded kept on exploring new territories in hopes of fleeing the spores of Serpulo, or the Neoplasm from Erekir...
-But they were not running away from the danger,
-They are the danger.
-'''
 	"description": "Burns through liters of Oil to generate more power. Explodes if impurities are not instantly removed."
 	"type": "ConsumeGenerator"
 	"size": 3,
