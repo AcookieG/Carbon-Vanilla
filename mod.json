@@ -1,19 +1,21 @@
 {
   "name": "Carbon Vanilla",
-  "subtitle": "Brings back [yellow[]]v7 [red[]]launchpad [[]][[]]!"
+  "subtitle": "Brings back [gold[]]v7 [orange[]]launchpad [[]][[]]!",
   "author": "[#5BCEFA[]]A[#A8BCD9[]]K[#F5A9B8[]]a[#FAD4DC[]]y[#FFFFFF[]]oC[[]]o[[]]o[[]]k[[]]ie",
   "description": '''
-	Adds multiple new factories, turrets and items to enhance vanilla content and add more things after late game.
-	[red[]]IMPORTANT: [blue[]]Credit for sprites cuz stealing bad: [[]][[]]
-	[yellow[]]Eschatologue/Unlimited-Armament-Works
+	More Serpulo late game shenanigans, I present: Phasegone and Graphitegone.
+
+	New unit tree, items, gases, liquids, with an artstyle very close to vanilla.
+
+	[cyan[]]Credit for sprites inspo cuz stealing bad: [[]]
+	[orange[]]Eschatologue/Unlimited-Armament-Works
 	AureusStratus/ExoGenesis 
 	Eschatologue/Heavy-Armaments-Industries
 	uujuju1/project-oblivion
 	twcash/Aquarion[[]]
 	thomas_has_things(discord) Thomas's Things 
-	[blue[]]- and a huge ty to y'all on the Mindustry Discord[[]]
-	Mod was originally a personal sideproject, sorry if I used your sprites without consent.
+
 	''',
-  "version": 3.1415,
-  "minGameVersion": 146
+  "version": 3.15,
+  "minGameVersion": 160
 }
