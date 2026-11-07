@@ -256,7 +256,7 @@
 				colorTo: ffffff00
 				}
 			lifetime: 40
-			speed: 10.2
+			speed: 10.1
 			collidesAir: true
 			collidesGround: true
 			collidesTiles: true
@@ -273,8 +273,7 @@
 			trailLength: 5
 			frontColor: ffffff
 			backColor: 708d94
-			drag: 0.005
-			knockback: 0.7,
+			knockback: 1.2,
 			}
 		surge-alloy: {
 			type: BasicBulletType
