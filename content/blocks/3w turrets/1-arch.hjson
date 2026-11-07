@@ -234,10 +234,51 @@
 	]
 	}
 	ammoTypes: {
+		slate: {
+			type: BasicBulletType
+			reloadMultiplier: 1.75,
+			damage: 45
+			ammoMultiplier: 8
+			drawsize: 170
+			width: 10
+			height: 14
+			shootEffect: shootSmokeSquareBig
+			smokeEffect: {
+				type: ParticleEffect
+				particles: 3
+				length: -60
+				lifetime: 80
+				interp: circleOut
+				cone: 20
+				sizeFrom: 8
+				sizeTo: 1
+				colorFrom: 708d94
+				colorTo: ffffff00
+				}
+			lifetime: 40
+			speed: 10
+			collidesAir: true
+			collidesGround: true
+			collidesTiles: true
+			instantDisapear: false
+			despawnEffect: none
+			hitEffect: none
+			shrinkY: 0
+			hitShake: 0
+			trailColor: 708d94
+			trailEffect: colorSpark
+			trailRotation: true
+			trailInterval: 5
+			trailChance: -1
+			trailWidth: 2.5
+			trailLength: 20
+			frontColor: ffffff
+			backColor: 708d94
+			}
 		surge-alloy: {
 			type: BasicBulletType
 			damage: 96
-			ammoMultiplier: 8
+			ammoMultiplier: 6
 			drawsize: 200
 			width: 10
 			height: 14
