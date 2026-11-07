@@ -242,15 +242,15 @@
 			drawsize: 170
 			width: 10
 			height: 14
-			shootEffect: shootSmokeSquareBig
+			shootEffect: shootSmokeSquare
 			smokeEffect: {
 				type: ParticleEffect
-				particles: 3
-				length: -60
-				lifetime: 80
+				particles: 1
+				length: -45
+				lifetime: 50
 				interp: circleOut
-				cone: 20
-				sizeFrom: 8
+				cone: 30
+				sizeFrom: 6
 				sizeTo: 1
 				colorFrom: 708d94
 				colorTo: ffffff00
@@ -274,7 +274,7 @@
 			trailLength: 5
 			frontColor: ffffff
 			backColor: 708d94
-			drag: 0.01
+			drag: 0.005
 			knockback: 0.2,
 			}
 		surge-alloy: {
