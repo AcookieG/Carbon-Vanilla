@@ -449,7 +449,7 @@
 			collidesAir: true
 			collidesGround: true
 			collidesTiles: true
-			lifeTime: 10
+			lifeTime: 20
 			speed: 0
 			shootEffect: none
 			despawnEffect: none
@@ -463,8 +463,7 @@
 			FFFFFF
 			]
 			fragRandomSpread: 30
-			fragSpread: 30
-			fragBullets: 3
+			fragBullets: 1
 			"fragBullet": {
 			"type": "BasicBulletType",
 			"sprite": "large-bomb"
@@ -474,10 +473,10 @@
 				"shrinkY": 0.45,
 				"drawsize": 380,
 				"damage": 150,
-				"speed": 1.0,
-				"drag": 0.04
-				"homingPower": 0.1,
-				"homingRange": 24,
+				"speed": 1.5,
+				"drag": 0.06
+				"homingPower": 0.15,
+				"homingRange": 30,
 				"lifetime": 720,
 				"hitEffect": "massiveExplosion"
 				"despawnEffect": "massiveExplosion"
