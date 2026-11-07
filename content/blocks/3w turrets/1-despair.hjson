@@ -431,9 +431,9 @@
 			trailLength: 18
 			frontColor: ffffff
 			backColor: 768a9a
-			homingPower: 0.03
-			homingRange: 60
-			explodeRange: 45
+			homingPower: 0.005
+			homingRange: 24
+			explodeRange: 32
 			fragRandomSpread: 0
 			fragSpread: 40
 			fragBullets: 4
