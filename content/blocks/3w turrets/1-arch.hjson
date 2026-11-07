@@ -256,11 +256,10 @@
 				colorTo: ffffff00
 				}
 			lifetime: 40
-			speed: 10.1
+			speed: 10.2
 			collidesAir: true
 			collidesGround: true
 			collidesTiles: true
-			instantDisapear: false
 			despawnEffect: none
 			hitEffect: none
 			shrinkY: 0
@@ -275,7 +274,7 @@
 			frontColor: ffffff
 			backColor: 708d94
 			drag: 0.005
-			knockback: 0.2,
+			knockback: 0.7,
 			}
 		surge-alloy: {
 			type: BasicBulletType
