@@ -435,14 +435,14 @@
 			homingRange: 60
 			explodeRange: 45
 			fragRandomSpread: 0
-			fragSpread: 30
+			fragSpread: 40
 			fragBullets: 4
 			fragBullet: {
                 type: LaserBulletType
                 hitSoundVolume: 0.8
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
-                damage: 95
+                damage: 90
                 status: freezing
                 statusDuration: 720
 			keepVelocity: false
@@ -462,7 +462,7 @@
 			768a9a
 			FFFFFF
 			]
-			fragRandomSpread: 30
+			fragRandomSpread: 20
 			fragBullets: 1
 			"fragBullet": {
 			"type": "BasicBulletType",
@@ -472,9 +472,9 @@
 				"shrinkX": 0.45,
 				"shrinkY": 0.45,
 				"drawsize": 380,
-				"damage": 150,
-				"speed": 1.5,
-				"drag": 0.06
+				"damage": 170,
+				"speed": 2.5,
+				"drag": 0.05
 				"homingPower": 0.15,
 				"homingRange": 30,
 				"lifetime": 720,
@@ -482,7 +482,7 @@
 				"despawnEffect": "massiveExplosion"
 				"backColor": "768a9a",
 				lightning: 2
-			lightningDamage: 60
+			lightningDamage: 30
 			lightningCone: 360
 			lightningLengthRand: 4
 			lightningLength: 5
