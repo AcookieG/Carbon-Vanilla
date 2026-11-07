@@ -390,12 +390,112 @@
 			]
 			}
 		}
+		carbon-fiber: {
+			type: FlakBulletType
+			sprite: missile-large
+			damage: 0
+			ammoMultiplier: 1
+			reloadMultiplier: 0.75,
+			drawsize: 250
+			width: 10
+			height: 14
+			shootEffect: shootSmokeSquareBig
+			smokeEffect: {
+                type: ParticleEffect
+                particles: 3
+                length: -60
+                lifetime: 80
+                interp: circleOut
+                cone: 20
+                sizeFrom: 8
+                sizeTo: 1
+                colorFrom: 768a9a
+                colorTo: ffffff00
+            }
+			lifetime: 44
+			speed: 9
+			collidesAir: true
+			collidesGround: true
+			collidesTiles: true
+			instantDisapear: false
+			despawnEffect: none
+			hitEffect: none
+			shrinkY: -0.5
+			hitShake: 0
+			trailColor: 768a9a
+			trailEffect: colorSpark
+			trailRotation: true
+			trailInterval: 3
+			trailChance: -1
+			trailWidth: 2.7
+			trailLength: 18
+			frontColor: ffffff
+			backColor: 768a9a
+			homingPower: 0.03
+			homingRange: 60
+			explodeRange: 45
+			fragRandomSpread: 0
+			fragSpread: 30
+			fragBullets: 4
+			fragBullet: {
+                type: LaserBulletType
+                hitSoundVolume: 0.8
+                hitSound: spark
+                buildingDamageMultiplier: 0.7
+                damage: 95
+                status: freezing
+                statusDuration: 720
+			keepVelocity: false
+			collidesAir: true
+			collidesGround: true
+			collidesTiles: true
+			lifeTime: 10
+			speed: 0
+			shootEffect: none
+			despawnEffect: none
+			length: 90
+			width: 14
+			hitEffect: hitLancer
+			lightColor: 768a9a
+			colors: [
+			768a9a
+			768a9a
+			FFFFFF
+			]
+			fragRandomSpread: 30
+			fragSpread: 30
+			fragBullets: 3
+			"fragBullet": {
+			"type": "BasicBulletType",
+			"sprite": "large-bomb"
+				"width": 18,
+				"height": 18,
+				"shrinkX": 0.45,
+				"shrinkY": 0.45,
+				"drawsize": 380,
+				"damage": 150,
+				"speed": 1.0,
+				"drag": 0.04
+				"homingPower": 0.1,
+				"homingRange": 24,
+				"lifetime": 720,
+				"hitEffect": "massiveExplosion"
+				"despawnEffect": "massiveExplosion"
+				"backColor": "768a9a",
+				lightning: 2
+			lightningDamage: 60
+			lightningCone: 360
+			lightningLengthRand: 4
+			lightningLength: 5
+			lightningColor: 768a9a
+				},
+			}
+			}
 		shell: {
 			type: FlakBulletType
 			sprite: missile-large
 			damage: 0
-			ammoMultiplier: 1.5,
-			reloadMultiplier: 0.75,
+			reloadMultiplier: 0.60,
 			drawsize: 250
             drag: -0.005
 			width: 7
@@ -471,11 +571,13 @@
 		}
 	}
 	requirements: [
-		{ "item": "chip", "amount": 45 },
+		{ "item": "chip", "amount": 95 },
 		{ "item": "circuit", "amount": 80 },
 		{ "item": "phase-decay", "amount": 260 },
 		{ "item": "surge-alloy", "amount": 380 },
 		{ "item": "flex-joint", "amount": 520 },
+		{ "item": "carbon-fiber", "amount": 830 },
+		{ "item": "titanium", "amount": 320 },
 	]
 	category: turret
 	research: 1-azote

@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Slate",
-	"description": "A basic rock, abundant on Opalyne.",
+	"description": "A basic rock, abundant on Opalyne. Conductive",
 	"cost": 0.75,
 	"flammability": 0.0,
 	"radioactivity": 0.0,

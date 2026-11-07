@@ -1,7 +1,7 @@
 {
 	type: ItemTurret,
 	name: Arch,
-	description: "Shoots charged balls at high velocity.",
+	description: "Shoots charged balls of energy at high velocity.",
 	squareSprite: false,
 	health: 5300
 	size: 4
@@ -292,7 +292,7 @@
     }
 			shell: {
 				type: BasicBulletType
-				damage: 180
+				damage: 240
 				ammoMultiplier: 1
 				drawsize: 200
 				width: 7
@@ -339,7 +339,7 @@
 					lifetime: 1
 					hitAir: true
 					lightning: 1
-					lightningDamage: 60
+					lightningDamage: 80
 					lightningCone: 359
 					lightningLengthRand: 3
 					lightningLength: 4
@@ -350,9 +350,11 @@
 	requirements: [
 		{ "item": "chip", "amount": 45 },
 		{ "item": "circuit", "amount": 80 },
-		{ "item": "phase-decay", "amount": 260 },
+		{ "item": "phase-decay", "amount": 360 },
 		{ "item": "surge-alloy", "amount": 880 },
 		{ "item": "flex-joint", "amount": 160 },
+		{ "item": "shell", "amount": 230 },
+		{ "item": "phase-fabric", "amount": 160 },
 	]
 	category: turret
 	research: 1-crow
