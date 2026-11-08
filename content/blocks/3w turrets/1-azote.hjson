@@ -122,7 +122,7 @@
                 colorTo: ffffff00
             }
 			lifetime: 32
-			 weaveMag: 12
+			 weaveMag: 24
              weaveScale: 1
              weaveRandom: true
 			speed: 4
