@@ -124,6 +124,7 @@
 			lifetime: 32
 			 weaveMag: 4
              weaveScale: 3
+             weaveRandom: false
 			speed: 4
 			drag: -0.03
 			collidesAir: false
@@ -192,10 +193,11 @@
 			collidesAir: true
 			collidesGround: true
 			collidesTiles: true
-			lifeTime: 10
+			lifeTime: 20
 			speed: 0
 			shootEffect: none
 			despawnEffect: none
+			spin: 3
 			length: 60
 			width: 12
 			hitEffect: hitLancer
