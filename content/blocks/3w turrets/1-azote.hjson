@@ -139,8 +139,8 @@
 			trailParam: 3
 			trailInterval: 3
 			trailChance: 0.2
-			trailWidth: 2
-			trailLength: 12
+			trailWidth: 2.5
+			trailLength: 18
 			frontColor: ffffff
 			backColor: d1e4ff
 			explodeRange: 30
@@ -153,12 +153,14 @@
 				type: BasicBulletType
 				speed: 0
 				lifetime: 10
-				drawsize: 0
+				sprite: clear
 				collidesAir: false
 				collidesGround: false
 				collidesTiles: false
 				instantDisappear: false
+				shootEffect: none
 				despawnEffect: none
+				hitEffect: none
 				intervalAngle: 180
 				fragRandomSpread: 0
 				fragSpread: 60
