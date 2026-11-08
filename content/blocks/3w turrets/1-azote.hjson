@@ -9,7 +9,7 @@
 	shake: 2
 	recoil: 3
 	range: 208
-    inaccuracy: 4
+    inaccuracy: 0
 	ammoUseEffect: casing2Double
 	shootSound: shootCollaris
 	restitution: 0.001
@@ -122,6 +122,8 @@
                 colorTo: ffffff00
             }
 			lifetime: 32
+			 weaveMag: 3
+             weaveScale: 4
 			speed: 4
 			drag: -0.03
 			collidesAir: false
@@ -134,18 +136,34 @@
 			hitShake: 0
 			trailColor: d1e4ff
 			trailEffect: missileTrail
-			trailInterval: 4
+			trailParam: 3
+			trailInterval: 3
 			trailChance: 0.2
-			trailParam: 3.0
+			trailWidth: 2
+			trailLength: 12
 			frontColor: ffffff
 			backColor: d1e4ff
-			explodeRange: 32
-			intervalBullets: 3,
+			explodeRange: 30
+			intervalBullets: 1,
 			intervalRandomSpread: 0,
-			intervalSpread: 60,
-			intervalAngle: 180
+			intervalSpread: 0,
+			intervalAngle: 0
 			bulletInterval: 6,
 			intervalBullet: {
+				type: BasicBulletType
+				speed: 0
+				lifetime: 10
+				drawsize: 0
+				collidesAir: false
+				collidesGround: false
+				collidesTiles: false
+				instantDisappear: false
+				despawnEffect: none
+				intervalAngle: 180
+				fragRandomSpread: 0
+				fragSpread: 60
+				fragBullets: 3
+				fragBullet: {
              type: LaserBulletType
                hitSoundVolume: 0.8
                hitSound: spark
@@ -159,7 +177,6 @@
 				collidesGround: true
 				collidesTiles: true
 				lifeTime: 6
-				speed: 0
 				shootEffect: none
 				despawnEffect: none
 				length: 24
@@ -171,6 +188,7 @@
 				d1e4ff
 				FFFFFF
 				]
+				}
 			}
 			fragRandomSpread: 0
 			fragSpread: 60
@@ -189,7 +207,6 @@
 			collidesGround: true
 			collidesTiles: true
 			lifeTime: 20
-			speed: 0
 			shootEffect: none
 			despawnEffect: none
 			length: 60
