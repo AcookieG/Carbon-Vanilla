@@ -121,7 +121,7 @@
                 colorFrom: d1e4ff
                 colorTo: ffffff00
             }
-			lifetime: 34
+			lifetime: 32
 			 weaveMag: 4
              weaveScale: 3
 			speed: 4
@@ -193,7 +193,7 @@
 			collidesGround: true
 			collidesTiles: true
 			lifeTime: 10
-			speed: -0.5
+			speed: 0
 			shootEffect: none
 			despawnEffect: none
 			length: 60
