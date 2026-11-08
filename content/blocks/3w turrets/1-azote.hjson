@@ -121,7 +121,7 @@
                 colorFrom: d1e4ff
                 colorTo: ffffff00
             }
-			lifetime: 30
+			lifetime: 34
 			 weaveMag: 4
              weaveScale: 3
 			speed: 4
@@ -144,17 +144,12 @@
 			frontColor: ffffff
 			backColor: d1e4ff
 			explodeRange: 30
-			intervalBullets: 1,
+			intervalBullets: 3,
 			intervalRandomSpread: 0,
+			intervalSpread: 60,
+			intervalAngle: 180
 			bulletInterval: 6,
 			intervalBullet: {
-				type: BasicBulletType
-				instantDisappear: true
-				despawnEffect: none
-				fragRandomSpread: 0
-				fragSpread: 60
-				fragBullets: 3
-				fragBullet: {
              type: LaserBulletType
                hitSoundVolume: 0.8
                hitSound: spark
@@ -168,7 +163,7 @@
 				collidesGround: true
 				collidesTiles: true
 				lifeTime: 6
-				speed: -0.6
+				speed: 0
 				shootEffect: none
 				despawnEffect: none
 				length: 24
@@ -180,7 +175,6 @@
 				d1e4ff
 				FFFFFF
 				]
-				}
 			}
 			fragRandomSpread: 0
 			fragSpread: 60
