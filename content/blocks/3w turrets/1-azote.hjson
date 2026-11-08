@@ -122,8 +122,8 @@
                 colorTo: ffffff00
             }
 			lifetime: 32
-			 weaveMag: 4
-             weaveScale: 2
+			 weaveMag: 6
+             weaveScale: 1.5
              weaveRandom: true
 			speed: 4
 			drag: -0.03
