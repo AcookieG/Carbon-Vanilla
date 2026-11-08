@@ -121,10 +121,10 @@
                 colorFrom: d1e4ff
                 colorTo: ffffff00
             }
-			lifetime: 40
-			 weaveMag: 6
-             weaveScale: 4
-			speed: 3
+			lifetime: 30
+			 weaveMag: 4
+             weaveScale: 3
+			speed: 4
 			drag: -0.03
 			collidesAir: false
 			collidesGround: false

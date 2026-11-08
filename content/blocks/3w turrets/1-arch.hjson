@@ -7,7 +7,7 @@
 	size: 4
 	reload: 40
 	shake: 3
-	recoil: 5
+	recoil: 4
 	range: 400
     inaccuracy: 10
 	ammoUseEffect: casing3Double
