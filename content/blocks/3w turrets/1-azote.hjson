@@ -122,9 +122,6 @@
                 colorTo: ffffff00
             }
 			lifetime: 32
-			 weaveMag: 3
-             weaveScale: 4
-             weaveRandom: true
 			speed: 4
 			drag: -0.03
 			collidesAir: false
@@ -136,12 +133,12 @@
 			shrinkY: -0.55
 			hitShake: 0
 			trailColor: d1e4ff
-			trailEffect: none
+			trailEffect: missileTrail
 			trailRotation: true
-			trailInterval: 3
-			trailChance: -1
+			trailInterval: 4
+			trailChance: 0.5
 			trailWidth: 2
-			trailLength: 18
+			trailLength: 12
 			frontColor: ffffff
 			backColor: d1e4ff
 			explodeRange: 32
