@@ -21,7 +21,7 @@
 		"spread": 0.4,
 	},
 	"velocityRnd": 0.4,
-	"lifeRnd": 0.4,
+	"lifeRnd": 0.2,
 	"ammoTypes": {
 		"water": {
 			"type": "LiquidBulletType",
