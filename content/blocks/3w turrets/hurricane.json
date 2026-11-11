@@ -29,9 +29,9 @@
 			"liquid": "water"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 70,
+			"lifetime": 50,
 			"shootEffect": "shootBigSmoke",
-			"speed": 4.2,
+			"speed": 6,
 			"knockback": 2,
 			"status": "wet"
 			"healPercent": 0.05
@@ -43,9 +43,9 @@
 			"liquid": "oil"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 70,
+			"lifetime": 50,
 			"shootEffect": "shootBigSmoke",
-			"speed": 4.2,
+			"speed": 6,
 			"knockback": 4,
 			"status": "tarred"
 			"healPercent": 0.05
@@ -57,9 +57,9 @@
 			"liquid": "slag"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 70,
+			"lifetime": 50,
 			"shootEffect": "shootBigSmoke",
-			"speed": 4.2,
+			"speed": 6,
 			"knockback": 1.5,
 			"status": "melting"
 			"healPercent": 0.05
@@ -71,9 +71,9 @@
 			"liquid": "cryofluid"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 70,
+			"lifetime": 50,
 			"shootEffect": "shootBigSmoke",
-			"speed": 4.2,
+			"speed": 6,
 			"knockback": 1,
 			"status": "freezing"
 			"healPercent": 0.05
