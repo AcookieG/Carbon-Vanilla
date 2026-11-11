@@ -17,11 +17,11 @@
 	"ammoPerShot":2,
 	"shoot": {
 		"type": "shootSpread",
-		"shots": 15,
+		"shots": 16,
 		"spread": 0.4,
 	},
-	"velocityRnd": 0.3,
-	"lifeRnd": 0.2,
+	"velocityRnd": 0.4,
+	"lifeRnd": 0.4,
 	"ammoTypes": {
 		"water": {
 			"type": "LiquidBulletType",
@@ -29,7 +29,7 @@
 			"liquid": "water"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 66,
+			"lifetime": 70,
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 2,
@@ -43,7 +43,7 @@
 			"liquid": "oil"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 66,
+			"lifetime": 70,
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 4,
@@ -57,7 +57,7 @@
 			"liquid": "slag"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 66,
+			"lifetime": 70,
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 1.5,
@@ -71,7 +71,7 @@
 			"liquid": "cryofluid"
 			"collideAir": true
 			"damage": 0,
-			"lifetime": 66,
+			"lifetime": 70,
 			"shootEffect": "shootBigSmoke",
 			"speed": 4.2,
 			"knockback": 1,
