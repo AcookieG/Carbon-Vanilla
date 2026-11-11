@@ -443,8 +443,6 @@
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
                 damage: 90
-                status: freezing
-                statusDuration: 720
 			keepVelocity: false
 			collidesAir: true
 			collidesGround: true
@@ -469,8 +467,8 @@
 			"sprite": "large-bomb"
 				"width": 22,
 				"height": 22,
-				"shrinkX": 0.50,
-				"shrinkY": 0.50,
+				"shrinkX": 0.60,
+				"shrinkY": 0.60,
 				"drawsize": 400,
 				"damage": 170,
 				"speed": 2.8,

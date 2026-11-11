@@ -101,8 +101,8 @@
 				"sprite": "large-bomb"
 				"width": 18,
 				"height": 18,
-				"shrinkX": 0.45,
-				"shrinkY": 0.45,
+				"shrinkX": 0.55,
+				"shrinkY": 0.55,
 				"drawsize": 320,
 				"damage": 120,
 				"speed": 0.8,
