@@ -467,21 +467,22 @@
 			"fragBullet": {
 			"type": "BasicBulletType",
 			"sprite": "large-bomb"
-				"width": 18,
-				"height": 18,
-				"shrinkX": 0.45,
-				"shrinkY": 0.45,
-				"drawsize": 380,
+				"width": 22,
+				"height": 22,
+				"shrinkX": 0.50,
+				"shrinkY": 0.50,
+				"drawsize": 400,
 				"damage": 170,
-				"speed": 2.5,
+				"speed": 2.8,
 				"drag": 0.05
 				"homingPower": 0.15,
-				"homingRange": 30,
-				"lifetime": 720,
+				"homingRange": 24,
+				"lifetime": 900,
 				"hitEffect": "massiveExplosion"
 				"despawnEffect": "massiveExplosion"
 				"backColor": "768a9a",
 				lightning: 2
+				buildingDamageMultiplier: 0.7
 			lightningDamage: 30
 			lightningCone: 360
 			lightningLengthRand: 4

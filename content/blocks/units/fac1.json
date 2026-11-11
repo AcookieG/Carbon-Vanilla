@@ -9,7 +9,7 @@
 	"plans": [
 		{
 			"unit": "w1-roll",
-			"time": 480
+			"time": 720
 			"requirements": [
 				{ "item": "silicon", "amount": 20 },
 				{ "item": "titanium", "amount": 10 },
@@ -17,7 +17,7 @@
 		},
 		{
 			"unit": "x1-mimosa",
-			"time": 360
+			"time": 600
 			"requirements": [
 				{ "item": "silicon", "amount": 20 },
 				{ "item": "lead", "amount": 20 },
@@ -25,7 +25,7 @@
 		},
 		{
 			"unit": "11w01",
-			"time": 480
+			"time": 600
 			"requirements": [
 				{ "item": "silicon", "amount": 20 },
 				{ "item": "lead", "amount": 20 },

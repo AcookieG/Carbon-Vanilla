@@ -103,7 +103,7 @@
 				"height": 18,
 				"shrinkX": 0.45,
 				"shrinkY": 0.45,
-				"drawsize": 380,
+				"drawsize": 320,
 				"damage": 120,
 				"speed": 0.8,
 				"drag": 0.05

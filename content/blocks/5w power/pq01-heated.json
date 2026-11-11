@@ -30,7 +30,7 @@
 		},
 		{
 			"item": "flex-joint",
-			"amount": 50
+			"amount": 40
 		},
 		{
 			"item": "silicon",
@@ -38,7 +38,7 @@
 		},
 		{
 			"item": "phase-fabric",
-			"amount": 90
+			"amount": 80
 		},
 	],
 	"drawer": {
@@ -54,7 +54,7 @@
 		]
 	},
 	"consumes": {
-		"power": 50,
+		"power": 30,
 	},
 	"category": "power",
 	"conductivePower": true

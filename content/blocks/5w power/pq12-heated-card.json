@@ -44,23 +44,23 @@ Conducts power.
 	"requirements": [
 		{
 			"item": "flex-joint",
-			"amount": 50
+			"amount": 110
 		},
 		{
 			"item": "chip",
-			"amount": 50
+			"amount": 75
 		},
 		{
 			"item": "plastanium",
-			"amount": 190
+			"amount": 230
 		},
 		{
 			"item": "surge-alloy",
-			"amount": 150
+			"amount": 340
 		},
 		{
 			"item": "phase-decay",
-			"amount": 95
+			"amount": 195
 		},
 	],
 	"drawer": {
