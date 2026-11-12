@@ -148,9 +148,9 @@ layer: 110
 				"shotDelay": 6
 			}
 			"bullet": {
-				"type": "BasicBulletType",
+				"type": "MissileBulletType",
 				"speed": 10,
-				"drawSize": 400,
+				"drawSize": 440,
 				"damage": 380,
 				"lifetime": 32,
 				"width": 16,
@@ -176,7 +176,7 @@ layer: 110
 			"name": "rumble-case",
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 240,
+			"reload": 20,
 			"recoil": 3,
 			"rotationLimit": 361,
 			"ejectEffect": "none",
