@@ -160,11 +160,15 @@ layer: 110
 				"pierceCap": 2
 				"pierceBuilding": true
 				"recoil": 1,
-				trailChance:1.0,
-				trailEffect:none,
-				trailInterval:1,
-				trailParam:2.0,
-				trailLength:12.0,
+
+				trailParam: 2.5,
+				trailColor: red
+				trailEffect: colorSpark
+				trailRotation: true
+				trailInterval: 2
+				trailChance: -1
+				trailWidth: 2.5
+				trailLength: 12
 layer: 110
 			},
 		},
