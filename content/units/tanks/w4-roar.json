@@ -151,7 +151,7 @@ layer: 110
 				"pierceBuilding": true
 				"recoil": 1,
 				trailParam: 1.5,
-				trailColor: ff99
+				trailColor: "ff9900"
 				trailEffect: colorSpark
 				trailRotation: true
 				trailInterval: 2

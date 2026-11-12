@@ -162,7 +162,7 @@ layer: 110
 				"recoil": 1,
 
 				trailParam: 2.5,
-				trailColor: f
+				trailColor: "f00000"
 				trailEffect: colorSpark
 				trailRotation: true
 				trailInterval: 2
