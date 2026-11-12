@@ -161,13 +161,13 @@ layer: 110
 				"pierceBuilding": true
 				"recoil": 1,
 
-				trailParam: 2.5,
+				trailParam: 4,
 				trailColor: "f00000"
 				trailEffect: colorSpark
 				trailRotation: true
-				trailInterval: 2
+				trailInterval: 1
 				trailChance: -1
-				trailWidth: 2.5
+				trailWidth: 3
 				trailLength: 12
 layer: 110
 			},
