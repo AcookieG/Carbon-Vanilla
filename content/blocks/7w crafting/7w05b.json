@@ -62,7 +62,7 @@
 	"consumes": {
 		"power": 20,
     "liquids":  [
-		{"liquid": "water", "amount": 0.6},
+		{"liquid": "water", "amount": 0.2},
 		]
 	},
 	"requirements": [
@@ -76,5 +76,5 @@ research:7w05
 	"idleSound": "windhowl",
 	"outputLiquids": [{"liquid": "H", "amount": 0.4},{"liquid": "O", "amount": 0.2},],
 	"craftTime": 40,
-	liquidOutputDirections: [1,3,]
+	liquidOutputDirections: [0,2,]
 }
