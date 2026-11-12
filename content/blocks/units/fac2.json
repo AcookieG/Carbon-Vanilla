@@ -8,7 +8,7 @@
 		"items": {
 			"items": [
 				{ "item": "silicon", "amount": 40 },
-				{ "item": "slate", "amount": 40 },
+				{ "item": "graphite", "amount": 40 },
 			]
 		},
 	},
