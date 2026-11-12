@@ -176,7 +176,7 @@ layer: 110
 			"name": "rumble-case",
 			"alternate": false,
 			"ignoreRotation": true,
-			"reload": 20,
+			"reload": 200,
 			"recoil": 3,
 			"rotationLimit": 361,
 			"ejectEffect": "none",
