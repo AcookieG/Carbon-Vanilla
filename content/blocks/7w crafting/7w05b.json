@@ -7,7 +7,8 @@
 	"hasLiquids": true,
 	"hasPower": true,
 	"hasItems": false,
-	"updateEffect": none
+	"updateEffect": none,
+	"liquidCapacity": 36,
 	"heatOutput": 0
 	"craftEffect": {
 			type: ExplosionEffect
