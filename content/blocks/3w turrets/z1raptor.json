@@ -50,21 +50,21 @@
 				"lifetime": 7,
 				"shrinkY": 0.5,
 				"despawnEffect": none
+				"homingPower": 0.03,
+				"homingRange": 40,
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
 					backColor: ffffff
-					"damage": 12,
-					"speed": 0.75,
-				"velocityScaleRandMin": 3.5
-				"velocityScaleRandMax": 5.5
+					"damage": 16,
+					"speed": 1.5,
+				"velocityScaleRandMin": 2.5
+				"velocityScaleRandMax": 5
 					"lifetime": 24,
 					"shrinkY": 0.9,
 					"despawnEffect": none
-					"homingPower": 0.02,
+					"homingPower": 0.03,
 					"homingRange": 40,
-					splashDamage: 12
-					splashDamageRadius: 32
 			},
 			},
 		},
