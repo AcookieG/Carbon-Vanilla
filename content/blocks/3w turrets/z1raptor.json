@@ -20,7 +20,7 @@
 	"ammoTypes": {
 		"plastanium": {
 			"type": "FlakBulletType",
-			"rangeChange": 80
+			"rangeChange": 80,
 			"inaccuracy": 21,
 			"drawsize": 220,
 			"collideAir": true,
@@ -28,36 +28,38 @@
 			"ammoMultiplier": 3,
 			"width": 8,
 			"height": 12,
-			"reloadMultiplier": 1.12,
-			"lifetime": 35,
+			"reloadMultiplier": 1.25,
+			"lifetime": 20,
 			"shrinkY": 0,
 			"shootEffect": "shootBig",
-			backColor: a1b46e
-			"speed": 8,
-			"homingPower": 0.03,
+			backColor: a1b46e,
+			"speed": 14,
+			"homingPower": 0.02,
 			"homingRange": 40,
 			"fragBullets": 3,
 			"fragBullet": {
 				"type": "BasicBulletType",
 				backColor: ffffff
-				"damage": 25,
+				"damage": 30,
 				"speed": 1.25,
-				"velocityScaleRandMin": 2.1
-				"velocityScaleRandMax": 4.1
-				"lifetime": 10,
+				"velocityScaleRandMin": 2.5
+				"velocityScaleRandMax": 4.5
+				"lifetime": 8,
 				"shrinkY": 0.5,
 				"despawnEffect": none
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
 					backColor: ffffff
-					"damage": 9,
+					"damage": 12,
 					"speed": 0.75,
 				"velocityScaleRandMin": 3.5
 				"velocityScaleRandMax": 5.5
 					"lifetime": 24,
-					"shrinkY": 0.99,
+					"shrinkY": 0.9,
 					"despawnEffect": none
+					"homingPower": 0.02,
+					"homingRange": 40,
 			},
 			},
 		},
