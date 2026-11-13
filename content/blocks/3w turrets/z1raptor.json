@@ -21,9 +21,11 @@
 		"plastanium": {
 			"type": "FlakBulletType",
 			"rangeChange": 80,
-			"inaccuracy": 21,
+			"inaccuracy": 17,
 			"drawsize": 220,
-			"collideAir": true,
+			collidesAir: true
+			collidesGround: true
+			collidesTiles: true
 			"damage": 45,
 			"ammoMultiplier": 2,
 			"width": 8,
@@ -34,7 +36,7 @@
 			"shootEffect": "shootBig",
 			backColor: a1b46e,
 			"speed": 10,
-			explodeRange: 32
+			"explodeRange": 40
 			"homingPower": 0.03,
 			"homingRange": 48,
 			"fragBullets": 3,
