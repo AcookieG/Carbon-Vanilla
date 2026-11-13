@@ -1,6 +1,6 @@
 {
 	"name": "Silicon Engraver",
-	"description": "Uses short wavelengths to melt layers of conductive Slate onto silicon waffers.",
+	"description": "Uses short wavelengths to melt layers onto silicon waffers.",
 	"type": "GenericCrafter",
 	"size": 4,
 	"health": 560,
@@ -67,14 +67,13 @@
 	"consumes": {
 		"power": 10,
     "liquids":  [
-		{"liquid": "O", "amount": 0.25},
-		{"liquid": "H", "amount": 0.5},
+		{"liquid": "O", "amount": 0.2},
+		{"liquid": "H", "amount": 0.4},
 		]
 		"items": {
 			"items": [
-				{"item": "slate", "amount": 12}
-				{"item": "circuit", "amount": 6}
-				{"item": "silicon", "amount": 18}
+				{"item": "circuit", "amount": 4}
+				{"item": "silicon", "amount": 12}
 			]
 		},
 	},
