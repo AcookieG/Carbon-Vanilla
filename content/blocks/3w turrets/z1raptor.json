@@ -34,8 +34,9 @@
 			"shootEffect": "shootBig",
 			backColor: a1b46e,
 			"speed": 10,
+			explodeRange: 32
 			"homingPower": 0.03,
-			"homingRange": 40,
+			"homingRange": 48,
 			"fragBullets": 3,
 			"fragBullet": {
 				"type": "BasicBulletType",
@@ -47,6 +48,7 @@
 				"lifetime": 8,
 				"shrinkY": 0.5,
 				"despawnEffect": none
+				explodeRange: 32
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
@@ -97,6 +99,7 @@
 			"speed": 8,
 			"homingPower": 0.05,
 			"homingRange": 16,
+			explodeRange: 32
 			"fragBullets": 1,
 			"fragBullet": {
 				"type": "BasicBulletType",
