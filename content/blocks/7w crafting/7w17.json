@@ -72,8 +72,8 @@
 		]
 		"items": {
 			"items": [
-				{"item": "circuit", "amount": 4}
-				{"item": "silicon", "amount": 12}
+				{"item": "circuit", "amount": 3}
+				{"item": "silicon", "amount": 9}
 			]
 		},
 	},
@@ -90,6 +90,6 @@
 	"category": "crafting",
 	"research": "7w15",
 	"idleSound": "techloop",
-	"craftTime": 240,
+	"craftTime": 90,
 	"squareSprite": false,
 }
