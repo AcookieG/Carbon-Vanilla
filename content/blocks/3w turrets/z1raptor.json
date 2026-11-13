@@ -37,7 +37,7 @@
 			backColor: a1b46e,
 			"speed": 10,
 			"explodeRange": 40
-			"homingPower": 0.03,
+			"homingPower": 0.015,
 			"homingRange": 48,
 			"fragBullets": 3,
 			"fragBullet": {
@@ -58,8 +58,8 @@
 					backColor: ffffff
 					"damage": 16,
 					"speed": 1.5,
-				"velocityScaleRandMin": 2.5
-				"velocityScaleRandMax": 5
+				"velocityScaleRandMin": 1.5
+				"velocityScaleRandMax": 3
 					"lifetime": 24,
 					"shrinkY": 0.9,
 					"despawnEffect": none
@@ -102,7 +102,6 @@
 			"speed": 8,
 			"homingPower": 0.05,
 			"homingRange": 16,
-			explodeRange: 32
 			"fragBullets": 1,
 			"fragBullet": {
 				"type": "BasicBulletType",
