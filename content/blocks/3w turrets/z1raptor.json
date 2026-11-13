@@ -23,11 +23,11 @@
 			"rangeChange": 80,
 			"inaccuracy": 17,
 			"drawsize": 220,
+			"damage": 45,
+			"ammoMultiplier": 2,
 			collidesAir: true
 			collidesGround: true
 			collidesTiles: true
-			"damage": 45,
-			"ammoMultiplier": 2,
 			"width": 8,
 			"height": 12,
 			"reloadMultiplier": 1.25,
@@ -47,10 +47,9 @@
 				"speed": 1.25,
 				"velocityScaleRandMin": 2.5
 				"velocityScaleRandMax": 4.5
-				"lifetime": 8,
+				"lifetime": 7,
 				"shrinkY": 0.5,
 				"despawnEffect": none
-				explodeRange: 32
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
@@ -64,6 +63,8 @@
 					"despawnEffect": none
 					"homingPower": 0.02,
 					"homingRange": 40,
+					splashDamage: 12
+					splashDamageRadius: 32
 			},
 			},
 		},
