@@ -236,10 +236,10 @@
 	ammoTypes: {
 		slate: {
 			type: BasicBulletType
-			reloadMultiplier: 1.75,
-			damage: 45
+			reloadMultiplier: 2.4,
+			damage: 25
 			ammoMultiplier: 8
-			drawsize: 170
+			drawsize: 190
 			width: 10
 			height: 14
 			shootEffect: shootSmokeSquare
