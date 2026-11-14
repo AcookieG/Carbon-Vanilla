@@ -1,14 +1,11 @@
 {
   "localizedName": "Shellshocked",
-  "transitionDamage": 42
+  "transitionDamage": 54
   "opposites": [
     "blasted",
-    "wet",
-    "freezing",
   ],
   "show": true,
   "affinities": [
-    "wet",
     "freezing",
   ],
   "effect": "casing3",
