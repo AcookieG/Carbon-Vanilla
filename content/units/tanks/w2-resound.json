@@ -24,11 +24,6 @@
 	],
 	"omniMovement": false,
 	"rotateMoveFirst": true,
-	"immunities": [
-		"freezing",
-		"burning",
-		"blasted"
-	],
 	"weapons": [
 		{
 			"name": "resound-gun",

@@ -19,10 +19,6 @@
 
 	"engineOffset": 10,
 	"engineSize": 4,
-	"immunities": [
-		"freezing",
-		"burning",
-	],
 	"parts": [
   { 
     "type": "RegionPart",

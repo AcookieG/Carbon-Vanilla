@@ -24,9 +24,6 @@
 	],
 	"omniMovement": false,
 	"rotateMoveFirst": true,
-	"immunities": [
-		"blasted"
-	],
 	"weapons": [
 		{
 			"name": "roll-gun",

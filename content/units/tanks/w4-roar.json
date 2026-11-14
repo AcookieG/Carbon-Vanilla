@@ -26,8 +26,6 @@
 	"rotateMoveFirst": true,
 	"crushDamage": 0.8
 	"immunities": [
-		"freezing",
-		"burning",
 		"blasted"
 	],
 	abilities: [
