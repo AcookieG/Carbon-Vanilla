@@ -120,7 +120,8 @@
 				"hitEffect": "massiveExplosion"
 				"despawnEffect": "massiveExplosion"
 				"backColor": "768a9a",
-				"status": "blasted"
+				"status": "blasted",
+				"statusDuration": 300
 			},
 		},
 	},

@@ -479,6 +479,8 @@
 				"hitEffect": "massiveExplosion"
 				"despawnEffect": "massiveExplosion"
 				"backColor": "768a9a",
+				"status": "blasted",
+				"statusDuration": 300
 				lightning: 2
 				buildingDamageMultiplier: 0.7
 			lightningDamage: 30
@@ -541,7 +543,7 @@
                 buildingDamageMultiplier: 0.4
                 damage: 60
                 status: disarmed
-                statusDuration: 720
+                statusDuration: 300
 			keepVelocity: false
 			collidesAir: true
 			collidesGround: true
