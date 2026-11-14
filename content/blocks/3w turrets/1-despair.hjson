@@ -356,7 +356,7 @@
 			homingPower: 0.03
 			homingRange: 60
 			explodeRange: 30
-			fragBullets: 6
+			fragBullets: 4
 			fragBullet: {
                 type: LaserBulletType
                 hitSoundVolume: 0.8
