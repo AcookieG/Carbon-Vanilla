@@ -112,14 +112,15 @@
 				"shrinkY": 0.45,
 				"drawsize": 280,
 				"damage": 120,
-				"speed": 0.8,
-				"drag": 0.05
-				"homingPower": 0.1,
+				"speed": 0.5,
+				"drag": 0.025
+				"homingPower": 0.07,
 				"homingRange": 24,
 				"lifetime": 720,
 				"hitEffect": "massiveExplosion"
 				"despawnEffect": "massiveExplosion"
 				"backColor": "768a9a",
+				"status": "blasted"
 			},
 		},
 	},
