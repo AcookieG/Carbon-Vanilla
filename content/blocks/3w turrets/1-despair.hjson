@@ -480,7 +480,7 @@
 				"despawnEffect": "massiveExplosion"
 				"backColor": "768a9a",
 				"status": "carbon-vanilla-shelled",
-				"statusDuration": 60
+				"statusDuration": 150
 				lightning: 2
 				buildingDamageMultiplier: 0.7
 			lightningDamage: 30

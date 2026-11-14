@@ -121,7 +121,7 @@
 				"despawnEffect": "massiveExplosion"
 				"backColor": "768a9a",
 				"status": "carbon-vanilla-shelled",
-				"statusDuration": 60
+				"statusDuration": 150
 			},
 		},
 	},

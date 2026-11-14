@@ -3,6 +3,8 @@
   "transitionDamage": 42
   "opposites": [
     "blasted",
+    "wet",
+    "freezing",
   ],
   "show": true,
   "affinities": [
