@@ -1,6 +1,6 @@
 {
   "localizedName": "Frostbitten",
-  "effectChance": 1,
+  "effectChance": 0.5,
   "transitionDamage": 24
   "damageMultiplier": 0.6
   "speedMultiplier": 0.35,

@@ -1,8 +1,6 @@
 {
   "localizedName": "Shellshocked",
-  "effectChance": 1,
   "transitionDamage": 18
-  "permanent": true
   "opposites": [
     "blasted",
   ],
@@ -11,5 +9,5 @@
     "wet",
     "freezing",
   ],
-  "effect": "casing1",
+  "effect": "casing3",
 }
