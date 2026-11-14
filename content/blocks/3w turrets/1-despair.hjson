@@ -362,7 +362,7 @@
                 hitSoundVolume: 0.8
                 hitSound: spark
                 buildingDamageMultiplier: 0.7
-                damage: 60
+                damage: 40
                 status: freezing
                 statusDuration: 720
 			keepVelocity: false
@@ -370,7 +370,7 @@
 			collidesGround: true
 			collidesTiles: true
 			lightning: 2
-			lightningDamage: 30
+			lightningDamage: 24
 			lightningCone: 360
 			lightningLengthRand: 5
 			lightningLength: 6
