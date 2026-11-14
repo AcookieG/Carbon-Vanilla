@@ -5,7 +5,7 @@
 	"type": "ItemTurret",
 	"health": 1870,
 	"size": 3,
-	"reload": 9,
+	"reload": 12,
 	"shake": 1,
 	"range": 200,
 	"ammoUseEffect": "casing3Double",
@@ -56,7 +56,7 @@
 				"fragBullet": {
 					"type": "BasicBulletType",
 					backColor: ffffff
-					"damage": 16,
+					"damage": 15,
 					"speed": 1.5,
 				"velocityScaleRandMin": 1.5
 				"velocityScaleRandMax": 3
@@ -72,8 +72,8 @@
 			"type": "BasicBulletType",
 			"drawsize": 230,
 			"collideAir": true
-			"reloadMultiplier": 1.0,
-			"damage": 78,
+			"reloadMultiplier": 1,
+			"damage": 68,
 			"ammoMultiplier": 3,
 			"width": 14,
 			"height": 17,
@@ -129,7 +129,7 @@
 		"amount": 0.2
 		}
 	},
-	"coolantMultiplier": 6.5
+	"coolantMultiplier": 6.0
 	"requirements": [
 		{ "item": "copper", "amount": 850 },
 		{ "item": "titanium", "amount": 775 },
