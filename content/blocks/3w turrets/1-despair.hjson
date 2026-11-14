@@ -479,8 +479,8 @@
 				"hitEffect": "massiveExplosion"
 				"despawnEffect": "massiveExplosion"
 				"backColor": "768a9a",
-				"status": "blasted",
-				"statusDuration": 300
+				"status": "carbon-vanilla-shelled",
+				"statusDuration": 120
 				lightning: 2
 				buildingDamageMultiplier: 0.7
 			lightningDamage: 30

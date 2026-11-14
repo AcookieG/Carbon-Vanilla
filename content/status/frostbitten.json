@@ -1,25 +1,17 @@
 {
   "localizedName": "Frostbitten",
   "effectChance": 1,
-  "transitionDamage": 34,
+  "transitionDamage": 24
   "damageMultiplier": 0.6
   "speedMultiplier": 0.35,
   "healthMultiplier": 0.5
-  "intervalDamage": 31
+  "intervalDamage": 16
   "intervalDamageTime": 60
   "intervalDamagePierce": true
   "opposites": [
-    "burning",
     "melting"
   ],
   "show": true,
-
-  "colors": [
-    "ffffffff",
-    "ffffa3ff",
-    "ffcd66ff",
-    "e28654ff"
-  ],
   "affinities": [
     "wet",
     "freezing",

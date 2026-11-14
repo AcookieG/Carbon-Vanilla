@@ -1,0 +1,15 @@
+{
+  "localizedName": "Shellshocked",
+  "effectChance": 1,
+  "transitionDamage": 18
+  "permanent": true
+  "opposites": [
+    "blasted",
+  ],
+  "show": true,
+  "affinities": [
+    "wet",
+    "freezing",
+  ],
+  "effect": "casing1",
+}
