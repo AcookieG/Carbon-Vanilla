@@ -333,6 +333,8 @@
     }
 			shell: {
 				type: BasicBulletType
+				"status": "carbon-vanilla-shelled",
+				"statusDuration": 150
 				damage: 240
 				ammoMultiplier: 1
 				drawsize: 200
@@ -385,6 +387,8 @@
 					lightningLengthRand: 3
 					lightningLength: 4
 					lightningColor: 626f9b
+					"status": "carbon-vanilla-shelled",
+					"statusDuration": 150
 					}
 				}
 	}
