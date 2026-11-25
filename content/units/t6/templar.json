@@ -24,22 +24,29 @@
 	"reload": 4,
 	"recoil": 0.1,
 	"rotationLimit": 0,
-	"inaccuracy": 12,
+	"inaccuracy": 3,
 	"shootSound": "shootMissile"
 	"rotate": false
 	"shootCone": 20,
 	"shake": 0.3
-	"x": 20
+	"x": 25
 	"y": 0
-	"shootY": 20
+	"shootY": 18
 	"mirror": false
+	"shoot": {
+		"type": "ShootBarrel"
+			"barrels": [
+				   -3, 0, 0,
+				   3, 0, 0,
+				   ]
+			},
 	"rotateSpeed": 0,
 		"bullet": {
 		"type": "MissileBulletType",
 		"shootEffect": "shootBig"
 		"pierce": true,
 		"pierceCap": 2
-		"damage": 11,
+		"damage": 22,
 		"lifetime": 30
 		"speed": 8
 		"hitGround": true
@@ -60,16 +67,9 @@
 	"shootCone": 15,
 	"x": 0
 	"y": 0
-	"shootY": 22
+	"shootY": 18
 	"mirror": false
 	"rotateSpeed": 1,
-	"shoot": {
-		"type": "ShootBarrel"
-		"barrels": [
-			-3, 0, 0,
-			3, 0, 0,
-		]
-	},
 	"bullet": {
 		   "type": "BasicBulletType",
 		   "spawnUnit":"scathe-missile",
@@ -80,32 +80,23 @@
 	"restitution": 0.008,
 	"alternate": false,
 	"ignoreRotation": true,
-	"reload": 4,
+	"reload": 100,
 	"recoil": 0.1,
 	"rotationLimit": 0,
 	"inaccuracy": 3,
 	"shootSound": "shootMissile"
 	"rotate": false
 	"shootCone": 20,
-	"x": -20
+	"x": -25
 	"y": 0
 	"shootY": 20
 	"mirror": false
 	"rotateSpeed": 0,
-	"shoot": {
-		"type": "ShootPattern",
-		"shots": 15,
-		"spread": 2,
-		"shotDelay": 1
-	}
 	"bullet": {
-		"type": "FlameBulletType",
+		"type": "ContinuousFlameBulletType",
 		"shootEffect": "shootSmallFlame"
-		"damage": 11,
-		"lifetime": 10
-		"speed": 6
-		"hitGround": true
-		"hitAir": true
+		"lifetime": 16
+		"damage": 54
 			},
 	   }
 	]
