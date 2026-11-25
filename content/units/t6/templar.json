@@ -9,12 +9,104 @@
 	"mechStepParticles": true,
 	"stepShake": 1,
 	"drownTimeMultiplier": 2.3,
-	"mechFrontSway": 1.9f,
+	"mechFrontSway": 1.9,
 	"mechSideSway": 0.6,
 	"stepSound": "mechStepHeavy",
 	"stepSoundPitch": 0.8,
 	"stepSoundVolume": 0.75,
 	"itemCapacity": 240,
+	"weapons": [
+	{
+	"name": "templar-missile",
+	"restitution": 0.008,
+	"alternate": false,
+	"ignoreRotation": true,
+	"reload": 2,
+	"recoil": 0.1,
+	"rotationLimit": 0,
+	"inaccuracy": 12,
+	"shootSound": "shootMissile"
+	"rotate": false
+	"shootCone": 20,
+	"shake": 0.3
+	"x": 0
+	"y": 0
+	"shootY": 20
+	"shootx": 20
+	"mirror": false
+	"rotateSpeed": 0,
+		"bullet": {
+		"type": "MissileBulletType",
+		"shootEffect": "shootSmallFlame"
+		"pierce": true,
+		"pierceCap": 2
+		"damage": 11,
+		"lifetime": 30
+		"speed": 9
+		"hitGround": true
+		"hitAir": true
+		trailLength:1.0,
+		layer: 110
+		},
+	}
+	{
+   "name": "templar-cannon",
+   "alternate": false,
+   "ignoreRotation": true,
+   "reload": 210,
+   "recoil": 1,
+   "shake": 10,
+   "rotationLimit": 75,
+   "inaccuracy": 12,
+   "shootSound": "shootMissile"
+	"rotate": false
+	"shootCone": 15,
+	"x": 0
+	"y": 0
+	"shootY": 22
+	"mirror": false
+	"rotateSpeed": 1,
+	"bullet": {
+		   "type": "BasicBulletType",
+		   "spawnUnit":"scathe-missile",
+			   },
+	   }
+	{
+	"name": "templar-flame",
+	"restitution": 0.008,
+	"alternate": false,
+	"ignoreRotation": true,
+	"reload": 2,
+	"recoil": 0.1,
+	"rotationLimit": 0,
+	"inaccuracy": 3,
+	"shootSound": "shootMissile"
+	"rotate": false
+	"shootCone": -20,
+	"x": 0
+	"y": 0
+	"shootY": 20
+	"shootx": 20
+	"mirror": false
+	"rotateSpeed": 0,
+	"shoot": {
+		"type": "ShootPattern",
+		"shots": 15,
+		"spread": 2,
+	}
+			]
+			},
+	"bullet": {
+		"type": "FlameBulletType",
+		"shootEffect": "shootBigFlame"
+		"damage": 11,
+		"lifetime": 30
+		"speed": 6
+		"hitGround": true
+		"hitAir": true
+			},
+	   }
+	]
 	"research": {
 		"parent": "reign"
 			"requirements": [
