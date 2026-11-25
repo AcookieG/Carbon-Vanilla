@@ -20,7 +20,7 @@
 	"name": "templar-missiles",
 	"restitution": 0.008,
 	"alternate": false,
-	"ignoreRotation": true,
+	"rotate": true
 	"reload": 4,
 	"recoil": 1,
 	"rotationLimit": 15,
@@ -59,6 +59,7 @@
 	{
    "name": "templar-cannon",
    "alternate": false,
+   "rotate": true
    "reload": 210,
    "recoil": 5,
    "shake": 10,
@@ -80,8 +81,8 @@
 	"name": "templar-flames",
 	"restitution": 0.008,
 	"alternate": false,
-	"ignoreRotation": true,
-	"reload": 90,
+	"rotate": true
+	"reload": 60,
 	"recoil": 1,
 	"rotationLimit": 15,
 	"inaccuracy": 3,
@@ -95,10 +96,13 @@
 	"bullet": {
 		"type": "ContinuousFlameBulletType",
 		"shootEffect": "shootSmallFlame"
-		"lifetime": 60
+		"lifetime": 40
+		"length": 240
 		"damage": 32
 		"flareColor": ec7458aa
 		"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
+		trailLength: 4.0,
+		trailWidth: 4.0,
 			},
 	   }
 	]
