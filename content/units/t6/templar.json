@@ -21,10 +21,10 @@
 	"restitution": 0.008,
 	"alternate": false,
 	"rotate": true
-	"reload": 3,
+	"reload": 2,
 	"recoil": 1.2,
 	"rotationLimit": 15,
-	"inaccuracy": 8,
+	"inaccuracy": 10,
 	"shootSound": "shootMissile"
 	"shootCone": 20,
 	"shake": 0.4
