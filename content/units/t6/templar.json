@@ -80,7 +80,7 @@
 	"restitution": 0.008,
 	"alternate": false,
 	"ignoreRotation": true,
-	"reload": 2,
+	"reload": 4,
 	"recoil": 0.1,
 	"rotationLimit": 0,
 	"inaccuracy": 3,
@@ -96,6 +96,7 @@
 		"type": "ShootPattern",
 		"shots": 15,
 		"spread": 2,
+		"shotDelay": 1
 	}
 	"bullet": {
 		"type": "FlameBulletType",
