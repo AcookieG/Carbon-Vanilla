@@ -21,7 +21,7 @@
 	"restitution": 0.008,
 	"alternate": false,
 	"ignoreRotation": true,
-	"reload": 2,
+	"reload": 4,
 	"recoil": 0.1,
 	"rotationLimit": 0,
 	"inaccuracy": 12,
@@ -29,10 +29,9 @@
 	"rotate": false
 	"shootCone": 20,
 	"shake": 0.3
-	"x": 0
+	"x": 20
 	"y": 0
 	"shootY": 20
-	"shootx": 20
 	"mirror": false
 	"rotateSpeed": 0,
 		"bullet": {
@@ -42,7 +41,7 @@
 		"pierceCap": 2
 		"damage": 11,
 		"lifetime": 30
-		"speed": 9
+		"speed": 8
 		"hitGround": true
 		"hitAir": true
 		trailLength:1.0,
@@ -52,20 +51,25 @@
 	{
    "name": "templar-cannon",
    "alternate": false,
-   "ignoreRotation": true,
    "reload": 210,
    "recoil": 1,
    "shake": 10,
    "rotationLimit": 75,
-   "inaccuracy": 12,
+   "inaccuracy": 0,
    "shootSound": "shootMissile"
-	"rotate": false
 	"shootCone": 15,
 	"x": 0
 	"y": 0
 	"shootY": 22
 	"mirror": false
 	"rotateSpeed": 1,
+	"shoot": {
+		"type": "ShootBarrel"
+		"barrels": [
+			-3, 0, 0,
+			-3, 0, 0,
+		]
+	},
 	"bullet": {
 		   "type": "BasicBulletType",
 		   "spawnUnit":"scathe-missile",
@@ -83,10 +87,9 @@
 	"shootSound": "shootMissile"
 	"rotate": false
 	"shootCone": -20,
-	"x": 0
+	"x": -20
 	"y": 0
 	"shootY": 20
-	"shootx": 20
 	"mirror": false
 	"rotateSpeed": 0,
 	"shoot": {
@@ -98,7 +101,7 @@
 		"type": "FlameBulletType",
 		"shootEffect": "shootSmallFlame"
 		"damage": 11,
-		"lifetime": 30
+		"lifetime": 10
 		"speed": 6
 		"hitGround": true
 		"hitAir": true
