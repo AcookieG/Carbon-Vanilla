@@ -1,5 +1,5 @@
 {
-	"type": "UnitType",
+	"type": "mech",
 	"name": "Templar",
 	"health": 34500,
 	"armor": 32,
