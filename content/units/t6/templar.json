@@ -1,8 +1,8 @@
 {
 	"type": "mech",
 	"name": "Templar",
-	"health": 34500,
-	"armor": 32,
+	"health": 44500,
+	"armor": 65,
 	"rotateSpeed": 1.2,
 	"speed": 0.25,
 	"hitSize": 45,
