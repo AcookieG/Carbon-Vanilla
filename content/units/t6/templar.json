@@ -21,10 +21,10 @@
 	"restitution": 0.008,
 	"alternate": false,
 	"rotate": true
-	"reload": 4,
-	"recoil": 1,
+	"reload": 3,
+	"recoil": 1.2,
 	"rotationLimit": 15,
-	"inaccuracy": 3,
+	"inaccuracy": 12,
 	"shootSound": "shootMissile"
 	"shootCone": 20,
 	"shake": 0.4
@@ -44,17 +44,20 @@
 	"rotateSpeed": 2,
 		"bullet": {
 		"type": "MissileBulletType",
+		drawsize: 200
 		"shootEffect": "shootBig"
 		"pierce": true,
 		"pierceCap": 2
+		weaveMag: 4
+		weaveScale: 4
 		"damage": 22,
-		"lifetime": 30
+		"lifetime": 40
 		"speed": 7
 		"hitGround": true
 		"hitAir": true
 		trailLength: 4.0,
-		splashDamage: 32
-		splashDamageRadius: 18
+		splashDamage: 42
+		splashDamageRadius: 22
 		layer: 110
 		},
 	}
