@@ -17,7 +17,7 @@
 	"itemCapacity": 240,
 	"weapons": [
 	{
-	"name": "templar-missile",
+	"name": "templar-missiles",
 	"restitution": 0.008,
 	"alternate": false,
 	"ignoreRotation": true,
@@ -44,7 +44,7 @@
 		"speed": 8
 		"hitGround": true
 		"hitAir": true
-		trailLength:1.0,
+		trailLength: 2.0,
 		layer: 110
 		},
 	}
@@ -67,7 +67,7 @@
 		"type": "ShootBarrel"
 		"barrels": [
 			-3, 0, 0,
-			-3, 0, 0,
+			3, 0, 0,
 		]
 	},
 	"bullet": {
@@ -76,7 +76,7 @@
 			   },
 	   }
 	{
-	"name": "templar-flame",
+	"name": "templar-flames",
 	"restitution": 0.008,
 	"alternate": false,
 	"ignoreRotation": true,
@@ -86,7 +86,7 @@
 	"inaccuracy": 3,
 	"shootSound": "shootMissile"
 	"rotate": false
-	"shootCone": -20,
+	"shootCone": 20,
 	"x": -20
 	"y": 0
 	"shootY": 20
