@@ -22,25 +22,26 @@
 	"alternate": false,
 	"ignoreRotation": true,
 	"reload": 4,
-	"recoil": 0.5,
-	"rotationLimit": 0,
+	"recoil": 1,
+	"rotationLimit": 15,
 	"inaccuracy": 3,
 	"shootSound": "shootMissile"
-	"rotate": false
 	"shootCone": 20,
-	"shake": 0.3
+	"shake": 0.4
 	"x": 25
 	"y": 0
-	"shootY": 18
+	"shootY": 16
 	"mirror": false
 	"shoot": {
 		"type": "ShootBarrel"
 			"barrels": [
+				   -4, 0, 0,
 				   -3, 0, 0,
+				   4, 0, 0,
 				   3, 0, 0,
 				   ]
 			},
-	"rotateSpeed": 0,
+	"rotateSpeed": 2,
 		"bullet": {
 		"type": "MissileBulletType",
 		"shootEffect": "shootBig"
@@ -48,10 +49,10 @@
 		"pierceCap": 2
 		"damage": 22,
 		"lifetime": 30
-		"speed": 8
+		"speed": 7
 		"hitGround": true
 		"hitAir": true
-		trailLength: 2.0,
+		trailLength: 4.0,
 		layer: 110
 		},
 	}
@@ -80,23 +81,22 @@
 	"restitution": 0.008,
 	"alternate": false,
 	"ignoreRotation": true,
-	"reload": 8,
-	"recoil": 0.5,
-	"rotationLimit": 0,
+	"reload": 90,
+	"recoil": 1,
+	"rotationLimit": 15,
 	"inaccuracy": 3,
 	"shootSound": "shootMissile"
-	"rotate": false
 	"shootCone": 20,
 	"x": -25
 	"y": 0
-	"shootY": 20
+	"shootY": 16
 	"mirror": false
-	"rotateSpeed": 0,
+	"rotateSpeed": 2,
 	"bullet": {
 		"type": "ContinuousFlameBulletType",
 		"shootEffect": "shootSmallFlame"
-		"lifetime": 8
-		"damage": 54
+		"lifetime": 60
+		"damage": 32
 		"flareColor": ec7458aa
 		"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
 			},
