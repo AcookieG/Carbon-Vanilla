@@ -94,8 +94,6 @@
 		"shots": 15,
 		"spread": 2,
 	}
-			]
-			},
 	"bullet": {
 		"type": "FlameBulletType",
 		"shootEffect": "shootBigFlame"
