@@ -1,0 +1,31 @@
+{
+	"type": "UnitType",
+	"name": "Templar",
+	"health": 34500,
+	"armor": 32,
+	"rotateSpeed": 1.2,
+	"speed": 0.25,
+	"hitSize": 45,
+	"mechStepParticles": true,
+	"stepShake": 1,
+	"drownTimeMultiplier": 2.3,
+	"mechFrontSway": 1.9f,
+	"mechSideSway": 0.6,
+	"stepSound": "mechStepHeavy",
+	"stepSoundPitch": 0.8,
+	"stepSoundVolume" = 0.75,
+	"itemCapacity": 240,
+	"research": {
+		"parent": "reign"
+			"requirements": [
+						{
+	   "item": "titanium",
+	   "amount": 50
+	   },
+						{
+	   "item": "graphite",
+	   "amount": 50
+	   },
+						]
+						}
+}
