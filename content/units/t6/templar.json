@@ -37,7 +37,7 @@
 	"rotateSpeed": 0,
 		"bullet": {
 		"type": "MissileBulletType",
-		"shootEffect": "shootSmallFlame"
+		"shootEffect": "shootBig"
 		"pierce": true,
 		"pierceCap": 2
 		"damage": 11,
@@ -96,7 +96,7 @@
 	}
 	"bullet": {
 		"type": "FlameBulletType",
-		"shootEffect": "shootBigFlame"
+		"shootEffect": "shootSmallFlame"
 		"damage": 11,
 		"lifetime": 30
 		"speed": 6
