@@ -59,9 +59,9 @@
 				  ammoMultiplier: 4,
 				  splashDamageRadius: 80,
 				  splashDamage: 75,
-				  backColor: sapBulletBack,
-				  frontColor: sapBullet
-				  lightningColor: sapBullet,
+				  backColor: 6d56bf,
+				  frontColor: bf92f9
+				  lightningColor: bf92f9,
 				  lightning: 5,
 				  lightningLength: 20,
 				  smokeEffect: shootBigSmoke2,
@@ -84,9 +84,9 @@
 					  collidesTiles: false,
 					  splashDamageRadius: 90,
 					  splashDamage: 60,
-					  backColor: sapBulletBack,
-					  frontColor: sapBullet
-					  lightningColor: sapBullet,
+					  backColor: 6d56bf,
+					  frontColor: bf92f9
+					  lightningColor: bf92f9,
 					  lightning: 3,
 					  lightningLength: 5,
 					  smokeEffect: shootBigSmoke2,
