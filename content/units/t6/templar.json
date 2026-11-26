@@ -19,7 +19,7 @@
 	{
 	"name": "templar-missiles",
 	"restitution": 0.008,
-	"alternate": false,
+	"alternate": true,
 	"rotate": true
 	"reload": 2,
 	"recoil": 1.2,
@@ -31,7 +31,7 @@
 	"x": 25
 	"y": 0
 	"shootY": 16
-	"mirror": false
+	"mirror": true
 	"shoot": {
 		"type": "ShootBarrel"
 			"barrels": [
@@ -68,11 +68,11 @@
    "rotate": true
    "reload": 210,
    "recoil": 5,
-   "shake": 10,
+   "shake": 1,
    "rotationLimit": 75,
    "inaccuracy": 0,
-   "shootSound": "explosionTitan"
-	"shootCone": 15,
+   "shootSound": "shootMissile"
+	"shootCone": 45,
 	"x": 0
 	"y": 0
 	"shootY": 16
@@ -80,92 +80,21 @@
 	"rotateSpeed": 1,
 	shoot: {
 		type: ShootSpread
-		shots: 5
-		spread: 7
+		shots: 50
+		spread: 1
+		delay: 1
 		}
-	velocityRnd: 0.7
-	"bullet": {
-		   "type": "ArtilleryBulletType",
-		   "shootEffect": {
-			   "type": "multiEffect",
-			   "effects": [
-					  {
-		"type": "ParticleEffect",
-		"particles": 3,
-		"length": 80,
-		"lifetime": 20,
-		"line": true,
-		"cone": 30,
-		"sizeFrom": 12,
-		"sizeTo": 2,
-		"colorFrom": "6e7080",
-		"colorTo": "ffcd66"
-			},
-					  {
-		"type": "ParticleEffect",
-		"particles": 4,
-		"length": 80,
-		"lifetime": 20,
-		"interp": "circleOut",
-		"cone": 30,
-		"sizeFrom": 12,
-		"sizeTo": 2,
-		"colorFrom": "4a4b53",
-		"colorTo": "ffcd66"
-			},
-					  ]
-					  }
-			hitEffect: titanSmoke
-			despawnEffect: none
-			sprite: shell
-			knockback: 2
-			drawsize: 230
-			lifetime: 100
-			speed: 4
-			height: 19
-			width: 17
-			damage: 250
-			splashDamageRadius: 40,
-			splashDamage: 400,
-			scaledSplashDamage: true
-			hitSound: explosionScathe
-
-			trailLength: 32
-			trailWidth: 3.35,
-			trailSinScl: 2.5,
-			trailSinMag: 0.5,
-			despawnShake: 5,
-			shrinkX: 0.2,
-			shrinkY: 0.1,
-			   },
-	   }
-	{
-	"name": "templar-flames",
-	"restitution": 0.008,
-	"alternate": false,
-	"rotate": true
-	"reload": 60,
-	"recoil": 1,
-	"rotationLimit": 15,
-	"inaccuracy": 3,
-	"shootSound": "shootMissile"
-	"shootCone": 20,
-	"x": -25
-	"y": 0
-	"shootY": 16
-	"mirror": false
-	"rotateSpeed": 2,
-	"bullet": {
-		"type": "ContinuousFlameBulletType",
-		"shootEffect": "shootSmallFlame"
-		"lifetime": 40
-		"length": 240
-		"damage": 52
-		"flareColor": ec7458aa
-		"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
-		trailLength: 4.0,
-		trailWidth: 4.0,
-			},
+		"bullet": {
+			"type": "ContinuousFlameBulletType",
+			"shootEffect": "shootSmallFlame"
+				"lifetime": 10
+				"length": 240
+				"damage": 52
+				"flareColor": ec7458aa
+				"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
+				trailLength: 4.0,
+				trailWidth: 4.0,
+				},
 	   }
 	]
 	"research": {
