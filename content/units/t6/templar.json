@@ -44,7 +44,7 @@
 	"rotateSpeed": 2,
 		"bullet": {
 		"type": "MissileBulletType",
-		drawsize: 100
+		drawsize: 80
 		"shootEffect": "shootBig"
 		sprite: missile-large
 		width: 9
