@@ -79,8 +79,62 @@
 	"mirror": false
 	"rotateSpeed": 1,
 	"bullet": {
-		   "type": "BasicBulletType",
-		   "spawnUnit":"scathe-missile",
+		   "type": "ArtilleryBulletType",
+			hitEffect: titanExplosion
+			despawnEffect: none
+			sprite: shell
+			knockback: 2
+			drawsize: 230
+			lifetime: 140
+			height: 19
+			width: 17
+			splashDamageRadius: 65,
+			splashDamage: 350,
+			scaledSplashDamage: true
+			hitSound: explosionScathe
+
+			trailLength: 32;
+			trailWidth: 3.35,
+			trailSinScl: 2.5,
+			trailSinMag: 0.5,
+			despawnShake: 7,
+
+			shootEffect: shootTitan
+			smokeEffect: shootSmokeTitan
+
+			shrinkX: 0.2,
+			shrinkY: 0.1,
+			buildingDamageMultiplier: 0.3,
+			fragBullets: 1
+			"fragBullet": {
+				"type": "ArtilleryBulletType",
+				hitEffect: scatheExplosion
+				despawnEffect: scatheSplash
+				sprite: shell
+				knockback: 2
+				drawsize: 100
+				lifetime: 30
+				height: 19
+				width: 17
+				splashDamageRadius: 32,
+				splashDamage: 240,
+				scaledSplashDamage: true
+				hitSound: explosionScathe
+
+				trailLength: 10;
+				trailWidth: 1.35,
+				trailSinScl: 2.5,
+				trailSinMag: 0.5,
+				trailEffect: none
+				despawnShake: 7,
+
+				shootEffect: none
+				smokeEffect: none
+
+				shrinkX: 0.4,
+				shrinkY: 0.2,
+
+					},
 			   },
 	   }
 	{
