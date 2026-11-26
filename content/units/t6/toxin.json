@@ -160,7 +160,7 @@
 	   color: bf92f9
 	   "alternate": true,
 	   "rotate": true
-	   "reload": 60,
+	   "reload": 90,
 	   "recoil": 3,
 	   "rotationLimit": 40,
 	   "inaccuracy": 0,
@@ -190,6 +190,74 @@
 				   hitEffect: "sapped"
 				   },
 		   }
+		   "name": "toxin-point",
+			   color: bf92f9
+			   "alternate": true,
+			   "rotate": true
+			   "reload": 90,
+			   "recoil": 3,
+			   "rotationLimit": 40,
+			   "inaccuracy": 0,
+			   "shootSound": "shootToxopidShotgun"
+				   "shootSoundVolume": 0.6
+				   "shootCone": 35,
+				   "shake": 0.2
+				   "x": 12
+				   "y": 5
+				   "shootY": 6
+				   "mirror": true
+				   "rotateSpeed": 3,
+				   shoot: {
+			   type: ShootSpread
+			   shots: 10
+			   spread: 1
+			   }
+				   "bullet": {
+				  "type": "ContinuousFlameBulletType",
+				  "shootEffect": "sapped"
+					  "lifetime": 10
+					  "length": 100
+					  "damage": 60
+					  "width": 10
+					  "flareColor": bf92f9
+					  "colors":[6d56bf,bf92f9,bf92f9,ffffff]
+					  hitEffect: "sapped"
+					  },
+				   }
+				   "name": "toxin-point",
+				   color: bf92f9
+				   "alternate": true,
+				   "rotate": true
+				   "reload": 90,
+				   "recoil": 3,
+				   "rotationLimit": 40,
+				   "inaccuracy": 0,
+				   "shootSound": "shootToxopidShotgun"
+					   "shootSoundVolume": 0.6
+					   "shootCone": 35,
+					   "shake": 0.2
+					   "x": 14
+					   "y": -8
+					   "shootY": 6
+					   "mirror": true
+					   "rotateSpeed": 3,
+					   shoot: {
+				type: ShootSpread
+				shots: 10
+				spread: 1
+				}
+					   "bullet": {
+				   "type": "ContinuousFlameBulletType",
+				   "shootEffect": "sapped"
+					   "lifetime": 10
+					   "length": 100
+					   "damage": 60
+					   "width": 10
+					   "flareColor": bf92f9
+					   "colors":[6d56bf,bf92f9,bf92f9,ffffff]
+					   hitEffect: "sapped"
+					   },
+					   }
 	]
 	"itemCapacity": 240,
 	"research": {
