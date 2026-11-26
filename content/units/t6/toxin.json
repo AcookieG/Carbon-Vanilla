@@ -36,8 +36,8 @@
 		{"item": "silicon","amount": 2300},
 		{"item": "plastanium","amount": 750},
 		{"item": "surge-alloy","amount": 800},
-		{"item": "phase-abric","amount": 500},
-		{"item": "lex-joint","amount": 900},
+		{"item": "phase-fabric","amount": 500},
+		{"item": "flex-joint","amount": 900},
 		{"item": "phase-decay","amount": 500},
 						]
 						}
