@@ -78,39 +78,39 @@
 	"shootY": 16
 	"mirror": false
 	"rotateSpeed": 1,
-	"shootEffect": {
-		"type": "multiEffect",
-		"effects": [
-				  {
-	   "type": "ParticleEffect",
-	   "particles": 9,
-	   "length": 20,
-	   "lifetime": 30,
-	   "line": true,
-	   "cone": 13,
-	   "sizeFrom": 5,
-	   "sizeTo": 1,
-	   "colorFrom": "6e7080",
-	   "colorTo": "ffcd66"
-		   },
-				  {
-	   "type": "ParticleEffect",
-	   "particles": 7,
-	   "length": 30,
-	   "lifetime": 20,
-	   "interp": "circleOut",
-	   "cone": 2,
-	   "sizeFrom": 5,
-	   "sizeTo": 1,
-	   "colorFrom": "4a4b53",
-	   "colorTo": "ffcd66"
-		   },
-				  ]
-				  }
 	"bullet": {
 		   "type": "ArtilleryBulletType",
+		   "shootEffect": {
+			   "type": "multiEffect",
+			   "effects": [
+					  {
+		"type": "ParticleEffect",
+		"particles": 9,
+		"length": 20,
+		"lifetime": 30,
+		"line": true,
+		"cone": 13,
+		"sizeFrom": 5,
+		"sizeTo": 1,
+		"colorFrom": "6e7080",
+		"colorTo": "ffcd66"
+			},
+					  {
+		"type": "ParticleEffect",
+		"particles": 7,
+		"length": 30,
+		"lifetime": 20,
+		"interp": "circleOut",
+		"cone": 20,
+		"sizeFrom": 5,
+		"sizeTo": 1,
+		"colorFrom": "4a4b53",
+		"colorTo": "ffcd66"
+			},
+					  ]
+					  }
 			hitEffect: none
-			despawnEffect: none
+			despawnEffect: impactReactorExplosion
 			sprite: shell
 			knockback: 2
 			drawsize: 230
@@ -131,11 +131,24 @@
 			shrinkX: 0.2,
 			shrinkY: 0.1,
 			buildingDamageMultiplier: 0.3,
+			fragRandomSpread: 15
+			fragSpread: 15
 			fragBullets: 6
 			"fragBullet": {
 				"type": "ArtilleryBulletType",
 				hitEffect: scatheSlash
-				despawnEffect: massiveExplosion
+				despawnEffect: {
+					"type": "ParticleEffect",
+					"particles": 7,
+					"length": 40,
+					"lifetime": 60,
+					"interp": "circleOut",
+					"cone": 360,
+					"sizeFrom": 24,
+					"sizeTo": 20,
+					"colorFrom": "4a4b53ff",
+					"colorTo": "ffcd6600"
+					},
 				sprite: shell
 				knockback: 2
 				drawsize: 50
