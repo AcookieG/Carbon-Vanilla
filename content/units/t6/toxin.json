@@ -41,7 +41,7 @@
 	"shootSound": "shootMissile"
 	"shootCone": 35,
 	"shake": 0.2
-	"x": 20
+	"x": 22
 	"y": 0
 	"shootY": 16
 	"mirror": true
@@ -51,7 +51,8 @@
 				  despawnSound: explosionArtilleryShockBig,
 				  hitEffect: sapExplosion,
 				  knockback: 1.8,
-				  lifetime: 120,
+				  lifetime: 80,
+				  speed: 4
 				  width: 25
 				  height: 25,
 				  collidesTiles: true
@@ -102,10 +103,10 @@
 	   "name": "toxin-point",
 	   "restitution": 0.008,
 	   "alternate": true,
-	   "rotate": false
+	   "rotate": true
 	   "reload": 12,
 	   "recoil": 0.5,
-	   "rotationLimit": 90,
+	   "rotationLimit": 180,
 	   "inaccuracy": 0,
 	   "shootSound": "shootMissile"
 		"shootCone": 35,
@@ -114,7 +115,7 @@
 		"y": 8
 		"shootY": 16
 		"mirror": true
-		"rotateSpeed": 2,
+		"rotateSpeed": 10,
 			   bullet: {
 			   type: BulletType
 			   hitEffect: pointHit
