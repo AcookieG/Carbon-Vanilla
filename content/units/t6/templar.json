@@ -136,19 +136,19 @@
 			fragBullets: 6
 			"fragBullet": {
 				"type": "ArtilleryBulletType",
-				hitEffect: scatheSlash
-				despawnEffect: {
-					"type": "ParticleEffect",
-					"particles": 7,
-					"length": 40,
-					"lifetime": 60,
-					"interp": "circleOut",
-					"cone": 360,
-					"sizeFrom": 24,
-					"sizeTo": 20,
-					"colorFrom": "4a4b53ff",
-					"colorTo": "ffcd6600"
-					},
+				hitEffect: {
+				"type": "ParticleEffect",
+				"particles": 7,
+				"length": 40,
+				"lifetime": 60,
+				"interp": "circleOut",
+				"cone": 360,
+				"sizeFrom": 24,
+				"sizeTo": 20,
+				"colorFrom": "ffdd55ff",
+				"colorTo": "db401c80"
+				},
+				despawnEffect: none
 				sprite: shell
 				knockback: 2
 				drawsize: 50
