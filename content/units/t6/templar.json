@@ -66,7 +66,7 @@
    "name": "templar-cannon",
    "alternate": false,
    "rotate": true
-   "reload": 210,
+   "reload": 180,
    "recoil": 5,
    "shake": 1,
    "rotationLimit": 75,
@@ -90,7 +90,7 @@
 			"shootEffect": "shootSmallFlame"
 				"lifetime": 30
 				"length": 200
-				"damage": 52
+				"damage": 48
 				"flareColor": ec7458aa
 				"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
 				hitEffect: hitFlameSmall
