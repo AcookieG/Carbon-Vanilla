@@ -108,8 +108,8 @@
 			fragBullets: 1
 			"fragBullet": {
 				"type": "ArtilleryBulletType",
-				hitEffect: scatheExplosion
-				despawnEffect: scatheSplash
+				hitEffect: scatheSlash
+				despawnEffect: scatheSlash
 				sprite: shell
 				knockback: 2
 				drawsize: 100
