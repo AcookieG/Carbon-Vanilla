@@ -93,8 +93,6 @@
 				"damage": 52
 				"flareColor": ec7458aa
 				"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
-				trailLength: 4.0,
-				trailWidth: 4.0,
 				hitEffect: hitFlameSmall
 				},
 	   }
