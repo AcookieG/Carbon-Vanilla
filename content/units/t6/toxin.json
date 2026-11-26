@@ -66,9 +66,6 @@
 				  lightningLength: 20,
 				  smokeEffect: shootBigSmoke2,
 				  hitShake: 10,
-				  lightRadius: 40,
-				  lightColor: sap,
-				  lightOpacity: 0.6,
 
 				  status: sapped,
 				  statusDuration: 600,
@@ -94,9 +91,6 @@
 					  lightningLength: 5,
 					  smokeEffect: shootBigSmoke2,
 					  hitShake: 5,
-					  lightRadius: 30,
-					  lightColor: sap,
-					  lightOpacity: 0.5,
 
 					  status: sapped,
 					  statusDuration: 600,
