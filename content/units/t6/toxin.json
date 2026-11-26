@@ -65,6 +65,7 @@
 				  lightningColor: bf92f9,
 				  lightning: 6,
 				  lightningLength: 20,
+				  lightningDamage: 90
 				  smokeEffect: shootBigSmoke2,
 				  hitShake: 10,
 
@@ -85,7 +86,7 @@
 					  height: 20,
 					  collidesTiles: false,
 					  splashDamageRadius: 90,
-					  splashDamage: 240,
+					  splashDamage: 200,
 					  backColor: 6d56bf,
 					  frontColor: bf92f9
 					  lightningColor: bf92f9,
@@ -93,7 +94,7 @@
 					  lightningLength: 12,
 					  smokeEffect: shootBigSmoke2,
 					  hitShake: 5,
-
+					lightningDamage: 75
 					  status: sapped,
 					  statusDuration: 600,
 					  }
@@ -109,12 +110,12 @@
 	   "rotate": true
 	   "reload": 1,
 	   "recoil": 0.3,
-	   "rotationLimit": 180,
+	   "rotationLimit": 361,
 	   "inaccuracy": 0,
 	   "shootSound": "shootMissile"
 		"shootCone": 35,
 		"shake": 0
-		"x": 5
+		"x": 7
 		"y": 8
 		"shootY": 5
 		"mirror": true
@@ -123,9 +124,36 @@
 			   type: BulletType
 			   hitEffect: pointHit
 			   maxRange: 120
-			   damage: 60
+			   damage: 90
 			   },
 		}
+			   {
+	   type: PointDefenseWeapon
+	   "name": "toxin-small-point",
+	   targetInterval: 1
+	   targetSwitchInterval: 1
+	   color: bf92f9
+	   "alternate": true,
+	   "rotate": true
+	   "reload": 1,
+	   "recoil": 0.3,
+	   "rotationLimit": 361,
+	   "inaccuracy": 0,
+	   "shootSound": "shootMissile"
+		   "shootCone": 35,
+		   "shake": 0
+		   "x": 4
+		   "y": 4
+		   "shootY": 5
+		   "mirror": true
+		   "rotateSpeed": 20,
+		   bullet: {
+			   type: BulletType
+			   hitEffect: pointHit
+			   maxRange: 120
+			   damage: 90
+			   },
+		   }
 			   {
 	   type: PointDefenseWeapon
 	   "name": "toxin-point",
@@ -136,7 +164,7 @@
 	   "rotate": true
 	   "reload": 3,
 	   "recoil": 0.5,
-	   "rotationLimit": 90,
+	   "rotationLimit": 361,
 	   "inaccuracy": 0,
 	   "shootSound": "shootMissile"
 		   "shootCone": 35,
@@ -161,9 +189,9 @@
 	  color: bf92f9
 	  "alternate": true,
 	  "rotate": true
-	  "reload": 4,
-	  "recoil": 0.5,
-	  "rotationLimit": 90,
+	  "reload": 8,
+	  "recoil": 0.8,
+	  "rotationLimit": 361,
 	  "inaccuracy": 0,
 	  "shootSound": "shootMissile"
 		  "shootCone": 35,
@@ -177,7 +205,7 @@
 			  type: BulletType
 			  hitEffect: pointHit
 			  maxRange: 180
-			  damage: 32
+			  damage: 80
 			  },
 		  }
 		  {
@@ -188,9 +216,9 @@
 	 color: bf92f9
 	 "alternate": true,
 	 "rotate": true
-	 "reload": 4,
-	 "recoil": 0.5,
-	 "rotationLimit": 90,
+	 "reload": 8,
+	 "recoil": 0.8,
+	 "rotationLimit": 361,
 	 "inaccuracy": 0,
 	 "shootSound": "shootMissile"
 		 "shootCone": 35,
@@ -204,7 +232,7 @@
 			 type: BulletType
 			 hitEffect: pointHit
 			 maxRange: 180
-			 damage: 32
+			 damage: 80
 			 },
 		 }
 	]
