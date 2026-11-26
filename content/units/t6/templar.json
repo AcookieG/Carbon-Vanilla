@@ -13,7 +13,7 @@
 	"mechSideSway": 0.6,
 	"stepSound": "mechStepHeavy",
 	"stepSoundPitch": 0.8,
-	"stepSoundVolume": 0.75,
+	"stepSoundVolume": 0.85,
 	"itemCapacity": 240,
 	"weapons": [
 	{
@@ -71,7 +71,9 @@
    "shake": 1,
    "rotationLimit": 75,
    "inaccuracy": 0,
-   "shootSound": "shootMissile"
+   "shootSound": "shootFuse"
+	   "shootSoundPitch": 0.8,
+	   "shootSoundVolume": 1,
 	"shootCone": 45,
 	"x": 0
 	"y": 0
@@ -80,14 +82,13 @@
 	"rotateSpeed": 1,
 	shoot: {
 		type: ShootSpread
-		shots: 50
-		spread: 1
-		delay: 1
+		shots: 30
+		spread: 2
 		}
 		"bullet": {
 			"type": "ContinuousFlameBulletType",
 			"shootEffect": "shootSmallFlame"
-				"lifetime": 10
+				"lifetime": 30
 				"length": 240
 				"damage": 52
 				"flareColor": ec7458aa
