@@ -48,8 +48,8 @@
 	"rotateSpeed": 2,
 			bullet: {
 				type: ArtilleryBulletType
-				  despawnSound: Sounds.explosionArtilleryShockBig,
-				  hitEffect: Fx.sapExplosion,
+				  despawnSound: explosionArtilleryShockBig,
+				  hitEffect: sapExplosion,
 				  knockback: 1.8,
 				  lifetime: 120,
 				  width: 25
