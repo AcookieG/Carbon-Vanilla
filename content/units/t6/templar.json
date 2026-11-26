@@ -64,6 +64,7 @@
 		splashDamageRadius: 24
 		homingPower: 0
 		layer: 110
+		"knockback": 1,
 		},
 	}
 	{
@@ -98,6 +99,7 @@
 				"flareColor": ec7458aa
 				"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
 				hitEffect: hitFlameSmall
+				"knockback": 1,
 				},
 	   }
 	]
