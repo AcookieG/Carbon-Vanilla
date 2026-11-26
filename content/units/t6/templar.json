@@ -139,12 +139,12 @@
 				hitEffect: {
 				"type": "ParticleEffect",
 				"particles": 7,
-				"length": 40,
+				"length": 60 ,
 				"lifetime": 60,
 				"interp": "circleOut",
 				"cone": 360,
-				"sizeFrom": 24,
-				"sizeTo": 20,
+				"sizeFrom": 16,
+				"sizeTo": 10,
 				"colorFrom": "ffdd55ff",
 				"colorTo": "db401c80"
 				},
