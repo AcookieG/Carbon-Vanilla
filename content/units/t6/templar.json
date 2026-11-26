@@ -91,7 +91,7 @@
 					  {
 		"type": "ParticleEffect",
 		"particles": 3,
-		"length": 60,
+		"length": 80,
 		"lifetime": 20,
 		"line": true,
 		"cone": 30,
@@ -103,7 +103,7 @@
 					  {
 		"type": "ParticleEffect",
 		"particles": 4,
-		"length": 60,
+		"length": 80,
 		"lifetime": 20,
 		"interp": "circleOut",
 		"cone": 30,
