@@ -86,8 +86,8 @@
 					  {
 		"type": "ParticleEffect",
 		"particles": 9,
-		"length": 32,
-		"lifetime": 30,
+		"length": 60,
+		"lifetime": 20,
 		"line": true,
 		"cone": 45,
 		"sizeFrom": 12,
@@ -97,9 +97,9 @@
 			},
 					  {
 		"type": "ParticleEffect",
-		"particles": 7,
-		"length": 32,
-		"lifetime": 40,
+		"particles": 12,
+		"length": 60,
+		"lifetime": 20,
 		"interp": "circleOut",
 		"cone": 45,
 		"sizeFrom": 12,
@@ -118,8 +118,7 @@
 			speed: 4
 			height: 19
 			width: 17
-			splashDamageRadius: 60,
-			splashDamage: 350,
+			damage: 1000
 			scaledSplashDamage: true
 			hitSound: explosionScathe
 
@@ -136,36 +135,25 @@
 			fragBullets: 6
 			"fragBullet": {
 				"type": "ArtilleryBulletType",
-				hitEffect: {
-				"type": "ParticleEffect",
-				"particles": 7,
-				"length": 60 ,
-				"lifetime": 60,
-				"interp": "circleOut",
-				"cone": 360,
-				"sizeFrom": 16,
-				"sizeTo": 10,
-				"colorFrom": "ffdd55ff",
-				"colorTo": "db401c80"
-				},
+				hitEffect: titanExplosion
 				despawnEffect: none
 				sprite: shell
 				knockback: 2
 				drawsize: 50
-				lifetime: 20
+				lifetime: 30
 				speed: 4
 				height: 19
 				width: 17
-				splashDamageRadius: 32,
-				splashDamage: 240,
+				damage: 250
+				splashDamageRadius: 40,
+				splashDamage: 320,
 				scaledSplashDamage: true
 				hitSound: explosionScathe
 
-				trailLength: 10
-				trailWidth: 1.35,
+				trailLength: 32
+				trailWidth: 3.35,
 				trailSinScl: 2.5,
 				trailSinMag: 0.5,
-				trailEffect: none
 				despawnShake: 7,
 				shrinkX: 0.4,
 				shrinkY: 0.2,
