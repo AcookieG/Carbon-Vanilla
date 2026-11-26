@@ -187,8 +187,7 @@
 				   "width": 10
 				   "flareColor": bf92f9
 				   "colors":[6d56bf,bf92f9,bf92f9,ffffff]
-				   hitEffect: hitFlameSmall
-				   "knockback": 6,
+				   hitEffect: "sapped"
 				   },
 		   }
 	]
