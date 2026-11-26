@@ -75,9 +75,38 @@
 	"shootCone": 15,
 	"x": 0
 	"y": 0
-	"shootY": 18
+	"shootY": 16
 	"mirror": false
 	"rotateSpeed": 1,
+	"shootEffect": {
+		"type": "multiEffect",
+		"effects": [
+				  {
+	   "type": "ParticleEffect",
+	   "particles": 9,
+	   "length": 20,
+	   "lifetime": 30,
+	   "line": true,
+	   "cone": 13,
+	   "sizeFrom": 5,
+	   "sizeTo": 1,
+	   "colorFrom": "6e7080",
+	   "colorTo": "ffcd66"
+		   },
+				  {
+	   "type": "ParticleEffect",
+	   "particles": 7,
+	   "length": 30,
+	   "lifetime": 20,
+	   "interp": "circleOut",
+	   "cone": 2,
+	   "sizeFrom": 5,
+	   "sizeTo": 1,
+	   "colorFrom": "4a4b53",
+	   "colorTo": "ffcd66"
+		   },
+				  ]
+				  }
 	"bullet": {
 		   "type": "ArtilleryBulletType",
 			hitEffect: none
@@ -99,10 +128,6 @@
 			trailSinScl: 2.5,
 			trailSinMag: 0.5,
 			despawnShake: 7,
-
-			shootEffect: shootTitan
-			smokeEffect: shootSmokeTitan
-
 			shrinkX: 0.2,
 			shrinkY: 0.1,
 			buildingDamageMultiplier: 0.3,
@@ -129,10 +154,6 @@
 				trailSinMag: 0.5,
 				trailEffect: none
 				despawnShake: 7,
-
-				shootEffect: none
-				smokeEffect: none
-
 				shrinkX: 0.4,
 				shrinkY: 0.2,
 
