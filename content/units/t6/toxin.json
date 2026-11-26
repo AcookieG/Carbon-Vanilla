@@ -156,86 +156,41 @@
 			   },
 		   }
 			   {
-	   type: PointDefenseWeapon
 	   "name": "toxin-point",
-	   targetInterval: 1
-	   targetSwitchInterval: 1
 	   color: bf92f9
 	   "alternate": true,
 	   "rotate": true
-	   "reload": 3,
-	   "recoil": 0.5,
-	   "rotationLimit": 361,
+	   "reload": 60,
+	   "recoil": 3,
+	   "rotationLimit": 40,
 	   "inaccuracy": 0,
-	   "shootSound": "shootMissile"
+	   "shootSound": "shootToxopidShotgun"
+		"shootSoundVolume": 0.6
 		   "shootCone": 35,
 		   "shake": 0.2
 		   "x": 5
 		   "y": -10
 		   "shootY": 6
 		   "mirror": true
-		   "rotateSpeed": 20,
-		   bullet: {
-			   type: BulletType
-			   hitEffect: pointHit
-			   maxRange: 180
-			   damage: 41
-			   },
+		   "rotateSpeed": 3,
+		   shoot: {
+			   type: ShootSpread
+			   shots: 10
+			   spread: 1
+			   }
+		   "bullet": {
+			   "type": "ContinuousFlameBulletType",
+			   "shootEffect": "sapped"
+				   "lifetime": 10
+				   "length": 100
+				   "damage": 60
+				   "width": 10
+				   "flareColor": bf92f9
+				   "colors":[6d56bf,bf92f9,bf92f9,ffffff]
+				   hitEffect: hitFlameSmall
+				   "knockback": 6,
+				   },
 		   }
-		   {
-	  type: PointDefenseWeapon
-	  "name": "toxin-point",
-	  targetInterval: 1
-	  targetSwitchInterval: 1
-	  color: bf92f9
-	  "alternate": true,
-	  "rotate": true
-	  "reload": 8,
-	  "recoil": 0.8,
-	  "rotationLimit": 361,
-	  "inaccuracy": 0,
-	  "shootSound": "shootMissile"
-		  "shootCone": 35,
-		  "shake": 0.2
-		  "x": 14
-		  "y": 4
-		  "shootY": 6
-		  "mirror": true
-		  "rotateSpeed": 20,
-		  bullet: {
-			  type: BulletType
-			  hitEffect: pointHit
-			  maxRange: 180
-			  damage: 80
-			  },
-		  }
-		  {
-	 type: PointDefenseWeapon
-	 "name": "toxin-point",
-	 targetInterval: 1
-	 targetSwitchInterval: 1
-	 color: bf92f9
-	 "alternate": true,
-	 "rotate": true
-	 "reload": 9,
-	 "recoil": 0.8,
-	 "rotationLimit": 361,
-	 "inaccuracy": 0,
-	 "shootSound": "shootMissile"
-		 "shootCone": 35,
-		 "shake": 0.2
-		 "x": 12
-		 "y": -6
-		 "shootY": 6
-		 "mirror": true
-		 "rotateSpeed": 20,
-		 bullet: {
-			 type: BulletType
-			 hitEffect: pointHit
-			 maxRange: 180
-			 damage: 80
-			 },
-		 }
 	]
 	"itemCapacity": 240,
 	"research": {
