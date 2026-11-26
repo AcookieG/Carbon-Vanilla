@@ -64,7 +64,7 @@
 				  frontColor: bf92f9
 				  lightningColor: bf92f9,
 				  lightning: 6,
-				  lightningLength: 25,
+				  lightningLength: 20,
 				  smokeEffect: shootBigSmoke2,
 				  hitShake: 10,
 
@@ -90,7 +90,7 @@
 					  frontColor: bf92f9
 					  lightningColor: bf92f9,
 					  lightning: 4,
-					  lightningLength: 18,
+					  lightningLength: 12,
 					  smokeEffect: shootBigSmoke2,
 					  hitShake: 5,
 
@@ -101,29 +101,29 @@
 	}
 	{
 	   type: PointDefenseWeapon
-	   "name": "toxin-point",
-	   targetInterval: 2
-	   targetSwitchInterval: 2
+	   "name": "toxin-small-point",
+	   targetInterval: 1
+	   targetSwitchInterval: 1
 	   color: bf92f9
 	   "alternate": true,
 	   "rotate": true
-	   "reload": 5,
-	   "recoil": 0.5,
+	   "reload": 1,
+	   "recoil": 0.3,
 	   "rotationLimit": 180,
 	   "inaccuracy": 0,
 	   "shootSound": "shootMissile"
 		"shootCone": 35,
-		"shake": 0.2
+		"shake": 0
 		"x": 5
 		"y": 8
-		"shootY": 6
+		"shootY": 5
 		"mirror": true
-		"rotateSpeed": 10,
+		"rotateSpeed": 20,
 			   bullet: {
 			   type: BulletType
 			   hitEffect: pointHit
-			   maxRange: 180
-			   damage: 41
+			   maxRange: 120
+			   damage: 60
 			   },
 		}
 			   {
@@ -134,7 +134,7 @@
 	   color: bf92f9
 	   "alternate": true,
 	   "rotate": true
-	   "reload": 5,
+	   "reload": 3,
 	   "recoil": 0.5,
 	   "rotationLimit": 90,
 	   "inaccuracy": 0,
@@ -142,10 +142,10 @@
 		   "shootCone": 35,
 		   "shake": 0.2
 		   "x": 5
-		   "y": -8
+		   "y": -10
 		   "shootY": 6
 		   "mirror": true
-		   "rotateSpeed": 10,
+		   "rotateSpeed": 20,
 		   bullet: {
 			   type: BulletType
 			   hitEffect: pointHit
@@ -161,7 +161,7 @@
 	  color: bf92f9
 	  "alternate": true,
 	  "rotate": true
-	  "reload": 5,
+	  "reload": 4,
 	  "recoil": 0.5,
 	  "rotationLimit": 90,
 	  "inaccuracy": 0,
@@ -172,12 +172,12 @@
 		  "y": 4
 		  "shootY": 6
 		  "mirror": true
-		  "rotateSpeed": 10,
+		  "rotateSpeed": 20,
 		  bullet: {
 			  type: BulletType
 			  hitEffect: pointHit
 			  maxRange: 180
-			  damage: 41
+			  damage: 32
 			  },
 		  }
 		  {
@@ -188,23 +188,23 @@
 	 color: bf92f9
 	 "alternate": true,
 	 "rotate": true
-	 "reload": 5,
+	 "reload": 4,
 	 "recoil": 0.5,
 	 "rotationLimit": 90,
 	 "inaccuracy": 0,
 	 "shootSound": "shootMissile"
 		 "shootCone": 35,
 		 "shake": 0.2
-		 "x": 13
-		 "y": -5
+		 "x": 12
+		 "y": -6
 		 "shootY": 6
 		 "mirror": true
-		 "rotateSpeed": 10,
+		 "rotateSpeed": 20,
 		 bullet: {
 			 type: BulletType
 			 hitEffect: pointHit
 			 maxRange: 180
-			 damage: 41
+			 damage: 32
 			 },
 		 }
 	]
