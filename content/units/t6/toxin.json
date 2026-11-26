@@ -59,11 +59,11 @@
 					collides: true,
 				  ammoMultiplier: 4,
 				  splashDamageRadius: 80,
-				  splashDamage: 75,
+				  splashDamage: 90,
 				  backColor: 6d56bf,
 				  frontColor: bf92f9
 				  lightningColor: bf92f9,
-				  lightning: 5,
+				  lightning: 6,
 				  lightningLength: 20,
 				  smokeEffect: shootBigSmoke2,
 				  hitShake: 10,
@@ -71,8 +71,8 @@
 				  status: sapped,
 				  statusDuration: 600,
 
-				  fragLifeMin: 0.3f,
-				  fragBullets: 9,
+				  fragLifeMin: 0.3,
+				  fragBullets: 10,
 
 				  fragBullet:{
 				  type: ArtilleryBulletType
@@ -80,16 +80,17 @@
 					  hitEffect: sapExplosion,
 					  knockback: 1.8,
 					  lifetime: 90,
+					  speed: 2
 					  width: 20
 					  height: 20,
 					  collidesTiles: false,
 					  splashDamageRadius: 90,
-					  splashDamage: 60,
+					  splashDamage: 120,
 					  backColor: 6d56bf,
 					  frontColor: bf92f9
 					  lightningColor: bf92f9,
-					  lightning: 3,
-					  lightningLength: 5,
+					  lightning: 4,
+					  lightningLength: 4,
 					  smokeEffect: shootBigSmoke2,
 					  hitShake: 5,
 
@@ -101,10 +102,11 @@
 	{
 	   type: PointDefenseWeapon
 	   "name": "toxin-point",
-	   "restitution": 0.008,
+	   targetInterval: 2
+	   targetSwitchInterval: 2
 	   "alternate": true,
 	   "rotate": true
-	   "reload": 12,
+	   "reload": 5,
 	   "recoil": 0.5,
 	   "rotationLimit": 180,
 	   "inaccuracy": 0,
@@ -119,17 +121,18 @@
 			   bullet: {
 			   type: BulletType
 			   hitEffect: pointHit
-			   maxRange: 120
-			   damage: 24
+			   maxRange: 180
+			   damage: 32
 			   },
 		}
 			   {
 	   type: PointDefenseWeapon
 	   "name": "toxin-point",
-	   "restitution": 0.008,
+	   targetInterval: 2
+	   targetSwitchInterval: 2
 	   "alternate": true,
-	   "rotate": false
-	   "reload": 12,
+	   "rotate": true
+	   "reload": 5,
 	   "recoil": 0.5,
 	   "rotationLimit": 90,
 	   "inaccuracy": 0,
@@ -140,21 +143,22 @@
 		   "y": -8
 		   "shootY": 16
 		   "mirror": true
-		   "rotateSpeed": 2,
+		   "rotateSpeed": 10,
 		   bullet: {
 			   type: BulletType
 			   hitEffect: pointHit
-			   maxRange: 120
-			   damage: 24
+			   maxRange: 180
+			   damage: 32
 			   },
 		   }
 		   {
 	  type: PointDefenseWeapon
 	  "name": "toxin-point",
-	  "restitution": 0.008,
+	  targetInterval: 2
+	  targetSwitchInterval: 2
 	  "alternate": true,
-	  "rotate": false
-	  "reload": 12,
+	  "rotate": true
+	  "reload": 5,
 	  "recoil": 0.5,
 	  "rotationLimit": 90,
 	  "inaccuracy": 0,
@@ -165,21 +169,22 @@
 		  "y": 4
 		  "shootY": 16
 		  "mirror": true
-		  "rotateSpeed": 2,
+		  "rotateSpeed": 10,
 		  bullet: {
 			  type: BulletType
 			  hitEffect: pointHit
-			  maxRange: 120
-			  damage: 24
+			  maxRange: 180
+			  damage: 32
 			  },
 		  }
 		  {
 	 type: PointDefenseWeapon
 	 "name": "toxin-point",
-	 "restitution": 0.008,
+	 targetInterval: 2
+	 targetSwitchInterval: 2
 	 "alternate": true,
-	 "rotate": false
-	 "reload": 12,
+	 "rotate": true
+	 "reload": 5,
 	 "recoil": 0.5,
 	 "rotationLimit": 90,
 	 "inaccuracy": 0,
@@ -190,12 +195,12 @@
 		 "y": -5
 		 "shootY": 16
 		 "mirror": true
-		 "rotateSpeed": 2,
+		 "rotateSpeed": 10,
 		 bullet: {
 			 type: BulletType
 			 hitEffect: pointHit
-			 maxRange: 120
-			 damage: 24
+			 maxRange: 180
+			 damage: 32
 			 },
 		 }
 	]
