@@ -83,6 +83,7 @@
 		shots: 5
 		spread: 7
 		}
+	velocityRnd: 0.7
 	"bullet": {
 		   "type": "ArtilleryBulletType",
 		   "shootEffect": {
@@ -114,7 +115,7 @@
 			},
 					  ]
 					  }
-			hitEffect: titanExplosion
+			hitEffect: titanSmoke
 			despawnEffect: none
 			sprite: shell
 			knockback: 2
@@ -125,7 +126,7 @@
 			width: 17
 			damage: 250
 			splashDamageRadius: 40,
-			splashDamage: 320,
+			splashDamage: 400,
 			scaledSplashDamage: true
 			hitSound: explosionScathe
 
