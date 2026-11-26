@@ -26,7 +26,7 @@
 	"rotationLimit": 15,
 	"inaccuracy": 8,
 	"shootSound": "shootMissile"
-	"shootCone": 20,
+	"shootCone": 35,
 	"shake": 0.2
 	"x": 25
 	"y": 0
