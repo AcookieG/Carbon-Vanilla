@@ -97,6 +97,7 @@
 					lightningDamage: 75
 					  status: sapped,
 					  statusDuration: 600,
+					  hitAir: true
 					  }
 	},
 	}
@@ -157,8 +158,8 @@
 			   {
 	   type: PointDefenseWeapon
 	   "name": "toxin-point",
-	   targetInterval: 2
-	   targetSwitchInterval: 2
+	   targetInterval: 1
+	   targetSwitchInterval: 1
 	   color: bf92f9
 	   "alternate": true,
 	   "rotate": true
@@ -184,8 +185,8 @@
 		   {
 	  type: PointDefenseWeapon
 	  "name": "toxin-point",
-	  targetInterval: 2
-	  targetSwitchInterval: 2
+	  targetInterval: 1
+	  targetSwitchInterval: 1
 	  color: bf92f9
 	  "alternate": true,
 	  "rotate": true
@@ -211,12 +212,12 @@
 		  {
 	 type: PointDefenseWeapon
 	 "name": "toxin-point",
-	 targetInterval: 2
-	 targetSwitchInterval: 2
+	 targetInterval: 1
+	 targetSwitchInterval: 1
 	 color: bf92f9
 	 "alternate": true,
 	 "rotate": true
-	 "reload": 8,
+	 "reload": 9,
 	 "recoil": 0.8,
 	 "rotationLimit": 361,
 	 "inaccuracy": 0,
