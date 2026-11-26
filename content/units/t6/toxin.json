@@ -192,7 +192,7 @@
 			   fromColor: bf92f9
 			   shootEffect: sparkShoot
 				smokeEffect: sparkShoot
-}
+}}
 	]
 	"itemCapacity": 240,
 	"research": {
