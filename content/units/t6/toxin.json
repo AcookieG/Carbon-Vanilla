@@ -1,0 +1,44 @@
+{
+	"type": "legs",
+	"name": "Toxin",
+	"health": 52500,
+	"armor": 32,
+	"rotateSpeed": 1.8,
+	"speed": 0.55,
+	"hitSize": 32,
+	"mechStepParticles": true,
+	"stepShake": 2,
+	"drownTimeMultiplier": 2.3,
+	"stepSound": "walkerStep",
+	"stepSoundPitch": 0.8,
+	"stepSoundVolume": 0.85,
+	legCount: 8,
+	legMoveSpace: 0.8,
+	legPairOffset: 4,
+	legLength: 75,
+	legExtension: -20,
+	legBaseOffset: 12,
+	stepShake: 1,
+	legLengthScl: 1.0,
+	rippleScale: 4,
+	legSpeed: 0.19,
+
+	legSplashDamage: 160,
+	legSplashRange: 80,
+
+	hovering: true,
+	shadowElevation: 0.95,
+
+	"itemCapacity": 240,
+	"research": {
+		"parent": "toxopid"
+			"requirements": [
+		{"item": "silicon","amount": 2300},
+		{"item": "plastanium","amount": 750},
+		{"item": "surge-alloy","amount": 800},
+		{"item": "phase-abric","amount": 500},
+		{"item": "lex-joint","amount": 900},
+		{"item": "phase-decay","amount": 500},
+						]
+						}
+}
