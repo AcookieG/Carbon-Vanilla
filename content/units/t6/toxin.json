@@ -190,6 +190,7 @@
 				   hitEffect: "sapped"
 				   },
 		   }
+		   {
 		   "name": "toxin-point",
 			   color: bf92f9
 			   "alternate": true,
@@ -224,6 +225,7 @@
 					  hitEffect: "sapped"
 					  },
 				   }
+	{
 				   "name": "toxin-point",
 				   color: bf92f9
 				   "alternate": true,
