@@ -44,8 +44,11 @@
 	"rotateSpeed": 2,
 		"bullet": {
 		"type": "MissileBulletType",
-		drawsize: 250
+		drawsize: 150
 		"shootEffect": "shootBig"
+		sprite: missile-large
+		width: 10
+		height: 14
 		"pierce": true,
 		"pierceCap": 2
 		weaveMag: 3
@@ -56,6 +59,7 @@
 		"hitGround": true
 		"hitAir": true
 		trailLength: 3.0,
+		trailWidth: 2
 		splashDamage: 52
 		splashDamageRadius: 24
 		homingPower: 0
