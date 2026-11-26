@@ -93,7 +93,7 @@
 			scaledSplashDamage: true
 			hitSound: explosionScathe
 
-			trailLength: 32;
+			trailLength: 32
 			trailWidth: 3.35,
 			trailSinScl: 2.5,
 			trailSinMag: 0.5,
@@ -121,7 +121,7 @@
 				scaledSplashDamage: true
 				hitSound: explosionScathe
 
-				trailLength: 10;
+				trailLength: 10
 				trailWidth: 1.35,
 				trailSinScl: 2.5,
 				trailSinMag: 0.5,
