@@ -124,7 +124,7 @@
 			   bullet: {
 			   type: BulletType
 			   hitEffect: pointHit
-			   maxRange: 120
+			   maxRange: 180
 			   damage: 90
 			   },
 		}
@@ -151,7 +151,7 @@
 		   bullet: {
 			   type: BulletType
 			   hitEffect: pointHit
-			   maxRange: 120
+			   maxRange: 180
 			   damage: 90
 			   },
 		   }
@@ -180,7 +180,7 @@
 			   }
 		   "bullet": {
 			   type: ShrapnelBulletType
-			   length: 100
+			   length: 120
 			   damage: 150
 			   width: 25
 			   serrationLenScl: 7
@@ -192,6 +192,7 @@
 			   fromColor: bf92f9
 			   shootEffect: sparkShoot
 				smokeEffect: sparkShoot
+			pierceArmor: true
 }}
 	]
 	"itemCapacity": 240,
