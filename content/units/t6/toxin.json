@@ -28,7 +28,182 @@
 
 	hovering: true,
 	shadowElevation: 0.95,
+	"weapons": [
+				 {
+	"name": "toxin-gun",
+	"restitution": 0.008,
+	"alternate": true,
+	"rotate": false
+	"reload": 60,
+	"recoil": 3,
+	"rotationLimit": 15,
+	"inaccuracy": 0,
+	"shootSound": "shootMissile"
+	"shootCone": 35,
+	"shake": 0.2
+	"x": 20
+	"y": 0
+	"shootY": 16
+	"mirror": true
+	"rotateSpeed": 2,
+			bullet: {
+				type: ArtilleryBulletType
+				  despawnSound: Sounds.explosionArtilleryShockBig,
+				  hitEffect: Fx.sapExplosion,
+				  knockback: 1.8,
+				  lifetime: 120,
+				  width: 25
+				  height: 25,
+				  collidesTiles: true
+					collides: true,
+				  ammoMultiplier: 4,
+				  splashDamageRadius: 80,
+				  splashDamage: 75,
+				  backColor: sapBulletBack,
+				  frontColor: sapBullet
+				  lightningColor: sapBullet,
+				  lightning: 5,
+				  lightningLength: 20,
+				  smokeEffect: shootBigSmoke2,
+				  hitShake: 10,
+				  lightRadius: 40,
+				  lightColor: sap,
+				  lightOpacity: 0.6,
 
+				  status: sapped,
+				  statusDuration: 600,
+
+				  fragLifeMin: 0.3f,
+				  fragBullets: 9,
+
+				  fragBullet:{
+				  type: ArtilleryBulletType
+					  despawnSound: explosionArtilleryShock,
+					  hitEffect: sapExplosion,
+					  knockback: 1.8,
+					  lifetime: 90,
+					  width: 20
+					  height: 20,
+					  collidesTiles: false,
+					  splashDamageRadius: 90,
+					  splashDamage: 60,
+					  backColor: sapBulletBack,
+					  frontColor: sapBullet
+					  lightningColor: sapBullet,
+					  lightning: 3,
+					  lightningLength: 5,
+					  smokeEffect: shootBigSmoke2,
+					  hitShake: 5,
+					  lightRadius: 30,
+					  lightColor: sap,
+					  lightOpacity: 0.5,
+
+					  status: sapped,
+					  statusDuration: 600,
+					  }
+	},
+	}
+	{
+	   type: PointDefenseWeapon
+	   "name": "toxin-point",
+	   "restitution": 0.008,
+	   "alternate": true,
+	   "rotate": false
+	   "reload": 12,
+	   "recoil": 0.5,
+	   "rotationLimit": 90,
+	   "inaccuracy": 0,
+	   "shootSound": "shootMissile"
+		"shootCone": 35,
+		"shake": 0.2
+		"x": 5
+		"y": 8
+		"shootY": 16
+		"mirror": true
+		"rotateSpeed": 2,
+			   bullet: {
+			   type: BulletType
+			   hitEffect: pointHit
+			   maxRange: 120
+			   damage: 24
+			   },
+		}
+			   {
+	   type: PointDefenseWeapon
+	   "name": "toxin-point",
+	   "restitution": 0.008,
+	   "alternate": true,
+	   "rotate": false
+	   "reload": 12,
+	   "recoil": 0.5,
+	   "rotationLimit": 90,
+	   "inaccuracy": 0,
+	   "shootSound": "shootMissile"
+		   "shootCone": 35,
+		   "shake": 0.2
+		   "x": 5
+		   "y": -8
+		   "shootY": 16
+		   "mirror": true
+		   "rotateSpeed": 2,
+		   bullet: {
+			   type: BulletType
+			   hitEffect: pointHit
+			   maxRange: 120
+			   damage: 24
+			   },
+		   }
+		   {
+	  type: PointDefenseWeapon
+	  "name": "toxin-point",
+	  "restitution": 0.008,
+	  "alternate": true,
+	  "rotate": false
+	  "reload": 12,
+	  "recoil": 0.5,
+	  "rotationLimit": 90,
+	  "inaccuracy": 0,
+	  "shootSound": "shootMissile"
+		  "shootCone": 35,
+		  "shake": 0.2
+		  "x": 14
+		  "y": 4
+		  "shootY": 16
+		  "mirror": true
+		  "rotateSpeed": 2,
+		  bullet: {
+			  type: BulletType
+			  hitEffect: pointHit
+			  maxRange: 120
+			  damage: 24
+			  },
+		  }
+		  {
+	 type: PointDefenseWeapon
+	 "name": "toxin-point",
+	 "restitution": 0.008,
+	 "alternate": true,
+	 "rotate": false
+	 "reload": 12,
+	 "recoil": 0.5,
+	 "rotationLimit": 90,
+	 "inaccuracy": 0,
+	 "shootSound": "shootMissile"
+		 "shootCone": 35,
+		 "shake": 0.2
+		 "x": 13
+		 "y": -5
+		 "shootY": 16
+		 "mirror": true
+		 "rotateSpeed": 2,
+		 bullet: {
+			 type: BulletType
+			 hitEffect: pointHit
+			 maxRange: 120
+			 damage: 24
+			 },
+		 }
+	]
 	"itemCapacity": 240,
 	"research": {
 		"parent": "toxopid"

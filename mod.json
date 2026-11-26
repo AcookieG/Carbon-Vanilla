@@ -3,7 +3,7 @@
   "subtitle": "Brings back [gold[]]v7 [orange[]]launchpad",
   "author": "[#5BCEFA[]]A[#A8BCD9[]]K[#F5A9B8[]]a[#FAD4DC[]]y[#FFFFFF[]]oC[[]]o[[]]o[[]]k[[]]ie",
   "description": '''
-	More Serpulo late game shenanigans, I present: Phasegone and Graphitegone.
+	More Serpulo late game shenanigans, Phasegone and Graphitegone.
 
 	New unit tree, items, gases, liquids, with an artstyle very close to vanilla.
 
@@ -12,8 +12,9 @@
 	AureusStratus/ExoGenesis 
 	Eschatologue/Heavy-Armaments-Industries
 	uujuju1/project-oblivion
-	twcash/Aquarion[[]]
-	thomas_has_things(discord) Thomas's Things 
+	twcash/Aquarion[[]][cyan[]]
+	thomas_has_things(discord) Thomas's Things
+	fake_inxie_ratzey[[]]
 
 	''',
   "version": 3.15,
