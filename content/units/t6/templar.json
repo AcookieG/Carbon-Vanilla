@@ -78,6 +78,11 @@
 	"shootY": 16
 	"mirror": false
 	"rotateSpeed": 1,
+	shoot: {
+		type: ShootSpread
+		shots: 5
+		spread: 7
+		}
 	"bullet": {
 		   "type": "ArtilleryBulletType",
 		   "shootEffect": {
@@ -85,11 +90,11 @@
 			   "effects": [
 					  {
 		"type": "ParticleEffect",
-		"particles": 9,
+		"particles": 3,
 		"length": 60,
 		"lifetime": 20,
 		"line": true,
-		"cone": 45,
+		"cone": 30,
 		"sizeFrom": 12,
 		"sizeTo": 2,
 		"colorFrom": "6e7080",
@@ -97,11 +102,11 @@
 			},
 					  {
 		"type": "ParticleEffect",
-		"particles": 12,
+		"particles": 4,
 		"length": 60,
 		"lifetime": 20,
 		"interp": "circleOut",
-		"cone": 45,
+		"cone": 30,
 		"sizeFrom": 12,
 		"sizeTo": 2,
 		"colorFrom": "4a4b53",
@@ -109,7 +114,7 @@
 			},
 					  ]
 					  }
-			hitEffect: none
+			hitEffect: titanExplosion
 			despawnEffect: none
 			sprite: shell
 			knockback: 2
@@ -118,7 +123,9 @@
 			speed: 4
 			height: 19
 			width: 17
-			damage: 1000
+			damage: 250
+			splashDamageRadius: 40,
+			splashDamage: 320,
 			scaledSplashDamage: true
 			hitSound: explosionScathe
 
@@ -126,38 +133,9 @@
 			trailWidth: 3.35,
 			trailSinScl: 2.5,
 			trailSinMag: 0.5,
-			despawnShake: 7,
+			despawnShake: 5,
 			shrinkX: 0.2,
 			shrinkY: 0.1,
-			buildingDamageMultiplier: 0.3,
-			fragRandomSpread: 15
-			fragSpread: 15
-			fragBullets: 6
-			"fragBullet": {
-				"type": "ArtilleryBulletType",
-				hitEffect: titanExplosion
-				despawnEffect: none
-				sprite: shell
-				knockback: 2
-				drawsize: 50
-				lifetime: 30
-				speed: 4
-				height: 19
-				width: 17
-				damage: 250
-				splashDamageRadius: 40,
-				splashDamage: 320,
-				scaledSplashDamage: true
-				hitSound: explosionScathe
-
-				trailLength: 32
-				trailWidth: 3.35,
-				trailSinScl: 2.5,
-				trailSinMag: 0.5,
-				despawnShake: 7,
-				shrinkX: 0.4,
-				shrinkY: 0.2,
-
 					},
 			   },
 	   }
