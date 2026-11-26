@@ -5,7 +5,7 @@
 	"armor": 65,
 	"rotateSpeed": 1.2,
 	"speed": 0.35,
-	"hitSize": 45,
+	"hitSize": 40,
 	"mechStepParticles": true,
 	"stepShake": 1,
 	"drownTimeMultiplier": 2.3,
@@ -24,10 +24,10 @@
 	"reload": 2,
 	"recoil": 1.2,
 	"rotationLimit": 15,
-	"inaccuracy": 10,
+	"inaccuracy": 8,
 	"shootSound": "shootMissile"
 	"shootCone": 20,
-	"shake": 0.4
+	"shake": 0.2
 	"x": 25
 	"y": 0
 	"shootY": 16
@@ -48,14 +48,14 @@
 		"shootEffect": "shootBig"
 		"pierce": true,
 		"pierceCap": 2
-		weaveMag: 4
+		weaveMag: 3
 		weaveScale: 4
 		"damage": 22,
 		"lifetime": 40
 		"speed": 7
 		"hitGround": true
 		"hitAir": true
-		trailLength: 4.0,
+		trailLength: 7.0,
 		splashDamage: 52
 		splashDamageRadius: 24
 		homingPower: 0
@@ -73,7 +73,7 @@
    "inaccuracy": 0,
    "shootSound": "explosionMissile"
 	"shootSoundPitch": 0.8,
-	"shootSoundVolume": 1,
+	"shootSoundVolume": 1.4,
 	"shootCone": 45,
 	"x": 0
 	"y": 0
