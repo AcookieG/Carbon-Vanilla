@@ -1,7 +1,7 @@
 {
 	"type": "legs",
 	"name": "Toxin",
-	"health": 52500,
+	"health": 42500,
 	"armor": 32,
 	"rotateSpeed": 1.8,
 	"speed": 0.55,
@@ -109,7 +109,7 @@
 	   color: bf92f9
 	   "alternate": true,
 	   "rotate": true
-	   "reload": 2,
+	   "reload": 4,
 	   "recoil": 0.3,
 	   "rotationLimit": 361,
 	   "inaccuracy": 0,
@@ -125,7 +125,7 @@
 			   type: BulletType
 			   hitEffect: pointHit
 			   maxRange: 180
-			   damage: 90
+			   damage: 41
 			   },
 		}
 			   {
@@ -136,7 +136,7 @@
 	   color: bf92f9
 	   "alternate": true,
 	   "rotate": true
-	   "reload": 3,
+	   "reload": 5,
 	   "recoil": 0.3,
 	   "rotationLimit": 361,
 	   "inaccuracy": 0,
@@ -152,7 +152,7 @@
 			   type: BulletType
 			   hitEffect: pointHit
 			   maxRange: 180
-			   damage: 90
+			   damage: 60
 			   },
 		   }
 			   {

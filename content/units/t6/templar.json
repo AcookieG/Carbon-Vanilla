@@ -99,7 +99,7 @@
 				"flareColor": ec7458aa
 				"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
 				hitEffect: hitFlameSmall
-				"knockback": 6,
+				"knockback": 5,
 				},
 	   }
 	]
