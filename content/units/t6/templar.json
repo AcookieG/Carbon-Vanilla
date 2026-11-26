@@ -80,7 +80,7 @@
 	"rotateSpeed": 1,
 	"bullet": {
 		   "type": "ArtilleryBulletType",
-			hitEffect: scatheExplosion
+			hitEffect: none
 			despawnEffect: none
 			sprite: shell
 			knockback: 2
@@ -110,12 +110,12 @@
 			"fragBullet": {
 				"type": "ArtilleryBulletType",
 				hitEffect: scatheSlash
-				despawnEffect: scatheSlash
+				despawnEffect: explosionBig
 				sprite: shell
 				knockback: 2
 				drawsize: 50
 				lifetime: 20
-				speed: 6
+				speed: 4
 				height: 19
 				width: 17
 				splashDamageRadius: 32,
