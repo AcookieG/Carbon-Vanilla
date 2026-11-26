@@ -86,31 +86,31 @@
 					  {
 		"type": "ParticleEffect",
 		"particles": 9,
-		"length": 20,
+		"length": 32,
 		"lifetime": 30,
 		"line": true,
-		"cone": 13,
-		"sizeFrom": 5,
-		"sizeTo": 1,
+		"cone": 45,
+		"sizeFrom": 12,
+		"sizeTo": 2,
 		"colorFrom": "6e7080",
 		"colorTo": "ffcd66"
 			},
 					  {
 		"type": "ParticleEffect",
 		"particles": 7,
-		"length": 30,
-		"lifetime": 20,
+		"length": 32,
+		"lifetime": 40,
 		"interp": "circleOut",
-		"cone": 20,
-		"sizeFrom": 5,
-		"sizeTo": 1,
+		"cone": 45,
+		"sizeFrom": 12,
+		"sizeTo": 2,
 		"colorFrom": "4a4b53",
 		"colorTo": "ffcd66"
 			},
 					  ]
 					  }
 			hitEffect: none
-			despawnEffect: impactReactorExplosion
+			despawnEffect: none
 			sprite: shell
 			knockback: 2
 			drawsize: 230
