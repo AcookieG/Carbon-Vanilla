@@ -44,10 +44,12 @@
 	"rotateSpeed": 2,
 		"bullet": {
 		"type": "MissileBulletType",
-		drawsize: 200
+		drawsize: 250
 		"shootEffect": "shootBig"
 		"pierce": true,
 		"pierceCap": 2
+		weaveMag: 3
+		weaveScale: 4
 		"damage": 22,
 		"lifetime": 40
 		"speed": 7
