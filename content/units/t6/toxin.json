@@ -156,13 +156,13 @@
 			   },
 		   }
 			   {
-	   "name": "toxin-point",
+	   "name": "large-purple-mount",
 	   color: bf92f9
 	   "alternate": true,
 	   "rotate": true
 	   "reload": 60,
 	   "recoil": 3,
-	   "rotationLimit": 40,
+	   "rotationLimit": 361,
 	   "inaccuracy": 0,
 	   "shootSound": "shootToxopidShotgun"
 		"shootSoundVolume": 0.9
@@ -170,20 +170,20 @@
 		   "shake": 2
 		   "x": 14
 		   "y": -8
-		   "shootY": 6
+		   "shootY": 10
 		   "mirror": true
 		   "rotateSpeed": 3,
 		   shoot: {
 			   type: ShootSpread
-			   shots: 4
-			   spread: 15
+			   shots: 3
+			   spread: 17
 			   }
 		   "bullet": {
 			   type: ShrapnelBulletType
 			   length: 100
 			   damage: 150
 			   width: 25
-			   serrationLenScl: 8
+			   serrationLenScl: 7
 			   serrationSpaceOffset: 60
 			   serrationFadeOffset: 0
 			   serrations: 12
