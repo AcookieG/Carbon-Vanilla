@@ -71,9 +71,9 @@
    "shake": 1,
    "rotationLimit": 75,
    "inaccuracy": 0,
-   "shootSound": "shootFuse"
-	   "shootSoundPitch": 0.8,
-	   "shootSoundVolume": 1,
+   "shootSound": "explosionMissile"
+	"shootSoundPitch": 0.8,
+	"shootSoundVolume": 1,
 	"shootCone": 45,
 	"x": 0
 	"y": 0
@@ -89,7 +89,7 @@
 			"type": "ContinuousFlameBulletType",
 			"shootEffect": "shootSmallFlame"
 				"lifetime": 30
-				"length": 240
+				"length": 200
 				"damage": 52
 				"flareColor": ec7458aa
 				"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
