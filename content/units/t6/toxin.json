@@ -94,7 +94,7 @@
 					  lightningLength: 12,
 					  smokeEffect: shootBigSmoke2,
 					  hitShake: 5,
-					lightningDamage: 90
+					lightningDamage: 75
 					  status: sapped,
 					  statusDuration: 600,
 					  hitAir: true
