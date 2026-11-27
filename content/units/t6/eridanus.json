@@ -160,9 +160,9 @@
 					  width: 8
 					  height: 12
 					  "damage": 45,
-					  "lifetime": 80
+					  "lifetime": 100
 					  "speed": 2
-					  "drag": -0.03
+					  "drag": -0.02
 					  "hitGround": true
 					  "hitAir": true
 					  trailLength: 4.0,
@@ -258,9 +258,9 @@
 					width: 8
 					height: 12
 					"damage": 45,
-					"lifetime": 80
+					"lifetime": 100
 					"speed": 2
-					"drag": -0.03
+					"drag": -0.02
 					"hitGround": true
 					"hitAir": true
 					trailLength: 4.0,
