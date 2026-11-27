@@ -153,7 +153,7 @@
 					  homingRange: 0
 					  "fragBullet": {
 					  "type": "MissileBulletType",
-					  drawsize: 80
+					  drawsize: 50
 					  "shootEffect": "none"
 					  BackColor: 98ffa9
 					  sprite: missile-large
@@ -178,7 +178,7 @@
 					  lightning: 2,
 					  lightningLength: 5,
 					  lightningLengthRand: 2
-					  lightningDamage: 40
+					  lightningDamage: 80
 					  }}}}
 {
 	"name": "eridanus-flak",
@@ -251,7 +251,7 @@
 					homingRange: 0
 					"fragBullet": {
 					"type": "MissileBulletType",
-					drawsize: 80
+					drawsize: 50
 					"shootEffect": "none"
 					BackColor: 98ffa9
 					sprite: missile-large
@@ -276,7 +276,7 @@
 					lightning: 2,
 					lightningLength: 5,
 					lightningLengthRand: 2
-					lightningDamage: 40
+					lightningDamage: 80
 					}}}}
 	]
 	"itemCapacity": 240,
