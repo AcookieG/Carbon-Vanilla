@@ -97,7 +97,7 @@
 		  "shake": 1
 		  "x": 12
 		  "y": -16
-		  "shootY": -5
+		  "shootY": 0
 		  "mirror": true
 		  "rotateSpeed": 3,
 		  shoot: {
@@ -174,7 +174,7 @@
 					  trailLength: 4.0,
 					  trailWidth: 3
 					  trailColor: 98ffa9
-					  homingPower: 0.04
+					  homingPower: 0.1
 					  homingRange: 24
 					  layer: 110
 					  angleOffset: 180
@@ -201,7 +201,7 @@
 		"shake": 1
 		"x": 22
 		"y": -6
-		"shootY": -5
+		"shootY": 0
 		"mirror": true
 		"rotateSpeed": 3,
 		shoot: {
@@ -278,7 +278,7 @@
 					trailLength: 4.0,
 					trailWidth: 3
 					trailColor: 98ffa9
-					homingPower: 0.04
+					homingPower: 0.1
 					homingRange: 24
 					layer: 110
 					angleOffset: 180
