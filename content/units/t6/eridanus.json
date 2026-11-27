@@ -113,7 +113,7 @@
 		"bullet": {
 			type: ShrapnelBulletType
 			length: 60
-			damage: 30
+			damage: 320
 			width: 12
 			serrationLenScl: 4
 			serrationSpaceOffset: 30
@@ -134,7 +134,7 @@
 					sprite: missile-large
 					width: 8
 					height: 12
-					"damage": 22,
+					"damage": 120,
 					"lifetime": 20
 					"speed": 4
 					"drag": -0.1
@@ -162,7 +162,7 @@
 						"damage": 22,
 						"lifetime": 100
 						"speed": 2
-						"drag": -0.05
+						"drag": -0.04
 						"hitGround": true
 						"hitAir": true
 						trailLength: 4.0,
@@ -209,7 +209,7 @@
 			  "bullet": {
 				  type: ShrapnelBulletType
 				  length: 60
-				  damage: 30
+				  damage: 320
 				  width: 12
 				  serrationLenScl: 4
 				  serrationSpaceOffset: 30
@@ -230,7 +230,7 @@
 					  sprite: missile-large
 					  width: 8
 					  height: 12
-					  "damage": 22,
+					  "damage": 120,
 					  "lifetime": 20
 					  "speed": 4
 					  "drag": -0.1
@@ -258,7 +258,7 @@
 					  "damage": 22,
 					  "lifetime": 100
 					  "speed": 2
-					  "drag": -0.05
+					  "drag": -0.04
 					  "hitGround": true
 					  "hitAir": true
 					  trailLength: 4.0,
