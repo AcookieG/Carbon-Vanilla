@@ -149,7 +149,7 @@
 					homingRange: 400
 					layer: 110
 					"pierceArmor": true
-					fragRandomSpread: 15
+					fragRandomSpread: 25
 					fragBullets: 2
 					"fragBullet": {
 						"type": "MissileBulletType",
@@ -160,9 +160,9 @@
 						width: 8
 						height: 12
 						"damage": 22,
-						"lifetime": 100
+						"lifetime": 80
 						"speed": 2
-						"drag": -0.04
+						"drag": -0.03
 						"hitGround": true
 						"hitAir": true
 						trailLength: 4.0,
@@ -245,7 +245,7 @@
 					  homingRange: 400
 					  layer: 110
 					  "pierceArmor": true
-					  fragRandomSpread: 15
+					  fragRandomSpread: 25
 					  fragBullets: 2
 					  "fragBullet": {
 					  "type": "MissileBulletType",
@@ -256,9 +256,9 @@
 					  width: 8
 					  height: 12
 					  "damage": 22,
-					  "lifetime": 100
+					  "lifetime": 80
 					  "speed": 2
-					  "drag": -0.04
+					  "drag": -0.03
 					  "hitGround": true
 					  "hitAir": true
 					  trailLength: 4.0,
