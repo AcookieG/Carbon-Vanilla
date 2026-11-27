@@ -262,8 +262,8 @@
 					  trailLength: 4.0,
 					  trailWidth: 2.5
 					  trailColor: 98ffa9
-					  homingPower: 0.03
-					  homingRange: 400
+					  homingPower: 0.04
+					  homingRange: 24
 					  layer: 110
 					  angleOffset: 180
 					  "pierceArmor": true
@@ -358,8 +358,8 @@
 					trailLength: 4.0,
 					trailWidth: 2.5
 					trailColor: 98ffa9
-					homingPower: 0.03
-					homingRange: 400
+					homingPower: 0.04
+					homingRange: 24
 					layer: 110
 					angleOffset: 180
 					"pierceArmor": true
