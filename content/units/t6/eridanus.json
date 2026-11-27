@@ -152,17 +152,17 @@
 					  homingPower: 0
 					  homingRange: 0
 					  "fragBullet": {
-					  "type": "MissileBulletType",
-					  drawsize: 50
+					  "type": "ArtilleryBulletType",
+					  drawsize: 80
 					  "shootEffect": "none"
 					  BackColor: 98ffa9
 					  sprite: missile-large
 					  width: 8
-					  height: 12
+					  height: 8
 					  "damage": 45,
 					  "lifetime": 100
-					  "speed": 3
-					  "drag": -0.02
+					  "speed": 6
+					  "drag": 0.01
 					  "hitGround": true
 					  "hitAir": true
 					  trailLength: 4.0,
@@ -250,17 +250,17 @@
 					homingPower: 0
 					homingRange: 0
 					"fragBullet": {
-					"type": "MissileBulletType",
-					drawsize: 50
+					"type": "ArtilleryBulletType",
+					drawsize: 80
 					"shootEffect": "none"
 					BackColor: 98ffa9
 					sprite: missile-large
 					width: 8
-					height: 12
+					height: 80
 					"damage": 45,
 					"lifetime": 100
-					"speed": 3
-					"drag": -0.02
+					"speed": 6
+					"drag": 0.01
 					"hitGround": true
 					"hitAir": true
 					trailLength: 4.0,
