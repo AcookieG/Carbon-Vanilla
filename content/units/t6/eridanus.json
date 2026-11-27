@@ -20,7 +20,7 @@
 	legForwardScl: 0.6,
 	rippleScale: 2,
 
-	legSplashDamage: 700,
+	legSplashDamage: 70,
 	legSplashRange: 40,
 
 	hovering: true,
@@ -55,11 +55,11 @@
 				"lightColor": 98ffa9
 				"flareColor": 98ffa9
 				"colors":[98ffa9,98ffa9,ffffff]
-				lightningSpacing: 40
+				lightningSpacing: 30
 				lightningColor: 98ffa9,
 				lightning: 12,
-				lightningLength: 5,
-				lightningLengthRand: 15
+				lightningLength: 7,
+				lightningLengthRand: 7
 				lightningDamage: 60
 				lightningAngleRand: 40
 				hitEffect: none
@@ -155,7 +155,7 @@ shoot: {
 		splashDamageRadius: 80,
 		splashDamage: 110,
 		scaledSplashDamage: true
-		"lifetime": 120
+		"lifetime": 80
 		"speed": 9
 		"drag": 0.005
 		"hitGround": true
@@ -242,7 +242,7 @@ shoot: {
 		splashDamageRadius: 80,
 		splashDamage: 110,
 		scaledSplashDamage: true
-		"lifetime": 120
+		"lifetime": 80
 		"speed": 9
 		"drag": 0.005
 		"hitGround": true
