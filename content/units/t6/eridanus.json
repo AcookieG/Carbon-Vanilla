@@ -142,10 +142,11 @@ shoot: {
 "rotateSpeed": 3,
 "bullet": {
 	"type": "ArtilleryBulletType",
-		velocityScaleRandMin: 0.7
+		velocityScaleRandMin: 0.85
+		velocityScaleRandMax: 1.15
 		drawsize: 80
 		"shootEffect": "shootBig"
-			smokeEffect: none
+		smokeEffect: none
 		BackColor: 98ffa9
 		sprite: missile-large
 		width: 10
@@ -228,7 +229,8 @@ shoot: {
 	"rotateSpeed": 3,
 	"bullet": {
 		"type": "ArtilleryBulletType",
-		velocityScaleRandMin: 0.7
+		velocityScaleRandMin: 0.85
+		velocityScaleRandMax: 1.15
 		drawsize: 80
 		"shootEffect": "shootBig"
 		smokeEffect: none
