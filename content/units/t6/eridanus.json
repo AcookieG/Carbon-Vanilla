@@ -126,6 +126,8 @@
 				  smokeEffect: sparkShoot
 				  fragRandomSpread: 10
 				  fragBullets: 1
+				  fragVelocityMin: 0.7
+				  fragLifeMin: 0.7
 				  "fragBullet": {
 					  "type": "MissileBulletType",
 					  drawsize: 90
@@ -175,7 +177,7 @@
 					  layer: 110
 					  angleOffset: 180
 					  "pierceArmor": true
-					  hitEffect: hitEmpSpark
+					  hitEffect: greenBomb
 					  lightningColor: 98ffa9,
 					  lightning: 2,
 					  lightningLength: 5,
@@ -226,6 +228,8 @@
 				smokeEffect: sparkShoot
 				fragRandomSpread: 10
 				fragBullets: 1
+				fragVelocityMin: 0.7
+				fragLifeMin: 0.7
 				"fragBullet": {
 					"type": "MissileBulletType",
 					drawsize: 90
