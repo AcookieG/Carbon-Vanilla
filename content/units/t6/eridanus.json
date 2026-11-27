@@ -135,9 +135,9 @@
 					  width: 8
 					  height: 12
 					  "damage": 120,
-					  "lifetime": 20
+					  "lifetime": 15
 					  "speed": 3
-					  "drag": -0.1
+					  "drag": -0.11
 					  "hitGround": true
 					  "hitAir": true
 					  trailLength: 4.0,
@@ -159,16 +159,16 @@
 					  "shootEffect": "none"
 					  BackColor: 98ffa9
 					  sprite: missile-large
-					  width: 8
+					  width: 10
 					  height: 18
 					  "damage": 45,
 					  "lifetime": 120
-					  "speed": 8
+					  "speed": 9
 					  "drag": 0.007
 					  "hitGround": true
 					  "hitAir": true
 					  trailLength: 4.0,
-					  trailWidth: 2.5
+					  trailWidth: 3
 					  trailColor: 98ffa9
 					  homingPower: 0.04
 					  homingRange: 24
@@ -235,9 +235,9 @@
 					width: 8
 					height: 12
 					"damage": 120,
-					"lifetime": 20
+					"lifetime": 15
 					"speed": 3
-					"drag": -0.1
+					"drag": -0.11
 					"hitGround": true
 					"hitAir": true
 					trailLength: 4.0,
@@ -259,16 +259,16 @@
 					"shootEffect": "none"
 					BackColor: 98ffa9
 					sprite: missile-large
-					width: 8
+					width: 10
 					height: 18
 					"damage": 45,
 					"lifetime": 120
-					"speed": 8
+					"speed": 9
 					"drag": 0.007
 					"hitGround": true
 					"hitAir": true
 					trailLength: 4.0,
-					trailWidth: 2.5
+					trailWidth: 3
 					trailColor: 98ffa9
 					homingPower: 0.04
 					homingRange: 24
