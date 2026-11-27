@@ -50,7 +50,7 @@
 				"lifetime": 100
 				"length": 490
 				"width": 75,
-				"damage": 2000
+				"damage": 2700
 				"pierceArmor": true
 				"lightColor": 98ffa9
 				"flareColor": 98ffa9
@@ -112,7 +112,7 @@
 			  "bullet": {
 				  type: ShrapnelBulletType
 				  length: 80
-				  damage: 320
+				  damage: 520
 				  width: 18
 				  serrationLenScl: 4
 				  serrationSpaceOffset: 30
@@ -127,6 +127,7 @@
 				  fragBullets: 1
 				  fragVelocityMin: 0.7
 				  fragLifeMin: 0.7
+				  "pierceArmor": true
 				  "fragBullet": {
 					  angleOffset: 180
 					  "type": "MissileBulletType",
@@ -154,7 +155,7 @@
 					  homingPower: 0
 					  homingRange: 0
 					  fragVelocityMin: 0.7
-					  fragLifeMin: 0.7
+					  fragLifeMin: 0.5
 					  "fragBullet": {
 					  "type": "ArtilleryBulletType",
 					  drawsize: 80
@@ -167,7 +168,7 @@
 					  splashDamageRadius: 80,
 					  splashDamage: 110,
 					  "lifetime": 120
-					  "speed": 9
+					  "speed": 10
 					  "drag": 0.007
 					  "hitGround": true
 					  "collideAir": true
@@ -212,7 +213,7 @@
 			"bullet": {
 				type: ShrapnelBulletType
 				length: 80
-				damage: 320
+				damage: 520
 				width: 18
 				serrationLenScl: 4
 				serrationSpaceOffset: 30
@@ -227,6 +228,7 @@
 				fragBullets: 1
 				fragVelocityMin: 0.7
 				fragLifeMin: 0.7
+				"pierceArmor": true
 				"fragBullet": {
 					angleOffset: 180
 					"type": "MissileBulletType",
@@ -254,7 +256,7 @@
 					homingPower: 0
 					homingRange: 0
 					fragVelocityMin: 0.7
-					fragLifeMin: 0.7
+					fragLifeMin: 0.5
 					"fragBullet": {
 					"type": "ArtilleryBulletType",
 					drawsize: 80
@@ -267,7 +269,7 @@
 					splashDamageRadius: 80,
 					splashDamage: 110,
 					"lifetime": 120
-					"speed": 9
+					"speed": 10
 					"drag": 0.007
 					"hitGround": true
 					"collideAir": true
