@@ -125,7 +125,7 @@
 			shootEffect: sparkShoot
 			smokeEffect: sparkShoot
 			fragRandomSpread: 5
-			fragBullets: 2
+			fragBullets: 1
 			"fragBullet": {
 				"type": "MissileBulletType",
 				drawsize: 90
@@ -150,7 +150,7 @@
 					layer: 110
 					"pierceArmor": true
 					fragRandomSpread: 25
-					fragBullets: 2
+					fragBullets: 5
 					"fragBullet": {
 						"type": "MissileBulletType",
 						drawsize: 80
@@ -175,6 +175,7 @@
 						layer: 110
 						angleOffset: 180
 						"pierceArmor": true
+						hitEffect: hitEmpSpark
 					}
 				}
 			}}
@@ -221,7 +222,7 @@
 				  shootEffect: sparkShoot
 				  smokeEffect: sparkShoot
 				  fragRandomSpread: 5
-				  fragBullets: 2
+				  fragBullets: 1
 				  "fragBullet": {
 					  "type": "MissileBulletType",
 					  drawsize: 90
@@ -246,7 +247,7 @@
 					  layer: 110
 					  "pierceArmor": true
 					  fragRandomSpread: 25
-					  fragBullets: 2
+					  fragBullets: 4
 					  "fragBullet": {
 					  "type": "MissileBulletType",
 					  drawsize: 80
@@ -271,6 +272,7 @@
 					  layer: 110
 					  angleOffset: 180
 					  "pierceArmor": true
+					  hitEffect: hitEmpSpark
 					  }
 					  }
 					  }}
