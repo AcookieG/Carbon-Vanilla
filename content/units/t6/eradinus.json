@@ -33,7 +33,7 @@
 		"reload": 320,
 		cooldownTime: 320
 		"recoil": 0,
-		"rotationLimit": 15,
+		"rotationLimit": 0,
 		"inaccuracy": 0,
 		"shootSound": "shootCorvus"
 		"chargeSound": "chargeCorvus"
@@ -71,6 +71,7 @@
 	color: 98ffa9
 	"alternate": true,
 	"rotate": false
+	"rotationLimit": 0,
 	"reload": 12,
 	"recoil": 0,
 	"inaccuracy": 0,
