@@ -111,9 +111,9 @@
 			  },
 			  "bullet": {
 				  type: ShrapnelBulletType
-				  length: 60
+				  length: 80
 				  damage: 320
-				  width: 12
+				  width: 18
 				  serrationLenScl: 4
 				  serrationSpaceOffset: 30
 				  serrationFadeOffset: 0
@@ -163,7 +163,7 @@
 					  sprite: missile-large
 					  width: 10
 					  height: 18
-					  "damage": 0,
+					  "damage": 110,
 					  splashDamageRadius: 80,
 					  splashDamage: 110,
 					  "lifetime": 120
@@ -211,9 +211,9 @@
 			},
 			"bullet": {
 				type: ShrapnelBulletType
-				length: 60
+				length: 80
 				damage: 320
-				width: 12
+				width: 18
 				serrationLenScl: 4
 				serrationSpaceOffset: 30
 				serrationFadeOffset: 0
@@ -263,7 +263,7 @@
 					sprite: missile-large
 					width: 10
 					height: 18
-					"damage": 0,
+					"damage": 110,
 					splashDamageRadius: 80,
 					splashDamage: 110,
 					"lifetime": 120
