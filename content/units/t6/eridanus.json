@@ -151,6 +151,8 @@
 					  fragBullets: 5
 					  homingPower: 0
 					  homingRange: 0
+					  fragVelocityMin: 0.7
+					  fragLifeMin: 0.7
 					  "fragBullet": {
 					  "type": "ArtilleryBulletType",
 					  drawsize: 80
@@ -249,6 +251,8 @@
 					fragBullets: 5
 					homingPower: 0
 					homingRange: 0
+					fragVelocityMin: 0.7
+					fragLifeMin: 0.7
 					"fragBullet": {
 					"type": "ArtilleryBulletType",
 					drawsize: 80
