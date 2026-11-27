@@ -97,7 +97,7 @@
 	"shake": 1
 	"x": 12
 	"y": -16
-	"shootY": 0
+	"shootY": 5
 	"mirror": true
 	"rotateSpeed": 3,
 	"bullet": {
@@ -125,18 +125,18 @@ color: 98ffa9
 "rotationLimit": 361,
 "reload": 12,
 "recoil": 5,
-"inaccuracy": 10,
+"inaccuracy": 15,
 "shootSound": "shootToxopidShotgun"
 "shootSoundVolume": 0.8
 "shootCone": 60,
 "shake": 1
 "x": 12
 "y": -16
-"shootY": -80
+"shootY": 0
 shoot: {
 	type: ShootSpread
 	shots: 4
-	spread: 15
+	spread: 10
 	}
 "mirror": true
 "rotateSpeed": 3,
@@ -184,7 +184,7 @@ shoot: {
 		"shake": 1
 		"x": 22
 		"y": -6
-		"shootY": 0
+		"shootY": 5
 		"mirror": true
 		"rotateSpeed": 3,
 		"bullet": {
@@ -212,18 +212,18 @@ shoot: {
 	"rotationLimit": 361,
 	"reload": 12,
 	"recoil": 5,
-	"inaccuracy": 10,
+	"inaccuracy": 15,
 	"shootSound": "shootToxopidShotgun"
 	"shootSoundVolume": 0.8
 	"shootCone": 60,
 	"shake": 1
 	"x": 22
 	"y": -6
-	"shootY": -80
+	"shootY": 0
 	shoot: {
 		type: ShootSpread
 		shots: 4
-		spread: 15
+		spread: 10
 		}
 	"mirror": true
 	"rotateSpeed": 3,
