@@ -136,7 +136,7 @@
 					height: 12
 					"damage": 120,
 					"lifetime": 20
-					"speed": 4
+					"speed": 3
 					"drag": -0.1
 					"hitGround": true
 					"hitAir": true
@@ -232,7 +232,7 @@
 					  height: 12
 					  "damage": 120,
 					  "lifetime": 20
-					  "speed": 4
+					  "speed": 3
 					  "drag": -0.1
 					  "hitGround": true
 					  "hitAir": true
@@ -277,7 +277,7 @@
 	]
 	"itemCapacity": 240,
 	"research": {
-		"parent": "toxopid"
+		"parent": "corvus"
 			"requirements": [
 		{"item": "silicon","amount": 2300},
 		{"item": "plastanium","amount": 750},
