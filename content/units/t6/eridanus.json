@@ -167,7 +167,7 @@
 					  trailWidth: 2.5
 					  trailColor: 98ffa9
 					  homingPower: 0.03
-					  homingRange: 400
+					  homingRange: 32
 					  layer: 110
 					  angleOffset: 180
 					  "pierceArmor": true
@@ -245,6 +245,8 @@
 					  "pierceCap": 2
 					  fragRandomSpread: 25
 					  fragBullets: 4
+					  homingPower: 0
+					  homingRange: 0
 					  "fragBullet": {
 					  "type": "MissileBulletType",
 					  drawsize: 80
@@ -263,7 +265,7 @@
 					  trailWidth: 2.5
 					  trailColor: 98ffa9
 					  homingPower: 0.04
-					  homingRange: 24
+					  homingRange: 32
 					  layer: 110
 					  angleOffset: 180
 					  "pierceArmor": true
@@ -341,6 +343,8 @@
 					"pierceCap": 2
 					fragRandomSpread: 25
 					fragBullets: 4
+					homingPower: 0
+					homingRange: 0
 					"fragBullet": {
 					"type": "MissileBulletType",
 					drawsize: 80
