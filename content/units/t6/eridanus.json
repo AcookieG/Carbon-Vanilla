@@ -181,11 +181,6 @@
 					  angleOffset: 180
 					  "pierceArmor": true
 					  hitEffect: greenBomb
-					  lightningColor: 98ffa9,
-					  lightning: 2,
-					  lightningLength: 5,
-					  lightningLengthRand: 2
-					  lightningDamage: 40
 					  }}}}
 {
 	"name": "eridanus-flak",
@@ -286,11 +281,6 @@
 					angleOffset: 180
 					"pierceArmor": true
 					hitEffect: hitEmpSpark
-					lightningColor: 98ffa9,
-					lightning: 2,
-					lightningLength: 5,
-					lightningLengthRand: 2
-					lightningDamage: 40
 					}}}}
 	]
 	abilities: [
