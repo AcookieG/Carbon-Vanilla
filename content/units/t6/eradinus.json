@@ -1,0 +1,147 @@
+{
+	"type": "legs",
+	"name": "Eradinus",
+	"health": 54600,
+	"armor": 45,
+	"rotateSpeed": 1.6,
+	"speed": 0.50,
+	"hitSize": 32,
+	"mechStepParticles": true,
+	"stepShake": 2,
+	"drownTimeMultiplier": 2.3,
+	"stepSound": "walkerStep",
+	"stepSoundPitch": 0.8,
+	"stepSoundVolume": 1.1,
+	legCount: 4,
+	legLength: 15,
+	legBaseOffset: 12,
+	stepShake: 1.5,
+	legMoveSpace: 1.8,
+	legForwardScl: 0.6,
+	rippleScale: 8,
+
+	legSplashDamage: 700,
+	legSplashRange: 40,
+
+	hovering: true,
+	shadowElevation: 0.25,
+	"weapons": [
+				 {
+		"name": "eradinus-laser",
+		"alternate": false,
+		"rotate": false
+		"reload": 320,
+		cooldownTime: 320
+		"recoil": 0,
+		"rotationLimit": 15,
+		"inaccuracy": 0,
+		"shootSound": "shootCorvus"
+		"chargeSound": "chargeCorvus"
+			top: false
+		"shootCone": 0,
+		"shake": 20
+		"x": 0
+		"y": 0
+		"shootY": 6
+		"mirror": false
+		"rotateSpeed": 2,
+			bullet: {
+			"type": "ContinuousFlameBulletType",
+			"chargeEffect": "greenLaserCharge"
+				"lifetime": 100
+				"length": 490
+				"width": 75,
+				"damage": 60
+				"lightColor": 98ffa9
+				"flareColor": 98ffa9
+				"colors":[98ffa966,98ffa9aa,98ffa9ff,ffffffff]
+				lightningSpacing: 40
+				lightningColor: 98ffa9,
+				lightning: 12,
+				lightningLength: 5,
+				lightningLengthRand: 15
+				lightningDamage: 60
+				lightningAngleRand: 40
+				hitEffect: none
+				"knockback": 0,
+				},
+		}
+			{
+	"name": "clear",
+	color: 98ffa9
+	"alternate": true,
+	"rotate": false
+	"reload": 12,
+	"recoil": 0,
+	"inaccuracy": 0,
+	"shootSound": "shootToxopidShotgun"
+		"shootSoundVolume": 0.9
+		"shootCone": 35,
+		"shake": 1
+		"x": 20
+		"y": -12
+		"shootY": 0
+		"mirror": true
+		"rotateSpeed": 3,
+		shoot: {
+		"type": "ShootBarrel"
+			"barrels": [
+				   -5, 0, 0,
+				   0, 0, 0,
+				   5, 0, 0,
+				   ]
+			},
+		"bullet": {
+			type: ShrapnelBulletType
+			length: 60
+			damage: 30
+			width: 12
+			serrationLenScl: 4
+			serrationSpaceOffset: 30
+			serrationFadeOffset: 0
+			serrations: 4
+			serrationWidth: 4
+			toColor: 98ffa9,
+			fromColor: ffffff
+			shootEffect: sparkShoot
+			smokeEffect: sparkShoot
+			pierceArmor: true
+			ragRandomSpread: 10
+			fragBullets: 2
+			"fragBullet": {
+				"type": "MissileBulletType",
+				drawsize: 80
+				"shootEffect": "shootBig"
+					BackColor: 98ffa9
+					sprite: missile-large
+					width: 8
+					height: 12
+					"damage": 22,
+					"lifetime": 180
+					"speed": 3
+					"drag": -0.1
+					"hitGround": true
+					"hitAir": true
+					trailLength: 4.0,
+					trailWidth: 2.5
+					splashDamage: 34
+					splashDamageRadius: 24
+					homingPower: 0.01
+					homingRange: 120
+					layer: 110
+				}
+			}}
+	]
+	"itemCapacity": 240,
+	"research": {
+		"parent": "toxopid"
+			"requirements": [
+		{"item": "silicon","amount": 2300},
+		{"item": "plastanium","amount": 750},
+		{"item": "surge-alloy","amount": 800},
+		{"item": "phase-fabric","amount": 500},
+		{"item": "flex-joint","amount": 900},
+		{"item": "phase-decay","amount": 500},
+						]
+						}
+}
