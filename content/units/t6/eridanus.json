@@ -75,7 +75,7 @@
 	"baseRotation": 225
 	"rotationLimit": 0,
 	"reload": 12,
-	"recoil": 0,
+	"recoil": 5,
 	"inaccuracy": 0,
 	"shootSound": "shootToxopidShotgun"
 		"shootSoundVolume": 0.9
@@ -83,7 +83,7 @@
 		"shake": 1
 		"x": 20
 		"y": -12
-		"shootY": 0
+		"shootY": 5
 		"mirror": true
 		"rotateSpeed": 3,
 		shoot: {
