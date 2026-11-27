@@ -220,7 +220,7 @@
 				  fromColor: ffffff
 				  shootEffect: sparkShoot
 				  smokeEffect: sparkShoot
-				  fragRandomSpread: 5
+				  fragRandomSpread: 10
 				  fragBullets: 1
 				  "fragBullet": {
 					  "type": "MissileBulletType",
@@ -243,8 +243,8 @@
 					  "pierceArmor": true
 					  "pierce": true
 					  "pierceCap": 2
-					  fragRandomSpread: 25
-					  fragBullets: 4
+					  fragRandomSpread: 30
+					  fragBullets: 5
 					  homingPower: 0
 					  homingRange: 0
 					  "fragBullet": {
@@ -318,7 +318,7 @@
 				fromColor: ffffff
 				shootEffect: sparkShoot
 				smokeEffect: sparkShoot
-				fragRandomSpread: 5
+				fragRandomSpread: 10
 				fragBullets: 1
 				"fragBullet": {
 					"type": "MissileBulletType",
@@ -341,8 +341,8 @@
 					"pierceArmor": true
 					"pierce": true
 					"pierceCap": 2
-					fragRandomSpread: 25
-					fragBullets: 4
+					fragRandomSpread: 30
+					fragBullets: 5
 					homingPower: 0
 					homingRange: 0
 					"fragBullet": {
