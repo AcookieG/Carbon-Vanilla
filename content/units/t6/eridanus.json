@@ -92,7 +92,7 @@
 	  "recoil": 5,
 	  "inaccuracy": 0,
 	  "shootSound": "shootToxopidShotgun"
-		  "shootSoundVolume": 0.9
+		  "shootSoundVolume": 0.8
 		  "shootCone": 60,
 		  "shake": 1
 		  "x": 12
@@ -161,7 +161,7 @@
 					  height: 12
 					  "damage": 45,
 					  "lifetime": 100
-					  "speed": 2
+					  "speed": 3
 					  "drag": -0.02
 					  "hitGround": true
 					  "hitAir": true
@@ -190,7 +190,7 @@
 	"recoil": 5,
 	"inaccuracy": 0,
 	"shootSound": "shootToxopidShotgun"
-		"shootSoundVolume": 0.9
+		"shootSoundVolume": 0.8
 		"shootCone": 60,
 		"shake": 1
 		"x": 22
@@ -259,7 +259,7 @@
 					height: 12
 					"damage": 45,
 					"lifetime": 100
-					"speed": 2
+					"speed": 3
 					"drag": -0.02
 					"hitGround": true
 					"hitAir": true
