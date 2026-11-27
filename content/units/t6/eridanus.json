@@ -154,8 +154,8 @@
 					  fragBullets: 5
 					  homingPower: 0
 					  homingRange: 0
-					  fragVelocityMin: 0.7
-					  fragLifeMin: 0.5
+					  fragVelocityMin: 0.6
+					  fragLifeMin: 0.6
 					  "fragBullet": {
 					  "type": "ArtilleryBulletType",
 					  drawsize: 80
@@ -164,7 +164,7 @@
 					  sprite: missile-large
 					  width: 10
 					  height: 18
-					  "damage": 110,
+					  "damage": 130,
 					  splashDamageRadius: 80,
 					  splashDamage: 110,
 					  "lifetime": 120
@@ -176,8 +176,8 @@
 					  trailLength: 4.0,
 					  trailWidth: 3
 					  trailColor: 98ffa9
-					  homingPower: 0.04
-					  homingRange: 24
+					  homingPower: 0
+					  homingRange: 0
 					  layer: 110
 					  angleOffset: 180
 					  "pierceArmor": true
@@ -255,8 +255,8 @@
 					fragBullets: 5
 					homingPower: 0
 					homingRange: 0
-					fragVelocityMin: 0.7
-					fragLifeMin: 0.5
+					fragVelocityMin: 0.6
+					fragLifeMin: 0.6
 					"fragBullet": {
 					"type": "ArtilleryBulletType",
 					drawsize: 80
@@ -265,7 +265,7 @@
 					sprite: missile-large
 					width: 10
 					height: 18
-					"damage": 110,
+					"damage": 130,
 					splashDamageRadius: 80,
 					splashDamage: 110,
 					"lifetime": 120
@@ -277,8 +277,8 @@
 					trailLength: 4.0,
 					trailWidth: 3
 					trailColor: 98ffa9
-					homingPower: 0.04
-					homingRange: 24
+					homingPower: 0
+					homingRange: 0
 					layer: 110
 					angleOffset: 180
 					"pierceArmor": true
