@@ -178,6 +178,7 @@
 					  lightningLengthRand: 2
 					  lightningDamage: 40
 					  }}}}
+{
 	  "name": "eridanus-flak",
 	  color: 98ffa9
 	  "alternate": true,
