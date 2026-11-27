@@ -66,126 +66,110 @@
 				"knockback": 0,
 				},
 		}
-			{
+{
 	"name": "eridanus-heal",
 	type: RepairBeamWeapon
 	color: 98ffa9
 	"rotate": true
 	"inaccuracy": 0,
-		"x": 18
-		"y": 10
-		"shootY": 6
-		beamWidth: 1.5
-		repairSpeed: 5
-		"mirror": true
-		bullet: {
-			"type": "BulletType"
-			maxRange: 180
-			}}
+	"x": 18
+	"y": 10
+	"shootY": 6
+	beamWidth: 1.5
+	repairSpeed: 5
+	"mirror": true
+	bullet: {
+		"type": "BulletType"
+		maxRange: 180
+}}
 {
-	  "name": "eridanus-flak",
-	  color: 98ffa9
-	  "alternate": true,
-	  "rotate": true
-	  "rotationLimit": 361,
-	  "reload": 12,
-	  "recoil": 5,
-	  "inaccuracy": 0,
-	  "shootSound": "shootToxopidShotgun"
-		  "shootSoundVolume": 0.8
-		  "shootCone": 60,
-		  "shake": 1
-		  "x": 12
-		  "y": -16
-		  "shootY": 0
-		  "mirror": true
-		  "rotateSpeed": 3,
-		  shoot: {
-			  "type": "ShootBarrel"
-			  "barrels": [
-					 -2, 0, 0,
-					 0, 2, 0,
-					 0, -2, 0,
-					 2, 0, 0,
-					 ]
-			  },
-			  "bullet": {
-				  range: 490
-				  type: ShrapnelBulletType
-				  length: 80
-				  damage: 520
-				  width: 18
-				  serrationLenScl: 4
-				  serrationSpaceOffset: 30
-				  serrationFadeOffset: 0
-				  serrations: 4
-				  serrationWidth: 4
-				  toColor: 98ffa9,
-				  fromColor: ffffff
-				  shootEffect: sparkShoot
-				  smokeEffect: sparkShoot
-				  fragRandomSpread: 10
-				  fragBullets: 1
-				  fragVelocityMin: 0.7
-				  fragLifeMin: 0.7
-				  "pierceArmor": true
-				  "fragBullet": {
-					  angleOffset: 180
-					  "type": "MissileBulletType",
-					  drawsize: 90
-					  "shootEffect": "shootBig"
-					  BackColor: 98ffa9
-					  sprite: missile-large
-					  width: 8
-					  height: 12
-					  "damage": 120,
-					  "lifetime": 15
-					  "speed": 3
-					  "drag": -0.11
-					  "hitGround": true
-					  "hitAir": true
-					  trailLength: 4.0,
-					  trailWidth: 3
-					  trailColor: 98ffa9
-					  layer: 110
-					  "pierceArmor": true
-					  "pierce": true
-					  "pierceCap": 2
-					  fragRandomSpread: 30
-					  fragBullets: 5
-					  homingPower: 0
-					  homingRange: 0
-					  fragVelocityMin: 0.6
-					  fragLifeMin: 0.6
-					  "fragBullet": {
-					  "type": "ArtilleryBulletType",
-					  drawsize: 80
-					  "shootEffect": "none"
-					  BackColor: 98ffa9
-					  sprite: missile-large
-					  width: 10
-					  height: 18
-					  "damage": 130,
-					  splashDamageRadius: 80,
-					  splashDamage: 110,
-					  scaledSplashDamage: true
-					  "lifetime": 120
-					  "speed": 9
-					  "drag": 0.005
-					  "hitGround": true
-					  "collideAir": true
-					  "hitAir": true
-					  trailLength: 4.0,
-					  trailWidth: 3
-					  trailColor: 98ffa9
-					  homingPower: 0
-					  homingRange: 0
-					  layer: 110
-					  angleOffset: 180
-					  hitEffect: greenBomb
-					  }}}}
+	"name": "eridanus-shotgun",
+	color: 98ffa9
+	"alternate": true,
+	"rotate": true
+	"rotationLimit": 361,
+	"reload": 12,
+	"recoil": 5,
+	"inaccuracy": 0,
+	"shootSound": "shootToxopidShotgun"
+	"shootSoundVolume": 0.8
+	"shootCone": 60,
+	"shake": 1
+	"x": 12
+	"y": -16
+	"shootY": 0
+	"mirror": true
+	"rotateSpeed": 3,
+	"bullet": {
+		range: 490
+		type: ShrapnelBulletType
+		length: 80
+		damage: 520
+		width: 18
+		serrationLenScl: 4
+		serrationSpaceOffset: 30
+		serrationFadeOffset: 0
+		serrations: 4
+		serrationWidth: 4
+		toColor: 98ffa9,
+		fromColor: ffffff
+		shootEffect: sparkShoot
+		smokeEffect: sparkShoot
+		"pierceArmor": true
+}}
 {
-	"name": "eridanus-flak",
+"name": "eridanus-flak",
+color: 98ffa9
+"alternate": true,
+"rotate": true
+"rotationLimit": 361,
+"reload": 12,
+"recoil": 5,
+"inaccuracy": 10,
+"shootSound": "shootToxopidShotgun"
+"shootSoundVolume": 0.8
+"shootCone": 60,
+"shake": 1
+"x": 12
+"y": -16
+"shootY": -80
+shoot: {
+	type: ShootSpread
+	shots: 4
+	spread: 15
+	}
+velocityRnd: 0.7
+"mirror": true
+"rotateSpeed": 3,
+"bullet": {
+	"type": "ArtilleryBulletType",
+		velocityScaleRandMin: 0.7
+		drawsize: 80
+		"shootEffect": "shootBig"
+		BackColor: 98ffa9
+		sprite: missile-large
+		width: 10
+		height: 18
+		"damage": 130,
+		splashDamageRadius: 80,
+		splashDamage: 110,
+		scaledSplashDamage: true
+		"lifetime": 120
+		"speed": 9
+		"drag": 0.005
+		"hitGround": true
+		"collideAir": true
+		"hitAir": true
+		trailLength: 4.0,
+		trailWidth: 3
+		trailColor: 98ffa9
+		homingPower: 0
+		homingRange: 0
+		layer: 110
+		hitEffect: greenBomb
+}}
+{
+	"name": "eridanus-shotgun",
 	color: 98ffa9
 	"alternate": true,
 	"rotate": true
@@ -202,90 +186,74 @@
 		"shootY": 0
 		"mirror": true
 		"rotateSpeed": 3,
-		shoot: {
-			"type": "ShootBarrel"
-			"barrels": [
-				   -2, 0, 0,
-				   0, 2, 0,
-				   0, -2, 0,
-				   2, 0, 0,
-				   ]
-			},
-			"bullet": {
-				range: 490
-				type: ShrapnelBulletType
-				length: 80
-				damage: 520
-				width: 18
-				serrationLenScl: 4
-				serrationSpaceOffset: 30
-				serrationFadeOffset: 0
-				serrations: 4
-				serrationWidth: 4
-				toColor: 98ffa9,
-				fromColor: ffffff
-				shootEffect: sparkShoot
-				smokeEffect: sparkShoot
-				fragRandomSpread: 10
-				fragBullets: 1
-				fragVelocityMin: 0.7
-				fragLifeMin: 0.7
-				"pierceArmor": true
-				"fragBullet": {
-					angleOffset: 180
-					"type": "MissileBulletType",
-					drawsize: 90
-					"shootEffect": "shootBig"
-					BackColor: 98ffa9
-					sprite: missile-large
-					width: 8
-					height: 12
-					"damage": 120,
-					"lifetime": 15
-					"speed": 3
-					"drag": -0.11
-					"hitGround": true
-					"hitAir": true
-					trailLength: 4.0,
-					trailWidth: 3
-					trailColor: 98ffa9
-					layer: 110
-					"pierceArmor": true
-					"pierce": true
-					"pierceCap": 2
-					fragRandomSpread: 30
-					fragBullets: 5
-					homingPower: 0
-					homingRange: 0
-					fragVelocityMin: 0.6
-					fragLifeMin: 0.6
-					"fragBullet": {
-					"type": "ArtilleryBulletType",
-					drawsize: 80
-					"shootEffect": "none"
-					BackColor: 98ffa9
-					sprite: missile-large
-					width: 10
-					height: 18
-					"damage": 130,
-					splashDamageRadius: 80,
-					splashDamage: 110,
-					scaledSplashDamage: true
-					"lifetime": 120
-					"speed": 9
-					"drag": 0.005
-					"hitGround": true
-					"collideAir": true
-					"hitAir": true
-					trailLength: 4.0,
-					trailWidth: 3
-					trailColor: 98ffa9
-					homingPower: 0
-					homingRange: 0
-					layer: 110
-					angleOffset: 180
-					hitEffect: hitEmpSpark
-					}}}}
+		"bullet": {
+			range: 490
+			type: ShrapnelBulletType
+			length: 80
+			damage: 520
+			width: 18
+			serrationLenScl: 4
+			serrationSpaceOffset: 30
+			serrationFadeOffset: 0
+			serrations: 4
+			serrationWidth: 4
+			toColor: 98ffa9,
+			fromColor: ffffff
+			shootEffect: sparkShoot
+			smokeEffect: sparkShoot
+			"pierceArmor": true
+			}}
+		{
+	"name": "eridanus-flak",
+	color: 98ffa9
+	"alternate": true,
+	"rotate": true
+	"rotationLimit": 361,
+	"reload": 12,
+	"recoil": 5,
+	"inaccuracy": 10,
+	"shootSound": "shootToxopidShotgun"
+	"shootSoundVolume": 0.8
+	"shootCone": 60,
+	"shake": 1
+	"x": 22
+	"y": -6
+	"shootY": -80
+	shoot: {
+		type: ShootSpread
+		shots: 4
+		spread: 15
+		}
+	velocityRnd: 0.7
+	"mirror": true
+	"rotateSpeed": 3,
+	"bullet": {
+		"type": "ArtilleryBulletType",
+		velocityScaleRandMin: 0.7
+		drawsize: 80
+		"shootEffect": "shootBig"
+		BackColor: 98ffa9
+		sprite: missile-large
+		width: 10
+		height: 18
+		"damage": 130,
+		splashDamageRadius: 80,
+		splashDamage: 110,
+		scaledSplashDamage: true
+		"lifetime": 120
+		"speed": 9
+		"drag": 0.005
+		"hitGround": true
+		"collideAir": true
+		"hitAir": true
+		trailLength: 4.0,
+		trailWidth: 3
+		trailColor: 98ffa9
+		homingPower: 0
+		homingRange: 0
+		layer: 110
+		hitEffect: hitEmpSpark
+}}
 	]
 	abilities: [
 				 {
