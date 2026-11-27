@@ -174,7 +174,7 @@
 					  trailLength: 4.0,
 					  trailWidth: 3
 					  trailColor: 98ffa9
-					  homingPower: 0.1
+					  homingPower: 0.7
 					  homingRange: 24
 					  layer: 110
 					  angleOffset: 180
@@ -278,7 +278,7 @@
 					trailLength: 4.0,
 					trailWidth: 3
 					trailColor: 98ffa9
-					homingPower: 0.1
+					homingPower: 0.7
 					homingRange: 24
 					layer: 110
 					angleOffset: 180
