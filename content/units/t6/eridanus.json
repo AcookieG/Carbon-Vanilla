@@ -170,11 +170,12 @@
 					  "speed": 9
 					  "drag": 0.007
 					  "hitGround": true
+					  "collideAir": true
 					  "hitAir": true
 					  trailLength: 4.0,
 					  trailWidth: 3
 					  trailColor: 98ffa9
-					  homingPower: 0.7
+					  homingPower: 0.04
 					  homingRange: 24
 					  layer: 110
 					  angleOffset: 180
@@ -274,11 +275,12 @@
 					"speed": 9
 					"drag": 0.007
 					"hitGround": true
+					"collideAir": true
 					"hitAir": true
 					trailLength: 4.0,
 					trailWidth: 3
 					trailColor: 98ffa9
-					homingPower: 0.7
+					homingPower: 0.04
 					homingRange: 24
 					layer: 110
 					angleOffset: 180
