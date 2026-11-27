@@ -27,7 +27,7 @@
 	shadowElevation: 0.25,
 	"weapons": [
 				 {
-		"name": "eradinus-laser",
+		"name": "eridanus-laser",
 		"alternate": false,
 		"rotate": false
 		"reload": 320,
@@ -71,6 +71,7 @@
 	color: 98ffa9
 	"alternate": true,
 	"rotate": false
+	"baseRotation": 135
 	"rotationLimit": 0,
 	"reload": 12,
 	"recoil": 0,
@@ -107,7 +108,7 @@
 			shootEffect: sparkShoot
 			smokeEffect: sparkShoot
 			pierceArmor: true
-			ragRandomSpread: 10
+			fragRandomSpread: 10
 			fragBullets: 2
 			"fragBullet": {
 				"type": "MissileBulletType",
@@ -125,6 +126,7 @@
 					"hitAir": true
 					trailLength: 4.0,
 					trailWidth: 2.5
+					trailColor: 98ffa9
 					splashDamage: 34
 					splashDamageRadius: 24
 					homingPower: 0.01
