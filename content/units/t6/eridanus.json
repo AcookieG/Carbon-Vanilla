@@ -5,7 +5,7 @@
 	"armor": 45,
 	"rotateSpeed": 1.6,
 	"speed": 0.50,
-	"hitSize": 36,
+	"hitSize": 38,
 	"mechStepParticles": true,
 	"stepShake": 2,
 	"drownTimeMultiplier": 2.3,
@@ -110,6 +110,7 @@
 					 ]
 			  },
 			  "bullet": {
+				  range: 490
 				  type: ShrapnelBulletType
 				  length: 80
 				  damage: 520
@@ -167,6 +168,7 @@
 					  "damage": 130,
 					  splashDamageRadius: 80,
 					  splashDamage: 110,
+					  scaledSplashDamage: true
 					  "lifetime": 120
 					  "speed": 9
 					  "drag": 0.005
@@ -180,7 +182,6 @@
 					  homingRange: 0
 					  layer: 110
 					  angleOffset: 180
-					  "pierceArmor": true
 					  hitEffect: greenBomb
 					  }}}}
 {
@@ -211,6 +212,7 @@
 				   ]
 			},
 			"bullet": {
+				range: 490
 				type: ShrapnelBulletType
 				length: 80
 				damage: 520
@@ -268,6 +270,7 @@
 					"damage": 130,
 					splashDamageRadius: 80,
 					splashDamage: 110,
+					scaledSplashDamage: true
 					"lifetime": 120
 					"speed": 9
 					"drag": 0.005
@@ -281,7 +284,6 @@
 					homingRange: 0
 					layer: 110
 					angleOffset: 180
-					"pierceArmor": true
 					hitEffect: hitEmpSpark
 					}}}}
 	]

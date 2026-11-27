@@ -60,6 +60,7 @@
 				  ammoMultiplier: 4,
 				  splashDamageRadius: 90,
 				  splashDamage: 290,
+				  scaledSplashDamage: true
 				  backColor: 6d56bf,
 				  frontColor: bf92f9
 				  lightningColor: bf92f9,
@@ -87,6 +88,7 @@
 					  collidesTiles: false,
 					  splashDamageRadius: 90,
 					  splashDamage: 180,
+					  scaledSplashDamage: true
 					  backColor: 6d56bf,
 					  frontColor: bf92f9
 					  lightningColor: bf92f9,
