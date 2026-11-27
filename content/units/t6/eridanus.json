@@ -195,7 +195,7 @@
 		  "y": -16
 		  "shootY": -5
 		  "mirror": true
-		  "rotateSpeed": 0,
+		  "rotateSpeed": 3,
 		  shoot: {
 			  "type": "ShootBarrel"
 			  "barrels": [
@@ -291,7 +291,7 @@
 		"y": -6
 		"shootY": -5
 		"mirror": true
-		"rotateSpeed": 0,
+		"rotateSpeed": 3,
 		shoot: {
 			"type": "ShootBarrel"
 			"barrels": [
