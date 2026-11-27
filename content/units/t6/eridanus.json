@@ -74,7 +74,7 @@
 	"rotate": true
 	"inaccuracy": 0,
 		"x": 20
-		"y": -12
+		"y": 12
 		"shootY": 6
 		beamWidth: 1.5
 		repairSpeed: 5
@@ -163,7 +163,7 @@
 						"damage": 22,
 						"lifetime": 100
 						"speed": 2
-						"drag": -0.01
+						"drag": -0.1
 						"hitGround": true
 						"hitAir": true
 						trailLength: 4.0,
@@ -259,7 +259,7 @@
 					  "damage": 22,
 					  "lifetime": 100
 					  "speed": 2
-					  "drag": -0.01
+					  "drag": -0.1
 					  "hitGround": true
 					  "hitAir": true
 					  trailLength: 4.0,
