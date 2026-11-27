@@ -82,8 +82,7 @@
 			"type": "BulletType"
 			maxRange: 180
 			}}
-			{
-					{
+{
 	  "name": "eridanus-flak",
 	  color: 98ffa9
 	  "alternate": true,
