@@ -160,7 +160,7 @@
 					  width: 8
 					  height: 18
 					  "damage": 45,
-					  "lifetime": 100
+					  "lifetime": 120
 					  "speed": 8
 					  "drag": 0.007
 					  "hitGround": true
@@ -258,7 +258,7 @@
 					width: 8
 					height: 18
 					"damage": 45,
-					"lifetime": 100
+					"lifetime": 120
 					"speed": 8
 					"drag": 0.007
 					"hitGround": true
