@@ -5,7 +5,7 @@
 	"armor": 45,
 	"rotateSpeed": 1.6,
 	"speed": 0.50,
-	"hitSize": 32,
+	"hitSize": 36,
 	"mechStepParticles": true,
 	"stepShake": 2,
 	"drownTimeMultiplier": 2.3,
@@ -168,8 +168,8 @@
 					  splashDamageRadius: 80,
 					  splashDamage: 110,
 					  "lifetime": 120
-					  "speed": 10
-					  "drag": 0.007
+					  "speed": 9
+					  "drag": 0.005
 					  "hitGround": true
 					  "collideAir": true
 					  "hitAir": true
@@ -269,8 +269,8 @@
 					splashDamageRadius: 80,
 					splashDamage: 110,
 					"lifetime": 120
-					"speed": 10
-					"drag": 0.007
+					"speed": 9
+					"drag": 0.005
 					"hitGround": true
 					"collideAir": true
 					"hitAir": true
