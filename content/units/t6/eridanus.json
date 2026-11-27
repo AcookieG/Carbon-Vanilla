@@ -164,8 +164,8 @@
 					  width: 10
 					  height: 18
 					  "damage": 0,
-					  splashDamageRadius: 70,
-					  splashDamage: 45,
+					  splashDamageRadius: 80,
+					  splashDamage: 110,
 					  "lifetime": 120
 					  "speed": 9
 					  "drag": 0.007
@@ -185,7 +185,7 @@
 					  lightning: 2,
 					  lightningLength: 5,
 					  lightningLengthRand: 2
-					  lightningDamage: 80
+					  lightningDamage: 40
 					  }}}}
 {
 	"name": "eridanus-flak",
@@ -269,8 +269,8 @@
 					width: 10
 					height: 18
 					"damage": 0,
-					splashDamageRadius: 70,
-					splashDamage: 45,
+					splashDamageRadius: 80,
+					splashDamage: 110,
 					"lifetime": 120
 					"speed": 9
 					"drag": 0.007
@@ -290,7 +290,7 @@
 					lightning: 2,
 					lightningLength: 5,
 					lightningLengthRand: 2
-					lightningDamage: 80
+					lightningDamage: 40
 					}}}}
 	]
 	abilities: [
