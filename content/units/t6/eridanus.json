@@ -110,7 +110,6 @@
 					 ]
 			  },
 			  "bullet": {
-				  angleOffset: 180
 				  type: ShrapnelBulletType
 				  length: 60
 				  damage: 320
@@ -129,6 +128,7 @@
 				  fragVelocityMin: 0.7
 				  fragLifeMin: 0.7
 				  "fragBullet": {
+					  angleOffset: 180
 					  "type": "MissileBulletType",
 					  drawsize: 90
 					  "shootEffect": "shootBig"
@@ -214,7 +214,6 @@
 				   ]
 			},
 			"bullet": {
-				angleOffset: 180
 				type: ShrapnelBulletType
 				length: 60
 				damage: 320
@@ -233,6 +232,7 @@
 				fragVelocityMin: 0.7
 				fragLifeMin: 0.7
 				"fragBullet": {
+					angleOffset: 180
 					"type": "MissileBulletType",
 					drawsize: 90
 					"shootEffect": "shootBig"
@@ -291,6 +291,15 @@
 					lightningDamage: 80
 					}}}}
 	]
+	abilities: [
+				 {
+	  type: mindustry.entities.abilities.RepairFieldAbility
+	  "healEffect": hitEmpSpark,
+	  range: 80
+	  amount: 300
+	  reload: 60
+	  }
+				 ]
 	"itemCapacity": 240,
 	"research": {
 		"parent": "corvus"
