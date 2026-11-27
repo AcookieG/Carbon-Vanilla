@@ -163,7 +163,9 @@
 					  sprite: missile-large
 					  width: 10
 					  height: 18
-					  "damage": 45,
+					  "damage": 0,
+					  splashDamageRadius: 70,
+					  splashDamage: 45,
 					  "lifetime": 120
 					  "speed": 9
 					  "drag": 0.007
@@ -265,7 +267,9 @@
 					sprite: missile-large
 					width: 10
 					height: 18
-					"damage": 45,
+					"damage": 0,
+					splashDamageRadius: 70,
+					splashDamage: 45,
 					"lifetime": 120
 					"speed": 9
 					"drag": 0.007
