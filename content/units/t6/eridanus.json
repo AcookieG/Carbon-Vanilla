@@ -72,7 +72,7 @@
 	color: 98ffa9
 	"alternate": true,
 	"rotate": false
-	"baseRotation": 135
+	"baseRotation": 45
 	"rotationLimit": 0,
 	"reload": 12,
 	"recoil": 0,
@@ -120,7 +120,7 @@
 					height: 12
 					"damage": 22,
 					"lifetime": 20
-					"speed": 1
+					"speed": 4
 					"drag": -0.1
 					"hitGround": true
 					"hitAir": true
@@ -151,10 +151,10 @@
 						trailLength: 4.0,
 						trailWidth: 2.5
 						trailColor: 98ffa9
-						splashDamage: 34
-						splashDamageRadius: 24
-						homingPower: 0.01
-						homingRange: 120
+						splashDamage: 40
+						splashDamageRadius: 30
+						homingPower: 0.015
+						homingRange: 400
 						layer: 110
 						angleOffset: 180
 					}
