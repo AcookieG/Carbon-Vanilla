@@ -20,7 +20,7 @@
 	legBaseOffset: 12,
 	stepShake: 1,
 	legLengthScl: 1.0,
-	rippleScale: 4,
+	rippleScale: 3,
 	legSpeed: 0.19,
 
 	legSplashDamage: 160,

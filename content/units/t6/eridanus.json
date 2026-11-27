@@ -18,7 +18,7 @@
 	stepShake: 1.5,
 	legMoveSpace: 1.8,
 	legForwardScl: 0.6,
-	rippleScale: 8,
+	rippleScale: 2,
 
 	legSplashDamage: 700,
 	legSplashRange: 40,
@@ -30,15 +30,15 @@
 		"name": "eridanus-laser",
 		"alternate": false,
 		"rotate": false
-		"reload": 320,
-		cooldownTime: 320
+		"reload": 300,
+		cooldownTime: 300
 		"recoil": 0,
 		"rotationLimit": 0,
 		"inaccuracy": 0,
 		"shootSound": "shootCorvus"
 		"chargeSound": "chargeCorvus"
 			top: false
-		"shootCone": 0,
+		"shootCone": 12,
 		"shake": 20
 		"x": 0
 		"y": 0
@@ -79,7 +79,7 @@
 	"inaccuracy": 0,
 	"shootSound": "shootToxopidShotgun"
 		"shootSoundVolume": 0.9
-		"shootCone": 35,
+		"shootCone": 360,
 		"shake": 1
 		"x": 20
 		"y": -12
@@ -108,30 +108,56 @@
 			fromColor: ffffff
 			shootEffect: sparkShoot
 			smokeEffect: sparkShoot
-			fragRandomSpread: 10
-			fragBullets: 2
+			fragRandomSpread: 0
+			fragBullets: 1
 			"fragBullet": {
 				"type": "MissileBulletType",
-				drawsize: 80
+				drawsize: 90
 				"shootEffect": "shootBig"
 					BackColor: 98ffa9
 					sprite: missile-large
 					width: 8
 					height: 12
 					"damage": 22,
-					"lifetime": 120
-					"speed": 2
-					"drag": -0.05
+					"lifetime": 20
+					"speed": 1
+					"drag": -0.1
 					"hitGround": true
 					"hitAir": true
 					trailLength: 4.0,
-					trailWidth: 2.5
+					trailWidth: 3
 					trailColor: 98ffa9
 					splashDamage: 34
 					splashDamageRadius: 24
-					homingPower: 0.01
-					homingRange: 120
+					homingPower: 0.0
+					homingRange: 0
 					layer: 110
+					fragRandomSpread: 10
+					fragBullets: 2
+					"fragBullet": {
+						"type": "MissileBulletType",
+						drawsize: 80
+						"shootEffect": "none"
+						BackColor: 98ffa9
+						sprite: missile-large
+						width: 8
+						height: 12
+						"damage": 22,
+						"lifetime": 120
+						"speed": 2
+						"drag": -0.04
+						"hitGround": true
+						"hitAir": true
+						trailLength: 4.0,
+						trailWidth: 2.5
+						trailColor: 98ffa9
+						splashDamage: 34
+						splashDamageRadius: 24
+						homingPower: 0.01
+						homingRange: 120
+						layer: 110
+						angleOffset: 180
+					}
 				}
 			}}
 	]
