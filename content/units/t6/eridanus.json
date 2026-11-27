@@ -158,11 +158,11 @@
 					  BackColor: 98ffa9
 					  sprite: missile-large
 					  width: 8
-					  height: 8
+					  height: 18
 					  "damage": 45,
 					  "lifetime": 100
-					  "speed": 6
-					  "drag": 0.01
+					  "speed": 8
+					  "drag": 0.007
 					  "hitGround": true
 					  "hitAir": true
 					  trailLength: 4.0,
@@ -256,11 +256,11 @@
 					BackColor: 98ffa9
 					sprite: missile-large
 					width: 8
-					height: 80
+					height: 18
 					"damage": 45,
 					"lifetime": 100
-					"speed": 6
-					"drag": 0.01
+					"speed": 8
+					"drag": 0.007
 					"hitGround": true
 					"hitAir": true
 					trailLength: 4.0,
