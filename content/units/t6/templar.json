@@ -60,7 +60,7 @@
 		"hitAir": true
 		trailLength: 4.0,
 		trailWidth: 3
-		splashDamage: 52
+		splashDamage: 40
 		splashDamageRadius: 24
 		homingPower: 0
 		layer: 110
@@ -87,14 +87,14 @@
 	"rotateSpeed": 1,
 	shoot: {
 		type: ShootSpread
-		shots: 30
-		spread: 2
+		shots: 20
+		spread: 1.5
 		}
 		"bullet": {
 			"type": "ContinuousFlameBulletType",
 			"shootEffect": "shootSmallFlame"
 				"lifetime": 30
-				"length": 200
+				"length": 160
 				"damage": 44
 				"flareColor": ec7458aa
 				"colors":[ec745855,ec7458aa,ff9c5a,ffffff]

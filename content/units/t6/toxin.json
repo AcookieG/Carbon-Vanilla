@@ -1,7 +1,7 @@
 {
 	"type": "legs",
 	"name": "Toxin",
-	"health": 42500,
+	"health": 46500,
 	"armor": 28,
 	"rotateSpeed": 2,
 	"speed": 0.65,
@@ -50,6 +50,7 @@
 				type: ArtilleryBulletType
 				  despawnSound: explosionArtilleryShockBig,
 				  hitEffect: sapExplosion,
+				  damage: 100
 				  knockback: 1.8,
 				  lifetime: 60,
 				  speed: 4
@@ -59,14 +60,14 @@
 					collides: true,
 				  ammoMultiplier: 4,
 				  splashDamageRadius: 90,
-				  splashDamage: 290,
+				  splashDamage: 180,
 				  scaledSplashDamage: true
 				  backColor: 6d56bf,
 				  frontColor: bf92f9
 				  lightningColor: bf92f9,
 				  lightning: 6,
 				  lightningLength: 20,
-				  lightningDamage: 90
+				  lightningDamage: 40
 				  smokeEffect: shootBigSmoke2,
 				  hitShake: 10,
 
@@ -74,29 +75,28 @@
 				  statusDuration: 600,
 
 				  fragLifeMin: 0.4,
-				  fragBullets: 10,
+				  fragBullets: 9,
 
 				  fragBullet:{
 				  type: ArtilleryBulletType
 					  despawnSound: explosionArtilleryShock,
 					  hitEffect: sapExplosion,
-					  knockback: 1.8,
 					  lifetime: 60,
 					  speed: 2
 					  width: 20
 					  height: 20,
 					  collidesTiles: false,
 					  splashDamageRadius: 90,
-					  splashDamage: 180,
+					  splashDamage: 90,
 					  scaledSplashDamage: true
 					  backColor: 6d56bf,
 					  frontColor: bf92f9
 					  lightningColor: bf92f9,
 					  lightning: 4,
-					  lightningLength: 12,
+					  lightningLength: 8,
 					  smokeEffect: shootBigSmoke2,
 					  hitShake: 5,
-					lightningDamage: 75
+					lightningDamage: 40
 					  status: sapped,
 					  statusDuration: 600,
 					  hitAir: true

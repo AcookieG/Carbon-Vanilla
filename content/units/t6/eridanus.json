@@ -1,7 +1,7 @@
 {
 	"type": "legs",
 	"name": "Eradinus",
-	"health": 54600,
+	"health": 52600,
 	"armor": 45,
 	"rotateSpeed": 1.6,
 	"speed": 0.50,
@@ -50,7 +50,7 @@
 				"lifetime": 100
 				"length": 490
 				"width": 75,
-				"damage": 2700
+				"damage": 2150
 				"pierceArmor": true
 				"lightColor": 98ffa9
 				"flareColor": 98ffa9
@@ -60,7 +60,7 @@
 				lightning: 12,
 				lightningLength: 7,
 				lightningLengthRand: 7
-				lightningDamage: 60
+				lightningDamage: 30
 				lightningAngleRand: 40
 				hitEffect: none
 				"knockback": 0,
