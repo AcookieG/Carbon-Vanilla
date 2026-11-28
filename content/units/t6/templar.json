@@ -88,14 +88,14 @@
 	shoot: {
 		type: ShootSpread
 		shots: 20
-		spread: 1.5
+		spread: 2
 		}
 		"bullet": {
 			"type": "ContinuousFlameBulletType",
 			"shootEffect": "shootSmallFlame"
 				"lifetime": 30
 				"length": 160
-				"damage": 44
+				"damage": 46
 				"flareColor": ec7458aa
 				"colors":[ec745855,ec7458aa,ff9c5a,ffffff]
 				hitEffect: hitFlameSmall
