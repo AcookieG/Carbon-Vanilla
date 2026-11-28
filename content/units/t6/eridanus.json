@@ -154,9 +154,9 @@ shoot: {
 		splashDamageRadius: 70,
 		splashDamage: 80,
 		scaledSplashDamage: true
-		"lifetime": 70
-		"speed": 7
-		"drag": 0.005
+		"lifetime": 80
+		"speed": 8
+		"drag": 0.01
 		"hitGround": true
 		"collideAir": true
 		"hitAir": true
@@ -240,9 +240,9 @@ shoot: {
 		splashDamageRadius: 70,
 		splashDamage: 80,
 		scaledSplashDamage: true
-		"lifetime": 70
-		"speed": 7
-		"drag": 0.005
+		"lifetime": 80
+		"speed": 8
+		"drag": 0.01
 		"hitGround": true
 		"collideAir": true
 		"hitAir": true
