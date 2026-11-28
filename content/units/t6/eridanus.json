@@ -150,7 +150,7 @@ shoot: {
 		sprite: missile-large
 		width: 10
 		height: 18
-		"damage": 130,
+		"damage": 40,
 		splashDamageRadius: 70,
 		splashDamage: 80,
 		scaledSplashDamage: true
@@ -236,9 +236,9 @@ shoot: {
 		sprite: missile-large
 		width: 10
 		height: 18
-		"damage": 130,
+		"damage": 80,
 		splashDamageRadius: 70,
-		splashDamage: 80,
+		splashDamage: 40,
 		scaledSplashDamage: true
 		"lifetime": 80
 		"speed": 8
