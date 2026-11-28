@@ -80,7 +80,7 @@
 	"mirror": true
 	bullet: {
 		"type": "BulletType"
-		maxRange: 180
+		maxRange: 140
 }}
 {
 	"name": "eridanus-shotgun",

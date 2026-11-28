@@ -73,7 +73,7 @@
 				  status: sapped,
 				  statusDuration: 600,
 
-				  fragLifeMin: 0.3,
+				  fragLifeMin: 0.4,
 				  fragBullets: 10,
 
 				  fragBullet:{
@@ -81,7 +81,7 @@
 					  despawnSound: explosionArtilleryShock,
 					  hitEffect: sapExplosion,
 					  knockback: 1.8,
-					  lifetime: 90,
+					  lifetime: 60,
 					  speed: 2
 					  width: 20
 					  height: 20,
@@ -126,7 +126,7 @@
 			   bullet: {
 			   type: BulletType
 			   hitEffect: pointHit
-			   maxRange: 180
+			   maxRange: 120
 			   damage: 41
 			   },
 		}
@@ -153,7 +153,7 @@
 		   bullet: {
 			   type: BulletType
 			   hitEffect: pointHit
-			   maxRange: 180
+			   maxRange: 120
 			   damage: 60
 			   },
 		   }
