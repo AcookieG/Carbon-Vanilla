@@ -152,7 +152,7 @@ shoot: {
 		height: 18
 		"damage": 40,
 		splashDamageRadius: 70,
-		splashDamage: 80,
+		splashDamage: 40,
 		scaledSplashDamage: true
 		"lifetime": 80
 		"speed": 8
