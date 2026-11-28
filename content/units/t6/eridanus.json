@@ -55,11 +55,11 @@
 				"lightColor": 98ffa9
 				"flareColor": 98ffa9
 				"colors":[98ffa9,98ffa9,ffffff]
-				lightningSpacing: 30
+				lightningSpacing: 40
 				lightningColor: 98ffa9,
-				lightning: 12,
-				lightningLength: 7,
-				lightningLengthRand: 7
+				lightning: 8,
+				lightningLength: 8,
+				lightningLengthRand: 6
 				lightningDamage: 30
 				lightningAngleRand: 40
 				hitEffect: none
@@ -103,7 +103,7 @@
 	"bullet": {
 		type: ShrapnelBulletType
 		length: 100
-		damage: 140
+		damage: 80
 		width: 18
 		serrationLenScl: 4
 		serrationSpaceOffset: 30
@@ -189,7 +189,7 @@ shoot: {
 		"bullet": {
 			type: ShrapnelBulletType
 			length: 100
-			damage: 140
+			damage: 80
 			width: 18
 			serrationLenScl: 4
 			serrationSpaceOffset: 30
