@@ -162,7 +162,7 @@
 	   color: bf92f9
 	   "alternate": true,
 	   "rotate": true
-	   "reload": 60,
+	   "reload": 40,
 	   "recoil": 3,
 	   "rotationLimit": 361,
 	   "inaccuracy": 0,
