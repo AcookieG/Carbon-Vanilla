@@ -88,7 +88,7 @@
 	"alternate": true,
 	"rotate": true
 	"rotationLimit": 361,
-	"reload": 12,
+	"reload": 15,
 	"recoil": 5,
 	"inaccuracy": 0,
 	"shootSound": "shootToxopidShotgun"
@@ -104,7 +104,7 @@
 		range: 490
 		type: ShrapnelBulletType
 		length: 80
-		damage: 520
+		damage: 140
 		width: 18
 		serrationLenScl: 4
 		serrationSpaceOffset: 30
@@ -123,7 +123,7 @@ color: 98ffa9
 "alternate": true,
 "rotate": true
 "rotationLimit": 361,
-"reload": 12,
+"reload": 15,
 "recoil": 5,
 "inaccuracy": 15,
 "shootSound": "shootToxopidShotgun"
@@ -152,11 +152,11 @@ shoot: {
 		width: 10
 		height: 18
 		"damage": 130,
-		splashDamageRadius: 80,
-		splashDamage: 110,
+		splashDamageRadius: 70,
+		splashDamage: 80,
 		scaledSplashDamage: true
 		"lifetime": 80
-		"speed": 7
+		"speed": 6
 		"drag": 0.005
 		"hitGround": true
 		"collideAir": true
@@ -175,7 +175,7 @@ shoot: {
 	"alternate": true,
 	"rotate": true
 	"rotationLimit": 361,
-	"reload": 12,
+	"reload": 15,
 	"recoil": 5,
 	"inaccuracy": 0,
 	"shootSound": "shootToxopidShotgun"
@@ -191,7 +191,7 @@ shoot: {
 			range: 490
 			type: ShrapnelBulletType
 			length: 80
-			damage: 520
+			damage: 140
 			width: 18
 			serrationLenScl: 4
 			serrationSpaceOffset: 30
@@ -210,7 +210,7 @@ shoot: {
 	"alternate": true,
 	"rotate": true
 	"rotationLimit": 361,
-	"reload": 12,
+	"reload": 15,
 	"recoil": 5,
 	"inaccuracy": 15,
 	"shootSound": "shootToxopidShotgun"
@@ -239,11 +239,11 @@ shoot: {
 		width: 10
 		height: 18
 		"damage": 130,
-		splashDamageRadius: 80,
-		splashDamage: 110,
+		splashDamageRadius: 70,
+		splashDamage: 80,
 		scaledSplashDamage: true
 		"lifetime": 80
-		"speed": 7
+		"speed": 6
 		"drag": 0.005
 		"hitGround": true
 		"collideAir": true
