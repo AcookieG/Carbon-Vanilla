@@ -2,7 +2,7 @@
 	"type": "legs",
 	"name": "Toxin",
 	"health": 42500,
-	"armor": 32,
+	"armor": 28,
 	"rotateSpeed": 2,
 	"speed": 0.65,
 	"hitSize": 36,
@@ -51,8 +51,8 @@
 				  despawnSound: explosionArtilleryShockBig,
 				  hitEffect: sapExplosion,
 				  knockback: 1.8,
-				  lifetime: 70,
-				  speed: 5
+				  lifetime: 60,
+				  speed: 4
 				  width: 28
 				  height: 28,
 				  collidesTiles: true
