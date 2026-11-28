@@ -80,7 +80,7 @@
 	"mirror": true
 	bullet: {
 		"type": "BulletType"
-		maxRange: 140
+		maxRange: 100
 }}
 {
 	"name": "eridanus-shotgun",
@@ -101,9 +101,8 @@
 	"mirror": true
 	"rotateSpeed": 3,
 	"bullet": {
-		range: 490
 		type: ShrapnelBulletType
-		length: 80
+		length: 100
 		damage: 140
 		width: 18
 		serrationLenScl: 4
@@ -188,9 +187,8 @@ shoot: {
 		"mirror": true
 		"rotateSpeed": 3,
 		"bullet": {
-			range: 490
 			type: ShrapnelBulletType
-			length: 80
+			length: 100
 			damage: 140
 			width: 18
 			serrationLenScl: 4
@@ -261,7 +259,7 @@ shoot: {
 				 {
 	  type: mindustry.entities.abilities.RepairFieldAbility
 	  "healEffect": hitEmpSpark,
-	  range: 80
+	  range: 100
 	  amount: 300
 	  reload: 60
 	  }
